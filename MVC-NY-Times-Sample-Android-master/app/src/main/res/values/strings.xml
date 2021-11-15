@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MVC NY Times Sample</string>
+    <string name="app_item_detail_name">Article Details</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_github">Github</string>
+
+    <!-- Server response error message started-->
+    <string name="response_msg_server_down">Server Down Please try again later!</string>
+    <string name="response_msg_server_error">Server Response Error!</string>
+    <string name="action_search">Search</string>
+    <string name="githublink">https://github.com/tayyabtariq50</string>
+    <string name="no_internet_connection">No Internet Connection!</string>
+    <!-- Server response error message ended-->
+
+    <!-- Snack Alert started -->
+    <string name="dialog_ok_txt">Ok</string>
+    <string name="detail_empty">Item detail is empty!</string>
+    <!-- Snack Alert ended -->
+
+    <!-- custom progress started -->
+    <string name="progress_msg">Please wait...</string>
+    <!-- custom progress ended -->
+
+    <!-- no internet started-->
+    <string name="no_internet_connection_lay_first_txt">Whoops!</string>
+    <string name="no_internet_connection_lay_second_txt">No Internet connection found. Check \nyour connection or try again.</string>
+    <string name="retry">Retry</string>
+    <string name="default_drawer">Default Drawer</string>
+    <string name="defauld_drawer_without_modification">Default Drawer without modification</string>
+    <!-- no internet ended-->
+</resources>

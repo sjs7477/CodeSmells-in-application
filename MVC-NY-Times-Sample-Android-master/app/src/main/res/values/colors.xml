@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#47E2C0</color>
+    <color name="colorPrimaryDark">#339983</color>
+    <color name="colorAccent">#5591e3</color>
+    <color name="colorGreyText">#AAAAAA</color>
+    <color name="dividerColor">#9c888f92</color>
+    <color name="custom_progress_bg_color">#f5f6f7</color>
+
+    <!-- no internet colors -->
+    <color name="no_internet">#a7a7a7</color>
+    <color name="no_internet_txt">#546066</color>
+    <color name="white">#FFFFFF</color>
+    <!-- no internet colors -->
+
+</resources>
