@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<data>
+		<variable
+			name="view"
+			type="com.example.ui.StockDetailView" />
+		<variable
+			name="viewModel"
+			type="com.example.viewmodel.StockDetailRxViewModel" />
+	</data>
+
+	<org.alfonz.view.StatefulLayout
+		android:id="@+id/stock_detail_stateful_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:animateLayoutChanges="true"
+		app:progressLayout="@layout/placeholder_progress"
+		app:offlineLayout="@layout/placeholder_offline"
+		app:emptyLayout="@layout/placeholder_empty"
+		app:state="@{viewModel.state}">
+
+		<ScrollView
+			android:id="@+id/container_content"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:fillViewport="true"
+			android:background="@color/global_bg_front">
+
+			<include
+				layout="@layout/fragment_stock_detail_fundaments"
+				app:view="@{view}"
+				app:viewModel="@{viewModel}" />
+
+		</ScrollView>
+	</org.alfonz.view.StatefulLayout>
+
+</layout>

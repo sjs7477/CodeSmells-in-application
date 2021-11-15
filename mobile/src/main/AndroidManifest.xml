@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:installLocation="auto"
+	package="com.example">
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+	<application
+		android:name=".StocksApplication"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/Theme.Stocks.Light"
+		android:hardwareAccelerated="true"
+		android:allowBackup="true"
+		android:supportsRtl="true">
+
+		<activity
+			android:name=".activity.StockListActivity"
+			android:label="@string/app_name"
+			android:launchMode="standard">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity
+			android:name=".activity.StockDetailActivity"
+			android:label="@string/title_stock_detail"
+			android:launchMode="standard"
+			android:parentActivityName=".activity.StockListActivity">
+		</activity>
+
+		<activity
+			android:name=".activity.HelloWorldActivity"
+			android:label="@string/title_hello_world"
+			android:launchMode="standard"
+			android:parentActivityName=".activity.StockListActivity">
+		</activity>
+
+		<activity
+			android:name=".activity.StockPagerActivity"
+			android:label="@string/title_stock_pager"
+			android:launchMode="standard"
+			android:parentActivityName=".activity.StockListActivity">
+		</activity>
+
+	</application>
+</manifest>

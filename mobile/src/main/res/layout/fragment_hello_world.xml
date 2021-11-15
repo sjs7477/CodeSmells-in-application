@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<data>
+		<variable
+			name="view"
+			type="com.example.ui.HelloWorldView" />
+		<variable
+			name="viewModel"
+			type="com.example.viewmodel.HelloWorldViewModel" />
+	</data>
+
+	<org.alfonz.view.StatefulLayout
+		android:id="@+id/hello_world_stateful_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:animateLayoutChanges="true"
+		app:progressLayout="@layout/placeholder_progress"
+		app:offlineLayout="@layout/placeholder_offline"
+		app:emptyLayout="@layout/placeholder_empty"
+		app:state="@{viewModel.state}">
+
+		<ScrollView
+			android:id="@+id/container_content"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:fillViewport="true"
+			android:background="@color/global_bg_front">
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/hello_world_constraint_layout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="@dimen/global_keyline_16">
+
+				<TextView
+					android:id="@+id/hello_world_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textAppearance="@style/TextAppearance.Stocks.Body1"
+					android:text="@{viewModel.quote.name}"
+					android:onClick="@{() -> view.onClick()}"
+					app:layout_constraintBottom_toBottomOf="@+id/hello_world_constraint_layout"
+					app:layout_constraintLeft_toLeftOf="@+id/hello_world_constraint_layout"
+					app:layout_constraintRight_toRightOf="@+id/hello_world_constraint_layout"
+					app:layout_constraintTop_toTopOf="@+id/hello_world_constraint_layout"
+					tools:layout_constraintBottom_creator="1"
+					tools:layout_constraintLeft_creator="1"
+					tools:layout_constraintRight_creator="1"
+					tools:layout_constraintTop_creator="1"
+					tools:text="Hello World" />
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+		</ScrollView>
+	</org.alfonz.view.StatefulLayout>
+
+</layout>
