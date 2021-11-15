@@ -1,0 +1,20 @@
+<resources>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="forgot_password_label">Forgot Password</string>
+    <string name="password_hint">Your Password</string>
+    <string name="email_hint">Your email address</string>
+    <string name="user_id_label">User ID</string>
+    <string name="user_id_hint">Your User ID</string>
+    <string name="reset_password_instruction">We will send a link to your email for your reset password action.</string>
+    <string name="kirim_label">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permission_granted">Permission Granted!</string>
+    <string name="permission_denied">Permission Denied!</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+</resources>
