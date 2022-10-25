@@ -1,0 +1,6 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+CodeSmells-in-application-MVC-5,com.journaldev.navigationdrawer.activities,MainActivity,onCreate,Magic Number,The method contains a magic number: 3,50
+CodeSmells-in-application-MVC-5,com.journaldev.navigationdrawer.activities,MainActivity,onCreate,Magic Number,The method contains a magic number: 2,50
+CodeSmells-in-application-MVC-5,com.journaldev.navigationdrawer.activities,MainActivity,selectItem,Magic Number,The method contains a magic number: 2,91
+CodeSmells-in-application-MVC-5,com.journaldev.navigationdrawer.activities,MainActivity,selectItem,Missing default,The following switch statement is missing a default case: switch (position) {,91
+CodeSmells-in-application-MVC-5,com.journaldev.navigationdrawer.activities,MainActivity,setupDrawerToggle,Long Statement,The length of the statement "mDrawerToggle=new android.support.v7.app.ActionBarDrawerToggle(this`mDrawerLayout`toolbar`R.string.app_name`R.string.app_name);" is 127.,152

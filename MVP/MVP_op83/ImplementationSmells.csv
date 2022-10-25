@@ -1,0 +1,119 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+83_TuttiStore-master,com.apptutti.tuttistore,MainActivity,initView,Magic Number,The method contains a magic number: 2,54
+83_TuttiStore-master,com.apptutti.tuttistore,MainActivity,initView,Magic Number,The method contains a magic number: 4,54
+83_TuttiStore-master,com.apptutti.tuttistore,MainActivity,onCheckedChanged,Magic Number,The method contains a magic number: 2,70
+83_TuttiStore-master,com.apptutti.tuttistore,MainActivity,onBackPressed,Magic Number,The method contains a magic number: 2000,119
+83_TuttiStore-master,com.apptutti.tuttistore.adapter.discover,AppListAdapter,convert,Long Statement,The length of the statement "Glide.with(mContext).load(original_url + "?").centerCrop().diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.iv_error).dontAnimate().into((ImageView)holder.getView(R.id.iv_icon));" is 193.,24
+83_TuttiStore-master,com.apptutti.tuttistore.adapter.discover,RecListAdapter,convert,Long Statement,The length of the statement "Glide.with(mContext).load(item.getBanner().getOriginal_url() + "?").centerCrop().diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.iv_error).dontAnimate().transform(new CenterCrop(mContext)`new GlideRoundTransform(mContext`15)).into((ImageView)holder.getView(R.id.iv_icon));" is 288.,26
+83_TuttiStore-master,com.apptutti.tuttistore.adapter.discover,RecListAdapter,convert,Magic Number,The method contains a magic number: 15,26
+83_TuttiStore-master,com.apptutti.tuttistore.adapter.discover,UserListAdapter,convert,Long Statement,The length of the statement "Glide.with(mContext).load(new_url).centerCrop().diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.iv_error).dontAnimate().bitmapTransform(new CropCircleTransformation(mContext)).into((ImageView)holder.getView(R.id.iv_icon));" is 238.,28
+83_TuttiStore-master,com.apptutti.tuttistore.adapter.discover,UserListAdapter,convert,Long Statement,The length of the statement "Glide.with(mContext).load(item.getVerified().getUrl()).centerCrop().diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.iv_error).dontAnimate().into((ImageView)holder.getView(R.id.im_reason));" is 204.,28
+83_TuttiStore-master,com.apptutti.tuttistore.adapter,GameRecoAdapter,convert,Long Statement,The length of the statement "Glide.with(mContext).load(listBean.cover).centerCrop().diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.iv_error).dontAnimate().into((ImageView)holder.getView(R.id.iv_preview));" is 192.,29
+83_TuttiStore-master,com.apptutti.tuttistore.base,BaseFragment,getApplicationContext,Long Statement,The length of the statement "return this.mContext == null ? (getActivity() == null ? null : getActivity().getApplicationContext()) : this.mContext.getApplicationContext();" is 142.,238
+83_TuttiStore-master,com.apptutti.tuttistore.base,BaseRefreshActivity,complete,Magic Number,The method contains a magic number: 650,62
+83_TuttiStore-master,com.apptutti.tuttistore.base,BaseRefreshActivity,initDatas,Magic Number,The method contains a magic number: 650,87
+83_TuttiStore-master,com.apptutti.tuttistore.base,BaseRefreshFragment,complete,Magic Number,The method contains a magic number: 650,113
+83_TuttiStore-master,com.apptutti.tuttistore.bean.discover,MulDiscoveryBean,toString,Long Statement,The length of the statement "return "MulDiscoveryBean{" + "mItemType=" + mItemType + "` listdataBeanX="+ listdataBeanX+ "` dataBeanX="+ dataBeanX+ '}';" is 122.,38
+83_TuttiStore-master,com.apptutti.tuttistore.fragment,DiscoveryFragment,showRanking,Complex Method,Cyclomatic complexity of the method is 8,120
+83_TuttiStore-master,com.apptutti.tuttistore.fragment,DiscoveryFragment,onLoadMoreRequested,Magic Number,The method contains a magic number: 650,159
+83_TuttiStore-master,com.apptutti.tuttistore.fragment,GameRecoFragment,onLoadMoreRequested,Magic Number,The method contains a magic number: 650,131
+83_TuttiStore-master,com.apptutti.tuttistore.mvp.presenter,DiscoveryPresenter,getDiscoveryData,Long Statement,The length of the statement "BaseSubscriber<DiscoveryBean> subscriber=HttpMethods.getInstance().getDiscovery(discoveryService`page`pageSize).compose(RxUtils.<DiscoveryBean>rxSchedulerHelper()).subscribeWith(new BaseSubscriber<DiscoveryBean>(mView){" is 219.,33
+83_TuttiStore-master,com.apptutti.tuttistore.mvp.presenter,GameRecoPresenter,getGameRecoData,Long Statement,The length of the statement "BaseSubscriber<GameRecoBean> subscriber=HttpMethods.getInstance().getGameReco(gameRecoService`page`pageSize).compose(RxUtils.<GameRecoBean>rxSchedulerHelper()).subscribeWith(new BaseSubscriber<GameRecoBean>(mView){" is 214.,29
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,HttpMethods,createRetrofit,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(ApiConstants.API_BASE_URL).client(OkHttpHelper.getInstance().getOkHttpClient()).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build();" is 246.,32
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,OkHttpHelper,OkHttpHelper,Long Identifier,The length of the field DEFAULT_CONNECT_TIMEOUT_MILLIS is 30.,48
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,OkHttpHelper,OkHttpHelper,Long Identifier,The length of the field mRewriteCacheControlInterceptor is 31.,48
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,OkHttpHelper,OkHttpHelper,Long Statement,The length of the statement "mOkHttpClient=new OkHttpClient.Builder().readTimeout(DEFAULT_READ_TIMEOUT_MILLIS`TimeUnit.MILLISECONDS).writeTimeout(DEFAULT_WRITE_TIMEOUT_MILLIS`TimeUnit.MILLISECONDS).connectTimeout(DEFAULT_CONNECT_TIMEOUT_MILLIS`TimeUnit.MILLISECONDS).cache(getCache(mContext)).retryOnConnectionFailure(true).addNetworkInterceptor(mRewriteCacheControlInterceptor).addInterceptor(mRewriteCacheControlInterceptor).addInterceptor(loggingInterceptor).addInterceptor(new UserAgentInterceptor()).build();" is 484.,48
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,OkHttpHelper,setCache,Long Identifier,The length of the field HTTP_RESPONSE_DISK_CACHE_MAX_SIZE is 33.,88
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,OkHttpHelper,getCache,Long Identifier,The length of the field HTTP_RESPONSE_DISK_CACHE_MAX_SIZE is 33.,102
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,OkHttpHelper,intercept,Long Statement,The length of the statement "return originalResponse.newBuilder().header("Cache-Control"`"public` only-if-cached` max-stale=" + CACHE_STALE_LONG).removeHeader("Pragma").build();" is 148.,122
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,OkHttpHelper,intercept,Long Statement,The length of the statement "Request requestWithUserAgent=originalRequest.newBuilder().removeHeader("User-Agent").addHeader("User-Agent"`ApiConstants.COMMON_UA_STR).build();" is 144.,148
+83_TuttiStore-master,com.apptutti.tuttistore.network.helper,UserAgentInterceptor,intercept,Long Statement,The length of the statement "Request requestWithUserAgent=originalRequest.newBuilder().removeHeader("User-Agent").addHeader("User-Agent"`ApiConstants.COMMON_UA_STR).build();" is 144.,148
+83_TuttiStore-master,com.apptutti.tuttistore.utils,CrashHandler,uncaughtException,Magic Number,The method contains a magic number: 3000,63
+83_TuttiStore-master,com.apptutti.tuttistore.utils,LogUtils,log,Complex Conditional,The conditional expression 'e' == level && ('e' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,114
+83_TuttiStore-master,com.apptutti.tuttistore.utils,LogUtils,log,Complex Conditional,The conditional expression 'w' == level && ('w' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,114
+83_TuttiStore-master,com.apptutti.tuttistore.utils,LogUtils,log,Complex Conditional,The conditional expression 'd' == level && ('d' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,114
+83_TuttiStore-master,com.apptutti.tuttistore.utils,LogUtils,log,Complex Conditional,The conditional expression 'i' == level && ('d' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,114
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkService,onReceive,Magic Number,The method contains a magic number: 2,23
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkService,onReceive,Missing default,The following switch statement is missing a default case: switch (type) {,23
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkUtils,getConnectedType,Missing default,The following switch statement is missing a default case: switch (net.getType()) {,113
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkUtils,getNetworkType,Complex Method,Cyclomatic complexity of the method is 22,268
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkUtils,getNetworkType,Missing default,The following switch statement is missing a default case: switch (type) {,268
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkUtils,getNetworkType,Missing default,The following switch statement is missing a default case: switch (teleType) {,268
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkUtils,openSetting,Magic Number,The method contains a magic number: 10,358
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkUtils,onReceive,Magic Number,The method contains a magic number: 2,411
+83_TuttiStore-master,com.apptutti.tuttistore.utils,NetworkUtils,onReceive,Missing default,The following switch statement is missing a default case: switch (CURRENT_NETWORK_STATE) {,411
+83_TuttiStore-master,com.apptutti.tuttistore.utils,SnackbarUtils,showShort,Long Parameter List,The method has 7 parameters. ,52
+83_TuttiStore-master,com.apptutti.tuttistore.utils,SnackbarUtils,showLong,Long Parameter List,The method has 7 parameters. ,102
+83_TuttiStore-master,com.apptutti.tuttistore.utils,SnackbarUtils,showIndefinite,Long Parameter List,The method has 7 parameters. ,152
+83_TuttiStore-master,com.apptutti.tuttistore.utils,SnackbarUtils,show,Complex Conditional,The conditional expression actionText != null && actionText.length() > 0 && listener != null is complex.,180
+83_TuttiStore-master,com.apptutti.tuttistore.utils,SnackbarUtils,show,Long Parameter List,The method has 8 parameters. ,180
+83_TuttiStore-master,com.apptutti.tuttistore.utils,SnackbarUtils,addView,Long Statement,The length of the statement "LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT`LinearLayout.LayoutParams.WRAP_CONTENT);" is 142.,214
+83_TuttiStore-master,com.apptutti.tuttistore.utils.circle,GlideCircleTransform,circleCrop,Magic Number,The method contains a magic number: 2,25
+83_TuttiStore-master,com.apptutti.tuttistore.utils.circle,GlideCircleTransform,circleCrop,Magic Number,The method contains a magic number: 2,25
+83_TuttiStore-master,com.apptutti.tuttistore.utils.circle,GlideCircleTransform,circleCrop,Magic Number,The method contains a magic number: 2f,25
+83_TuttiStore-master,com.apptutti.tuttistore.utils.circle,GlideRoundTransform,GlideRoundTransform,Magic Number,The method contains a magic number: 6,22
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setupBounds,Long Statement,The length of the statement "circleBounds=new RectF(xOffset + barWidth`yOffset + barWidth`xOffset + circleDiameter - barWidth`yOffset + circleDiameter - barWidth);" is 134.,190
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setupBounds,Long Statement,The length of the statement "circleBounds=new RectF(paddingLeft + barWidth`paddingTop + barWidth`layout_width - paddingRight - barWidth`layout_height - paddingBottom - barWidth);" is 149.,190
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,190
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,190
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,190
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,190
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,parseAttributes,Magic Number,The method contains a magic number: 360.0f,219
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,parseAttributes,Magic Number,The method contains a magic number: 360,219
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Complex Method,Cyclomatic complexity of the method is 10,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 1000.0f,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360f,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 90,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 135,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 1000,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 2.0f,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 2.0f,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 90,274
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,updateBarLength,Magic Number,The method contains a magic number: 2,361
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,updateBarLength,Magic Number,The method contains a magic number: 0.5f,361
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 100,433
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 360.0f,433
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 100,433
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setInstantProgress,Magic Number,The method contains a magic number: 360.0f,440
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setInstantProgress,Magic Number,The method contains a magic number: 360.0f,440
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,getProgress,Magic Number,The method contains a magic number: 360.0f,516
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setProgress,Magic Number,The method contains a magic number: 360.0f,528
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setProgress,Magic Number,The method contains a magic number: 360.0f,528
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,getSpinSpeed,Magic Number,The method contains a magic number: 360.0f,654
+83_TuttiStore-master,com.apptutti.tuttistore.widge,ProgressWheel,setSpinSpeed,Magic Number,The method contains a magic number: 360.0f,663
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setColor,Magic Number,The method contains a magic number: 255,42
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setColorForSwipeBack,Magic Number,The method contains a magic number: 255,81
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setTranslucent,Magic Number,The method contains a magic number: 255,168
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setTranslucentForCoordinatorLayout,Magic Number,The method contains a magic number: 255,184
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setColorForDrawerLayout,Long Statement,The length of the statement "contentLayout.getChildAt(1).setPadding(contentLayout.getPaddingLeft()`getStatusBarHeight(activity) + contentLayout.getPaddingTop()`contentLayout.getPaddingRight()`contentLayout.getPaddingBottom());" is 197.,251
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setColorForDrawerLayout,Magic Number,The method contains a magic number: 255,251
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setTranslucentForDrawerLayout,Magic Number,The method contains a magic number: 255,350
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setTranslucentForImageView,Long Statement,The length of the statement "layoutParams.setMargins(layoutParams.leftMargin`layoutParams.topMargin + getStatusBarHeight(activity)`layoutParams.rightMargin`layoutParams.bottomMargin);" is 154.,436
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setTranslucentForImageView,Magic Number,The method contains a magic number: 255,436
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setTranslucentForImageViewInFragment,Magic Number,The method contains a magic number: 255,482
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,addTranslucentView,Magic Number,The method contains a magic number: 255,527
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,createStatusBarView,Long Statement,The length of the statement "LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`getStatusBarHeight(activity));" is 129.,557
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setTransparentForWindow,Long Statement,The length of the statement "activity.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);" is 133.,590
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,setTransparentForWindow,Long Statement,The length of the statement "activity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS`WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);" is 133.,590
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,createTranslucentStatusBarView,Long Statement,The length of the statement "LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`getStatusBarHeight(activity));" is 129.,620
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 255f,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 16,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 0xff,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 8,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 0xff,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 0xff,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 0.5,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 0.5,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 0.5,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 0xff,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 24,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 16,649
+83_TuttiStore-master,com.apptutti.tuttistore.widge.statusbar,StatusBarUtil,calculateStatusColor,Magic Number,The method contains a magic number: 8,649

@@ -1,0 +1,994 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+89_Untamed-master,com.facebook.android,AsyncFacebookRunner,request,Long Parameter List,The method has 5 parameters. ,234
+89_Untamed-master,com.facebook.android,Facebook,Facebook,Long Statement,The length of the statement "throw new IllegalArgumentException("You must specify your application ID when instantiating " + "a Facebook object. See README for details.");" is 142.,111
+89_Untamed-master,com.facebook.android,Facebook,authorize,Long Statement,The length of the statement "SessionLoginBehavior behavior=(activityCode >= 0) ? SessionLoginBehavior.SSO_WITH_FALLBACK : SessionLoginBehavior.SUPPRESS_SSO;" is 127.,152
+89_Untamed-master,com.facebook.android,Facebook,authorize,Long Identifier,The length of the field pendingAuthorizationPermissions is 31.,224
+89_Untamed-master,com.facebook.android,Facebook,authorize,Long Parameter List,The method has 5 parameters. ,224
+89_Untamed-master,com.facebook.android,Facebook,authorize,Long Statement,The length of the statement "pendingOpeningSession=new Session.Builder(activity).setApplicationId(mAppId).setTokenCachingStrategy(getTokenCache()).build();" is 126.,224
+89_Untamed-master,com.facebook.android,Facebook,authorize,Long Statement,The length of the statement "Session.OpenRequest openRequest=new Session.OpenRequest(activity).setCallback(callback).setLoginBehavior(behavior).setRequestCode(activityCode).setPermissions(Arrays.asList(pendingAuthorizationPermissions));" is 207.,224
+89_Untamed-master,com.facebook.android,Facebook,onSessionCallback,Complex Conditional,The conditional expression (exception instanceof FacebookAuthorizationException) && (extras != null) && extras.containsKey(Session.WEB_VIEW_ERROR_CODE_KEY)&& extras.containsKey(Session.WEB_VIEW_FAILING_URL_KEY) is complex.,325
+89_Untamed-master,com.facebook.android,Facebook,onSessionCallback,Long Statement,The length of the statement "else if ((exception instanceof FacebookAuthorizationException) && (extras != null) && extras.containsKey(Session.WEB_VIEW_ERROR_CODE_KEY)&& extras.containsKey(Session.WEB_VIEW_FAILING_URL_KEY)) {" is 195.,325
+89_Untamed-master,com.facebook.android,Facebook,onSessionCallback,Long Statement,The length of the statement "DialogError error=new DialogError(exception.getMessage()`extras.getInt(Session.WEB_VIEW_ERROR_CODE_KEY)`extras.getString(Session.WEB_VIEW_FAILING_URL_KEY));" is 156.,325
+89_Untamed-master,com.facebook.android,Facebook,authorizeCallback,Long Identifier,The length of the field pendingAuthorizationPermissions is 31.,406
+89_Untamed-master,com.facebook.android,Facebook,shouldExtendAccessToken,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,491
+89_Untamed-master,com.facebook.android,Facebook,shouldExtendAccessToken,Long Statement,The length of the statement "return isSessionValid() && (System.currentTimeMillis() - lastAccessUpdateMillisecondsAfterEpoch >= REFRESH_TOKEN_BARRIER);" is 122.,491
+89_Untamed-master,com.facebook.android,Facebook,onServiceDisconnected,Empty catch clause,The method has an empty catch block.,531
+89_Untamed-master,com.facebook.android,Facebook,handleMessage,Magic Number,The method contains a magic number: 1000L,574
+89_Untamed-master,com.facebook.android,Facebook,logoutImpl,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,649
+89_Untamed-master,com.facebook.android,Facebook,logoutImpl,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,649
+89_Untamed-master,com.facebook.android,Facebook,request,Long Statement,The length of the statement "throw new IllegalArgumentException("API method must be specified. " + "(parameters must contain key \"method\" and value). See" + " http://developers.facebook.com/docs/reference/rest/");" is 186.,675
+89_Untamed-master,com.facebook.android,Facebook,getSession,Complex Method,Cyclomatic complexity of the method is 11,912
+89_Untamed-master,com.facebook.android,Facebook,getSession,Long Identifier,The length of the field pendingAuthorizationPermissions is 31.,912
+89_Untamed-master,com.facebook.android,Facebook,getSession,Long Statement,The length of the statement "Session newSession=new Session.Builder(pendingAuthorizationActivity).setApplicationId(mAppId).setTokenCachingStrategy(getTokenCache()).build();" is 143.,912
+89_Untamed-master,com.facebook.android,Facebook,getAccessExpires,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,1001
+89_Untamed-master,com.facebook.android,Facebook,getLastAccessUpdate,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1017
+89_Untamed-master,com.facebook.android,Facebook,setTokenFromCache,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,1028
+89_Untamed-master,com.facebook.android,Facebook,setTokenFromCache,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1028
+89_Untamed-master,com.facebook.android,Facebook,setAccessToken,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1049
+89_Untamed-master,com.facebook.android,Facebook,setAccessExpires,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,1067
+89_Untamed-master,com.facebook.android,Facebook,setAccessExpires,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1067
+89_Untamed-master,com.facebook.android,Facebook,setAccessExpiresIn,Long Statement,The length of the statement "long expires=expiresInSecsFromNow.equals("0") ? 0 : System.currentTimeMillis() + Long.parseLong(expiresInSecsFromNow) * 1000L;" is 126.,1086
+89_Untamed-master,com.facebook.android,Facebook,setAccessExpiresIn,Magic Number,The method contains a magic number: 1000L,1086
+89_Untamed-master,com.facebook.android,Facebook,load,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,1161
+89_Untamed-master,com.facebook.android,Facebook,load,Long Identifier,The length of the field pendingAuthorizationPermissions is 31.,1161
+89_Untamed-master,com.facebook.android,Facebook,load,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1161
+89_Untamed-master,com.facebook.android,Facebook,save,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,1176
+89_Untamed-master,com.facebook.android,Facebook,save,Long Identifier,The length of the field pendingAuthorizationPermissions is 31.,1176
+89_Untamed-master,com.facebook.android,Facebook,save,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1176
+89_Untamed-master,com.facebook.android,TokenRefreshServiceConnection,onServiceDisconnected,Empty catch clause,The method has an empty catch block.,531
+89_Untamed-master,com.facebook.android,TokenRefreshConnectionHandler,handleMessage,Magic Number,The method contains a magic number: 1000L,574
+89_Untamed-master,com.facebook.android,FbDialog,FbDialog,Long Parameter List,The method has 5 parameters. ,48
+89_Untamed-master,com.facebook.android,FbDialog,callDialogListener,Long Statement,The length of the statement "DialogError dialogError=new DialogError(facebookDialogException.getMessage()`facebookDialogException.getErrorCode()`facebookDialogException.getFailingUrl());" is 157.,64
+89_Untamed-master,com.facebook.android,Util,decodeUrl,Empty catch clause,The method has an empty catch block.,96
+89_Untamed-master,com.facebook.android,Util,decodeUrl,Magic Number,The method contains a magic number: 2,96
+89_Untamed-master,com.facebook.android,Util,openUrl,Complex Method,Cyclomatic complexity of the method is 9,140
+89_Untamed-master,com.facebook.android,Util,read,Magic Number,The method contains a magic number: 1000,232
+89_Untamed-master,com.facebook.android,Util,parseJson,Complex Method,Cyclomatic complexity of the method is 8,243
+89_Untamed-master,com.facebook,AccessToken,AccessToken,Long Parameter List,The method has 6 parameters. ,60
+89_Untamed-master,com.facebook,AccessToken,createFromExistingAccessToken,Long Parameter List,The method has 5 parameters. ,137
+89_Untamed-master,com.facebook,AccessToken,createEmptyToken,Long Identifier,The length of the field ALREADY_EXPIRED_EXPIRATION_TIME is 31.,199
+89_Untamed-master,com.facebook,AccessToken,createFromRefresh,Complex Conditional,The conditional expression current.source != AccessTokenSource.FACEBOOK_APPLICATION_WEB && current.source != AccessTokenSource.FACEBOOK_APPLICATION_NATIVE && current.source != AccessTokenSource.FACEBOOK_APPLICATION_SERVICE is complex.,235
+89_Untamed-master,com.facebook,AccessToken,createFromRefresh,Long Statement,The length of the statement "if (current.source != AccessTokenSource.FACEBOOK_APPLICATION_WEB && current.source != AccessTokenSource.FACEBOOK_APPLICATION_NATIVE && current.source != AccessTokenSource.FACEBOOK_APPLICATION_SERVICE) {" is 202.,235
+89_Untamed-master,com.facebook,AccessToken,createNew,Long Parameter List,The method has 5 parameters. ,258
+89_Untamed-master,com.facebook,AccessToken,createFromCache,Long Statement,The length of the statement "return new AccessToken(bundle.getString(TokenCachingStrategy.TOKEN_KEY)`TokenCachingStrategy.getDate(bundle`TokenCachingStrategy.EXPIRATION_DATE_KEY)`permissions`declinedPermissions`TokenCachingStrategy.getSource(bundle)`TokenCachingStrategy.getDate(bundle`TokenCachingStrategy.LAST_REFRESH_DATE_KEY));" is 302.,270
+89_Untamed-master,com.facebook,AccessToken,SerializationProxyV1,Long Parameter List,The method has 5 parameters. ,351
+89_Untamed-master,com.facebook,AccessToken,SerializationProxyV2,Long Parameter List,The method has 6 parameters. ,374
+89_Untamed-master,com.facebook,AccessToken,getBundleLongAsDate,Magic Number,The method contains a magic number: 1000L,400
+89_Untamed-master,com.facebook,SerializationProxyV1,SerializationProxyV1,Long Parameter List,The method has 5 parameters. ,351
+89_Untamed-master,com.facebook,SerializationProxyV2,SerializationProxyV2,Long Parameter List,The method has 6 parameters. ,374
+89_Untamed-master,com.facebook,AppEventsLogger,activateApp,Long Statement,The length of the statement "Log.d(AppEventsLogger.class.getName()`"To set source application the context of activateApp must be an instance of Activity");" is 126.,263
+89_Untamed-master,com.facebook,AppEventsLogger,AppEventsLogger,Complex Conditional,The conditional expression session != null && (applicationId == null || applicationId.equals(session.getApplicationId())) is complex.,611
+89_Untamed-master,com.facebook,AppEventsLogger,initializeTimersIfNeeded,Long Identifier,The length of the field APP_SUPPORTS_ATTRIBUTION_ID_RECHECK_PERIOD_IN_SECONDS is 53.,650
+89_Untamed-master,com.facebook,AppEventsLogger,initializeTimersIfNeeded,Long Statement,The length of the statement "backgroundExecutor.scheduleAtFixedRate(attributionRecheckRunnable`0`APP_SUPPORTS_ATTRIBUTION_ID_RECHECK_PERIOD_IN_SECONDS`TimeUnit.SECONDS);" is 140.,650
+89_Untamed-master,com.facebook,AppEventsLogger,flushIfNecessary,Long Identifier,The length of the field NUM_LOG_EVENTS_TO_TRY_TO_FLUSH_AFTER is 36.,721
+89_Untamed-master,com.facebook,AppEventsLogger,flushAndWait,Long Identifier,The length of the field APP_EVENTS_EXTRA_NUM_EVENTS_FLUSHED is 35.,781
+89_Untamed-master,com.facebook,AppEventsLogger,buildRequestForSession,Long Statement,The length of the statement "int numEvents=sessionEventsState.populateRequest(postRequest`fetchedAppSettings.supportsImplicitLogging()`fetchedAppSettings.supportsAttribution()`limitEventUsage);" is 164.,853
+89_Untamed-master,com.facebook,AppEventsLogger,handleResponse,Long Parameter List,The method has 5 parameters. ,896
+89_Untamed-master,com.facebook,AppEventsLogger,handleResponse,Long Statement,The length of the statement "Logger.log(LoggingBehavior.APP_EVENTS`TAG`"Flush completed\nParams: %s\n Result: %s\n Events JSON: %s"`request.getGraphObject().toString()`resultDescription`prettyPrintedEvents);" is 178.,896
+89_Untamed-master,com.facebook,AppEventsLogger,handleResponse,Magic Number,The method contains a magic number: 2,896
+89_Untamed-master,com.facebook,AppEventsLogger,setSourceApplication,Long Identifier,The length of the field SOURCE_APPLICATION_HAS_BEEN_SET_BY_THIS_INTENT is 46.,976
+89_Untamed-master,com.facebook,AppEventsLogger,addEvent,Long Identifier,The length of the field numSkippedEventsDueToFullBuffer is 31.,1073
+89_Untamed-master,com.facebook,AppEventsLogger,clearInFlightAndStats,Long Identifier,The length of the field numSkippedEventsDueToFullBuffer is 31.,1085
+89_Untamed-master,com.facebook,AppEventsLogger,populateRequest,Long Identifier,The length of the field numSkippedEventsDueToFullBuffer is 31.,1093
+89_Untamed-master,com.facebook,AppEventsLogger,populateRequest,Empty catch clause,The method has an empty catch block.,1136
+89_Untamed-master,com.facebook,AppEventsLogger,populateRequest,Long Identifier,The length of the field numSkippedEventsDueToFullBuffer is 31.,1136
+89_Untamed-master,com.facebook,AppEventsLogger,populateRequest,Long Parameter List,The method has 5 parameters. ,1136
+89_Untamed-master,com.facebook,AppEventsLogger,AppEvent,Complex Method,Cyclomatic complexity of the method is 8,1196
+89_Untamed-master,com.facebook,AppEventsLogger,AppEvent,Long Parameter List,The method has 5 parameters. ,1196
+89_Untamed-master,com.facebook,AppEventsLogger,AppEvent,Long Statement,The length of the statement "throw new FacebookException(String.format("Parameter value '%s' for key '%s' should be a string or a numeric type."`value`key));" is 128.,1196
+89_Untamed-master,com.facebook,AppEventsLogger,AppEvent,Magic Number,The method contains a magic number: 1000,1196
+89_Untamed-master,com.facebook,AppEventsLogger,validateIdentifier,Complex Conditional,The conditional expression identifier == null || identifier.length() == 0 || identifier.length() > MAX_IDENTIFIER_LENGTH is complex.,1283
+89_Untamed-master,com.facebook,AppEventsLogger,validateIdentifier,Long Statement,The length of the statement "throw new FacebookException(String.format("Identifier '%s' must be less than %d characters"`identifier`MAX_IDENTIFIER_LENGTH));" is 127.,1283
+89_Untamed-master,com.facebook,AppEventsLogger,validateIdentifier,Long Statement,The length of the statement "throw new FacebookException(String.format("Skipping event named '%s' due to illegal name - must be under 40 chars " + "and alphanumeric` _` - or space` and not start with a space or hyphen."`identifier));" is 204.,1283
+89_Untamed-master,com.facebook,AppEventsLogger,validateIdentifier,Magic Number,The method contains a magic number: 40,1283
+89_Untamed-master,com.facebook,AppEventsLogger,toString,Long Statement,The length of the statement "return String.format("\"%s\"` implicit: %b` json: %s"`jsonObject.optString("_eventName")`isImplicit`jsonObject.toString());" is 123.,1339
+89_Untamed-master,com.facebook,AppEventsLogger,restoreAppSessionInformation,Empty catch clause,The method has an empty catch block.,1362
+89_Untamed-master,com.facebook,AppEventsLogger,restoreAppSessionInformation,Long Identifier,The length of the field PERSISTED_SESSION_INFO_FILENAME is 31.,1362
+89_Untamed-master,com.facebook,AppEventsLogger,saveAppSessionInformation,Long Identifier,The length of the field PERSISTED_SESSION_INFO_FILENAME is 31.,1398
+89_Untamed-master,com.facebook,AppEventsLogger,saveAppSessionInformation,Long Statement,The length of the statement "oos=new ObjectOutputStream(new BufferedOutputStream(context.openFileOutput(PERSISTED_SESSION_INFO_FILENAME`Context.MODE_PRIVATE)));" is 131.,1398
+89_Untamed-master,com.facebook,AppEventsLogger,onResume,Long Parameter List,The method has 5 parameters. ,1423
+89_Untamed-master,com.facebook,AppEventsLogger,onTimeSpentDataUpdate,Long Identifier,The length of the field FLUSH_APP_SESSION_INFO_IN_SECONDS is 33.,1466
+89_Untamed-master,com.facebook,AppEventsLogger,readAndClearStore,Empty catch clause,The method has an empty catch block.,1552
+89_Untamed-master,com.facebook,AppEventsLogger,readAndClearStore,Long Statement,The length of the statement "@SuppressWarnings("unchecked") HashMap<AccessTokenAppIdPair`List<AppEvent>> obj=(HashMap<AccessTokenAppIdPair`List<AppEvent>>)ois.readObject();" is 143.,1552
+89_Untamed-master,com.facebook,SessionEventsState,addEvent,Long Identifier,The length of the field numSkippedEventsDueToFullBuffer is 31.,1073
+89_Untamed-master,com.facebook,SessionEventsState,clearInFlightAndStats,Long Identifier,The length of the field numSkippedEventsDueToFullBuffer is 31.,1085
+89_Untamed-master,com.facebook,SessionEventsState,populateRequest,Long Identifier,The length of the field numSkippedEventsDueToFullBuffer is 31.,1093
+89_Untamed-master,com.facebook,SessionEventsState,populateRequest,Empty catch clause,The method has an empty catch block.,1136
+89_Untamed-master,com.facebook,SessionEventsState,populateRequest,Long Identifier,The length of the field numSkippedEventsDueToFullBuffer is 31.,1136
+89_Untamed-master,com.facebook,SessionEventsState,populateRequest,Long Parameter List,The method has 5 parameters. ,1136
+89_Untamed-master,com.facebook,AppEvent,AppEvent,Complex Method,Cyclomatic complexity of the method is 8,1196
+89_Untamed-master,com.facebook,AppEvent,AppEvent,Long Parameter List,The method has 5 parameters. ,1196
+89_Untamed-master,com.facebook,AppEvent,AppEvent,Long Statement,The length of the statement "throw new FacebookException(String.format("Parameter value '%s' for key '%s' should be a string or a numeric type."`value`key));" is 128.,1196
+89_Untamed-master,com.facebook,AppEvent,AppEvent,Magic Number,The method contains a magic number: 1000,1196
+89_Untamed-master,com.facebook,AppEvent,validateIdentifier,Complex Conditional,The conditional expression identifier == null || identifier.length() == 0 || identifier.length() > MAX_IDENTIFIER_LENGTH is complex.,1283
+89_Untamed-master,com.facebook,AppEvent,validateIdentifier,Long Statement,The length of the statement "throw new FacebookException(String.format("Identifier '%s' must be less than %d characters"`identifier`MAX_IDENTIFIER_LENGTH));" is 127.,1283
+89_Untamed-master,com.facebook,AppEvent,validateIdentifier,Long Statement,The length of the statement "throw new FacebookException(String.format("Skipping event named '%s' due to illegal name - must be under 40 chars " + "and alphanumeric` _` - or space` and not start with a space or hyphen."`identifier));" is 204.,1283
+89_Untamed-master,com.facebook,AppEvent,validateIdentifier,Magic Number,The method contains a magic number: 40,1283
+89_Untamed-master,com.facebook,AppEvent,toString,Long Statement,The length of the statement "return String.format("\"%s\"` implicit: %b` json: %s"`jsonObject.optString("_eventName")`isImplicit`jsonObject.toString());" is 123.,1339
+89_Untamed-master,com.facebook,PersistedAppSessionInfo,restoreAppSessionInformation,Empty catch clause,The method has an empty catch block.,1362
+89_Untamed-master,com.facebook,PersistedAppSessionInfo,restoreAppSessionInformation,Long Identifier,The length of the field PERSISTED_SESSION_INFO_FILENAME is 31.,1362
+89_Untamed-master,com.facebook,PersistedAppSessionInfo,saveAppSessionInformation,Long Identifier,The length of the field PERSISTED_SESSION_INFO_FILENAME is 31.,1398
+89_Untamed-master,com.facebook,PersistedAppSessionInfo,saveAppSessionInformation,Long Statement,The length of the statement "oos=new ObjectOutputStream(new BufferedOutputStream(context.openFileOutput(PERSISTED_SESSION_INFO_FILENAME`Context.MODE_PRIVATE)));" is 131.,1398
+89_Untamed-master,com.facebook,PersistedAppSessionInfo,onResume,Long Parameter List,The method has 5 parameters. ,1423
+89_Untamed-master,com.facebook,PersistedEvents,readAndClearStore,Empty catch clause,The method has an empty catch block.,1552
+89_Untamed-master,com.facebook,PersistedEvents,readAndClearStore,Long Statement,The length of the statement "@SuppressWarnings("unchecked") HashMap<AccessTokenAppIdPair`List<AppEvent>> obj=(HashMap<AccessTokenAppIdPair`List<AppEvent>>)ois.readObject();" is 143.,1552
+89_Untamed-master,com.facebook,AppLinkData,fetchDeferredAppLinkFromServer,Complex Method,Cyclomatic complexity of the method is 12,126
+89_Untamed-master,com.facebook,AppLinkData,fetchDeferredAppLinkFromServer,Long Identifier,The length of the field DEFERRED_APP_LINK_CLICK_TIME_FIELD is 34.,126
+89_Untamed-master,com.facebook,AppLinkData,fetchDeferredAppLinkFromServer,Long Statement,The length of the statement "Utility.setAppEventAttributionParameters(deferredApplinkParams`AttributionIdentifiers.getAttributionIdentifiers(context)`Utility.getHashedDeviceAndAppID(context`applicationId)`Settings.getLimitEventAndDataUsage(context));" is 221.,126
+89_Untamed-master,com.facebook,AppLinkData,toBundle,Complex Method,Cyclomatic complexity of the method is 9,308
+89_Untamed-master,com.facebook,AuthorizationClient,tryNextHandler,Long Identifier,The length of the field EVENT_PARAM_METHOD_RESULT_SKIPPED is 33.,220
+89_Untamed-master,com.facebook,AuthorizationClient,tryNextHandler,Long Statement,The length of the statement "logAuthorizationMethodComplete(currentHandler.getNameForLogging()`EVENT_PARAM_METHOD_RESULT_SKIPPED`null`null`currentHandler.methodLoggingExtras);" is 146.,220
+89_Untamed-master,com.facebook,AuthorizationClient,tryCurrentHandler,Long Identifier,The length of the field EVENT_EXTRAS_MISSING_INTERNET_PERMISSION is 40.,256
+89_Untamed-master,com.facebook,AuthorizationClient,createReauthValidationBatch,Complex Conditional,The conditional expression fbids.size() == 2 && fbids.get(0) != null && fbids.get(1) != null && fbids.get(0).equals(fbids.get(1)) is complex.,357
+89_Untamed-master,com.facebook,AuthorizationClient,createReauthValidationBatch,Empty catch clause,The method has an empty catch block.,357
+89_Untamed-master,com.facebook,AuthorizationClient,createReauthValidationBatch,Empty catch clause,The method has an empty catch block.,357
+89_Untamed-master,com.facebook,AuthorizationClient,createReauthValidationBatch,Long Identifier,The length of the identifier requestCurrentTokenPermissions is 30.,357
+89_Untamed-master,com.facebook,AuthorizationClient,createReauthValidationBatch,Long Statement,The length of the statement "AccessToken tokenWithPermissions=AccessToken.createFromTokenWithRefreshedPermissions(pendingResult.token`grantedPermissions`declinedPermissions);" is 145.,357
+89_Untamed-master,com.facebook,AuthorizationClient,createReauthValidationBatch,Magic Number,The method contains a magic number: 2,357
+89_Untamed-master,com.facebook,AuthorizationClient,onCompleted,Empty catch clause,The method has an empty catch block.,368
+89_Untamed-master,com.facebook,AuthorizationClient,onCompleted,Empty catch clause,The method has an empty catch block.,389
+89_Untamed-master,com.facebook,AuthorizationClient,onBatchCompleted,Complex Conditional,The conditional expression fbids.size() == 2 && fbids.get(0) != null && fbids.get(1) != null && fbids.get(0).equals(fbids.get(1)) is complex.,406
+89_Untamed-master,com.facebook,AuthorizationClient,onBatchCompleted,Long Statement,The length of the statement "AccessToken tokenWithPermissions=AccessToken.createFromTokenWithRefreshedPermissions(pendingResult.token`grantedPermissions`declinedPermissions);" is 145.,406
+89_Untamed-master,com.facebook,AuthorizationClient,onBatchCompleted,Magic Number,The method contains a magic number: 2,406
+89_Untamed-master,com.facebook,AuthorizationClient,logAuthorizationMethodComplete,Long Identifier,The length of the field EVENT_NAME_LOGIN_METHOD_COMPLETE is 32.,484
+89_Untamed-master,com.facebook,AuthorizationClient,logAuthorizationMethodComplete,Long Parameter List,The method has 5 parameters. ,484
+89_Untamed-master,com.facebook,AuthorizationClient,logAuthorizationMethodComplete,Long Statement,The length of the statement "bundle.putString(EVENT_PARAM_ERROR_MESSAGE`"Unexpected call to logAuthorizationMethodComplete with null pendingRequest.");" is 122.,484
+89_Untamed-master,com.facebook,AuthorizationClient,tryAuthorize,Long Statement,The length of the statement "WebDialog.Builder builder=new AuthDialogBuilder(getStartActivityDelegate().getActivityContext()`applicationId`parameters).setE2E(e2e).setIsRerequest(request.isRerequest()).setOnCompleteListener(listener);" is 204.,593
+89_Untamed-master,com.facebook,AuthorizationClient,saveCookieToken,Long Identifier,The length of the field WEB_VIEW_AUTH_HANDLER_TOKEN_KEY is 31.,682
+89_Untamed-master,com.facebook,AuthorizationClient,saveCookieToken,Long Statement,The length of the statement "context.getSharedPreferences(WEB_VIEW_AUTH_HANDLER_STORE`Context.MODE_PRIVATE).edit().putString(WEB_VIEW_AUTH_HANDLER_TOKEN_KEY`token).apply();" is 143.,682
+89_Untamed-master,com.facebook,AuthorizationClient,loadCookieToken,Long Identifier,The length of the field WEB_VIEW_AUTH_HANDLER_TOKEN_KEY is 31.,692
+89_Untamed-master,com.facebook,AuthorizationClient,getTokenCompleted,Complex Conditional,The conditional expression (currentPermissions != null) && ((permissions == null) || currentPermissions.containsAll(permissions)) is complex.,744
+89_Untamed-master,com.facebook,AuthorizationClient,tryAuthorize,Long Statement,The length of the statement "Intent intent=NativeProtocol.createProxyAuthIntent(context`request.getApplicationId()`request.getPermissions()`e2e`request.isRerequest()`request.getDefaultAudience());" is 167.,810
+89_Untamed-master,com.facebook,AuthorizationClient,handleResultOk,Complex Conditional,The conditional expression error == null && errorCode == null && errorMessage == null is complex.,847
+89_Untamed-master,com.facebook,AuthorizationClient,handleResultOk,Long Statement,The length of the statement "AccessToken token=AccessToken.createFromWebBundle(pendingRequest.getPermissions()`extras`AccessTokenSource.FACEBOOK_APPLICATION_WEB);" is 133.,847
+89_Untamed-master,com.facebook,AuthorizationClient,getE2E,Empty catch clause,The method has an empty catch block.,878
+89_Untamed-master,com.facebook,AuthorizationClient,AuthorizationRequest,Long Parameter List,The method has 9 parameters. ,950
+89_Untamed-master,com.facebook,AuthorizationClient,Result,Long Parameter List,The method has 5 parameters. ,1049
+89_Untamed-master,com.facebook,WebViewAuthHandler,tryAuthorize,Long Statement,The length of the statement "WebDialog.Builder builder=new AuthDialogBuilder(getStartActivityDelegate().getActivityContext()`applicationId`parameters).setE2E(e2e).setIsRerequest(request.isRerequest()).setOnCompleteListener(listener);" is 204.,593
+89_Untamed-master,com.facebook,WebViewAuthHandler,saveCookieToken,Long Statement,The length of the statement "context.getSharedPreferences(WEB_VIEW_AUTH_HANDLER_STORE`Context.MODE_PRIVATE).edit().putString(WEB_VIEW_AUTH_HANDLER_TOKEN_KEY`token).apply();" is 143.,682
+89_Untamed-master,com.facebook,GetTokenAuthHandler,getTokenCompleted,Complex Conditional,The conditional expression (currentPermissions != null) && ((permissions == null) || currentPermissions.containsAll(permissions)) is complex.,744
+89_Untamed-master,com.facebook,KatanaProxyAuthHandler,tryAuthorize,Long Statement,The length of the statement "Intent intent=NativeProtocol.createProxyAuthIntent(context`request.getApplicationId()`request.getPermissions()`e2e`request.isRerequest()`request.getDefaultAudience());" is 167.,810
+89_Untamed-master,com.facebook,KatanaProxyAuthHandler,handleResultOk,Complex Conditional,The conditional expression error == null && errorCode == null && errorMessage == null is complex.,847
+89_Untamed-master,com.facebook,KatanaProxyAuthHandler,handleResultOk,Long Statement,The length of the statement "AccessToken token=AccessToken.createFromWebBundle(pendingRequest.getPermissions()`extras`AccessTokenSource.FACEBOOK_APPLICATION_WEB);" is 133.,847
+89_Untamed-master,com.facebook,AuthorizationRequest,AuthorizationRequest,Long Parameter List,The method has 9 parameters. ,950
+89_Untamed-master,com.facebook,Result,Result,Long Parameter List,The method has 5 parameters. ,1049
+89_Untamed-master,com.facebook,BoltsMeasurementEventListener,open,Long Identifier,The length of the field MEASUREMENT_EVENT_NOTIFICATION_NAME is 35.,24
+89_Untamed-master,com.facebook,BoltsMeasurementEventListener,onReceive,Long Identifier,The length of the field BOLTS_MEASUREMENT_EVENT_PREFIX is 30.,51
+89_Untamed-master,com.facebook,FacebookAppLinkResolver,getAppLinkFromUrlsInBackground,Complex Method,Cyclomatic complexity of the method is 11,72
+89_Untamed-master,com.facebook,FacebookAppLinkResolver,getAppLinkFromUrlsInBackground,Long Statement,The length of the statement "appLinkRequestParameters.putString("fields"`String.format("%s.fields(%s`%s)"`APP_LINK_KEY`APP_LINK_ANDROID_TARGET_KEY`APP_LINK_WEB_TARGET_KEY));" is 144.,72
+89_Untamed-master,com.facebook,FacebookAppLinkResolver,getWebFallbackUriFromJson,Long Identifier,The length of the field APP_LINK_TARGET_SHOULD_FALLBACK_KEY is 35.,199
+89_Untamed-master,com.facebook,FacebookRequestError,FacebookRequestError,Complex Method,Cyclomatic complexity of the method is 13,113
+89_Untamed-master,com.facebook,FacebookRequestError,FacebookRequestError,Long Parameter List,The method has 13 parameters. ,113
+89_Untamed-master,com.facebook,FacebookRequestError,FacebookRequestError,Long Parameter List,The method has 12 parameters. ,192
+89_Untamed-master,com.facebook,FacebookRequestError,FacebookRequestError,Long Statement,The length of the statement "this(requestStatusCode`errorCode`subErrorCode`errorType`errorMessage`errorUserTitle`errorUserMessage`errorIsTransient`requestResultBody`requestResult`batchRequestResult`connection`null);" is 186.,192
+89_Untamed-master,com.facebook,FacebookRequestError,FacebookRequestError,Long Statement,The length of the statement "this(INVALID_HTTP_STATUS_CODE`INVALID_ERROR_CODE`INVALID_ERROR_CODE`null`null`null`null`false`null`null`null`connection`(exception instanceof FacebookException) ? (FacebookException)exception : new FacebookException(exception));" is 228.,200
+89_Untamed-master,com.facebook,FacebookRequestError,FacebookRequestError,Long Statement,The length of the statement "this(INVALID_HTTP_STATUS_CODE`errorCode`INVALID_ERROR_CODE`errorType`errorMessage`null`null`false`null`null`null`null`null);" is 124.,207
+89_Untamed-master,com.facebook,FacebookRequestError,toString,Long Statement,The length of the statement "return new StringBuilder("{HttpStatus: ").append(requestStatusCode).append("` errorCode: ").append(errorCode).append("` errorType: ").append(errorType).append("` errorMessage: ").append(getErrorMessage()).append("}").toString();" is 228.,377
+89_Untamed-master,com.facebook,FacebookRequestError,checkResponseAndCreateError,Complex Conditional,The conditional expression jsonBody.has(ERROR_CODE_KEY) || jsonBody.has(ERROR_MSG_KEY) || jsonBody.has(ERROR_REASON_KEY) is complex.,391
+89_Untamed-master,com.facebook,FacebookRequestError,checkResponseAndCreateError,Empty catch clause,The method has an empty catch block.,391
+89_Untamed-master,com.facebook,FacebookRequestError,checkResponseAndCreateError,Long Statement,The length of the statement "return new FacebookRequestError(responseCode`errorCode`errorSubCode`errorType`errorMessage`errorUserTitle`errorUserMessage`errorIsTransient`jsonBody`singleResult`batchResult`connection);" is 186.,391
+89_Untamed-master,com.facebook,FacebookRequestError,checkResponseAndCreateError,Long Statement,The length of the statement "return new FacebookRequestError(responseCode`INVALID_ERROR_CODE`INVALID_ERROR_CODE`null`null`null`null`false`singleResult.has(BODY_KEY) ? (JSONObject)Utility.getStringPropertyAsJSON(singleResult`BODY_KEY`Response.NON_JSON_RESPONSE_PROPERTY) : null`singleResult`batchResult`connection);" is 285.,391
+89_Untamed-master,com.facebook,FacebookServiceException,toString,Long Statement,The length of the statement "return new StringBuilder().append("{FacebookServiceException: ").append("httpResponseCode: ").append(error.getRequestStatusCode()).append("` facebookErrorCode: ").append(error.getErrorCode()).append("` facebookErrorType: ").append(error.getErrorType()).append("` message: ").append(error.getErrorMessage()).append("}").toString();" is 330.,47
+89_Untamed-master,com.facebook,FacebookTimeSpentData,SerializationProxyV2,Long Parameter List,The method has 5 parameters. ,124
+89_Untamed-master,com.facebook,FacebookTimeSpentData,readResolve,Long Statement,The length of the statement "return new FacebookTimeSpentData(lastResumeTime`lastSuspendTime`millisecondsSpentInSession`interruptionCount`firstOpenSourceApplication);" is 137.,139
+89_Untamed-master,com.facebook,FacebookTimeSpentData,FacebookTimeSpentData,Long Parameter List,The method has 5 parameters. ,153
+89_Untamed-master,com.facebook,FacebookTimeSpentData,writeReplace,Long Statement,The length of the statement "return new SerializationProxyV2(lastResumeTime`lastSuspendTime`millisecondsSpentInSession`interruptionCount`firstOpenSourceApplication);" is 136.,171
+89_Untamed-master,com.facebook,FacebookTimeSpentData,onResume,Long Identifier,The length of the field APP_ACTIVATE_SUPPRESSION_PERIOD_IN_MILLISECONDS is 47.,198
+89_Untamed-master,com.facebook,FacebookTimeSpentData,onResume,Long Identifier,The length of the field NUM_MILLISECONDS_IDLE_TO_BE_NEW_SESSION is 39.,198
+89_Untamed-master,com.facebook,FacebookTimeSpentData,onResume,Long Identifier,The length of the field INTERRUPTION_THRESHOLD_MILLISECONDS is 35.,198
+89_Untamed-master,com.facebook,FacebookTimeSpentData,logAppDeactivatedEvent,Long Statement,The length of the statement "eventParams.putString(AppEventsConstants.EVENT_NAME_TIME_BETWEEN_SESSIONS`String.format("session_quanta_%d"`getQuantaIndex(interruptionDurationMillis)));" is 153.,249
+89_Untamed-master,com.facebook,FacebookTimeSpentData,logAppDeactivatedEvent,Long Statement,The length of the statement "logger.logEvent(AppEventsConstants.EVENT_NAME_DEACTIVATED_APP`(millisecondsSpentInSession / DateUtils.SECOND_IN_MILLIS)`eventParams);" is 133.,249
+89_Untamed-master,com.facebook,SerializationProxyV2,SerializationProxyV2,Long Parameter List,The method has 5 parameters. ,124
+89_Untamed-master,com.facebook,SerializationProxyV2,readResolve,Long Statement,The length of the statement "return new FacebookTimeSpentData(lastResumeTime`lastSuspendTime`millisecondsSpentInSession`interruptionCount`firstOpenSourceApplication);" is 137.,139
+89_Untamed-master,com.facebook,GetTokenClient,GetTokenClient,Long Statement,The length of the statement "super(context`NativeProtocol.MESSAGE_GET_ACCESS_TOKEN_REQUEST`NativeProtocol.MESSAGE_GET_ACCESS_TOKEN_REPLY`NativeProtocol.PROTOCOL_VERSION_20121101`applicationId);" is 164.,27
+89_Untamed-master,com.facebook,InsightsLogger,logConversionPixel,Long Identifier,The length of the field EVENT_NAME_LOG_CONVERSION_PIXEL is 31.,77
+89_Untamed-master,com.facebook,NativeAppCallAttachmentStore,addAttachmentsForCall,Magic Number,The method contains a magic number: 100,49
+89_Untamed-master,com.facebook,NativeAppCallAttachmentStore,processAttachment,Magic Number,The method contains a magic number: 100,66
+89_Untamed-master,com.facebook,NativeAppCallAttachmentStore,addAttachmentFilesForCall,Magic Number,The method contains a magic number: 1024,78
+89_Untamed-master,com.facebook,NativeAppCallAttachmentStore,processAttachment,Magic Number,The method contains a magic number: 1024,95
+89_Untamed-master,com.facebook,NativeAppCallAttachmentStore,addAttachments,Empty catch clause,The method has an empty catch block.,115
+89_Untamed-master,com.facebook,NativeAppCallContentProvider,query,Long Parameter List,The method has 5 parameters. ,79
+89_Untamed-master,com.facebook,Request,Request,Long Parameter List,The method has 5 parameters. ,173
+89_Untamed-master,com.facebook,Request,Request,Long Parameter List,The method has 6 parameters. ,197
+89_Untamed-master,com.facebook,Request,newPlacesSearchRequest,Long Parameter List,The method has 6 parameters. ,378
+89_Untamed-master,com.facebook,Request,newPlacesSearchRequest,Magic Number,The method contains a magic number: 5,378
+89_Untamed-master,com.facebook,Request,newStatusUpdateRequest,Long Parameter List,The method has 5 parameters. ,445
+89_Untamed-master,com.facebook,Request,newStatusUpdateRequest,Long Parameter List,The method has 5 parameters. ,478
+89_Untamed-master,com.facebook,Request,newCustomAudienceThirdPartyIdRequest,Complex Method,Cyclomatic complexity of the method is 9,542
+89_Untamed-master,com.facebook,Request,newCustomAudienceThirdPartyIdRequest,Long Statement,The length of the statement "String udid=attributionIdentifiers.getAttributionId() != null ? attributionIdentifiers.getAttributionId() : attributionIdentifiers.getAndroidAdvertiserId();" is 156.,542
+89_Untamed-master,com.facebook,Request,newPostOpenGraphObjectRequest,Long Parameter List,The method has 8 parameters. ,699
+89_Untamed-master,com.facebook,Request,newPostOpenGraphObjectRequest,Long Statement,The length of the statement "OpenGraphObject openGraphObject=OpenGraphObject.Factory.createForPost(OpenGraphObject.class`type`title`imageUrl`url`description);" is 129.,699
+89_Untamed-master,com.facebook,Request,newUpdateOpenGraphObjectRequest,Long Parameter List,The method has 8 parameters. ,798
+89_Untamed-master,com.facebook,Request,newUpdateOpenGraphObjectRequest,Long Statement,The length of the statement "OpenGraphObject openGraphObject=OpenGraphObject.Factory.createForPost(OpenGraphObject.class`null`title`imageUrl`url`description);" is 129.,798
+89_Untamed-master,com.facebook,Request,executePlacesSearchRequestAsync,Long Parameter List,The method has 6 parameters. ,1205
+89_Untamed-master,com.facebook,Request,toString,Long Statement,The length of the statement "return new StringBuilder().append("{Request: ").append(" session: ").append(session).append("` graphPath: ").append(graphPath).append("` graphObject: ").append(graphObject).append("` httpMethod: ").append(httpMethod).append("` parameters: ").append(parameters).append("}").toString();" is 284.,1637
+89_Untamed-master,com.facebook,Request,appendParametersToBaseUrl,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Unsupported parameter type for GET request: %s"`value.getClass().getSimpleName()));" is 133.,1724
+89_Untamed-master,com.facebook,Request,getUrlForSingleRequest,Complex Conditional,The conditional expression this.getHttpMethod() == HttpMethod.POST && graphPath != null && graphPath.endsWith(VIDEOS_SUFFIX) is complex.,1761
+89_Untamed-master,com.facebook,Request,serializeToBatch,Complex Method,Cyclomatic complexity of the method is 8,1804
+89_Untamed-master,com.facebook,Request,serializeToBatch,Long Identifier,The length of the field BATCH_ENTRY_OMIT_RESPONSE_ON_SUCCESS_PARAM is 42.,1804
+89_Untamed-master,com.facebook,Request,processRequest,Complex Method,Cyclomatic complexity of the method is 9,1931
+89_Untamed-master,com.facebook,Request,processRequest,Long Parameter List,The method has 5 parameters. ,1931
+89_Untamed-master,com.facebook,Request,processRequest,Long Statement,The length of the statement "throw new FacebookException("At least one request in a batch must have an open Session` or a " + "default app ID must be specified.");" is 134.,1931
+89_Untamed-master,com.facebook,Request,processGraphObject,Magic Number,The method contains a magic number: 3,1993
+89_Untamed-master,com.facebook,Request,processGraphObjectProperty,Complex Conditional,The conditional expression String.class.isAssignableFrom(valueClass) || Number.class.isAssignableFrom(valueClass) || Boolean.class.isAssignableFrom(valueClass) is complex.,2015
+89_Untamed-master,com.facebook,Request,processGraphObjectProperty,Complex Method,Cyclomatic complexity of the method is 13,2015
+89_Untamed-master,com.facebook,Request,processGraphObjectProperty,Long Statement,The length of the statement "else if (String.class.isAssignableFrom(valueClass) || Number.class.isAssignableFrom(valueClass) || Boolean.class.isAssignableFrom(valueClass)) {" is 144.,2015
+89_Untamed-master,com.facebook,Request,isSupportedAttachmentType,Long Statement,The length of the statement "return value instanceof Bitmap || value instanceof byte[] || value instanceof ParcelFileDescriptor|| value instanceof ParcelFileDescriptorWithMimeType;" is 151.,2145
+89_Untamed-master,com.facebook,Request,writeBitmap,Magic Number,The method contains a magic number: 100,2237
+89_Untamed-master,com.facebook,Request,writeFile,Magic Number,The method contains a magic number: 8192,2262
+89_Untamed-master,com.facebook,Serializer,writeBitmap,Magic Number,The method contains a magic number: 100,2237
+89_Untamed-master,com.facebook,Serializer,writeFile,Magic Number,The method contains a magic number: 8192,2262
+89_Untamed-master,com.facebook,RequestAsyncTask,toString,Long Statement,The length of the statement "return new StringBuilder().append("{RequestAsyncTask: ").append(" connection: ").append(connection).append("` requests: ").append(requests).append("}").toString();" is 163.,134
+89_Untamed-master,com.facebook,RequestAsyncTask,executeOnSettingsExecutor,Empty catch clause,The method has an empty catch block.,173
+89_Untamed-master,com.facebook,RequestAsyncTask,executeOnSettingsExecutor,Empty catch clause,The method has an empty catch block.,173
+89_Untamed-master,com.facebook,Response,Response,Long Parameter List,The method has 5 parameters. ,71
+89_Untamed-master,com.facebook,Response,Response,Long Parameter List,The method has 5 parameters. ,75
+89_Untamed-master,com.facebook,Response,Response,Long Parameter List,The method has 7 parameters. ,84
+89_Untamed-master,com.facebook,Response,toString,Long Statement,The length of the statement "return new StringBuilder().append("{Response: ").append(" responseCode: ").append(responseCode).append("` graphObject: ").append(graphObject).append("` error: ").append(error).append("` isFromCache:").append(isFromCache).append("}").toString();" is 244.,236
+89_Untamed-master,com.facebook,Response,toString,Magic Number,The method contains a magic number: 200,236
+89_Untamed-master,com.facebook,Response,fromHttpConnection,Complex Conditional,The conditional expression !cacheableRequestBatch.getForceRoundTrip() && cache != null && !Utility.isNullOrEmpty(cacheKey) is complex.,274
+89_Untamed-master,com.facebook,Response,fromHttpConnection,Complex Conditional,The conditional expression (cache != null) && (cacheKey != null) && (stream != null) is complex.,274
+89_Untamed-master,com.facebook,Response,fromHttpConnection,Complex Method,Cyclomatic complexity of the method is 9,274
+89_Untamed-master,com.facebook,Response,fromHttpConnection,Empty catch clause,The method has an empty catch block.,274
+89_Untamed-master,com.facebook,Response,fromHttpConnection,Empty catch clause,The method has an empty catch block.,274
+89_Untamed-master,com.facebook,Response,fromHttpConnection,Empty catch clause,The method has an empty catch block.,274
+89_Untamed-master,com.facebook,Response,fromHttpConnection,Long Statement,The length of the statement "Logger.log(LoggingBehavior.REQUESTS`RESPONSE_CACHE_TAG`"Not using cache for cacheable request because no key was specified");" is 125.,274
+89_Untamed-master,com.facebook,Response,fromHttpConnection,Magic Number,The method contains a magic number: 400,274
+89_Untamed-master,com.facebook,Response,createResponsesFromStream,Long Statement,The length of the statement "Logger.log(LoggingBehavior.INCLUDE_RAW_RESPONSES`RESPONSE_LOG_TAG`"Response (raw)\n Size: %d\n Response:\n%s\n"`responseString.length()`responseString);" is 152.,342
+89_Untamed-master,com.facebook,Response,createResponsesFromString,Long Statement,The length of the statement "Logger.log(LoggingBehavior.REQUESTS`RESPONSE_LOG_TAG`"Response\n Id: %s\n Size: %d\n Responses:\n%s\n"`requests.getId()`responseString.length()`responses);" is 155.,353
+89_Untamed-master,com.facebook,Response,createResponsesFromObject,Magic Number,The method contains a magic number: 200,365
+89_Untamed-master,com.facebook,Response,createResponseFromObject,Complex Method,Cyclomatic complexity of the method is 8,418
+89_Untamed-master,com.facebook,Response,createResponseFromObject,Long Identifier,The length of the field INVALID_SESSION_FACEBOOK_ERROR_CODE is 35.,418
+89_Untamed-master,com.facebook,Response,createResponseFromObject,Long Parameter List,The method has 5 parameters. ,418
+89_Untamed-master,com.facebook,Session,SerializationProxyV1,Long Parameter List,The method has 6 parameters. ,172
+89_Untamed-master,com.facebook,Session,readResolve,Long Statement,The length of the statement "return new Session(applicationId`state`tokenInfo`lastAttemptedTokenExtendDate`shouldAutoPublish`pendingAuthorizationRequest);" is 125.,183
+89_Untamed-master,com.facebook,Session,SerializationProxyV2,Long Parameter List,The method has 7 parameters. ,206
+89_Untamed-master,com.facebook,Session,readResolve,Long Statement,The length of the statement "return new Session(applicationId`state`tokenInfo`lastAttemptedTokenExtendDate`shouldAutoPublish`pendingAuthorizationRequest`requestedPermissions);" is 146.,219
+89_Untamed-master,com.facebook,Session,Session,Long Parameter List,The method has 6 parameters. ,225
+89_Untamed-master,com.facebook,Session,Session,Long Parameter List,The method has 7 parameters. ,242
+89_Untamed-master,com.facebook,Session,refreshPermissions,Long Statement,The length of the statement "tokenInfo=AccessToken.createFromTokenWithRefreshedPermissions(tokenInfo`permissionsPair.getGrantedPermissions()`permissionsPair.getDeclinedPermissions());" is 154.,598
+89_Untamed-master,com.facebook,Session,onCompleted,Long Statement,The length of the statement "tokenInfo=AccessToken.createFromTokenWithRefreshedPermissions(tokenInfo`permissionsPair.getGrantedPermissions()`permissionsPair.getDeclinedPermissions());" is 154.,611
+89_Untamed-master,com.facebook,Session,handlePermissionResponse,Complex Method,Cyclomatic complexity of the method is 12,647
+89_Untamed-master,com.facebook,Session,close,Complex Method,Cyclomatic complexity of the method is 8,763
+89_Untamed-master,com.facebook,Session,toString,Long Statement,The length of the statement "return new StringBuilder().append("{Session").append(" state:").append(this.state).append("` token:").append((this.tokenInfo == null) ? "null" : this.tokenInfo).append("` appId:").append((this.applicationId == null) ? "null" : this.applicationId).append("}").toString();" is 270.,830
+89_Untamed-master,com.facebook,Session,extendTokenCompleted,Missing default,The following switch statement is missing a default case: switch (this.state) {,837
+89_Untamed-master,com.facebook,Session,writeReplace,Long Statement,The length of the statement "return new SerializationProxyV1(applicationId`state`tokenInfo`lastAttemptedTokenExtendDate`false`pendingAuthorizationRequest);" is 126.,860
+89_Untamed-master,com.facebook,Session,saveSession,Complex Conditional,The conditional expression bundle != null && session != null && !bundle.containsKey(SESSION_BUNDLE_SAVE_KEY) is complex.,870
+89_Untamed-master,com.facebook,Session,openActiveSession,Long Statement,The length of the statement "return openActiveSession(activity`allowLoginUI`new OpenRequest(activity).setCallback(callback).setPermissions(permissions));" is 124.,1020
+89_Untamed-master,com.facebook,Session,openActiveSession,Long Parameter List,The method has 5 parameters. ,1070
+89_Untamed-master,com.facebook,Session,openActiveSession,Long Statement,The length of the statement "return openActiveSession(context`allowLoginUI`new OpenRequest(fragment).setCallback(callback).setPermissions(permissions));" is 123.,1070
+89_Untamed-master,com.facebook,Session,authorize,Long Statement,The length of the statement "pendingAuthorizationRequest.loggingExtras.put(AuthorizationClient.EVENT_EXTRAS_TRY_LOGIN_ACTIVITY`started ? AppEventsConstants.EVENT_PARAM_VALUE_YES : AppEventsConstants.EVENT_PARAM_VALUE_NO);" is 192.,1150
+89_Untamed-master,com.facebook,Session,authorize,Long Statement,The length of the statement "pendingAuthorizationRequest.loggingExtras.put(AuthorizationClient.EVENT_EXTRAS_TRY_LEGACY`AppEventsConstants.EVENT_PARAM_VALUE_YES);" is 132.,1150
+89_Untamed-master,com.facebook,Session,authorize,Long Statement,The length of the statement "Exception exception=new FacebookException("Log in attempt failed: LoginActivity could not be started` and not legacy request");" is 127.,1150
+89_Untamed-master,com.facebook,Session,authorize,Missing default,The following switch statement is missing a default case: switch (this.state) {,1150
+89_Untamed-master,com.facebook,Session,open,Complex Method,Cyclomatic complexity of the method is 10,1193
+89_Untamed-master,com.facebook,Session,open,Long Statement,The length of the statement "postStateChange(state`state`new UnsupportedOperationException("Session: an attempt was made to open a session that has a pending request."));" is 141.,1193
+89_Untamed-master,com.facebook,Session,open,Missing default,The following switch statement is missing a default case: switch (this.state) {,1193
+89_Untamed-master,com.facebook,Session,requestNewPermissions,Long Statement,The length of the statement "throw new UnsupportedOperationException("Session: an attempt was made to request new permissions for a session that has a pending request.");" is 141.,1241
+89_Untamed-master,com.facebook,Session,requestNewPermissions,Long Statement,The length of the statement "throw new UnsupportedOperationException("Session: an attempt was made to request new permissions for a session that has been closed.");" is 135.,1241
+89_Untamed-master,com.facebook,Session,requestNewPermissions,Long Statement,The length of the statement "throw new UnsupportedOperationException("Session: an attempt was made to request new permissions for a session that is not currently open.");" is 141.,1241
+89_Untamed-master,com.facebook,Session,validateLoginBehavior,Long Statement,The length of the statement "throw new FacebookException(String.format("Cannot use SessionLoginBehavior %s when %s is not declared as an activity in AndroidManifest.xml"`request.getLoginBehavior()`LoginActivity.class.getName()));" is 200.,1268
+89_Untamed-master,com.facebook,Session,validatePermissions,Long Statement,The length of the statement "throw new FacebookException(String.format("Cannot pass a publish or manage permission (%s) to a request for read authorization"`permission));" is 141.,1280
+89_Untamed-master,com.facebook,Session,validatePermissions,Long Statement,The length of the statement "Log.w(TAG`String.format("Should not pass a read permission (%s) to a request for publish or manage authorization"`permission));" is 127.,1280
+89_Untamed-master,com.facebook,Session,isPublishPermission,Long Statement,The length of the statement "return permission != null && (permission.startsWith(PUBLISH_PERMISSION_PREFIX) || permission.startsWith(MANAGE_PERMISSION_PREFIX) || OTHER_PUBLISH_PERMISSIONS.contains(permission));" is 181.,1306
+89_Untamed-master,com.facebook,Session,logAuthorizationStart,Empty catch clause,The method has an empty catch block.,1333
+89_Untamed-master,com.facebook,Session,logAuthorizationComplete,Complex Method,Cyclomatic complexity of the method is 9,1356
+89_Untamed-master,com.facebook,Session,logAuthorizationComplete,Empty catch clause,The method has an empty catch block.,1356
+89_Untamed-master,com.facebook,Session,logAuthorizationComplete,Long Statement,The length of the statement "bundle.putString(AuthorizationClient.EVENT_PARAM_ERROR_MESSAGE`"Unexpected call to logAuthorizationComplete with null pendingAuthorizationRequest.");" is 149.,1356
+89_Untamed-master,com.facebook,Session,finishAuthOrReauth,Complex Method,Cyclomatic complexity of the method is 9,1456
+89_Untamed-master,com.facebook,Session,postStateChange,Complex Conditional,The conditional expression (oldState == newState) && (oldState != SessionState.OPENED_TOKEN_UPDATED) && (exception == null) is complex.,1521
+89_Untamed-master,com.facebook,Session,shouldExtendAccessToken,Complex Conditional,The conditional expression state.isOpened() && tokenInfo.getSource().canExtendToken() && now.getTime() - lastAttemptedTokenExtendDate.getTime() > TOKEN_EXTEND_RETRY_SECONDS * 1000 && now.getTime() - tokenInfo.getLastRefresh().getTime() > TOKEN_EXTEND_THRESHOLD_SECONDS * 1000 is complex.,1601
+89_Untamed-master,com.facebook,Session,shouldExtendAccessToken,Long Identifier,The length of the field TOKEN_EXTEND_THRESHOLD_SECONDS is 30.,1601
+89_Untamed-master,com.facebook,Session,shouldExtendAccessToken,Long Statement,The length of the statement "if (state.isOpened() && tokenInfo.getSource().canExtendToken() && now.getTime() - lastAttemptedTokenExtendDate.getTime() > TOKEN_EXTEND_RETRY_SECONDS * 1000 && now.getTime() - tokenInfo.getLastRefresh().getTime() > TOKEN_EXTEND_THRESHOLD_SECONDS * 1000) {" is 255.,1601
+89_Untamed-master,com.facebook,Session,shouldExtendAccessToken,Magic Number,The method contains a magic number: 1000,1601
+89_Untamed-master,com.facebook,Session,shouldExtendAccessToken,Magic Number,The method contains a magic number: 1000,1601
+89_Untamed-master,com.facebook,Session,onServiceDisconnected,Empty catch clause,The method has an empty catch block.,1671
+89_Untamed-master,com.facebook,Session,equals,Long Statement,The length of the statement "return areEqual(other.applicationId`applicationId) && areEqual(other.authorizationBundle`authorizationBundle) && areEqual(other.state`state)&& areEqual(other.getExpirationDate()`getExpirationDate());" is 199.,1756
+89_Untamed-master,com.facebook,Session,AuthorizationRequest,Long Parameter List,The method has 7 parameters. ,1930
+89_Untamed-master,com.facebook,Session,getAuthorizationClientRequest,Long Statement,The length of the statement "return new AuthorizationClient.AuthorizationRequest(loginBehavior`requestCode`isLegacy`permissions`defaultAudience`applicationId`validateSameFbidAsToken`delegate`authId);" is 170.,2052
+89_Untamed-master,com.facebook,Session,writeReplace,Long Statement,The length of the statement "return new AuthRequestSerializationProxyV1(loginBehavior`requestCode`permissions`defaultAudience.name()`isLegacy`applicationId`validateSameFbidAsToken);" is 152.,2069
+89_Untamed-master,com.facebook,Session,AuthRequestSerializationProxyV1,Long Parameter List,The method has 7 parameters. ,2090
+89_Untamed-master,com.facebook,Session,readResolve,Long Statement,The length of the statement "return new AuthorizationRequest(loginBehavior`requestCode`permissions`defaultAudience`isLegacy`applicationId`validateSameFbidAsToken);" is 134.,2102
+89_Untamed-master,com.facebook,SerializationProxyV1,SerializationProxyV1,Long Parameter List,The method has 6 parameters. ,172
+89_Untamed-master,com.facebook,SerializationProxyV1,readResolve,Long Statement,The length of the statement "return new Session(applicationId`state`tokenInfo`lastAttemptedTokenExtendDate`shouldAutoPublish`pendingAuthorizationRequest);" is 125.,183
+89_Untamed-master,com.facebook,SerializationProxyV2,SerializationProxyV2,Long Parameter List,The method has 7 parameters. ,206
+89_Untamed-master,com.facebook,SerializationProxyV2,readResolve,Long Statement,The length of the statement "return new Session(applicationId`state`tokenInfo`lastAttemptedTokenExtendDate`shouldAutoPublish`pendingAuthorizationRequest`requestedPermissions);" is 146.,219
+89_Untamed-master,com.facebook,TokenRefreshRequest,onServiceDisconnected,Empty catch clause,The method has an empty catch block.,1671
+89_Untamed-master,com.facebook,AuthorizationRequest,AuthorizationRequest,Long Parameter List,The method has 7 parameters. ,1930
+89_Untamed-master,com.facebook,AuthorizationRequest,getAuthorizationClientRequest,Long Statement,The length of the statement "return new AuthorizationClient.AuthorizationRequest(loginBehavior`requestCode`isLegacy`permissions`defaultAudience`applicationId`validateSameFbidAsToken`delegate`authId);" is 170.,2052
+89_Untamed-master,com.facebook,AuthorizationRequest,writeReplace,Long Statement,The length of the statement "return new AuthRequestSerializationProxyV1(loginBehavior`requestCode`permissions`defaultAudience.name()`isLegacy`applicationId`validateSameFbidAsToken);" is 152.,2069
+89_Untamed-master,com.facebook,AuthorizationRequest,AuthRequestSerializationProxyV1,Long Parameter List,The method has 7 parameters. ,2090
+89_Untamed-master,com.facebook,AuthorizationRequest,readResolve,Long Statement,The length of the statement "return new AuthorizationRequest(loginBehavior`requestCode`permissions`defaultAudience`isLegacy`applicationId`validateSameFbidAsToken);" is 134.,2102
+89_Untamed-master,com.facebook,AuthRequestSerializationProxyV1,AuthRequestSerializationProxyV1,Long Parameter List,The method has 7 parameters. ,2090
+89_Untamed-master,com.facebook,AuthRequestSerializationProxyV1,readResolve,Long Statement,The length of the statement "return new AuthorizationRequest(loginBehavior`requestCode`permissions`defaultAudience`isLegacy`applicationId`validateSameFbidAsToken);" is 134.,2102
+89_Untamed-master,com.facebook,Settings,getExecutor,Long Statement,The length of the statement "executor=new ThreadPoolExecutor(DEFAULT_CORE_POOL_SIZE`DEFAULT_MAXIMUM_POOL_SIZE`DEFAULT_KEEP_ALIVE`TimeUnit.SECONDS`DEFAULT_WORK_QUEUE`DEFAULT_THREAD_FACTORY);" is 160.,233
+89_Untamed-master,com.facebook,Settings,publishInstallAndWaitForResponse,Complex Conditional,The conditional expression identifiers == null || (identifiers.getAndroidAdvertiserId() == null && identifiers.getAttributionId() == null) is complex.,365
+89_Untamed-master,com.facebook,Settings,publishInstallAndWaitForResponse,Complex Method,Cyclomatic complexity of the method is 9,365
+89_Untamed-master,com.facebook,Settings,publishInstallAndWaitForResponse,Empty catch clause,The method has an empty catch block.,365
+89_Untamed-master,com.facebook,Settings,publishInstallAndWaitForResponse,Long Statement,The length of the statement "Utility.setAppEventAttributionParameters(publishParams`identifiers`Utility.getHashedDeviceAndAppID(context`applicationId)`getLimitEventAndDataUsage(context));" is 158.,365
+89_Untamed-master,com.facebook,Settings,publishInstallAndWaitForResponse,Long Statement,The length of the statement "else if (identifiers == null || (identifiers.getAndroidAdvertiserId() == null && identifiers.getAttributionId() == null)) {" is 123.,365
+89_Untamed-master,com.facebook,Settings,setLimitEventAndDataUsage,Long Statement,The length of the statement "context.getSharedPreferences(APP_EVENT_PREFERENCES`Context.MODE_PRIVATE).edit().putBoolean("limitEventUsage"`limitEventUsage).apply();" is 134.,504
+89_Untamed-master,com.facebook,SharedPreferencesTokenCachingStrategy,serializeKey,Complex Method,Cyclomatic complexity of the method is 32,176
+89_Untamed-master,com.facebook,SharedPreferencesTokenCachingStrategy,serializeKey,Long Method,The method has 119 lines of code.,176
+89_Untamed-master,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Complex Method,Cyclomatic complexity of the method is 31,290
+89_Untamed-master,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Empty catch clause,The method has an empty catch block.,290
+89_Untamed-master,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Empty catch clause,The method has an empty catch block.,290
+89_Untamed-master,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Long Method,The method has 124 lines of code.,290
+89_Untamed-master,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Long Statement,The length of the statement "@SuppressWarnings({"unchecked"`"rawtypes"}) Class<? extends Enum> enumClass=(Class<? extends Enum>)Class.forName(enumType);" is 123.,290
+89_Untamed-master,com.facebook,TestSession,TestSession,Long Parameter List,The method has 5 parameters. ,83
+89_Untamed-master,com.facebook,TestSession,retrieveTestAccountsForAppIfNeeded,Magic Number,The method contains a magic number: 2,227
+89_Untamed-master,com.facebook,TestSession,toString,Long Statement,The length of the statement "return new StringBuilder().append("{TestSession").append(" testUserId:").append(testAccountId).append(" ").append(superString).append("}").toString();" is 150.,293
+89_Untamed-master,com.facebook,TestSession,postStateChange,Complex Conditional,The conditional expression newState.isClosed() && id != null && mode == Mode.PRIVATE is complex.,310
+89_Untamed-master,com.facebook,TestSession,forceExtendAccessToken,Long Statement,The length of the statement "setTokenInfo(new AccessToken(currentToken.getToken()`new Date()`currentToken.getPermissions()`currentToken.getDeclinedPermissions()`AccessTokenSource.TEST_USER`new Date(0)));" is 174.,326
+89_Untamed-master,com.facebook,TestSession,finishAuthWithTestAccount,Long Statement,The length of the statement "AccessToken accessToken=AccessToken.createFromString(testAccount.getAccessToken()`requestedPermissions`AccessTokenSource.TEST_USER);" is 132.,364
+89_Untamed-master,com.facebook,TestSession,deleteTestAccount,Long Statement,The length of the statement "else if (graphObject.getProperty(Response.NON_JSON_RESPONSE_PROPERTY) == (Boolean)false || graphObject.getProperty(Response.SUCCESS_KEY) == (Boolean)false) {" is 157.,411
+89_Untamed-master,com.facebook,TestSession,getSharedTestAccountIdentifier,Magic Number,The method contains a magic number: 0xffffffffL,432
+89_Untamed-master,com.facebook,TestSession,getSharedTestAccountIdentifier,Magic Number,The method contains a magic number: 0xffffffffL,432
+89_Untamed-master,com.facebook,TestSession,validNameStringFromInteger,Magic Number,The method contains a magic number: 10,441
+89_Untamed-master,com.facebook,UiLifecycleHelper,UiLifecycleHelper,Long Identifier,The length of the field pendingFacebookDialogCallStore is 30.,63
+89_Untamed-master,com.facebook,UiLifecycleHelper,onCreate,Long Identifier,The length of the field pendingFacebookDialogCallStore is 30.,85
+89_Untamed-master,com.facebook,UiLifecycleHelper,onSaveInstanceState,Long Identifier,The length of the field pendingFacebookDialogCallStore is 30.,168
+89_Untamed-master,com.facebook,UiLifecycleHelper,trackPendingDialogCall,Long Identifier,The length of the field pendingFacebookDialogCallStore is 30.,209
+89_Untamed-master,com.facebook,UiLifecycleHelper,handleFacebookDialogActivityResult,Long Identifier,The length of the field pendingFacebookDialogCallStore is 30.,278
+89_Untamed-master,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Identifier,The length of the field pendingFacebookDialogCallStore is 30.,313
+89_Untamed-master,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Statement,The length of the statement "cancelIntent.putExtra(NativeProtocol.EXTRA_PROTOCOL_CALL_ID`pendingIntent.getStringExtra(NativeProtocol.EXTRA_PROTOCOL_CALL_ID));" is 129.,313
+89_Untamed-master,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Statement,The length of the statement "cancelIntent.putExtra(NativeProtocol.EXTRA_PROTOCOL_ACTION`pendingIntent.getStringExtra(NativeProtocol.EXTRA_PROTOCOL_ACTION));" is 127.,313
+89_Untamed-master,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Statement,The length of the statement "cancelIntent.putExtra(NativeProtocol.EXTRA_PROTOCOL_VERSION`pendingIntent.getIntExtra(NativeProtocol.EXTRA_PROTOCOL_VERSION`0));" is 128.,313
+89_Untamed-master,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Statement,The length of the statement "FacebookDialog.handleActivityResult(activity`pendingCall`pendingCall.getRequestCode()`cancelIntent`facebookDialogCallback);" is 123.,313
+89_Untamed-master,com.facebook,UiLifecycleHelper,stopTrackingPendingAppCall,Long Identifier,The length of the field pendingFacebookDialogCallStore is 30.,343
+89_Untamed-master,com.facebook.internal,AttributionIdentifiers,getAndroidId,Long Statement,The length of the statement "Method isGooglePlayServicesAvailable=Utility.getMethodQuietly("com.google.android.gms.common.GooglePlayServicesUtil"`"isGooglePlayServicesAvailable"`Context.class);" is 164.,54
+89_Untamed-master,com.facebook.internal,AttributionIdentifiers,getAndroidId,Long Statement,The length of the statement "Method getAdvertisingIdInfo=Utility.getMethodQuietly("com.google.android.gms.ads.identifier.AdvertisingIdClient"`"getAdvertisingIdInfo"`Context.class);" is 151.,54
+89_Untamed-master,com.facebook.internal,AttributionIdentifiers,getAttributionIdentifiers,Complex Conditional,The conditional expression androidIdColumnIndex > 0 && limitTrackingColumnIndex > 0 && identifiers.getAndroidAdvertiserId() == null is complex.,104
+89_Untamed-master,com.facebook.internal,AttributionIdentifiers,getAttributionIdentifiers,Long Identifier,The length of the field IDENTIFIER_REFRESH_INTERVAL_MILLIS is 34.,104
+89_Untamed-master,com.facebook.internal,AttributionIdentifiers,getAttributionIdentifiers,Long Statement,The length of the statement "if (recentlyFetchedIdentifiers != null && System.currentTimeMillis() - recentlyFetchedIdentifiers.fetchTime < IDENTIFIER_REFRESH_INTERVAL_MILLIS) {" is 147.,104
+89_Untamed-master,com.facebook.internal,FacebookWebFallbackDialog,presentWebFallback,Long Parameter List,The method has 5 parameters. ,49
+89_Untamed-master,com.facebook.internal,FacebookWebFallbackDialog,dismiss,Complex Conditional,The conditional expression isListenerCalled() || webView == null || !webView.isShown() is complex.,131
+89_Untamed-master,com.facebook.internal,FacebookWebFallbackDialog,dismiss,Long Identifier,The length of the field OS_BACK_BUTTON_RESPONSE_TIMEOUT_MILLISECONDS is 44.,131
+89_Untamed-master,com.facebook.internal,FacebookWebFallbackDialog,dismiss,Long Statement,The length of the statement "String eventJS="(function() {" + " var event = document.createEvent('Event');" + " event.initEvent('fbPlatformDialogMustClose'`true`true);"+ " document.dispatchEvent(event);"+ "})();";" is 184.,131
+89_Untamed-master,com.facebook.internal,FileLruCache,sizeInBytesForTest,Empty catch clause,The method has an empty catch block.,93
+89_Untamed-master,com.facebook.internal,FileLruCache,get,Complex Conditional,The conditional expression (contentTag == null && headerContentTag != null) || (contentTag != null && !contentTag.equals(headerContentTag)) is complex.,118
+89_Untamed-master,com.facebook.internal,FileLruCache,trim,Long Statement,The length of the statement "Logger.log(LoggingBehavior.CACHE`TAG`" trim considering time=" + Long.valueOf(modified.getModified()) + " name="+ modified.getFile().getName());" is 144.,280
+89_Untamed-master,com.facebook.internal,FileLruCache,writeHeader,Magic Number,The method contains a magic number: 16,369
+89_Untamed-master,com.facebook.internal,FileLruCache,writeHeader,Magic Number,The method contains a magic number: 0xff,369
+89_Untamed-master,com.facebook.internal,FileLruCache,writeHeader,Magic Number,The method contains a magic number: 8,369
+89_Untamed-master,com.facebook.internal,FileLruCache,writeHeader,Magic Number,The method contains a magic number: 0xff,369
+89_Untamed-master,com.facebook.internal,FileLruCache,writeHeader,Magic Number,The method contains a magic number: 0xff,369
+89_Untamed-master,com.facebook.internal,FileLruCache,readHeader,Long Statement,The length of the statement "Logger.log(LoggingBehavior.CACHE`TAG`"readHeader: stream.read stopped at " + Integer.valueOf(count) + " when expected "+ headerBytes.length);" is 141.,382
+89_Untamed-master,com.facebook.internal,FileLruCache,readHeader,Magic Number,The method contains a magic number: 3,382
+89_Untamed-master,com.facebook.internal,FileLruCache,readHeader,Magic Number,The method contains a magic number: 8,382
+89_Untamed-master,com.facebook.internal,FileLruCache,readHeader,Magic Number,The method contains a magic number: 0xff,382
+89_Untamed-master,com.facebook.internal,FileLruCache,skip,Magic Number,The method contains a magic number: 1024,541
+89_Untamed-master,com.facebook.internal,FileLruCache,Limits,Magic Number,The method contains a magic number: 1024,560
+89_Untamed-master,com.facebook.internal,FileLruCache,Limits,Magic Number,The method contains a magic number: 1024,560
+89_Untamed-master,com.facebook.internal,FileLruCache,Limits,Magic Number,The method contains a magic number: 1024,560
+89_Untamed-master,com.facebook.internal,StreamHeader,writeHeader,Magic Number,The method contains a magic number: 16,369
+89_Untamed-master,com.facebook.internal,StreamHeader,writeHeader,Magic Number,The method contains a magic number: 0xff,369
+89_Untamed-master,com.facebook.internal,StreamHeader,writeHeader,Magic Number,The method contains a magic number: 8,369
+89_Untamed-master,com.facebook.internal,StreamHeader,writeHeader,Magic Number,The method contains a magic number: 0xff,369
+89_Untamed-master,com.facebook.internal,StreamHeader,writeHeader,Magic Number,The method contains a magic number: 0xff,369
+89_Untamed-master,com.facebook.internal,StreamHeader,readHeader,Long Statement,The length of the statement "Logger.log(LoggingBehavior.CACHE`TAG`"readHeader: stream.read stopped at " + Integer.valueOf(count) + " when expected "+ headerBytes.length);" is 141.,382
+89_Untamed-master,com.facebook.internal,StreamHeader,readHeader,Magic Number,The method contains a magic number: 3,382
+89_Untamed-master,com.facebook.internal,StreamHeader,readHeader,Magic Number,The method contains a magic number: 8,382
+89_Untamed-master,com.facebook.internal,StreamHeader,readHeader,Magic Number,The method contains a magic number: 0xff,382
+89_Untamed-master,com.facebook.internal,CopyingInputStream,skip,Magic Number,The method contains a magic number: 1024,541
+89_Untamed-master,com.facebook.internal,Limits,Limits,Magic Number,The method contains a magic number: 1024,560
+89_Untamed-master,com.facebook.internal,Limits,Limits,Magic Number,The method contains a magic number: 1024,560
+89_Untamed-master,com.facebook.internal,Limits,Limits,Magic Number,The method contains a magic number: 1024,560
+89_Untamed-master,com.facebook.internal,ImageDownloader,download,Complex Method,Cyclomatic complexity of the method is 9,207
+89_Untamed-master,com.facebook.internal,ImageDownloader,download,Magic Number,The method contains a magic number: 128,207
+89_Untamed-master,com.facebook.internal,ImageDownloader,download,Missing default,The following switch statement is missing a default case: switch (connection.getResponseCode()) {,207
+89_Untamed-master,com.facebook.internal,ImageResponseCache,interceptAndCacheImageStream,Empty catch clause,The method has an empty catch block.,61
+89_Untamed-master,com.facebook.internal,ImageResponseCache,interceptAndCacheImageStream,Empty catch clause,The method has an empty catch block.,61
+89_Untamed-master,com.facebook.internal,LikeActionController,handleOnActivityResult,Long Identifier,The length of the field LIKE_ACTION_CONTROLLER_STORE_PENDING_OBJECT_ID_KEY is 50.,118
+89_Untamed-master,com.facebook.internal,LikeActionController,performFirstInitialize,Long Identifier,The length of the field LIKE_ACTION_CONTROLLER_STORE_OBJECT_SUFFIX_KEY is 46.,231
+89_Untamed-master,com.facebook.internal,LikeActionController,registerSessionBroadcastReceivers,Long Identifier,The length of the field LIKE_ACTION_CONTROLLER_STORE_OBJECT_SUFFIX_KEY is 46.,267
+89_Untamed-master,com.facebook.internal,LikeActionController,registerSessionBroadcastReceivers,Long Identifier,The length of the field ACTION_LIKE_ACTION_CONTROLLER_DID_RESET is 39.,267
+89_Untamed-master,com.facebook.internal,LikeActionController,registerSessionBroadcastReceivers,Long Statement,The length of the statement "final boolean shouldClearDisk=Utility.areObjectsEqual(Session.ACTION_ACTIVE_SESSION_UNSET`action) || Utility.areObjectsEqual(Session.ACTION_ACTIVE_SESSION_CLOSED`action);" is 170.,267
+89_Untamed-master,com.facebook.internal,LikeActionController,registerSessionBroadcastReceivers,Long Statement,The length of the statement "broadcastContext.getSharedPreferences(LIKE_ACTION_CONTROLLER_STORE`Context.MODE_PRIVATE).edit().putInt(LIKE_ACTION_CONTROLLER_STORE_OBJECT_SUFFIX_KEY`objectSuffix).apply();" is 172.,267
+89_Untamed-master,com.facebook.internal,LikeActionController,registerSessionBroadcastReceivers,Magic Number,The method contains a magic number: 100,267
+89_Untamed-master,com.facebook.internal,LikeActionController,onReceive,Long Identifier,The length of the field LIKE_ACTION_CONTROLLER_STORE_OBJECT_SUFFIX_KEY is 46.,276
+89_Untamed-master,com.facebook.internal,LikeActionController,onReceive,Long Identifier,The length of the field ACTION_LIKE_ACTION_CONTROLLER_DID_RESET is 39.,276
+89_Untamed-master,com.facebook.internal,LikeActionController,onReceive,Long Statement,The length of the statement "final boolean shouldClearDisk=Utility.areObjectsEqual(Session.ACTION_ACTIVE_SESSION_UNSET`action) || Utility.areObjectsEqual(Session.ACTION_ACTIVE_SESSION_CLOSED`action);" is 170.,276
+89_Untamed-master,com.facebook.internal,LikeActionController,onReceive,Long Statement,The length of the statement "broadcastContext.getSharedPreferences(LIKE_ACTION_CONTROLLER_STORE`Context.MODE_PRIVATE).edit().putInt(LIKE_ACTION_CONTROLLER_STORE_OBJECT_SUFFIX_KEY`objectSuffix).apply();" is 172.,276
+89_Untamed-master,com.facebook.internal,LikeActionController,onReceive,Magic Number,The method contains a magic number: 100,276
+89_Untamed-master,com.facebook.internal,LikeActionController,run,Long Identifier,The length of the field LIKE_ACTION_CONTROLLER_STORE_OBJECT_SUFFIX_KEY is 46.,293
+89_Untamed-master,com.facebook.internal,LikeActionController,run,Long Identifier,The length of the field ACTION_LIKE_ACTION_CONTROLLER_DID_RESET is 39.,293
+89_Untamed-master,com.facebook.internal,LikeActionController,run,Long Statement,The length of the statement "broadcastContext.getSharedPreferences(LIKE_ACTION_CONTROLLER_STORE`Context.MODE_PRIVATE).edit().putInt(LIKE_ACTION_CONTROLLER_STORE_OBJECT_SUFFIX_KEY`objectSuffix).apply();" is 172.,293
+89_Untamed-master,com.facebook.internal,LikeActionController,deserializeFromJson,Long Identifier,The length of the field LIKE_ACTION_CONTROLLER_VERSION is 30.,404
+89_Untamed-master,com.facebook.internal,LikeActionController,deserializeFromJson,Long Identifier,The length of the field JSON_STRING_LIKE_COUNT_WITH_LIKE_KEY is 36.,404
+89_Untamed-master,com.facebook.internal,LikeActionController,deserializeFromJson,Long Identifier,The length of the field JSON_STRING_LIKE_COUNT_WITHOUT_LIKE_KEY is 39.,404
+89_Untamed-master,com.facebook.internal,LikeActionController,deserializeFromJson,Long Identifier,The length of the field JSON_STRING_SOCIAL_SENTENCE_WITH_LIKE_KEY is 41.,404
+89_Untamed-master,com.facebook.internal,LikeActionController,deserializeFromJson,Long Identifier,The length of the field JSON_STRING_SOCIAL_SENTENCE_WITHOUT_LIKE_KEY is 44.,404
+89_Untamed-master,com.facebook.internal,LikeActionController,deserializeFromJson,Long Identifier,The length of the field JSON_STRING_PENDING_CALL_ID_KEY is 31.,404
+89_Untamed-master,com.facebook.internal,LikeActionController,deserializeFromJson,Long Identifier,The length of the field JSON_BUNDLE_PENDING_CALL_ANALYTICS_BUNDLE is 41.,404
+89_Untamed-master,com.facebook.internal,LikeActionController,deserializeFromJson,Long Statement,The length of the statement "controller=new LikeActionController(context`Session.getActiveSession()`controllerJson.getString(JSON_STRING_OBJECT_ID_KEY));" is 124.,404
+89_Untamed-master,com.facebook.internal,LikeActionController,serializeToJson,Long Identifier,The length of the field LIKE_ACTION_CONTROLLER_VERSION is 30.,444
+89_Untamed-master,com.facebook.internal,LikeActionController,serializeToJson,Long Identifier,The length of the field JSON_STRING_LIKE_COUNT_WITH_LIKE_KEY is 36.,444
+89_Untamed-master,com.facebook.internal,LikeActionController,serializeToJson,Long Identifier,The length of the field JSON_STRING_LIKE_COUNT_WITHOUT_LIKE_KEY is 39.,444
+89_Untamed-master,com.facebook.internal,LikeActionController,serializeToJson,Long Identifier,The length of the field JSON_STRING_SOCIAL_SENTENCE_WITH_LIKE_KEY is 41.,444
+89_Untamed-master,com.facebook.internal,LikeActionController,serializeToJson,Long Identifier,The length of the field JSON_STRING_SOCIAL_SENTENCE_WITHOUT_LIKE_KEY is 44.,444
+89_Untamed-master,com.facebook.internal,LikeActionController,serializeToJson,Long Identifier,The length of the field JSON_STRING_PENDING_CALL_ID_KEY is 31.,444
+89_Untamed-master,com.facebook.internal,LikeActionController,serializeToJson,Long Identifier,The length of the field JSON_BUNDLE_PENDING_CALL_ANALYTICS_BUNDLE is 41.,444
+89_Untamed-master,com.facebook.internal,LikeActionController,getCacheKeyForObjectId,Long Statement,The length of the statement "return String.format("%s|%s|com.fb.sdk.like|%d"`objectId`Utility.coerceValueIfNullOrEmpty(accessTokenPortion`"")`objectSuffix);" is 127.,472
+89_Untamed-master,com.facebook.internal,LikeActionController,toggleLike,Long Statement,The length of the statement "updateState(shouldLikeObject`this.likeCountStringWithLike`this.likeCountStringWithoutLike`this.socialSentenceWithLike`this.socialSentenceWithoutLike`this.unlikeToken);" is 167.,558
+89_Untamed-master,com.facebook.internal,LikeActionController,updateState,Long Identifier,The length of the field ACTION_LIKE_ACTION_CONTROLLER_UPDATED is 37.,597
+89_Untamed-master,com.facebook.internal,LikeActionController,updateState,Long Parameter List,The method has 6 parameters. ,597
+89_Untamed-master,com.facebook.internal,LikeActionController,updateState,Long Statement,The length of the statement "boolean stateChanged=isObjectLiked != this.isObjectLiked || !Utility.areObjectsEqual(likeCountStringWithLike`this.likeCountStringWithLike) || !Utility.areObjectsEqual(likeCountStringWithoutLike`this.likeCountStringWithoutLike) || !Utility.areObjectsEqual(socialSentenceWithLike`this.socialSentenceWithLike) || !Utility.areObjectsEqual(socialSentenceWithoutLike`this.socialSentenceWithoutLike) || !Utility.areObjectsEqual(unlikeToken`this.unlikeToken);" is 451.,597
+89_Untamed-master,com.facebook.internal,LikeActionController,presentLikeDialog,Long Statement,The length of the statement "boolean webFallbackShown=FacebookWebFallbackDialog.presentWebFallback(activity`webFallbackUrl`likeDialogBuilder.getApplicationId()`likeDialogBuilder.getAppCall()`getFacebookDialogCallback(analyticsParameters));" is 210.,633
+89_Untamed-master,com.facebook.internal,LikeActionController,onActivityResult,Long Statement,The length of the statement "FacebookDialog.handleActivityResult(context`pendingCall`requestCode`data`getFacebookDialogCallback(pendingCallAnalyticsBundle));" is 128.,656
+89_Untamed-master,com.facebook.internal,LikeActionController,getFacebookDialogCallback,Long Identifier,The length of the field LIKE_DIALOG_RESPONSE_OBJECT_IS_LIKED_KEY is 40.,682
+89_Untamed-master,com.facebook.internal,LikeActionController,getFacebookDialogCallback,Long Identifier,The length of the field LIKE_DIALOG_RESPONSE_LIKE_COUNT_STRING_KEY is 42.,682
+89_Untamed-master,com.facebook.internal,LikeActionController,getFacebookDialogCallback,Long Identifier,The length of the field LIKE_DIALOG_RESPONSE_SOCIAL_SENTENCE_KEY is 40.,682
+89_Untamed-master,com.facebook.internal,LikeActionController,getFacebookDialogCallback,Long Identifier,The length of the field LIKE_DIALOG_RESPONSE_UNLIKE_TOKEN_KEY is 37.,682
+89_Untamed-master,com.facebook.internal,LikeActionController,getFacebookDialogCallback,Long Identifier,The length of the field ACTION_LIKE_ACTION_CONTROLLER_DID_ERROR is 39.,682
+89_Untamed-master,com.facebook.internal,LikeActionController,onComplete,Long Identifier,The length of the field LIKE_DIALOG_RESPONSE_OBJECT_IS_LIKED_KEY is 40.,684
+89_Untamed-master,com.facebook.internal,LikeActionController,onComplete,Long Identifier,The length of the field LIKE_DIALOG_RESPONSE_LIKE_COUNT_STRING_KEY is 42.,684
+89_Untamed-master,com.facebook.internal,LikeActionController,onComplete,Long Identifier,The length of the field LIKE_DIALOG_RESPONSE_SOCIAL_SENTENCE_KEY is 40.,684
+89_Untamed-master,com.facebook.internal,LikeActionController,onComplete,Long Identifier,The length of the field LIKE_DIALOG_RESPONSE_UNLIKE_TOKEN_KEY is 37.,684
+89_Untamed-master,com.facebook.internal,LikeActionController,onError,Long Identifier,The length of the field ACTION_LIKE_ACTION_CONTROLLER_DID_ERROR is 39.,709
+89_Untamed-master,com.facebook.internal,LikeActionController,storeObjectIdForPendingController,Long Identifier,The length of the field LIKE_ACTION_CONTROLLER_STORE_PENDING_OBJECT_ID_KEY is 50.,747
+89_Untamed-master,com.facebook.internal,LikeActionController,storeObjectIdForPendingController,Long Statement,The length of the statement "context.getSharedPreferences(LIKE_ACTION_CONTROLLER_STORE`Context.MODE_PRIVATE).edit().putString(LIKE_ACTION_CONTROLLER_STORE_PENDING_OBJECT_ID_KEY`objectIdForPendingController).apply();" is 186.,747
+89_Untamed-master,com.facebook.internal,LikeActionController,canUseOGPublish,Long Statement,The length of the statement "return !objectIsPage && verifiedObjectId != null && session != null && session.getPermissions() != null && session.getPermissions().contains("publish_actions") && (willPerformLike || !Utility.isNullOrEmpty(unlikeToken));" is 220.,755
+89_Untamed-master,com.facebook.internal,LikeActionController,publishLikeAsync,Long Identifier,The length of the field ACTION_LIKE_ACTION_CONTROLLER_DID_ERROR is 39.,766
+89_Untamed-master,com.facebook.internal,LikeActionController,publishLikeAsync,Long Statement,The length of the statement "updateState(false`likeCountStringWithLike`likeCountStringWithoutLike`socialSentenceWithLike`socialSentenceWithoutLike`unlikeToken);" is 131.,766
+89_Untamed-master,com.facebook.internal,LikeActionController,onComplete,Long Identifier,The length of the field ACTION_LIKE_ACTION_CONTROLLER_DID_ERROR is 39.,770
+89_Untamed-master,com.facebook.internal,LikeActionController,onComplete,Long Statement,The length of the statement "updateState(false`likeCountStringWithLike`likeCountStringWithoutLike`socialSentenceWithLike`socialSentenceWithoutLike`unlikeToken);" is 131.,770
+89_Untamed-master,com.facebook.internal,LikeActionController,onBatchCompleted,Long Statement,The length of the statement "updateState(false`likeCountStringWithLike`likeCountStringWithoutLike`socialSentenceWithLike`socialSentenceWithoutLike`unlikeToken);" is 131.,786
+89_Untamed-master,com.facebook.internal,LikeActionController,publishUnlikeAsync,Long Statement,The length of the statement "updateState(true`likeCountStringWithLike`likeCountStringWithoutLike`socialSentenceWithLike`socialSentenceWithoutLike`unlikeToken);" is 130.,820
+89_Untamed-master,com.facebook.internal,LikeActionController,onBatchCompleted,Long Statement,The length of the statement "updateState(true`likeCountStringWithLike`likeCountStringWithoutLike`socialSentenceWithLike`socialSentenceWithoutLike`unlikeToken);" is 130.,828
+89_Untamed-master,com.facebook.internal,LikeActionController,refreshStatusAsync,Complex Conditional,The conditional expression session == null || session.isClosed() || SessionState.CREATED.equals(session.getState()) is complex.,860
+89_Untamed-master,com.facebook.internal,LikeActionController,refreshStatusAsync,Long Identifier,The length of the field socialSentenceStringWithoutLike is 31.,860
+89_Untamed-master,com.facebook.internal,LikeActionController,refreshStatusAsync,Long Statement,The length of the statement "updateState(objectLikesRequest.objectIsLiked`engagementRequest.likeCountStringWithLike`engagementRequest.likeCountStringWithoutLike`engagementRequest.socialSentenceStringWithLike`engagementRequest.socialSentenceStringWithoutLike`objectLikesRequest.unlikeToken);" is 261.,860
+89_Untamed-master,com.facebook.internal,LikeActionController,onComplete,Long Identifier,The length of the field socialSentenceStringWithoutLike is 31.,870
+89_Untamed-master,com.facebook.internal,LikeActionController,onComplete,Long Statement,The length of the statement "updateState(objectLikesRequest.objectIsLiked`engagementRequest.likeCountStringWithLike`engagementRequest.likeCountStringWithoutLike`engagementRequest.socialSentenceStringWithLike`engagementRequest.socialSentenceStringWithoutLike`objectLikesRequest.unlikeToken);" is 261.,870
+89_Untamed-master,com.facebook.internal,LikeActionController,onBatchCompleted,Long Identifier,The length of the field socialSentenceStringWithoutLike is 31.,882
+89_Untamed-master,com.facebook.internal,LikeActionController,onBatchCompleted,Long Statement,The length of the statement "updateState(objectLikesRequest.objectIsLiked`engagementRequest.likeCountStringWithLike`engagementRequest.likeCountStringWithoutLike`engagementRequest.socialSentenceStringWithLike`engagementRequest.socialSentenceStringWithoutLike`objectLikesRequest.unlikeToken);" is 261.,882
+89_Untamed-master,com.facebook.internal,LikeActionController,refreshStatusViaService,Long Statement,The length of the statement "updateState(objectIsLiked`likeCountWithLike`likeCountWithoutLike`socialSentenceWithLike`socialSentenceWithoutLike`unlikeToken);" is 127.,909
+89_Untamed-master,com.facebook.internal,LikeActionController,completed,Long Statement,The length of the statement "updateState(objectIsLiked`likeCountWithLike`likeCountWithoutLike`socialSentenceWithLike`socialSentenceWithoutLike`unlikeToken);" is 127.,919
+89_Untamed-master,com.facebook.internal,LikeActionController,fetchVerifiedObjectId,Long Statement,The length of the statement "Logger.log(LoggingBehavior.DEVELOPER_ERRORS`TAG`"Unable to verify the FB id for '%s'. Verify that it is a valid FB object or page"`objectId);" is 141.,952
+89_Untamed-master,com.facebook.internal,LikeActionController,onBatchCompleted,Long Statement,The length of the statement "Logger.log(LoggingBehavior.DEVELOPER_ERRORS`TAG`"Unable to verify the FB id for '%s'. Verify that it is a valid FB object or page"`objectId);" is 141.,969
+89_Untamed-master,com.facebook.internal,LikeActionController,processError,Long Identifier,The length of the field ERROR_CODE_OBJECT_ALREADY_LIKED is 31.,1122
+89_Untamed-master,com.facebook.internal,LikeActionController,GetEngagementRequestWrapper,Long Statement,The length of the statement "requestParams.putString("fields"`"engagement.fields(" + "count_string_with_like`" + "count_string_without_like`"+ "social_sentence_with_like`"+ "social_sentence_without_like)");" is 177.,1212
+89_Untamed-master,com.facebook.internal,LikeActionController,processSuccess,Long Identifier,The length of the field socialSentenceStringWithoutLike is 31.,1227
+89_Untamed-master,com.facebook.internal,LikeActionController,run,Magic Number,The method contains a magic number: 2,1355
+89_Untamed-master,com.facebook.internal,GetEngagementRequestWrapper,GetEngagementRequestWrapper,Long Statement,The length of the statement "requestParams.putString("fields"`"engagement.fields(" + "count_string_with_like`" + "count_string_without_like`"+ "social_sentence_with_like`"+ "social_sentence_without_like)");" is 177.,1212
+89_Untamed-master,com.facebook.internal,GetEngagementRequestWrapper,processSuccess,Long Identifier,The length of the field socialSentenceStringWithoutLike is 31.,1227
+89_Untamed-master,com.facebook.internal,MRUCacheWorkItem,run,Magic Number,The method contains a magic number: 2,1355
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,initializeLikeCountLabel,Long Statement,The length of the statement "LayoutParams likeCountLabelLayoutParams=new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT);" is 130.,139
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,initializeLikeCountLabel,Long Statement,The length of the statement "likeCountLabel.setTextSize(TypedValue.COMPLEX_UNIT_PX`getResources().getDimension(R.dimen.com_facebook_likeboxcountview_text_size));" is 132.,139
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Long Parameter List,The method has 5 parameters. ,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2.0f,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 180,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 90,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 90,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 90,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 90,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 90,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 90,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeBoxCountView,drawBorder,Magic Number,The method contains a magic number: 2,164
+89_Untamed-master,com.facebook.internal,LikeButton,initialize,Long Statement,The length of the statement "this.setCompoundDrawablePadding(getResources().getDimensionPixelSize(R.dimen.com_facebook_likebutton_compound_drawable_padding));" is 129.,55
+89_Untamed-master,com.facebook.internal,LikeButton,initialize,Long Statement,The length of the statement "this.setPadding(getResources().getDimensionPixelSize(R.dimen.com_facebook_likebutton_padding_left)`getResources().getDimensionPixelSize(R.dimen.com_facebook_likebutton_padding_top)`getResources().getDimensionPixelSize(R.dimen.com_facebook_likebutton_padding_right)`getResources().getDimensionPixelSize(R.dimen.com_facebook_likebutton_padding_bottom));" is 351.,55
+89_Untamed-master,com.facebook.internal,LikeStatusClient,LikeStatusClient,Long Statement,The length of the statement "super(context`NativeProtocol.MESSAGE_GET_LIKE_STATUS_REQUEST`NativeProtocol.MESSAGE_GET_LIKE_STATUS_REPLY`NativeProtocol.PROTOCOL_VERSION_20141001`applicationId);" is 162.,35
+89_Untamed-master,com.facebook.internal,NativeProtocol,buildActionToAppInfoMap,Long Identifier,The length of the field ACTION_OGMESSAGEPUBLISH_DIALOG is 30.,323
+89_Untamed-master,com.facebook.internal,NativeProtocol,createProxyAuthIntent,Long Identifier,The length of the field FACEBOOK_PROXY_AUTH_APP_ID_KEY is 30.,373
+89_Untamed-master,com.facebook.internal,NativeProtocol,createProxyAuthIntent,Long Identifier,The length of the field FACEBOOK_PROXY_AUTH_PERMISSIONS_KEY is 35.,373
+89_Untamed-master,com.facebook.internal,NativeProtocol,createProxyAuthIntent,Long Parameter List,The method has 6 parameters. ,373
+89_Untamed-master,com.facebook.internal,NativeProtocol,createProxyAuthIntent,Long Statement,The length of the statement "Intent intent=new Intent().setClassName(appInfo.getPackage()`FACEBOOK_PROXY_AUTH_ACTIVITY).putExtra(FACEBOOK_PROXY_AUTH_APP_ID_KEY`applicationId);" is 146.,373
+89_Untamed-master,com.facebook.internal,NativeProtocol,createTokenRefreshIntent,Long Identifier,The length of the field FACEBOOK_TOKEN_REFRESH_ACTIVITY is 31.,410
+89_Untamed-master,com.facebook.internal,NativeProtocol,createPlatformActivityIntent,Long Identifier,The length of the field INTENT_ACTION_PLATFORM_ACTIVITY is 31.,466
+89_Untamed-master,com.facebook.internal,NativeProtocol,createPlatformActivityIntent,Long Parameter List,The method has 6 parameters. ,466
+89_Untamed-master,com.facebook.internal,NativeProtocol,createPlatformActivityIntent,Long Statement,The length of the statement "intent.putExtra(EXTRA_PROTOCOL_VERSION`version).putExtra(EXTRA_PROTOCOL_ACTION`action).putExtra(EXTRA_APPLICATION_ID`applicationId);" is 132.,466
+89_Untamed-master,com.facebook.internal,NativeProtocol,createPlatformServiceIntent,Long Identifier,The length of the field INTENT_ACTION_PLATFORM_SERVICE is 30.,503
+89_Untamed-master,com.facebook.internal,NativeProtocol,createPlatformServiceIntent,Long Statement,The length of the statement "Intent intent=new Intent(INTENT_ACTION_PLATFORM_SERVICE).setPackage(appInfo.getPackage()).addCategory(Intent.CATEGORY_DEFAULT);" is 127.,503
+89_Untamed-master,com.facebook.internal,NativeProtocol,getCallIdFromIntent,Empty catch clause,The method has an empty catch block.,520
+89_Untamed-master,com.facebook.internal,NativeProtocol,getAllAvailableProtocolVersionsForAppInfo,Long Identifier,The length of the field PLATFORM_PROVIDER_VERSION_COLUMN is 32.,641
+89_Untamed-master,com.facebook.internal,NativeProtocol,computeLatestAvailableVersionFromVersionSpec,Long Identifier,The length of the parameter allAvailableFacebookAppVersions is 31.,668
+89_Untamed-master,com.facebook.internal,NativeProtocol,computeLatestAvailableVersionFromVersionSpec,Magic Number,The method contains a magic number: 2,668
+89_Untamed-master,com.facebook.internal,PlatformServiceClient,PlatformServiceClient,Long Parameter List,The method has 5 parameters. ,41
+89_Untamed-master,com.facebook.internal,PlatformServiceClient,onServiceDisconnected,Empty catch clause,The method has an empty catch block.,97
+89_Untamed-master,com.facebook.internal,ServerProtocol,getQueryParamsForPlatformActivityIntentWebFallback,Long Identifier,The length of the field FALLBACK_DIALOG_PARAM_KEY_HASH is 30.,95
+89_Untamed-master,com.facebook.internal,ServerProtocol,getQueryParamsForPlatformActivityIntentWebFallback,Long Identifier,The length of the field FALLBACK_DIALOG_DISPLAY_VALUE_TOUCH is 35.,95
+89_Untamed-master,com.facebook.internal,ServerProtocol,getQueryParamsForPlatformActivityIntentWebFallback,Long Identifier,The length of the field FALLBACK_DIALOG_PARAM_BRIDGE_ARGS is 33.,95
+89_Untamed-master,com.facebook.internal,ServerProtocol,getQueryParamsForPlatformActivityIntentWebFallback,Long Identifier,The length of the field FALLBACK_DIALOG_PARAM_METHOD_ARGS is 33.,95
+89_Untamed-master,com.facebook.internal,ServerProtocol,getQueryParamsForPlatformActivityIntentWebFallback,Long Parameter List,The method has 5 parameters. ,95
+89_Untamed-master,com.facebook.internal,UrlRedirectCache,getRedirectedUri,Empty catch clause,The method has an empty catch block.,43
+89_Untamed-master,com.facebook.internal,UrlRedirectCache,getRedirectedUri,Empty catch clause,The method has an empty catch block.,43
+89_Untamed-master,com.facebook.internal,UrlRedirectCache,getRedirectedUri,Magic Number,The method contains a magic number: 128,43
+89_Untamed-master,com.facebook.internal,UrlRedirectCache,cacheUriRedirect,Empty catch clause,The method has an empty catch block.,84
+89_Untamed-master,com.facebook.internal,Utility,FetchedAppSettings,Long Parameter List,The method has 5 parameters. ,101
+89_Untamed-master,com.facebook.internal,Utility,parseDialogConfig,Long Identifier,The length of the field DIALOG_CONFIG_DIALOG_NAME_FEATURE_NAME_SEPARATOR is 48.,135
+89_Untamed-master,com.facebook.internal,Utility,parseDialogConfig,Magic Number,The method contains a magic number: 2,135
+89_Untamed-master,com.facebook.internal,Utility,intersectRanges,Complex Method,Cyclomatic complexity of the method is 13,226
+89_Untamed-master,com.facebook.internal,Utility,intersectRanges,Magic Number,The method contains a magic number: 2,226
+89_Untamed-master,com.facebook.internal,Utility,intersectRanges,Magic Number,The method contains a magic number: 2,226
+89_Untamed-master,com.facebook.internal,Utility,intersectRanges,Magic Number,The method contains a magic number: 2,226
+89_Untamed-master,com.facebook.internal,Utility,intersectRanges,Magic Number,The method contains a magic number: 2,226
+89_Untamed-master,com.facebook.internal,Utility,intersectRanges,Magic Number,The method contains a magic number: 2,226
+89_Untamed-master,com.facebook.internal,Utility,intersectRanges,Magic Number,The method contains a magic number: 2,226
+89_Untamed-master,com.facebook.internal,Utility,hashBytes,Magic Number,The method contains a magic number: 4,389
+89_Untamed-master,com.facebook.internal,Utility,hashBytes,Magic Number,The method contains a magic number: 0xf,389
+89_Untamed-master,com.facebook.internal,Utility,hashBytes,Magic Number,The method contains a magic number: 0xf,389
+89_Untamed-master,com.facebook.internal,Utility,parseUrlQueryString,Magic Number,The method contains a magic number: 2,414
+89_Untamed-master,com.facebook.internal,Utility,closeQuietly,Empty catch clause,The method has an empty catch block.,452
+89_Untamed-master,com.facebook.internal,Utility,convertJSONObjectToHashMap,Empty catch clause,The method has an empty catch block.,476
+89_Untamed-master,com.facebook.internal,Utility,getStringPropertyAsJSON,Complex Conditional,The conditional expression value != null && !(value instanceof JSONObject || value instanceof JSONArray) is complex.,495
+89_Untamed-master,com.facebook.internal,Utility,readStreamToString,Magic Number,The method contains a magic number: 1024,522
+89_Untamed-master,com.facebook.internal,Utility,readStreamToString,Magic Number,The method contains a magic number: 2,522
+89_Untamed-master,com.facebook.internal,Utility,logd,Complex Conditional,The conditional expression Settings.isDebugEnabled() && tag != null && e != null is complex.,593
+89_Untamed-master,com.facebook.internal,Utility,logd,Complex Conditional,The conditional expression Settings.isDebugEnabled() && tag != null && msg != null is complex.,599
+89_Untamed-master,com.facebook.internal,Utility,loadAppSettingsAsync,Complex Conditional,The conditional expression Utility.isNullOrEmpty(applicationId) || fetchedAppSettings.containsKey(applicationId) || initialAppSettingsLoadTask != null is complex.,618
+89_Untamed-master,com.facebook.internal,Utility,loadAppSettingsAsync,Long Statement,The length of the statement "if (Utility.isNullOrEmpty(applicationId) || fetchedAppSettings.containsKey(applicationId) || initialAppSettingsLoadTask != null) {" is 130.,618
+89_Untamed-master,com.facebook.internal,Utility,parseAppSettingsFromJSON,Long Identifier,The length of the field APP_SETTING_SUPPORTS_ATTRIBUTION is 32.,685
+89_Untamed-master,com.facebook.internal,Utility,parseAppSettingsFromJSON,Long Identifier,The length of the field APP_SETTING_SUPPORTS_IMPLICIT_SDK_LOGGING is 41.,685
+89_Untamed-master,com.facebook.internal,Utility,parseAppSettingsFromJSON,Long Statement,The length of the statement "FetchedAppSettings result=new FetchedAppSettings(settingsJSON.optBoolean(APP_SETTING_SUPPORTS_ATTRIBUTION`false)`settingsJSON.optBoolean(APP_SETTING_SUPPORTS_IMPLICIT_SDK_LOGGING`false)`settingsJSON.optString(APP_SETTING_NUX_CONTENT`"")`settingsJSON.optBoolean(APP_SETTING_NUX_ENABLED`false)`parseDialogConfigurations(settingsJSON.optJSONObject(APP_SETTING_DIALOG_CONFIGS)));" is 375.,685
+89_Untamed-master,com.facebook.internal,Utility,setAppEventExtendedDeviceInfoParameters,Empty catch clause,The method has an empty catch block.,855
+89_Untamed-master,com.facebook.internal,Utility,setAppEventExtendedDeviceInfoParameters,Long Identifier,The length of the field EXTRA_APP_EVENTS_INFO_FORMAT_VERSION is 36.,855
+89_Untamed-master,com.facebook.internal,FetchedAppSettings,FetchedAppSettings,Long Parameter List,The method has 5 parameters. ,101
+89_Untamed-master,com.facebook.internal,DialogFeatureConfig,parseDialogConfig,Magic Number,The method contains a magic number: 2,135
+89_Untamed-master,com.facebook.model,GraphObject,hasSameId,Complex Conditional,The conditional expression a == null || b == null || !a.asMap().containsKey("id") || !b.asMap().containsKey("id") is complex.,169
+89_Untamed-master,com.facebook.model,GraphObject,hasSameId,Complex Conditional,The conditional expression idA == null || idB == null || !(idA instanceof String) || !(idB instanceof String) is complex.,169
+89_Untamed-master,com.facebook.model,GraphObject,createGraphObjectProxy,Long Statement,The length of the statement "@SuppressWarnings("unchecked") T graphObject=(T)Proxy.newProxyInstance(GraphObject.class.getClassLoader()`interfaces`graphObjectProxy);" is 135.,215
+89_Untamed-master,com.facebook.model,GraphObject,createGraphObjectProxyForMap,Long Statement,The length of the statement "@SuppressWarnings("unchecked") Map<String`Object> graphObject=(Map<String`Object>)Proxy.newProxyInstance(GraphObject.class.getClassLoader()`interfaces`graphObjectProxy);" is 169.,227
+89_Untamed-master,com.facebook.model,GraphObject,verifyCanProxyClass,Complex Method,Cyclomatic complexity of the method is 13,246
+89_Untamed-master,com.facebook.model,GraphObject,verifyCanProxyClass,Magic Number,The method contains a magic number: 3,246
+89_Untamed-master,com.facebook.model,GraphObject,verifyCanProxyClass,Magic Number,The method contains a magic number: 3,246
+89_Untamed-master,com.facebook.model,GraphObject,coerceValueToExpectedType,Complex Conditional,The conditional expression Iterable.class.equals(expectedType) || Collection.class.equals(expectedType) || List.class.equals(expectedType)|| GraphObjectList.class.equals(expectedType) is complex.,298
+89_Untamed-master,com.facebook.model,GraphObject,coerceValueToExpectedType,Complex Conditional,The conditional expression actualTypeArguments == null || actualTypeArguments.length != 1 || !(actualTypeArguments[0] instanceof Class<?>) is complex.,298
+89_Untamed-master,com.facebook.model,GraphObject,coerceValueToExpectedType,Complex Method,Cyclomatic complexity of the method is 21,298
+89_Untamed-master,com.facebook.model,GraphObject,coerceValueToExpectedType,Empty catch clause,The method has an empty catch block.,298
+89_Untamed-master,com.facebook.model,GraphObject,coerceValueToExpectedType,Long Identifier,The length of the parameter expectedTypeAsParameterizedType is 31.,298
+89_Untamed-master,com.facebook.model,GraphObject,coerceValueToExpectedType,Long Statement,The length of the statement "else if (Iterable.class.equals(expectedType) || Collection.class.equals(expectedType) || List.class.equals(expectedType)|| GraphObjectList.class.equals(expectedType)) {" is 168.,298
+89_Untamed-master,com.facebook.model,GraphObject,coerceValueToExpectedType,Long Statement,The length of the statement "throw new FacebookGraphObjectException("Expect collection properties to be of a type with exactly one generic parameter.");" is 123.,298
+89_Untamed-master,com.facebook.model,GraphObject,throwUnexpectedMethodSignature,Long Statement,The length of the statement "throw new FacebookGraphObjectException(getClass().getName() + " got an unexpected method signature: " + method.toString());" is 123.,448
+89_Untamed-master,com.facebook.model,GraphObject,proxyMapMethods,Complex Method,Cyclomatic complexity of the method is 15,529
+89_Untamed-master,com.facebook.model,GraphObject,proxyGraphObjectMethods,Complex Method,Cyclomatic complexity of the method is 10,573
+89_Untamed-master,com.facebook.model,GraphObject,proxyGraphObjectGettersAndSetters,Long Statement,The length of the statement "String key=propertyNameOverride != null ? propertyNameOverride.value() : convertCamelCaseToLowercaseWithUnderscores(methodName.substring(3));" is 141.,654
+89_Untamed-master,com.facebook.model,GraphObject,proxyGraphObjectGettersAndSetters,Magic Number,The method contains a magic number: 3,654
+89_Untamed-master,com.facebook.model,Factory,hasSameId,Complex Conditional,The conditional expression a == null || b == null || !a.asMap().containsKey("id") || !b.asMap().containsKey("id") is complex.,169
+89_Untamed-master,com.facebook.model,Factory,hasSameId,Complex Conditional,The conditional expression idA == null || idB == null || !(idA instanceof String) || !(idB instanceof String) is complex.,169
+89_Untamed-master,com.facebook.model,Factory,createGraphObjectProxy,Long Statement,The length of the statement "@SuppressWarnings("unchecked") T graphObject=(T)Proxy.newProxyInstance(GraphObject.class.getClassLoader()`interfaces`graphObjectProxy);" is 135.,215
+89_Untamed-master,com.facebook.model,Factory,createGraphObjectProxyForMap,Long Statement,The length of the statement "@SuppressWarnings("unchecked") Map<String`Object> graphObject=(Map<String`Object>)Proxy.newProxyInstance(GraphObject.class.getClassLoader()`interfaces`graphObjectProxy);" is 169.,227
+89_Untamed-master,com.facebook.model,Factory,verifyCanProxyClass,Complex Method,Cyclomatic complexity of the method is 13,246
+89_Untamed-master,com.facebook.model,Factory,verifyCanProxyClass,Magic Number,The method contains a magic number: 3,246
+89_Untamed-master,com.facebook.model,Factory,verifyCanProxyClass,Magic Number,The method contains a magic number: 3,246
+89_Untamed-master,com.facebook.model,Factory,coerceValueToExpectedType,Complex Conditional,The conditional expression Iterable.class.equals(expectedType) || Collection.class.equals(expectedType) || List.class.equals(expectedType)|| GraphObjectList.class.equals(expectedType) is complex.,298
+89_Untamed-master,com.facebook.model,Factory,coerceValueToExpectedType,Complex Conditional,The conditional expression actualTypeArguments == null || actualTypeArguments.length != 1 || !(actualTypeArguments[0] instanceof Class<?>) is complex.,298
+89_Untamed-master,com.facebook.model,Factory,coerceValueToExpectedType,Complex Method,Cyclomatic complexity of the method is 21,298
+89_Untamed-master,com.facebook.model,Factory,coerceValueToExpectedType,Empty catch clause,The method has an empty catch block.,298
+89_Untamed-master,com.facebook.model,Factory,coerceValueToExpectedType,Long Identifier,The length of the parameter expectedTypeAsParameterizedType is 31.,298
+89_Untamed-master,com.facebook.model,Factory,coerceValueToExpectedType,Long Statement,The length of the statement "else if (Iterable.class.equals(expectedType) || Collection.class.equals(expectedType) || List.class.equals(expectedType)|| GraphObjectList.class.equals(expectedType)) {" is 168.,298
+89_Untamed-master,com.facebook.model,Factory,coerceValueToExpectedType,Long Statement,The length of the statement "throw new FacebookGraphObjectException("Expect collection properties to be of a type with exactly one generic parameter.");" is 123.,298
+89_Untamed-master,com.facebook.model,Factory,throwUnexpectedMethodSignature,Long Statement,The length of the statement "throw new FacebookGraphObjectException(getClass().getName() + " got an unexpected method signature: " + method.toString());" is 123.,448
+89_Untamed-master,com.facebook.model,Factory,proxyMapMethods,Complex Method,Cyclomatic complexity of the method is 15,529
+89_Untamed-master,com.facebook.model,Factory,proxyGraphObjectMethods,Complex Method,Cyclomatic complexity of the method is 10,573
+89_Untamed-master,com.facebook.model,Factory,proxyGraphObjectGettersAndSetters,Long Statement,The length of the statement "String key=propertyNameOverride != null ? propertyNameOverride.value() : convertCamelCaseToLowercaseWithUnderscores(methodName.substring(3));" is 141.,654
+89_Untamed-master,com.facebook.model,Factory,proxyGraphObjectGettersAndSetters,Magic Number,The method contains a magic number: 3,654
+89_Untamed-master,com.facebook.model,ProxyBase,throwUnexpectedMethodSignature,Long Statement,The length of the statement "throw new FacebookGraphObjectException(getClass().getName() + " got an unexpected method signature: " + method.toString());" is 123.,448
+89_Untamed-master,com.facebook.model,GraphObjectProxy,proxyMapMethods,Complex Method,Cyclomatic complexity of the method is 15,529
+89_Untamed-master,com.facebook.model,GraphObjectProxy,proxyGraphObjectMethods,Complex Method,Cyclomatic complexity of the method is 10,573
+89_Untamed-master,com.facebook.model,GraphObjectProxy,proxyGraphObjectGettersAndSetters,Long Statement,The length of the statement "String key=propertyNameOverride != null ? propertyNameOverride.value() : convertCamelCaseToLowercaseWithUnderscores(methodName.substring(3));" is 141.,654
+89_Untamed-master,com.facebook.model,GraphObjectProxy,proxyGraphObjectGettersAndSetters,Magic Number,The method contains a magic number: 3,654
+89_Untamed-master,com.facebook.model,OpenGraphObject,createForPost,Long Parameter List,The method has 6 parameters. ,281
+89_Untamed-master,com.facebook.model,Factory,createForPost,Long Parameter List,The method has 6 parameters. ,281
+89_Untamed-master,com.facebook.widget,FacebookDialog,getNativeDialogCompletionGesture,Long Identifier,The length of the field EXTRA_DIALOG_COMPLETION_GESTURE_KEY is 35.,280
+89_Untamed-master,com.facebook.widget,FacebookDialog,getNativeDialogPostId,Long Identifier,The length of the field EXTRA_DIALOG_COMPLETION_ID_KEY is 30.,291
+89_Untamed-master,com.facebook.widget,FacebookDialog,present,Long Statement,The length of the statement "logDialogActivity(activity`fragment`getEventName(appCall.getRequestIntent())`AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_COMPLETED);" is 135.,315
+89_Untamed-master,com.facebook.widget,FacebookDialog,handleActivityResult,Long Parameter List,The method has 5 parameters. ,343
+89_Untamed-master,com.facebook.widget,FacebookDialog,handleCanPresent,Long Statement,The length of the statement "return getProtocolVersionForNativeDialog(context`actionName`getVersionSpecForFeatures(applicationId`actionName`features)) != NativeProtocol.NO_PROTOCOL_AVAILABLE;" is 162.,438
+89_Untamed-master,com.facebook.widget,FacebookDialog,getEventName,Long Statement,The length of the statement "eventName=hasPhotos ? AnalyticsEvents.EVENT_NATIVE_DIALOG_TYPE_PHOTO_SHARE : AnalyticsEvents.EVENT_NATIVE_DIALOG_TYPE_SHARE;" is 124.,509
+89_Untamed-master,com.facebook.widget,FacebookDialog,getEventName,Long Statement,The length of the statement "eventName=hasPhotos ? AnalyticsEvents.EVENT_NATIVE_DIALOG_TYPE_PHOTO_MESSAGE : AnalyticsEvents.EVENT_NATIVE_DIALOG_TYPE_MESSAGE;" is 128.,509
+89_Untamed-master,com.facebook.widget,FacebookDialog,build,Long Statement,The length of the statement "int protocolVersion=getProtocolVersionForNativeDialog(activity`action`getVersionSpecForFeatures(applicationId`action`getDialogFeatures()));" is 139.,604
+89_Untamed-master,com.facebook.widget,FacebookDialog,build,Long Statement,The length of the statement "Intent intent=NativeProtocol.createPlatformActivityIntent(activity`appCall.getCallId().toString()`action`protocolVersion`applicationName`extras);" is 145.,604
+89_Untamed-master,com.facebook.widget,FacebookDialog,build,Long Statement,The length of the statement "logDialogActivity(activity`fragment`getEventName(action`extras.containsKey(NativeProtocol.EXTRA_PHOTOS))`AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_FAILED);" is 160.,604
+89_Untamed-master,com.facebook.widget,FacebookDialog,getWebFallbackUrlInternal,Long Statement,The length of the statement "Bundle webParams=ServerProtocol.getQueryParamsForPlatformActivityIntentWebFallback(activity`appCall.getCallId().toString()`protocolVersion`applicationName`methodArguments);" is 172.,647
+89_Untamed-master,com.facebook.widget,FacebookDialog,OpenGraphDialogBuilderBase,Long Statement,The length of the statement "throw new IllegalArgumentException("A property named \"" + previewPropertyName + "\" was not found on the action. The name of "+ "the preview property must match the name of an action property.");" is 196.,1243
+89_Untamed-master,com.facebook.widget,FacebookDialog,OpenGraphDialogBuilderBase,Long Statement,The length of the statement "throw new IllegalArgumentException("'actionType' must match the type of 'action' if it is specified. " + "Consider using OpenGraphDialogBuilderBase(Activity activity` OpenGraphAction action` " + "String previewPropertyName) instead.");" is 235.,1243
+89_Untamed-master,com.facebook.widget,FacebookDialog,OpenGraphDialogBuilderBase,Long Statement,The length of the statement "throw new IllegalArgumentException("A property named \"" + previewPropertyName + "\" was not found on the action. The name of "+ "the preview property must match the name of an action property.");" is 196.,1281
+89_Untamed-master,com.facebook.widget,FacebookDialog,flattenObject,Complex Method,Cyclomatic complexity of the method is 8,1661
+89_Untamed-master,com.facebook.widget,Builder,build,Long Statement,The length of the statement "int protocolVersion=getProtocolVersionForNativeDialog(activity`action`getVersionSpecForFeatures(applicationId`action`getDialogFeatures()));" is 139.,604
+89_Untamed-master,com.facebook.widget,Builder,build,Long Statement,The length of the statement "Intent intent=NativeProtocol.createPlatformActivityIntent(activity`appCall.getCallId().toString()`action`protocolVersion`applicationName`extras);" is 145.,604
+89_Untamed-master,com.facebook.widget,Builder,build,Long Statement,The length of the statement "logDialogActivity(activity`fragment`getEventName(action`extras.containsKey(NativeProtocol.EXTRA_PHOTOS))`AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_FAILED);" is 160.,604
+89_Untamed-master,com.facebook.widget,Builder,getWebFallbackUrlInternal,Long Statement,The length of the statement "Bundle webParams=ServerProtocol.getQueryParamsForPlatformActivityIntentWebFallback(activity`appCall.getCallId().toString()`protocolVersion`applicationName`methodArguments);" is 172.,647
+89_Untamed-master,com.facebook.widget,OpenGraphDialogBuilderBase,OpenGraphDialogBuilderBase,Long Statement,The length of the statement "throw new IllegalArgumentException("A property named \"" + previewPropertyName + "\" was not found on the action. The name of "+ "the preview property must match the name of an action property.");" is 196.,1243
+89_Untamed-master,com.facebook.widget,OpenGraphDialogBuilderBase,OpenGraphDialogBuilderBase,Long Statement,The length of the statement "throw new IllegalArgumentException("'actionType' must match the type of 'action' if it is specified. " + "Consider using OpenGraphDialogBuilderBase(Activity activity` OpenGraphAction action` " + "String previewPropertyName) instead.");" is 235.,1243
+89_Untamed-master,com.facebook.widget,OpenGraphDialogBuilderBase,OpenGraphDialogBuilderBase,Long Statement,The length of the statement "throw new IllegalArgumentException("A property named \"" + previewPropertyName + "\" was not found on the action. The name of "+ "the preview property must match the name of an action property.");" is 196.,1281
+89_Untamed-master,com.facebook.widget,OpenGraphDialogBuilderBase,flattenObject,Complex Method,Cyclomatic complexity of the method is 8,1661
+89_Untamed-master,com.facebook.widget,FacebookFragment,openSessionForRead,Long Statement,The length of the statement "openSessionForRead(applicationId`permissions`SessionLoginBehavior.SSO_WITH_FALLBACK`Session.DEFAULT_AUTHORIZE_ACTIVITY_CODE);" is 125.,205
+89_Untamed-master,com.facebook.widget,FacebookFragment,openSessionForPublish,Long Statement,The length of the statement "openSessionForPublish(applicationId`permissions`SessionLoginBehavior.SSO_WITH_FALLBACK`Session.DEFAULT_AUTHORIZE_ACTIVITY_CODE);" is 128.,233
+89_Untamed-master,com.facebook.widget,FacebookFragment,openSession,Long Parameter List,The method has 5 parameters. ,261
+89_Untamed-master,com.facebook.widget,FacebookFragment,openSession,Long Statement,The length of the statement "Session.OpenRequest openRequest=new Session.OpenRequest(this).setPermissions(permissions).setLoginBehavior(behavior).setRequestCode(activityCode);" is 146.,261
+89_Untamed-master,com.facebook.widget,FriendPickerFragment,logAppEvents,Long Statement,The length of the statement "String outcome=doneButtonClicked ? AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_COMPLETED : AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_UNKNOWN;" is 149.,268
+89_Untamed-master,com.facebook.widget,FriendPickerFragment,setFriendPickerSettingsFromBundle,Empty catch clause,The method has an empty catch block.,312
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,prioritizeViewRange,Complex Method,Cyclomatic complexity of the method is 11,181
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,prioritizeViewRange,Long Identifier,The length of the identifier graphObjectsToPrefetchPicturesFor is 33.,181
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,getPictureUriOfGraphObject,Empty catch clause,The method has an empty catch block.,262
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,populateGraphObjectView,Complex Method,Cyclomatic complexity of the method is 8,351
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,getSectionAndItem,Complex Method,Cyclomatic complexity of the method is 8,497
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,getPosition,Complex Method,Cyclomatic complexity of the method is 8,544
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,getItemId,Empty catch clause,The method has an empty catch block.,629
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,getViewTypeCount,Magic Number,The method contains a magic number: 3,648
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,getItemViewType,Missing default,The following switch statement is missing a default case: switch (sectionAndItem.getType()) {,653
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,getView,Missing default,The following switch statement is missing a default case: switch (sectionAndItem.getType()) {,668
+89_Untamed-master,com.facebook.widget,GraphObjectAdapter,downloadProfilePicture,Long Statement,The length of the statement "ImageRequest.Builder builder=new ImageRequest.Builder(context.getApplicationContext()`pictureURI).setCallerTag(this).setCallback(new ImageRequest.Callback(){" is 157.,732
+89_Untamed-master,com.facebook.widget,GraphObjectPagingLoader,deliverResult,Complex Conditional,The conditional expression oldCursor != null && oldCursor != cursor && !oldCursor.isClosed() is complex.,103
+89_Untamed-master,com.facebook.widget,GraphObjectPagingLoader,addResults,Long Statement,The length of the statement "SimpleGraphObjectCursor<T> cursorToModify=(cursor == null || !appendResults) ? new SimpleGraphObjectCursor<T>() : new SimpleGraphObjectCursor<T>(cursor);" is 153.,190
+89_Untamed-master,com.facebook.widget,LikeView,parseAttributes,Long Statement,The length of the statement "auxiliaryViewPosition=AuxiliaryViewPosition.fromInt(a.getInt(R.styleable.com_facebook_like_view_auxiliary_view_position`AuxiliaryViewPosition.DEFAULT.getValue()));" is 163.,356
+89_Untamed-master,com.facebook.widget,LikeView,parseAttributes,Long Statement,The length of the statement "horizontalAlignment=HorizontalAlignment.fromInt(a.getInt(R.styleable.com_facebook_like_view_horizontal_alignment`HorizontalAlignment.DEFAULT.getValue()));" is 154.,356
+89_Untamed-master,com.facebook.widget,LikeView,initializeLikeButton,Long Statement,The length of the statement "LinearLayout.LayoutParams buttonLayout=new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT`LayoutParams.WRAP_CONTENT);" is 122.,423
+89_Untamed-master,com.facebook.widget,LikeView,initializeSocialSentenceView,Long Statement,The length of the statement "socialSentenceView.setTextSize(TypedValue.COMPLEX_UNIT_PX`getResources().getDimension(R.dimen.com_facebook_likeview_text_size));" is 128.,441
+89_Untamed-master,com.facebook.widget,LikeView,initializeSocialSentenceView,Long Statement,The length of the statement "LinearLayout.LayoutParams socialSentenceViewLayout=new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT`LayoutParams.MATCH_PARENT);" is 134.,441
+89_Untamed-master,com.facebook.widget,LikeView,initializeSocialSentenceView,Magic Number,The method contains a magic number: 2,441
+89_Untamed-master,com.facebook.widget,LikeView,initializeLikeCountView,Long Statement,The length of the statement "LinearLayout.LayoutParams likeCountViewLayout=new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT`LayoutParams.MATCH_PARENT);" is 129.,456
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Complex Conditional,The conditional expression likeViewStyle == Style.STANDARD && likeActionController != null && !Utility.isNullOrEmpty(likeActionController.getSocialSentence()) is complex.,545
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Complex Conditional,The conditional expression likeViewStyle == Style.BOX_COUNT && likeActionController != null && !Utility.isNullOrEmpty(likeActionController.getLikeCountString()) is complex.,545
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Complex Conditional,The conditional expression auxiliaryViewPosition == AuxiliaryViewPosition.TOP || (auxiliaryViewPosition == AuxiliaryViewPosition.INLINE && horizontalAlignment == HorizontalAlignment.RIGHT) is complex.,545
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Complex Method,Cyclomatic complexity of the method is 8,545
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Long Statement,The length of the statement "int viewGravity=horizontalAlignment == HorizontalAlignment.LEFT ? Gravity.LEFT : horizontalAlignment == HorizontalAlignment.CENTER ? Gravity.CENTER_HORIZONTAL : Gravity.RIGHT;" is 175.,545
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Long Statement,The length of the statement "if (likeViewStyle == Style.STANDARD && likeActionController != null && !Utility.isNullOrEmpty(likeActionController.getSocialSentence())) {" is 138.,545
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Long Statement,The length of the statement "else if (likeViewStyle == Style.BOX_COUNT && likeActionController != null && !Utility.isNullOrEmpty(likeActionController.getLikeCountString())) {" is 145.,545
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Long Statement,The length of the statement "containerView.setOrientation(auxiliaryViewPosition == AuxiliaryViewPosition.INLINE ? LinearLayout.HORIZONTAL : LinearLayout.VERTICAL);" is 134.,545
+89_Untamed-master,com.facebook.widget,LikeView,updateLayout,Long Statement,The length of the statement "if (auxiliaryViewPosition == AuxiliaryViewPosition.TOP || (auxiliaryViewPosition == AuxiliaryViewPosition.INLINE && horizontalAlignment == HorizontalAlignment.RIGHT)) {" is 168.,545
+89_Untamed-master,com.facebook.widget,LikeView,updateBoxCountCaretPosition,Long Statement,The length of the statement "likeBoxCountView.setCaretPosition(horizontalAlignment == HorizontalAlignment.RIGHT ? LikeBoxCountView.LikeBoxCountViewCaretPosition.RIGHT : LikeBoxCountView.LikeBoxCountViewCaretPosition.LEFT);" is 193.,614
+89_Untamed-master,com.facebook.widget,LoginButton,LoginButton,Long Statement,The length of the statement "this.setCompoundDrawablePadding(getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_compound_drawable_padding));" is 128.,224
+89_Untamed-master,com.facebook.widget,LoginButton,LoginButton,Long Statement,The length of the statement "this.setPadding(getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_padding_left)`getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_padding_top)`getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_padding_right)`getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_padding_bottom));" is 347.,224
+89_Untamed-master,com.facebook.widget,LoginButton,onDraw,Complex Conditional,The conditional expression !nuxChecked && nuxMode != ToolTipMode.NEVER_DISPLAY && !isInEditMode() is complex.,643
+89_Untamed-master,com.facebook.widget,LoginButton,showNuxPerSettings,Complex Conditional,The conditional expression settings != null && settings.getNuxEnabled() && getVisibility() == View.VISIBLE is complex.,653
+89_Untamed-master,com.facebook.widget,LoginButton,fetchUserInfo,Complex Method,Cyclomatic complexity of the method is 8,759
+89_Untamed-master,com.facebook.widget,LoginButton,onClick,Complex Method,Cyclomatic complexity of the method is 11,802
+89_Untamed-master,com.facebook.widget,LoginClickListener,onClick,Complex Method,Cyclomatic complexity of the method is 11,802
+89_Untamed-master,com.facebook.widget,PickerFragment,layoutActivityCircle,Magic Number,The method contains a magic number: .25f,578
+89_Untamed-master,com.facebook.widget,PickerFragment,inflateTitleBar,Complex Method,Cyclomatic complexity of the method is 9,642
+89_Untamed-master,com.facebook.widget,PickerFragment,inflateTitleBar,Long Statement,The length of the statement "final RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT`RelativeLayout.LayoutParams.MATCH_PARENT);" is 162.,642
+89_Untamed-master,com.facebook.widget,PickerFragment,updateAdapter,Complex Conditional,The conditional expression selectionHint != null && !selectionHint.isEmpty() && data != null is complex.,730
+89_Untamed-master,com.facebook.widget,PickerFragment,updateAdapter,Complex Method,Cyclomatic complexity of the method is 13,730
+89_Untamed-master,com.facebook.widget,PickerFragment,updateAdapter,Long Statement,The length of the statement "final int top=(view != null && anchorItem.getType() != GraphObjectAdapter.SectionAndItem.Type.ACTIVITY_CIRCLE) ? view.getTop() : 0;" is 131.,730
+89_Untamed-master,com.facebook.widget,PickerFragment,reprioritizeDownloads,Long Identifier,The length of the field PROFILE_PICTURE_PREFETCH_BUFFER is 31.,796
+89_Untamed-master,com.facebook.widget,PickerFragment,attach,Long Statement,The length of the statement "loader=(GraphObjectPagingLoader<T>)getLoaderManager().initLoader(0`null`new LoaderManager.LoaderCallbacks<SimpleGraphObjectCursor<T>>(){" is 136.,882
+89_Untamed-master,com.facebook.widget,LoadingStrategy,attach,Long Statement,The length of the statement "loader=(GraphObjectPagingLoader<T>)getLoaderManager().initLoader(0`null`new LoaderManager.LoaderCallbacks<SimpleGraphObjectCursor<T>>(){" is 136.,882
+89_Untamed-master,com.facebook.widget,PlacePickerFragment,onSearchBoxTextChanged,Long Identifier,The length of the field hasSearchTextChangedSinceLastQuery is 34.,197
+89_Untamed-master,com.facebook.widget,PlacePickerFragment,onLoadingData,Long Identifier,The length of the field hasSearchTextChangedSinceLastQuery is 34.,308
+89_Untamed-master,com.facebook.widget,PlacePickerFragment,logAppEvents,Long Statement,The length of the statement "String outcome=doneButtonClicked ? AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_COMPLETED : AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_UNKNOWN;" is 149.,323
+89_Untamed-master,com.facebook.widget,PlacePickerFragment,createRequest,Long Parameter List,The method has 6 parameters. ,385
+89_Untamed-master,com.facebook.widget,PlacePickerFragment,createSearchTextTimer,Long Identifier,The length of the field searchTextTimerDelayInMilliseconds is 34.,429
+89_Untamed-master,com.facebook.widget,PlacePickerFragment,onSearchTextTimerTriggered,Long Identifier,The length of the field hasSearchTextChangedSinceLastQuery is 34.,441
+89_Untamed-master,com.facebook.widget,ProfilePictureView,setPresetSize,Missing default,The following switch statement is missing a default case: switch (sizeType) {,161
+89_Untamed-master,com.facebook.widget,ProfilePictureView,setDefaultProfilePicture,Long Identifier,The length of the field customizedDefaultProfilePicture is 31.,249
+89_Untamed-master,com.facebook.widget,ProfilePictureView,onMeasure,Long Statement,The length of the statement "if (MeasureSpec.getMode(heightMeasureSpec) != MeasureSpec.EXACTLY && params.height == ViewGroup.LayoutParams.WRAP_CONTENT) {" is 124.,259
+89_Untamed-master,com.facebook.widget,ProfilePictureView,onMeasure,Long Statement,The length of the statement "if (MeasureSpec.getMode(widthMeasureSpec) != MeasureSpec.EXACTLY && params.width == ViewGroup.LayoutParams.WRAP_CONTENT) {" is 122.,259
+89_Untamed-master,com.facebook.widget,ProfilePictureView,onLayout,Long Parameter List,The method has 5 parameters. ,298
+89_Untamed-master,com.facebook.widget,ProfilePictureView,refreshImage,Complex Conditional,The conditional expression profileId == null || profileId.length() == 0 || ((queryWidth == ImageRequest.UNSPECIFIED_DIMENSION) && (queryHeight == ImageRequest.UNSPECIFIED_DIMENSION)) is complex.,391
+89_Untamed-master,com.facebook.widget,ProfilePictureView,refreshImage,Long Statement,The length of the statement "if (profileId == null || profileId.length() == 0 || ((queryWidth == ImageRequest.UNSPECIFIED_DIMENSION) && (queryHeight == ImageRequest.UNSPECIFIED_DIMENSION))) {" is 162.,391
+89_Untamed-master,com.facebook.widget,ProfilePictureView,setBlankProfilePicture,Long Identifier,The length of the field customizedDefaultProfilePicture is 31.,404
+89_Untamed-master,com.facebook.widget,ProfilePictureView,setBlankProfilePicture,Long Statement,The length of the statement "int blankImageResource=isCropped() ? R.drawable.com_facebook_profile_picture_blank_square : R.drawable.com_facebook_profile_picture_blank_portrait;" is 147.,404
+89_Untamed-master,com.facebook.widget,ProfilePictureView,sendImageRequest,Long Statement,The length of the statement "ImageRequest.Builder requestBuilder=new ImageRequest.Builder(getContext()`ImageRequest.getProfilePictureUrl(profileId`queryWidth`queryHeight));" is 143.,426
+89_Untamed-master,com.facebook.widget,ProfilePictureView,sendImageRequest,Long Statement,The length of the statement "ImageRequest request=requestBuilder.setAllowCachedRedirects(allowCachedResponse).setCallerTag(this).setCallback(new ImageRequest.Callback(){" is 140.,426
+89_Untamed-master,com.facebook.widget,ProfilePictureView,getPresetSizeInPixels,Missing default,The following switch statement is missing a default case: switch (presetSizeType) {,513
+89_Untamed-master,com.facebook.widget,ToolTipPopup,onScrollChanged,Complex Conditional,The conditional expression mAnchorViewRef.get() != null && mPopupWindow != null && mPopupWindow.isShowing() is complex.,64
+89_Untamed-master,com.facebook.widget,ToolTipPopup,show,Long Statement,The length of the statement "mPopupContent.onMeasure(View.MeasureSpec.makeMeasureSpec(decorWidth`View.MeasureSpec.AT_MOST)`View.MeasureSpec.makeMeasureSpec(decorHeight`View.MeasureSpec.AT_MOST));" is 166.,97
+89_Untamed-master,com.facebook.widget,UserSettingsFragment,updateUI,Long Statement,The length of the statement "connectedStateLabel.setTextColor(getResources().getColor(R.color.com_facebook_usersettingsfragment_connected_text_color));" is 122.,369
+89_Untamed-master,com.facebook.widget,UserSettingsFragment,updateUI,Long Statement,The length of the statement "connectedStateLabel.setShadowLayer(1f`0f`-1f`getResources().getColor(R.color.com_facebook_usersettingsfragment_connected_shadow_color));" is 136.,369
+89_Untamed-master,com.facebook.widget,UserSettingsFragment,updateUI,Long Statement,The length of the statement "noProfilePic.setBounds(0`0`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_width)`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_height));" is 233.,369
+89_Untamed-master,com.facebook.widget,UserSettingsFragment,getImageRequest,Empty catch clause,The method has an empty catch block.,413
+89_Untamed-master,com.facebook.widget,UserSettingsFragment,getImageRequest,Long Statement,The length of the statement "ImageRequest.Builder requestBuilder=new ImageRequest.Builder(getActivity()`ImageRequest.getProfilePictureUrl(user.getId()`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_width)`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_height)));" is 329.,413
+89_Untamed-master,com.facebook.widget,UserSettingsFragment,processImageResponse,Long Statement,The length of the statement "drawable.setBounds(0`0`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_width)`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_height));" is 229.,437
+89_Untamed-master,com.facebook.widget,WebDialog,WebDialog,Long Parameter List,The method has 5 parameters. ,125
+89_Untamed-master,com.facebook.widget,WebDialog,WebDialog,Long Statement,The length of the statement "Uri uri=Utility.buildUri(ServerProtocol.getDialogAuthority()`ServerProtocol.getAPIVersion() + "/" + ServerProtocol.DIALOG_PATH+ action`parameters);" is 147.,125
+89_Untamed-master,com.facebook.widget,WebDialog,onCreate,Long Statement,The length of the statement "contentFrameLayout.addView(crossImageView`new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 143.,210
+89_Untamed-master,com.facebook.widget,WebDialog,onCreate,Magic Number,The method contains a magic number: 2,210
+89_Untamed-master,com.facebook.widget,WebDialog,calculateSize,Long Statement,The length of the statement "int dialogWidth=Math.min(getScaledSize(width`metrics.density`NO_PADDING_SCREEN_WIDTH`MAX_PADDING_SCREEN_WIDTH)`metrics.widthPixels);" is 132.,277
+89_Untamed-master,com.facebook.widget,WebDialog,calculateSize,Long Statement,The length of the statement "int dialogHeight=Math.min(getScaledSize(height`metrics.density`NO_PADDING_SCREEN_HEIGHT`MAX_PADDING_SCREEN_HEIGHT)`metrics.heightPixels);" is 137.,277
+89_Untamed-master,com.facebook.widget,WebDialog,getScaledSize,Long Statement,The length of the statement "scaleFactor=MIN_SCALE_FACTOR + ((double)(maxPaddingSize - scaledSize)) / ((double)(maxPaddingSize - noPaddingSize)) * (1.0 - MIN_SCALE_FACTOR);" is 143.,297
+89_Untamed-master,com.facebook.widget,WebDialog,setUpWebView,Empty catch clause,The method has an empty catch block.,368
+89_Untamed-master,com.facebook.widget,WebDialog,setUpWebView,Long Statement,The length of the statement "webView.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT));" is 127.,368
+89_Untamed-master,com.facebook.widget,WebDialog,onWindowFocusChanged,Empty catch clause,The method has an empty catch block.,375
+89_Untamed-master,com.facebook.widget,WebDialog,shouldOverrideUrlLoading,Complex Conditional,The conditional expression Utility.isNullOrEmpty(error) && Utility.isNullOrEmpty(errorMessage) && errorCode == FacebookRequestError.INVALID_ERROR_CODE is complex.,401
+89_Untamed-master,com.facebook.widget,WebDialog,shouldOverrideUrlLoading,Complex Conditional,The conditional expression error != null && (error.equals("access_denied") || error.equals("OAuthAccessDeniedException")) is complex.,401
+89_Untamed-master,com.facebook.widget,WebDialog,shouldOverrideUrlLoading,Complex Method,Cyclomatic complexity of the method is 10,401
+89_Untamed-master,com.facebook.widget,WebDialog,shouldOverrideUrlLoading,Long Statement,The length of the statement "if (Utility.isNullOrEmpty(error) && Utility.isNullOrEmpty(errorMessage) && errorCode == FacebookRequestError.INVALID_ERROR_CODE) {" is 130.,401
+89_Untamed-master,com.facebook.widget,WebDialog,BuilderBase,Long Statement,The length of the statement "throw new FacebookException("Attempted to create a builder without an open" + " Active Session or a valid default Application ID.");" is 132.,505
+89_Untamed-master,com.facebook.widget,DialogWebViewClient,shouldOverrideUrlLoading,Complex Conditional,The conditional expression Utility.isNullOrEmpty(error) && Utility.isNullOrEmpty(errorMessage) && errorCode == FacebookRequestError.INVALID_ERROR_CODE is complex.,401
+89_Untamed-master,com.facebook.widget,DialogWebViewClient,shouldOverrideUrlLoading,Complex Conditional,The conditional expression error != null && (error.equals("access_denied") || error.equals("OAuthAccessDeniedException")) is complex.,401
+89_Untamed-master,com.facebook.widget,DialogWebViewClient,shouldOverrideUrlLoading,Complex Method,Cyclomatic complexity of the method is 10,401
+89_Untamed-master,com.facebook.widget,DialogWebViewClient,shouldOverrideUrlLoading,Long Statement,The length of the statement "if (Utility.isNullOrEmpty(error) && Utility.isNullOrEmpty(errorMessage) && errorCode == FacebookRequestError.INVALID_ERROR_CODE) {" is 130.,401
+89_Untamed-master,com.facebook.widget,BuilderBase,BuilderBase,Long Statement,The length of the statement "throw new FacebookException("Attempted to create a builder without an open" + " Active Session or a valid default Application ID.");" is 132.,505
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuAdapter,createMenu,Magic Number,The method contains a magic number: 300,75
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuAdapter,createMenu,Magic Number,The method contains a magic number: 300,75
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuLayout,onSwipe,Magic Number,The method contains a magic number: 2,167
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuLayout,swipe,Long Statement,The length of the statement "mMenuView.layout(mContentView.getWidth() - dis`mMenuView.getTop()`mContentView.getWidth() + mMenuView.getWidth() - dis`mMenuView.getBottom());" is 142.,205
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuLayout,smoothCloseMenu,Magic Number,The method contains a magic number: 350,234
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuLayout,smoothOpenMenu,Magic Number,The method contains a magic number: 350,241
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuLayout,onMeasure,Long Statement,The length of the statement "mMenuView.measure(MeasureSpec.makeMeasureSpec(0`MeasureSpec.UNSPECIFIED)`MeasureSpec.makeMeasureSpec(getMeasuredHeight()`MeasureSpec.EXACTLY));" is 143.,278
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuLayout,onLayout,Long Parameter List,The method has 5 parameters. ,286
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuLayout,onLayout,Long Statement,The length of the statement "mMenuView.layout(getMeasuredWidth()`0`getMeasuredWidth() + mMenuView.getMeasuredWidth()`mContentView.getMeasuredHeight());" is 122.,286
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuListView,onTouchEvent,Complex Conditional,The conditional expression mTouchPosition == oldPos && mTouchView != null && mTouchView.isOpen() is complex.,106
+89_Untamed-master,com.baoyz.swipemenulistview,SwipeMenuListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 19,106
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 2,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xE5,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0x18,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0x5E,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 90,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xC9,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xC9,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xCE,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 90,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xE5,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xE0,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0x3F,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 90,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xF9,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0x3F,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0x25,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 90,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0x30,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xB1,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xF5,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 90,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xC9,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xC9,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 0xCE,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,onCreate,Magic Number,The method contains a magic number: 90,28
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,create,Magic Number,The method contains a magic number: 2,42
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu1,Magic Number,The method contains a magic number: 0xE5,58
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu1,Magic Number,The method contains a magic number: 0x18,58
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu1,Magic Number,The method contains a magic number: 0x5E,58
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu1,Magic Number,The method contains a magic number: 90,58
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu1,Magic Number,The method contains a magic number: 0xC9,58
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu1,Magic Number,The method contains a magic number: 0xC9,58
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu1,Magic Number,The method contains a magic number: 0xCE,58
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu1,Magic Number,The method contains a magic number: 90,58
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu2,Magic Number,The method contains a magic number: 0xE5,75
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu2,Magic Number,The method contains a magic number: 0xE0,75
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu2,Magic Number,The method contains a magic number: 0x3F,75
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu2,Magic Number,The method contains a magic number: 90,75
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu2,Magic Number,The method contains a magic number: 0xF9,75
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu2,Magic Number,The method contains a magic number: 0x3F,75
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu2,Magic Number,The method contains a magic number: 0x25,75
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu2,Magic Number,The method contains a magic number: 90,75
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu3,Magic Number,The method contains a magic number: 0x30,92
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu3,Magic Number,The method contains a magic number: 0xB1,92
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu3,Magic Number,The method contains a magic number: 0xF5,92
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu3,Magic Number,The method contains a magic number: 90,92
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu3,Magic Number,The method contains a magic number: 0xC9,92
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu3,Magic Number,The method contains a magic number: 0xC9,92
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu3,Magic Number,The method contains a magic number: 0xCE,92
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,createMenu3,Magic Number,The method contains a magic number: 90,92
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,getViewTypeCount,Magic Number,The method contains a magic number: 3,151
+89_Untamed-master,com.baoyz.swipemenulistviewsample,DifferentMenuActivity,getItemViewType,Magic Number,The method contains a magic number: 3,157
+89_Untamed-master,com.baoyz.swipemenulistviewsample,AppAdapter,getViewTypeCount,Magic Number,The method contains a magic number: 3,151
+89_Untamed-master,com.baoyz.swipemenulistviewsample,AppAdapter,getItemViewType,Magic Number,The method contains a magic number: 3,157
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 0xC9,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 0xC9,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 0xCE,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 90,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 18,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 0xF9,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 0x3F,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 0x25,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,onCreate,Magic Number,The method contains a magic number: 90,39
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 0xC9,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 0xC9,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 0xCE,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 90,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 18,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 0xF9,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 0x3F,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 0x25,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,create,Magic Number,The method contains a magic number: 90,53
+89_Untamed-master,com.baoyz.swipemenulistviewsample,SimpleActivity,delete,Empty catch clause,The method has an empty catch block.,140
+89_Untamed-master,com.brons.untamed2,CommunityView,onCreate,Long Method,The method has 128 lines of code.,93
+89_Untamed-master,com.brons.untamed2,CommunityView,onCreate,Long Statement,The length of the statement "alert.setContentView(input).setMessage("Enter your confession below. Please refrain from posting harmful or offensive content.").setTitle("New Confession").setPositiveButton("Send"`new View.OnClickListener(){" is 208.,93
+89_Untamed-master,com.brons.untamed2,CommunityView,onCreate,Long Statement,The length of the statement "if (text.length() < 10) Toast.makeText(getApplicationContext()`"Your confession is too short!"`Toast.LENGTH_LONG).show();" is 121.,93
+89_Untamed-master,com.brons.untamed2,CommunityView,onCreate,Long Statement,The length of the statement "if (isLocationEnabled(this)) locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER`0`0`locationListener);" is 123.,93
+89_Untamed-master,com.brons.untamed2,CommunityView,onCreate,Magic Number,The method contains a magic number: 7,93
+89_Untamed-master,com.brons.untamed2,CommunityView,onCreate,Magic Number,The method contains a magic number: 10,93
+89_Untamed-master,com.brons.untamed2,CommunityView,onClick,Long Statement,The length of the statement "alert.setContentView(input).setMessage("Enter your confession below. Please refrain from posting harmful or offensive content.").setTitle("New Confession").setPositiveButton("Send"`new View.OnClickListener(){" is 208.,109
+89_Untamed-master,com.brons.untamed2,CommunityView,onClick,Long Statement,The length of the statement "if (text.length() < 10) Toast.makeText(getApplicationContext()`"Your confession is too short!"`Toast.LENGTH_LONG).show();" is 121.,109
+89_Untamed-master,com.brons.untamed2,CommunityView,onClick,Magic Number,The method contains a magic number: 7,109
+89_Untamed-master,com.brons.untamed2,CommunityView,onClick,Magic Number,The method contains a magic number: 10,109
+89_Untamed-master,com.brons.untamed2,CommunityView,onClick,Long Statement,The length of the statement "if (text.length() < 10) Toast.makeText(getApplicationContext()`"Your confession is too short!"`Toast.LENGTH_LONG).show();" is 121.,127
+89_Untamed-master,com.brons.untamed2,CommunityView,onClick,Magic Number,The method contains a magic number: 10,127
+89_Untamed-master,com.brons.untamed2,CommunityView,setupActionBar,Long Statement,The length of the statement "SpinnerAdapter adapter=ArrayAdapter.createFromResource(this`R.array.actions`android.R.layout.simple_spinner_dropdown_item);" is 123.,269
+89_Untamed-master,com.brons.untamed2,CommunityView,setupActionBar,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Location services not available. Please enable to view nearby posts."`Toast.LENGTH_LONG).show();" is 136.,269
+89_Untamed-master,com.brons.untamed2,CommunityView,setupActionBar,Magic Number,The method contains a magic number: 100,269
+89_Untamed-master,com.brons.untamed2,CommunityView,setupActionBar,Magic Number,The method contains a magic number: 100,269
+89_Untamed-master,com.brons.untamed2,CommunityView,onItemSelected,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Location services not available. Please enable to view nearby posts."`Toast.LENGTH_LONG).show();" is 136.,307
+89_Untamed-master,com.brons.untamed2,CommunityView,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Location services not available. Please enable to view nearby posts."`Toast.LENGTH_LONG).show();" is 136.,314
+89_Untamed-master,com.brons.untamed2,CommunityView,doInBackground,Long Statement,The length of the statement "if (location != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/get_posts"`token`cidd[pcid]`"location"`Double.toString(location.getLatitude())`Double.toString(location.getLongitude())`page);" is 217.,367
+89_Untamed-master,com.brons.untamed2,CommunityView,doInBackground,Long Statement,The length of the statement "else json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/get_posts"`token`cidd[pcid]`"community"`""`""`page);" is 126.,367
+89_Untamed-master,com.brons.untamed2,CommunityView,doInBackground,Long Statement,The length of the statement "json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/get_posts"`token`cidd[pcid]`"community"`""`""`page);" is 121.,367
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Complex Method,Cyclomatic complexity of the method is 12,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Method,The method has 170 lines of code.,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Error retrieving posts. Please try again later. Error Code: 0x0001"`Toast.LENGTH_SHORT).show();" is 135.,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "Post post=new Post(c.getInt("id")`c.getString("pid")`mask.getString("color")`mask.getString("class")`c.getInt("is_auth")`0`c.getString("text")`c.getInt("like_count")`c.getInt("comment_count")`c.getLong("time_posted")`0);" is 220.,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "String tmp=post.getText().replaceAll("<br>"`"\n").replaceAll("&hellip;"`"... ").replaceAll("&amp;"`"&").replaceAll("&ndash;"`"-").replaceAll("&quot;"`"\"").replaceAll("&ldquo;"`"\"").replaceAll("&rdquo;"`"\"").replaceAll("&lsquo;"`"\'").replaceAll("&rdquo;"`"\'").replaceAll("&gt;"`">").replaceAll("&lt;"`"<");" is 310.,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "map.put("like_count"`String.valueOf(post.getLike_count()) + " Votes " + String.valueOf(post.getComment_count())+ " Comments");" is 126.,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "ListAdapter adapter=new SimpleAdapter(CommunityView.this`postlist`R.layout.post_list_item`(new String[]{"text"`"like_count"`"mask_class"`"time_posted"})`(new int[]{R.id.text`R.id.likes`R.id.avatar`R.id.expires})){" is 213.,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "if (list.getLastVisiblePosition() == list.getAdapter().getCount() - 1 && list.getChildAt(list.getChildCount() - 1).getBottom() <= list.getHeight()) {" is 149.,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 1000,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 1000,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 60,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 60,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 24,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 7,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 200,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 200,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 40,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 16,416
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Magic Number,The method contains a magic number: 2,416
+89_Untamed-master,com.brons.untamed2,CommunityView,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Error retrieving posts. Please try again later. Error Code: 0x0001"`Toast.LENGTH_SHORT).show();" is 135.,422
+89_Untamed-master,com.brons.untamed2,CommunityView,getView,Magic Number,The method contains a magic number: 40,514
+89_Untamed-master,com.brons.untamed2,CommunityView,getView,Magic Number,The method contains a magic number: 16,514
+89_Untamed-master,com.brons.untamed2,CommunityView,onScroll,Long Statement,The length of the statement "if (list.getLastVisiblePosition() == list.getAdapter().getCount() - 1 && list.getChildAt(list.getChildCount() - 1).getBottom() <= list.getHeight()) {" is 149.,605
+89_Untamed-master,com.brons.untamed2,CommunityView,onOptionsItemSelected,Long Statement,The length of the statement "logoutDialog.setTitle("Log out?").setMessage("Are you sure you want to log out?").setPositiveButton(android.R.string.yes`new View.OnClickListener(){" is 148.,682
+89_Untamed-master,com.brons.untamed2,CommunityView,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,682
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot report post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,810
+89_Untamed-master,com.brons.untamed2,CommunityView,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot report post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,815
+89_Untamed-master,com.brons.untamed2,CommunityView,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_post"`token`args[0]`cidd[cid]`0);" is 125.,909
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot submit post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,947
+89_Untamed-master,com.brons.untamed2,CommunityView,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot submit post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,952
+89_Untamed-master,com.brons.untamed2,CommunityView,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_vote"`token`args[1]`args[0]`false);" is 127.,995
+89_Untamed-master,com.brons.untamed2,CommunityView,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,1033
+89_Untamed-master,com.brons.untamed2,CommunityView,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,1037
+89_Untamed-master,com.brons.untamed2,JSONParse,doInBackground,Long Statement,The length of the statement "if (location != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/get_posts"`token`cidd[pcid]`"location"`Double.toString(location.getLatitude())`Double.toString(location.getLongitude())`page);" is 217.,367
+89_Untamed-master,com.brons.untamed2,JSONParse,doInBackground,Long Statement,The length of the statement "else json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/get_posts"`token`cidd[pcid]`"community"`""`""`page);" is 126.,367
+89_Untamed-master,com.brons.untamed2,JSONParse,doInBackground,Long Statement,The length of the statement "json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/get_posts"`token`cidd[pcid]`"community"`""`""`page);" is 121.,367
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Complex Method,Cyclomatic complexity of the method is 12,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Method,The method has 170 lines of code.,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Error retrieving posts. Please try again later. Error Code: 0x0001"`Toast.LENGTH_SHORT).show();" is 135.,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "Post post=new Post(c.getInt("id")`c.getString("pid")`mask.getString("color")`mask.getString("class")`c.getInt("is_auth")`0`c.getString("text")`c.getInt("like_count")`c.getInt("comment_count")`c.getLong("time_posted")`0);" is 220.,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "String tmp=post.getText().replaceAll("<br>"`"\n").replaceAll("&hellip;"`"... ").replaceAll("&amp;"`"&").replaceAll("&ndash;"`"-").replaceAll("&quot;"`"\"").replaceAll("&ldquo;"`"\"").replaceAll("&rdquo;"`"\"").replaceAll("&lsquo;"`"\'").replaceAll("&rdquo;"`"\'").replaceAll("&gt;"`">").replaceAll("&lt;"`"<");" is 310.,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "map.put("like_count"`String.valueOf(post.getLike_count()) + " Votes " + String.valueOf(post.getComment_count())+ " Comments");" is 126.,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "ListAdapter adapter=new SimpleAdapter(CommunityView.this`postlist`R.layout.post_list_item`(new String[]{"text"`"like_count"`"mask_class"`"time_posted"})`(new int[]{R.id.text`R.id.likes`R.id.avatar`R.id.expires})){" is 213.,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "if (list.getLastVisiblePosition() == list.getAdapter().getCount() - 1 && list.getChildAt(list.getChildCount() - 1).getBottom() <= list.getHeight()) {" is 149.,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 1000,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 1000,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 60,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 60,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 24,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 7,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 200,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 200,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 16,416
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 2,416
+89_Untamed-master,com.brons.untamed2,JSONParse,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Error retrieving posts. Please try again later. Error Code: 0x0001"`Toast.LENGTH_SHORT).show();" is 135.,422
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,514
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 16,514
+89_Untamed-master,com.brons.untamed2,JSONParse,onScroll,Long Statement,The length of the statement "if (list.getLastVisiblePosition() == list.getAdapter().getCount() - 1 && list.getChildAt(list.getChildCount() - 1).getBottom() <= list.getHeight()) {" is 149.,605
+89_Untamed-master,com.brons.untamed2,ReportJSONParse,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot report post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,810
+89_Untamed-master,com.brons.untamed2,ReportJSONParse,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot report post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,815
+89_Untamed-master,com.brons.untamed2,SendConfJSONParse,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_post"`token`args[0]`cidd[cid]`0);" is 125.,909
+89_Untamed-master,com.brons.untamed2,SendConfJSONParse,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot submit post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,947
+89_Untamed-master,com.brons.untamed2,SendConfJSONParse,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot submit post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,952
+89_Untamed-master,com.brons.untamed2,Vote,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_vote"`token`args[1]`args[0]`false);" is 127.,995
+89_Untamed-master,com.brons.untamed2,Vote,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,1033
+89_Untamed-master,com.brons.untamed2,Vote,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,1037
+89_Untamed-master,com.brons.untamed2,LoginActivity,isPasswordValid,Magic Number,The method contains a magic number: 4,238
+89_Untamed-master,com.brons.untamed2,LoginActivity,onCreateLoader,Long Statement,The length of the statement "return new CursorLoader(this`Uri.withAppendedPath(ContactsContract.Profile.CONTENT_URI`ContactsContract.Contacts.Data.CONTENT_DIRECTORY)`ProfileQuery.PROJECTION`ContactsContract.Contacts.Data.MIMETYPE + " = ?"`new String[]{ContactsContract.CommonDataKinds.Email.CONTENT_ITEM_TYPE}`ContactsContract.Contacts.Data.IS_PRIMARY + " DESC");" is 334.,284
+89_Untamed-master,com.brons.untamed2,LoginActivity,addEmailsToAutoComplete,Long Statement,The length of the statement "ArrayAdapter<String> adapter=new ArrayAdapter<String>(LoginActivity.this`android.R.layout.simple_dropdown_item_1line`emailAddressCollection);" is 141.,360
+89_Untamed-master,com.brons.untamed2,Message,Message,Long Parameter List,The method has 11 parameters. ,19
+89_Untamed-master,com.brons.untamed2,Message,Message,Long Parameter List,The method has 10 parameters. ,45
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Complex Method,Cyclomatic complexity of the method is 17,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Long Method,The method has 154 lines of code.,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Long Statement,The length of the statement "Message post=new Message(c.getString("eid")`c.getString("pid")`c.getString("pak")`c.getInt("is_unseen")`c.getInt("is_author")`c.getString("mask_class")`c.getString("mask_hex")`c.getString("summary_text")`c.getString("message_state")`c.getLong("update_timestamp")`0);" is 266.,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Long Statement,The length of the statement "ListAdapter adapter=new SimpleAdapter(MessageList.this`postlist`R.layout.list_v`(new String[]{"summary_text"`"is_unseen"`"update_timestamp"`"mask_class"`"mask_hex"`"expire_timestamp"})`(new int[]{R.id.text`R.id.comments`R.id.likes`R.id.avatar`R.id.hexname`R.id.expires})){" is 272.,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 1000,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 1000,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 60,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 60,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 24,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 7,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 2,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 2,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 20,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,MessageList,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,MessageList,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,MessageList,getView,Magic Number,The method contains a magic number: 20,311
+89_Untamed-master,com.brons.untamed2,MessageList,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,MessageList,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,MessageList,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,MessageList,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,MessageList,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,MessageList,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,MessageList,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,414
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Complex Method,Cyclomatic complexity of the method is 17,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Method,The method has 154 lines of code.,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "Message post=new Message(c.getString("eid")`c.getString("pid")`c.getString("pak")`c.getInt("is_unseen")`c.getInt("is_author")`c.getString("mask_class")`c.getString("mask_hex")`c.getString("summary_text")`c.getString("message_state")`c.getLong("update_timestamp")`0);" is 266.,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "ListAdapter adapter=new SimpleAdapter(MessageList.this`postlist`R.layout.list_v`(new String[]{"summary_text"`"is_unseen"`"update_timestamp"`"mask_class"`"mask_hex"`"expire_timestamp"})`(new int[]{R.id.text`R.id.comments`R.id.likes`R.id.avatar`R.id.hexname`R.id.expires})){" is 272.,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 1000,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 1000,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 60,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 60,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 24,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 7,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 2,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 2,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 20,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,200
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 20,311
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,311
+89_Untamed-master,com.brons.untamed2,NewMessage,onCreate,Long Statement,The length of the statement "fair.setText("BE FAIR: Messages that engage in bullying or harassment can lead to the permanent banning of your account on Untamed.");" is 134.,42
+89_Untamed-master,com.brons.untamed2,NewMessage,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_post"`token`text`cids[cid]`0);" is 122.,115
+89_Untamed-master,com.brons.untamed2,NewMessage,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot submit post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,154
+89_Untamed-master,com.brons.untamed2,NewMessage,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot submit post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,159
+89_Untamed-master,com.brons.untamed2,JSONParse,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_post"`token`text`cids[cid]`0);" is 122.,115
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot submit post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,154
+89_Untamed-master,com.brons.untamed2,JSONParse,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot submit post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,159
+89_Untamed-master,com.brons.untamed2,Post,Post,Long Parameter List,The method has 11 parameters. ,17
+89_Untamed-master,com.brons.untamed2,SettingsActivity,isXLargeTablet,Long Statement,The length of the statement "return (context.getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_XLARGE;" is 145.,137
+89_Untamed-master,com.brons.untamed2,SettingsActivity,bindPreferenceSummaryToValue,Long Identifier,The length of the field sBindPreferenceSummaryToValueListener is 37.,219
+89_Untamed-master,com.brons.untamed2,SettingsActivity,bindPreferenceSummaryToValue,Long Statement,The length of the statement "sBindPreferenceSummaryToValueListener.onPreferenceChange(preference`PreferenceManager.getDefaultSharedPreferences(preference.getContext()).getString(preference.getKey()`""));" is 174.,219
+89_Untamed-master,com.brons.untamed2,SinglePost,onCreate,Long Method,The method has 144 lines of code.,81
+89_Untamed-master,com.brons.untamed2,SinglePost,onCreate,Magic Number,The method contains a magic number: 3,81
+89_Untamed-master,com.brons.untamed2,SinglePost,onClick,Magic Number,The method contains a magic number: 3,211
+89_Untamed-master,com.brons.untamed2,SinglePost,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/get_comments"`token`args[0]`false);" is 123.,272
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Complex Method,Cyclomatic complexity of the method is 9,307
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Empty catch clause,The method has an empty catch block.,307
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Long Method,The method has 121 lines of code.,307
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,307
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Long Statement,The length of the statement "String tmp=text.replaceAll("<br>"`"\n").replaceAll("&hellip;"`"... ").replaceAll("&amp;"`"&").replaceAll("&ndash;"`"-").replaceAll("&quot;"`"\"").replaceAll("&ldquo;"`"\"").replaceAll("&rdquo;"`"\"").replaceAll("&lsquo;"`"\'").replaceAll("&rdquo;"`"\'").replaceAll("&gt;"`">").replaceAll("&lt;"`"<");" is 300.,307
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Long Statement,The length of the statement "ListAdapter adapter=new SimpleAdapter(SinglePost.this`commentList`R.layout.post_list_item_dark`(new String[]{"text"`"like_count"`"mask_class"`"relative_time"})`(new int[]{R.id.text`R.id.likes`R.id.avatar`R.id.expires})){" is 220.,307
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Magic Number,The method contains a magic number: 40,307
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Magic Number,The method contains a magic number: 16,307
+89_Untamed-master,com.brons.untamed2,SinglePost,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,314
+89_Untamed-master,com.brons.untamed2,SinglePost,getView,Magic Number,The method contains a magic number: 40,376
+89_Untamed-master,com.brons.untamed2,SinglePost,getView,Magic Number,The method contains a magic number: 16,376
+89_Untamed-master,com.brons.untamed2,SinglePost,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_vote"`token`args[1]`args[0]`false);" is 127.,524
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,561
+89_Untamed-master,com.brons.untamed2,SinglePost,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,565
+89_Untamed-master,com.brons.untamed2,SinglePost,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_comment"`token`args[0]`args[1]`args[2]`false);" is 138.,585
+89_Untamed-master,com.brons.untamed2,SinglePost,doInBackground,Magic Number,The method contains a magic number: 2,585
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,620
+89_Untamed-master,com.brons.untamed2,SinglePost,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,624
+89_Untamed-master,com.brons.untamed2,SinglePost,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot report post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,687
+89_Untamed-master,com.brons.untamed2,SinglePost,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot report post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,692
+89_Untamed-master,com.brons.untamed2,JSONParse,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/get_comments"`token`args[0]`false);" is 123.,272
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Complex Method,Cyclomatic complexity of the method is 9,307
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Empty catch clause,The method has an empty catch block.,307
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Method,The method has 121 lines of code.,307
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,307
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "String tmp=text.replaceAll("<br>"`"\n").replaceAll("&hellip;"`"... ").replaceAll("&amp;"`"&").replaceAll("&ndash;"`"-").replaceAll("&quot;"`"\"").replaceAll("&ldquo;"`"\"").replaceAll("&rdquo;"`"\"").replaceAll("&lsquo;"`"\'").replaceAll("&rdquo;"`"\'").replaceAll("&gt;"`">").replaceAll("&lt;"`"<");" is 300.,307
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Long Statement,The length of the statement "ListAdapter adapter=new SimpleAdapter(SinglePost.this`commentList`R.layout.post_list_item_dark`(new String[]{"text"`"like_count"`"mask_class"`"relative_time"})`(new int[]{R.id.text`R.id.likes`R.id.avatar`R.id.expires})){" is 220.,307
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 40,307
+89_Untamed-master,com.brons.untamed2,JSONParse,onPostExecute,Magic Number,The method contains a magic number: 16,307
+89_Untamed-master,com.brons.untamed2,JSONParse,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,314
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 40,376
+89_Untamed-master,com.brons.untamed2,JSONParse,getView,Magic Number,The method contains a magic number: 16,376
+89_Untamed-master,com.brons.untamed2,Vote,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_vote"`token`args[1]`args[0]`false);" is 127.,524
+89_Untamed-master,com.brons.untamed2,Vote,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,561
+89_Untamed-master,com.brons.untamed2,Vote,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,565
+89_Untamed-master,com.brons.untamed2,Comment,doInBackground,Long Statement,The length of the statement "if (token != null) json=jParser.getJSONFromUrl("https://beuntamed.com/app/api/2.0/posts/add_comment"`token`args[0]`args[1]`args[2]`false);" is 138.,585
+89_Untamed-master,com.brons.untamed2,Comment,doInBackground,Magic Number,The method contains a magic number: 2,585
+89_Untamed-master,com.brons.untamed2,Comment,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,620
+89_Untamed-master,com.brons.untamed2,Comment,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot retrieve post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 135.,624
+89_Untamed-master,com.brons.untamed2,ReportJSONParse,onPostExecute,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot report post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,687
+89_Untamed-master,com.brons.untamed2,ReportJSONParse,run,Long Statement,The length of the statement "Toast.makeText(getApplicationContext()`"Cannot report post. Please try again later or contact the admins"`Toast.LENGTH_SHORT).show();" is 133.,692

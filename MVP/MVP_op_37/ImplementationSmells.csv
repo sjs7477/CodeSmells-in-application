@@ -1,0 +1,437 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+LazyWaimai-Android-master,com.cheikh.lazywaimai,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,12
+LazyWaimai-Android-master,com.cheikh.lazywaimai,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,12
+LazyWaimai-Android-master,com.cheikh.lazywaimai,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,12
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,AddressesActivity,onFinishRequest,Long Statement,The length of the statement "mMultiStateView.setState(MultiStateView.STATE_EMPTY).setTitle(R.string.label_empty_address_list).setButton(new View.OnClickListener(){" is 134.,92
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,SettleActivity,onSettleFinish,Long Statement,The length of the statement "mOnlinePaymentTxt.setCompoundDrawables(null`null`mSettleResult.isOnlinePayment() ? mOnlineDrawable : mOfflineDrawable`null);" is 124.,108
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,SettleActivity,onSettleFinish,Long Statement,The length of the statement "mOfflinePaymentTxt.setCompoundDrawables(null`null`mSettleResult.isOnlinePayment() ? mOfflineDrawable : mOnlineDrawable`null);" is 125.,108
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,SettleActivity,onOrderCreateFinish,Magic Number,The method contains a magic number: 2000,155
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,BusinessActivity,onFavoriteFinish,Long Statement,The length of the statement "ToastUtil.showToast(isLike ? R.string.toast_success_favorite_business : R.string.toast_success_cancel_favorite_business);" is 121.,66
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,SettingActivity,handleLogoutClick,Long Statement,The length of the statement "new AlertDialog.Builder(this).setTitle(R.string.dialog_logout_title).setMessage(R.string.dialog_logout_message).setCancelable(false).setPositiveButton(R.string.dialog_confirm`new DialogInterface.OnClickListener(){" is 213.,79
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,OrderDetailActivity,showOrderInfo,Long Statement,The length of the statement "mDeliverTimeTxt.setText(DateUtil.DateToString(new Date(order.getBookedTime() * 1000)`DateUtil.DateStyle.YYYY_MM_DD_HH_MM));" is 123.,99
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,OrderDetailActivity,showOrderInfo,Magic Number,The method contains a magic number: 1000,99
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,OrderDetailActivity,onResponseError,Long Statement,The length of the statement "mMultiStateView.setState(MultiStateView.STATE_ERROR).setTitle(error.getMessage()).setButton(null`new View.OnClickListener(){" is 124.,124
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,MainActivity,initializeViews,Long Statement,The length of the statement "FragmentPagerItems pages=FragmentPagerItems.with(this).add(R.string.tab_home`ShopFragment.class).add(R.string.tab_orders`OrdersFragment.class).add(R.string.tab_me`UserCenterFragment.class).create();" is 198.,52
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,MainActivity,handleIntent,Magic Number,The method contains a magic number: 2,83
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,MainActivity,handleIntent,Missing default,The following switch statement is missing a default case: switch (tab) {,83
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,SplashActivity,onCreate,Magic Number,The method contains a magic number: 2000,13
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.activity,UpdateAddressActivity,updateFinish,Long Statement,The length of the statement "ToastUtil.showToast(mOriginalAddress != null ? R.string.toast_success_address_update : R.string.toast_success_address_create);" is 126.,89
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.adapter.holder,OrderItemViewHolder,showOrderRelevantInfo,Magic Number,The method contains a magic number: 1000,68
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.adapter.holder,OrderItemViewHolder,updateButtonsByStatus,Missing default,The following switch statement is missing a default case: switch (status) {,89
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.adapter.holder,BusinessItemViewHolder,bind,Long Statement,The length of the statement "mMultiContentTxt.setText(StringFetcher.getString(R.string.label_business_multi_content`String.valueOf(business.getMinPrice())`String.valueOf(business.getShippingFee())`String.valueOf(business.getShippingTime())));" is 213.,44
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.adapter.holder,FavoriteItemViewHolder,bind,Long Statement,The length of the statement "mMultiContentTxt.setText(StringFetcher.getString(R.string.label_business_multi_content`String.valueOf(business.getMinPrice())`String.valueOf(business.getShippingFee())`String.valueOf(business.getShippingTime())));" is 213.,36
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui,Display,showFragment,Long Statement,The length of the statement "mActivity.getSupportFragmentManager().beginTransaction().setCustomAnimations(hasMainFragment() ? R.anim.right_in : 0`R.anim.left_out`R.anim.left_in`R.anim.right_out).replace(R.id.fragment_main`fragment).addToBackStack(null).commit();" is 233.,244
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.fragment,ProductFragment,onChangeItem,Long Statement,The length of the statement "mMultiStateView.setState(MultiStateView.STATE_EMPTY).setTitle(R.string.label_empty_product_list).setButton(new View.OnClickListener(){" is 134.,157
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.fragment,ProductFragment,refreshBottomUi,Long Statement,The length of the statement "mSettleBtn.setText(distancePrice != 0 ? getString(R.string.label_distance_price`distancePrice) : getString(R.string.btn_settle));" is 129.,197
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.fragment,RegisterSecondStepFragment,initializeViews,Magic Number,The method contains a magic number: 30000,76
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.fragment,RegisterSecondStepFragment,sendCodeFinish,Magic Number,The method contains a magic number: 30000,93
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.fragment,RegisterThirdStepFragment,userCreateFinish,Magic Number,The method contains a magic number: 1500,73
+LazyWaimai-Android-master,com.cheikh.lazywaimai.ui.fragment,UserProfileFragment,selectUpdateAvatarMethod,Long Statement,The length of the statement "new AlertDialog.Builder(getContext()).setTitle(R.string.dialog_update_avatar_title).setItems(R.array.update_avatar`new DialogInterface.OnClickListener(){" is 153.,142
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,PicassoImageView,onLayout,Complex Conditional,The conditional expression changed && canLoadImage() && mPicassoHandler != null && !mPicassoHandler.isStarted() is complex.,106
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,PicassoImageView,onLayout,Long Parameter List,The method has 5 parameters. ,106
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,PicassoImageView,setPicassoHandler,Complex Conditional,The conditional expression mPicassoHandler != null && mPicassoHandler.isStarted() && !mPicassoHandler.isFinished() is complex.,157
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCartPanel,clearShoppingCart,Long Statement,The length of the statement "new AlertDialog.Builder(getContext()).setTitle(R.string.dialog_clear_shopping_cart_title).setMessage(R.string.dialog_clear_shopping_cart_message).setCancelable(false).setPositiveButton(R.string.dialog_confirm`new DialogInterface.OnClickListener(){" is 247.,70
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,FixWrapLayout,onLayout,Long Parameter List,The method has 5 parameters. ,169
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,SlidingTabLayout,createDefaultTabView,Long Statement,The length of the statement "textView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.MATCH_PARENT));" is 126.,153
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,SlidingTabLayout,scrollToTab,Complex Conditional,The conditional expression tabStripChildCount == 0 || tabIndex < 0 || tabIndex >= tabStripChildCount is complex.,229
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,SlidingTabLayout,onPageScrolled,Complex Conditional,The conditional expression (tabStripChildCount == 0) || (position < 0) || (position >= tabStripChildCount) is complex.,257
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,InternalViewPagerListener,onPageScrolled,Complex Conditional,The conditional expression (tabStripChildCount == 0) || (position < 0) || (position >= tabStripChildCount) is complex.,257
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,CountDownTimerView,startCountDown,Magic Number,The method contains a magic number: 1000.0,26
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,CountDownTimerView,startCountDown,Magic Number,The method contains a magic number: 1000,26
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,CountDownTimerView,onTick,Magic Number,The method contains a magic number: 1000.0,30
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,CountDownTimerView,setEnabled,Complex Conditional,The conditional expression enabled && countDownTimer != null && countDownTimer.isCountingDown() is complex.,57
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,ShoppingCountView,Long Statement,The length of the statement "mAddBtnBgColor=typeArray.getColor(R.styleable.ShoppingCountView_scv_add_btn_bg_color`ContextCompat.getColor(context`android.R.color.holo_blue_light));" is 150.,87
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,ShoppingCountView,Long Statement,The length of the statement "mAddBtnTextColor=typeArray.getColor(R.styleable.ShoppingCountView_scv_add_btn_text_color`ContextCompat.getColor(context`android.R.color.white));" is 144.,87
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,ShoppingCountView,Long Statement,The length of the statement "mMinusBtnBgColor=typeArray.getColor(R.styleable.ShoppingCountView_scv_minus_btn_bg_color`ContextCompat.getColor(context`android.R.color.white));" is 144.,87
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,ShoppingCountView,Long Statement,The length of the statement "mMinusBtnTextColor=typeArray.getColor(R.styleable.ShoppingCountView_scv_minus_btn_text_color`ContextCompat.getColor(context`android.R.color.holo_blue_light));" is 158.,87
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,initPaints,Magic Number,The method contains a magic number: 6,113
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,initPaints,Magic Number,The method contains a magic number: 6,113
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,initPaints,Magic Number,The method contains a magic number: 6,113
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickAddBtn,Magic Number,The method contains a magic number: 2,151
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickAddBtn,Magic Number,The method contains a magic number: 2,151
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickAddBtn,Magic Number,The method contains a magic number: 2,151
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickAddBtn,Magic Number,The method contains a magic number: 2,151
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickAddBtn,Magic Number,The method contains a magic number: 2,151
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickAddBtn,Magic Number,The method contains a magic number: 2,151
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickMinusBtn,Magic Number,The method contains a magic number: 2,162
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickMinusBtn,Magic Number,The method contains a magic number: 2,162
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickMinusBtn,Magic Number,The method contains a magic number: 2,162
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickMinusBtn,Magic Number,The method contains a magic number: 2,162
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickMinusBtn,Magic Number,The method contains a magic number: 2,162
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,isClickMinusBtn,Magic Number,The method contains a magic number: 2,162
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onMeasure,Magic Number,The method contains a magic number: 2,207
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onMeasure,Magic Number,The method contains a magic number: 3,207
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onMeasure,Magic Number,The method contains a magic number: 2,207
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onMeasure,Magic Number,The method contains a magic number: 2,207
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onDraw,Magic Number,The method contains a magic number: 255,214
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onDraw,Magic Number,The method contains a magic number: 255,214
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onDraw,Magic Number,The method contains a magic number: 255,214
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 2,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 2,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 2,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 2,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 4,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 2,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 4,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 3,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 2,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 4,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 2,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 4,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawAddButton,Magic Number,The method contains a magic number: 2,245
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawCountText,Magic Number,The method contains a magic number: 2,258
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawCountText,Magic Number,The method contains a magic number: 2f,258
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawCountText,Magic Number,The method contains a magic number: 2,258
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawCountText,Magic Number,The method contains a magic number: 2f,258
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawCountText,Magic Number,The method contains a magic number: 2,258
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawCountText,Magic Number,The method contains a magic number: 2f,258
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawCountText,Magic Number,The method contains a magic number: 2,258
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawCountText,Magic Number,The method contains a magic number: 2f,258
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Long Statement,The length of the statement "canvas.drawLine(mMinusBtnPosition - mHeight / 4`mHeight / 2`mMinusBtnPosition + mHeight / 4`mHeight / 2`mMinusTextPaint);" is 121.,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 10,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 20,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 6,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 4,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 4,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 10,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 20,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 6,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 4,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 4,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 3,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,drawMinusBtn,Magic Number,The method contains a magic number: 2,281
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Complex Method,Cyclomatic complexity of the method is 17,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Long Method,The method has 108 lines of code.,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 360,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 360,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 360,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 255,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 255,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 255,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,startStretchAnim,Magic Number,The method contains a magic number: 2,308
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onAnimationUpdate,Magic Number,The method contains a magic number: 360,323
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onAnimationUpdate,Magic Number,The method contains a magic number: 255,348
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onAnimationUpdate,Magic Number,The method contains a magic number: 2,373
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onAnimationUpdate,Magic Number,The method contains a magic number: 2,373
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onAnimationUpdate,Magic Number,The method contains a magic number: 2,398
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,onAnimationUpdate,Magic Number,The method contains a magic number: 2,398
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,createAnimLayer,Long Statement,The length of the statement "ll.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT));" is 129.,465
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,getViewLocation,Magic Number,The method contains a magic number: 2,498
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,setAnimStartLoc,Long Statement,The length of the statement "LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT`LinearLayout.LayoutParams.WRAP_CONTENT);" is 138.,510
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,getAnimOffset,Magic Number,The method contains a magic number: 2,524
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,buildAnimation,Magic Number,The method contains a magic number: 500,538
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,sp2px,Magic Number,The method contains a magic number: 0.5f,558
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,getTextHeight,Magic Number,The method contains a magic number: 33f,582
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ShoppingCountView,getTextHeight,Magic Number,The method contains a magic number: 29,582
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,FixedLinearLayoutManager,onMeasure,Complex Method,Cyclomatic complexity of the method is 11,28
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,FixedLinearLayoutManager,onMeasure,Long Statement,The length of the statement "measureScrapChild(recycler`i`View.MeasureSpec.makeMeasureSpec(i`View.MeasureSpec.UNSPECIFIED)`View.MeasureSpec.makeMeasureSpec(i`View.MeasureSpec.UNSPECIFIED)`mMeasuredDimension);" is 179.,28
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,FixedLinearLayoutManager,measureScrapChild,Long Parameter List,The method has 5 parameters. ,74
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,MultiStateView,init,Complex Method,Cyclomatic complexity of the method is 9,74
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,MultiStateView,init,Missing default,The following switch statement is missing a default case: switch (viewState) {,74
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,MultiStateView,getView,Missing default,The following switch statement is missing a default case: switch (state) {,177
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,MultiStateView,setView,Missing default,The following switch statement is missing a default case: switch (mState) {,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,MultiStateView,setViewForState,Complex Method,Cyclomatic complexity of the method is 12,243
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,MultiStateView,setViewForState,Missing default,The following switch statement is missing a default case: switch (state) {,243
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,MultiStateView,setButton,Complex Conditional,The conditional expression button != null && (button instanceof Button || button instanceof TextView) is complex.,447
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ProperRatingBar,init,Long Identifier,The length of the field DF_SYMBOLIC_TEXT_SELECTED_COLOR is 31.,73
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ProperRatingBar,init,Long Statement,The length of the statement "customTextSize=a.getDimensionPixelSize(R.styleable.ProperRatingBar_android_textSize`context.getResources().getDimensionPixelOffset(DF_SYMBOLIC_TEXT_SIZE_RES));" is 159.,73
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ProperRatingBar,init,Long Statement,The length of the statement "customTextSelectedColor=a.getColor(R.styleable.ProperRatingBar_prb_symbolicTickSelectedColor`DF_SYMBOLIC_TEXT_SELECTED_COLOR);" is 126.,73
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget,ProperRatingBar,init,Long Statement,The length of the statement "tickSpacing=a.getDimensionPixelOffset(R.styleable.ProperRatingBar_prb_tickSpacing`context.getResources().getDimensionPixelOffset(DF_TICK_SPACING_RES));" is 151.,73
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.section,SectionTextItemView,renderExtensionView,Long Statement,The length of the statement "LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT`RelativeLayout.LayoutParams.WRAP_CONTENT);" is 142.,27
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.section,SectionItemView,renderIconView,Magic Number,The method contains a magic number: 15,66
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,RefreshLayout,onInterceptTouchEvent,Complex Conditional,The conditional expression !mIsRefreshing && dy > mTouchSlop && !canChildScrollUp() is complex.,154
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,RefreshLayout,onInterceptTouchEvent,Missing default,The following switch statement is missing a default case: switch (ev.getAction()) {,154
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,RefreshLayout,canChildScrollUp,Long Statement,The length of the statement "return absListView.getChildCount() > 0 && (absListView.getFirstVisiblePosition() > 0 || absListView.getChildAt(0).getTop() < absListView.getPaddingTop());" is 154.,180
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,RefreshLayout,canChildScrollUp,Magic Number,The method contains a magic number: 14,180
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,RefreshLayout,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,198
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,RefreshLayout,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (e.getAction()) {,198
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,RefreshLayout,viewAnimateTranslationY,Magic Number,The method contains a magic number: 250,252
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,RefreshLayout,viewAnimateTranslationY,Magic Number,The method contains a magic number: 250,265
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Long Statement,The length of the statement "leftBackTranslate=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`-1`Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`0);" is 159.,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Long Statement,The length of the statement "rightBackTranslate=new TranslateAnimation(Animation.RELATIVE_TO_SELF`1`Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`0);" is 159.,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 179,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 0.5f,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 0.5f,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 600,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 5,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 225,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 359,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 0.5f,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 0.5f,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 300,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 2000,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,initAnimations,Magic Number,The method contains a magic number: 2000,51
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshHeaderView,getConfig,Magic Number,The method contains a magic number: 300,97
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshFooterView,init,Magic Number,The method contains a magic number: 100,24
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshFooterView,init,Magic Number,The method contains a magic number: 2,24
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshFooterView,init,Magic Number,The method contains a magic number: 2,24
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshFooterView,init,Magic Number,The method contains a magic number: 10,24
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshFooterView,init,Magic Number,The method contains a magic number: 10,24
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshFooterView,init,Magic Number,The method contains a magic number: 10,24
+LazyWaimai-Android-master,com.cheikh.lazywaimai.widget.refresh,DefaultRefreshFooterView,init,Magic Number,The method contains a magic number: 10,24
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,NetworkUtil,openWirelessSettings,Magic Number,The method contains a magic number: 10,24
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,NetworkUtil,isWifiConnected,Long Statement,The length of the statement "return cm != null && cm.getActiveNetworkInfo() != null && cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_WIFI;" is 127.,135
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,NetworkUtil,getIPAddress,Complex Method,Cyclomatic complexity of the method is 8,169
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Long Parameter List,The method has 6 parameters. ,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Long Statement,The length of the statement "int inBuff=(numSigBytes > 0 ? ((source[srcOffset] << 24) >>> 8) : 0) | (numSigBytes > 1 ? ((source[srcOffset + 1] << 24) >>> 16) : 0) | (numSigBytes > 2 ? ((source[srcOffset + 2] << 24) >>> 24) : 0);" is 199.,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 8,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 16,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 6,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 6,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode3to4,Missing default,The following switch statement is missing a default case: switch (numSigBytes) {,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Long Parameter List,The method has 5 parameters. ,260
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Long Parameter List,The method has 5 parameters. ,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Long Statement,The length of the statement "int inBuff=((source[d + off] << 24) >>> 8) | ((source[d + 1 + off] << 24) >>> 16) | ((source[d + 2 + off] << 24) >>> 24);" is 121.,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 2,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 3,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 4,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 2,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 3,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 4,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 24,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 8,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 24,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 16,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 2,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 24,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 24,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 18,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 12,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 0x3f,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 2,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 6,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 0x3f,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 3,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 0x3f,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 4,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 4,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 4,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 4,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,encode,Magic Number,The method contains a magic number: 4,288
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Long Parameter List,The method has 5 parameters. ,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Long Statement,The length of the statement "int outBuff=((decodabet[source[srcOffset]] << 24) >>> 6) | ((decodabet[source[srcOffset + 1]] << 24) >>> 12) | ((decodabet[source[srcOffset + 2]] << 24) >>> 18);" is 161.,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Long Statement,The length of the statement "int outBuff=((decodabet[source[srcOffset]] << 24) >>> 6) | ((decodabet[source[srcOffset + 1]] << 24) >>> 12) | ((decodabet[source[srcOffset + 2]] << 24) >>> 18)| ((decodabet[source[srcOffset + 3]] << 24) >>> 24);" is 212.,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 6,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 6,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 18,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 8,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 6,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 18,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 8,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,351
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Complex Conditional,The conditional expression (b4Posn == 3 && bytesLeft > 2) || (b4Posn == 4 && bytesLeft > 1) is complex.,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Complex Method,Cyclomatic complexity of the method is 11,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 3,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 4,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 2,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 4,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 0x7f,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 0x7f,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 3,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 2,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 4,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Base64,decode,Magic Number,The method contains a magic number: 4,491
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,ShoppingCartAnimation,createAnimLayer,Long Statement,The length of the statement "ll.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT));" is 129.,75
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,ShoppingCartAnimation,getAnimStartLoc,Magic Number,The method contains a magic number: 2,104
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,ShoppingCartAnimation,setAnimStartLoc,Long Statement,The length of the statement "LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT`LinearLayout.LayoutParams.WRAP_CONTENT);" is 138.,116
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,ShoppingCartAnimation,getAnimOffset,Magic Number,The method contains a magic number: 2,129
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,ShoppingCartAnimation,buildAnimation,Magic Number,The method contains a magic number: 500,143
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DoubleExitUtil,onKeyDown,Magic Number,The method contains a magic number: 2000,27
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatDiscount,Magic Number,The method contains a magic number: 10,56
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,toHex,Magic Number,The method contains a magic number: 2,145
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,toHex,Magic Number,The method contains a magic number: 240,145
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,toHex,Magic Number,The method contains a magic number: 4,145
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,toHex,Magic Number,The method contains a magic number: 16,145
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,toHex,Magic Number,The method contains a magic number: 15,145
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,toHex,Magic Number,The method contains a magic number: 16,145
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,copyToClipboard,Long Statement,The length of the statement "android.text.ClipboardManager clipboard=(android.text.ClipboardManager)context.getSystemService(Context.CLIPBOARD_SERVICE);" is 123.,160
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,copyToClipboard,Long Statement,The length of the statement "android.content.ClipboardManager clipboard=(android.content.ClipboardManager)context.getSystemService(Context.CLIPBOARD_SERVICE);" is 129.,160
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,stringToDBC,Magic Number,The method contains a magic number: 12288,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,stringToDBC,Magic Number,The method contains a magic number: 32,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,stringToDBC,Magic Number,The method contains a magic number: 65280,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,stringToDBC,Magic Number,The method contains a magic number: 65375,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,stringToDBC,Magic Number,The method contains a magic number: 65248,173
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 3,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 3,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 7,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 3,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 3,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 7,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 3,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 3,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 7,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,StringUtil,formatPhoneNumber,Magic Number,The method contains a magic number: 7,193
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,hexdigest,Empty catch clause,The method has an empty catch block.,256
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,hexdigest,Magic Number,The method contains a magic number: 32,256
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,hexdigest,Magic Number,The method contains a magic number: 16,256
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,hexdigest,Magic Number,The method contains a magic number: 0xF,256
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,hexdigest,Magic Number,The method contains a magic number: 4,256
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,hexdigest,Magic Number,The method contains a magic number: 0xF,256
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,getDeviceUsableMemory,Magic Number,The method contains a magic number: 1024,280
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,getDeviceUsableMemory,Magic Number,The method contains a magic number: 1024,280
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,gc,Complex Method,Cyclomatic complexity of the method is 8,296
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,SystemUtil,gc,Magic Number,The method contains a magic number: 100,296
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,FileUtil,writeFile,Magic Number,The method contains a magic number: 1024,297
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,FileUtil,deleteFile,Complex Method,Cyclomatic complexity of the method is 8,619
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getAccurateDate,Complex Method,Cyclomatic complexity of the method is 15,78
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getAccurateDate,Magic Number,The method contains a magic number: 100000000000L,78
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,StringToDate,Empty catch clause,The method has an empty catch block.,196
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,DateToString,Empty catch clause,The method has an empty catch block.,238
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getWeek,Complex Method,Cyclomatic complexity of the method is 8,644
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getWeek,Magic Number,The method contains a magic number: 2,644
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getWeek,Magic Number,The method contains a magic number: 3,644
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getWeek,Magic Number,The method contains a magic number: 4,644
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getWeek,Magic Number,The method contains a magic number: 5,644
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getWeek,Magic Number,The method contains a magic number: 6,644
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getIntervalDays,Magic Number,The method contains a magic number: 24,692
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getIntervalDays,Magic Number,The method contains a magic number: 60,692
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getIntervalDays,Magic Number,The method contains a magic number: 60,692
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DateUtil,getIntervalDays,Magic Number,The method contains a magic number: 1000,692
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DensityUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,44
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DensityUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,52
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DensityUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,60
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,DensityUtil,getDialogW,Magic Number,The method contains a magic number: 100,68
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,hide,Complex Conditional,The conditional expression view.getVisibility() == View.VISIBLE && (visibility == View.INVISIBLE || visibility == View.GONE) is complex.,98
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,CrossFadeDrawable,Magic Number,The method contains a magic number: 0xff,166
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,draw,Magic Number,The method contains a magic number: 255,185
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,draw,Magic Number,The method contains a magic number: 0xff,185
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,draw,Magic Number,The method contains a magic number: 0xff,185
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,draw,Magic Number,The method contains a magic number: 0xff,185
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,startCrossFade,Long Statement,The length of the statement "log("cross-fade animation start (" + Integer.toHexString(from.hashCode()) + " -> "+ Integer.toHexString(to.hashCode())+ ")");" is 125.,208
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,startCrossFade,Long Statement,The length of the statement "log("cross-fade animation ended (" + Integer.toHexString(from.hashCode()) + " -> "+ Integer.toHexString(to.hashCode())+ ")");" is 125.,208
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,onAnimationStart,Long Statement,The length of the statement "log("cross-fade animation start (" + Integer.toHexString(from.hashCode()) + " -> "+ Integer.toHexString(to.hashCode())+ ")");" is 125.,228
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,onAnimationEnd,Long Statement,The length of the statement "log("cross-fade animation ended (" + Integer.toHexString(from.hashCode()) + " -> "+ Integer.toHexString(to.hashCode())+ ")");" is 125.,237
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,AnimationUtils,drawableEquals,Long Statement,The length of the statement "return first.equals(second) || (first instanceof BitmapDrawable && second instanceof BitmapDrawable && Objects.equal(((BitmapDrawable)first).getBitmap()`((BitmapDrawable)second).getBitmap()));" is 192.,260
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,Fade,hide,Complex Conditional,The conditional expression view.getVisibility() == View.VISIBLE && (visibility == View.INVISIBLE || visibility == View.GONE) is complex.,98
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,CrossFadeDrawable,CrossFadeDrawable,Magic Number,The method contains a magic number: 0xff,166
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,CrossFadeDrawable,draw,Magic Number,The method contains a magic number: 255,185
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,CrossFadeDrawable,draw,Magic Number,The method contains a magic number: 0xff,185
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,CrossFadeDrawable,draw,Magic Number,The method contains a magic number: 0xff,185
+LazyWaimai-Android-master,com.cheikh.lazywaimai.util,CrossFadeDrawable,draw,Magic Number,The method contains a magic number: 0xff,185
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,RestApiClient,newRetrofitClient,Magic Number,The method contains a magic number: 1024,49
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,GsonHelper,builderGson,Long Statement,The length of the statement "@Override public Integer deserialize( JsonElement json` Type typeOfT` JsonDeserializationContext context) throws JsonParseException {" is 133.,31
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,GsonHelper,builderGson,Long Statement,The length of the statement "@Override public Date deserialize( JsonElement json` Type typeOfT` JsonDeserializationContext context) throws JsonParseException {" is 130.,31
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,GsonHelper,builderGson,Long Statement,The length of the statement "@Override public OrderStatus deserialize( JsonElement json` Type typeOfT` JsonDeserializationContext context) throws JsonParseException {" is 137.,31
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,GsonHelper,builderGson,Long Statement,The length of the statement "@Override public PayMethod deserialize( JsonElement json` Type typeOfT` JsonDeserializationContext context) throws JsonParseException {" is 135.,31
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,GsonHelper,builderGson,Long Statement,The length of the statement "@Override public Gender deserialize( JsonElement json` Type typeOfT` JsonDeserializationContext context) throws JsonParseException {" is 132.,31
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,ResponseErrorProxy,invoke,Complex Conditional,The conditional expression throwable instanceof ConnectTimeoutException || throwable instanceof SocketTimeoutException || throwable instanceof UnknownHostException|| throwable instanceof ConnectException is complex.,45
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,ResponseErrorProxy,invoke,Long Statement,The length of the statement "if (throwable instanceof ConnectTimeoutException || throwable instanceof SocketTimeoutException || throwable instanceof UnknownHostException|| throwable instanceof ConnectException) {" is 183.,45
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,ResponseErrorProxy,call,Complex Conditional,The conditional expression throwable instanceof ConnectTimeoutException || throwable instanceof SocketTimeoutException || throwable instanceof UnknownHostException|| throwable instanceof ConnectException is complex.,60
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,ResponseErrorProxy,call,Long Statement,The length of the statement "if (throwable instanceof ConnectTimeoutException || throwable instanceof SocketTimeoutException || throwable instanceof UnknownHostException|| throwable instanceof ConnectException) {" is 183.,60
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,ResponseErrorProxy,call,Complex Conditional,The conditional expression throwable instanceof ConnectTimeoutException || throwable instanceof SocketTimeoutException || throwable instanceof UnknownHostException|| throwable instanceof ConnectException is complex.,63
+LazyWaimai-Android-master,com.cheikh.lazywaimai.network,ResponseErrorProxy,call,Long Statement,The length of the statement "if (throwable instanceof ConnectTimeoutException || throwable instanceof SocketTimeoutException || throwable instanceof UnknownHostException|| throwable instanceof ConnectException) {" is 183.,63
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,OrderController,doFetchOrder,Long Statement,The length of the statement "mRestApiClient.orderService().detail(id).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Order>(){" is 151.,155
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,OrderController,doPayment,Long Statement,The length of the statement "mRestApiClient.orderService().payment(order.getId()`platformId`order.getTotalPrice()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Object>(){" is 197.,183
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,OrderController,doOrderSettle,Long Statement,The length of the statement "mRestApiClient.orderService().settle(shoppingCart.getBusinessId()`isOnlinePayment ? 1 : 0`new Gson().toJson(shoppingCart.getShoppingList())).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<SettleResult>(){" is 258.,211
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,OrderController,doOrderCreate,Long Statement,The length of the statement "mRestApiClient.orderService().submit(cartId`bookedAt`remark).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Order>(){" is 171.,241
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,OrderController,createUiCallbacks,Complex Method,Cyclomatic complexity of the method is 12,272
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,OrderController,createUiCallbacks,Magic Number,The method contains a magic number: 2000,272
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,OrderController,payment,Magic Number,The method contains a magic number: 2000,364
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,BusinessController,doFetchProducts,Long Statement,The length of the statement "mRestApiClient.businessService().products(business.getId()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<List<ProductCategory>>(){" is 186.,135
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,BusinessController,doFavoriteBusiness,Long Statement,The length of the statement "mRestApiClient.businessService().favorite(business.getId()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Favorite>(){" is 173.,164
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,BusinessController,createUiCallbacks,Complex Method,Cyclomatic complexity of the method is 8,202
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,MainController,MainController,Long Parameter List,The method has 6 parameters. ,30
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,MainController,doFetchSetting,Long Statement,The length of the statement "mRestApiClient.commonService().settings().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Setting>(){" is 154.,93
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,MainController,doFeedback,Long Statement,The length of the statement "mRestApiClient.commonService().feedback(feedback).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Feedback>(){" is 163.,110
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,AddressController,doCreateAddress,Long Statement,The length of the statement "mRestApiClient.addressService().create(address).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Address>(){" is 160.,72
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,AddressController,doChangeAddress,Long Statement,The length of the statement "mRestApiClient.addressService().change(address.getId()`address).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Address>(){" is 176.,96
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,AddressController,doDeleteAddress,Long Statement,The length of the statement "mRestApiClient.addressService().delete(address.getId()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Object>(){" is 167.,120
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,AddressController,doSetDefaultAddress,Long Statement,The length of the statement "mRestApiClient.accountService().setLastAddress(address.getUserId()`address.getId()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<User>(){" is 193.,144
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,UserController,doSendCode,Long Statement,The length of the statement "mRestApiClient.accountService().sendCode(mobile).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Boolean>(){" is 161.,106
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,UserController,doCheckCode,Long Statement,The length of the statement "mRestApiClient.accountService().verifyCode(mobile`code).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Boolean>(){" is 168.,135
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,UserController,doCreateUser,Long Statement,The length of the statement "mRestApiClient.accountService().register(mobile`password).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<Boolean>(){" is 170.,166
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,UserController,doSetUsername,Long Statement,The length of the statement "mRestApiClient.accountService().setUsername(AppCookie.getUserInfo().getId()`username).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<User>(){" is 195.,246
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,UserController,doSetNickname,Long Statement,The length of the statement "mRestApiClient.accountService().setNickname(AppCookie.getUserInfo().getId()`nickname).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RequestCallback<User>(){" is 195.,277
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,UserController,createUiCallbacks,Complex Method,Cyclomatic complexity of the method is 13,408
+LazyWaimai-Android-master,com.cheikh.lazywaimai.controller,UserController,createUiCallbacks,Long Method,The method has 105 lines of code.,408
+LazyWaimai-Android-master,com.cheikh.lazywaimai.model.bean,Product,toString,Long Statement,The length of the statement "return "Product{" + "id=" + _id + "` businessId="+ businessId+ "` name='"+ name+ '\''+ "` price="+ price+ "` description='"+ description+ '\''+ "` imagePath='"+ imagePath+ '\''+ "` monthSales="+ monthSales+ "` createdAt="+ createdAt+ '}';" is 238.,129
+LazyWaimai-Android-master,com.cheikh.lazywaimai.model.bean,User,toString,Long Statement,The length of the statement "return "User{" + "userId=" + id + "` username='"+ username+ '\''+ "` nickname='"+ nickname+ '\''+ "` mobile='"+ mobile+ '\''+ "` email='"+ email+ '\''+ "` avatarUrl='"+ avatarUrl+ '\''+ '}';" is 190.,96
+LazyWaimai-Android-master,com.cheikh.lazywaimai.model.bean,Business,toString,Long Statement,The length of the statement "return "Business{" + "id=" + id + "` name='"+ name+ '\''+ "` phone='"+ phone+ '\''+ "` address='"+ address+ '\''+ "` picUrl='"+ picUrl+ '\''+ "` shippingFee="+ shippingFee+ "` minPrice="+ minPrice+ "` shippingTime="+ shippingTime+ "` bulletin='"+ bulletin+ '\''+ "` isLike='"+ isLike+ '\''+ "` createdAt="+ createdAt+ '}';" is 322.,151
+LazyWaimai-Android-master,com.cheikh.lazywaimai.model.bean,ProductCategory,toString,Long Statement,The length of the statement "return "ProductCategory{" + "id=" + _id + "` businessId="+ businessId+ "` name='"+ name+ '\''+ "` description='"+ description+ '\''+ "` products="+ products+ '}';" is 162.,64
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BasePermissionActivity,requestPermission,Long Statement,The length of the statement "ActivityCompat.requestPermissions(this`needPermissions.toArray(new String[needPermissions.size()])`REQUEST_CODE_PERMISSION);" is 124.,22
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BasePermissionActivity,getDeniedPermissions,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`permission) != PackageManager.PERMISSION_GRANTED || ActivityCompat.shouldShowRequestPermissionRationale(this`permission)) {" is 166.,57
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BasePermissionActivity,onRequestPermissionsResult,Long Statement,The length of the statement "new AlertDialog.Builder(this).setTitle("提示信息").setMessage("当前应用缺少必要权限，该功能暂时无法使用。如若需要，请单击【确定】按钮前往设置中心进行权限授权。").setNegativeButton("取消"`new DialogInterface.OnClickListener(){" is 171.,76
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BaseTabFragment,initializeViews,Magic Number,The method contains a magic number: 3,31
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BaseTabFragment,onResume,Magic Number,The method contains a magic number: 255,54
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BaseListActivity,getEnableRefresh,Long Statement,The length of the statement "return mMultiStateView.getState() == MultiStateView.STATE_CONTENT || mMultiStateView.getState() == MultiStateView.STATE_EMPTY;" is 126.,75
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BaseListActivity,onResponseError,Long Statement,The length of the statement "mMultiStateView.setState(MultiStateView.STATE_ERROR).setIcon(getErrorIcon(error)).setTitle(getErrorTitle(error)).setButton(getErrorButton(error)`new View.OnClickListener(){" is 172.,159
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BaseTabActivity,initializeViews,Magic Number,The method contains a magic number: 3,34
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BaseTabActivity,onResume,Magic Number,The method contains a magic number: 255,57
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BaseListFragment,getEnableRefresh,Long Statement,The length of the statement "return mMultiStateView.getState() == MultiStateView.STATE_CONTENT || mMultiStateView.getState() == MultiStateView.STATE_EMPTY;" is 126.,71
+LazyWaimai-Android-master,com.cheikh.lazywaimai.base,BaseListFragment,onResponseError,Long Statement,The length of the statement "mMultiStateView.setState(MultiStateView.STATE_ERROR).setIcon(getErrorIcon(error)).setTitle(getErrorTitle(error)).setButton(getErrorButton(error)`new View.OnClickListener(){" is 172.,155

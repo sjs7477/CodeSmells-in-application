@@ -1,0 +1,26 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+39_MVVM-Projects-master,com.example.roomwordssamplejava,LiveDataTestUtil,getValue,Magic Number,The method contains a magic number: 2,27
+39_MVVM-Projects-master,com.example.roomwordssamplejava,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+39_MVVM-Projects-master,com.example.roomwordssamplejava,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+39_MVVM-Projects-master,com.example.roomwordssamplejava,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+39_MVVM-Projects-master,com.example.roomwordssamplejava.db,WordRoomDatabase,getDatabase,Long Statement,The length of the statement "INSTANCE=Room.databaseBuilder(context.getApplicationContext()`WordRoomDatabase.class`"word_database").fallbackToDestructiveMigration().build();" is 143.,26
+39_MVVM-Projects-master,com.example.roomwordssamplejava.db,WordRoomDatabase,PopulateDbAsync,Abstract Function Call From Constructor,The constructor PopulateDbAsync calls a virtual method wordDao.,64
+39_MVVM-Projects-master,com.example.roomwordssamplejava.db,PopulateDbAsync,PopulateDbAsync,Abstract Function Call From Constructor,The constructor PopulateDbAsync calls a virtual method wordDao.,64
+39_MVVM-Projects-master,com.example.roomwordssamplejava.ui,MainActivity,onCreate,Long Identifier,The length of the field NEW_WORD_ACTIVITY_REQUEST_CODE is 30.,30
+39_MVVM-Projects-master,com.example.roomwordssamplejava.ui,MainActivity,onClick,Long Identifier,The length of the field NEW_WORD_ACTIVITY_REQUEST_CODE is 30.,52
+39_MVVM-Projects-master,com.example.roomwordssamplejava.ui,MainActivity,onActivityResult,Long Identifier,The length of the field NEW_WORD_ACTIVITY_REQUEST_CODE is 30.,60
+39_MVVM-Projects-master,com.example.todolist_java,LiveDataTestUtil,getOrAwaitValue,Magic Number,The method contains a magic number: 2,12
+39_MVVM-Projects-master,com.example.todolist_java.database,TaskDaoTest,insertTask,Magic Number,The method contains a magic number: 2,52
+39_MVVM-Projects-master,com.example.todolist_java.database,TaskDaoTest,insertTask,Magic Number,The method contains a magic number: 2,52
+39_MVVM-Projects-master,com.example.todolist_java.database,TaskDaoTest,loadTaskById,Long Statement,The length of the statement "assertEquals(LiveDataTestUtil.getOrAwaitValue(database.taskDao().loadTaskById(id)).getDescription()`task1.getDescription());" is 124.,116
+39_MVVM-Projects-master,com.example.todolist_java.excecutor,AppExecutors,getInstance,Long Statement,The length of the statement "sInstance=new AppExecutors(Executors.newSingleThreadExecutor()`Executors.newFixedThreadPool(3)`new MainThreadExecutor());" is 121.,48
+39_MVVM-Projects-master,com.example.todolist_java.excecutor,AppExecutors,getInstance,Magic Number,The method contains a magic number: 3,48
+39_MVVM-Projects-master,com.example.todolist_java.recyclerview,TaskAdapter,getPriorityColor,Magic Number,The method contains a magic number: 2,110
+39_MVVM-Projects-master,com.example.todolist_java.recyclerview,TaskAdapter,getPriorityColor,Magic Number,The method contains a magic number: 3,110
+39_MVVM-Projects-master,com.example.todolist_java.recyclerview,TaskAdapter,getPriorityColor,Missing default,The following switch statement is missing a default case: switch (priority) {,110
+39_MVVM-Projects-master,com.example.todolist_java.ui,MainActivity,onCreate,Long Statement,The length of the statement "@Override public boolean onMove( RecyclerView recyclerView` RecyclerView.ViewHolder viewHolder` RecyclerView.ViewHolder target){" is 128.,61
+39_MVVM-Projects-master,com.example.todolist_java.ui,AddTaskActivityTest,testOnChangeLiveData,Magic Number,The method contains a magic number: 123,59
+39_MVVM-Projects-master,com.example.todolist_java.ui,AddTaskActivityTest,testLiveDataPopulateUICall,Magic Number,The method contains a magic number: 123,79
+39_MVVM-Projects-master,com.example.todolist_java.ui,MainActivityTest,onItemClickListener,Magic Number,The method contains a magic number: 5,68
+39_MVVM-Projects-master,com.example.todolist_java.ui,MainActivityTest,initData,Magic Number,The method contains a magic number: 123,119
+39_MVVM-Projects-master,com.example.todolist_java.ui,MainActivityTest,initData,Magic Number,The method contains a magic number: 123,119

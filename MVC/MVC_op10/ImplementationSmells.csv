@@ -1,0 +1,114 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+mvc-master,com.jerry_mar.mvc.widget,ImageView,setImageBitmap,Complex Conditional,The conditional expression thread != null && !thread.isInterrupted() && cur == thread is complex.,70
+mvc-master,com.jerry_mar.mvc.widget,ImageView,setImageBitmap,Magic Number,The method contains a magic number: 2,70
+mvc-master,com.jerry_mar.mvc.widget,ImageView,setImageBitmap,Magic Number,The method contains a magic number: 2,70
+mvc-master,com.jerry_mar.mvc.widget,ImageView,setImageBitmap,Missing default,The following switch statement is missing a default case: switch (shape) {,70
+mvc-master,com.jerry_mar.mvc.widget,ImageView,run,Complex Conditional,The conditional expression thread != null && !thread.isInterrupted() && cur == thread is complex.,78
+mvc-master,com.jerry_mar.mvc.widget,ImageView,run,Magic Number,The method contains a magic number: 2,78
+mvc-master,com.jerry_mar.mvc.widget,ImageView,run,Magic Number,The method contains a magic number: 2,78
+mvc-master,com.jerry_mar.mvc.widget,ImageView,run,Complex Conditional,The conditional expression thread != null && !thread.isInterrupted() && cur == thread is complex.,97
+mvc-master,com.jerry_mar.mvc.widget,TimerView,start,Long Parameter List,The method has 5 parameters. ,37
+mvc-master,com.jerry_mar.mvc.widget,RotateView,start,Magic Number,The method contains a magic number: 360,26
+mvc-master,com.jerry_mar.mvc.widget,RotateView,start,Magic Number,The method contains a magic number: 0.5f,26
+mvc-master,com.jerry_mar.mvc.widget,RotateView,start,Magic Number,The method contains a magic number: 0.5f,26
+mvc-master,com.jerry_mar.mvc.widget,RotateTextView,onDraw,Magic Number,The method contains a magic number: 2,38
+mvc-master,com.jerry_mar.mvc.widget,RotateTextView,onDraw,Magic Number,The method contains a magic number: 2,38
+mvc-master,com.jerry_mar.mvc.widget,RainView,initView,Magic Number,The method contains a magic number: 25,43
+mvc-master,com.jerry_mar.mvc.widget,RainView,initView,Magic Number,The method contains a magic number: 1.2f,43
+mvc-master,com.jerry_mar.mvc.widget,RainView,initView,Magic Number,The method contains a magic number: 0.5f,43
+mvc-master,com.jerry_mar.mvc.widget,RainView,newAnimator,Magic Number,The method contains a magic number: 1000f,61
+mvc-master,com.jerry_mar.mvc.widget,RainView,newAnimator,Magic Number,The method contains a magic number: 100,61
+mvc-master,com.jerry_mar.mvc.widget,RainView,onAnimationUpdate,Magic Number,The method contains a magic number: 1000f,64
+mvc-master,com.jerry_mar.mvc.widget,RainView,onDraw,Magic Number,The method contains a magic number: 2,99
+mvc-master,com.jerry_mar.mvc.widget,RainView,onDraw,Magic Number,The method contains a magic number: 2,99
+mvc-master,com.jerry_mar.mvc.widget,RainView,onDraw,Magic Number,The method contains a magic number: 2,99
+mvc-master,com.jerry_mar.mvc.widget,RainView,onDraw,Magic Number,The method contains a magic number: 2,99
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Long Parameter List,The method has 6 parameters. ,153
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Magic Number,The method contains a magic number: 5,153
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Magic Number,The method contains a magic number: 0.1F,153
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Magic Number,The method contains a magic number: 5,153
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Magic Number,The method contains a magic number: 9,153
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Magic Number,The method contains a magic number: 180,153
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Magic Number,The method contains a magic number: 90,153
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Magic Number,The method contains a magic number: 90,153
+mvc-master,com.jerry_mar.mvc.widget,RainView,Meteor,Magic Number,The method contains a magic number: 45,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Long Parameter List,The method has 6 parameters. ,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Magic Number,The method contains a magic number: 5,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Magic Number,The method contains a magic number: 0.1F,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Magic Number,The method contains a magic number: 5,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Magic Number,The method contains a magic number: 9,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Magic Number,The method contains a magic number: 180,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Magic Number,The method contains a magic number: 90,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Magic Number,The method contains a magic number: 90,153
+mvc-master,com.jerry_mar.mvc.widget,Meteor,Meteor,Magic Number,The method contains a magic number: 45,153
+mvc-master,com.jerry_mar.mvc.widget,InflaterFactory,InflaterFactory,Magic Number,The method contains a magic number: 2,70
+mvc-master,com.jerry_mar.mvc.widget,InflaterFactory,bind,Complex Conditional,The conditional expression info.beforeTextChanged != null || info.onTextChanged != null || info.afterTextChanged != null is complex.,168
+mvc-master,com.jerry_mar.mvc.widget,InflaterFactory,bind,Long Statement,The length of the statement "v.addTextChangedListener(new DefaultOnTextChangedListener(controller`info.target`info.beforeTextChanged`info.onTextChanged`info.afterTextChanged));" is 147.,168
+mvc-master,com.jerry_mar.mvc.widget,InflaterFactory,onCreateView,Complex Method,Cyclomatic complexity of the method is 8,184
+mvc-master,com.jerry_mar.mvc.widget,InflaterFactory,createView,Long Statement,The length of the statement "Class<? extends View> cls=context.getClassLoader().loadClass(preparedClas != null ? (preparedClas + name) : name).asSubclass(View.class);" is 137.,242
+mvc-master,com.jerry_mar.mvc,Component,changeStatusBar,Long Statement,The length of the statement "FrameLayout.LayoutParams params=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`DimenUtils.getStatusBarHeight(getContext()));" is 142.,97
+mvc-master,com.jerry_mar.mvc,Controller,createStatusBar,Long Statement,The length of the statement "FrameLayout.LayoutParams params=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`DimenUtils.getStatusBarHeight(this));" is 134.,98
+mvc-master,com.jerry_mar.mvc,Controller,onKeyDown,Complex Conditional,The conditional expression keyCode == KeyEvent.KEYCODE_BACK && scene != null && scene.onBackDown() is complex.,191
+mvc-master,com.jerry_mar.mvc,Controller,onKeyUp,Complex Conditional,The conditional expression keyCode == KeyEvent.KEYCODE_BACK && scene != null && scene.onBackUp() is complex.,200
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getBankCardCheckCode,Complex Conditional,The conditional expression nonCheckCodeCardId == null || nonCheckCodeCardId.trim().length() == 0 || !nonCheckCodeCardId.matches("\\d+") is complex.,132
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getBankCardCheckCode,Magic Number,The method contains a magic number: 2,132
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getBankCardCheckCode,Magic Number,The method contains a magic number: 2,132
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,132
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,132
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,132
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,132
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,132
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,verify,Magic Number,The method contains a magic number: 15,150
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,verify,Magic Number,The method contains a magic number: 18,150
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,verify,Magic Number,The method contains a magic number: 17,150
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,verify,Magic Number,The method contains a magic number: 18,150
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,uptoeighteen,Magic Number,The method contains a magic number: 6,171
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getVerify,Magic Number,The method contains a magic number: 18,177
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getVerify,Magic Number,The method contains a magic number: 17,177
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getVerify,Magic Number,The method contains a magic number: 17,177
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getVerify,Magic Number,The method contains a magic number: 17,177
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getVerify,Magic Number,The method contains a magic number: 17,177
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getVerify,Magic Number,The method contains a magic number: 11,177
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getVerify,Magic Number,The method contains a magic number: 2,177
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,toHalf,Magic Number,The method contains a magic number: 12288,266
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,toHalf,Magic Number,The method contains a magic number: 65281,266
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,toHalf,Magic Number,The method contains a magic number: 65374,266
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,toHalf,Magic Number,The method contains a magic number: 65248,266
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,toFull,Magic Number,The method contains a magic number: 12288,290
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,toFull,Magic Number,The method contains a magic number: 33,290
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,toFull,Magic Number,The method contains a magic number: 126,290
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,toFull,Magic Number,The method contains a magic number: 65248,290
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,getString,Long Parameter List,The method has 5 parameters. ,314
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,dealExpression,Long Parameter List,The method has 6 parameters. ,326
+mvc-master,com.jerry_mar.mvc.utils,StringUtils,dealExpression,Magic Number,The method contains a magic number: 2,326
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,monday,Magic Number,The method contains a magic number: 6,195
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,monday,Magic Number,The method contains a magic number: 2,195
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,sunday,Magic Number,The method contains a magic number: 8,209
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,operate,Magic Number,The method contains a magic number: 24,223
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,operate,Magic Number,The method contains a magic number: 3600,223
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,operate,Magic Number,The method contains a magic number: 1000,223
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,format,Complex Method,Cyclomatic complexity of the method is 10,248
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,format,Magic Number,The method contains a magic number: 2,248
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,format,Magic Number,The method contains a magic number: 2,248
+mvc-master,com.jerry_mar.mvc.utils,DateUtils,format,Magic Number,The method contains a magic number: 12,248
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isRecyclerViewToTop,Complex Method,Cyclomatic complexity of the method is 9,49
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isRecyclerViewToTop,Long Statement,The length of the statement "firstChildTop=firstChild.getTop() - layoutParams.topMargin - getRecyclerViewItemTopInset(layoutParams)- recyclerView.getPaddingTop();" is 133.,49
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isRecyclerViewToTop,Magic Number,The method contains a magic number: 14,49
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isAbsListViewToBottom,Complex Conditional,The conditional expression absListView != null && absListView.getAdapter() != null && absListView.getChildCount() > 0 && absListView.getLastVisiblePosition() == absListView.getAdapter().getCount() - 1 is complex.,108
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isAbsListViewToBottom,Long Statement,The length of the statement "if (absListView != null && absListView.getAdapter() != null && absListView.getChildCount() > 0 && absListView.getLastVisiblePosition() == absListView.getAdapter().getCount() - 1) {" is 180.,108
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isRecyclerViewToBottom,Complex Method,Cyclomatic complexity of the method is 9,117
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isRecyclerViewToBottom,Magic Number,The method contains a magic number: 14,117
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isWebViewToBottom,Long Statement,The length of the statement "return webview != null && ((webview.getContentHeight() * webview.getScale() - (webview.getHeight() + webview.getScrollY())) <= touchSlop);" is 138.,153
+mvc-master,com.jerry_mar.mvc.utils,ScrollingUtils,isViewGroupToBottom,Long Statement,The length of the statement "return (subChildView != null && subChildView.getMeasuredHeight() - touchSlop <= viewGroup.getScrollY() + viewGroup.getHeight());" is 128.,158
+mvc-master,com.jerry_mar.mvc.utils,ControllerUtils,get,Complex Conditional,The conditional expression targetName.equals(className) && (val == null || val.equals(result)) is complex.,86
+mvc-master,com.jerry_mar.mvc.view,RefreshLayout,RefreshLayout,Long Statement,The length of the statement "setProgressViewOffset(false`-getProgressCircleDiameter()`(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`50`getResources().getDisplayMetrics()));" is 156.,15
+mvc-master,com.jerry_mar.mvc.view,RefreshLayout,RefreshLayout,Magic Number,The method contains a magic number: 50,15
+mvc-master,com.jerry_mar.mvc.view,FragmentStateAdapter,restoreState,Complex Method,Cyclomatic complexity of the method is 8,181
+mvc-master,com.jerry_mar.mvc.view,AutomaticLayout,measureHorizontal,Complex Method,Cyclomatic complexity of the method is 8,66
+mvc-master,com.jerry_mar.mvc.view,AutomaticLayout,measureHorizontal,Long Statement,The length of the statement "setMeasuredDimension(getDefaultSize(getSuggestedMinimumWidth()`widthMeasureSpec)`getDefaultSize(getSuggestedMinimumHeight()`heightMeasureSpec));" is 144.,66
+mvc-master,com.jerry_mar.mvc.view,AutomaticLayout,onLayout,Long Parameter List,The method has 5 parameters. ,117
+mvc-master,com.jerry_mar.mvc.view,AutomaticLayout,layoutHorizontal,Long Statement,The length of the statement "child.layout(childLeft + params.leftMargin`childTop + params.topMargin`childLeft + params.leftMargin + child.getMeasuredWidth()`childTop + params.topMargin + child.getMeasuredHeight());" is 185.,126
+mvc-master,com.jerry_mar.mvc.callback,DefaultOnTextChangedListener,DefaultOnTextChangedListener,Long Parameter List,The method has 5 parameters. ,20
+mvc-master,com.jerry_mar.mvc.callback,OnLoadCallback,onScrolled,Complex Conditional,The conditional expression can && (dx > 0 || dy > 0) is complex.,24
+mvc-master,com.jerry_mar.mvc.callback,OnLoadCallback,onScrolled,Magic Number,The method contains a magic number: 2,24
+mvc-master,com.jerry_mar.mvc.callback,OnLoadCallback,canLoad,Magic Number,The method contains a magic number: 2,47

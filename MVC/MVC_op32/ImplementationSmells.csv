@@ -1,0 +1,22 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+17_QuizSpringProject-master,com.link.quizproject.command,ScoresCommand,toString,Long Statement,The length of the statement "return "ScoresCommand{" + "id=" + id + "` quizId="+ quizId+ "` endTime="+ endTime+ "` username="+ username+ "` score="+ score+ '}';" is 131.,64
+17_QuizSpringProject-master,com.link.quizproject.config,SpringRootConfig,getDataSource,Magic Number,The method contains a magic number: 2,16
+17_QuizSpringProject-master,com.link.quizproject.dao,GameDAOImpl,save,Long Statement,The length of the statement "String sql="INSERT INTO games(user_id` quiz_id` start_time` end_time` score)" + "VALUES (:user_id` :quiz_id` :start_time` :end_time :score)";" is 141.,32
+17_QuizSpringProject-master,com.link.quizproject.dao,GameDAOImpl,update,Long Statement,The length of the statement "String sql="UPDATE games SET " + "user_id=:user_id` " + "quiz_id=:quiz_id` "+ "end_time=:end_time` "+ "score=:score "+ "WHERE id=:id";" is 134.,64
+17_QuizSpringProject-master,com.link.quizproject.dao,GameDAOImpl,loadBestScores,Long Statement,The length of the statement "String sql="SELECT g.*` u.username FROM games g JOIN users u ON g.user_id=u.id WHERE g.quiz_id=?" + " ORDER BY score DESC" + " LIMIT 10";" is 137.,127
+17_QuizSpringProject-master,com.link.quizproject.dao,GameDAOImpl,userBestScores,Long Statement,The length of the statement "String sql="SELECT g.*` u.username FROM games g JOIN users u ON g.user_id=u.id WHERE g.quiz_id=? AND g.user_id=?" + " ORDER BY score DESC" + " LIMIT 10";" is 153.,138
+17_QuizSpringProject-master,com.link.quizproject.dao,UserAnswerDAOImpl,update,Long Statement,The length of the statement "String sql="UPDATE user_answers SET " + "game_id=:game_id` " + "question_id=:question_id` "+ "answer_id=:answer_id "+ "WHERE id=:id";" is 133.,51
+17_QuizSpringProject-master,com.link.quizproject.domain,Game,Game,Long Parameter List,The method has 6 parameters. ,25
+17_QuizSpringProject-master,com.link.quizproject.domain,Game,toString,Long Statement,The length of the statement "return "Game{" + "user_id=" + user_id + "` quiz_id="+ quiz_id+ "` start_time="+ start_time+ "` end_time="+ end_time+ "` score="+ score+ "` userAnswer="+ userAnswer+ '}';" is 169.,91
+17_QuizSpringProject-master,com.link.quizproject.domain,Question,toString,Long Statement,The length of the statement "return "Question{" + "quiz_id=" + quiz_id + "` title="+ title+ "` text="+ text+ "` answers="+ answers+ "` userAnswer="+ userAnswer+ '}';" is 136.,90
+17_QuizSpringProject-master,com.link.quizproject.domain,Quiz,toString,Long Statement,The length of the statement "return "Quiz{" + "name=" + name + "` createdDate="+ createdDate+ "` modifiedDate="+ modifiedDate+ "` about="+ about+ "` questions="+ questions+ "` games="+ games+ '}';" is 167.,92
+17_QuizSpringProject-master,com.link.quizproject.domain,User,User,Long Parameter List,The method has 5 parameters. ,22
+17_QuizSpringProject-master,com.link.quizproject.service,GameServiceImpl,checkCorrectAnswer,Long Statement,The length of the statement "numCorrectAnswers=answers.stream().map((answer) -> this.gameDAO.checkCorrectAnswer(answer.getId())).map((i) -> i).reduce(numCorrectAnswers`Integer::sum);" is 153.,43
+17_QuizSpringProject-master,com.link.quizproject.test,TestAnswerDAOFindById,main,Magic Number,The method contains a magic number: 151,15
+17_QuizSpringProject-master,com.link.quizproject.test,TestCorrectAnswer,main,Magic Number,The method contains a magic number: 99,19
+17_QuizSpringProject-master,com.link.quizproject.test,TestHighScoresService,main,Magic Number,The method contains a magic number: 43,25
+17_QuizSpringProject-master,com.link.quizproject.test,TestLoadBestScore,main,Magic Number,The method contains a magic number: 96,19
+17_QuizSpringProject-master,com.link.quizproject.test,TestLoadQuizes,main,Magic Number,The method contains a magic number: 25,22
+17_QuizSpringProject-master,com.link.quizproject.test,TestUserDAOFindByProp,main,Magic Number,The method contains a magic number: 3,16
+17_QuizSpringProject-master,com.link.quizproject.test,TestUserDAOSingleRecord,main,Magic Number,The method contains a magic number: 38,15
+17_QuizSpringProject-master,com.link.quizproject.test,TestUserDAOUpdate,main,Magic Number,The method contains a magic number: 2,16

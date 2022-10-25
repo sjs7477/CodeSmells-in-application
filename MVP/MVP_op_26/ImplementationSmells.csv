@@ -1,0 +1,648 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+CocoBill-master,com.copasso.cocobill,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+CocoBill-master,com.copasso.cocobill,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+CocoBill-master,com.copasso.cocobill,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,125
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,showIconDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("选择图片来源").titleGravity(GravityEnum.CENTER).items(new String[]{"相册"`"相机"}).positiveText("确定").itemsCallbackSingleChoice(0`(dialog`itemView`which`text) -> {" is 197.,151
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,showGenderDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("选择性别").titleGravity(GravityEnum.CENTER).items(new String[]{"男"`"女"}).positiveText("确定").negativeText("取消").itemsCallbackSingleChoice(0`(dialog`itemView`which`text) -> {" is 212.,176
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,showPhoneDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("电话").inputType(InputType.TYPE_CLASS_TEXT).inputRangeRes(0`200`R.color.textRed).input("请输入电话号码"`phone`(dialog`input) -> {" is 164.,210
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,showPhoneDialog,Magic Number,The method contains a magic number: 200,210
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,showMailDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("邮箱").inputType(InputType.TYPE_CLASS_TEXT).inputRangeRes(0`200`R.color.textRed).input("请输入邮箱地址"`email`(dialog`input) -> {" is 164.,238
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,showMailDialog,Magic Number,The method contains a magic number: 200,238
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,takePicture,Magic Number,The method contains a magic number: 23,278
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,takePicture,Magic Number,The method contains a magic number: 24,278
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,startPhotoZoom,Magic Number,The method contains a magic number: 150,308
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,startPhotoZoom,Magic Number,The method contains a magic number: 150,308
+CocoBill-master,com.copasso.cocobill.ui.activity,UserInfoActivity,uploadPic,Long Statement,The length of the statement "String imagePath=ImageUtils.savePhoto(bitmap`Environment.getExternalStorageDirectory().getAbsolutePath()`imagename + ".png");" is 125.,347
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Complex Method,Cyclomatic complexity of the method is 22,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Magic Number,The method contains a magic number: 2,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Magic Number,The method contains a magic number: 3,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Magic Number,The method contains a magic number: 4,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Magic Number,The method contains a magic number: 5,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Magic Number,The method contains a magic number: 6,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Magic Number,The method contains a magic number: 7,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Magic Number,The method contains a magic number: 8,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,onClick,Magic Number,The method contains a magic number: 9,172
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,showPayinfoSelector,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("选择支付方式").titleGravity(GravityEnum.CENTER).items(cardItems).positiveText("确定").negativeText("取消").itemsCallbackSingleChoice(selectedPayinfoIndex`(dialog`itemView`which`text) -> {" is 221.,262
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,showTimeSelector,Long Statement,The length of the statement "days=new StringBuffer().append(mYear).append("-").append("0").append(mMonth + 1).append("-").append("0").append(mDay).toString();" is 129.,280
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,showTimeSelector,Magic Number,The method contains a magic number: 10,280
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,showTimeSelector,Magic Number,The method contains a magic number: 10,280
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,showTimeSelector,Magic Number,The method contains a magic number: 10,280
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,showContentDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(this).title("备注").inputType(InputType.TYPE_CLASS_TEXT).inputRangeRes(0`200`R.color.textRed).input("写点什么"`remarkInput`(dialog`input) -> {" is 163.,311
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,showContentDialog,Magic Number,The method contains a magic number: 200,311
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,doCommit,Long Statement,The length of the statement "bBill=new BBill(bundle.getLong("id")`bundle.getString("rid")`Float.valueOf(num + dotNum)`remarkInput`MyApplication.getCurrentUserId()`noteBean.getPayinfo().get(selectedPayinfoIndex).getPayName()`noteBean.getPayinfo().get(selectedPayinfoIndex).getPayImg()`lastBean.getSortName()`lastBean.getSortImg()`DateUtils.getMillis(crDate)`!isOutcome`bundle.getInt("version") + 1);" is 369.,332
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,doCommit,Long Statement,The length of the statement "bBill=new BBill(null`null`Float.valueOf(num + dotNum)`remarkInput`MyApplication.getCurrentUserId()`noteBean.getPayinfo().get(selectedPayinfoIndex).getPayName()`noteBean.getPayinfo().get(selectedPayinfoIndex).getPayImg()`lastBean.getSortName()`lastBean.getSortImg()`DateUtils.getMillis(crDate)`!isOutcome`0);" is 307.,332
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Complex Conditional,The conditional expression i != page - 1 || (i == page - 1 && isTotalPage) is complex.,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Complex Method,Cyclomatic complexity of the method is 8,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Magic Number,The method contains a magic number: 15,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Magic Number,The method contains a magic number: 15,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Magic Number,The method contains a magic number: 15,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Magic Number,The method contains a magic number: 15,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Magic Number,The method contains a magic number: 15,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Magic Number,The method contains a magic number: 15,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Magic Number,The method contains a magic number: 15,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initViewPager,Magic Number,The method contains a magic number: 5,456
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,OnClick,Magic Number,The method contains a magic number: 15,484
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initIcon,Long Statement,The length of the statement "icons[i].setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 126.,540
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initIcon,Magic Number,The method contains a magic number: 5,540
+CocoBill-master,com.copasso.cocobill.ui.activity,BillAddActivity,initIcon,Magic Number,The method contains a magic number: 5,540
+CocoBill-master,com.copasso.cocobill.ui.activity,LandActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,77
+CocoBill-master,com.copasso.cocobill.ui.activity,LandActivity,sign,Complex Conditional,The conditional expression email.length() == 0 || username.length() == 0 || password.length() == 0 || rpassword.length() == 0 is complex.,126
+CocoBill-master,com.copasso.cocobill.ui.activity,SettingActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,96
+CocoBill-master,com.copasso.cocobill.ui.activity,SettingActivity,showForgetPwDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(this).title("备注").inputType(InputType.TYPE_CLASS_TEXT).input("请输入注册邮箱"`null`(dialog`input) -> {" is 122.,126
+CocoBill-master,com.copasso.cocobill.ui.activity,SettingActivity,showChangeDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("修改密码").customView(R.layout.dialog_change_password`false).positiveText("确定").onPositive((dialog`which) -> {" is 150.,156
+CocoBill-master,com.copasso.cocobill.ui.activity,MainActivity,initWidget,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`drawer`toolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 141.,108
+CocoBill-master,com.copasso.cocobill.ui.activity,MainActivity,onOptionsItemSelected,Long Statement,The length of the statement ").setType(new boolean[]{true`true`false`false`false`false}).setRangDate(null`Calendar.getInstance()).isDialog(true).build().show();" is 131.,183
+CocoBill-master,com.copasso.cocobill.ui.activity,MainActivity,onNavigationItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,200
+CocoBill-master,com.copasso.cocobill.ui.activity,MainActivity,showUpdateThemeDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("选择主题").titleGravity(GravityEnum.CENTER).items(themes).negativeText("取消").itemsCallback(((dialog`itemView`position`text) -> {" is 168.,235
+CocoBill-master,com.copasso.cocobill.ui.activity,MainActivity,exitUser,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("确认退出").content("退出后将清空所有数据").positiveText("确定").onPositive((dialog`which) -> {" is 122.,251
+CocoBill-master,com.copasso.cocobill.ui.activity,BillSortActivity,initClick,Long Statement,The length of the statement "@Override public boolean onMove( RecyclerView recyclerView` RecyclerView.ViewHolder viewHolder` RecyclerView.ViewHolder target){" is 128.,74
+CocoBill-master,com.copasso.cocobill.ui.activity,BillSortActivity,initClick,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("确定删除此分类").content("删除后该分类下的账单会继续保留").positiveText("确定").negativeText("取消").onPositive(((dialog`which) -> {" is 150.,74
+CocoBill-master,com.copasso.cocobill.ui.activity,BillSortActivity,onSwiped,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title("确定删除此分类").content("删除后该分类下的账单会继续保留").positiveText("确定").negativeText("取消").onPositive(((dialog`which) -> {" is 150.,101
+CocoBill-master,com.copasso.cocobill.ui.activity,BillSortActivity,showContentDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(this).title("添加分类").inputType(InputType.TYPE_CLASS_TEXT).inputRangeRes(0`200`R.color.textRed).input("分类名称"`null`(dialog`input) -> {" is 158.,193
+CocoBill-master,com.copasso.cocobill.ui.activity,BillSortActivity,showContentDialog,Magic Number,The method contains a magic number: 200,193
+CocoBill-master,com.copasso.cocobill.ui.adapter,MonthListAdapter,onBindItemViewHolder,Long Statement,The length of the statement "new AlertDialog.Builder(mContext).setTitle("是否删除此条记录").setNegativeButton("取消"`null).setPositiveButton("确定"`(dialog`which) -> {" is 126.,93
+CocoBill-master,com.copasso.cocobill.ui.adapter,MonthListAdapter,onBindItemViewHolder,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title(bBill.getSortName()).content("\t\t" + Math.abs(bBill.getCost()) + "元\n\t\t"+ bBill.getContent()+ "\n\n\t\t"+ DateUtils.long2Str(bBill.getCrdate()`FORMAT_YMD_CN)+ "\n\t\t"+ DateUtils.long2Str(bBill.getCrdate()`FORMAT_HMS_CN)).positiveText("朕知道了").icon(ImageUtils.getDrawable(bBill.getSortImg())).limitIconToDefaultSize().show();" is 370.,93
+CocoBill-master,com.copasso.cocobill.ui.adapter.binder,MonthChartBillViewBinder,onBindViewHolder,Long Statement,The length of the statement "new MaterialDialog.Builder(mContext).title(item.getSortName()).content("\t\t" + Math.abs(item.getCost()) + "元\n\t\t"+ item.getContent()+ "\n\n\t\t"+ DateUtils.long2Str(item.getCrdate()`FORMAT_YMD_CN)+ "\n\t\t"+ DateUtils.long2Str(item.getCrdate()`FORMAT_HMS_CN)).positiveText("朕知道了").icon(ImageUtils.getDrawable(item.getSortImg())).limitIconToDefaultSize().show();" is 364.,42
+CocoBill-master,com.copasso.cocobill.ui.fragment,MonthListFragment,Event,Magic Number,The method contains a magic number: 100,65
+CocoBill-master,com.copasso.cocobill.ui.fragment,MonthListFragment,initData,Magic Number,The method contains a magic number: 5,77
+CocoBill-master,com.copasso.cocobill.ui.fragment,MonthChartFragment,initWidget,Magic Number,The method contains a magic number: 200,96
+CocoBill-master,com.copasso.cocobill.ui.fragment,MonthChartFragment,initWidget,Magic Number,The method contains a magic number: 200,96
+CocoBill-master,com.copasso.cocobill.ui.fragment,MonthChartFragment,setReportData,Magic Number,The method contains a magic number: 0.06f,185
+CocoBill-master,com.copasso.cocobill.ui.fragment,MonthChartFragment,setReportData,Magic Number,The method contains a magic number: 0.06f,185
+CocoBill-master,com.copasso.cocobill.ui.fragment,MonthChartFragment,setReportData,Magic Number,The method contains a magic number: 0xffAAAAAA,185
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridAdapter,internalViewType,Magic Number,The method contains a magic number: 0xFF,106
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridAdapter,externalViewType,Magic Number,The method contains a magic number: 8,110
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridAdapter,onCreateViewHolder,Missing default,The following switch statement is missing a default case: switch (internalType) {,122
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridAdapter,onBindViewHolder,Missing default,The following switch statement is missing a default case: switch (internalType) {,137
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridAdapter,getItemViewType,Magic Number,The method contains a magic number: 0xFF,161
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridAdapter,getItemViewType,Magic Number,The method contains a magic number: 8,161
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridAdapter,getItemViewType,Magic Number,The method contains a magic number: 0xFF,161
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,onLayoutChildren,Complex Method,Cyclomatic complexity of the method is 13,336
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,clearHiddenRows,Complex Method,Cyclomatic complexity of the method is 9,614
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,addRow,Complex Conditional,The conditional expression isTop && mFloatingHeaderView != null && adapterPosition == mFloatingHeaderPosition is complex.,680
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,addRow,Long Parameter List,The method has 5 parameters. ,680
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,addOffScreenRows,Long Parameter List,The method has 5 parameters. ,723
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,scrollVerticallyBy,Complex Conditional,The conditional expression scrolled <= dy || adapterPosition >= state.getItemCount() || adapterPosition < 0 is complex.,748
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,scrollVerticallyBy,Complex Method,Cyclomatic complexity of the method is 9,748
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,onHeaderChanged,Long Statement,The length of the statement "final boolean headerStateChanged=mStickyHeaderSection != section || !mStickyHeadeState.equals(state) || state.equals(HeaderState.PUSHED);" is 137.,961
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,stickTopHeader,Complex Method,Cyclomatic complexity of the method is 8,988
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,getViewType,Magic Number,The method contains a magic number: 0xFF,1076
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,getViewType,Magic Number,The method contains a magic number: 0xFF,1080
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,StickyHeaderGridLayoutManager,LayoutRow,Long Parameter List,The method has 5 parameters. ,1336
+CocoBill-master,com.copasso.cocobill.widget.stickyheader,LayoutRow,LayoutRow,Long Parameter List,The method has 5 parameters. ,1336
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,onDraw,Magic Number,The method contains a magic number: 2,100
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,onDraw,Magic Number,The method contains a magic number: 2,100
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,onDraw,Magic Number,The method contains a magic number: 2,100
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,onDraw,Magic Number,The method contains a magic number: 2,100
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,setup,Magic Number,The method contains a magic number: 2,215
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,setup,Magic Number,The method contains a magic number: 2,215
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,setup,Magic Number,The method contains a magic number: 2,215
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,setup,Magic Number,The method contains a magic number: 2,215
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,248
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,248
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,248
+CocoBill-master,com.copasso.cocobill.widget,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,248
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,onMeasure,Long Statement,The length of the statement "setMeasuredDimension(getPaddingLeft() + getPaddingRight() + contentWidth`mHeight + getPaddingTop() + getPaddingBottom());" is 121.,169
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,onMeasure,Magic Number,The method contains a magic number: 4,169
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,onMeasure,Magic Number,The method contains a magic number: 10,169
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,onLayout,Long Parameter List,The method has 5 parameters. ,250
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,onLayout,Long Statement,The length of the statement "childView.layout(left`getPaddingTop()`left + childView.getMeasuredWidth()`getPaddingTop() + childView.getMeasuredHeight());" is 123.,250
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,onLayout,Long Statement,The length of the statement "childView.layout(left`getPaddingTop()`left + childView.getMeasuredWidth()`getPaddingTop() + childView.getMeasuredHeight());" is 123.,250
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,onLayout,Long Statement,The length of the statement "childView.layout(right - childView.getMeasuredWidth()`getPaddingTop()`right`getPaddingTop() + childView.getMeasuredHeight());" is 125.,250
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,dispatchTouchEvent,Complex Method,Cyclomatic complexity of the method is 24,277
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,dispatchTouchEvent,Long Method,The method has 100 lines of code.,277
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,dispatchTouchEvent,Magic Number,The method contains a magic number: 10,277
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,dispatchTouchEvent,Magic Number,The method contains a magic number: 10,277
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,dispatchTouchEvent,Magic Number,The method contains a magic number: 1000,277
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,dispatchTouchEvent,Magic Number,The method contains a magic number: 1000,277
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,dispatchTouchEvent,Magic Number,The method contains a magic number: 1000,277
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,dispatchTouchEvent,Missing default,The following switch statement is missing a default case: switch (ev.getAction()) {,277
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 14,402
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,smoothExpand,Magic Number,The method contains a magic number: 300,467
+CocoBill-master,com.copasso.cocobill.widget,SwipeMenuView,smoothClose,Magic Number,The method contains a magic number: 300,509
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,28
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,onStartNestedScroll,Long Statement,The length of the statement "return nestedScrollAxes == ViewCompat.SCROLL_AXIS_VERTICAL || super.onStartNestedScroll(coordinatorLayout`child`directTargetChild`target`nestedScrollAxes);" is 155.,28
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,onNestedScroll,Complex Conditional,The conditional expression dyConsumed > 0 && !this.mIsAnimatingOut && child.getVisibility() == View.VISIBLE is complex.,36
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,36
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,animateOut,Long Statement,The length of the statement "ViewCompat.animate(button).scaleX(0.0F).scaleY(0.0F).alpha(0.0F).setInterpolator(INTERPOLATOR).withLayer().setListener(new ViewPropertyAnimatorListener(){" is 154.,51
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,animateOut,Magic Number,The method contains a magic number: 14,51
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,animateOut,Magic Number,The method contains a magic number: 200L,51
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,animateIn,Long Statement,The length of the statement "ViewCompat.animate(button).scaleX(1.0F).scaleY(1.0F).alpha(1.0F).setInterpolator(INTERPOLATOR).withLayer().setListener(null).start();" is 133.,91
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,animateIn,Magic Number,The method contains a magic number: 14,91
+CocoBill-master,com.copasso.cocobill.widget,ScrollAwareBehavior,animateIn,Magic Number,The method contains a magic number: 200L,91
+CocoBill-master,com.copasso.cocobill.widget,CommonItemLayout,setData,Magic Number,The method contains a magic number: 22,75
+CocoBill-master,com.copasso.cocobill.widget,CommonItemLayout,setData,Magic Number,The method contains a magic number: 12,75
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 175,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 107,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 9,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 115,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 107,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 40,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 65,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 40,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 65,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 3,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 2,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,init,Magic Number,The method contains a magic number: 10,67
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onGlobalLayout,Magic Number,The method contains a magic number: 175,71
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onGlobalLayout,Magic Number,The method contains a magic number: 107,71
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onGlobalLayout,Magic Number,The method contains a magic number: 9,71
+CocoBill-master,com.copasso.cocobill.widget,OwlView,close,Magic Number,The method contains a magic number: 255,103
+CocoBill-master,com.copasso.cocobill.widget,OwlView,close,Magic Number,The method contains a magic number: 300,103
+CocoBill-master,com.copasso.cocobill.widget,OwlView,close,Magic Number,The method contains a magic number: 45,103
+CocoBill-master,com.copasso.cocobill.widget,OwlView,close,Magic Number,The method contains a magic number: 200,103
+CocoBill-master,com.copasso.cocobill.widget,OwlView,close,Magic Number,The method contains a magic number: 200,103
+CocoBill-master,com.copasso.cocobill.widget,OwlView,close,Magic Number,The method contains a magic number: 300,103
+CocoBill-master,com.copasso.cocobill.widget,OwlView,open,Magic Number,The method contains a magic number: 255,138
+CocoBill-master,com.copasso.cocobill.widget,OwlView,open,Magic Number,The method contains a magic number: 300,138
+CocoBill-master,com.copasso.cocobill.widget,OwlView,open,Magic Number,The method contains a magic number: 45,138
+CocoBill-master,com.copasso.cocobill.widget,OwlView,open,Magic Number,The method contains a magic number: 200,138
+CocoBill-master,com.copasso.cocobill.widget,OwlView,open,Magic Number,The method contains a magic number: 300,138
+CocoBill-master,com.copasso.cocobill.widget,OwlView,open,Magic Number,The method contains a magic number: 100,138
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Long Statement,The length of the statement "canvas.drawBitmap(bm_owl`new Rect(0`0`bm_owl.getWidth()`bm_owl.getHeight())`new Rect(dip2px(30)`0`dip2px(30) + bm_owl.getWidth()`bm_owl.getHeight())`handPaintAfter);" is 165.,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Long Statement,The length of the statement "canvas.drawOval(new RectF(getWidth() - dip2px(30) - move_length`getHeight() - dip2px(20)`getWidth() - move_length`getHeight())`handPaintBefore);" is 144.,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Long Statement,The length of the statement "canvas.drawBitmap(bm_owl_arm_left`new Rect(0`0`bm_owl_arm_left.getWidth()`moveHeight)`new Rect(dip2px(43)`getHeight() - moveHeight - dip2px(10)`dip2px(43) + bm_owl_arm_left.getWidth()`getHeight() - dip2px(9))`handPaintAfter);" is 225.,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Long Statement,The length of the statement "canvas.drawBitmap(bm_owl_arm_right`new Rect(0`0`bm_owl_arm_right.getWidth()`moveHeight)`new Rect(getWidth() - dip2px(40) - bm_owl_arm_right.getWidth()`getHeight() - moveHeight - dip2px(10)`getWidth() - dip2px(40)`getHeight() - dip2px(9))`handPaintAfter);" is 254.,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 30,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 30,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 20,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 30,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 30,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 20,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 43,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 10,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 43,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 9,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 40,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 10,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 40,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,onDraw,Magic Number,The method contains a magic number: 9,173
+CocoBill-master,com.copasso.cocobill.widget,OwlView,dip2px,Magic Number,The method contains a magic number: 0.5f,201
+CocoBill-master,com.copasso.cocobill.widget,OwlView,compressBitmap,Complex Conditional,The conditional expression bitmap == null || reqsW == 0 || reqsH == 0 is complex.,206
+CocoBill-master,com.copasso.cocobill.widget,OwlView,compressBitmap,Magic Number,The method contains a magic number: 4,206
+CocoBill-master,com.copasso.cocobill.widget,OwlView,compressBitmap,Magic Number,The method contains a magic number: 4,206
+CocoBill-master,com.copasso.cocobill.presenter,MonthListPresenter,getMonthList,Long Statement,The length of the statement "LocalRepository.getInstance().getBBillByUserIdWithYM(id`year`month).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseObserver<List<BBill>>(){" is 181.,30
+CocoBill-master,com.copasso.cocobill.presenter,MonthListPresenter,deleteBill,Long Statement,The length of the statement "LocalRepository.getInstance().deleteBBillById(id).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseObserver<Long>(){" is 156.,48
+CocoBill-master,com.copasso.cocobill.presenter,MonthListPresenter,updateBill,Long Statement,The length of the statement "LocalRepository.getInstance().updateBBill(bBill).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseObserver<BBill>(){" is 156.,66
+CocoBill-master,com.copasso.cocobill.presenter,MonthChartPresenter,getMonthChart,Long Statement,The length of the statement "LocalRepository.getInstance().getBBillByUserIdWithYM(id`year`month).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseObserver<List<BBill>>(){" is 181.,23
+CocoBill-master,com.copasso.cocobill.presenter,BillPresenter,addBill,Long Statement,The length of the statement "LocalRepository.getInstance().saveBBill(bBill).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseObserver<BBill>(){" is 154.,27
+CocoBill-master,com.copasso.cocobill.presenter,BillPresenter,updateBill,Long Statement,The length of the statement "LocalRepository.getInstance().updateBBill(bBill).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseObserver<BBill>(){" is 156.,45
+CocoBill-master,com.copasso.cocobill.utils,StringUtils,randomColor,Magic Number,The method contains a magic number: 256,51
+CocoBill-master,com.copasso.cocobill.utils,StringUtils,randomColor,Magic Number,The method contains a magic number: 256,51
+CocoBill-master,com.copasso.cocobill.utils,StringUtils,randomColor,Magic Number,The method contains a magic number: 256,51
+CocoBill-master,com.copasso.cocobill.utils,BillUtils,packageDetailList,Complex Method,Cyclomatic complexity of the method is 8,19
+CocoBill-master,com.copasso.cocobill.utils,BillUtils,packageChartList,Complex Method,Cyclomatic complexity of the method is 10,96
+CocoBill-master,com.copasso.cocobill.utils,BillUtils,packageAccountList,Complex Method,Cyclomatic complexity of the method is 10,175
+CocoBill-master,com.copasso.cocobill.utils,FormatUtils,moneyFormat,Magic Number,The method contains a magic number: 2,14
+CocoBill-master,com.copasso.cocobill.utils,FormatUtils,moneyFormat,Magic Number,The method contains a magic number: 2,14
+CocoBill-master,com.copasso.cocobill.utils,FormatUtils,format1,Magic Number,The method contains a magic number: 1000,59
+CocoBill-master,com.copasso.cocobill.utils,FormatUtils,format2,Magic Number,The method contains a magic number: 1000,69
+CocoBill-master,com.copasso.cocobill.utils,ThemeManager,init,Complex Method,Cyclomatic complexity of the method is 8,61
+CocoBill-master,com.copasso.cocobill.utils,ThemeManager,init,Magic Number,The method contains a magic number: 2,61
+CocoBill-master,com.copasso.cocobill.utils,ThemeManager,init,Magic Number,The method contains a magic number: 3,61
+CocoBill-master,com.copasso.cocobill.utils,ThemeManager,init,Magic Number,The method contains a magic number: 4,61
+CocoBill-master,com.copasso.cocobill.utils,ThemeManager,init,Magic Number,The method contains a magic number: 5,61
+CocoBill-master,com.copasso.cocobill.utils,ThemeManager,init,Magic Number,The method contains a magic number: 6,61
+CocoBill-master,com.copasso.cocobill.utils,DimenUtils,dp2px,Magic Number,The method contains a magic number: 0.5f,15
+CocoBill-master,com.copasso.cocobill.utils,DimenUtils,px2dp,Magic Number,The method contains a magic number: 0.5f,22
+CocoBill-master,com.copasso.cocobill.utils,DimenUtils,sp2Px,Long Statement,The length of the statement "return (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP`spVal`UiUtils.getContext().getResources().getDisplayMetrics());" is 128.,29
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getCacheSize,Long Statement,The length of the statement "return getFormatSize(getFolderSize(new File(context.getCacheDir() + "/" + InternalCacheDiskCacheFactory.DEFAULT_DISK_CACHE_DIR)));" is 130.,73
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 1024,142
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 1024,142
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 2,142
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 1024,142
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 2,142
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 1024,142
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 2,142
+CocoBill-master,com.copasso.cocobill.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 2,142
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,initPieChart,Magic Number,The method contains a magic number: 5,27
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,initPieChart,Magic Number,The method contains a magic number: 10,27
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,initPieChart,Magic Number,The method contains a magic number: 5,27
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,initPieChart,Magic Number,The method contains a magic number: 5,27
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,initPieChart,Magic Number,The method contains a magic number: 0.95f,27
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,initPieChart,Magic Number,The method contains a magic number: 110,27
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,initPieChart,Magic Number,The method contains a magic number: 58f,27
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,initPieChart,Magic Number,The method contains a magic number: 61f,27
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setPieChartData,Magic Number,The method contains a magic number: 3f,56
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setPieChartData,Magic Number,The method contains a magic number: 5f,56
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setPieChartData,Magic Number,The method contains a magic number: 11f,56
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setStartAngle,Magic Number,The method contains a magic number: 2,89
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setStartAngle,Magic Number,The method contains a magic number: 90,89
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setAnimate,Magic Number,The method contains a magic number: 1000,102
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Complex Method,Cyclomatic complexity of the method is 17,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] / 2));" is 128.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] / 2));" is 145.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] / 2));" is 162.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] / 2));" is 179.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] + mDrawAngles[8] / 2));" is 196.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] + mDrawAngles[8] + mDrawAngles[9] / 2));" is 213.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] + mDrawAngles[8] + mDrawAngles[9] + mDrawAngles[10] / 2));" is 231.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] + mDrawAngles[8] + mDrawAngles[9] + mDrawAngles[10] + mDrawAngles[11] / 2));" is 249.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] + mDrawAngles[8] + mDrawAngles[9] + mDrawAngles[10] + mDrawAngles[11] + mDrawAngles[12] / 2));" is 267.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] + mDrawAngles[8] + mDrawAngles[9] + mDrawAngles[10] + mDrawAngles[11] + mDrawAngles[12] + mDrawAngles[13] / 2));" is 285.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] + mDrawAngles[8] + mDrawAngles[9] + mDrawAngles[10] + mDrawAngles[11] + mDrawAngles[12] + mDrawAngles[13] + mDrawAngles[14] / 2));" is 303.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Long Statement,The length of the statement "mChart.setRotationAngle(inAngle - (mDrawAngles[0] / 2 + mDrawAngles[1] + mDrawAngles[2] + mDrawAngles[3] + mDrawAngles[4] + mDrawAngles[5] + mDrawAngles[6] + mDrawAngles[7] + mDrawAngles[8] + mDrawAngles[9] + mDrawAngles[10] + mDrawAngles[11] + mDrawAngles[12] + mDrawAngles[13] + mDrawAngles[14] + mDrawAngles[15] / 2));" is 321.,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 90,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 9,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 9,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 10,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 9,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 10,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 11,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 9,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 10,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 11,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 12,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 9,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 10,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 11,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 12,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 13,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 9,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 10,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 11,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 12,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 13,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 14,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 9,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 10,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 11,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 12,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 13,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 14,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 15,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 3,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 4,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 5,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 6,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 7,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 8,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 9,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 10,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 11,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 12,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 13,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 14,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 15,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Magic Number,The method contains a magic number: 2,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,setRotationAngle,Missing default,The following switch statement is missing a default case: switch (entryIndex) {,114
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Complex Method,Cyclomatic complexity of the method is 37,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "if (imgUrl.equals("sort_shouxufei.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_shouxufei);" is 128.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_huankuan.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_changhuanfeiyong);" is 139.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yongjin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_yongjinjiangli);" is 136.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lingqian.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_ewaishouyi);" is 133.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yiban.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_zijinbuchang);" is 132.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lixi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_lixi);" is 123.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_gouwu.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_shangchengxiaofei);" is 137.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_weiyuejin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_weiyuejin);" is 133.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_zhufang.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_zhufang);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_bangong.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_bangong);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_canyin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_canyin);" is 127.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yiliao.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_yiliao);" is 127.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_tongxun.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_tongxun);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yundong.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_yundong);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yule.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_yule);" is 123.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jujia.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_jujia);" is 125.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_chongwu.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_chongwu);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_shuma.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_shuma);" is 125.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_juanzeng.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_juanzeng);" is 131.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lingshi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_lingshi);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_haizi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_haizi);" is 125.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_zhangbei.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_zhangbei);" is 131.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_liwu.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_liwu);" is 123.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_xuexi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_xuexi);" is 125.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_shuiguo.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_shuiguo);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_meirong.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_meirong);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_weixiu.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_weixiu);" is 127.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_type_lvxing.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_lvxing);" is 132.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jiaotong.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_jiaotong);" is 131.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jiushui.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_jiushuiyinliao);" is 136.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lijin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_lijin);" is 125.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jiangjin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_jiaxi);" is 128.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_fanxian.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_fanxian);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jianzhi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_jianzhi);" is 129.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_tianjiade.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_qita);" is 128.,184
+CocoBill-master,com.copasso.cocobill.utils,PieChartUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_tianjia.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.type_tianjiade);" is 131.,184
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,savePhoto,Magic Number,The method contains a magic number: 100,25
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,toRoundBitmap,Magic Number,The method contains a magic number: 2,75
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,toRoundBitmap,Magic Number,The method contains a magic number: 2,75
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,toRoundBitmap,Magic Number,The method contains a magic number: 2,75
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,toRoundBitmap,Magic Number,The method contains a magic number: 0xff424242,75
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Complex Method,Cyclomatic complexity of the method is 40,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "if (imgUrl.equals("sort_shouxufei.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_shouxufei);" is 128.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_huankuan.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_huankuan);" is 131.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yongjin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_yongjin);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lingqian.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_lingqian);" is 131.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yiban.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_yiban);" is 125.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lixi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_lixi);" is 123.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_gouwu.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_gouwu);" is 125.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_weiyuejin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_weiyuejin);" is 133.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_zhufang.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_zhufang);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_bangong.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_bangong);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_canyin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_canyin);" is 127.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yiliao.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_yiliao);" is 127.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_tongxun.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_tongxun);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yundong.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_yundong);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_yule.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_yule);" is 123.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jujia.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_jujia);" is 125.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_chongwu.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_chongwu);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_shuma.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_shuma);" is 125.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_juanzeng.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_juanzeng);" is 131.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lingshi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_lingshi);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jiangjin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_jiangjin);" is 131.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_haizi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_haizi);" is 125.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_zhangbei.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_zhangbei);" is 131.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_liwu.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_liwu);" is 123.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_xuexi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_xuexi);" is 125.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_shuiguo.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_shuiguo);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_meirong.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_meirong);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_weixiu.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_weixiu);" is 127.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lvxing.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_lvxing);" is 127.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jiaotong.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_jiaotong);" is 131.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jiushui.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_jiushui);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_lijin.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_lijin);" is 125.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_fanxian.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_fanxian);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_jianzhi.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_jianzhi);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_tianjiade.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_tianjiade);" is 133.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("sort_tianjia.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.sort_tianjia);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("card_cash.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.card_cash);" is 123.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("card_account.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.card_account);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,ImageUtils,getDrawable,Long Statement,The length of the statement "else if (imgUrl.equals("card_account.png")) drawable=MyApplication.application.getResources().getDrawable(R.mipmap.card_account);" is 129.,127
+CocoBill-master,com.copasso.cocobill.utils,OkHttpUtils,upload,Long Parameter List,The method has 5 parameters. ,177
+CocoBill-master,com.copasso.cocobill.utils,OkHttpUtils,upload,Long Statement,The length of the statement "multipartBuilder.addPart(Headers.of("Content-Disposition"`"form-data; name=\"" + key + "\"")`RequestBody.create(null`params.get(key)));" is 135.,177
+CocoBill-master,com.copasso.cocobill.utils,OkHttpUtils,upload,Long Statement,The length of the statement "multipartBuilder.addPart(Headers.of("Content-Disposition"`"form-data; name=\"" + key + "\"; filename=\""+ fileName+ "\"")`fileBody);" is 132.,177
+CocoBill-master,com.copasso.cocobill.utils,OkHttpUtils,download,Long Parameter List,The method has 5 parameters. ,237
+CocoBill-master,com.copasso.cocobill.utils,OkHttpUtils,saveFile,Empty catch clause,The method has an empty catch block.,292
+CocoBill-master,com.copasso.cocobill.utils,OkHttpUtils,saveFile,Empty catch clause,The method has an empty catch block.,292
+CocoBill-master,com.copasso.cocobill.utils,OkHttpUtils,saveFile,Magic Number,The method contains a magic number: 2048,292
+CocoBill-master,com.copasso.cocobill.utils,RegexUtils,checkCode,Magic Number,The method contains a magic number: 6,187
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,getCurDateStr,Long Statement,The length of the statement "return c.get(Calendar.YEAR) + "-" + (c.get(Calendar.MONTH) + 1)+ "-"+ c.get(Calendar.DAY_OF_MONTH)+ "-"+ c.get(Calendar.HOUR_OF_DAY)+ ":"+ c.get(Calendar.MINUTE)+ ":"+ c.get(Calendar.SECOND);" is 191.,265
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,getNextHour,Magic Number,The method contains a magic number: 60,375
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,getNextHour,Magic Number,The method contains a magic number: 60,375
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,getNextHour,Magic Number,The method contains a magic number: 1000,375
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,countDays,Magic Number,The method contains a magic number: 1000,498
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,countDays,Magic Number,The method contains a magic number: 1000,498
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,countDays,Magic Number,The method contains a magic number: 3600,498
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,countDays,Magic Number,The method contains a magic number: 24,498
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,countDays,Magic Number,The method contains a magic number: 1000,657
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,countDays,Magic Number,The method contains a magic number: 60,657
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,countDays,Magic Number,The method contains a magic number: 60,657
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,countDays,Magic Number,The method contains a magic number: 24,657
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Complex Conditional,The conditional expression (year % 4 == 0 && year % 100 != 0) || year % 400 == 0 is complex.,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Magic Number,The method contains a magic number: 31,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Magic Number,The method contains a magic number: 30,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Magic Number,The method contains a magic number: 29,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Magic Number,The method contains a magic number: 4,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Magic Number,The method contains a magic number: 100,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Magic Number,The method contains a magic number: 400,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Magic Number,The method contains a magic number: 29,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,calculateDaysInMonth,Magic Number,The method contains a magic number: 28,677
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,fillZero,Magic Number,The method contains a magic number: 10,708
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,judgeTime2Time,Magic Number,The method contains a magic number: 1000,719
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,judgeTime2Time,Magic Number,The method contains a magic number: 1000,719
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,parseDate,Magic Number,The method contains a magic number: 1000,747
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,parseDate,Magic Number,The method contains a magic number: 3600,747
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,parseDate,Magic Number,The method contains a magic number: 60,747
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,parseDate,Magic Number,The method contains a magic number: 24,747
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,parseDate,Magic Number,The method contains a magic number: 3600,747
+CocoBill-master,com.copasso.cocobill.utils,DateUtils,parseDate,Magic Number,The method contains a magic number: 1000,747
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,addBill,Long Parameter List,The method has 8 parameters. ,120
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,addBill,Long Statement,The length of the statement "String result=request("/bill/add?" + "userid=" + userid + "&sortid="+ sortid+ "&payid="+ payid+ "&cost="+ cost+ "&crdate="+ crdate+ "&content="+ content+ "&income="+ income);" is 174.,120
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,run,Long Statement,The length of the statement "String result=request("/bill/add?" + "userid=" + userid + "&sortid="+ sortid+ "&payid="+ payid+ "&cost="+ cost+ "&crdate="+ crdate+ "&content="+ content+ "&income="+ income);" is 174.,128
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,updateBill,Long Parameter List,The method has 9 parameters. ,142
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,updateBill,Long Statement,The length of the statement "String result=request("/bill/update?id=" + id + "&userid="+ userid+ "&sortid="+ sortid+ "&payid="+ payid+ "&cost="+ cost+ "&crdate="+ crdate+ "&content="+ content+ "&income="+ income);" is 184.,142
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,run,Long Statement,The length of the statement "String result=request("/bill/update?id=" + id + "&userid="+ userid+ "&sortid="+ sortid+ "&payid="+ payid+ "&cost="+ cost+ "&crdate="+ crdate+ "&content="+ content+ "&income="+ income);" is 184.,150
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,updateUser,Long Parameter List,The method has 6 parameters. ,165
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,updateUser,Long Statement,The length of the statement "String result=request("/user/update?id=" + id + "&username="+ username+ "&gender="+ gender+ "&phone="+ phone+ "&mail="+ mail);" is 126.,165
+CocoBill-master,com.copasso.cocobill.utils,HttpUtils,run,Long Statement,The length of the statement "String result=request("/user/update?id=" + id + "&username="+ username+ "&gender="+ gender+ "&phone="+ phone+ "&mail="+ mail);" is 126.,177
+CocoBill-master,com.copasso.cocobill.model.repository,BmobRepository,syncBill,Complex Method,Cyclomatic complexity of the method is 13,106
+CocoBill-master,com.copasso.cocobill.model.repository,BmobRepository,syncBill,Magic Number,The method contains a magic number: 500,106
+CocoBill-master,com.copasso.cocobill.model.repository,BmobRepository,syncBill,Magic Number,The method contains a magic number: 100,106
+CocoBill-master,com.copasso.cocobill.model.repository,BmobRepository,syncBill,Magic Number,The method contains a magic number: 200,106
+CocoBill-master,com.copasso.cocobill.model.repository,BmobRepository,done,Complex Method,Cyclomatic complexity of the method is 13,117
+CocoBill-master,com.copasso.cocobill.model.repository,BmobRepository,done,Magic Number,The method contains a magic number: 100,117
+CocoBill-master,com.copasso.cocobill.model.repository,BmobRepository,done,Magic Number,The method contains a magic number: 200,117
+CocoBill-master,com.copasso.cocobill.model.repository,LocalRepository,getBBillByUserIdWithYM,Long Statement,The length of the statement "QueryBuilder<BBill> queryBuilder=mSession.getBBillDao().queryBuilder().where(BBillDao.Properties.Crdate.between(DateUtils.getMillis(date)`DateUtils.getMillis(endDate))).where(BBillDao.Properties.Version.ge(0)).orderDesc(BBillDao.Properties.Crdate);" is 248.,111
+CocoBill-master,com.copasso.cocobill.model.repository,LocalRepository,getBillNote,Long Statement,The length of the statement "note.setInSortlis(mSession.getBSortDao().queryBuilder().where(BSortDao.Properties.Income.eq(true)).orderAsc(BSortDao.Properties.Priority).list());" is 146.,142
+CocoBill-master,com.copasso.cocobill.model.repository,LocalRepository,getBillNote,Long Statement,The length of the statement "note.setOutSortlis(mSession.getBSortDao().queryBuilder().where(BSortDao.Properties.Income.eq(false)).orderAsc(BSortDao.Properties.Priority).list());" is 148.,142
+CocoBill-master,com.copasso.cocobill.model.bean.local,BSort,BSort,Magic Number,The method contains a magic number: 2092983496,23
+CocoBill-master,com.copasso.cocobill.model.bean.local,BSort,BSort,Long Parameter List,The method has 6 parameters. ,27
+CocoBill-master,com.copasso.cocobill.model.bean.local,BSort,BSort,Magic Number,The method contains a magic number: 442114462,27
+CocoBill-master,com.copasso.cocobill.model.bean.local,BBill,BBill,Magic Number,The method contains a magic number: 124482664,28
+CocoBill-master,com.copasso.cocobill.model.bean.local,BBill,BBill,Long Parameter List,The method has 12 parameters. ,31
+CocoBill-master,com.copasso.cocobill.model.bean.local,BBill,BBill,Magic Number,The method contains a magic number: 634586034,31
+CocoBill-master,com.copasso.cocobill.model.bean.local,BPay,BPay,Magic Number,The method contains a magic number: 48271616,21
+CocoBill-master,com.copasso.cocobill.model.bean.local,BPay,BPay,Long Parameter List,The method has 5 parameters. ,25
+CocoBill-master,com.copasso.cocobill.model.bean.local,BPay,BPay,Magic Number,The method contains a magic number: 572465971,25
+CocoBill-master,com.copasso.cocobill.model.bean.remote,CoBill,CoBill,Long Parameter List,The method has 10 parameters. ,43
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"BSORT\" ("+ "\"_id\" INTEGER PRIMARY KEY `"+ "\"SORT_NAME\" TEXT`"+ "\"SORT_IMG\" TEXT`"+ "\"PRIORITY\" INTEGER NOT NULL `"+ "\"COST\" REAL NOT NULL `"+ "\"INCOME\" INTEGER);");" is 222.,44
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 2,62
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 3,62
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 4,62
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 5,62
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 6,62
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 2,89
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 3,89
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 4,89
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 5,89
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,bindValues,Magic Number,The method contains a magic number: 6,89
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Long Statement,The length of the statement "BSort entity=new BSort(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.getInt(offset + 3)`cursor.getFloat(offset + 4)`cursor.isNull(offset + 5) ? null : cursor.getShort(offset + 5) != 0);" is 336.,121
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 2,121
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 2,121
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 3,121
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 4,121
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 5,121
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 5,121
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 2,134
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 2,134
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 3,134
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 4,134
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 5,134
+CocoBill-master,com.copasso.cocobill.model.gen,BSortDao,readEntity,Magic Number,The method contains a magic number: 5,134
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"BPAY\" ("+ "\"_id\" INTEGER PRIMARY KEY `"+ "\"PAY_NAME\" TEXT`"+ "\"PAY_IMG\" TEXT`"+ "\"INCOME\" REAL NOT NULL `"+ "\"OUTCOME\" REAL NOT NULL );");" is 194.,43
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,bindValues,Magic Number,The method contains a magic number: 2,60
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,bindValues,Magic Number,The method contains a magic number: 3,60
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,bindValues,Magic Number,The method contains a magic number: 4,60
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,bindValues,Magic Number,The method contains a magic number: 5,60
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,bindValues,Magic Number,The method contains a magic number: 2,82
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,bindValues,Magic Number,The method contains a magic number: 3,82
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,bindValues,Magic Number,The method contains a magic number: 4,82
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,bindValues,Magic Number,The method contains a magic number: 5,82
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Long Statement,The length of the statement "BPay entity=new BPay(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.getFloat(offset + 3)`cursor.getFloat(offset + 4));" is 268.,109
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Magic Number,The method contains a magic number: 2,109
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Magic Number,The method contains a magic number: 2,109
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Magic Number,The method contains a magic number: 3,109
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Magic Number,The method contains a magic number: 4,109
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Magic Number,The method contains a magic number: 2,121
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Magic Number,The method contains a magic number: 2,121
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Magic Number,The method contains a magic number: 3,121
+CocoBill-master,com.copasso.cocobill.model.gen,BPayDao,readEntity,Magic Number,The method contains a magic number: 4,121
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"BBILL\" ("+ "\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT `"+ "\"RID\" TEXT`"+ "\"COST\" REAL NOT NULL `"+ "\"CONTENT\" TEXT`"+ "\"USERID\" TEXT`"+ "\"PAY_NAME\" TEXT`"+ "\"PAY_IMG\" TEXT`"+ "\"SORT_NAME\" TEXT`"+ "\"SORT_IMG\" TEXT`"+ "\"CRDATE\" INTEGER NOT NULL `"+ "\"INCOME\" INTEGER NOT NULL `"+ "\"VERSION\" INTEGER NOT NULL );");" is 379.,50
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Complex Method,Cyclomatic complexity of the method is 9,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 2,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 3,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 4,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 5,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 6,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 7,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 8,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 9,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 10,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 11,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 12,74
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Complex Method,Cyclomatic complexity of the method is 9,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 2,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 3,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 4,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 5,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 6,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 7,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 8,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 9,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 10,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 11,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,bindValues,Magic Number,The method contains a magic number: 12,123
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Long Statement,The length of the statement "BBill entity=new BBill(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1)`cursor.getFloat(offset + 2)`cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3)`cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4)`cursor.isNull(offset + 5) ? null : cursor.getString(offset + 5)`cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6)`cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7)`cursor.isNull(offset + 8) ? null : cursor.getString(offset + 8)`cursor.getLong(offset + 9)`cursor.getShort(offset + 10) != 0`cursor.getInt(offset + 11));" is 650.,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 2,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 3,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 3,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 4,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 4,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 5,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 5,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 6,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 6,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 7,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 7,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 8,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 8,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 9,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 10,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 11,177
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 2,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 3,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 3,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 4,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 4,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 5,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 5,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 6,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 6,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 7,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 7,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 8,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 8,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 9,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 10,196
+CocoBill-master,com.copasso.cocobill.model.gen,BBillDao,readEntity,Magic Number,The method contains a magic number: 11,196
+CocoBill-master,com.copasso.cocobill.base,BaseObserver,onError,Complex Conditional,The conditional expression e instanceof ConnectException || e instanceof TimeoutException || e instanceof NetworkErrorException|| e instanceof UnknownHostException is complex.,45
+CocoBill-master,com.copasso.cocobill.base,BaseObserver,onError,Long Statement,The length of the statement "if (e instanceof ConnectException || e instanceof TimeoutException || e instanceof NetworkErrorException|| e instanceof UnknownHostException) {" is 143.,45

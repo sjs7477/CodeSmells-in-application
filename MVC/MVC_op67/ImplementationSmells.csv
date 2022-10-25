@@ -1,0 +1,60 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,Connection,connect,Empty catch clause,The method has an empty catch block.,39
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,ServerThread,run,Long Statement,The length of the statement "if (Looper.getMainLooper().getThread() == Thread.currentThread()) throw new Exception("ERROR: ServerThread is on UI/Main");" is 123.,31
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,ServerThread,run,Long Statement,The length of the statement "_listener.onServerMessage(new MessageIn(received_lines`"ServerThread->run(): No data from server"`MessageIn.Type.ERROR_MESSAGE));" is 129.,31
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,ServerThread,run,Long Statement,The length of the statement "_listener.onServerMessage(new MessageIn(received_lines`"ServerThread->run()->IOException: " + e.getMessage()`MessageIn.Type.ERROR_MESSAGE));" is 140.,31
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,ServerThread,close_everything,Empty catch clause,The method has an empty catch block.,91
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,ServerThread,close_everything,Empty catch clause,The method has an empty catch block.,91
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,SocketCreatorAsync,doInBackground,Empty catch clause,The method has an empty catch block.,26
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,SocketCreatorAsync,doInBackground,Long Statement,The length of the statement "_listener.onConnectionStatus(new ConnectionStatus("Unknown server name: " + addr`false`"SocketCreatorAsync->doInBackground()"));" is 128.,26
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,SocketCreatorAsync,doInBackground,Long Statement,The length of the statement "_listener.onConnectionStatus(new ConnectionStatus("Couldn't connect to " + addr`false`"SocketCreatorAsync->doInBackground()"));" is 127.,26
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,SocketCreatorAsync,doInBackground,Magic Number,The method contains a magic number: 5000,26
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,SocketObserverThread,run,Long Statement,The length of the statement "if (Looper.getMainLooper().getThread() == Thread.currentThread()) throw new Exception("ERROR: SocketObserverThread is on UI/Main");" is 131.,21
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.horror,SocketObserverThread,run,Magic Number,The method contains a magic number: 10000,21
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,getColorFilter,Magic Number,The method contains a magic number: 0xFFFFFFFF,56
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,getColorFilter,Magic Number,The method contains a magic number: 0x0000FF00,56
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,getColorFilter,Magic Number,The method contains a magic number: 0xFFFFFFFF,56
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,getColorFilter,Magic Number,The method contains a magic number: 0x00FF0000,56
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,createBitmap,Magic Number,The method contains a magic number: 40,71
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,createBitmap,Magic Number,The method contains a magic number: 40,71
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,createBitmap,Magic Number,The method contains a magic number: 38,71
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,createBitmap,Magic Number,The method contains a magic number: 12,71
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,createBitmap,Magic Number,The method contains a magic number: 20,71
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,createBitmap,Magic Number,The method contains a magic number: 10,71
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,drawText,Long Parameter List,The method has 7 parameters. ,111
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,drawText,Magic Number,The method contains a magic number: 2,111
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,drawText,Magic Number,The method contains a magic number: 2,111
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.model,Player,vectorToBitmap,Long Statement,The length of the statement "Bitmap bitmap=Bitmap.createBitmap(vectorDrawable.getIntrinsicWidth()`vectorDrawable.getIntrinsicHeight()`Bitmap.Config.ARGB_8888);" is 130.,127
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.action,ActionQueue,run,Long Statement,The length of the statement "if (Looper.getMainLooper().getThread() == Thread.currentThread()) throw new Exception("ERROR: ServerThread is on UI/Main");" is 123.,39
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.action,ActionQueue,run,Magic Number,The method contains a magic number: 1500,39
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,process_line,Complex Method,Cyclomatic complexity of the method is 16,45
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,process_line,Magic Number,The method contains a magic number: 13,45
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,process_line,Magic Number,The method contains a magic number: 6,45
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_async_command,Complex Method,Cyclomatic complexity of the method is 9,125
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_async_command,Magic Number,The method contains a magic number: 2,125
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_async_command,Magic Number,The method contains a magic number: 4,125
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_async_command,Magic Number,The method contains a magic number: 2,125
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_async_command,Magic Number,The method contains a magic number: 3,125
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_command,Complex Method,Cyclomatic complexity of the method is 20,183
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_command,Magic Number,The method contains a magic number: 2,183
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_command,Magic Number,The method contains a magic number: 2,183
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_command,Magic Number,The method contains a magic number: 4,183
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_command,Magic Number,The method contains a magic number: 2,183
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.service.repository.message,MessageIn,handle_command,Magic Number,The method contains a magic number: 3,183
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui,LoginFragment,onCreateView,Magic Number,The method contains a magic number: 2,50
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui,LoginFragment,onCreateView,Magic Number,The method contains a magic number: 2,50
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui,LoginFragment,onCreateView,Magic Number,The method contains a magic number: 2,50
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui,LoginFragment,onCreateView,Magic Number,The method contains a magic number: 2,50
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui,LoginFragment,onCreateView,Magic Number,The method contains a magic number: 2,50
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui,MainActivity,onCreate,Magic Number,The method contains a magic number: 350,36
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui,MainActivity,onOptionsItemSelected,Empty catch clause,The method has an empty catch block.,76
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui,MapFragment,onMapReady,Empty catch clause,The method has an empty catch block.,64
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui.util,LocationHelper,LocationHelper,Magic Number,The method contains a magic number: 1234,49
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui.util,LocationHelper,startLocationUpdates,Long Statement,The length of the statement "if (checkPermission()) LocationServices.getFusedLocationProviderClient(fragment.getActivity()).requestLocationUpdates(mLocationRequest`new LocationCallback(){" is 158.,73
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui.util,LocationHelper,updatePlayers,Long Statement,The length of the statement "MarkerOptions options=new MarkerOptions().position(p.getLatLng()).snippet(p.getName()).title(p.getLatLng().toString()).icon(p.getIcon(fragment.getActivity()`lastLocation));" is 172.,122
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui.util,LocationHelper,updatePlayers,Magic Number,The method contains a magic number: 0.5f,122
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui.util,ProgressbarAsync,doInBackground,Magic Number,The method contains a magic number: 100,29
+android-mvc-friendlocalization-master,com.example.casi.uppg5_3.ui.util,ProgressbarAsync,doInBackground,Magic Number,The method contains a magic number: 300,29

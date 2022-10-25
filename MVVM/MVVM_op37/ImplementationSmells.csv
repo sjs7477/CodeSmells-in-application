@@ -1,0 +1,168 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,MyApplication,initNetwork,Long Statement,The length of the statement "OkHttpClient mOkHttpCLient=new OkHttpClient.Builder().connectTimeout(60000L`TimeUnit.MILLISECONDS).readTimeout(60000L`TimeUnit.MILLISECONDS).writeTimeout(60000L`TimeUnit.MILLISECONDS).connectionPool(new ConnectionPool(5`5`TimeUnit.SECONDS)).build();" is 249.,55
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,MyApplication,initNetwork,Magic Number,The method contains a magic number: 60000L,55
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,MyApplication,initNetwork,Magic Number,The method contains a magic number: 60000L,55
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,MyApplication,initNetwork,Magic Number,The method contains a magic number: 60000L,55
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,MyApplication,initNetwork,Magic Number,The method contains a magic number: 5,55
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,MyApplication,initNetwork,Magic Number,The method contains a magic number: 5,55
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.itype,KeyboardListener,KeyboardListener,Magic Number,The method contains a magic number: 200,19
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.itype,KeyboardListener,KeyboardListener,Magic Number,The method contains a magic number: 200,19
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.itype,KeyboardListener,onGlobalLayout,Magic Number,The method contains a magic number: 200,24
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.itype,KeyboardListener,onGlobalLayout,Magic Number,The method contains a magic number: 200,24
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.receiver,NetworkBroadcastReceiver,onReceive,Missing default,The following switch statement is missing a default case: switch (networkInfo.getType()) {,27
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.ui.activity,MainActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,60
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.ui.activity,MainActivity,exitApp,Long Identifier,The length of the field EXIT_APP_BACK_PRESSED_INTERVAL is 30.,104
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.ui.activity,SplashActivity,enterMyApp,Magic Number,The method contains a magic number: 1500,55
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.ui.activity,SplashActivity,enterMyApp,Magic Number,The method contains a magic number: 1500,55
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.ui.dialog,LogoutDialog,LogoutDialog,Long Parameter List,The method has 5 parameters. ,32
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,toByte,Magic Number,The method contains a magic number: 2,196
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,toByte,Magic Number,The method contains a magic number: 2,196
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,toByte,Magic Number,The method contains a magic number: 2,196
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,toByte,Magic Number,The method contains a magic number: 2,196
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,toByte,Magic Number,The method contains a magic number: 16,196
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,toHex,Magic Number,The method contains a magic number: 2,211
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,appendHex,Magic Number,The method contains a magic number: 4,228
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,appendHex,Magic Number,The method contains a magic number: 0x0f,228
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,appendHex,Magic Number,The method contains a magic number: 0x0f,228
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,encryptFile,Magic Number,The method contains a magic number: 1024,271
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,AESUtil,decryptFile,Magic Number,The method contains a magic number: 1024,321
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu1,Long Statement,The length of the statement "int uiOptions=View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN| View.SYSTEM_UI_FLAG_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_FULLSCREEN| View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;" is 240.,30
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu1,Magic Number,The method contains a magic number: 11,30
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu1,Magic Number,The method contains a magic number: 19,30
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu1,Magic Number,The method contains a magic number: 19,30
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,showBottomUIMenu1,Magic Number,The method contains a magic number: 11,53
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,showBottomUIMenu1,Magic Number,The method contains a magic number: 19,53
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,showBottomUIMenu1,Magic Number,The method contains a magic number: 19,53
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu2,Long Statement,The length of the statement "int uiOptions=View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY | View.SYSTEM_UI_FLAG_FULLSCREEN;" is 122.,71
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu2,Magic Number,The method contains a magic number: 11,71
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu2,Magic Number,The method contains a magic number: 19,71
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu2,Magic Number,The method contains a magic number: 19,71
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu3,Magic Number,The method contains a magic number: 11,91
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu3,Magic Number,The method contains a magic number: 19,91
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu3,Magic Number,The method contains a magic number: 19,91
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu4,Long Statement,The length of the statement "int uiOptions=View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN| View.SYSTEM_UI_FLAG_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_IMMERSIVE;" is 201.,110
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu4,Magic Number,The method contains a magic number: 11,110
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu4,Magic Number,The method contains a magic number: 19,110
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,hideBottomUIMenu4,Magic Number,The method contains a magic number: 19,110
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,BottomUIMenuUtil,getNavBarOverride,Empty catch clause,The method has an empty catch block.,175
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,22
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,30
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,38
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,46
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,change,Magic Number,The method contains a magic number: 180,54
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,changeAngle,Magic Number,The method contains a magic number: 180,58
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,decodeImage,Magic Number,The method contains a magic number: 90,118
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,decodeImage,Magic Number,The method contains a magic number: 180,118
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CommonUtil,decodeImage,Magic Number,The method contains a magic number: 270,118
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,CrashHandler,uncaughtException,Magic Number,The method contains a magic number: 100,74
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,DateUtil,getWeekFromDate,Complex Method,Cyclomatic complexity of the method is 8,128
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,FileUtil,FormetFileSize,Magic Number,The method contains a magic number: 1024,32
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,FileUtil,FormetFileSize,Magic Number,The method contains a magic number: 1048576,32
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,FileUtil,FormetFileSize,Magic Number,The method contains a magic number: 1024,32
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,FileUtil,FormetFileSize,Magic Number,The method contains a magic number: 1073741824,32
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,FileUtil,FormetFileSize,Magic Number,The method contains a magic number: 1048576,32
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,FileUtil,FormetFileSize,Magic Number,The method contains a magic number: 1073741824,32
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getCacheSize,Long Statement,The length of the statement "return getFormatSize(getFolderSize(new File(context.getCacheDir() + "/" + InternalCacheDiskCacheFactory.DEFAULT_DISK_CACHE_DIR)));" is 130.,73
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 1024,142
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 1024,142
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 2,142
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 1024,142
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 2,142
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 1024,142
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 2,142
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideCacheUtil,getFormatSize,Magic Number,The method contains a magic number: 2,142
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideUtil,loadImage,Long Statement,The length of the statement "RequestOptions options=new RequestOptions().placeholder(errImageId).error(errImageId).diskCacheStrategy(DiskCacheStrategy.DATA);" is 128.,72
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideUtil,preloadImage,Long Statement,The length of the statement "@Override public boolean onResourceReady( Drawable drawable` Object o` Target<Drawable> target` DataSource dataSource` boolean b){" is 130.,107
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideUtil,onResourceReady,Long Parameter List,The method has 5 parameters. ,124
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,GlideUtil,drawableToBitmap,Long Statement,The length of the statement "Bitmap bitmap=Bitmap.createBitmap(drawable.getIntrinsicWidth()`drawable.getIntrinsicHeight()`drawable.getOpacity() != PixelFormat.OPAQUE ? Bitmap.Config.ARGB_8888 : Bitmap.Config.RGB_565);" is 188.,166
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,LogUtil,getTag,Magic Number,The method contains a magic number: 2,134
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,LogUtil,buildMessage,Magic Number,The method contains a magic number: 2,149
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,isRunForeground,Long Statement,The length of the statement "if (appProcess.processName.equals(packageName) && ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND == appProcess.importance) {" is 137.,124
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,setDialogWindowAttr,Magic Number,The method contains a magic number: 8,143
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,setDialogWindowAttr,Magic Number,The method contains a magic number: 7,143
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,simulateClick,Magic Number,The method contains a magic number: 1000,200
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,setNumberPickerDividerColor,Magic Number,The method contains a magic number: 3,233
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,setNumberPickerDividerColor,Magic Number,The method contains a magic number: 48,233
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,checkNetType,Magic Number,The method contains a magic number: 2,325
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,checkNetType,Magic Number,The method contains a magic number: 3,325
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,checkPermission,Magic Number,The method contains a magic number: 23,418
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,toMD5,Magic Number,The method contains a magic number: 0xff,436
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,toMD5,Magic Number,The method contains a magic number: 2,436
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,bitmapToBase64,Magic Number,The method contains a magic number: 100,465
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,sha1,Magic Number,The method contains a magic number: 256,511
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,sha1,Magic Number,The method contains a magic number: 16,511
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,installApk,Empty catch clause,The method has an empty catch block.,555
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,compareVersion,Complex Method,Cyclomatic complexity of the method is 8,585
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,stringFilter,Magic Number,The method contains a magic number: 2,626
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,stringFilter,Magic Number,The method contains a magic number: 3,626
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,stringFilter,Magic Number,The method contains a magic number: 4,626
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,handleText,Complex Conditional,The conditional expression maxLen == count || (item >= 128 && maxLen + 1 == count) is complex.,680
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,handleText,Magic Number,The method contains a magic number: 128,680
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,handleText,Magic Number,The method contains a magic number: 2,680
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,handleText,Magic Number,The method contains a magic number: 128,680
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,intIP2StringIP,Magic Number,The method contains a magic number: 0xFF,743
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,intIP2StringIP,Magic Number,The method contains a magic number: 8,743
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,intIP2StringIP,Magic Number,The method contains a magic number: 0xFF,743
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,intIP2StringIP,Magic Number,The method contains a magic number: 16,743
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,intIP2StringIP,Magic Number,The method contains a magic number: 0xFF,743
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,intIP2StringIP,Magic Number,The method contains a magic number: 24,743
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,intIP2StringIP,Magic Number,The method contains a magic number: 0xFF,743
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,getVideoTime,Long Statement,The length of the statement "headers.put("User-Agent"`"Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; MW-KW-001 Build/JRO03C) AppleWebKit/533.1 (KHTML` like Gecko) Version/4.0 UCBrowser/1.0.0.001 U4/0.8.0 Mobile Safari/533.1");" is 196.,770
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,getVideoWidth,Long Statement,The length of the statement "headers.put("User-Agent"`"Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; MW-KW-001 Build/JRO03C) AppleWebKit/533.1 (KHTML` like Gecko) Version/4.0 UCBrowser/1.0.0.001 U4/0.8.0 Mobile Safari/533.1");" is 196.,796
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,ProjectUtil,getVideoHeight,Long Statement,The length of the statement "headers.put("User-Agent"`"Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; MW-KW-001 Build/JRO03C) AppleWebKit/533.1 (KHTML` like Gecko) Version/4.0 UCBrowser/1.0.0.001 U4/0.8.0 Mobile Safari/533.1");" is 196.,822
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,requestTime,Magic Number,The method contains a magic number: 3,77
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,requestTime,Magic Number,The method contains a magic number: 6,77
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,requestTime,Magic Number,The method contains a magic number: 0x3,77
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,requestTime,Magic Number,The method contains a magic number: 0x7,77
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,requestTime,Magic Number,The method contains a magic number: 0xff,77
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,requestTime,Magic Number,The method contains a magic number: 2,77
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 2,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 3,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x7F,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x7F,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x7F,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x7F,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 0x80,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 24,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 16,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,read32,Magic Number,The method contains a magic number: 8,204
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,readTimeStamp,Magic Number,The method contains a magic number: 4,222
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,readTimeStamp,Magic Number,The method contains a magic number: 1000,222
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,readTimeStamp,Magic Number,The method contains a magic number: 1000L,222
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,readTimeStamp,Magic Number,The method contains a magic number: 0x100000000L,222
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 8,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 1000L,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 1000L,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 24,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 16,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 8,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 0x100000000L,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 1000L,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 24,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 16,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 8,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SntpClient,writeTimeStamp,Magic Number,The method contains a magic number: 255.0,236
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils,SocketUtil,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,34
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils.net,NetTool,postJson,Long Statement,The length of the statement "OkHttpUtils.postString().url(url).content(json).mediaType(MediaType.parse("application/json; charset=utf-8")).build().execute(callback);" is 136.,51
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils.net,NetTool,postJson,Long Statement,The length of the statement "OkHttpUtils.postString().url(url).addHeader("Authorization"`getToken()).content(json).mediaType(MediaType.parse("application/json; charset=utf-8")).build().execute(callback);" is 174.,51
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils.net,NetTool,postForm,Complex Method,Cyclomatic complexity of the method is 8,65
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils.net,NetTool,postJson,Complex Method,Cyclomatic complexity of the method is 8,132
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils.net,NetTool,postJson,Long Statement,The length of the statement "build=OkHttpUtils.postString().url(url).content(json).mediaType(MediaType.parse("application/json; charset=utf-8")).build();" is 124.,132
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils.net,NetTool,postJson,Long Statement,The length of the statement "build=OkHttpUtils.postString().url(url).addHeader("Authorization"`getToken()).content(json).mediaType(MediaType.parse("application/json; charset=utf-8")).build();" is 162.,132
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils.net,RetrofitClient,getOkHttpClient,Long Statement,The length of the statement "okHttpClient=new OkHttpClient().newBuilder().addInterceptor(getHeaderInterceptor()).addInterceptor(getInterceptor()).build();" is 125.,75
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.utils.net,RetrofitClient,getApi,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().baseUrl(MyConstant.URL_BASE).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJava3CallAdapterFactory.create()).client(getOkHttpClient()).build();" is 204.,95
+37_MvvmArchitecture-master,com.mythmayor.mvvmarchitecture.viewmodel,LoginViewModel,useRetrofit,Long Statement,The length of the statement "mLoginModel.login(request).compose(RxScheduler.Obs_io_main()).to(mView.bindAutoDispose()).subscribe(new Observer<LoginResponse>(){" is 130.,37

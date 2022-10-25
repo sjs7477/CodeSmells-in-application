@@ -1,0 +1,74 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+57_Headline-master,com.nmid.headline,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+57_Headline-master,com.nmid.headline,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+57_Headline-master,com.nmid.headline,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+57_Headline-master,com.nmid.headline.about,AboutActivity,onCreate,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`fragment`R.id.about_container`getClass().getSimpleName());" is 122.,28
+57_Headline-master,com.nmid.headline.about,AboutActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,42
+57_Headline-master,com.nmid.headline.appwidget,CourseAppWidgetProvider,updateView,Magic Number,The method contains a magic number: 2,74
+57_Headline-master,com.nmid.headline.appwidget,CourseAppWidgetProvider,updateView,Magic Number,The method contains a magic number: 2,74
+57_Headline-master,com.nmid.headline.appwidget,CourseAppWidgetProvider,clearView,Magic Number,The method contains a magic number: 7,86
+57_Headline-master,com.nmid.headline.courselist,CourseListActivity,onCreate,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`fragment`R.id.courseList_container`CourseListFragment.class.getSimpleName());" is 141.,28
+57_Headline-master,com.nmid.headline.courselist,CourseListActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,47
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Complex Conditional,The conditional expression !isLoaded && weekCourses.get(courseId).getHashDay() == (columnSpec - 1) && weekCourses.get(courseId).getBeginLesson() == (rowSpec * 2 - 1) is complex.,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Long Statement,The length of the statement "if (!isLoaded && weekCourses.get(courseId).getHashDay() == (columnSpec - 1) && weekCourses.get(courseId).getBeginLesson() == (rowSpec * 2 - 1)) {" is 145.,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 20,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 20,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 8,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 7,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 12,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 2,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 200,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 2,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 2,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,initCourseList,Magic Number,The method contains a magic number: 5,120
+57_Headline-master,com.nmid.headline.courselist,CourseListFragment,showCourseDetail,Long Statement,The length of the statement "detailFragment=(CourseDetailFragment)getActivity().getSupportFragmentManager().findFragmentByTag(CourseDetailFragment.class.getSimpleName());" is 141.,203
+57_Headline-master,com.nmid.headline.data,CourseRepository,getNowWeek,Magic Number,The method contains a magic number: 7,72
+57_Headline-master,com.nmid.headline.data.source.local,ACache,put,Magic Number,The method contains a magic number: 1024,104
+57_Headline-master,com.nmid.headline.data.source.local,ACache,put,Empty catch clause,The method has an empty catch block.,379
+57_Headline-master,com.nmid.headline.data.source.local,ACache,isDue,Magic Number,The method contains a magic number: 2,720
+57_Headline-master,com.nmid.headline.data.source.local,ACache,isDue,Magic Number,The method contains a magic number: 1000,720
+57_Headline-master,com.nmid.headline.data.source.local,ACache,hasDateInfo,Magic Number,The method contains a magic number: 15,771
+57_Headline-master,com.nmid.headline.data.source.local,ACache,hasDateInfo,Magic Number,The method contains a magic number: 13,771
+57_Headline-master,com.nmid.headline.data.source.local,ACache,hasDateInfo,Magic Number,The method contains a magic number: 14,771
+57_Headline-master,com.nmid.headline.data.source.local,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,776
+57_Headline-master,com.nmid.headline.data.source.local,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,776
+57_Headline-master,com.nmid.headline.data.source.local,ACache,createDateInfo,Magic Number,The method contains a magic number: 13,807
+57_Headline-master,com.nmid.headline.data.source.local,ACache,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,818
+57_Headline-master,com.nmid.headline.data.source.local,Utils,isDue,Magic Number,The method contains a magic number: 2,720
+57_Headline-master,com.nmid.headline.data.source.local,Utils,isDue,Magic Number,The method contains a magic number: 1000,720
+57_Headline-master,com.nmid.headline.data.source.local,Utils,hasDateInfo,Magic Number,The method contains a magic number: 15,771
+57_Headline-master,com.nmid.headline.data.source.local,Utils,hasDateInfo,Magic Number,The method contains a magic number: 13,771
+57_Headline-master,com.nmid.headline.data.source.local,Utils,hasDateInfo,Magic Number,The method contains a magic number: 14,771
+57_Headline-master,com.nmid.headline.data.source.local,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,776
+57_Headline-master,com.nmid.headline.data.source.local,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,776
+57_Headline-master,com.nmid.headline.data.source.local,Utils,createDateInfo,Magic Number,The method contains a magic number: 13,807
+57_Headline-master,com.nmid.headline.data.source.local,Utils,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,818
+57_Headline-master,com.nmid.headline.data.source.remote,CourseHttp,CourseHttp,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().baseUrl(CourseHttpService.END_POINT).addConverterFactory(GsonConverterFactory.create()).build();" is 128.,27
+57_Headline-master,com.nmid.headline.data.source.remote,HttpMethods,HttpMethods,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().baseUrl(HeadlineHttpService.END_POINT).addConverterFactory(GsonConverterFactory.create()).build();" is 130.,33
+57_Headline-master,com.nmid.headline.data.source.remote,HttpMethods,getNewDetail,Long Statement,The length of the statement "Request request=new Request.Builder().url(HeadlineHttpService.END_POINT + "/Headline/api/news/content?id=" + id+ "&type="+ type).build();" is 137.,68
+57_Headline-master,com.nmid.headline.data.source.remote,HttpMethods,getTeacherDetail,Long Statement,The length of the statement "Request request=new Request.Builder().url(HeadlineHttpService.END_POINT + "/Headline/api/teacherInfo/getResume?id=" + id).build();" is 130.,107
+57_Headline-master,com.nmid.headline.detailwebview,DetailWebViewActivity,onCreate,Long Statement,The length of the statement "DetailWebViewFragment teacherFragment=(DetailWebViewFragment)getSupportFragmentManager().findFragmentByTag(BUNDLE_TEACHER);" is 123.,41
+57_Headline-master,com.nmid.headline.detailwebview,DetailWebViewActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,83
+57_Headline-master,com.nmid.headline.detailwebview,DetailWebViewFragment,showHtml,Long Statement,The length of the statement "String htmlData="<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> <body class= \"gloable\"> " + html + "</body>";" is 129.,85
+57_Headline-master,com.nmid.headline.favoritelist,FavoriteListActivity,onCreate,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`fragment`R.id.favorite_container`getClass().getSimpleName());" is 125.,34
+57_Headline-master,com.nmid.headline.favoritelist,FavoriteListActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,48
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 9,51
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onCreate,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`collegeNewsFragment`R.id.contain`NewsRepository.TYPE_JINGWEI);" is 126.,51
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onCreate,Long Statement,The length of the statement "collegeNewsPresenter=new NewsPagePresenter(NewsRepository.getInstance()`collegeNewsFragment`NewsRepository.TYPE_JINGWEI);" is 121.,51
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onCreate,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`newsletterFragment`R.id.contain`NewsRepository.TYPE_NEWS);" is 122.,51
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onCreate,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`teacherListFragment`R.id.contain`TeacherListFragment.class.getSimpleName());" is 140.,51
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onCreate,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`userActionFragment`R.id.contain`UserActionFragment.class.getSimpleName());" is 138.,51
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onNavigationItemSelected,Complex Method,Cyclomatic complexity of the method is 8,74
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onNavigationItemSelected,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`newsletterFragment`R.id.contain`NewsRepository.TYPE_NEWS);" is 122.,74
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onNavigationItemSelected,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`teacherListFragment`R.id.contain`TeacherListFragment.class.getSimpleName());" is 140.,74
+57_Headline-master,com.nmid.headline.launcher,MainActivity,onNavigationItemSelected,Long Statement,The length of the statement "ActivityUtils.addFragmentToActivity(getSupportFragmentManager()`userActionFragment`R.id.contain`UserActionFragment.class.getSimpleName());" is 138.,74
+57_Headline-master,com.nmid.headline.launcher.newspage,NewsListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,65
+57_Headline-master,com.nmid.headline.launcher.newspage,NewsListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,65
+57_Headline-master,com.nmid.headline.launcher.newspage,NewsListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,65
+57_Headline-master,com.nmid.headline.launcher.teacherlist,TeacherListAdapter,onBindViewHolder,Long Statement,The length of the statement "Picasso.with(holder.teacherIcon.getContext()).load(temp.getImgUrl()).resize(90`130).centerInside().into(holder.teacherIcon);" is 124.,61
+57_Headline-master,com.nmid.headline.launcher.teacherlist,TeacherListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 90,61
+57_Headline-master,com.nmid.headline.launcher.teacherlist,TeacherListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 130,61
+57_Headline-master,com.nmid.headline.launcher.teacherlist,TeacherListFragment,onCreateView,Magic Number,The method contains a magic number: 2,59
+57_Headline-master,com.nmid.headline.launcher.teacherlist,TeacherListFragment,onScrolled,Magic Number,The method contains a magic number: 2,73
+57_Headline-master,com.nmid.headline.util,PicassoUtil,loadNewsListImage,Magic Number,The method contains a magic number: 240,15
+57_Headline-master,com.nmid.headline.util,PicassoUtil,loadNewsListImage,Magic Number,The method contains a magic number: 135,15

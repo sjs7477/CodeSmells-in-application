@@ -1,0 +1,158 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+13_FilmCircle-master,com.cropcircle.filmcircle,MainActivity,onCreate,Long Statement,The length of the statement "mAppBarConfiguration=new AppBarConfiguration.Builder(R.id.nav_home`R.id.nav_gallery`R.id.nav_slideshow).setOpenableLayout(drawer).build();" is 138.,30
+13_FilmCircle-master,com.cropcircle.filmcircle,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+13_FilmCircle-master,com.cropcircle.filmcircle,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+13_FilmCircle-master,com.cropcircle.filmcircle,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+13_FilmCircle-master,com.cropcircle.filmcircle.database,AppNetwork,getInstance,Long Statement,The length of the statement "OkHttpClient okHttpClient=new OkHttpClient.Builder().addInterceptor(new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BASIC)).callTimeout(90`TimeUnit.SECONDS).readTimeout(90`TimeUnit.SECONDS).build();" is 217.,16
+13_FilmCircle-master,com.cropcircle.filmcircle.database,AppNetwork,getInstance,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().baseUrl(Constants.BASE_URL).addConverterFactory(GsonConverterFactory.create()).client(okHttpClient).build();" is 140.,16
+13_FilmCircle-master,com.cropcircle.filmcircle.database,AppNetwork,getInstance,Magic Number,The method contains a magic number: 90,16
+13_FilmCircle-master,com.cropcircle.filmcircle.database,AppNetwork,getInstance,Magic Number,The method contains a magic number: 90,16
+13_FilmCircle-master,com.cropcircle.filmcircle.database,MovieRepository,addToFavorites,Long Parameter List,The method has 6 parameters. ,520
+13_FilmCircle-master,com.cropcircle.filmcircle.database,MovieService,addToFavorites,Long Parameter List,The method has 5 parameters. ,81
+13_FilmCircle-master,com.cropcircle.filmcircle.models.allmedia,Result,Result,Long Parameter List,The method has 19 parameters. ,75
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,Backdrop,Backdrop,Long Parameter List,The method has 7 parameters. ,36
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,Movie,Movie,Long Parameter List,The method has 12 parameters. ,115
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,Movie,loadSmallGridImage,Magic Number,The method contains a magic number: 150,233
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,Movie,loadSmallGridImage,Magic Number,The method contains a magic number: 120,233
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,Movie,loadSmallGridImage,Magic Number,The method contains a magic number: 150,233
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,Movie,loadSmallGridImage,Magic Number,The method contains a magic number: 120,233
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,MovieDetails,MovieDetails,Long Parameter List,The method has 18 parameters. ,78
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,Poster,Poster,Long Parameter List,The method has 7 parameters. ,36
+13_FilmCircle-master,com.cropcircle.filmcircle.models.movie,Video,Video,Long Parameter List,The method has 8 parameters. ,44
+13_FilmCircle-master,com.cropcircle.filmcircle.models.review,Review,Review,Long Parameter List,The method has 7 parameters. ,36
+13_FilmCircle-master,com.cropcircle.filmcircle.models.tv,CreatedBy,CreatedBy,Long Parameter List,The method has 5 parameters. ,30
+13_FilmCircle-master,com.cropcircle.filmcircle.models.tv,LastEpisodeToAir,LastEpisodeToAir,Long Parameter List,The method has 10 parameters. ,45
+13_FilmCircle-master,com.cropcircle.filmcircle.models.tv,MediaTV,MediaTV,Long Parameter List,The method has 29 parameters. ,106
+13_FilmCircle-master,com.cropcircle.filmcircle.models.tv,Season,Season,Long Parameter List,The method has 7 parameters. ,36
+13_FilmCircle-master,com.cropcircle.filmcircle.models.user,User,User,Long Parameter List,The method has 7 parameters. ,36
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.auth,AuthActivity,onCreate,Magic Number,The method contains a magic number: 8,42
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.auth,AuthActivity,onCreate,Magic Number,The method contains a magic number: 8,42
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.auth,AuthActivity,onCreate,Magic Number,The method contains a magic number: 8,42
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.auth,AuthActivity,onCreate,Magic Number,The method contains a magic number: 8,42
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.auth,AuthActivity,onCreate,Magic Number,The method contains a magic number: 32,42
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.auth,AuthActivity,onCreate,Magic Number,The method contains a magic number: 5000,42
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.auth,AuthActivity,onCreate,Magic Number,The method contains a magic number: 1000,42
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,GenreTabsAdapter,getItemCount,Magic Number,The method contains a magic number: 7,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ImageAdapter,convert,Long Statement,The length of the statement "Glide.with(binding.getRoot()).asBitmap().load(Constants.BACKDROP_PATH_780 + backdrop.getFilePath()).override(1024`786).into(binding.itemImage);" is 143.,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ImageAdapter,convert,Long Statement,The length of the statement "Glide.with(binding.getRoot()).asBitmap().load(Constants.BACKDROP_PATH_780 + backdrop.getFilePath()).override(800`600).into(binding.itemImage);" is 142.,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ImageAdapter,convert,Magic Number,The method contains a magic number: 3,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ImageAdapter,convert,Magic Number,The method contains a magic number: 1024,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ImageAdapter,convert,Magic Number,The method contains a magic number: 786,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ImageAdapter,convert,Magic Number,The method contains a magic number: 800,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ImageAdapter,convert,Magic Number,The method contains a magic number: 600,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ReviewAdapter,bind,Magic Number,The method contains a magic number: 3,62
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ReviewAdapter,bind,Magic Number,The method contains a magic number: 50,62
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ReviewAdapter,bind,Magic Number,The method contains a magic number: 3,62
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ReviewAdapter,onClick,Magic Number,The method contains a magic number: 3,67
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ReviewAdapter,onClick,Magic Number,The method contains a magic number: 50,67
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ReviewAdapter,onClick,Magic Number,The method contains a magic number: 3,67
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ViewHolder,bind,Magic Number,The method contains a magic number: 3,62
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ViewHolder,bind,Magic Number,The method contains a magic number: 50,62
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ViewHolder,bind,Magic Number,The method contains a magic number: 3,62
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ViewHolder,onClick,Magic Number,The method contains a magic number: 3,67
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ViewHolder,onClick,Magic Number,The method contains a magic number: 50,67
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.adapter,ViewHolder,onClick,Magic Number,The method contains a magic number: 3,67
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupNowPlaying,Magic Number,The method contains a magic number: 3,102
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupSlider,Magic Number,The method contains a magic number: 3,115
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupSlider,Magic Number,The method contains a magic number: 6,115
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupSlider,Magic Number,The method contains a magic number: 9,115
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,onChanged,Magic Number,The method contains a magic number: 9,122
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingMovie,Long Statement,The length of the statement "binding.layoutDiscover.homeRcTrending.setLayoutManager(new LinearLayoutManager(getContext()`LinearLayoutManager.HORIZONTAL`false));" is 131.,129
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingMovie,Magic Number,The method contains a magic number: 12,129
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingMovie,Magic Number,The method contains a magic number: 12,129
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingMovie,Magic Number,The method contains a magic number: 12,129
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingMovie,Magic Number,The method contains a magic number: 12,129
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingMovie,Magic Number,The method contains a magic number: 16,129
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupUpcoming,Long Statement,The length of the statement "binding.layoutDiscover.homeRcNewRelease.setLayoutManager(new LinearLayoutManager(getContext()`LinearLayoutManager.HORIZONTAL`false));" is 133.,174
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupUpcoming,Magic Number,The method contains a magic number: 8,174
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupUpcoming,Magic Number,The method contains a magic number: 32,174
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupUpcoming,Magic Number,The method contains a magic number: 8,174
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupUpcoming,Magic Number,The method contains a magic number: 8,174
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupUpcoming,Magic Number,The method contains a magic number: 16,174
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupPopular,Long Statement,The length of the statement "binding.layoutDiscover.homeRcPopularMovie.setLayoutManager(new LinearLayoutManager(getContext()`LinearLayoutManager.HORIZONTAL`false));" is 135.,199
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupPopular,Magic Number,The method contains a magic number: 8,199
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupPopular,Magic Number,The method contains a magic number: 32,199
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupPopular,Magic Number,The method contains a magic number: 8,199
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupPopular,Magic Number,The method contains a magic number: 8,199
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupPopular,Magic Number,The method contains a magic number: 16,199
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingTV,Long Statement,The length of the statement "binding.layoutDiscover.homeRcTvTrending.setLayoutManager(new LinearLayoutManager(getContext()`LinearLayoutManager.HORIZONTAL`false));" is 133.,224
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingTV,Magic Number,The method contains a magic number: 8,224
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingTV,Magic Number,The method contains a magic number: 8,224
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingTV,Magic Number,The method contains a magic number: 8,224
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingTV,Magic Number,The method contains a magic number: 8,224
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,setupTrendingTV,Magic Number,The method contains a magic number: 16,224
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home,HomeFragment,isNetworkConnected,Long Statement,The length of the statement "ConnectivityManager connectivityManager=(ConnectivityManager)getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);" is 122.,271
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.itemdecoration,BannerItemDecoration,getItemOffsets,Magic Number,The method contains a magic number: 16,19
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.itemdecoration,HorizontalItemDecoration,HorizontalItemDecoration,Long Parameter List,The method has 5 parameters. ,17
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.itemdecoration,HorizontalItemDecoration,getItemOffsets,Magic Number,The method contains a magic number: 16,25
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.itemdecoration,HorizontalItemDecoration,getItemOffsets,Magic Number,The method contains a magic number: 32,25
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.itemdecoration,HorizontalItemDecoration,getItemOffsets,Magic Number,The method contains a magic number: 32,25
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.itemdecoration,HorizontalItemDecoration,getItemOffsets,Magic Number,The method contains a magic number: 64,25
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.itemdecoration,VerticalItemDecoration,getItemOffsets,Magic Number,The method contains a magic number: 16,22
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub,GenreFragment,onViewCreated,Magic Number,The method contains a magic number: 3,85
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub,GenreFragment,onViewCreated,Magic Number,The method contains a magic number: 6,85
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub,GenreFragment,onViewCreated,Magic Number,The method contains a magic number: 6,85
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub,GenreFragment,onViewCreated,Magic Number,The method contains a magic number: 12,85
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub,GenreFragment,onViewCreated,Magic Number,The method contains a magic number: 12,85
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub,GenreFragment,onViewCreated,Magic Number,The method contains a magic number: 9,85
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub,GenreFragment,onChanged,Magic Number,The method contains a magic number: 9,100
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub,MovieDetailsActivity,prepareTabs,Long Statement,The length of the statement "new TabLayoutMediator(binding.layoutContent.layoutMovieDetailsHeader.movieDetailsTabs`binding.layoutContent.movieDetailsPager`new TabLayoutMediator.TabConfigurationStrategy(){" is 175.,134
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,BasicFragment,onViewCreated,Magic Number,The method contains a magic number: 3,83
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,BasicFragment,onViewCreated,Magic Number,The method contains a magic number: 4,83
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,BasicFragment,onViewCreated,Magic Number,The method contains a magic number: 4,83
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,BasicFragment,onViewCreated,Magic Number,The method contains a magic number: 8,83
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,BasicFragment,onViewCreated,Magic Number,The method contains a magic number: 8,83
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onViewCreated,Magic Number,The method contains a magic number: 2,91
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onViewCreated,Magic Number,The method contains a magic number: 4,91
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onViewCreated,Magic Number,The method contains a magic number: 4,91
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onViewCreated,Magic Number,The method contains a magic number: 4,91
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onViewCreated,Magic Number,The method contains a magic number: 4,91
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onViewCreated,Magic Number,The method contains a magic number: 6,91
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onViewCreated,Magic Number,The method contains a magic number: 6,91
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onChanged,Magic Number,The method contains a magic number: 6,103
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ImagesFragment,onChanged,Magic Number,The method contains a magic number: 6,103
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupSimilar,Magic Number,The method contains a magic number: 3,98
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupSimilar,Magic Number,The method contains a magic number: 8,98
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupSimilar,Magic Number,The method contains a magic number: 8,98
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupSimilar,Magic Number,The method contains a magic number: 8,98
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupSimilar,Magic Number,The method contains a magic number: 8,98
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupSimilar,Magic Number,The method contains a magic number: 3,98
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupSimilar,Magic Number,The method contains a magic number: 3,98
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,onChanged,Magic Number,The method contains a magic number: 3,107
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,onChanged,Magic Number,The method contains a magic number: 3,107
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupRecommendation,Magic Number,The method contains a magic number: 3,120
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupRecommendation,Magic Number,The method contains a magic number: 8,120
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupRecommendation,Magic Number,The method contains a magic number: 8,120
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupRecommendation,Magic Number,The method contains a magic number: 8,120
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupRecommendation,Magic Number,The method contains a magic number: 8,120
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupRecommendation,Magic Number,The method contains a magic number: 3,120
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,setupRecommendation,Magic Number,The method contains a magic number: 3,120
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,onChanged,Magic Number,The method contains a magic number: 3,129
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,MoreFragment,onChanged,Magic Number,The method contains a magic number: 3,129
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ReviewsFragment,onViewCreated,Magic Number,The method contains a magic number: 24,89
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ReviewsFragment,onViewCreated,Magic Number,The method contains a magic number: 24,89
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ReviewsFragment,onViewCreated,Magic Number,The method contains a magic number: 32,89
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ReviewsFragment,onViewCreated,Magic Number,The method contains a magic number: 32,89
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ReviewsFragment,onViewCreated,Magic Number,The method contains a magic number: 3,89
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ReviewsFragment,onViewCreated,Magic Number,The method contains a magic number: 3,89
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ReviewsFragment,onChanged,Magic Number,The method contains a magic number: 3,99
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,ReviewsFragment,onChanged,Magic Number,The method contains a magic number: 3,99
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,TabsAdapter,createFragment,Magic Number,The method contains a magic number: 2,28
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,TabsAdapter,getItemCount,Magic Number,The method contains a magic number: 4,48
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,VideosFragment,onViewCreated,Magic Number,The method contains a magic number: 8,93
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,VideosFragment,onViewCreated,Magic Number,The method contains a magic number: 8,93
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,VideosFragment,onViewCreated,Magic Number,The method contains a magic number: 8,93
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,VideosFragment,onViewCreated,Magic Number,The method contains a magic number: 8,93
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,VideosFragment,onViewCreated,Magic Number,The method contains a magic number: 5,93
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,VideosFragment,onViewCreated,Magic Number,The method contains a magic number: 5,93
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,VideosFragment,onChanged,Magic Number,The method contains a magic number: 5,105
+13_FilmCircle-master,com.cropcircle.filmcircle.ui.home.sub.tabs,VideosFragment,onChanged,Magic Number,The method contains a magic number: 5,105
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,onStart,Magic Number,The method contains a magic number: 24,52
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,onResume,Magic Number,The method contains a magic number: 24,60
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,onStop,Magic Number,The method contains a magic number: 24,69
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,onPause,Magic Number,The method contains a magic number: 24,77
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,extractYoutubeLink,Long Statement,The length of the statement "MediaSource mediaSource=new ProgressiveMediaSource.Factory(new DefaultHttpDataSourceFactory()).createMediaSource(MediaItem.fromUri(url));" is 137.,106
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,extractYoutubeLink,Magic Number,The method contains a magic number: 22,106
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,onExtractionComplete,Long Statement,The length of the statement "MediaSource mediaSource=new ProgressiveMediaSource.Factory(new DefaultHttpDataSourceFactory()).createMediaSource(MediaItem.fromUri(url));" is 137.,109
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,onExtractionComplete,Magic Number,The method contains a magic number: 22,109
+13_FilmCircle-master,com.cropcircle.filmcircle.ui,VideoPlayerActivity,hideSystemUi,Long Statement,The length of the statement "binding.videoPlayerView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE | View.SYSTEM_UI_FLAG_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE| View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY| View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);" is 267.,125

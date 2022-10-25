@@ -1,0 +1,266 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Comic-MTC-master,com.lai.mtc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Comic-MTC-master,com.lai.mtc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Comic-MTC-master,com.lai.mtc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Comic-MTC-master,com.lai.mtc,MainActivity,initData,Long Statement,The length of the statement "mBottomRecyclerView.addItemDecoration(new SpaceItemDecoration(3`getResources().getDimensionPixelSize(R.dimen.dp_10)`true));" is 123.,108
+Comic-MTC-master,com.lai.mtc,MainActivity,initData,Long Statement,The length of the statement "observer=mCollectionDao.getBox().query().order(MyCollection_.time).build().subscribe().on(AndroidScheduler.mainThread()).observer(new DataObserver<List<MyCollection>>(){" is 169.,108
+Comic-MTC-master,com.lai.mtc,MainActivity,initData,Magic Number,The method contains a magic number: 3,108
+Comic-MTC-master,com.lai.mtc,MainActivity,initData,Magic Number,The method contains a magic number: 3,108
+Comic-MTC-master,com.lai.mtc,MainActivity,setSearchScrollFlags,Magic Number,The method contains a magic number: 5,248
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,intercept,Long Statement,The length of the statement "HttpUrl.Builder authorizedUrlBuilder=oldRequest.url().newBuilder().scheme(oldRequest.url().scheme()).host(oldRequest.url().host()).addQueryParameter("package_name"`"com.vjson.anime").addQueryParameter("version_code"`"87").addQueryParameter("version_name"`"1.0.8.7").addQueryParameter("channel"`"coolapk").addQueryParameter("sign"`"dcf692dc1d4cead44ce1d5d1b9409e26").addQueryParameter("platform"`"android");" is 406.,75
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,intercept,Long Statement,The length of the statement "Request newRequest=oldRequest.newBuilder().method(oldRequest.method()`oldRequest.body()).url(authorizedUrlBuilder.build()).build();" is 131.,75
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,intercept,Long Statement,The length of the statement "response=response.newBuilder().removeHeader("Pragma").header("Cache-Control"`"public` only-if-cached` max-stale=" + maxStale).build();" is 134.,109
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,intercept,Magic Number,The method contains a magic number: 60,109
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,intercept,Magic Number,The method contains a magic number: 60,109
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,intercept,Magic Number,The method contains a magic number: 60,109
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,intercept,Magic Number,The method contains a magic number: 60,109
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,intercept,Magic Number,The method contains a magic number: 24,109
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,provideOkHttpClient,Long Statement,The length of the statement "builder.cache(new Cache(new File(MTC.getApp().getFilesDir()`"HttpCache")`1024 * 1024 * 10)).addInterceptor(httpLoggingInterceptor).addInterceptor(commonInterceptor).addNetworkInterceptor(cacheInterceptor).retryOnConnectionFailure(true).connectTimeout(30`TimeUnit.SECONDS).writeTimeout(20`TimeUnit.SECONDS).readTimeout(20`TimeUnit.SECONDS).build();" is 347.,140
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,provideOkHttpClient,Magic Number,The method contains a magic number: 1024,140
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,provideOkHttpClient,Magic Number,The method contains a magic number: 1024,140
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,provideOkHttpClient,Magic Number,The method contains a magic number: 10,140
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,provideOkHttpClient,Magic Number,The method contains a magic number: 30,140
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,provideOkHttpClient,Magic Number,The method contains a magic number: 20,140
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,provideOkHttpClient,Magic Number,The method contains a magic number: 20,140
+Comic-MTC-master,com.lai.mtc.di.module,NetModule,provideRetrofit,Long Statement,The length of the statement "return new Retrofit.Builder().baseUrl(baseUrl).client(mOkHttpClient).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create(gson)).build();" is 190.,155
+Comic-MTC-master,com.lai.mtc.di.module,CommonInterceptor,intercept,Long Statement,The length of the statement "HttpUrl.Builder authorizedUrlBuilder=oldRequest.url().newBuilder().scheme(oldRequest.url().scheme()).host(oldRequest.url().host()).addQueryParameter("package_name"`"com.vjson.anime").addQueryParameter("version_code"`"87").addQueryParameter("version_name"`"1.0.8.7").addQueryParameter("channel"`"coolapk").addQueryParameter("sign"`"dcf692dc1d4cead44ce1d5d1b9409e26").addQueryParameter("platform"`"android");" is 406.,75
+Comic-MTC-master,com.lai.mtc.di.module,CommonInterceptor,intercept,Long Statement,The length of the statement "Request newRequest=oldRequest.newBuilder().method(oldRequest.method()`oldRequest.body()).url(authorizedUrlBuilder.build()).build();" is 131.,75
+Comic-MTC-master,com.lai.mtc.di.module,CacheInterceptor,intercept,Long Statement,The length of the statement "response=response.newBuilder().removeHeader("Pragma").header("Cache-Control"`"public` only-if-cached` max-stale=" + maxStale).build();" is 134.,109
+Comic-MTC-master,com.lai.mtc.di.module,CacheInterceptor,intercept,Magic Number,The method contains a magic number: 60,109
+Comic-MTC-master,com.lai.mtc.di.module,CacheInterceptor,intercept,Magic Number,The method contains a magic number: 60,109
+Comic-MTC-master,com.lai.mtc.di.module,CacheInterceptor,intercept,Magic Number,The method contains a magic number: 60,109
+Comic-MTC-master,com.lai.mtc.di.module,CacheInterceptor,intercept,Magic Number,The method contains a magic number: 60,109
+Comic-MTC-master,com.lai.mtc.di.module,CacheInterceptor,intercept,Magic Number,The method contains a magic number: 24,109
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.pop,WindowLightPop,setScreenBrightness,Magic Number,The method contains a magic number: 255f,116
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,bindEvent,Magic Number,The method contains a magic number: 255,176
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,bindEvent,Magic Number,The method contains a magic number: 255,176
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,bindEvent,Magic Number,The method contains a magic number: 255,176
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,bindEvent,Magic Number,The method contains a magic number: 255,176
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,bindEvent,Magic Number,The method contains a magic number: 4,176
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,bindEvent,Magic Number,The method contains a magic number: 4,176
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,onOffsetChanged,Magic Number,The method contains a magic number: 255,179
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,onOffsetChanged,Magic Number,The method contains a magic number: 255,179
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,onOffsetChanged,Magic Number,The method contains a magic number: 255,179
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,onOffsetChanged,Magic Number,The method contains a magic number: 255,179
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,onCreateOptionsMenu,Long Statement,The length of the statement "PopupMenuUtil.showPopupMenuList(ComicListDetailActivity.this`new ArrayList<IPopMenu>(mirrors)`dataSource`new PopupMenu.OnMenuItemClickListener(){" is 145.,239
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,onClick,Long Statement,The length of the statement "PopupMenuUtil.showPopupMenuList(ComicListDetailActivity.this`new ArrayList<IPopMenu>(mirrors)`dataSource`new PopupMenu.OnMenuItemClickListener(){" is 145.,244
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicListDetailActivity,reverse,Long Statement,The length of the statement "List<ComicListDetail.ChaptersBean> chapters=!ListUtils.isEmpty(showChapters) ? showChapters : comicListDetail.getChapters();" is 124.,322
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicSearchActivity,bindEvent,Long Statement,The length of the statement "commonAdapter=new CommonAdapter<ComicListInfo.EntriesBean>(R.layout.comic_item_search_list`new ArrayList<ComicListInfo.EntriesBean>()){" is 135.,96
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicSearchActivity,bindEvent,Long Statement,The length of the statement "@Override protected void convert( BaseViewHolder baseViewHolder` final ComicListInfo.EntriesBean entriesBean` int position){" is 124.,96
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,initPreLoaderAdapter,Long Statement,The length of the statement "mRecyclerViewPreLoader=new RecyclerViewPreloader<>(Glide.with(this)`mPreviewAdapter`preloadSizeProvider`Parameter.MAX_PRELOAD);" is 127.,130
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,switchBAndTMenu,Magic Number,The method contains a magic number: 300,362
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,switchBAndTMenu,Magic Number,The method contains a magic number: 300,362
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,switchBAndTMenu,Magic Number,The method contains a magic number: 300,362
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,switchBAndTMenu,Magic Number,The method contains a magic number: 300,362
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,switchLeftMenu,Magic Number,The method contains a magic number: 300,375
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,switchLeftMenu,Magic Number,The method contains a magic number: 300,375
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,returnAllStatus,Magic Number,The method contains a magic number: 300,387
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,returnAllStatus,Magic Number,The method contains a magic number: 300,387
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,returnAllStatus,Magic Number,The method contains a magic number: 300,387
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,showInfo,Complex Conditional,The conditional expression comicListDetail == null || comicListDetail.getChapters() == null || mLeftChaptersAdapter != null is complex.,436
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.activity,ComicPreviewActivity,finish,Long Statement,The length of the statement "mRecordDao.updateRecord(mComicListDetail.getId()`firstVisibleItem.getName()`firstVisibleItem.getIndex()`mLeftChaptersAdapter.getLastPosition());" is 144.,475
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,PreviewAdapter,PreviewAdapter,Magic Number,The method contains a magic number: 500f,72
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,PreviewAdapter,PreviewAdapter,Magic Number,The method contains a magic number: 2,72
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,PreviewAdapter,PreviewAdapter,Magic Number,The method contains a magic number: 2,72
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,PreviewAdapter,convert,Long Statement,The length of the statement "GlideRequest<Bitmap> transition=GlideApp.with(mContext).asBitmap().override(tagWidth`tagHeight).load(pagesBean.getTrack_url()).placeholder(new ColorDrawable(Color.BLACK)).diskCacheStrategy(DiskCacheStrategy.ALL);" is 212.,84
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,PreviewAdapter,convert,Long Statement,The length of the statement "@Override public boolean onLoadFailed( @Nullable GlideException e` Object model` Target<Bitmap> target` boolean isFirstResource){" is 129.,84
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,PreviewAdapter,convert,Long Statement,The length of the statement "@Override public boolean onResourceReady( Bitmap bitmap` Object model` Target<Bitmap> target` DataSource dataSource` boolean isFirstResource){" is 142.,84
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,PreviewAdapter,onResourceReady,Long Parameter List,The method has 5 parameters. ,104
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,PreviewAdapter,getPreloadRequestBuilder,Long Statement,The length of the statement "return GlideApp.with(mContext).asBitmap().load(item.getTrack_url()).override(tagWidth`tagHeight).placeholder(new ColorDrawable(Color.BLACK)).diskCacheStrategy(DiskCacheStrategy.ALL);" is 182.,152
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.adapter,MultiNumberAdapter,MultiNumberAdapter,Long Statement,The length of the statement "getMultiTypeDelegate().registerItemType(ComicListDetail.ChaptersBean.NORMAL`R.layout.comic_item_detail_list).registerItemType(ComicListDetail.ChaptersBean.BOTTOM`R.layout.comic_item_detail_list);" is 195.,21
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.dialog,SearchDialog,onCreate,Magic Number,The method contains a magic number: 10000,90
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.dialog,SearchDialog,bindEvent,Complex Method,Cyclomatic complexity of the method is 8,107
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.dialog,SearchDialog,init,Long Statement,The length of the statement "baseViewHolder.setText(R.id.tv_name`StringUtils.isNull(searchRecordDao.getInputName())).addOnClickListener(R.id.tv_name);" is 121.,171
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.dialog,SearchDialog,init,Long Statement,The length of the statement "mDataSubscription=mSearchRecordDao.getBox().query().build().subscribe().on(AndroidScheduler.mainThread()).observer(new DataObserver<List<SearchRecord>>(){" is 154.,171
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.dialog,SearchDialog,convert,Long Statement,The length of the statement "baseViewHolder.setText(R.id.tv_name`StringUtils.isNull(searchRecordDao.getInputName())).addOnClickListener(R.id.tv_name);" is 121.,175
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,init,Magic Number,The method contains a magic number: 4,83
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,bindEvent,Long Statement,The length of the statement "CommonAdapter<ComicListInfo.EntriesBean> mInnerAdapter=new CommonAdapter<ComicListInfo.EntriesBean>(R.layout.comic_item_list2`showList){" is 136.,98
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,bindEvent,Long Statement,The length of the statement "@Override protected void convert( BaseViewHolder baseViewHolder` ComicListInfo.EntriesBean comicTypeInfo` final int position){" is 126.,98
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,bindEvent,Long Statement,The length of the statement "ImageUtils.load(getContext()`StringUtils.isNull(comicTypeInfo.getCover())`(ImageView)baseViewHolder.getView(R.id.book_layout));" is 127.,98
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,bindEvent,Long Statement,The length of the statement "mRecyclerView.addItemDecoration(new SpaceItemDecoration(3`activity.getResources().getDimensionPixelSize(R.dimen.dp_10)`true));" is 126.,98
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,bindEvent,Long Statement,The length of the statement "if (comicListInfo.getCurrent_page() != comicListInfo.getTotal_pages()) mPresenter.change(currMode`comicListInfo.getCurrent_page() + 1`position`comicListInfo.getId()`comicListInfo.getTitle());" is 191.,98
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,bindEvent,Magic Number,The method contains a magic number: 3,98
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,bindEvent,Magic Number,The method contains a magic number: 3,98
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,convert,Long Statement,The length of the statement "CommonAdapter<ComicListInfo.EntriesBean> mInnerAdapter=new CommonAdapter<ComicListInfo.EntriesBean>(R.layout.comic_item_list2`showList){" is 136.,108
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,convert,Long Statement,The length of the statement "@Override protected void convert( BaseViewHolder baseViewHolder` ComicListInfo.EntriesBean comicTypeInfo` final int position){" is 126.,108
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,convert,Long Statement,The length of the statement "ImageUtils.load(getContext()`StringUtils.isNull(comicTypeInfo.getCover())`(ImageView)baseViewHolder.getView(R.id.book_layout));" is 127.,108
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,convert,Long Statement,The length of the statement "mRecyclerView.addItemDecoration(new SpaceItemDecoration(3`activity.getResources().getDimensionPixelSize(R.dimen.dp_10)`true));" is 126.,108
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,convert,Magic Number,The method contains a magic number: 3,108
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,convert,Magic Number,The method contains a magic number: 3,108
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,convert,Long Statement,The length of the statement "ImageUtils.load(getContext()`StringUtils.isNull(comicTypeInfo.getCover())`(ImageView)baseViewHolder.getView(R.id.book_layout));" is 127.,122
+Comic-MTC-master,com.lai.mtc.mvp.ui.comics.fragment,ComicsMainFragment,onItemChildClick,Long Statement,The length of the statement "if (comicListInfo.getCurrent_page() != comicListInfo.getTotal_pages()) mPresenter.change(currMode`comicListInfo.getCurrent_page() + 1`position`comicListInfo.getId()`comicListInfo.getTitle());" is 191.,169
+Comic-MTC-master,com.lai.mtc.mvp.contract,ComicsContract,change,Long Parameter List,The method has 5 parameters. ,29
+Comic-MTC-master,com.lai.mtc.mvp.contract,Model,change,Long Parameter List,The method has 5 parameters. ,29
+Comic-MTC-master,com.lai.mtc.mvp.utlis,Preconditions,badElementIndex,Magic Number,The method contains a magic number: 26,105
+Comic-MTC-master,com.lai.mtc.mvp.utlis,Preconditions,badPositionIndex,Long Statement,The length of the statement "return format("%s (%s) must not be greater than size (%s)"`new Object[]{desc`Integer.valueOf(index)`Integer.valueOf(size)});" is 124.,127
+Comic-MTC-master,com.lai.mtc.mvp.utlis,Preconditions,badPositionIndex,Magic Number,The method contains a magic number: 26,127
+Comic-MTC-master,com.lai.mtc.mvp.utlis,Preconditions,checkPositionIndexes,Complex Conditional,The conditional expression start < 0 || end < start || end > size is complex.,137
+Comic-MTC-master,com.lai.mtc.mvp.utlis,Preconditions,badPositionIndexes,Long Statement,The length of the statement "return start >= 0 && start <= size ? (end >= 0 && end <= size ? format("end index (%s) must not be less than start index (%s)"`new Object[]{Integer.valueOf(end)`Integer.valueOf(start)}) : badPositionIndex(end`size`"end index")) : badPositionIndex(start`size`"start index");" is 273.,143
+Comic-MTC-master,com.lai.mtc.mvp.utlis,Preconditions,format,Magic Number,The method contains a magic number: 16,147
+Comic-MTC-master,com.lai.mtc.mvp.utlis,Preconditions,format,Magic Number,The method contains a magic number: 2,147
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,addFragment,Long Parameter List,The method has 5 parameters. ,51
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,addFragment,Long Parameter List,The method has 6 parameters. ,56
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,hideAddFragment,Long Parameter List,The method has 7 parameters. ,61
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,hideAddFragment,Magic Number,The method contains a magic number: 2,61
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,addFragments,Long Parameter List,The method has 5 parameters. ,79
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,addFragments,Long Statement,The length of the statement "return operateFragment(fragmentManager`(Fragment)null`fragment`1`(FragmentUtils.SharedElement[])list.toArray(new FragmentUtils.SharedElement[0]));" is 146.,79
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,removeFragment,Magic Number,The method contains a magic number: 4,94
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,removeToFragment,Long Statement,The length of the statement "operateFragment(fragment.getFragmentManager()`isIncludeSelf ? fragment : null`fragment`8`new FragmentUtils.SharedElement[0]);" is 125.,98
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,removeToFragment,Magic Number,The method contains a magic number: 8,98
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,replaceFragment,Long Statement,The length of the statement "return containerId == 0 ? null : replaceFragment(srcFragment.getFragmentManager()`destFragment`containerId`isAddStack`sharedElement);" is 133.,142
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,replaceFragment,Magic Number,The method contains a magic number: 16,151
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,replaceFragment,Long Parameter List,The method has 5 parameters. ,156
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,replaceFragment,Magic Number,The method contains a magic number: 16,156
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,popAddFragment,Magic Number,The method contains a magic number: 32,193
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,popAddFragment,Long Parameter List,The method has 5 parameters. ,198
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,popAddFragment,Magic Number,The method contains a magic number: 32,198
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,hideFragment,Magic Number,The method contains a magic number: 64,203
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,showFragment,Magic Number,The method contains a magic number: 128,225
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,hideAllShowFragment,Magic Number,The method contains a magic number: 128,234
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,hideShowFragment,Long Statement,The length of the statement "return operateFragment(showFragment.getFragmentManager()`hideFragment`showFragment`256`new FragmentUtils.SharedElement[0]);" is 123.,239
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,hideShowFragment,Magic Number,The method contains a magic number: 256,239
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,getArgs,Long Statement,The length of the statement "return bundle != null && bundle.getInt("args_id") != 0 ? new FragmentUtils.Args(bundle.getInt("args_id")`bundle.getBoolean("args_is_hide")`bundle.getBoolean("args_is_add_stack")) : null;" is 186.,265
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Complex Method,Cyclomatic complexity of the method is 23,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Long Parameter List,The method has 5 parameters. ,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 4097,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 2,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 4,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 8,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 16,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 32,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 64,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 128,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,operateFragment,Magic Number,The method contains a magic number: 256,270
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,getTopShowFragmentIsInStack,Complex Conditional,The conditional expression fragment != null && fragment.isResumed() && fragment.isVisible() && fragment.getUserVisibleHint() is complex.,401
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,getAllFragmentsIsInStack,Long Statement,The length of the statement "result.add(new FragmentUtils.FragmentNode(fragment`getAllFragmentsIsInStack(fragment.getChildFragmentManager()`new ArrayList()`true)));" is 135.,463
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,getAllFragmentsIsInStack,Long Statement,The length of the statement "result.add(new FragmentUtils.FragmentNode(fragment`getAllFragmentsIsInStack(fragment.getChildFragmentManager()`new ArrayList()`false)));" is 136.,463
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,dispatchBackPress,Complex Conditional,The conditional expression fragment != null && fragment.isResumed() && fragment.isVisible() && fragment.getUserVisibleHint() && fragment instanceof FragmentUtils.OnBackClickListener && ((FragmentUtils.OnBackClickListener)fragment).onBackClick() is complex.,517
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,dispatchBackPress,Long Statement,The length of the statement "if (fragment != null && fragment.isResumed() && fragment.isVisible() && fragment.getUserVisibleHint() && fragment instanceof FragmentUtils.OnBackClickListener && ((FragmentUtils.OnBackClickListener)fragment).onBackClick()) {" is 224.,517
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentUtils,toString,Long Statement,The length of the statement "return this.fragment.getClass().getSimpleName() + "->" + (this.next != null && !this.next.isEmpty() ? this.next.toString() : "no child");" is 137.,566
+Comic-MTC-master,com.lai.mtc.mvp.utlis,FragmentNode,toString,Long Statement,The length of the statement "return this.fragment.getClass().getSimpleName() + "->" + (this.next != null && !this.next.isEmpty() ? this.next.toString() : "no child");" is 137.,566
+Comic-MTC-master,com.lai.mtc.mvp.utlis,RxUtlis,bind,Long Statement,The length of the statement "return upstream.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).compose(lifecycleProvider.<T>bindToLifecycle());" is 135.,26
+Comic-MTC-master,com.lai.mtc.mvp.utlis,RxUtlis,apply,Long Statement,The length of the statement "return upstream.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).compose(lifecycleProvider.<T>bindToLifecycle());" is 135.,35
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,setDrawableLeft,Empty catch clause,The method has an empty catch block.,114
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,setDrawableRight,Empty catch clause,The method has an empty catch block.,140
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,StatusBarLightMode,Long Statement,The length of the statement "activity.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);" is 136.,208
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,StatusBarLightMode,Magic Number,The method contains a magic number: 2,208
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,StatusBarLightMode,Magic Number,The method contains a magic number: 3,208
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,StatusBarLightMode,Long Statement,The length of the statement "activity.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);" is 136.,230
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,StatusBarLightMode,Magic Number,The method contains a magic number: 2,230
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,StatusBarLightMode,Magic Number,The method contains a magic number: 3,230
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,StatusBarDarkMode,Magic Number,The method contains a magic number: 2,249
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,StatusBarDarkMode,Magic Number,The method contains a magic number: 3,249
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,FlymeSetStatusBarLightMode,Empty catch clause,The method has an empty catch block.,264
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,setImmersionStateMode,Long Statement,The length of the statement "window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS | WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);" is 127.,326
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,setTitleBarByTop,Long Statement,The length of the statement "titleBarView.setPadding(titleBarView.getPaddingLeft()`titleBarView.getPaddingTop() + getStatusBarHeight(context)`titleBarView.getPaddingRight()`titleBarView.getPaddingBottom());" is 177.,352
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,setTitleBarByTop,Magic Number,The method contains a magic number: 19,352
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,addStatuHeight,Magic Number,The method contains a magic number: 19,361
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ViewUtils,setViewMargin,Long Parameter List,The method has 6 parameters. ,369
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ScreenUtils,setFullScreen,Long Statement,The length of the statement "activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);" is 125.,107
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ScreenUtils,getScreenRotation,Magic Number,The method contains a magic number: 90,186
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ScreenUtils,getScreenRotation,Magic Number,The method contains a magic number: 180,186
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ScreenUtils,getScreenRotation,Magic Number,The method contains a magic number: 270,186
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ScreenUtils,getScreenRotation,Missing default,The following switch statement is missing a default case: switch (activity.getWindowManager().getDefaultDisplay().getRotation()) {,186
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ScreenUtils,getSleepDuration,Magic Number,The method contains a magic number: 123,273
+Comic-MTC-master,com.lai.mtc.mvp.utlis,ScreenUtils,isTablet,Long Statement,The length of the statement "return (MTC.getApp().getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE;" is 149.,290
+Comic-MTC-master,com.lai.mtc.mvp.utlis,KeyBoardUtils,closeKeyboard,Complex Conditional,The conditional expression imm != null && editText != null && editText.getWindowToken() != null is complex.,22
+Comic-MTC-master,com.lai.mtc.mvp.utlis,KeyBoardUtils,closeKeyboard,Long Statement,The length of the statement "if (imm != null && editText != null && editText.getWindowToken() != null) imm.hideSoftInputFromWindow(editText.getWindowToken()`0);" is 131.,22
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,RoundCornersTransformation,Magic Number,The method contains a magic number: 2,33
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawRoundRect,Complex Method,Cyclomatic complexity of the method is 10,102
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawRoundRect,Missing default,The following switch statement is missing a default case: switch (mCornerType) {,102
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawLeftTopCorner,Magic Number,The method contains a magic number: 180,136
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawLeftTopCorner,Magic Number,The method contains a magic number: 90,136
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawLeftBottomCorner,Magic Number,The method contains a magic number: 90,145
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawLeftBottomCorner,Magic Number,The method contains a magic number: 90,145
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawRightTopCorner,Magic Number,The method contains a magic number: 270,154
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawRightTopCorner,Magic Number,The method contains a magic number: 90,154
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawRightBottomCorner,Magic Number,The method contains a magic number: 90,163
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawLeftCorner,Magic Number,The method contains a magic number: 180,172
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawLeftCorner,Magic Number,The method contains a magic number: 90,172
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawLeftCorner,Magic Number,The method contains a magic number: 90,172
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawLeftCorner,Magic Number,The method contains a magic number: 90,172
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawRightCorner,Magic Number,The method contains a magic number: 270,182
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawRightCorner,Magic Number,The method contains a magic number: 90,182
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawRightCorner,Magic Number,The method contains a magic number: 90,182
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawTopCorner,Magic Number,The method contains a magic number: 180,192
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawTopCorner,Magic Number,The method contains a magic number: 90,192
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawTopCorner,Magic Number,The method contains a magic number: 270,192
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawTopCorner,Magic Number,The method contains a magic number: 90,192
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawBottomCorner,Magic Number,The method contains a magic number: 90,202
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawBottomCorner,Magic Number,The method contains a magic number: 90,202
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,RoundCornersTransformation,drawBottomCorner,Magic Number,The method contains a magic number: 90,202
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,UnsafeOkHttpClient,getUnsafeOkHttpClient,Long Statement,The length of the statement "@Override public void checkClientTrusted( java.security.cert.X509Certificate[] chain` String authType) throws CertificateException {" is 132.,26
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,UnsafeOkHttpClient,getUnsafeOkHttpClient,Long Statement,The length of the statement "@Override public void checkServerTrusted( java.security.cert.X509Certificate[] chain` String authType) throws CertificateException {" is 132.,26
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,UnsafeOkHttpClient,getUnsafeOkHttpClient,Long Statement,The length of the statement "Request authorised=originalRequest.newBuilder().header("Referer"`" http://manhua.dmzj.com/zhiyoushenzhidao/27751.shtml").build();" is 129.,26
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,UnsafeOkHttpClient,getUnsafeOkHttpClient,Magic Number,The method contains a magic number: 20,26
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,UnsafeOkHttpClient,getUnsafeOkHttpClient,Magic Number,The method contains a magic number: 20,26
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,UnsafeOkHttpClient,intercept,Long Statement,The length of the statement "Request authorised=originalRequest.newBuilder().header("Referer"`" http://manhua.dmzj.com/zhiyoushenzhidao/27751.shtml").build();" is 129.,65
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,load,Long Statement,The length of the statement "GlideApp.with(context).load(url).placeholder(R.color.colorEEE).error(R.drawable.img_cover_default).centerCrop().thumbnail(0.1f).diskCacheStrategy(DiskCacheStrategy.ALL).transition(withCrossFade()).into(imageView);" is 213.,30
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,load,Magic Number,The method contains a magic number: 0.1f,30
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,load,Long Statement,The length of the statement "GlideApp.with(context).load(url).placeholder(R.mipmap.ic_place_holder).error(R.drawable.img_cover_default).centerCrop().diskCacheStrategy(DiskCacheStrategy.ALL).transition(withCrossFade()).into(target);" is 202.,49
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,loadByModule,Long Statement,The length of the statement "GlideRequest<Bitmap> transition=GlideApp.with(context).asBitmap().load(imageUrl).placeholder(new ColorDrawable(Color.BLACK)).diskCacheStrategy(DiskCacheStrategy.ALL).transition(new GenericTransitionOptions<Bitmap>());" is 217.,60
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,loadByModule,Long Statement,The length of the statement "@Override public boolean onLoadFailed( @Nullable GlideException e` Object model` Target<Bitmap> target` boolean isFirstResource){" is 129.,60
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,loadByModule,Long Statement,The length of the statement "@Override public boolean onResourceReady( Bitmap resource` Object model` Target<Bitmap> target` DataSource dataSource` boolean isFirstResource){" is 144.,60
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,onResourceReady,Long Parameter List,The method has 5 parameters. ,74
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,loadN,Long Statement,The length of the statement "GlideApp.with(context).asBitmap().load(imageUrl).placeholder(new ColorDrawable(Color.BLACK)).diskCacheStrategy(DiskCacheStrategy.RESOURCE).listener(new RequestListener<Bitmap>(){" is 178.,99
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,loadN,Long Statement,The length of the statement "@Override public boolean onLoadFailed( @Nullable GlideException e` Object model` Target<Bitmap> target` boolean isFirstResource){" is 129.,99
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,loadN,Long Statement,The length of the statement "@Override public boolean onResourceReady( Bitmap resource` Object model` Target<Bitmap> target` DataSource dataSource` boolean isFirstResource){" is 144.,99
+Comic-MTC-master,com.lai.mtc.mvp.utlis.glide,ImageUtils,onResourceReady,Long Parameter List,The method has 5 parameters. ,111
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,ShareElementInfo,Magic Number,The method contains a magic number: 2,38
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,ShareElementInfo,Magic Number,The method contains a magic number: 2,38
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,ShareElementInfo,Magic Number,The method contains a magic number: 9,38
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,ShareElementInfo,Magic Number,The method contains a magic number: 9,38
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,init,Long Statement,The length of the statement "mCenterOffsetX=(int)(mOriginalLocation[0] + mOriginalValues[Matrix.MTRANS_X] + mOriginalViewWidth / 2 - mTargetLocation[0] - mTargetValues[Matrix.MTRANS_X] - mTargetViewWidth / 2);" is 180.,113
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,init,Long Statement,The length of the statement "mCenterOffsetY=(int)(mOriginalLocation[1] + mOriginalValues[Matrix.MTRANS_Y] + mOriginalViewHeight / 2 - mTargetLocation[1] - mTargetValues[Matrix.MTRANS_Y] - mTargetViewHeight / 2);" is 182.,113
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,init,Magic Number,The method contains a magic number: 2,113
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,init,Magic Number,The method contains a magic number: 2,113
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,init,Magic Number,The method contains a magic number: 2,113
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,init,Magic Number,The method contains a magic number: 2,113
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,init,Magic Number,The method contains a magic number: 2,113
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementInfo,init,Magic Number,The method contains a magic number: 2,113
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementUtils,startAnimator,Long Statement,The length of the statement "instance.convert(imageView).setDuration(ANIMATOR_DURATION).setInterpolator(new LinearInterpolator()).startEnterAnimator();" is 122.,68
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementUtils,finishAnimator,Long Statement,The length of the statement "getInstance().startBackgroundAlphaAnimation(mBgView`new ColorDrawable(ContextCompat.getColor(activity`R.color.white))`255`0);" is 125.,80
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementUtils,finishAnimator,Long Statement,The length of the statement "getInstance().convert(mCoverImageView).setDuration(ANIMATOR_DURATION).setInterpolator(new LinearInterpolator()).setListener(new AnimatorListenerAdapter(){" is 154.,80
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementUtils,finishAnimator,Magic Number,The method contains a magic number: 255,80
+Comic-MTC-master,com.lai.mtc.mvp.utlis.share,ShareElementUtils,startExitAnimator,Long Statement,The length of the statement "mAnimator.setDuration(mDuration).scaleX(mInfo.getScaleX()).scaleY(mInfo.getScaleY()).translationX(mInfo.getCenterOffsetX()).translationY(mInfo.getCenterOffsetY());" is 163.,201
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,testList,Long Statement,The length of the statement ").subscribeOn(Schedulers.io()).observeOn(Schedulers.computation()).compose(mRootView.<ComicPreView>bindToLifecycle()).flatMap(new Function<ComicPreView`ObservableSource<ComicPreView>>(){" is 186.,68
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,testList,Magic Number,The method contains a magic number: 4,68
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,testList,Magic Number,The method contains a magic number: 4,68
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,apply,Magic Number,The method contains a magic number: 4,79
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,apply,Magic Number,The method contains a magic number: 4,79
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,createGlideObservable,Long Statement,The length of the statement "GlideApp.with(context).load(l.getTrack_url()).diskCacheStrategy(DiskCacheStrategy.ALL).listener(new RequestListener<Drawable>(){" is 128.,104
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,createGlideObservable,Long Statement,The length of the statement "@Override public boolean onLoadFailed( @Nullable GlideException e` Object model` Target<Drawable> target` boolean isFirstResource){" is 131.,104
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,createGlideObservable,Long Statement,The length of the statement "@Override public boolean onResourceReady( Drawable resource` Object model` Target<Drawable> target` DataSource dataSource` boolean isFirstResource){" is 148.,104
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,subscribe,Long Statement,The length of the statement "GlideApp.with(context).load(l.getTrack_url()).diskCacheStrategy(DiskCacheStrategy.ALL).listener(new RequestListener<Drawable>(){" is 128.,109
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,subscribe,Long Statement,The length of the statement "@Override public boolean onLoadFailed( @Nullable GlideException e` Object model` Target<Drawable> target` boolean isFirstResource){" is 131.,109
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,subscribe,Long Statement,The length of the statement "@Override public boolean onResourceReady( Drawable resource` Object model` Target<Drawable> target` DataSource dataSource` boolean isFirstResource){" is 148.,109
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,onResourceReady,Long Parameter List,The method has 5 parameters. ,121
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,requestPreview,Long Statement,The length of the statement "mComicApi.getComicPreViewById(id`index).compose(mRootView.<ComicPreView>bindToLifecycle()).compose(RxUtlis.<ComicPreView>toMain()).onErrorResumeNext(new HttpResultFunction<ComicPreView>()).subscribe(new HttpRxObserver<>(new HttpRxObserver.IResult<ComicPreView>(){" is 263.,137
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPreviewPresenter,getIndexByPosition,Long Statement,The length of the statement ").compose(mRootView.<ComicListDetail.ChaptersBean>bindToLifecycle()).compose(RxUtlis.<ComicListDetail.ChaptersBean>toMain()).subscribe(new Consumer<ComicListDetail.ChaptersBean>(){" is 180.,158
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsSearchPresenter,search,Long Statement,The length of the statement "mComicApi.getComicsByName(name`pager).compose(mRootView.<ComicListInfo>bindToLifecycle()).compose(RxUtlis.<ComicListInfo>toMain()).onErrorResumeNext(new HttpResultFunction<ComicListInfo>()).subscribe(new HttpRxObserver<>(new HttpRxObserver.IResult<ComicListInfo>(){" is 265.,29
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsListDetailPresenter,getComicById,Long Statement,The length of the statement "mComicApi.getComicById(id).compose(RxUtlis.<ComicListDetail>toMain()).compose(mRootView.<ComicListDetail>bindToLifecycle()).onErrorResumeNext(new HttpResultFunction<ComicListDetail>()).observeOn(AndroidSchedulers.mainThread()).subscribe(new HttpRxObserver<>(new HttpRxObserver.IResult<ComicListDetail>(){" is 304.,48
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsListDetailPresenter,reverse,Long Statement,The length of the statement ").compose(RxUtlis.<ComicListDetail>toMain()).onErrorResumeNext(new HttpResultFunction<ComicListDetail>()).subscribe(new HttpRxObserver<>(new HttpRxObserver.IResult<ComicListDetail>(){" is 183.,82
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsListDetailPresenter,reverse,Magic Number,The method contains a magic number: 52,82
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsListDetailPresenter,reverse,Magic Number,The method contains a magic number: 52,82
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsListDetailPresenter,reverse,Magic Number,The method contains a magic number: 52,82
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsListDetailPresenter,subscribe,Magic Number,The method contains a magic number: 52,86
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsListDetailPresenter,subscribe,Magic Number,The method contains a magic number: 52,86
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsListDetailPresenter,subscribe,Magic Number,The method contains a magic number: 52,86
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,requestHome,Magic Number,The method contains a magic number: 2,60
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,change,Long Parameter List,The method has 5 parameters. ,84
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,change,Long Statement,The length of the statement ").compose(mRootView.<Response<ComicListInfo>>bindToLifecycle()).onErrorResumeNext(new HttpResultFunction<Response<ComicListInfo>>()).subscribe(new HttpRxObserver<>(new HttpRxObserver.IResult<Response<ComicListInfo>>(){" is 218.,84
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,getHome,Long Statement,The length of the statement "mComicApi.getAllComic(1).compose(RxUtlis.<Response<ComicListInfo>>toMain()).compose(mRootView.<Response<ComicListInfo>>bindToLifecycle()).onErrorResumeNext(new HttpResultFunction<Response<ComicListInfo>>()).subscribe(new HttpRxObserver<>(new HttpRxObserver.IResult<Response<ComicListInfo>>(){" is 292.,128
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,getRandomComic,Long Statement,The length of the statement "Observable.fromIterable(news).subscribeOn(Schedulers.io()).observeOn(Schedulers.io()).compose(mRootView.<ComicCategories>bindToLifecycle()).flatMap(transformationComicListInfo()).compose(mRootView.<Response<ComicListInfo>>bindToLifecycle()).doOnNext(new Consumer<Response<ComicListInfo>>(){" is 290.,158
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,getRandomComic,Long Statement,The length of the statement ").compose(mRootView.<Response<ComicListInfo>>bindToLifecycle()).onErrorResumeNext(new HttpResultFunction<Response<ComicListInfo>>()).observeOn(AndroidSchedulers.mainThread()).doOnComplete(new Action(){" is 201.,158
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,getRandomComic,Long Statement,The length of the statement ").compose(mRootView.<Response<ComicListInfo>>bindToLifecycle()).subscribe(new HttpRxObserver<>(new HttpRxObserver.IResult<Response<ComicListInfo>>(){" is 149.,158
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,getRandomComic,Magic Number,The method contains a magic number: 2,158
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,getRandomComic,Magic Number,The method contains a magic number: 5,158
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,getRandomComic,Magic Number,The method contains a magic number: 41,158
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,getRandomComic,Magic Number,The method contains a magic number: 7,158
+Comic-MTC-master,com.lai.mtc.mvp.presenter,ComicsPresenter,setShowInfo,Magic Number,The method contains a magic number: 6,232
+Comic-MTC-master,com.lai.mtc.comm,ExceptionEngine,handleException,Complex Conditional,The conditional expression e instanceof JsonParseException || e instanceof JSONException || e instanceof ParseException|| e instanceof MalformedJsonException is complex.,30
+Comic-MTC-master,com.lai.mtc.comm,ExceptionEngine,handleException,Long Statement,The length of the statement "else if (e instanceof JsonParseException || e instanceof JSONException || e instanceof ParseException|| e instanceof MalformedJsonException) {" is 142.,30
+Comic-MTC-master,com.lai.mtc.comm.widget,BookViewLayout,init,Magic Number,The method contains a magic number: 2,73
+Comic-MTC-master,com.lai.mtc.comm.widget,TouchRecyclerView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (action) {,47
+Comic-MTC-master,com.lai.mtc.comm.dialog,LoadingDialog,onCreate,Magic Number,The method contains a magic number: 150,53
+Comic-MTC-master,com.lai.mtc.comm.dialog,LoadingDialog,onCreate,Magic Number,The method contains a magic number: 150,53

@@ -1,0 +1,419 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+20_Unidos-master,com.example.unidos,ClickActionHelper,startActivity,Magic Number,The method contains a magic number: 15,30
+20_Unidos-master,com.example.unidos,Connection,checkConnection,Long Statement,The length of the statement "return connectivityManager.getNetworkCapabilities(getNetwork()).hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED);" is 124.,48
+20_Unidos-master,com.example.unidos,Login,onCreate,Complex Method,Cyclomatic complexity of the method is 14,42
+20_Unidos-master,com.example.unidos,Login,onCreate,Long Statement,The length of the statement "loginViewModel=ViewModelProvider.AndroidViewModelFactory.getInstance(this.getApplication()).create(LoginViewModel.class);" is 121.,42
+20_Unidos-master,com.example.unidos,Login,onChanged,Complex Method,Cyclomatic complexity of the method is 8,114
+20_Unidos-master,com.example.unidos,Login,checkDistance,Long Statement,The length of the statement "loginViewModel.getIfPersonNear((String)bundle.get("CURP")`new LatLng(Double.parseDouble(bundle.getString("lat"))`Double.parseDouble(bundle.getString("lon")))`userLoc);" is 167.,200
+20_Unidos-master,com.example.unidos,Login,checkDistance,Magic Number,The method contains a magic number: 2,200
+20_Unidos-master,com.example.unidos,Login,checkDistance,Magic Number,The method contains a magic number: 3,200
+20_Unidos-master,com.example.unidos,Login,onChanged,Magic Number,The method contains a magic number: 2,202
+20_Unidos-master,com.example.unidos,Login,onChanged,Magic Number,The method contains a magic number: 3,202
+20_Unidos-master,com.example.unidos,LoginViewModel,checkCURP,Magic Number,The method contains a magic number: 2,119
+20_Unidos-master,com.example.unidos,LoginViewModel,update,Magic Number,The method contains a magic number: 2,128
+20_Unidos-master,com.example.unidos,LoginViewModel,getIfPersonNear,Magic Number,The method contains a magic number: 2,154
+20_Unidos-master,com.example.unidos,LoginViewModel,getIfPersonNear,Magic Number,The method contains a magic number: 2,154
+20_Unidos-master,com.example.unidos,LoginViewModel,getIfPersonNear,Magic Number,The method contains a magic number: 3,154
+20_Unidos-master,com.example.unidos,LoginViewModel,update,Magic Number,The method contains a magic number: 2,159
+20_Unidos-master,com.example.unidos,LoginViewModel,update,Magic Number,The method contains a magic number: 2,159
+20_Unidos-master,com.example.unidos,Messages,findMessage,Complex Method,Cyclomatic complexity of the method is 18,39
+20_Unidos-master,com.example.unidos,Messages,findMessage,Long Statement,The length of the statement "return "Lo sentimos` ha surgido un problema al realizar la operación. Por favor` revisa tu conexión a internet e inténtalo de nuevo.";" is 137.,39
+20_Unidos-master,com.example.unidos,Messages,findMessage,Long Statement,The length of the statement "return "Lo sentimos` ha surgido un problema al realizar la operación. Por favor` revisa tu conexión a internet e inténtalo de nuevo.";" is 137.,39
+20_Unidos-master,com.example.unidos,Messages,findMessage,Long Statement,The length of the statement "return "Al parecer no te encuentras conectado a internet o la conexión puede estar presentando problemas que afectan la comunicación con los servicios de la aplicación` por favor` revisa tu conexión y vuelve a intentarlo.";" is 227.,39
+20_Unidos-master,com.example.unidos,Messages,findMessage,Long Statement,The length of the statement "return "Al parecer no se encuentra habilitado tu Wi-Fi ni tus datos celulares. Es necesario contar con conexión a internet para poder utilizar la aplicación.";" is 161.,39
+20_Unidos-master,com.example.unidos,Messages,findMessage,Long Statement,The length of the statement "return "Lo sentimos` ha ocurrido un problema durante la verificación de tu número telefónico. Favor de revisar que el número ingresado sea correcto.";" is 154.,39
+20_Unidos-master,com.example.unidos,Messages,findMessage,Missing default,The following switch statement is missing a default case: switch (msg) {,39
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Complex Method,Cyclomatic complexity of the method is 30,53
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Long Method,The method has 230 lines of code.,53
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Long Statement,The length of the statement "naViewModel=ViewModelProvider.AndroidViewModelFactory.getInstance(this.getApplication()).create(NewAccountViewModel.class);" is 123.,53
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Magic Number,The method contains a magic number: 18,53
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Magic Number,The method contains a magic number: 100,53
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Magic Number,The method contains a magic number: 2,53
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Magic Number,The method contains a magic number: 3,53
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Magic Number,The method contains a magic number: 4,53
+20_Unidos-master,com.example.unidos,NewAccount,onCreate,Magic Number,The method contains a magic number: 7,53
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Magic Number,The method contains a magic number: 18,83
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Magic Number,The method contains a magic number: 100,83
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Magic Number,The method contains a magic number: 2,165
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Magic Number,The method contains a magic number: 3,173
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Magic Number,The method contains a magic number: 4,181
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Magic Number,The method contains a magic number: 7,189
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Complex Method,Cyclomatic complexity of the method is 17,234
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Complex Method,Cyclomatic complexity of the method is 9,341
+20_Unidos-master,com.example.unidos,NewAccount,checkDistance,Long Statement,The length of the statement "naViewModel.getIfPersonNear((String)bundle.get("CURP")`new LatLng(Double.parseDouble(bundle.getString("lat"))`Double.parseDouble(bundle.getString("lon")))`userLoc);" is 164.,401
+20_Unidos-master,com.example.unidos,NewAccount,checkDistance,Magic Number,The method contains a magic number: 2,401
+20_Unidos-master,com.example.unidos,NewAccount,checkDistance,Magic Number,The method contains a magic number: 3,401
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Magic Number,The method contains a magic number: 2,403
+20_Unidos-master,com.example.unidos,NewAccount,onChanged,Magic Number,The method contains a magic number: 3,403
+20_Unidos-master,com.example.unidos,NewAccount,setCalendar,Magic Number,The method contains a magic number: 10,509
+20_Unidos-master,com.example.unidos,NewAccount,setCalendar,Magic Number,The method contains a magic number: 10,509
+20_Unidos-master,com.example.unidos,NewAccount,setCalendar,Magic Number,The method contains a magic number: 10,509
+20_Unidos-master,com.example.unidos,NewAccount,setCalendar,Magic Number,The method contains a magic number: 10,509
+20_Unidos-master,com.example.unidos,NewAccount,setCalendar,Magic Number,The method contains a magic number: 18,509
+20_Unidos-master,com.example.unidos,NewAccount,setCalendar,Magic Number,The method contains a magic number: 100,509
+20_Unidos-master,com.example.unidos,NewAccount,onDateSet,Magic Number,The method contains a magic number: 10,516
+20_Unidos-master,com.example.unidos,NewAccount,onDateSet,Magic Number,The method contains a magic number: 10,516
+20_Unidos-master,com.example.unidos,NewAccount,onDateSet,Magic Number,The method contains a magic number: 10,516
+20_Unidos-master,com.example.unidos,NewAccount,onDateSet,Magic Number,The method contains a magic number: 10,516
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkDate,Magic Number,The method contains a magic number: 5,94
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkDate,Magic Number,The method contains a magic number: 5,94
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkDate,Magic Number,The method contains a magic number: 5,94
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkSex,Magic Number,The method contains a magic number: 6,144
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkSex,Magic Number,The method contains a magic number: 6,144
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkSex,Magic Number,The method contains a magic number: 6,144
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Complex Method,Cyclomatic complexity of the method is 18,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 2,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 2,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 2,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 3,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 3,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 3,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 3,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 4,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 4,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 4,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 7,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 7,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 7,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,checkField,Magic Number,The method contains a magic number: 7,184
+20_Unidos-master,com.example.unidos,NewAccountViewModel,fill,Magic Number,The method contains a magic number: 8,419
+20_Unidos-master,com.example.unidos,NewAccountViewModel,fill,Magic Number,The method contains a magic number: 2,419
+20_Unidos-master,com.example.unidos,NewAccountViewModel,fill,Magic Number,The method contains a magic number: 4,419
+20_Unidos-master,com.example.unidos,NewAccountViewModel,register,Complex Method,Cyclomatic complexity of the method is 10,438
+20_Unidos-master,com.example.unidos,NewAccountViewModel,register,Long Statement,The length of the statement "final User user=new User(getCURP()`getName()`getSecondName()`getSurname()`getSecondSurname()`date.getValue()`sex.getValue()`getPhone());" is 136.,438
+20_Unidos-master,com.example.unidos,NewAccountViewModel,register,Long Statement,The length of the statement "if (Boolean.parseBoolean(((ElementoObservable)o).getElemento().toString())) actionBtNewAcc.setValue("hideProgressBar:fail");" is 124.,438
+20_Unidos-master,com.example.unidos,NewAccountViewModel,register,Magic Number,The method contains a magic number: 2,438
+20_Unidos-master,com.example.unidos,NewAccountViewModel,register,Magic Number,The method contains a magic number: 2,438
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Complex Method,Cyclomatic complexity of the method is 10,450
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Long Statement,The length of the statement "if (Boolean.parseBoolean(((ElementoObservable)o).getElemento().toString())) actionBtNewAcc.setValue("hideProgressBar:fail");" is 124.,450
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Magic Number,The method contains a magic number: 2,450
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Magic Number,The method contains a magic number: 2,450
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Long Statement,The length of the statement "if (Boolean.parseBoolean(((ElementoObservable)o).getElemento().toString())) actionBtNewAcc.setValue("hideProgressBar:fail");" is 124.,480
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Magic Number,The method contains a magic number: 2,480
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Long Statement,The length of the statement "if (Boolean.parseBoolean(((ElementoObservable)o).getElemento().toString())) actionBtNewAcc.setValue("hideProgressBar:fail");" is 124.,555
+20_Unidos-master,com.example.unidos,NewAccountViewModel,getIfPersonNear,Magic Number,The method contains a magic number: 2,664
+20_Unidos-master,com.example.unidos,NewAccountViewModel,getIfPersonNear,Magic Number,The method contains a magic number: 2,664
+20_Unidos-master,com.example.unidos,NewAccountViewModel,getIfPersonNear,Magic Number,The method contains a magic number: 3,664
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Magic Number,The method contains a magic number: 2,669
+20_Unidos-master,com.example.unidos,NewAccountViewModel,update,Magic Number,The method contains a magic number: 2,669
+20_Unidos-master,com.example.unidos,PersistentData,getCURPValue,Long Statement,The length of the statement "SharedPreferences sharedPreferences=context.getSharedPreferences(context.getString(R.string.user_curp)`Context.MODE_PRIVATE);" is 125.,78
+20_Unidos-master,com.example.unidos,VerifyPhoneActivity,sendVerificationCode,Magic Number,The method contains a magic number: 60,88
+20_Unidos-master,com.example.unidos,VerifyPhoneActivity,onCodeAutoRetrievalTimeOut,Magic Number,The method contains a magic number: 2,115
+20_Unidos-master,com.example.unidos,VerifyPhoneActivity,onVerificationFailed,Magic Number,The method contains a magic number: 2,137
+20_Unidos-master,com.example.unidos,VerifyPhoneActivity,onVerificationFailed,Magic Number,The method contains a magic number: 2,137
+20_Unidos-master,com.example.unidos,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+20_Unidos-master,com.example.unidos,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+20_Unidos-master,com.example.unidos,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+20_Unidos-master,com.example.unidos.access,Menu,onCreate,Long Statement,The length of the statement "MenuViewModel menuViewModel=ViewModelProvider.AndroidViewModelFactory.getInstance(this.getApplication()).create(MenuViewModel.class);" is 133.,21
+20_Unidos-master,com.example.unidos.access,MenuViewModel,goToManageAccount,Magic Number,The method contains a magic number: 2,23
+20_Unidos-master,com.example.unidos.accountManagement,AccountManagementFragment,requestConfirm,Long Statement,The length of the statement "builder.setMessage("No se actualizarán los datos. \n¿Deseas salir?").setPositiveButton("Salir"`new DialogInterface.OnClickListener(){" is 135.,98
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Complex Method,Cyclomatic complexity of the method is 17,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Long Method,The method has 147 lines of code.,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Long Statement,The length of the statement "vm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(EditUserInfoViewModel.class);" is 125.,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 2,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 3,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 18,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 100,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 2,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 3,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 4,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 5,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 2,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 3,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 4,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 5,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onCreateView,Magic Number,The method contains a magic number: 6,79
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 2,118
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 3,125
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 18,150
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 100,150
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 2,166
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 3,166
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 4,166
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 5,166
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Complex Method,Cyclomatic complexity of the method is 8,201
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 2,201
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 3,201
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 4,201
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 5,201
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,onChanged,Magic Number,The method contains a magic number: 6,201
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfo,getErrorMessage,Magic Number,The method contains a magic number: 6,265
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,validateName,Magic Number,The method contains a magic number: 3,100
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,validatePhone,Magic Number,The method contains a magic number: 6,110
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,validatePhone,Magic Number,The method contains a magic number: 6,110
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,validatePhone,Magic Number,The method contains a magic number: 6,110
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkSex,Magic Number,The method contains a magic number: 5,117
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkSex,Magic Number,The method contains a magic number: 5,117
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkSex,Magic Number,The method contains a magic number: 5,117
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkDate,Magic Number,The method contains a magic number: 4,124
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkDate,Magic Number,The method contains a magic number: 4,124
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkDate,Magic Number,The method contains a magic number: 4,124
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkValue,Long Statement,The length of the statement "if (!fieldKey.equals(FieldConstant.FIELD_BDAY_ID)) value=(Character.toUpperCase(newValue.charAt(0)) + newValue.substring(1).toLowerCase()).trim();" is 146.,154
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,updateInfoInReports,Magic Number,The method contains a magic number: 2,225
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,updateInfoInReports,Magic Number,The method contains a magic number: 2,225
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,update,Magic Number,The method contains a magic number: 2,228
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,update,Magic Number,The method contains a magic number: 2,228
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,verifyPhone,Magic Number,The method contains a magic number: 2,254
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,verifyPhone,Magic Number,The method contains a magic number: 2,254
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,update,Magic Number,The method contains a magic number: 2,257
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,update,Magic Number,The method contains a magic number: 2,257
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkPhoneExistence,Magic Number,The method contains a magic number: 4,274
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,checkPhoneExistence,Magic Number,The method contains a magic number: 2,274
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,update,Magic Number,The method contains a magic number: 4,276
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,update,Magic Number,The method contains a magic number: 2,276
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,saveChanges,Magic Number,The method contains a magic number: 3,295
+20_Unidos-master,com.example.unidos.accountManagement,EditUserInfoViewModel,saveChanges,Magic Number,The method contains a magic number: 5,295
+20_Unidos-master,com.example.unidos.accountManagement,ManageFragmentAdapter,createFragment,Missing default,The following switch statement is missing a default case: switch (position) {,15
+20_Unidos-master,com.example.unidos.accountManagement,ManageFragmentAdapter,getItemCount,Magic Number,The method contains a magic number: 2,31
+20_Unidos-master,com.example.unidos.accountManagement,UserInfo,onCreate,Long Statement,The length of the statement "myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(UserInfoViewModel.class);" is 123.,33
+20_Unidos-master,com.example.unidos.accountManagement,UserInfo,onCreateView,Magic Number,The method contains a magic number: 2,41
+20_Unidos-master,com.example.unidos.accountManagement,UserInfo,onChanged,Magic Number,The method contains a magic number: 2,56
+20_Unidos-master,com.example.unidos.accountManagement,UserInfoViewModel,getUserInfo,Magic Number,The method contains a magic number: 2,60
+20_Unidos-master,com.example.unidos.accountManagement,UserInfoViewModel,getUserInfo,Magic Number,The method contains a magic number: 2,60
+20_Unidos-master,com.example.unidos.accountManagement,UserInfoViewModel,update,Magic Number,The method contains a magic number: 2,64
+20_Unidos-master,com.example.unidos.accountManagement,UserInfoViewModel,update,Magic Number,The method contains a magic number: 2,64
+20_Unidos-master,com.example.unidos.messaging,MyFirebaseMessagingService,onMessageReceived,Long Statement,The length of the statement "getUserLocation(new LatLng(Double.parseDouble(remoteMessage.getData().get("lat"))`Double.parseDouble(remoteMessage.getData().get("lon")))`remoteMessage.getData().get("CURP"));" is 175.,49
+20_Unidos-master,com.example.unidos.messaging,MyFirebaseMessagingService,onMessageReceived,Long Statement,The length of the statement "showNotification(buildPersonActForLog(remoteMessage.getData().get("CURP")`remoteMessage.getData().get("lat")`remoteMessage.getData().get("lon")));" is 146.,49
+20_Unidos-master,com.example.unidos.messaging,MyFirebaseMessagingService,showNotification,Long Statement,The length of the statement "NotificationCompat.Builder notificationBuilder=new NotificationCompat.Builder(this`"ch01").setSmallIcon(R.drawable.ic_notificationicon).setContentTitle(title).setContentText(body).setAutoCancel(true).setSound(soundUri).setPriority(2).setContentIntent(pendingIntent);" is 266.,154
+20_Unidos-master,com.example.unidos.messaging,MyFirebaseMessagingService,showNotification,Magic Number,The method contains a magic number: 2,154
+20_Unidos-master,com.example.unidos.report,NewReport,onCreate,Long Statement,The length of the statement "myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(NewReportViewModel.class);" is 124.,39
+20_Unidos-master,com.example.unidos.report,NewReport,onCreateView,Complex Method,Cyclomatic complexity of the method is 13,46
+20_Unidos-master,com.example.unidos.report,NewReport,onCreateView,Long Method,The method has 101 lines of code.,46
+20_Unidos-master,com.example.unidos.report,NewReport,onCreateView,Long Statement,The length of the statement "FragmentGenerateReportBinding binding=DataBindingUtil.inflate(inflater`R.layout.fragment_generate_report`container`false);" is 122.,46
+20_Unidos-master,com.example.unidos.report,NewReport,onCreateView,Magic Number,The method contains a magic number: 3,46
+20_Unidos-master,com.example.unidos.report,NewReport,onCreateView,Magic Number,The method contains a magic number: 4,46
+20_Unidos-master,com.example.unidos.report,NewReport,onCreateView,Magic Number,The method contains a magic number: 5,46
+20_Unidos-master,com.example.unidos.report,NewReport,onChanged,Magic Number,The method contains a magic number: 3,129
+20_Unidos-master,com.example.unidos.report,NewReport,onChanged,Magic Number,The method contains a magic number: 4,129
+20_Unidos-master,com.example.unidos.report,NewReport,onChanged,Magic Number,The method contains a magic number: 5,129
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,getUserInfo,Magic Number,The method contains a magic number: 3,134
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,update,Magic Number,The method contains a magic number: 3,137
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,checkDate,Magic Number,The method contains a magic number: 2,169
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,checkAddrDetail,Magic Number,The method contains a magic number: 4,176
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,checkAddrDetail,Magic Number,The method contains a magic number: 4,176
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,townSelected,Magic Number,The method contains a magic number: 3,188
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,isSameLocation,Long Statement,The length of the statement "List<Address> addressList=new Geocoder(context).getFromLocationName("México` Ciudad de México` " + town.getValue() + "` "+ addrDetail.getValue()`1);" is 150.,198
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,isSameLocation,Long Statement,The length of the statement "else if (reportedPerson.getRecLocation().getLatitude() == addressList.get(0).getLatitude() && reportedPerson.getRecLocation().getLongitude() == addressList.get(0).getLongitude()) {" is 180.,198
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,isSameLocation,Magic Number,The method contains a magic number: 4,198
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,isSameLocation,Magic Number,The method contains a magic number: 5,198
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,fillPersonMap,Long Statement,The length of the statement "if (field.placeToInt(town.getValue()) != reportedPerson.getMissingPlace()) mapPersonInfo.put(FieldConstant.FIELD_PLACE_ID`field.placeToInt(town.getValue()));" is 157.,228
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,fillPersonMap,Magic Number,The method contains a magic number: 2,228
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,fillPersonMap,Missing default,The following switch statement is missing a default case: switch (isSameLocation()) {,228
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,updateInPerson,Complex Method,Cyclomatic complexity of the method is 9,262
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,updateInPerson,Magic Number,The method contains a magic number: 2,262
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,checkIfReportUserExist,Magic Number,The method contains a magic number: 2,322
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,checkIfReportUserExist,Magic Number,The method contains a magic number: 2,322
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,update,Magic Number,The method contains a magic number: 2,325
+20_Unidos-master,com.example.unidos.report,NewReportViewModel,update,Magic Number,The method contains a magic number: 2,325
+20_Unidos-master,com.example.unidos.report,PersonDetails,onCreate,Long Statement,The length of the statement "myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(PersonDetailsViewModel.class);" is 128.,32
+20_Unidos-master,com.example.unidos.report,PersonDetails,onCreateView,Long Statement,The length of the statement "FragmentShowPersonInfoBinding binding=DataBindingUtil.inflate(inflater`R.layout.fragment_show_person_info`container`false);" is 123.,37
+20_Unidos-master,com.example.unidos.report,PersonDetails,onCreateView,Magic Number,The method contains a magic number: 2,37
+20_Unidos-master,com.example.unidos.report,PersonDetails,onChanged,Magic Number,The method contains a magic number: 2,66
+20_Unidos-master,com.example.unidos.report,PersonDetailsViewModel,showInfo,Magic Number,The method contains a magic number: 2,54
+20_Unidos-master,com.example.unidos.report,PersonDetailsViewModel,update,Magic Number,The method contains a magic number: 2,56
+20_Unidos-master,com.example.unidos.report,PersonDetailsViewModel,getUpdatedPersonInfo,Magic Number,The method contains a magic number: 2,97
+20_Unidos-master,com.example.unidos.report,PersonDetailsViewModel,getUpdatedPersonInfo,Magic Number,The method contains a magic number: 2,97
+20_Unidos-master,com.example.unidos.report,PersonDetailsViewModel,update,Magic Number,The method contains a magic number: 2,100
+20_Unidos-master,com.example.unidos.report,PersonDetailsViewModel,update,Magic Number,The method contains a magic number: 2,100
+20_Unidos-master,com.example.unidos.report,ReportContainer,onCreate,Magic Number,The method contains a magic number: 2,39
+20_Unidos-master,com.example.unidos.report,ReportContainer,onCreate,Magic Number,The method contains a magic number: 2,39
+20_Unidos-master,com.example.unidos.report,ReportContainer,onCreate,Magic Number,The method contains a magic number: 2,39
+20_Unidos-master,com.example.unidos.report,ReportContainer,onTabSelected,Magic Number,The method contains a magic number: 2,90
+20_Unidos-master,com.example.unidos.report,ReportContainer,onTabSelected,Magic Number,The method contains a magic number: 2,90
+20_Unidos-master,com.example.unidos.report,ReportDetailsDialog,onCreate,Long Statement,The length of the statement "myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(ReportDetailsDialogViewModel.class);" is 134.,25
+20_Unidos-master,com.example.unidos.report,ReportDetailsDialog,onCreateView,Long Statement,The length of the statement "FragmentShowReportDetailsBinding binding=DataBindingUtil.inflate(LayoutInflater.from(getContext())`R.layout.fragment_show_report_details`null`false);" is 149.,31
+20_Unidos-master,com.example.unidos.report,ReportList,onCreate,Long Statement,The length of the statement "myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(ReportListViewModel.class);" is 125.,40
+20_Unidos-master,com.example.unidos.report,ReportList,onCreateView,Magic Number,The method contains a magic number: 2,46
+20_Unidos-master,com.example.unidos.report,ReportList,onChanged,Magic Number,The method contains a magic number: 2,101
+20_Unidos-master,com.example.unidos.report,ReportList,showList,Long Statement,The length of the statement "DividerItemDecoration dividerItemDecoration=new DividerItemDecoration(recyclerView.getContext()`linearLayoutManager.getOrientation());" is 134.,123
+20_Unidos-master,com.example.unidos.report,ReportListViewModel,searchReports,Magic Number,The method contains a magic number: 2,31
+20_Unidos-master,com.example.unidos.report,ReportListViewModel,searchReports,Magic Number,The method contains a magic number: 2,31
+20_Unidos-master,com.example.unidos.report,ReportListViewModel,update,Magic Number,The method contains a magic number: 2,34
+20_Unidos-master,com.example.unidos.report,ReportListViewModel,update,Magic Number,The method contains a magic number: 2,34
+20_Unidos-master,com.example.unidos.report,ViewPagerAdapter,createFragment,Magic Number,The method contains a magic number: 2,14
+20_Unidos-master,com.example.unidos.report,ViewPagerAdapter,getItemCount,Magic Number,The method contains a magic number: 3,27
+20_Unidos-master,com.example.unidos.repository,Field,placeToInt,Magic Number,The method contains a magic number: 15,56
+20_Unidos-master,com.example.unidos.repository,Field,placeToInt,Magic Number,The method contains a magic number: 5,56
+20_Unidos-master,com.example.unidos.repository,Field,intToSex,Missing default,The following switch statement is missing a default case: switch (sex) {,70
+20_Unidos-master,com.example.unidos.repository,Field,intToPlace,Magic Number,The method contains a magic number: 5,80
+20_Unidos-master,com.example.unidos.repository,Field,intToPlace,Magic Number,The method contains a magic number: 15,80
+20_Unidos-master,com.example.unidos.repository,Field,intToPlace,Missing default,The following switch statement is missing a default case: switch (place) {,80
+20_Unidos-master,com.example.unidos.repository,Field,compToString,Magic Number,The method contains a magic number: 2,97
+20_Unidos-master,com.example.unidos.repository,Field,compToString,Magic Number,The method contains a magic number: 3,97
+20_Unidos-master,com.example.unidos.repository,Field,compToString,Missing default,The following switch statement is missing a default case: switch (comp) {,97
+20_Unidos-master,com.example.unidos.repository,Field,eyeColorToString,Magic Number,The method contains a magic number: 2,106
+20_Unidos-master,com.example.unidos.repository,Field,eyeColorToString,Magic Number,The method contains a magic number: 3,106
+20_Unidos-master,com.example.unidos.repository,Field,eyeColorToString,Magic Number,The method contains a magic number: 4,106
+20_Unidos-master,com.example.unidos.repository,Field,eyeColorToString,Magic Number,The method contains a magic number: 5,106
+20_Unidos-master,com.example.unidos.repository,Field,eyeColorToString,Missing default,The following switch statement is missing a default case: switch (color) {,106
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Complex Method,Cyclomatic complexity of the method is 10,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Magic Number,The method contains a magic number: 2,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Magic Number,The method contains a magic number: 3,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Magic Number,The method contains a magic number: 4,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Magic Number,The method contains a magic number: 5,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Magic Number,The method contains a magic number: 6,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Magic Number,The method contains a magic number: 7,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Magic Number,The method contains a magic number: 8,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Magic Number,The method contains a magic number: 9,117
+20_Unidos-master,com.example.unidos.repository,Field,eyeShapeToString,Missing default,The following switch statement is missing a default case: switch (eyeShape) {,117
+20_Unidos-master,com.example.unidos.repository,Field,faceToString,Magic Number,The method contains a magic number: 2,132
+20_Unidos-master,com.example.unidos.repository,Field,faceToString,Magic Number,The method contains a magic number: 3,132
+20_Unidos-master,com.example.unidos.repository,Field,faceToString,Missing default,The following switch statement is missing a default case: switch (faceShape) {,132
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Complex Method,Cyclomatic complexity of the method is 10,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Magic Number,The method contains a magic number: 2,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Magic Number,The method contains a magic number: 3,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Magic Number,The method contains a magic number: 4,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Magic Number,The method contains a magic number: 5,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Magic Number,The method contains a magic number: 6,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Magic Number,The method contains a magic number: 7,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Magic Number,The method contains a magic number: 8,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Magic Number,The method contains a magic number: 9,141
+20_Unidos-master,com.example.unidos.repository,Field,hairColorToString,Missing default,The following switch statement is missing a default case: switch (color) {,141
+20_Unidos-master,com.example.unidos.repository,Field,hairShapeToString,Magic Number,The method contains a magic number: 2,156
+20_Unidos-master,com.example.unidos.repository,Field,hairShapeToString,Magic Number,The method contains a magic number: 3,156
+20_Unidos-master,com.example.unidos.repository,Field,hairShapeToString,Magic Number,The method contains a magic number: 4,156
+20_Unidos-master,com.example.unidos.repository,Field,hairShapeToString,Missing default,The following switch statement is missing a default case: switch (shape) {,156
+20_Unidos-master,com.example.unidos.repository,Field,lipsToString,Magic Number,The method contains a magic number: 2,166
+20_Unidos-master,com.example.unidos.repository,Field,lipsToString,Magic Number,The method contains a magic number: 3,166
+20_Unidos-master,com.example.unidos.repository,Field,lipsToString,Missing default,The following switch statement is missing a default case: switch (shape) {,166
+20_Unidos-master,com.example.unidos.repository,Field,noseToString,Magic Number,The method contains a magic number: 2,175
+20_Unidos-master,com.example.unidos.repository,Field,noseToString,Magic Number,The method contains a magic number: 3,175
+20_Unidos-master,com.example.unidos.repository,Field,noseToString,Magic Number,The method contains a magic number: 4,175
+20_Unidos-master,com.example.unidos.repository,Field,noseToString,Magic Number,The method contains a magic number: 5,175
+20_Unidos-master,com.example.unidos.repository,Field,noseToString,Missing default,The following switch statement is missing a default case: switch (shape) {,175
+20_Unidos-master,com.example.unidos.repository,Field,skinToString,Magic Number,The method contains a magic number: 2,186
+20_Unidos-master,com.example.unidos.repository,Field,skinToString,Magic Number,The method contains a magic number: 3,186
+20_Unidos-master,com.example.unidos.repository,Field,skinToString,Magic Number,The method contains a magic number: 4,186
+20_Unidos-master,com.example.unidos.repository,Field,skinToString,Missing default,The following switch statement is missing a default case: switch (color) {,186
+20_Unidos-master,com.example.unidos.repository,Report,repTypeToString,Missing default,The following switch statement is missing a default case: switch (type) {,98
+20_Unidos-master,com.example.unidos.repository,ReportedPerson,getFullName,Complex Conditional,The conditional expression name == null && name2 == null && surname == null && surname2 == null is complex.,181
+20_Unidos-master,com.example.unidos.repository,ReportedPerson,getFullName,Complex Conditional,The conditional expression name.isEmpty() && name2.isEmpty() && surname.isEmpty()&& surname2.isEmpty() is complex.,181
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,getOnePerson,Magic Number,The method contains a magic number: 2,71
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,onComplete,Magic Number,The method contains a magic number: 2,74
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,getPersonInfo,Long Statement,The length of the statement "Query query=db.collection(collectionName).whereGreaterThanOrEqualTo("recSeenDate"`lastMonth).whereLessThanOrEqualTo("recSeenDate"`currentTime).orderBy("recSeenDate"`Query.Direction.DESCENDING);" is 193.,94
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,getPersonInfo,Magic Number,The method contains a magic number: 30,94
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,getInfo,Magic Number,The method contains a magic number: 2,111
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,onComplete,Magic Number,The method contains a magic number: 2,113
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,getLatestDate,Magic Number,The method contains a magic number: 12,170
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,getLatestDate,Magic Number,The method contains a magic number: 31,170
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,getLatestDate,Magic Number,The method contains a magic number: 12,170
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,getLatestDate,Magic Number,The method contains a magic number: 31,170
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,filterByDate,Long Statement,The length of the statement "Query query=collectionReference.whereGreaterThanOrEqualTo(fieldDateName`getOldestDate((int)fieldList.get(0).getValue())).whereLessThanOrEqualTo(fieldDateName`getLatestDate((int)fieldList.get(0).getValue2())).orderBy(fieldDateName`Query.Direction.DESCENDING);" is 258.,182
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyOneFilter,Long Statement,The length of the statement "Query query=collectionReference.whereEqualTo(selectedFields.get(1).getFieldID()`selectedFields.get(1).getValue()).whereGreaterThanOrEqualTo(fieldDateName`getOldestDate((int)selectedFields.get(0).getValue())).whereLessThanOrEqualTo(fieldDateName`getLatestDate((int)selectedFields.get(0).getValue2())).orderBy(fieldDateName`Query.Direction.DESCENDING);" is 350.,192
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyTwoFilters,Long Statement,The length of the statement "Query query=collectionReference.whereEqualTo(selectedFields.get(1).getFieldID()`selectedFields.get(1).getValue()).whereEqualTo(selectedFields.get(2).getFieldID()`selectedFields.get(2).getValue()).whereGreaterThanOrEqualTo(fieldDateName`getOldestDate((int)selectedFields.get(0).getValue())).whereLessThanOrEqualTo(fieldDateName`getLatestDate((int)selectedFields.get(0).getValue2())).orderBy(fieldDateName`Query.Direction.DESCENDING);" is 432.,202
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyTwoFilters,Magic Number,The method contains a magic number: 2,202
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyTwoFilters,Magic Number,The method contains a magic number: 2,202
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyThreeFilters,Long Statement,The length of the statement "Query query=collectionReference.whereEqualTo(selectedFields.get(1).getFieldID()`selectedFields.get(1).getValue()).whereEqualTo(selectedFields.get(2).getFieldID()`selectedFields.get(2).getValue()).whereEqualTo(selectedFields.get(3).getFieldID()`selectedFields.get(3).getValue()).whereGreaterThanOrEqualTo(fieldDateName`getOldestDate((int)selectedFields.get(0).getValue())).whereLessThanOrEqualTo(fieldDateName`getLatestDate((int)selectedFields.get(0).getValue2())).orderBy(fieldDateName`Query.Direction.DESCENDING);" is 514.,212
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyThreeFilters,Magic Number,The method contains a magic number: 2,212
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyThreeFilters,Magic Number,The method contains a magic number: 2,212
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyThreeFilters,Magic Number,The method contains a magic number: 3,212
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyThreeFilters,Magic Number,The method contains a magic number: 3,212
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyFourFilters,Long Statement,The length of the statement "Query query=collectionReference.whereEqualTo(selectedFields.get(1).getFieldID()`selectedFields.get(1).getValue()).whereEqualTo(selectedFields.get(2).getFieldID()`selectedFields.get(2).getValue()).whereEqualTo(selectedFields.get(3).getFieldID()`selectedFields.get(3).getValue()).whereEqualTo(selectedFields.get(4).getFieldID()`selectedFields.get(4).getValue()).whereGreaterThanOrEqualTo(fieldDateName`getOldestDate((int)selectedFields.get(0).getValue())).whereLessThanOrEqualTo(fieldDateName`getLatestDate((int)selectedFields.get(0).getValue2())).orderBy(fieldDateName`Query.Direction.DESCENDING);" is 596.,223
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyFourFilters,Magic Number,The method contains a magic number: 2,223
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyFourFilters,Magic Number,The method contains a magic number: 2,223
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyFourFilters,Magic Number,The method contains a magic number: 3,223
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyFourFilters,Magic Number,The method contains a magic number: 3,223
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyFourFilters,Magic Number,The method contains a magic number: 4,223
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,applyFourFilters,Magic Number,The method contains a magic number: 4,223
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,convertDocToPersonForMap,Long Statement,The length of the statement "if (isPersonNear(new LatLng(((GeoPoint)doc.get("recLocation")).getLatitude()`((GeoPoint)doc.get("recLocation")).getLongitude())`userLocation)) {" is 144.,265
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,convertDocToPersonForMap,Magic Number,The method contains a magic number: 2,265
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Long Statement,The length of the statement "double a=Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2)) * Math.sin(dLon / 2)* Math.sin(dLon / 2);" is 156.,294
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Magic Number,The method contains a magic number: 6371,294
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Magic Number,The method contains a magic number: 2,294
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Magic Number,The method contains a magic number: 2,294
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Magic Number,The method contains a magic number: 2,294
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Magic Number,The method contains a magic number: 2,294
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Magic Number,The method contains a magic number: 2,294
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Magic Number,The method contains a magic number: 2,294
+20_Unidos-master,com.example.unidos.repository,ReportedPersonRepository,isPersonNear,Magic Number,The method contains a magic number: 3,294
+20_Unidos-master,com.example.unidos.repository,ReportRepository,findReports,Long Statement,The length of the statement "collectionReference.whereGreaterThanOrEqualTo("seenDate"`firstSeenDate).whereEqualTo("personCURP"`personID).orderBy("seenDate"`Query.Direction.DESCENDING).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>(){" is 223.,51
+20_Unidos-master,com.example.unidos.repository,ReportRepository,findReports,Magic Number,The method contains a magic number: 2,51
+20_Unidos-master,com.example.unidos.repository,ReportRepository,onComplete,Magic Number,The method contains a magic number: 2,57
+20_Unidos-master,com.example.unidos.repository,ReportUserRepository,executeTask,Magic Number,The method contains a magic number: 2,36
+20_Unidos-master,com.example.unidos.repository,ReportUserRepository,onSuccess,Magic Number,The method contains a magic number: 2,38
+20_Unidos-master,com.example.unidos.repository,ReportUserRepository,checkDocumentExistence,Magic Number,The method contains a magic number: 2,78
+20_Unidos-master,com.example.unidos.repository,ReportUserRepository,onSuccess,Magic Number,The method contains a magic number: 2,81
+20_Unidos-master,com.example.unidos.repository,User,User,Long Parameter List,The method has 8 parameters. ,24
+20_Unidos-master,com.example.unidos.repository,User,getFullName,Complex Conditional,The conditional expression name == null && name2 == null && surname == null && surname2 == null is complex.,149
+20_Unidos-master,com.example.unidos.repository,User,getFullName,Complex Conditional,The conditional expression name.isEmpty() && name2.isEmpty() && surname.isEmpty()&& surname2.isEmpty() is complex.,149
+20_Unidos-master,com.example.unidos.repository,UserRepository,readCURP,Magic Number,The method contains a magic number: 2,84
+20_Unidos-master,com.example.unidos.repository,UserRepository,onComplete,Magic Number,The method contains a magic number: 2,93
+20_Unidos-master,com.example.unidos.repository,UserRepository,readPhone,Long Statement,The length of the statement "userCollection.whereEqualTo("phoneNumber"`telephNumber).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>(){" is 124.,123
+20_Unidos-master,com.example.unidos.repository,UserRepository,readPhone,Magic Number,The method contains a magic number: 2,123
+20_Unidos-master,com.example.unidos.repository,UserRepository,readPhone,Magic Number,The method contains a magic number: 2,123
+20_Unidos-master,com.example.unidos.repository,UserRepository,onComplete,Magic Number,The method contains a magic number: 2,135
+20_Unidos-master,com.example.unidos.repository,UserRepository,onComplete,Magic Number,The method contains a magic number: 2,135
+20_Unidos-master,com.example.unidos.repository,UserRepository,retrieveUserData,Magic Number,The method contains a magic number: 2,206
+20_Unidos-master,com.example.unidos.repository,UserRepository,onComplete,Magic Number,The method contains a magic number: 2,214
+20_Unidos-master,com.example.unidos.repository,UserRepository,checkDataExistence,Magic Number,The method contains a magic number: 2,285
+20_Unidos-master,com.example.unidos.repository,UserRepository,checkDataExistence,Magic Number,The method contains a magic number: 2,285
+20_Unidos-master,com.example.unidos.repository,UserRepository,onComplete,Magic Number,The method contains a magic number: 2,290
+20_Unidos-master,com.example.unidos.repository,UserRepository,onComplete,Magic Number,The method contains a magic number: 2,290
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onCreate,Long Statement,The length of the statement "popupFiltersViewModel=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(PopupFiltersViewModel.class);" is 144.,45
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onCreateView,Complex Method,Cyclomatic complexity of the method is 13,53
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onCreateView,Long Method,The method has 126 lines of code.,53
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onCreateView,Long Statement,The length of the statement "PopUpFiltersBinding binding=DataBindingUtil.inflate(LayoutInflater.from(getContext())`R.layout.pop_up_filters`null`false);" is 122.,53
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onCreateView,Magic Number,The method contains a magic number: 2018,53
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onCreateView,Magic Number,The method contains a magic number: 2020,53
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onCreateView,Magic Number,The method contains a magic number: 2,53
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onCreateView,Magic Number,The method contains a magic number: 2,53
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onChanged,Magic Number,The method contains a magic number: 2,120
+20_Unidos-master,com.example.unidos.searching,FiltersDialog,onChanged,Magic Number,The method contains a magic number: 2,198
+20_Unidos-master,com.example.unidos.searching,PersonAdapter,onCreateViewHolder,Magic Number,The method contains a magic number: 15,51
+20_Unidos-master,com.example.unidos.searching,PersonAdapter,onBindViewHolder,Long Statement,The length of the statement "if (reportedPerson.getRecSeenDate().compareTo(lastFifteenDays) >= 0) holder.cardView.setBackgroundResource(R.color.red3);" is 121.,64
+20_Unidos-master,com.example.unidos.searching,PersonAdapter,onBindViewHolder,Long Statement,The length of the statement "Glide.with(holder.itemView.getContext()).using(new FirebaseImageLoader()).load(storageReference).fitCenter().into(holder.iv);" is 125.,64
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,PopupFiltersViewModel,Magic Number,The method contains a magic number: 3,60
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,doOnEditTextState,Complex Conditional,The conditional expression isEditTextEmpty && isRbEmpty || !isEditTextEmpty && !isRbEmpty is complex.,112
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,doOnEditTextState,Magic Number,The method contains a magic number: 2,112
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,applyFilters,Complex Method,Cyclomatic complexity of the method is 9,245
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,applyFilters,Magic Number,The method contains a magic number: 2,245
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,applyFilters,Magic Number,The method contains a magic number: 2,245
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,applyFilters,Magic Number,The method contains a magic number: 2,245
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,applyFilters,Magic Number,The method contains a magic number: 3,245
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,applyFilters,Magic Number,The method contains a magic number: 4,245
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,applyFilters,Magic Number,The method contains a magic number: 5,245
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,update,Magic Number,The method contains a magic number: 2,254
+20_Unidos-master,com.example.unidos.searching,PopupFiltersViewModel,update,Magic Number,The method contains a magic number: 2,254
+20_Unidos-master,com.example.unidos.searching,Search,onCreate,Long Statement,The length of the statement "MoldViewModel myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(this.getApplication()).create(MoldViewModel.class);" is 124.,30
+20_Unidos-master,com.example.unidos.searching,SearchFragment,onCreate,Long Statement,The length of the statement "myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(SearchInListViewModel.class);" is 127.,55
+20_Unidos-master,com.example.unidos.searching,SearchFragment,onCreate,Long Statement,The length of the statement "List<Address> addressList=geocoder.getFromLocationName("México` Ciudad de México` " + "Fraccionamiento Popular Emiliano Zapata` Coyoacán` 75` Hacienda Chinameca"`1);" is 168.,55
+20_Unidos-master,com.example.unidos.searching,SearchFragment,onCreateView,Long Statement,The length of the statement "DividerItemDecoration dividerItemDecoration=new DividerItemDecoration(recyclerView.getContext()`linearLayoutManager.getOrientation());" is 134.,81
+20_Unidos-master,com.example.unidos.searching,SearchFragment,onCreateView,Magic Number,The method contains a magic number: 2,81
+20_Unidos-master,com.example.unidos.searching,SearchFragment,onChanged,Magic Number,The method contains a magic number: 2,114
+20_Unidos-master,com.example.unidos.searching,SearchInListViewModel,getRecentReports,Magic Number,The method contains a magic number: 2,36
+20_Unidos-master,com.example.unidos.searching,SearchInListViewModel,getRecentReports,Magic Number,The method contains a magic number: 2,36
+20_Unidos-master,com.example.unidos.searching,SearchInListViewModel,update,Magic Number,The method contains a magic number: 2,43
+20_Unidos-master,com.example.unidos.searching,SearchInListViewModel,update,Magic Number,The method contains a magic number: 2,43
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,onCreate,Long Statement,The length of the statement "myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(SearchOnMapViewModel.class);" is 126.,70
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,onCreateView,Magic Number,The method contains a magic number: 2,83
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,onChanged,Magic Number,The method contains a magic number: 2,107
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,showCoincidences,Long Statement,The length of the statement "map.addMarker(new MarkerOptions().title(person.getCurp()).snippet(String.valueOf(position)).icon(BitmapDescriptorFactory.defaultMarker(changeMarkerColor(person.getRecSeenDate()`lastFifteenDays`person.isFound()))).position(new LatLng(person.getRecLocation().getLatitude()`person.getRecLocation().getLongitude())));" is 313.,148
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,showCoincidences,Magic Number,The method contains a magic number: 15,148
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,getLocation,Magic Number,The method contains a magic number: 20,231
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,onSuccess,Magic Number,The method contains a magic number: 20,236
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,initMap,Magic Number,The method contains a magic number: 55.3781,275
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,initMap,Magic Number,The method contains a magic number: 3.4360,275
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,initMap,Magic Number,The method contains a magic number: 10,275
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,requestPermission,Long Statement,The length of the statement "requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION`Manifest.permission.ACCESS_COARSE_LOCATION}`44);" is 121.,298
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,requestPermission,Magic Number,The method contains a magic number: 44,298
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,onRequestPermissionsResult,Magic Number,The method contains a magic number: 44,304
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,checkPermission,Long Statement,The length of the statement "int FirstPermissionResult=ContextCompat.checkSelfPermission(getActivity().getApplicationContext()`Manifest.permission.ACCESS_FINE_LOCATION);" is 140.,329
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,checkPermission,Long Statement,The length of the statement "int SecondPermissionResult=ContextCompat.checkSelfPermission(getActivity().getApplicationContext()`Manifest.permission.ACCESS_COARSE_LOCATION);" is 143.,329
+20_Unidos-master,com.example.unidos.searching,SearchOnMapFragment,checkPermission,Long Statement,The length of the statement "return FirstPermissionResult == PackageManager.PERMISSION_GRANTED && SecondPermissionResult == PackageManager.PERMISSION_GRANTED;" is 129.,329
+20_Unidos-master,com.example.unidos.searching,SearchOnMapViewModel,getRecentReports,Magic Number,The method contains a magic number: 2,31
+20_Unidos-master,com.example.unidos.searching,SearchOnMapViewModel,getRecentReports,Magic Number,The method contains a magic number: 2,31
+20_Unidos-master,com.example.unidos.searching,SearchOnMapViewModel,update,Magic Number,The method contains a magic number: 2,36
+20_Unidos-master,com.example.unidos.searching,SearchOnMapViewModel,update,Magic Number,The method contains a magic number: 2,36
+20_Unidos-master,com.example.unidos.searching,ViewPagerAdapter,getItemCount,Magic Number,The method contains a magic number: 2,28
+20_Unidos-master,com.example.unidos.shared,Dialog,onCreate,Long Statement,The length of the statement "myvm=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication()).create(DialogViewModel.class);" is 121.,39
+20_Unidos-master,com.example.unidos.shared,Dialog,onCreateView,Long Statement,The length of the statement "AlertDialogConfirmationBinding binding=DataBindingUtil.inflate(LayoutInflater.from(getContext())`R.layout.alert_dialog_confirmation`null`false);" is 144.,45
+20_Unidos-master,com.example.unidos.shared,Field,isNameWrong,Magic Number,The method contains a magic number: 2,23
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,setCalendar,Long Statement,The length of the statement "DatePickerDialog datePickerDialog=new DatePickerDialog(context`R.style.DialogTheme`new DatePickerDialog.OnDateSetListener(){" is 124.,28
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,setCalendar,Magic Number,The method contains a magic number: 10,28
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,setCalendar,Magic Number,The method contains a magic number: 9,28
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,setCalendar,Magic Number,The method contains a magic number: 9,28
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,setCalendar,Magic Number,The method contains a magic number: 9,28
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,onDateSet,Magic Number,The method contains a magic number: 10,35
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,onDateSet,Magic Number,The method contains a magic number: 9,35
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,onDateSet,Magic Number,The method contains a magic number: 9,35
+20_Unidos-master,com.example.unidos.shared,GeneralCalendar,onDateSet,Magic Number,The method contains a magic number: 9,35

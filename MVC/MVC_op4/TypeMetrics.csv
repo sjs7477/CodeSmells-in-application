@@ -1,0 +1,15 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2,ExampleInstrumentedTest,1,0,3,3,25,5,0,0,0.0,0,0,C:\CodeSmells-in-application-MVC-4\app\src\androidTest\java\ua\hanasaka\mvc2\ExampleInstrumentedTest.java,16
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2,ExampleUnitTest,0,0,1,1,9,1,0,0,-1.0,0,0,C:\CodeSmells-in-application-MVC-4\app\src\test\java\ua\hanasaka\mvc2\ExampleUnitTest.java,7
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model.api,ApiInterface,0,0,1,0,6,1,0,0,-1.0,2,0,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\model\api\ApiInterface.java,10
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model.api,ApiModule,2,0,2,2,22,3,0,0,0.0,0,1,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\model\api\ApiModule.java,14
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model.data,Owner,17,0,34,34,121,34,0,0,0.5,1,0,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\model\data\Owner.java,10
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model.data,Repo,69,0,138,138,485,138,0,0,0.5,1,1,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\model\data\Repo.java,10
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model,Model,0,0,1,0,6,1,1,0,-1.0,1,0,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\model\Model.java,8
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model,ModelImpl,1,0,1,1,9,1,0,1,0.0,0,1,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\model\ModelImpl.java,12
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.presenter,Presenter,0,0,2,0,7,2,1,0,-1.0,1,0,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\presenter\Presenter.java,3
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.presenter,RepoListPresenter,4,0,6,6,42,10,0,1,0.0,0,2,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\presenter\RepoListPresenter.java,15
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.view.adapters,RecyclerViewAdapter,2,0,5,5,28,5,0,0,0.4,2,3,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\view\adapters\RecyclerViewAdapter.java,15
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.view.adapters,ViewHolder,1,0,1,1,7,1,0,0,0.0,1,0,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\view\adapters\RecyclerViewAdapter.java,46
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.view,MainActivity,7,0,8,5,48,9,0,1,0.25,0,2,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\view\MainActivity.java,23
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.view,View,0,0,4,0,9,4,1,0,-1.0,1,0,C:\CodeSmells-in-application-MVC-4\app\src\main\java\ua\hanasaka\mvc2\view\View.java,7

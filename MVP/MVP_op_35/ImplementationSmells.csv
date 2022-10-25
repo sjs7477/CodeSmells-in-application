@@ -1,0 +1,219 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+GankIO-master,com.littlejie.core,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+GankIO-master,com.littlejie.core,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+GankIO-master,com.littlejie.core,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+GankIO-master,com.littlejie.core.ui,BaseImageView,setImage,Long Statement,The length of the statement "Glide.with(getContext()).load(url).dontAnimate().skipMemoryCache(true).diskCacheStrategy(DiskCacheStrategy.ALL).thumbnail(0.2f).into(this);" is 139.,35
+GankIO-master,com.littlejie.core.ui,BaseImageView,setImage,Magic Number,The method contains a magic number: 0.2f,35
+GankIO-master,com.littlejie.core.utils,CacheUtil,put,Magic Number,The method contains a magic number: 1024,110
+GankIO-master,com.littlejie.core.utils,CacheUtil,put,Empty catch clause,The method has an empty catch block.,367
+GankIO-master,com.littlejie.core.utils,CacheUtil,isDue,Magic Number,The method contains a magic number: 2,697
+GankIO-master,com.littlejie.core.utils,CacheUtil,isDue,Magic Number,The method contains a magic number: 1000,697
+GankIO-master,com.littlejie.core.utils,CacheUtil,hasDateInfo,Magic Number,The method contains a magic number: 15,748
+GankIO-master,com.littlejie.core.utils,CacheUtil,hasDateInfo,Magic Number,The method contains a magic number: 13,748
+GankIO-master,com.littlejie.core.utils,CacheUtil,hasDateInfo,Magic Number,The method contains a magic number: 14,748
+GankIO-master,com.littlejie.core.utils,CacheUtil,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,753
+GankIO-master,com.littlejie.core.utils,CacheUtil,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,753
+GankIO-master,com.littlejie.core.utils,CacheUtil,createDateInfo,Magic Number,The method contains a magic number: 13,784
+GankIO-master,com.littlejie.core.utils,CacheUtil,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,795
+GankIO-master,com.littlejie.core.utils,Utils,isDue,Magic Number,The method contains a magic number: 2,697
+GankIO-master,com.littlejie.core.utils,Utils,isDue,Magic Number,The method contains a magic number: 1000,697
+GankIO-master,com.littlejie.core.utils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 15,748
+GankIO-master,com.littlejie.core.utils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 13,748
+GankIO-master,com.littlejie.core.utils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 14,748
+GankIO-master,com.littlejie.core.utils,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,753
+GankIO-master,com.littlejie.core.utils,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,753
+GankIO-master,com.littlejie.core.utils,Utils,createDateInfo,Magic Number,The method contains a magic number: 13,784
+GankIO-master,com.littlejie.core.utils,Utils,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,795
+GankIO-master,com.littlejie.core.utils,DisplayUtil,px2dp,Magic Number,The method contains a magic number: 0.5f,25
+GankIO-master,com.littlejie.core.utils,DisplayUtil,dp2px,Magic Number,The method contains a magic number: 0.5f,36
+GankIO-master,com.littlejie.core.utils,DisplayUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,47
+GankIO-master,com.littlejie.core.utils,DisplayUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,58
+GankIO-master,com.littlejie.core.utils,DisplayUtil,px2dp,Magic Number,The method contains a magic number: 0.5f,69
+GankIO-master,com.littlejie.core.utils,DisplayUtil,dp2px,Magic Number,The method contains a magic number: 0.5f,81
+GankIO-master,com.littlejie.core.utils,DisplayUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,93
+GankIO-master,com.littlejie.core.utils,DisplayUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,105
+GankIO-master,com.littlejie.gankio,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+GankIO-master,com.littlejie.gankio,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+GankIO-master,com.littlejie.gankio,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+GankIO-master,com.littlejie.gankio.ui.adapter,CategoryAdapter,generaHeight,Magic Number,The method contains a magic number: 300,158
+GankIO-master,com.littlejie.gankio.ui.adapter,CategoryAdapter,generaHeight,Magic Number,The method contains a magic number: 500,158
+GankIO-master,com.littlejie.gankio.entity,DataInfo,toString,Long Statement,The length of the statement "return "DataInfo{" + "id='" + id + '\''+ "` createTime='"+ createTime+ '\''+ "` desc='"+ desc+ '\''+ "` images="+ images+ "` source='"+ source+ '\''+ "` publishedTime='"+ publishedTime+ '\''+ "` type='"+ type+ '\''+ "` url='"+ url+ '\''+ "` used="+ used+ "` who='"+ who+ '\''+ '}';" is 281.,153
+GankIO-master,com.littlejie.gankio.http,ApiService,init,Long Statement,The length of the statement "Retrofit sRetrofit=new Retrofit.Builder().baseUrl(Constant.URL).addConverterFactory(GsonConverterFactory.create()).addConverterFactory(ScalarsConverterFactory.create()).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).build();" is 235.,20
+GankIO-master,com.littlejie.gankio.modules,MainActivity,initViewListener,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`mDrawerLayout`mToolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 149.,68
+GankIO-master,com.littlejie.gankio.modules,CategoryFragment,initView,Long Statement,The length of the statement "mRecyclerView.setLayoutManager(Constant.Category.IMAGE.equals(mCategory) ? new StaggeredGridLayoutManager(2`StaggeredGridLayoutManager.VERTICAL) : new LinearLayoutManager(getContext()));" is 186.,83
+GankIO-master,com.littlejie.gankio.modules,CategoryFragment,initView,Magic Number,The method contains a magic number: 5,83
+GankIO-master,com.littlejie.gankio.modules,CategoryFragment,initView,Magic Number,The method contains a magic number: 2,83
+GankIO-master,com.littlejie.gankio.modules,WebActivity,initViewListener,Magic Number,The method contains a magic number: 100,75
+GankIO-master,com.littlejie.gankio.modules,WebActivity,onProgressChanged,Magic Number,The method contains a magic number: 100,85
+GankIO-master,com.littlejie.gankio.modules.model,DayPublishModel,loadPublishDays,Long Statement,The length of the statement "ApiService.getGankApi().getPublishDays().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<GankInfo<List<String>>>(){" is 161.,33
+GankIO-master,com.littlejie.gankio.modules.model,DayPublishModel,loadData,Long Statement,The length of the statement "ApiService.getGankApi().getDayGank(date).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<GankInfo<DayInfo>>(){" is 156.,65
+GankIO-master,com.littlejie.gankio.modules.model,CategoryModel,loadData,Long Statement,The length of the statement "ApiService.getGankApi().getData(category`Constant.COUNT`page).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<GankInfo<List<DataInfo>>>(){" is 184.,31
+GankIO-master,com.cjj,MaterialFoodView,onAttachedToWindow,Long Statement,The length of the statement "FrameLayout.LayoutParams layoutParams=new FrameLayout.LayoutParams(Util.dip2px(getContext()`progressSize)`Util.dip2px(getContext()`progressSize));" is 146.,108
+GankIO-master,com.cjj,SunFaceView,setPerView,Magic Number,The method contains a magic number: 0.8,90
+GankIO-master,com.cjj,SunFaceView,setPerView,Magic Number,The method contains a magic number: 255,90
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onSizeChanged,Magic Number,The method contains a magic number: 2,119
+GankIO-master,com.cjj,SunFaceView,onMeasure,Magic Number,The method contains a magic number: 2,139
+GankIO-master,com.cjj,SunFaceView,onMeasure,Magic Number,The method contains a magic number: 2,139
+GankIO-master,com.cjj,SunFaceView,drawCircle,Long Statement,The length of the statement "canvas.drawCircle(mWidth / 2 - mSunRadius / 2 + mEyesRadius`mHeight / 2 - mSunRadius / 2 + mEyesRadius`mEyesRadius`mCirclePaint);" is 129.,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Long Statement,The length of the statement "canvas.drawCircle(mWidth / 2 + mSunRadius / 2 - mEyesRadius`mHeight / 2 - mSunRadius / 2 + mEyesRadius`mEyesRadius`mCirclePaint);" is 129.,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 2,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 20,175
+GankIO-master,com.cjj,SunFaceView,drawCircle,Magic Number,The method contains a magic number: 140,175
+GankIO-master,com.cjj,Util,dip2px,Magic Number,The method contains a magic number: 0.5f,7
+GankIO-master,com.cjj,Util,px2dip,Magic Number,The method contains a magic number: 0.5f,12
+GankIO-master,com.cjj,CircleProgressBar,init,Long Statement,The length of the statement "mProgressStokeWidth=a.getDimensionPixelOffset(R.styleable.CircleProgressBar_mlpb_progress_stoke_width`(int)(STROKE_WIDTH_LARGE * density));" is 139.,93
+GankIO-master,com.cjj,CircleProgressBar,init,Long Statement,The length of the statement "mTextSize=a.getDimensionPixelOffset(R.styleable.CircleProgressBar_mlpb_progress_text_size`(int)(DEFAULT_TEXT_SIZE * density));" is 126.,93
+GankIO-master,com.cjj,CircleProgressBar,init,Magic Number,The method contains a magic number: 100,93
+GankIO-master,com.cjj,CircleProgressBar,init,Magic Number,The method contains a magic number: 0.75,93
+GankIO-master,com.cjj,CircleProgressBar,elevationSupported,Magic Number,The method contains a magic number: 21,151
+GankIO-master,com.cjj,CircleProgressBar,onMeasure,Magic Number,The method contains a magic number: 2,155
+GankIO-master,com.cjj,CircleProgressBar,onMeasure,Magic Number,The method contains a magic number: 2,155
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Long Parameter List,The method has 5 parameters. ,174
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Long Statement,The length of the statement "mProgressDrawable.setSizeParameters(mDiameter`mDiameter`mInnerRadius <= 0 ? (mDiameter - mProgressStokeWidth * 2) / 4 : mInnerRadius`mProgressStokeWidth`mArrowWidth < 0 ? mProgressStokeWidth * 4 : mArrowWidth`mArrowHeight < 0 ? mProgressStokeWidth * 2 : mArrowHeight);" is 268.,174
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Magic Number,The method contains a magic number: 2,174
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Magic Number,The method contains a magic number: 2,174
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Magic Number,The method contains a magic number: 4,174
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Magic Number,The method contains a magic number: 4,174
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Magic Number,The method contains a magic number: 2,174
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Magic Number,The method contains a magic number: 255,174
+GankIO-master,com.cjj,CircleProgressBar,onLayout,Magic Number,The method contains a magic number: 0.8,174
+GankIO-master,com.cjj,CircleProgressBar,onDraw,Magic Number,The method contains a magic number: 2,223
+GankIO-master,com.cjj,CircleProgressBar,onDraw,Magic Number,The method contains a magic number: 4,223
+GankIO-master,com.cjj,CircleProgressBar,onDraw,Magic Number,The method contains a magic number: 2,223
+GankIO-master,com.cjj,CircleProgressBar,onDraw,Magic Number,The method contains a magic number: 4,223
+GankIO-master,com.cjj,CircleProgressBar,OvalShadow,Long Statement,The length of the statement "mRadialGradient=new RadialGradient(mCircleDiameter / 2`mCircleDiameter / 2`mShadowRadius`new int[]{FILL_SHADOW_COLOR`Color.TRANSPARENT}`null`Shader.TileMode.CLAMP);" is 164.,436
+GankIO-master,com.cjj,CircleProgressBar,OvalShadow,Magic Number,The method contains a magic number: 2,436
+GankIO-master,com.cjj,CircleProgressBar,OvalShadow,Magic Number,The method contains a magic number: 2,436
+GankIO-master,com.cjj,CircleProgressBar,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,CircleProgressBar,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,CircleProgressBar,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,CircleProgressBar,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,CircleProgressBar,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,CircleProgressBar,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,OvalShadow,OvalShadow,Long Statement,The length of the statement "mRadialGradient=new RadialGradient(mCircleDiameter / 2`mCircleDiameter / 2`mShadowRadius`new int[]{FILL_SHADOW_COLOR`Color.TRANSPARENT}`null`Shader.TileMode.CLAMP);" is 164.,436
+GankIO-master,com.cjj,OvalShadow,OvalShadow,Magic Number,The method contains a magic number: 2,436
+GankIO-master,com.cjj,OvalShadow,OvalShadow,Magic Number,The method contains a magic number: 2,436
+GankIO-master,com.cjj,OvalShadow,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,OvalShadow,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,OvalShadow,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,OvalShadow,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,OvalShadow,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,OvalShadow,draw,Magic Number,The method contains a magic number: 2,448
+GankIO-master,com.cjj,MaterialWaveView,onDraw,Magic Number,The method contains a magic number: 2,84
+GankIO-master,com.cjj,MaterialWaveView,onComlete,Magic Number,The method contains a magic number: 200,96
+GankIO-master,com.cjj,MaterialWaveView,onRefreshing,Magic Number,The method contains a magic number: 200,130
+GankIO-master,com.cjj,SunLineView,init,Magic Number,The method contains a magic number: 3,50
+GankIO-master,com.cjj,SunLineView,init,Magic Number,The method contains a magic number: 6,50
+GankIO-master,com.cjj,SunLineView,init,Magic Number,The method contains a magic number: 12,50
+GankIO-master,com.cjj,SunLineView,init,Magic Number,The method contains a magic number: 30,50
+GankIO-master,com.cjj,SunLineView,setLineHeight,Magic Number,The method contains a magic number: 2,82
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onSizeChanged,Magic Number,The method contains a magic number: 2,104
+GankIO-master,com.cjj,SunLineView,onMeasure,Magic Number,The method contains a magic number: 2,127
+GankIO-master,com.cjj,SunLineView,onMeasure,Magic Number,The method contains a magic number: 2,127
+GankIO-master,com.cjj,SunLineView,drawLines,Magic Number,The method contains a magic number: 360,160
+GankIO-master,com.cjj,SunLineView,drawLines,Magic Number,The method contains a magic number: 2,160
+GankIO-master,com.cjj,SunLineView,drawLines,Magic Number,The method contains a magic number: 2,160
+GankIO-master,com.cjj,MaterialProgressDrawable,setSizeParameters,Long Parameter List,The method has 6 parameters. ,131
+GankIO-master,com.cjj,MaterialProgressDrawable,updateSizes,Long Statement,The length of the statement "setSizeParameters(CIRCLE_DIAMETER_LARGE * screenDensity`CIRCLE_DIAMETER_LARGE * screenDensity`CENTER_RADIUS_LARGE * screenDensity`STROKE_WIDTH_LARGE * screenDensity`ARROW_WIDTH_LARGE * screenDensity`ARROW_HEIGHT_LARGE * screenDensity);" is 235.,143
+GankIO-master,com.cjj,MaterialProgressDrawable,updateSizes,Long Statement,The length of the statement "setSizeParameters(CIRCLE_DIAMETER * screenDensity`CIRCLE_DIAMETER * screenDensity`CENTER_RADIUS * screenDensity`STROKE_WIDTH * screenDensity`ARROW_WIDTH * screenDensity`ARROW_HEIGHT * screenDensity);" is 199.,143
+GankIO-master,com.cjj,MaterialProgressDrawable,start,Magic Number,The method contains a magic number: 2,269
+GankIO-master,com.cjj,MaterialProgressDrawable,applyFinishTranslation,Long Statement,The length of the statement "final float startTrim=ring.getStartingStartTrim() + (ring.getStartingEndTrim() - ring.getStartingStartTrim()) * interpolatedTime;" is 129.,297
+GankIO-master,com.cjj,MaterialProgressDrawable,setupAnimators,Magic Number,The method contains a magic number: 2,311
+GankIO-master,com.cjj,MaterialProgressDrawable,setupAnimators,Magic Number,The method contains a magic number: 0.5f,311
+GankIO-master,com.cjj,MaterialProgressDrawable,setupAnimators,Magic Number,The method contains a magic number: 0.25f,311
+GankIO-master,com.cjj,MaterialProgressDrawable,setupAnimators,Magic Number,The method contains a magic number: 720.0f,311
+GankIO-master,com.cjj,MaterialProgressDrawable,setupAnimators,Magic Number,The method contains a magic number: 720.0f,311
+GankIO-master,com.cjj,MaterialProgressDrawable,applyTransformation,Magic Number,The method contains a magic number: 2,314
+GankIO-master,com.cjj,MaterialProgressDrawable,applyTransformation,Magic Number,The method contains a magic number: 0.5f,314
+GankIO-master,com.cjj,MaterialProgressDrawable,applyTransformation,Magic Number,The method contains a magic number: 0.25f,314
+GankIO-master,com.cjj,MaterialProgressDrawable,applyTransformation,Magic Number,The method contains a magic number: 720.0f,314
+GankIO-master,com.cjj,MaterialProgressDrawable,applyTransformation,Magic Number,The method contains a magic number: 720.0f,314
+GankIO-master,com.cjj,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 360,452
+GankIO-master,com.cjj,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 360,452
+GankIO-master,com.cjj,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 255,452
+GankIO-master,com.cjj,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 255,452
+GankIO-master,com.cjj,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 2,452
+GankIO-master,com.cjj,MaterialProgressDrawable,drawTriangle,Long Statement,The length of the statement "c.rotate(startAngle + (sweepAngle < 0 ? 0 : sweepAngle) - ARROW_OFFSET_ANGLE`bounds.exactCenterX()`bounds.exactCenterY());" is 122.,476
+GankIO-master,com.cjj,MaterialProgressDrawable,drawTriangle,Magic Number,The method contains a magic number: 2,476
+GankIO-master,com.cjj,MaterialProgressDrawable,drawTriangle,Magic Number,The method contains a magic number: 2,476
+GankIO-master,com.cjj,MaterialProgressDrawable,setInsets,Magic Number,The method contains a magic number: 2.0f,610
+GankIO-master,com.cjj,MaterialProgressDrawable,setInsets,Magic Number,The method contains a magic number: 2.0f,610
+GankIO-master,com.cjj,MaterialProgressDrawable,getInterpolation,Magic Number,The method contains a magic number: 0.5f,696
+GankIO-master,com.cjj,MaterialProgressDrawable,getInterpolation,Magic Number,The method contains a magic number: 2.0f,696
+GankIO-master,com.cjj,MaterialProgressDrawable,getInterpolation,Magic Number,The method contains a magic number: 2.0f,706
+GankIO-master,com.cjj,Ring,draw,Magic Number,The method contains a magic number: 360,452
+GankIO-master,com.cjj,Ring,draw,Magic Number,The method contains a magic number: 360,452
+GankIO-master,com.cjj,Ring,draw,Magic Number,The method contains a magic number: 255,452
+GankIO-master,com.cjj,Ring,draw,Magic Number,The method contains a magic number: 255,452
+GankIO-master,com.cjj,Ring,draw,Magic Number,The method contains a magic number: 2,452
+GankIO-master,com.cjj,Ring,drawTriangle,Long Statement,The length of the statement "c.rotate(startAngle + (sweepAngle < 0 ? 0 : sweepAngle) - ARROW_OFFSET_ANGLE`bounds.exactCenterX()`bounds.exactCenterY());" is 122.,476
+GankIO-master,com.cjj,Ring,drawTriangle,Magic Number,The method contains a magic number: 2,476
+GankIO-master,com.cjj,Ring,drawTriangle,Magic Number,The method contains a magic number: 2,476
+GankIO-master,com.cjj,Ring,setInsets,Magic Number,The method contains a magic number: 2.0f,610
+GankIO-master,com.cjj,Ring,setInsets,Magic Number,The method contains a magic number: 2.0f,610
+GankIO-master,com.cjj,EndCurveInterpolator,getInterpolation,Magic Number,The method contains a magic number: 0.5f,696
+GankIO-master,com.cjj,EndCurveInterpolator,getInterpolation,Magic Number,The method contains a magic number: 2.0f,696
+GankIO-master,com.cjj,StartCurveInterpolator,getInterpolation,Magic Number,The method contains a magic number: 2.0f,706
+GankIO-master,com.cjj,MaterialRefreshLayout,init,Long Statement,The length of the statement "progressBg=t.getColor(R.styleable.MaterialRefreshLayout_progress_backgroud_color`CircleProgressBar.DEFAULT_CIRCLE_BG_LIGHT);" is 124.,77
+GankIO-master,com.cjj,MaterialRefreshLayout,init,Magic Number,The method contains a magic number: 10,77
+GankIO-master,com.cjj,MaterialRefreshLayout,init,Magic Number,The method contains a magic number: 100,77
+GankIO-master,com.cjj,MaterialRefreshLayout,onAttachedToWindow,Long Statement,The length of the statement "LayoutParams layoutParams2=new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`Util.dip2px(context`hIGHER_HEAD_HEIGHT));" is 121.,128
+GankIO-master,com.cjj,MaterialRefreshLayout,onInterceptTouchEvent,Complex Conditional,The conditional expression dy < 0 && !canChildScrollDown() && isLoadMore is complex.,189
+GankIO-master,com.cjj,MaterialRefreshLayout,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,189
+GankIO-master,com.cjj,MaterialRefreshLayout,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 18,230
+GankIO-master,com.cjj,MaterialRefreshLayout,onTouchEvent,Magic Number,The method contains a magic number: 2,230
+GankIO-master,com.cjj,MaterialRefreshLayout,onTouchEvent,Magic Number,The method contains a magic number: 2,230
+GankIO-master,com.cjj,MaterialRefreshLayout,onTouchEvent,Magic Number,The method contains a magic number: 2,230
+GankIO-master,com.cjj,MaterialRefreshLayout,autoRefresh,Magic Number,The method contains a magic number: 50,323
+GankIO-master,com.cjj,MaterialRefreshLayout,createAnimatorTranslationY,Magic Number,The method contains a magic number: 250,413
+GankIO-master,com.cjj,MaterialRefreshLayout,canChildScrollUp,Long Statement,The length of the statement "return absListView.getChildCount() > 0 && (absListView.getFirstVisiblePosition() > 0 || absListView.getChildAt(0).getTop() < absListView.getPaddingTop());" is 154.,429
+GankIO-master,com.cjj,MaterialRefreshLayout,canChildScrollUp,Magic Number,The method contains a magic number: 14,429
+GankIO-master,com.cjj,MaterialRefreshLayout,canChildScrollDown,Long Statement,The length of the statement "return absListView.getLastVisiblePosition() == absListView.getAdapter().getCount() - 1 && lastChildBottom <= absListView.getMeasuredHeight();" is 141.,451
+GankIO-master,com.cjj,MaterialRefreshLayout,canChildScrollDown,Magic Number,The method contains a magic number: 14,451
+GankIO-master,com.cjj,MaterialRefreshLayout,finishRefreshing,Magic Number,The method contains a magic number: 200,480
+GankIO-master,com.cjj,MaterialHeadView,onAttachedToWindow,Long Statement,The length of the statement "FrameLayout.LayoutParams layoutParams=new FrameLayout.LayoutParams(Util.dip2px(getContext()`progressSize)`Util.dip2px(getContext()`progressSize));" is 146.,119
+GankIO-master,com.cjj,SunLayout,startSunLineAnim,Magic Number,The method contains a magic number: 720f,166
+GankIO-master,com.cjj,SunLayout,startSunLineAnim,Magic Number,The method contains a magic number: 7,166
+GankIO-master,com.cjj,SunLayout,startSunLineAnim,Magic Number,The method contains a magic number: 1000,166
+GankIO-master,com.cjj,SunLayout,onBegin,Magic Number,The method contains a magic number: 0.001f,198
+GankIO-master,com.cjj,SunLayout,onBegin,Magic Number,The method contains a magic number: 0.001f,198
+GankIO-master,com.cjj,SunLayout,onPull,Magic Number,The method contains a magic number: 0.7,205
+GankIO-master,com.cjj,MaterialFooterView,onAttachedToWindow,Long Statement,The length of the statement "FrameLayout.LayoutParams layoutParams=new FrameLayout.LayoutParams((int)density * progressSize`(int)density * progressSize);" is 124.,113
+GankIO-master,com.cjj,MaterialHeaderView,setProgressSize,Long Statement,The length of the statement "FrameLayout.LayoutParams layoutParams=new FrameLayout.LayoutParams((int)density * progressSize`(int)density * progressSize);" is 124.,57
+GankIO-master,com.cjj,MaterialHeaderView,onAttachedToWindow,Long Statement,The length of the statement "FrameLayout.LayoutParams layoutParams=new FrameLayout.LayoutParams((int)density * progressSize`(int)density * progressSize);" is 124.,120
+GankIO-master,com.cjj,MaterialHeaderView,onBegin,Magic Number,The method contains a magic number: 0.001f,158
+GankIO-master,com.cjj,MaterialHeaderView,onBegin,Magic Number,The method contains a magic number: 0.001f,158

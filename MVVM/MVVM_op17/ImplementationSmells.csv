@@ -1,0 +1,131 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+2_android_starter-master,com.istur.android_starter,AStartApplication,initTimberLogging,Long Statement,The length of the statement "return String.format("Class:%s: Line: %s` Method: %s"`super.createStackElementTag(element)`element.getLineNumber()`element.getMethodName());" is 140.,30
+2_android_starter-master,com.istur.android_starter,AStartApplication,createStackElementTag,Long Statement,The length of the statement "return String.format("Class:%s: Line: %s` Method: %s"`super.createStackElementTag(element)`element.getLineNumber()`element.getMethodName());" is 140.,33
+2_android_starter-master,com.istur.android_starter,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+2_android_starter-master,com.istur.android_starter,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+2_android_starter-master,com.istur.android_starter,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+2_android_starter-master,com.istur.android_starter.common.architecture,BaseActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,44
+2_android_starter-master,com.istur.android_starter.common.architecture,BaseFragment,onSaveInstanceState,Long Statement,The length of the statement "if (mViewModel != null && mViewModel.bundle != null) outState.putSerializable(BUNDLE_KEY`mViewModel.bundle.getSerializable(BUNDLE_KEY));" is 136.,60
+2_android_starter-master,com.istur.android_starter.common.architecture,BaseViewModel,init,Long Statement,The length of the statement "if (serializable instanceof MyBundle) CacheRepository.getInstance().saveNavigationBundle(this.getClass()`savedInstanceState);" is 125.,52
+2_android_starter-master,com.istur.android_starter.common.architecture,BaseViewModel,perform,Long Statement,The length of the statement "addDisposable(observable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(tApiStateResponse -> {" is 128.,77
+2_android_starter-master,com.istur.android_starter.common.architecture,BaseViewModel,perform,Long Statement,The length of the statement "addDisposable(observable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).startWith(ApiStateResponse.loading()).doOnSubscribe(disposable -> {" is 163.,94
+2_android_starter-master,com.istur.android_starter.common.architecture,BaseViewModel,performDao,Long Statement,The length of the statement "addDisposable(observable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribeWith(new DefaultApiStateChangeObserver(uiLiveData)));" is 158.,115
+2_android_starter-master,com.istur.android_starter.common.architecture.communication,DefaultApiStateChangeObserver,onApiStateChanged,Missing default,The following switch statement is missing a default case: switch (state.getState()) {,20
+2_android_starter-master,com.istur.android_starter.common.architecture.communication,UiCallback,innerRenderError,Complex Conditional,The conditional expression t instanceof HttpException && (((HttpException)t).code() == 401 || ((HttpException)t).code() == 410) is complex.,47
+2_android_starter-master,com.istur.android_starter.common.architecture.communication,UiCallback,innerRenderError,Magic Number,The method contains a magic number: 401,47
+2_android_starter-master,com.istur.android_starter.common.architecture.communication,UiCallback,innerRenderError,Magic Number,The method contains a magic number: 410,47
+2_android_starter-master,com.istur.android_starter.model,Location,equals,Long Statement,The length of the statement "return id == location.id && favourite == location.favourite && Objects.equals(name`location.name) && Objects.equals(myCode`location.myCode) && Objects.equals(nickname`location.nickname);" is 186.,76
+2_android_starter-master,com.istur.android_starter.source.database,MyDatabase,getDatabase,Long Statement,The length of the statement "INSTANCE=Room.databaseBuilder(context.getApplicationContext()`MyDatabase.class`"my_database").fallbackToDestructiveMigration().build();" is 135.,21
+2_android_starter-master,com.istur.android_starter.source.local.kvcomp.secure,Encryption18,initKey,Long Statement,The length of the statement "kpg.initialize(new KeyPairGeneratorSpec.Builder(ctx).setAlias(ALIAS).setSubject(new X500Principal(CN_MY_KEY)).setSerialNumber(BigInteger.valueOf(1337)).setStartDate(start.getTime()).setEndDate(end.getTime()).build());" is 217.,51
+2_android_starter-master,com.istur.android_starter.source.local.kvcomp.secure,Encryption18,initKey,Magic Number,The method contains a magic number: 25,51
+2_android_starter-master,com.istur.android_starter.source.local.kvcomp.secure,Encryption18,initKey,Magic Number,The method contains a magic number: 1337,51
+2_android_starter-master,com.istur.android_starter.source.local.kvcomp.secure,Encryption23,initKey,Long Statement,The length of the statement "kg.init(new KeyGenParameterSpec.Builder(ALIAS`KeyProperties.PURPOSE_ENCRYPT | KeyProperties.PURPOSE_DECRYPT).setDigests(KeyProperties.DIGEST_SHA256`KeyProperties.DIGEST_SHA512).setBlockModes(BLOCK_MODE).setEncryptionPaddings(PADDING).build());" is 243.,37
+2_android_starter-master,com.istur.android_starter.source.local.kvcomp.secure,SecureStore,put,Long Statement,The length of the statement "getSharedPreferences().edit().putString(toHash(key)`Base64.encodeToString(encryptedData.toIvAndEncryptedData()`Base64.NO_WRAP)).commit();" is 137.,30
+2_android_starter-master,com.istur.android_starter.source.local.kvcomp.secure,SecureStore,get,Long Statement,The length of the statement "EncryptedData encryptedData=EncryptedData.fromIvAndEncryptedData(Base64.decode(getSharedPreferences().getString(toHash(key)`null)`Base64.NO_WRAP));" is 147.,52
+2_android_starter-master,com.istur.android_starter.source.remote.okhttp,OkHttpClientHandler,getOkHttpClient,Long Statement,The length of the statement "builder.sslSocketFactory(SSLHandler.getSSLContext(SSLHandler.trustAllCerts()).getSocketFactory()`SSLHandler.trustAllCerts());" is 125.,32
+2_android_starter-master,com.istur.android_starter.source.remote.okhttp,OkHttpClientHandler,getOkHttpClient,Long Statement,The length of the statement "builder.addInterceptor(new AddHTTPHeaderInterceptor()).addInterceptor(interceptor).connectTimeout(BuildConfig.APP_REMOTE_SERVICE_TIMEOUT`TimeUnit.SECONDS).readTimeout(BuildConfig.APP_REMOTE_SERVICE_TIMEOUT`TimeUnit.SECONDS);" is 224.,32
+2_android_starter-master,com.istur.android_starter.source.remote.okhttp,SSLHandler,trustAllCerts,Long Statement,The length of the statement "@Override public void checkClientTrusted( java.security.cert.X509Certificate[] chain` String authType) throws CertificateException {" is 132.,26
+2_android_starter-master,com.istur.android_starter.source.remote.okhttp,SSLHandler,trustAllCerts,Long Statement,The length of the statement "@Override public void checkServerTrusted( java.security.cert.X509Certificate[] chain` String authType) throws CertificateException {" is 132.,26
+2_android_starter-master,com.istur.android_starter.source.remote.retrofitcalladapter,RxJava2CallAdapter,RxJava2CallAdapter,Long Parameter List,The method has 10 parameters. ,43
+2_android_starter-master,com.istur.android_starter.source.remote.retrofitcalladapter,RxJava2CallAdapter,adapt,Complex Method,Cyclomatic complexity of the method is 10,62
+2_android_starter-master,com.istur.android_starter.source.remote.retrofitcalladapter,RxJava2CallAdapterFactory,get,Complex Conditional,The conditional expression rawType != Observable.class && !isFlowable && !isSingle && !isMaybe is complex.,97
+2_android_starter-master,com.istur.android_starter.source.remote.retrofitcalladapter,RxJava2CallAdapterFactory,get,Complex Method,Cyclomatic complexity of the method is 10,97
+2_android_starter-master,com.istur.android_starter.source.remote.retrofitcalladapter,RxJava2CallAdapterFactory,get,Long Statement,The length of the statement "throw new IllegalStateException(name + " return type must be parameterized" + " as "+ name+ "<Foo> or "+ name+ "<? extends Foo>");" is 130.,97
+2_android_starter-master,com.istur.android_starter.source.remote.retrofitcalladapter,RxJava2CallAdapterFactory,get,Long Statement,The length of the statement "return new RxJava2CallAdapter(responseType`scheduler`isAsync`isResult`isBody`isFlowable`isSingle`isMaybe`false`hasState);" is 121.,97
+2_android_starter-master,com.istur.android_starter.source.remote,RetrofitClient,getMockRetrofitInstance,Magic Number,The method contains a magic number: 2,33
+2_android_starter-master,com.istur.android_starter.source.remote,RetrofitClient,getMockRetrofitInstance,Magic Number,The method contains a magic number: 40,33
+2_android_starter-master,com.istur.android_starter.source.remote,RetrofitClient,getMockRetrofitInstance,Magic Number,The method contains a magic number: 2,33
+2_android_starter-master,com.istur.android_starter.source.remote,RetrofitClient,getRetrofitInstance,Long Statement,The length of the statement "mRetrofit=new Retrofit.Builder().baseUrl(BASE_URL).client(getHTTPClient(BASE_URL)).addConverterFactory(gsonConverterFactory).addCallAdapterFactory(RxJava2CallAdapterFactory.createAsync()).build();" is 196.,44
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,setSecondNegativeButtonCallback,Long Identifier,The length of the field mResourceButtonSecondNegativeString is 35.,106
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,setThirdNegativeButtonCallback,Long Identifier,The length of the field mResourceButtonThirdNegativeString is 34.,112
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,onSaveInstanceState,Long Identifier,The length of the field BUNDLE_RESOURCE_CONTROLS_ORIENTATION is 36.,153
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,onSaveInstanceState,Long Identifier,The length of the field BUNDLE_RESOURCE_POSITIVE_BUTTON is 31.,153
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,onSaveInstanceState,Long Identifier,The length of the field BUNDLE_RESOURCE_NEGATIVE_BUTTON is 31.,153
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,onSaveInstanceState,Long Identifier,The length of the field mResourceButtonSecondNegativeString is 35.,153
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,onSaveInstanceState,Long Identifier,The length of the field BUNDLE_RESOURCE_SECOND_NEGATIVE_BUTTON is 38.,153
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,initViews,Complex Method,Cyclomatic complexity of the method is 19,205
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,initViews,Long Identifier,The length of the field BUNDLE_RESOURCE_CONTROLS_ORIENTATION is 36.,205
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,initViews,Long Identifier,The length of the field BUNDLE_RESOURCE_POSITIVE_BUTTON is 31.,205
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,initViews,Long Identifier,The length of the field BUNDLE_RESOURCE_NEGATIVE_BUTTON is 31.,205
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,initViews,Long Identifier,The length of the field mResourceButtonSecondNegativeString is 35.,205
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,initViews,Long Identifier,The length of the field BUNDLE_RESOURCE_SECOND_NEGATIVE_BUTTON is 38.,205
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,initViews,Long Identifier,The length of the field CONTROLS_ORIENTATION_HORIZONTAL is 31.,205
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,initViews,Long Identifier,The length of the field mResourceButtonThirdNegativeString is 34.,205
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,setOnPrimaryButtonClickListener,Long Identifier,The length of the field CONTROLS_ORIENTATION_HORIZONTAL is 31.,295
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,setOnNegativeButtonClickListener,Long Identifier,The length of the field CONTROLS_ORIENTATION_HORIZONTAL is 31.,330
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,setOnSecondNegativeButtonClickListener,Long Identifier,The length of the field mResourceButtonSecondNegativeString is 35.,359
+2_android_starter-master,com.istur.android_starter.ui,AlertDialogFragment,setOnThirdNegativeButtonClickListener,Long Identifier,The length of the field mResourceButtonThirdNegativeString is 34.,384
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Complex Method,Cyclomatic complexity of the method is 12,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Long Statement,The length of the statement "constraintLayout.setPadding(Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4));" is 145.,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Long Statement,The length of the statement "constraintLayout.setPadding(Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4));" is 145.,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Long Statement,The length of the statement "constraintLayout.setPadding(Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4));" is 145.,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Long Statement,The length of the statement "constraintLayout.setPadding(Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4));" is 145.,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Long Statement,The length of the statement "constraintLayout.setPadding(Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4));" is 145.,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setStyle,Magic Number,The method contains a magic number: 4,91
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Long Statement,The length of the statement "constraintLayout.setPadding(Utils.dpToPx(getContext()`8)`Utils.dpToPx(getContext()`8)`Utils.dpToPx(getContext()`8)`Utils.dpToPx(getContext()`8));" is 145.,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Long Statement,The length of the statement "container.setPadding(Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4)`Utils.dpToPx(getContext()`4));" is 138.,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 48,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 8,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 8,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 8,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 8,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 4,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 4,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 4,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 4,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 30,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 4,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setSize,Magic Number,The method contains a magic number: 4,167
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setEnabled,Complex Method,Cyclomatic complexity of the method is 10,196
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,setAlertButtonSize,Magic Number,The method contains a magic number: 18,239
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,showLoading,Complex Method,Cyclomatic complexity of the method is 10,243
+2_android_starter-master,com.istur.android_starter.ui,ButtonCompound,showLoading,Long Statement,The length of the statement "loadingView.setIndeterminateTintList(ColorStateList.valueOf(ContextCompat.getColor(getContext()`R.color.red_violet_op50)));" is 123.,243
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showDialog,Long Parameter List,The method has 8 parameters. ,14
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showDialog,Long Statement,The length of the statement "createDialog(activity`type`message`positiveButtonTextResId`positiveCallback`negativeButtonTextResId`negativeCallback`cancelable).show(activity.getSupportFragmentManager()`AlertDialogFragment.TAG);" is 196.,14
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,createDialog,Long Parameter List,The method has 8 parameters. ,24
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,createDialog,Long Statement,The length of the statement "alertDialogFragment.setIcon(R.drawable.ic_info_24dp).setIconColor(R.color.lightgrey).setTitle(activity.getString(R.string.info));" is 129.,24
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,createDialog,Long Statement,The length of the statement "return alertDialogFragment.setIconPosition(AlertDialogFragment.ICON_POSITION_TOP).setControlsOrientation(AlertDialogFragment.CONTROLS_ORIENTATION_VERTICAL).setMessage(message).setPositiveButtonCallback(positiveButtonTextResId`positiveCallback).setNegativeButtonCallback(negativeButtonTextResId`negativeCallback);" is 312.,24
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showErrorDialog,Long Parameter List,The method has 7 parameters. ,53
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showErrorDialog,Long Statement,The length of the statement "showDialog(activity`DialogType.ALERT`message`positiveButtonTextResId`positiveCallback`negativeButtonTextResId`negativeCallback`cancelable);" is 139.,53
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showInfoDialog,Long Parameter List,The method has 6 parameters. ,61
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showInfoDialog,Long Statement,The length of the statement "showDialog(activity`DialogType.INFO`message`positiveButtonTextResId`positiveCallback`negativeButtonTextResId`negativeCallback`true);" is 132.,61
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showInfoDialog,Long Parameter List,The method has 7 parameters. ,69
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showInfoDialog,Long Statement,The length of the statement "showDialog(activity`DialogType.INFO`message`positiveButtonTextResId`positiveCallback`negativeButtonTextResId`negativeCallback`cancelable);" is 138.,69
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showThreeButtonDialog,Long Parameter List,The method has 9 parameters. ,77
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showThreeButtonDialog,Long Statement,The length of the statement "AlertDialogFragment dialog=createDialog(activity`type`message`positiveButtonTextResId`positiveCallback`negativeButtonTextResId`negativeCallback`false);" is 151.,77
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showThreeButtonDialog,Long Parameter List,The method has 12 parameters. ,86
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showThreeButtonDialog,Long Statement,The length of the statement "AlertDialogFragment dialog=createDialog(activity`type`message`positiveButtonTextResId`positiveCallback`negativeButtonTextResId`negativeCallback`false);" is 151.,86
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showFourButtonDialog,Long Parameter List,The method has 11 parameters. ,96
+2_android_starter-master,com.istur.android_starter.ui,DialogManager,showFourButtonDialog,Long Statement,The length of the statement "AlertDialogFragment dialog=createDialog(activity`type`message`positiveButtonTextResId`positiveCallback`negativeButtonTextResId`negativeCallback`false);" is 151.,96
+2_android_starter-master,com.istur.android_starter.utils,DateTimeUtils,getHmPeriodFormatter,Long Statement,The length of the statement "return new PeriodFormatterBuilder().appendHours().appendSuffix("h").appendSeparator(" ").appendMinutes().appendSuffix("min").toFormatter();" is 139.,44
+2_android_starter-master,com.istur.android_starter.utils,DateTimeUtils,getSuffixDay,Magic Number,The method contains a magic number: 10,59
+2_android_starter-master,com.istur.android_starter.utils,DateTimeUtils,getSuffixDay,Magic Number,The method contains a magic number: 19,59
+2_android_starter-master,com.istur.android_starter.utils,DateTimeUtils,getSuffixDay,Magic Number,The method contains a magic number: 10,59
+2_android_starter-master,com.istur.android_starter.utils,DateTimeUtils,getSuffixDay,Magic Number,The method contains a magic number: 2,59
+2_android_starter-master,com.istur.android_starter.utils,DateTimeUtils,getSuffixDay,Magic Number,The method contains a magic number: 3,59
+2_android_starter-master,com.istur.android_starter.utils,DateTimeUtils,getSuffixDay,Missing default,The following switch statement is missing a default case: switch (day % 10) {,59
+2_android_starter-master,com.istur.android_starter.utils,Utils,byteArrayToHex,Magic Number,The method contains a magic number: 2,141
+2_android_starter-master,com.istur.android_starter.utils,Utils,byteArrayToHex,Magic Number,The method contains a magic number: 0xff,141
+2_android_starter-master,com.istur.android_starter.utils,Utils,integerToHex,Magic Number,The method contains a magic number: 16,148
+2_android_starter-master,com.istur.android_starter.utils,Utils,integerToHex,Magic Number,The method contains a magic number: 16,148
+2_android_starter-master,com.istur.android_starter.utils,Utils,BitMapToString,Magic Number,The method contains a magic number: 100,171
+2_android_starter-master,com.istur.android_starter.utils,Utils,responseError,Long Statement,The length of the statement "return new HttpException(Response.error(errorCode`ResponseBody.create(MediaType.parse("text/plain")`"Test Server Error")));" is 123.,194

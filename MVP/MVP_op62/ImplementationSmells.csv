@@ -1,0 +1,929 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+47_MvpLightup-master,com.dawnlightning.ucqa,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+47_MvpLightup-master,com.dawnlightning.ucqa,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+47_MvpLightup-master,com.dawnlightning.ucqa,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,initevent,Long Statement,The length of the statement "doloadmorecomment(Integer.parseInt(userBean.getUserdata().getUid())`detailedBean.getBwztid()`commentpage`userBean.getM_auth());" is 127.,147
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,initevent,Long Statement,The length of the statement "detailedPresenter.setreply(commentBean`username()`ReplyPostion`Integer.parseInt(commentBean.getId())`Integer.parseInt(commentBean.getCid())`tempcommenttext`userBean.getFormhash()`userBean.getM_auth());" is 201.,147
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,onClick,Long Statement,The length of the statement "doloadmorecomment(Integer.parseInt(userBean.getUserdata().getUid())`detailedBean.getBwztid()`commentpage`userBean.getM_auth());" is 127.,150
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,onClick,Long Statement,The length of the statement "detailedPresenter.setreply(commentBean`username()`ReplyPostion`Integer.parseInt(commentBean.getId())`Integer.parseInt(commentBean.getCid())`tempcommenttext`userBean.getFormhash()`userBean.getM_auth());" is 201.,184
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,showcomment,Complex Method,Cyclomatic complexity of the method is 8,315
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,shareconsult,Long Statement,The length of the statement "model.setImageUrl("http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=false&word=ç¾Žå¥³&pn=0&spn=0&di=0&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&ie=utf-8&oe=utf-8&in=3354&cl=2&lm=-1&cs=1735880100%2C3223346182&os=2896705163%2C2839266134&simid=&adpicid=0&fr=ala&fm=&sme=&statnum=girl&cg=girl&bdtype=-1&oriquery=&objurl=http%3A%2F%2Fe.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fe7cd7b899e510fb34395d1c3de33c895d0430cd1.jpg&fromurl=http%3A%2F%2Fimage.baidu.com%2Fdetail%2Fnewindex%3Fcol%3D%26tag%3D%26pn%3D0%26pid%3D31752171852%26aid%3D400266147%26user_id%3D980778976%26setid%3D-1%26sort%3D0%26newsPn%3D%26star%3D%26fr%3D%26from%3D2&gsm=0");" is 641.,393
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,shareconsult,Long Statement,The length of the statement "String url=String.format("https://ucqa.dawnlightning.com/space.php?uid=%s&do=bwzt&id=%s"`detailedBean.getUid()`detailedBean.getBwztid());" is 137.,393
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,startloadpb,Magic Number,The method contains a magic number: 100,453
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,handleMessage,Magic Number,The method contains a magic number: 10,462
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,handleMessage,Magic Number,The method contains a magic number: 100,462
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,handleMessage,Magic Number,The method contains a magic number: 70,462
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,handleMessage,Magic Number,The method contains a magic number: 100,462
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,handleMessage,Magic Number,The method contains a magic number: 100,462
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,stoploadpb,Magic Number,The method contains a magic number: 100,479
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,showreportdialog,Magic Number,The method contains a magic number: 20,570
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,afterTextChanged,Magic Number,The method contains a magic number: 20,596
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,initdialoglistview,Magic Number,The method contains a magic number: 2,630
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,initdialoglistview,Magic Number,The method contains a magic number: 3,630
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,onItemClick,Magic Number,The method contains a magic number: 2,642
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,DetailActivity,onItemClick,Magic Number,The method contains a magic number: 3,642
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,onCreate,Long Statement,The length of the statement "getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED | WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON | WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD| WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);" is 219.,74
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,initevent,Magic Number,The method contains a magic number: 30,111
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,onOpen,Magic Number,The method contains a magic number: 30,114
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,selectview,Magic Number,The method contains a magic number: 2,186
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,selectview,Magic Number,The method contains a magic number: 2,186
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,selectview,Magic Number,The method contains a magic number: 3,186
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,selectview,Magic Number,The method contains a magic number: 4,186
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,selectview,Missing default,The following switch statement is missing a default case: switch (id) {,186
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,showupdate,Magic Number,The method contains a magic number: 4,243
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,saveuserdata,Long Statement,The length of the statement "ImageLoader.getInstance().displayImage(userBean.getUserdata().getAvatar_url()`iv_icon`ImageLoaderOptions.getListOptions());" is 123.,270
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,exit,Magic Number,The method contains a magic number: 2000,308
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,gotResult,Magic Number,The method contains a magic number: 6002,361
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,gotResult,Magic Number,The method contains a magic number: 1000,361
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,gotResult,Magic Number,The method contains a magic number: 60,361
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,gotResult,Missing default,The following switch statement is missing a default case: switch (code) {,361
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,391
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,MainActivity,onActivityResult,Missing default,The following switch statement is missing a default case: switch (resultCode) {,419
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,initdata,Long Statement,The length of the statement "ImageLoader.getInstance().displayImage(userBean.getUserdata().getAvatar_url()`iv_personaldata_avatar`ImageLoaderOptions.getListOptions());" is 138.,98
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDataPick,Magic Number,The method contains a magic number: 1930,198
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDataPick,Magic Number,The method contains a magic number: 12,198
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDataPick,Magic Number,The method contains a magic number: 1930,198
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDataPick,Magic Number,The method contains a magic number: 1930,198
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onClick,Magic Number,The method contains a magic number: 1930,235
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onScrollingFinished,Long Statement,The length of the statement "String str=(tv_dialog_year.getCurrentItem() + 1930) + "-" + (tv_dialog_month.getCurrentItem() + 1)+ "-"+ (tv_dialog_day.getCurrentItem() + 1);" is 142.,255
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onScrollingFinished,Magic Number,The method contains a magic number: 1930,255
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,calculateAge,Magic Number,The method contains a magic number: 24,262
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,calculateAge,Magic Number,The method contains a magic number: 60,262
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,calculateAge,Magic Number,The method contains a magic number: 60,262
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,calculateAge,Magic Number,The method contains a magic number: 1000,262
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,calculateAge,Magic Number,The method contains a magic number: 365,262
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Complex Method,Cyclomatic complexity of the method is 10,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 30,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 4,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 3,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 5,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 7,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 8,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 10,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 12,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 31,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 2,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 29,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 28,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Magic Number,The method contains a magic number: 30,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Missing default,The following switch statement is missing a default case: switch (year % 4) {,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,getDay,Missing default,The following switch statement is missing a default case: switch (month) {,278
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,picturepike,Magic Number,The method contains a magic number: 2,319
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onClick,Magic Number,The method contains a magic number: 2,324
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,saveImageToFile,Long Statement,The length of the statement "String fileName=SdCardUtil.getSdPath() + SdCardUtil.FILEDIR + "/"+ "/icon"+ "/"+ "userIcon"+ String.valueOf(System.currentTimeMillis())+ ".jpg";" is 144.,416
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,saveImageToFile,Magic Number,The method contains a magic number: 100,416
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Complex Method,Cyclomatic complexity of the method is 9,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 120,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 120,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 3,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 2,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 120,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 120,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 3,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 3,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,PersonalDataActivity,onActivityResult,Magic Number,The method contains a magic number: 100,448
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,WelcomeActivity,initview,Magic Number,The method contains a magic number: 0.3f,76
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,WelcomeActivity,initview,Magic Number,The method contains a magic number: 3000,76
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,WelcomeActivity,initdata,Complex Conditional,The conditional expression !IsAutologin && phone != "" && password != "" is complex.,95
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,WelcomeActivity,blurbackground,Magic Number,The method contains a magic number: 2,138
+47_MvpLightup-master,com.dawnlightning.ucqa.activity,WelcomeActivity,blurbackground,Magic Number,The method contains a magic number: 5,138
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,ClassifyAdapter,getView,Magic Number,The method contains a magic number: 2,54
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,ClassifyAdapter,getView,Magic Number,The method contains a magic number: 3,54
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,ClassifyAdapter,getView,Magic Number,The method contains a magic number: 4,54
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,ClassifyAdapter,getView,Magic Number,The method contains a magic number: 5,54
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,ClassifyAdapter,getView,Missing default,The following switch statement is missing a default case: switch (bean.getBwztclassarrid()) {,54
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,ConsultPicsAdapter,getUploadPicsBeans,Magic Number,The method contains a magic number: 100,150
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Complex Method,Cyclomatic complexity of the method is 32,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Magic Number,The method contains a magic number: 6,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Magic Number,The method contains a magic number: 4,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Magic Number,The method contains a magic number: 4,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Magic Number,The method contains a magic number: 4,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Magic Number,The method contains a magic number: 10,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Magic Number,The method contains a magic number: 4,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Magic Number,The method contains a magic number: 10,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,DetailPicsAdapter,decodeUnicode,Missing default,The following switch statement is missing a default case: switch (aChar) {,101
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,LeftMenuAdapter,getView,Complex Method,Cyclomatic complexity of the method is 12,42
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,LeftMenuAdapter,getView,Magic Number,The method contains a magic number: 2,42
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,LeftMenuAdapter,getView,Magic Number,The method contains a magic number: 3,42
+47_MvpLightup-master,com.dawnlightning.ucqa.adapter,LeftMenuAdapter,getView,Magic Number,The method contains a magic number: 4,42
+47_MvpLightup-master,com.dawnlightning.ucqa.base,MyApp,initImageLoader,Long Statement,The length of the statement "ImageLoaderConfiguration config=new ImageLoaderConfiguration.Builder(context).threadPoolSize(5).threadPriority(Thread.NORM_PRIORITY - 2).denyCacheImageMultipleSizesInMemory().discCacheFileNameGenerator(new Md5FileNameGenerator()).tasksProcessingOrder(QueueProcessingType.LIFO).discCache(new UnlimitedDiscCache(cacheDir)).build();" is 329.,53
+47_MvpLightup-master,com.dawnlightning.ucqa.base,MyApp,initImageLoader,Magic Number,The method contains a magic number: 5,53
+47_MvpLightup-master,com.dawnlightning.ucqa.base,MyApp,initImageLoader,Magic Number,The method contains a magic number: 2,53
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,CommentBean,toString,Long Statement,The length of the statement "return "CommentBean{" + "cid='" + cid + '\''+ "` uid='"+ uid+ '\''+ "` id='"+ id+ '\''+ "` author='"+ author+ '\''+ "` name='"+ name+ '\''+ "` message='"+ message+ '\''+ "` dateline='"+ dateline+ '\''+ "` avatar_url='"+ avatar_url+ '\''+ "` replylist="+ replylist+ '}';" is 269.,97
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,CommentBean,CommentBean,Long Parameter List,The method has 9 parameters. ,112
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,ConsultBean,toString,Long Statement,The length of the statement "return "ConsultBean{" + "m_auth='" + m_auth + '\''+ "` formhash='"+ formhash+ '\''+ "` subject='"+ subject+ '\''+ "` bwztclassid="+ bwztclassid+ "` bwztdivisionid="+ bwztdivisionid+ "` sex='"+ sex+ '\''+ "` age='"+ age+ '\''+ "` message='"+ message+ '\''+ "` picids="+ picids+ '}';" is 281.,91
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,ConsultBean,ConsultBean,Long Parameter List,The method has 9 parameters. ,106
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,ConsultClassifyBean,toString,Long Statement,The length of the statement "return "ConsultClassifyBean{" + "bwztclassarrname='" + bwztclassarrname + '\''+ "` bwztclassarrid="+ bwztclassarrid+ "` bwztdivisionarrname='"+ bwztdivisionarrname+ '\''+ "` bwztdivisionarrid="+ bwztdivisionarrid+ '}';" is 218.,57
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,ConsultMessageBean,ConsultMessageBean,Long Parameter List,The method has 15 parameters. ,114
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,ConsultMessageBean,toString,Long Statement,The length of the statement "return "ConsultMessageBean [bwztid=" + bwztid + "` message="+ message+ "` uid="+ uid+ "` usename="+ usename+ "` subject="+ subject+ "` bwztclassid="+ bwztclassid+ "` bwztdivisionid="+ bwztdivisionid+ "` sex="+ sex+ "` age="+ age+ "` viewnum="+ viewnum+ "` replynum="+ replynum+ "` dateline="+ dateline+ "` avatar_url="+ avatar_url+ "` messagetype="+ messagetype+ "` status="+ status+ "]";" is 388.,136
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,DetailedBean,TimeStamp2Date,Magic Number,The method contains a magic number: 1000,164
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,DetailedBean,TimeStamp2Date,Magic Number,The method contains a magic number: 45L,164
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,DetailedBean,TimeStamp2Date,Magic Number,The method contains a magic number: 24L,164
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,DetailedBean,DetailedBean,Long Parameter List,The method has 15 parameters. ,191
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,DetailedBean,toString,Long Statement,The length of the statement "return "DetailedBean{" + "uid='" + uid + '\''+ "` usename='"+ usename+ '\''+ "` datetime='"+ datetime+ '\''+ "` subject='"+ subject+ '\''+ "` message='"+ message+ '\''+ "` picsBean="+ picsBean+ "` commentBean="+ commentBean+ "` avatar_url='"+ avatar_url+ '\''+ "` name='"+ name+ '\''+ "` sex='"+ sex+ '\''+ "` age='"+ age+ '\''+ "` viewnum='"+ viewnum+ '\''+ "` replynum='"+ replynum+ '\''+ "` status="+ status+ "` bwztid="+ bwztid+ '}';" is 437.,209
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,DetailedBean,toSeconds,Magic Number,The method contains a magic number: 1000L,230
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,DetailedBean,toMinutes,Magic Number,The method contains a magic number: 60L,233
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,DetailedBean,toHours,Magic Number,The method contains a magic number: 60L,237
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,MessageBean,toString,Long Statement,The length of the statement "return "MessageBean{" + "note='" + note + '\''+ "` author='"+ author+ '\''+ "` name='"+ name+ '\''+ "` link='"+ link+ '\''+ "` message='"+ message+ '\''+ "` isnew='"+ isnew+ '\''+ "` uid='"+ uid+ '\''+ "` bwztid='"+ bwztid+ '\''+ "` dateline='"+ dateline+ '\''+ "` avatar_url='"+ avatar_url+ '\''+ '}';" is 302.,103
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,MessageBean,MessageBean,Long Parameter List,The method has 10 parameters. ,119
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,PersonalDataBean,PersonalDataBean,Long Parameter List,The method has 6 parameters. ,65
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,PersonalDataBean,toString,Long Statement,The length of the statement "return "PersonalDataBean{" + "formhash='" + formhash + '\''+ "` name='"+ name+ '\''+ "` sex='"+ sex+ '\''+ "` birthyear='"+ birthyear+ '\''+ "` birthmonth='"+ birthmonth+ '\''+ "` birthday='"+ birthday+ '\''+ '}';" is 213.,74
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,UploadPicsBean,UploadPicsBean,Long Parameter List,The method has 6 parameters. ,70
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,UploadPicsBean,toString,Long Statement,The length of the statement "return "UploadPicsBean{" + "uid='" + uid + '\''+ "` picture="+ picture+ "` picturetitle='"+ picturetitle+ '\''+ "` m_auth='"+ m_auth+ '\''+ "` pictureid="+ pictureid+ "` present="+ present+ '}';" is 194.,79
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,UserBean,toString,Long Statement,The length of the statement "return "UserBean{" + "m_auth='" + m_auth + '\''+ "` formhash='"+ formhash+ '\''+ "` userdata="+ userdata+ "` uhash='"+ uhash+ '\''+ '}';" is 136.,38
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,UserData,UserData,Long Parameter List,The method has 9 parameters. ,86
+47_MvpLightup-master,com.dawnlightning.ucqa.Bean,UserData,toString,Long Statement,The length of the statement "return "UserData{" + "uid='" + uid + '\''+ "` credit='"+ credit+ '\''+ "` experience='"+ experience+ '\''+ "` username='"+ username+ '\''+ "` name='"+ name+ '\''+ "` avatar_url='"+ avatar_url+ '\''+ "` sex='"+ sex+ '\''+ "` age='"+ age+ '\''+ "` allnotenum='"+ allnotenum+ '\''+ '}';" is 283.,107
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,ReplyDialog,create,Long Statement,The length of the statement "((LinearLayout)layout.findViewById(R.id.ll_replydialog_contentview)).addView(contentView`new LayoutParams(LayoutParams.WRAP_CONTENT`LayoutParams.WRAP_CONTENT));" is 160.,135
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,Builder,create,Long Statement,The length of the statement "((LinearLayout)layout.findViewById(R.id.ll_replydialog_contentview)).addView(contentView`new LayoutParams(LayoutParams.WRAP_CONTENT`LayoutParams.WRAP_CONTENT));" is 160.,135
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,show,Magic Number,The method contains a magic number: 2,110
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,show,Magic Number,The method contains a magic number: 20,110
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,populateActions,Magic Number,The method contains a magic number: 15,129
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,populateActions,Magic Number,The method contains a magic number: 10,129
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,populateActions,Magic Number,The method contains a magic number: 10,129
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,populateActions,Magic Number,The method contains a magic number: 10,129
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,getView,Magic Number,The method contains a magic number: 15,137
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,getView,Magic Number,The method contains a magic number: 10,137
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,getView,Magic Number,The method contains a magic number: 10,137
+47_MvpLightup-master,com.dawnlightning.ucqa.dialog,TitlePopup,getView,Magic Number,The method contains a magic number: 10,137
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,initevent,Long Statement,The length of the statement "consultActivity.PageOneSetConsultBean(et_consult_name.getText().toString()`tv_consult_age.getText().toString()`tv_consult_sex.getText().toString().replace("å²?"`"")`tv_consult_clssify.getText().toString());" is 206.,120
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onClick,Long Statement,The length of the statement "consultActivity.PageOneSetConsultBean(et_consult_name.getText().toString()`tv_consult_age.getText().toString()`tv_consult_sex.getText().toString().replace("å²?"`"")`tv_consult_clssify.getText().toString());" is 206.,156
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDataPick,Magic Number,The method contains a magic number: 1930,188
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDataPick,Magic Number,The method contains a magic number: 12,188
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDataPick,Magic Number,The method contains a magic number: 1930,188
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onScrollingFinished,Long Statement,The length of the statement "String str=(tv_dialog_year.getCurrentItem() + 1930) + "-" + (tv_dialog_month.getCurrentItem() + 1)+ "-"+ (tv_dialog_day.getCurrentItem() + 1);" is 142.,245
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onScrollingFinished,Magic Number,The method contains a magic number: 1930,245
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,calculateAge,Magic Number,The method contains a magic number: 24,252
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,calculateAge,Magic Number,The method contains a magic number: 60,252
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,calculateAge,Magic Number,The method contains a magic number: 60,252
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,calculateAge,Magic Number,The method contains a magic number: 1000,252
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,calculateAge,Magic Number,The method contains a magic number: 365,252
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Complex Method,Cyclomatic complexity of the method is 10,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 30,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 4,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 3,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 5,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 7,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 8,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 10,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 12,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 31,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 2,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 29,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 28,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Magic Number,The method contains a magic number: 30,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Missing default,The following switch statement is missing a default case: switch (year % 4) {,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getDay,Missing default,The following switch statement is missing a default case: switch (month) {,268
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Empty catch clause,The method has an empty catch block.,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Empty catch clause,The method has an empty catch block.,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Magic Number,The method contains a magic number: 2,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Magic Number,The method contains a magic number: 2,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Magic Number,The method contains a magic number: 50L,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Magic Number,The method contains a magic number: 2,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Magic Number,The method contains a magic number: 2,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Magic Number,The method contains a magic number: 50L,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,onItemClick,Missing default,The following switch statement is missing a default case: switch (parent.getId()) {,310
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,run,Empty catch clause,The method has an empty catch block.,329
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,run,Magic Number,The method contains a magic number: 2,329
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,run,Empty catch clause,The method has an empty catch block.,353
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,run,Magic Number,The method contains a magic number: 2,353
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,MoveAnim,Long Parameter List,The method has 5 parameters. ,372
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,MoveAnim,Long Statement,The length of the statement "TranslateAnimation moveAnimation=new TranslateAnimation(startLocation[0]`endLocation[0]`startLocation[1]`endLocation[1]);" is 121.,372
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,MoveAnim,Magic Number,The method contains a magic number: 2,372
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,MoveAnim,Magic Number,The method contains a magic number: 300L,372
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,getMoveView,Long Statement,The length of the statement "LinearLayout.LayoutParams mLayoutParams=new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT`LayoutParams.WRAP_CONTENT);" is 123.,417
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,setnextbuttonbackgroundcolor,Complex Conditional,The conditional expression tv_consult_age.length() > 0 && tv_consult_clssify.length() > 0 && tv_consult_sex.length() > 0 && et_consult_name.getText().toString().length() > 0 is complex.,475
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageOneFragment,setnextbuttonbackgroundcolor,Long Statement,The length of the statement "if (tv_consult_age.length() > 0 && tv_consult_clssify.length() > 0 && tv_consult_sex.length() > 0 && et_consult_name.getText().toString().length() > 0) {" is 153.,475
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,getImageForAlbum,Magic Number,The method contains a magic number: 7,236
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Complex Method,Cyclomatic complexity of the method is 16,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Magic Number,The method contains a magic number: 2,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Magic Number,The method contains a magic number: 3,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Magic Number,The method contains a magic number: 4,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Magic Number,The method contains a magic number: 5,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Magic Number,The method contains a magic number: 6,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Magic Number,The method contains a magic number: 7,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Magic Number,The method contains a magic number: 8,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,onActivityResult,Magic Number,The method contains a magic number: 100,275
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,saveImageToFile,Long Statement,The length of the statement "String fileName=SdCardUtil.getSdPath() + SdCardUtil.FILEDIR + "/"+ SdCardUtil.FILEPHOTO+ "/"+ TimeUtil.getCurrentTimeForImage();" is 128.,340
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,saveImageToFile,Magic Number,The method contains a magic number: 100,340
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,saveImageToFile,Magic Number,The method contains a magic number: 1024,340
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,saveImageToFile,Magic Number,The method contains a magic number: 200,340
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,saveImageToFile,Magic Number,The method contains a magic number: 5,340
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,saveImageToFile,Magic Number,The method contains a magic number: 80,340
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,ConsultPageTwoFragment,savepicid,Magic Number,The method contains a magic number: 100,385
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,LoginFragment,initview,Complex Method,Cyclomatic complexity of the method is 9,44
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,LoginFragment,initview,Long Statement,The length of the statement "((InputMethodManager)password.getContext().getSystemService(getActivity().INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken()`InputMethodManager.HIDE_NOT_ALWAYS);" is 206.,44
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,LoginFragment,initview,Long Statement,The length of the statement "((InputMethodManager)password2.getContext().getSystemService(getActivity().INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken()`InputMethodManager.HIDE_NOT_ALWAYS);" is 207.,44
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,LoginFragment,onEditorAction,Long Statement,The length of the statement "((InputMethodManager)password.getContext().getSystemService(getActivity().INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken()`InputMethodManager.HIDE_NOT_ALWAYS);" is 206.,71
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,LoginFragment,onEditorAction,Long Statement,The length of the statement "((InputMethodManager)password2.getContext().getSystemService(getActivity().INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken()`InputMethodManager.HIDE_NOT_ALWAYS);" is 207.,96
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MainFragment,onActivityResult,Missing default,The following switch statement is missing a default case: switch (resultCode) {,352
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MainFragment,update,Long Statement,The length of the statement "consultListPresenter.clearcache(Code.ALL`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth());" is 139.,375
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MessageFragment,loadmessageSuccess,Long Statement,The length of the statement "viewdetail(bean.getLink().substring(bean.getLink().indexOf("=") + 1`bean.getLink().indexOf("&"))`bean.getBwztid()`mainActivity.userBean);" is 137.,66
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MessageFragment,onItemClick,Long Statement,The length of the statement "viewdetail(bean.getLink().substring(bean.getLink().indexOf("=") + 1`bean.getLink().indexOf("&"))`bean.getBwztid()`mainActivity.userBean);" is 137.,90
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MessageFragment,onActivityResult,Missing default,The following switch statement is missing a default case: switch (resultCode) {,246
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,refresh,Long Statement,The length of the statement "consultListPresenter.loadassignlist(Page`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth()`Code.ME`operate);" is 155.,128
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,showerror,Long Statement,The length of the statement "consultListPresenter.loadassignlist(Page`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth()`Code.ME`Code.REFRESH);" is 160.,163
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,showerror,Long Statement,The length of the statement "consultListPresenter.loadassignlist(Page`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth()`Code.ME`Code.REFRESH);" is 160.,163
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,onClick,Long Statement,The length of the statement "consultListPresenter.loadassignlist(Page`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth()`Code.ME`Code.REFRESH);" is 160.,188
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,onClick,Long Statement,The length of the statement "consultListPresenter.loadassignlist(Page`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth()`Code.ME`Code.REFRESH);" is 160.,199
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,onActivityResult,Long Statement,The length of the statement "consultListPresenter.clearcache(Code.ME`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth());" is 138.,287
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,onActivityResult,Long Statement,The length of the statement "consultListPresenter.clearcache(Code.ME`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth());" is 138.,287
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,onActivityResult,Long Statement,The length of the statement "consultListPresenter.clearcache(Code.ME`Integer.parseInt(mainActivity.userBean.getUserdata().getUid())`mainActivity.userBean.getM_auth());" is 138.,287
+47_MvpLightup-master,com.dawnlightning.ucqa.fragment,MyConsultFragment,onActivityResult,Missing default,The following switch statement is missing a default case: switch (resultCode) {,287
+47_MvpLightup-master,com.dawnlightning.ucqa.gesture,BackGestureListener,onScroll,Magic Number,The method contains a magic number: 100,41
+47_MvpLightup-master,com.dawnlightning.ucqa.gesture,BackGestureListener,onScroll,Magic Number,The method contains a magic number: 60,41
+47_MvpLightup-master,com.dawnlightning.ucqa.Listener,BackGestureListener,onScroll,Magic Number,The method contains a magic number: 100,41
+47_MvpLightup-master,com.dawnlightning.ucqa.Listener,BackGestureListener,onScroll,Magic Number,The method contains a magic number: 60,41
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ClassifyModel,loadclassifybean,Magic Number,The method contains a magic number: 4,29
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ClassifyModel,loadclassifybean,Magic Number,The method contains a magic number: 60,29
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ClassifyModel,loadclassifybean,Magic Number,The method contains a magic number: 60,29
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ClassifyModel,onSuccess,Magic Number,The method contains a magic number: 4,70
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ClassifyModel,onSuccess,Magic Number,The method contains a magic number: 60,70
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ClassifyModel,onSuccess,Magic Number,The method contains a magic number: 60,70
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ConsultListModel,initfirstlist,Magic Number,The method contains a magic number: 60,36
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ConsultListModel,onSuccess,Magic Number,The method contains a magic number: 60,48
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ConsultListModel,loadassignconsultlist,Complex Method,Cyclomatic complexity of the method is 9,96
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ConsultListModel,loadassignconsultlist,Long Parameter List,The method has 6 parameters. ,96
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ConsultListModel,loadassignconsultlist,Magic Number,The method contains a magic number: 60,96
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ConsultListModel,onSuccess,Magic Number,The method contains a magic number: 60,135
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ConsultModel,uploadpic,Magic Number,The method contains a magic number: 100,35
+47_MvpLightup-master,com.dawnlightning.ucqa.model,ConsultModel,onProgress,Magic Number,The method contains a magic number: 100,82
+47_MvpLightup-master,com.dawnlightning.ucqa.model,DetailedModel,loadconsultdetailed,Complex Method,Cyclomatic complexity of the method is 10,89
+47_MvpLightup-master,com.dawnlightning.ucqa.model,DetailedModel,onSuccess,Complex Method,Cyclomatic complexity of the method is 10,104
+47_MvpLightup-master,com.dawnlightning.ucqa.model,DetailedModel,loadmorecomment,Long Parameter List,The method has 5 parameters. ,184
+47_MvpLightup-master,com.dawnlightning.ucqa.model,DetailedModel,setcomment,Long Parameter List,The method has 5 parameters. ,297
+47_MvpLightup-master,com.dawnlightning.ucqa.model,DetailedModel,setcomment,Magic Number,The method contains a magic number: 11,297
+47_MvpLightup-master,com.dawnlightning.ucqa.model,DetailedModel,onSuccess,Magic Number,The method contains a magic number: 11,322
+47_MvpLightup-master,com.dawnlightning.ucqa.model,DetailedModel,setreply,Long Parameter List,The method has 9 parameters. ,340
+47_MvpLightup-master,com.dawnlightning.ucqa.model,LoginModel,login,Magic Number,The method contains a magic number: 60,82
+47_MvpLightup-master,com.dawnlightning.ucqa.model,LoginModel,login,Magic Number,The method contains a magic number: 60,82
+47_MvpLightup-master,com.dawnlightning.ucqa.model,LoginModel,login,Magic Number,The method contains a magic number: 24,82
+47_MvpLightup-master,com.dawnlightning.ucqa.model,LoginModel,login,Magic Number,The method contains a magic number: 7,82
+47_MvpLightup-master,com.dawnlightning.ucqa.model,LoginModel,onSuccess,Magic Number,The method contains a magic number: 60,111
+47_MvpLightup-master,com.dawnlightning.ucqa.model,LoginModel,onSuccess,Magic Number,The method contains a magic number: 60,111
+47_MvpLightup-master,com.dawnlightning.ucqa.model,LoginModel,onSuccess,Magic Number,The method contains a magic number: 24,111
+47_MvpLightup-master,com.dawnlightning.ucqa.model,LoginModel,onSuccess,Magic Number,The method contains a magic number: 7,111
+47_MvpLightup-master,com.dawnlightning.ucqa.model,PersonalDataModel,uploadavater,Magic Number,The method contains a magic number: 100,44
+47_MvpLightup-master,com.dawnlightning.ucqa.model,PersonalDataModel,onProgress,Magic Number,The method contains a magic number: 100,83
+47_MvpLightup-master,com.dawnlightning.ucqa.modelinterface,IConsultListModel,loadassignconsultlist,Long Parameter List,The method has 6 parameters. ,9
+47_MvpLightup-master,com.dawnlightning.ucqa.modelinterface,IDetailedModel,loadmorecomment,Long Parameter List,The method has 5 parameters. ,11
+47_MvpLightup-master,com.dawnlightning.ucqa.modelinterface,IDetailedModel,setcomment,Long Parameter List,The method has 5 parameters. ,14
+47_MvpLightup-master,com.dawnlightning.ucqa.modelinterface,IDetailedModel,setreply,Long Parameter List,The method has 9 parameters. ,15
+47_MvpLightup-master,com.dawnlightning.ucqa.presenter,ConsultListPresenter,loadassignlist,Long Parameter List,The method has 5 parameters. ,29
+47_MvpLightup-master,com.dawnlightning.ucqa.presenter,DetailedPresenter,setreply,Long Parameter List,The method has 8 parameters. ,98
+47_MvpLightup-master,com.dawnlightning.ucqa.presenterinterface,IConsultListPresenter,loadassignlist,Long Parameter List,The method has 5 parameters. ,7
+47_MvpLightup-master,com.dawnlightning.ucqa.presenterinterface,IDetailedPresenter,setreply,Long Parameter List,The method has 8 parameters. ,15
+47_MvpLightup-master,com.dawnlightning.ucqa.push,ExampleUtil,getAppKey,Empty catch clause,The method has an empty catch block.,44
+47_MvpLightup-master,com.dawnlightning.ucqa.push,ExampleUtil,getAppKey,Long Statement,The length of the statement "ApplicationInfo ai=context.getPackageManager().getApplicationInfo(context.getPackageName()`PackageManager.GET_META_DATA);" is 121.,44
+47_MvpLightup-master,com.dawnlightning.ucqa.push,ExampleUtil,getAppKey,Magic Number,The method contains a magic number: 24,44
+47_MvpLightup-master,com.dawnlightning.ucqa.push,MyReceiver,onReceive,Complex Method,Cyclomatic complexity of the method is 9,38
+47_MvpLightup-master,com.dawnlightning.ucqa.push,MyReceiver,onReceive,Magic Number,The method contains a magic number: 5000,38
+47_MvpLightup-master,com.dawnlightning.ucqa.push,MyReceiver,processCustomMessage,Empty catch clause,The method has an empty catch block.,140
+47_MvpLightup-master,com.dawnlightning.ucqa.share,ShareTool,share,Magic Number,The method contains a magic number: 3,122
+47_MvpLightup-master,com.dawnlightning.ucqa.share,WXEntryActivity,onShowMessageFromWXReq,Complex Conditional,The conditional expression msg != null && msg.mediaObject != null && (msg.mediaObject instanceof WXAppExtendObject) is complex.,33
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Complex Method,Cyclomatic complexity of the method is 15,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Long Method,The method has 174 lines of code.,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Long Statement,The length of the statement "final Allocation input=Allocation.createFromBitmap(rs`sentBitmap`Allocation.MipmapControl.MIPMAP_NONE`Allocation.USAGE_SCRIPT);" is 127.,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 16,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 256,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 256,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 3,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 0xff0000,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 16,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 0x00ff00,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 8,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 0x0000ff,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 0xff0000,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 16,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 0x00ff00,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 8,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 0x0000ff,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 0xff000000,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 16,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 8,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,Blur,fastblur,Magic Number,The method contains a magic number: 2,17
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,ImageLoaderOptions,getListOptions,Long Statement,The length of the statement "DisplayImageOptions options=new DisplayImageOptions.Builder().showImageOnLoading(R.mipmap.default_round_head).showImageForEmptyUri(R.mipmap.default_round_head).showImageOnFail(R.mipmap.default_round_head).cacheInMemory(true).cacheOnDisc(true).considerExifParams(true).imageScaleType(ImageScaleType.EXACTLY_STRETCHED).bitmapConfig(Bitmap.Config.RGB_565).considerExifParams(true).resetViewBeforeLoading(true).displayer(new FadeInBitmapDisplayer(100)).build();" is 457.,11
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,ImageLoaderOptions,getListOptions,Magic Number,The method contains a magic number: 100,11
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,ImageLoaderOptions,getLoadPictureOptions,Long Statement,The length of the statement "DisplayImageOptions options=new DisplayImageOptions.Builder().showImageOnLoading(R.mipmap.ic_dafult_pic).showImageForEmptyUri(R.mipmap.ic_dafult_pic).showImageOnFail(R.mipmap.ic_dafult_pic).cacheInMemory(true).cacheOnDisc(true).considerExifParams(true).imageScaleType(ImageScaleType.EXACTLY_STRETCHED).bitmapConfig(Bitmap.Config.ARGB_8888).considerExifParams(true).resetViewBeforeLoading(true).displayer(new FadeInBitmapDisplayer(100)).build();" is 444.,42
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,ImageLoaderOptions,getLoadPictureOptions,Magic Number,The method contains a magic number: 100,42
+47_MvpLightup-master,com.dawnlightning.ucqa.tools,ImageLoaderOptions,getConsultLoadPictureOptions,Long Statement,The length of the statement "DisplayImageOptions options=new DisplayImageOptions.Builder().cacheInMemory(true).cacheOnDisc(true).considerExifParams(true).imageScaleType(ImageScaleType.EXACTLY_STRETCHED).bitmapConfig(Bitmap.Config.RGB_565).considerExifParams(true).resetViewBeforeLoading(true).build();" is 272.,72
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateManager,checkUpdate,Long Statement,The length of the statement "com.alibaba.fastjson.JSONObject js=(com.alibaba.fastjson.JSONObject)JSON.parse(AsyncHttp.getcache(HttpConstants.Update).toString());" is 132.,44
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateManager,checkUpdate,Magic Number,The method contains a magic number: 60,44
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateManager,checkUpdate,Magic Number,The method contains a magic number: 60,44
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateManager,checkUpdate,Magic Number,The method contains a magic number: 24,44
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateManager,onSuccess,Magic Number,The method contains a magic number: 60,74
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateManager,onSuccess,Magic Number,The method contains a magic number: 60,74
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateManager,onSuccess,Magic Number,The method contains a magic number: 24,74
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateService,handleMessage,Long Statement,The length of the statement "NotificationCompat.Builder mBuilder=new NotificationCompat.Builder(getApplicationContext()).setSmallIcon(R.drawable.mylogo);" is 124.,107
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateService,handleMessage,Long Statement,The length of the statement "NotificationCompat.Builder Builder=new NotificationCompat.Builder(getApplicationContext()).setSmallIcon(R.drawable.mylogo);" is 123.,107
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateService,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,107
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateService,createNotification,Magic Number,The method contains a magic number: 100,195
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateService,downloadUpdateFile,Magic Number,The method contains a magic number: 404,219
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateService,downloadUpdateFile,Magic Number,The method contains a magic number: 1024,219
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateService,downloadUpdateFile,Magic Number,The method contains a magic number: 100,219
+47_MvpLightup-master,com.dawnlightning.ucqa.update,UpdateService,downloadUpdateFile,Magic Number,The method contains a magic number: 100,219
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,put,Magic Number,The method contains a magic number: 1024,103
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,put,Empty catch clause,The method has an empty catch block.,378
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,isDue,Magic Number,The method contains a magic number: 2,719
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,isDue,Magic Number,The method contains a magic number: 1000,719
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,hasDateInfo,Magic Number,The method contains a magic number: 15,770
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,hasDateInfo,Magic Number,The method contains a magic number: 13,770
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,hasDateInfo,Magic Number,The method contains a magic number: 14,770
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,775
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,775
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,createDateInfo,Magic Number,The method contains a magic number: 13,806
+47_MvpLightup-master,com.dawnlightning.ucqa.util,ACache,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,817
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,isDue,Magic Number,The method contains a magic number: 2,719
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,isDue,Magic Number,The method contains a magic number: 1000,719
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,hasDateInfo,Magic Number,The method contains a magic number: 15,770
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,hasDateInfo,Magic Number,The method contains a magic number: 13,770
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,hasDateInfo,Magic Number,The method contains a magic number: 14,770
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,775
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,775
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,createDateInfo,Magic Number,The method contains a magic number: 13,806
+47_MvpLightup-master,com.dawnlightning.ucqa.util,Utils,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,817
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,deleteFilesByDirectory,Complex Conditional,The conditional expression directory != null && directory.exists() && directory.isDirectory() is complex.,101
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,getFormatSize,Magic Number,The method contains a magic number: 1024,168
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,getFormatSize,Magic Number,The method contains a magic number: 1024,168
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,getFormatSize,Magic Number,The method contains a magic number: 2,168
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,getFormatSize,Magic Number,The method contains a magic number: 1024,168
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,getFormatSize,Magic Number,The method contains a magic number: 2,168
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,getFormatSize,Magic Number,The method contains a magic number: 1024,168
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,getFormatSize,Magic Number,The method contains a magic number: 2,168
+47_MvpLightup-master,com.dawnlightning.ucqa.util,DataCleanManager,getFormatSize,Magic Number,The method contains a magic number: 2,168
+47_MvpLightup-master,com.dawnlightning.ucqa.util,LvHeightUtil,setListViewHeightBasedOnChildren,Magic Number,The method contains a magic number: 10,18
+47_MvpLightup-master,com.dawnlightning.ucqa.util,LvHeightUtil,setListViewHeightBasedOnChildren,Magic Number,The method contains a magic number: 10,18
+47_MvpLightup-master,com.dawnlightning.ucqa.util,LvHeightUtil,setListViewHeightBasedOnChildren,Magic Number,The method contains a magic number: 10,18
+47_MvpLightup-master,com.dawnlightning.ucqa.util,LvHeightUtil,setListViewHeightBasedOnChildren,Magic Number,The method contains a magic number: 10,18
+47_MvpLightup-master,com.dawnlightning.ucqa.util,LvHeightUtil,setListViewHeightBasedOnChildren,Magic Number,The method contains a magic number: 10,18
+47_MvpLightup-master,com.dawnlightning.ucqa.util,LvHeightUtil,setListViewHeightBasedOnChildren,Magic Number,The method contains a magic number: 10,18
+47_MvpLightup-master,com.dawnlightning.ucqa.util,LvHeightUtil,dip2px,Magic Number,The method contains a magic number: 0.5,89
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,onCreate,Long Statement,The length of the statement "db.execSQL("CREATE TABLE IF NOT EXISTS " + TABLES_CONSULT_NAME + " ("+ "_ID"+ " INTEGER PRIMARY KEY`"+ "title"+ " TEXT`"+ "content"+ " TEXT`"+ "date"+ " TEXT`"+ "img"+ " TEXT`"+ "replynum"+ " TEXT`"+ "viewnum"+ " TEXT`"+ "bwztid"+ " TEXT`"+ "messagetype"+ " TEXT`"+ "status"+ " TEXT`"+ "uid"+ " TEXT`"+ "sex"+ " TEXT`"+ "age"+ " TEXT"+ ");");" is 342.,38
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,onCreate,Long Statement,The length of the statement "db.execSQL("CREATE TABLE IF NOT EXISTS " + TABLES_CLASSIFY_NAME + " ("+ "_ID"+ " INTEGER PRIMARY KEY`"+ "bwztclassarrname"+ " TEXT`"+ "bwztclassarrid"+ " TEXT`"+ "bwztdivisionarrname"+ " TEXT`"+ "bwztdivisionarrid"+ " TEXT"+ ");");" is 231.,38
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,insertconsult,Complex Method,Cyclomatic complexity of the method is 9,74
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 2,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 3,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 4,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 5,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 6,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 7,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 9,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 10,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 12,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryallconsult,Magic Number,The method contains a magic number: 11,202
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryclassify,Magic Number,The method contains a magic number: 3,240
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryclassify,Magic Number,The method contains a magic number: 2,240
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryclassify,Magic Number,The method contains a magic number: 4,240
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 2,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 3,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 4,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 5,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 6,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 7,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 9,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 10,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 12,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,SQLHelper,queryconsult,Magic Number,The method contains a magic number: 11,265
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,TimeStamp2Date,Magic Number,The method contains a magic number: 1000,61
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,TimeStamp2Date,Magic Number,The method contains a magic number: 45L,61
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,TimeStamp2Date,Magic Number,The method contains a magic number: 24L,61
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,TimeStamp2Date,Magic Number,The method contains a magic number: 48L,61
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,TimeStamp2Date,Magic Number,The method contains a magic number: 30L,61
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,TimeStamp2Date,Magic Number,The method contains a magic number: 12L,61
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,TimeStamp2Date,Magic Number,The method contains a magic number: 4L,61
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,toSeconds,Magic Number,The method contains a magic number: 1000L,101
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,toMinutes,Magic Number,The method contains a magic number: 60L,105
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,toHours,Magic Number,The method contains a magic number: 60L,109
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,toDays,Magic Number,The method contains a magic number: 24L,113
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,toMonths,Magic Number,The method contains a magic number: 30L,117
+47_MvpLightup-master,com.dawnlightning.ucqa.util,TimeUtil,toYears,Magic Number,The method contains a magic number: 365L,121
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onViewReleased,Magic Number,The method contains a magic number: 0.3,98
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onViewReleased,Magic Number,The method contains a magic number: 0.7,98
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,114
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onFinishInflate,Magic Number,The method contains a magic number: 2,152
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onSizeChanged,Magic Number,The method contains a magic number: 0.6f,177
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onLayout,Long Parameter List,The method has 5 parameters. ,185
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onInterceptTouchEvent,Empty catch clause,The method has an empty catch block.,196
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onInterceptTouchEvent,Magic Number,The method contains a magic number: 4,196
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,onInterceptTouchEvent,Missing default,The following switch statement is missing a default case: switch (ev.getAction()) {,196
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 0.3f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 2.3f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 2.3f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 0.5f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 0.5f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 0.5f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 0.5f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 1.4f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 0.12f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 1.85f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,animateView,Magic Number,The method contains a magic number: 0.12f,270
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Long Statement,The length of the statement "return (int)((startA + (int)(fraction * (endA - startA))) << 24) | (int)((startR + (int)(fraction * (endR - startR))) << 16) | (int)((startG + (int)(fraction * (endG - startG))) << 8)| (int)((startB + (int)(fraction * (endB - startB))));" is 237.,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 24,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 0xff,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 16,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 0xff,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 8,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 0xff,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 0xff,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 24,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 0xff,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 16,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 0xff,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 8,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 0xff,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 0xff,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 24,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 16,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,evaluate,Magic Number,The method contains a magic number: 8,305
+47_MvpLightup-master,com.dawnlightning.ucqa.view,DragLayout,open,Magic Number,The method contains a magic number: 2,351
+47_MvpLightup-master,com.dawnlightning.ucqa.view,EditTextWithDel,onTouchEvent,Magic Number,The method contains a magic number: 50,69
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ExpandListView,onMeasure,Magic Number,The method contains a magic number: 2,31
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ImageTouchView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,38
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ImageTouchView,onTouchEvent,Magic Number,The method contains a magic number: 10f,38
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ImageTouchView,onTouchEvent,Magic Number,The method contains a magic number: 10f,38
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ImageTouchView,mid,Magic Number,The method contains a magic number: 2,103
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ImageTouchView,mid,Magic Number,The method contains a magic number: 2,103
+47_MvpLightup-master,com.dawnlightning.ucqa.view,OtherGridView,onMeasure,Magic Number,The method contains a magic number: 2,13
+47_MvpLightup-master,com.dawnlightning.ucqa.view,PassWordShow,onTouchEvent,Magic Number,The method contains a magic number: 50,66
+47_MvpLightup-master,com.dawnlightning.ucqa.view,PictureTitleEdittext,onMeasure,Magic Number,The method contains a magic number: 2,15
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ProcessImageView,onDraw,Magic Number,The method contains a magic number: 100,37
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ProcessImageView,onDraw,Magic Number,The method contains a magic number: 100,37
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ProcessImageView,onDraw,Magic Number,The method contains a magic number: 30,37
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ProcessImageView,onDraw,Magic Number,The method contains a magic number: 2,37
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ProcessImageView,onDraw,Magic Number,The method contains a magic number: 2,37
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ProcessImageView,onDraw,Magic Number,The method contains a magic number: 2,37
+47_MvpLightup-master,com.dawnlightning.ucqa.view,ProcessImageView,onDraw,Magic Number,The method contains a magic number: 2,37
+47_MvpLightup-master,com.dawnlightning.ucqa.view,RoundImageView,getCroppedBitmap,Magic Number,The method contains a magic number: 0xffa19774,63
+47_MvpLightup-master,com.dawnlightning.ucqa.view,RoundImageView,getCroppedBitmap,Magic Number,The method contains a magic number: 2,63
+47_MvpLightup-master,com.dawnlightning.ucqa.view,RoundImageView,getCroppedBitmap,Magic Number,The method contains a magic number: 0.7f,63
+47_MvpLightup-master,com.dawnlightning.ucqa.view,RoundImageView,getCroppedBitmap,Magic Number,The method contains a magic number: 2,63
+47_MvpLightup-master,com.dawnlightning.ucqa.view,RoundImageView,getCroppedBitmap,Magic Number,The method contains a magic number: 0.7f,63
+47_MvpLightup-master,com.dawnlightning.ucqa.view,RoundImageView,getCroppedBitmap,Magic Number,The method contains a magic number: 2,63
+47_MvpLightup-master,com.dawnlightning.ucqa.view,RoundImageView,getCroppedBitmap,Magic Number,The method contains a magic number: 0.1f,63
+47_MvpLightup-master,com.dawnlightning.ucqa.view,UserDefineScrollView,onLayout,Long Parameter List,The method has 5 parameters. ,88
+47_MvpLightup-master,com.dawnlightning.ucqa.view,UserDefineScrollView,dispatchTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,104
+47_MvpLightup-master,com.dawnlightning.ucqa.view,UserDefineScrollView,dispatchTouchEvent,Missing default,The following switch statement is missing a default case: switch (action) {,104
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,initResourcesIfNecessary,Magic Number,The method contains a magic number: 0.1f,387
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,initResourcesIfNecessary,Magic Number,The method contains a magic number: 0.1f,387
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,initResourcesIfNecessary,Magic Number,The method contains a magic number: 0xFFC0C0C0,387
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,getDesiredHeight,Magic Number,The method contains a magic number: 2,419
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,getTextItem,Complex Conditional,The conditional expression (index < 0 || index >= count) && !isCyclic is complex.,440
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,buildText,Magic Number,The method contains a magic number: 2,462
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,getMaxTextLength,Complex Conditional,The conditional expression text != null && (maxText == null || maxText.length() < text.length()) is complex.,487
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,getMaxTextLength,Magic Number,The method contains a magic number: 2,487
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,getItemHeight,Magic Number,The method contains a magic number: 2,515
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,getItemHeight,Magic Number,The method contains a magic number: 2,515
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,calculateLayoutWidth,Complex Method,Cyclomatic complexity of the method is 10,530
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,calculateLayoutWidth,Magic Number,The method contains a magic number: 2,530
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,calculateLayoutWidth,Magic Number,The method contains a magic number: 2,530
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,createLayouts,Complex Conditional,The conditional expression !isScrollingPerformed && (valueLayout == null || valueLayout.getWidth() > widthItems) is complex.,597
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,createLayouts,Long Statement,The length of the statement "itemsLayout=new StaticLayout(buildText(isScrollingPerformed)`itemsPaint`widthItems`widthLabel > 0 ? Layout.Alignment.ALIGN_OPPOSITE : Layout.Alignment.ALIGN_CENTER`1`ADDITIONAL_ITEM_HEIGHT`false);" is 196.,597
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,createLayouts,Long Statement,The length of the statement "valueLayout=new StaticLayout(text != null ? text : ""`valuePaint`widthItems`widthLabel > 0 ? Layout.Alignment.ALIGN_OPPOSITE : Layout.Alignment.ALIGN_CENTER`1`ADDITIONAL_ITEM_HEIGHT`false);" is 189.,597
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,drawValue,Magic Number,The method contains a magic number: 2,695
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,drawCenterRect,Magic Number,The method contains a magic number: 2,740
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,drawCenterRect,Magic Number,The method contains a magic number: 2,740
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,doScroll,Complex Method,Cyclomatic complexity of the method is 8,773
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,onFling,Magic Number,The method contains a magic number: 0x7FFFFFFF,834
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,onFling,Magic Number,The method contains a magic number: 2,834
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,justify,Complex Conditional,The conditional expression (isCyclic || needToIncrease) && Math.abs((float)offset) > (float)itemHeight / 2 is complex.,894
+47_MvpLightup-master,com.dawnlightning.ucqa.view.wheelview,WheelView,justify,Magic Number,The method contains a magic number: 2,894
+47_MvpLightup-master,com.dawnlightning.ucqa.viewinterface,IMyconsultListView,doloadmylist,Long Parameter List,The method has 5 parameters. ,12
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,startLoadMore,Complex Conditional,The conditional expression mEnablePullLoad && mFooterView.getBottomMargin() > PULL_LOAD_MORE_DELTA && !mPullLoading is complex.,141
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onLayout,Long Parameter List,The method has 5 parameters. ,178
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,setAdapter,Magic Number,The method contains a magic number: 100,221
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Complex Conditional,The conditional expression getFirstVisiblePosition() == 0 && (mHeaderView.getVisiableHeight() > 0 || deltaY > 0) && !mPullRefreshing is complex.,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Complex Conditional,The conditional expression getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) && !mPullLoading is complex.,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Long Statement,The length of the statement "Log.d("xlistview"`"getFirstVisiblePosition()-->" + getFirstVisiblePosition() + "getVisiableHeight()"+ mHeaderView.getVisiableHeight()+ "deltaY->"+ deltaY);" is 155.,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Long Statement,The length of the statement "else if (getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) && !mPullLoading) {" is 129.,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (ev.getAction()) {,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,startOnRefresh,Complex Conditional,The conditional expression mEnablePullRefresh && mHeaderView.getVisiableHeight() > mHeaderViewHeight && !mPullRefreshing is complex.,377
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,onHeaderClick,Long Parameter List,The method has 5 parameters. ,38
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,onLayout,Long Parameter List,The method has 5 parameters. ,149
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Complex Conditional,The conditional expression viewToWatch == null || (!viewToWatchIsFooter && !((WrapperView)viewToWatch).hasHeader()) || ((childIsFooter || ((WrapperView)child).hasHeader()) && childDistance < watchingChildDistance) is complex.,359
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Complex Conditional,The conditional expression viewToWatch != null && (viewToWatchIsFooter || ((WrapperView)viewToWatch).hasHeader()) is complex.,359
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Complex Conditional,The conditional expression firstVisibleItem == listViewHeaderCount && super.getChildAt(0).getTop() > 0 && !mClippingToPadding is complex.,359
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Complex Method,Cyclomatic complexity of the method is 10,359
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Long Statement,The length of the statement "if (viewToWatch == null || (!viewToWatchIsFooter && !((WrapperView)viewToWatch).hasHeader()) || ((childIsFooter || ((WrapperView)child).hasHeader()) && childDistance < watchingChildDistance)) {" is 193.,359
+47_MvpLightup-master,com.youxiachai.onexlistview,OnHeaderClickListener,onHeaderClick,Long Parameter List,The method has 5 parameters. ,38
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,startLoadMore,Complex Conditional,The conditional expression mEnablePullLoad && mFooterView.getBottomMargin() > PULL_LOAD_MORE_DELTA && !mPullLoading is complex.,141
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onLayout,Long Parameter List,The method has 5 parameters. ,178
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,setAdapter,Magic Number,The method contains a magic number: 100,221
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Complex Conditional,The conditional expression getFirstVisiblePosition() == 0 && (mHeaderView.getVisiableHeight() > 0 || deltaY > 0) && !mPullRefreshing is complex.,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Complex Conditional,The conditional expression getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) && !mPullLoading is complex.,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Long Statement,The length of the statement "Log.d("xlistview"`"getFirstVisiblePosition()-->" + getFirstVisiblePosition() + "getVisiableHeight()"+ mHeaderView.getVisiableHeight()+ "deltaY->"+ deltaY);" is 155.,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Long Statement,The length of the statement "else if (getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) && !mPullLoading) {" is 129.,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (ev.getAction()) {,329
+47_MvpLightup-master,com.youxiachai.onexlistview,XMultiColumnListView,startOnRefresh,Complex Conditional,The conditional expression mEnablePullRefresh && mHeaderView.getVisiableHeight() > mHeaderViewHeight && !mPullRefreshing is complex.,377
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,onHeaderClick,Long Parameter List,The method has 5 parameters. ,38
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,onLayout,Long Parameter List,The method has 5 parameters. ,149
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Complex Conditional,The conditional expression viewToWatch == null || (!viewToWatchIsFooter && !((WrapperView)viewToWatch).hasHeader()) || ((childIsFooter || ((WrapperView)child).hasHeader()) && childDistance < watchingChildDistance) is complex.,359
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Complex Conditional,The conditional expression viewToWatch != null && (viewToWatchIsFooter || ((WrapperView)viewToWatch).hasHeader()) is complex.,359
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Complex Conditional,The conditional expression firstVisibleItem == listViewHeaderCount && super.getChildAt(0).getTop() > 0 && !mClippingToPadding is complex.,359
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Complex Method,Cyclomatic complexity of the method is 10,359
+47_MvpLightup-master,com.youxiachai.onexlistview,XStickyListHeadersView,scrollChanged,Long Statement,The length of the statement "if (viewToWatch == null || (!viewToWatchIsFooter && !((WrapperView)viewToWatch).hasHeader()) || ((childIsFooter || ((WrapperView)child).hasHeader()) && childDistance < watchingChildDistance)) {" is 193.,359
+47_MvpLightup-master,com.youxiachai.onexlistview,OnHeaderClickListener,onHeaderClick,Long Parameter List,The method has 5 parameters. ,38
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,onHeaderClick,Long Parameter List,The method has 5 parameters. ,29
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,onLayout,Long Parameter List,The method has 5 parameters. ,140
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Complex Conditional,The conditional expression viewToWatch == null || (!viewToWatchIsFooter && !((WrapperView)viewToWatch).hasHeader()) || ((childIsFooter || ((WrapperView)child).hasHeader()) && childDistance < watchingChildDistance) is complex.,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Complex Conditional,The conditional expression viewToWatch != null && (viewToWatchIsFooter || ((WrapperView)viewToWatch).hasHeader()) is complex.,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Complex Conditional,The conditional expression firstVisibleItem == listViewHeaderCount && super.getChildAt(0).getTop() > 0 && !mClippingToPadding is complex.,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Complex Method,Cyclomatic complexity of the method is 10,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Long Statement,The length of the statement "if (viewToWatch == null || (!viewToWatchIsFooter && !((WrapperView)viewToWatch).hasHeader()) || ((childIsFooter || ((WrapperView)child).hasHeader()) && childDistance < watchingChildDistance)) {" is 193.,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,OnHeaderClickListener,onHeaderClick,Long Parameter List,The method has 5 parameters. ,29
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,WrapperView,update,Complex Method,Cyclomatic complexity of the method is 9,29
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,WrapperView,onLayout,Long Parameter List,The method has 5 parameters. ,107
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,onHeaderClick,Long Parameter List,The method has 5 parameters. ,29
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,onLayout,Long Parameter List,The method has 5 parameters. ,140
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Complex Conditional,The conditional expression viewToWatch == null || (!viewToWatchIsFooter && !((WrapperView)viewToWatch).hasHeader()) || ((childIsFooter || ((WrapperView)child).hasHeader()) && childDistance < watchingChildDistance) is complex.,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Complex Conditional,The conditional expression viewToWatch != null && (viewToWatchIsFooter || ((WrapperView)viewToWatch).hasHeader()) is complex.,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Complex Conditional,The conditional expression firstVisibleItem == listViewHeaderCount && super.getChildAt(0).getTop() > 0 && !mClippingToPadding is complex.,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Complex Method,Cyclomatic complexity of the method is 10,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,StickyListHeadersListView,scrollChanged,Long Statement,The length of the statement "if (viewToWatch == null || (!viewToWatchIsFooter && !((WrapperView)viewToWatch).hasHeader()) || ((childIsFooter || ((WrapperView)child).hasHeader()) && childDistance < watchingChildDistance)) {" is 193.,350
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,OnHeaderClickListener,onHeaderClick,Long Parameter List,The method has 5 parameters. ,29
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,WrapperView,update,Complex Method,Cyclomatic complexity of the method is 9,29
+47_MvpLightup-master,com.emilsjolander.components.stickylistheaders,WrapperView,onLayout,Long Parameter List,The method has 5 parameters. ,107
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollExtent,Magic Number,The method contains a magic number: 100,676
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollExtent,Magic Number,The method contains a magic number: 100,676
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollExtent,Magic Number,The method contains a magic number: 100,676
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Long Statement,The length of the statement "return Math.max(firstPosition * 100 - (top * 100) / height + (int)((float)getScrollY() / getHeight() * mItemCount * 100)`0);" is 124.,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Magic Number,The method contains a magic number: 100,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Magic Number,The method contains a magic number: 100,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Magic Number,The method contains a magic number: 100,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Magic Number,The method contains a magic number: 2,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollRange,Magic Number,The method contains a magic number: 100,738
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onLayout,Long Parameter List,The method has 5 parameters. ,802
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,obtainView,Complex Method,Cyclomatic complexity of the method is 9,882
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,positionSelector,Long Statement,The length of the statement "mSelectorRect.set(l - mSelectionLeftPadding`t - mSelectionTopPadding`r + mSelectionRightPadding`b + mSelectionBottomPadding);" is 125.,955
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,touchModeDrawsInPressedState,Missing default,The following switch statement is missing a default case: switch (mTouchMode) {,983
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,drawSelector,Complex Conditional,The conditional expression shouldShowSelector() && mSelectorRect != null && !mSelectorRect.isEmpty() is complex.,1009
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Complex Conditional,The conditional expression adapter != null && mItemCount > 0 && motionPosition != INVALID_POSITION && motionPosition < adapter.getCount() && sameWindow() is complex.,1208
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Long Statement,The length of the statement "if (adapter != null && mItemCount > 0 && motionPosition != INVALID_POSITION && motionPosition < adapter.getCount() && sameWindow()) {" is 133.,1208
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Complex Method,Cyclomatic complexity of the method is 8,1308
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Complex Conditional,The conditional expression (mTouchMode != TOUCH_MODE_FLING) && (motionPosition >= 0) && (getAdapter().isEnabled(motionPosition)) is complex.,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Complex Conditional,The conditional expression mFirstPosition == 0 && top >= mListPadding.top && mFirstPosition + childCount < mItemCount && bottom <= getHeight() - mListPadding.bottom is complex.,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 47,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Long Method,The method has 227 lines of code.,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Long Statement,The length of the statement "if (mFirstPosition == 0 && top >= mListPadding.top && mFirstPosition + childCount < mItemCount && bottom <= getHeight() - mListPadding.bottom) {" is 144.,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Magic Number,The method contains a magic number: 1000,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,1652
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onSecondaryPointerUp,Long Statement,The length of the statement "final int pointerIndex=(ev.getAction() & MotionEvent.ACTION_POINTER_INDEX_MASK) >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;" is 122.,1713
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Missing default,The following switch statement is missing a default case: switch (mTouchMode) {,1835
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,start,Complex Method,Cyclomatic complexity of the method is 9,1948
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Complex Conditional,The conditional expression firstPos == mBoundPos || childCount <= nextViewIndex || firstPos + childCount >= mItemCount is complex.,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Complex Method,Cyclomatic complexity of the method is 19,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Long Method,The method has 107 lines of code.,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Magic Number,The method contains a magic number: 2,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Missing default,The following switch statement is missing a default case: switch (mMode) {,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,trackMotionScroll,Complex Conditional,The conditional expression firstPosition == 0 && firstTop >= listPadding.top && deltaY >= 0 is complex.,2213
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,trackMotionScroll,Complex Conditional,The conditional expression firstPosition + childCount == mItemCount && lastBottom <= end && deltaY <= 0 is complex.,2213
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,trackMotionScroll,Complex Method,Cyclomatic complexity of the method is 18,2213
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,handleDataChanged,Complex Conditional,The conditional expression mTranscriptMode == TRANSCRIPT_MODE_ALWAYS_SCROLL || (mTranscriptMode == TRANSCRIPT_MODE_NORMAL && mFirstPosition + getChildCount() >= mOldItemCount) is complex.,2419
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,handleDataChanged,Complex Method,Cyclomatic complexity of the method is 10,2419
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,handleDataChanged,Long Statement,The length of the statement "if (mTranscriptMode == TRANSCRIPT_MODE_ALWAYS_SCROLL || (mTranscriptMode == TRANSCRIPT_MODE_NORMAL && mFirstPosition + getChildCount() >= mOldItemCount)) {" is 155.,2419
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Missing default,The following switch statement is missing a default case: switch (direction) {,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,scrapActiveViews,Complex Method,Cyclomatic complexity of the method is 8,2992
+47_MvpLightup-master,com.huewu.pla.lib.internal,PerformClick,run,Complex Conditional,The conditional expression adapter != null && mItemCount > 0 && motionPosition != INVALID_POSITION && motionPosition < adapter.getCount() && sameWindow() is complex.,1208
+47_MvpLightup-master,com.huewu.pla.lib.internal,PerformClick,run,Long Statement,The length of the statement "if (adapter != null && mItemCount > 0 && motionPosition != INVALID_POSITION && motionPosition < adapter.getCount() && sameWindow()) {" is 133.,1208
+47_MvpLightup-master,com.huewu.pla.lib.internal,CheckForTap,run,Complex Method,Cyclomatic complexity of the method is 8,1308
+47_MvpLightup-master,com.huewu.pla.lib.internal,FlingRunnable,run,Missing default,The following switch statement is missing a default case: switch (mTouchMode) {,1835
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,start,Complex Method,Cyclomatic complexity of the method is 9,1948
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Complex Conditional,The conditional expression firstPos == mBoundPos || childCount <= nextViewIndex || firstPos + childCount >= mItemCount is complex.,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Complex Method,Cyclomatic complexity of the method is 19,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Long Method,The method has 107 lines of code.,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Magic Number,The method contains a magic number: 2,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Missing default,The following switch statement is missing a default case: switch (mMode) {,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,RecycleBin,scrapActiveViews,Complex Method,Cyclomatic complexity of the method is 8,2992
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,onLayout,Long Parameter List,The method has 5 parameters. ,492
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,getSelectedItem,Complex Conditional,The conditional expression adapter != null && adapter.getCount() > 0 && selection >= 0 is complex.,522
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,setFocusable,Long Identifier,The length of the field mDesiredFocusableInTouchModeState is 33.,639
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,setFocusableInTouchMode,Long Identifier,The length of the field mDesiredFocusableInTouchModeState is 33.,652
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,checkFocus,Long Identifier,The length of the field mDesiredFocusableInTouchModeState is 33.,665
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,setOnClickListener,Long Statement,The length of the statement "throw new RuntimeException("Don't call setOnClickListener for an AdapterView. " + "You probably want setOnItemClickListener instead");" is 134.,726
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,onChanged,Complex Conditional,The conditional expression PLA_AdapterView.this.getAdapter().hasStableIds() && mInstanceState != null && mOldItemCount == 0 && mItemCount > 0 is complex.,752
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,onChanged,Long Statement,The length of the statement "if (PLA_AdapterView.this.getAdapter().hasStableIds() && mInstanceState != null && mOldItemCount == 0 && mItemCount > 0) {" is 121.,752
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,findSyncPosition,Complex Conditional,The conditional expression hitFirst || (next && !hitLast) is complex.,840
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,findSyncPosition,Complex Conditional,The conditional expression hitLast || (!next && !hitFirst) is complex.,840
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,findSyncPosition,Complex Method,Cyclomatic complexity of the method is 9,840
+47_MvpLightup-master,com.huewu.pla.lib.internal,AdapterDataSetObserver,onChanged,Complex Conditional,The conditional expression PLA_AdapterView.this.getAdapter().hasStableIds() && mInstanceState != null && mOldItemCount == 0 && mItemCount > 0 is complex.,752
+47_MvpLightup-master,com.huewu.pla.lib.internal,AdapterDataSetObserver,onChanged,Long Statement,The length of the statement "if (PLA_AdapterView.this.getAdapter().hasStableIds() && mInstanceState != null && mOldItemCount == 0 && mItemCount > 0) {" is 121.,752
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,adjustViewsUpOrDown,Complex Method,Cyclomatic complexity of the method is 8,176
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,requestChildRectangleOnScreen,Complex Method,Cyclomatic complexity of the method is 10,533
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onMeasure,Complex Conditional,The conditional expression mItemCount > 0 && (widthMode == MeasureSpec.UNSPECIFIED || heightMode == MeasureSpec.UNSPECIFIED) is complex.,729
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onMeasure,Magic Number,The method contains a magic number: 2,729
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,measureHeightOfChildren,Long Parameter List,The method has 5 parameters. ,808
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,measureHeightOfChildren,Long Statement,The length of the statement "return (disallowPartialChildPosition >= 0) && (i > disallowPartialChildPosition) && (prevHeightWithoutPartialChild > 0)&& (returnedHeight != maxHeight) ? prevHeightWithoutPartialChild : maxHeight;" is 196.,808
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,correctTooHigh,Complex Conditional,The conditional expression bottomOffset > 0 && (mFirstPosition > 0 || firstTop < mListPadding.top) is complex.,963
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Complex Method,Cyclomatic complexity of the method is 27,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Long Method,The method has 136 lines of code.,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Long Statement,The length of the statement "throw new IllegalStateException("The content of the adapter has changed but " + "ListView did not receive a notification. Make sure the content of " + "your adapter is not modified from a background thread` but only "+ "from the UI thread. [in ListView(" + getId() + "` "+ getClass()+ ") with Adapter("+ mAdapter.getClass()+ ")]");" is 331.,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Missing default,The following switch statement is missing a default case: switch (mLayoutMode) {,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Missing default,The following switch statement is missing a default case: switch (mLayoutMode) {,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setupChild,Complex Conditional,The conditional expression (recycled && !p.forceAdd) || (p.recycledHeaderFooter && p.viewType == PLA_AdapterView.ITEM_VIEW_TYPE_HEADER_OR_FOOTER) is complex.,1329
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setupChild,Complex Method,Cyclomatic complexity of the method is 10,1329
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setupChild,Long Parameter List,The method has 7 parameters. ,1329
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setupChild,Long Statement,The length of the statement "if ((recycled && !p.forceAdd) || (p.recycledHeaderFooter && p.viewType == PLA_AdapterView.ITEM_VIEW_TYPE_HEADER_OR_FOOTER)) {" is 125.,1329
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onLayoutChild,Long Parameter List,The method has 6 parameters. ,1424
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,lookForSelectablePosition,Complex Method,Cyclomatic complexity of the method is 8,1466
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchPopulateAccessibilityEvent,Magic Number,The method contains a magic number: 15,1507
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,scrollListItemsBy,Complex Method,Cyclomatic complexity of the method is 11,1574
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setCacheColorHint,Magic Number,The method contains a magic number: 24,1717
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setCacheColorHint,Magic Number,The method contains a magic number: 0xFF,1717
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression drawDividers || drawOverscrollHeader || drawOverscrollFooter is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression fillForMissingDividers && mDividerPaint == null && mIsCacheColorOpaque is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression (headerDividers || first + i >= headerCount) && (footerDividers || first + i < footerLimit) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression drawDividers && (bottom < listBottom && !(drawOverscrollFooter && i == count - 1)) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression (areAllItemsSelectable || (adapter.isEnabled(first + i) && (i == count - 1 || adapter.isEnabled(first + i + 1)))) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression drawOverscrollFooter && first + count == itemCount && overFooterBottom > bottom is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression (headerDividers || first + i >= headerCount) && (footerDividers || first + i < footerLimit) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression (areAllItemsSelectable || (adapter.isEnabled(first + i) && (i == count - 1 || adapter.isEnabled(first + i + 1)))) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Method,Cyclomatic complexity of the method is 22,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Long Method,The method has 112 lines of code.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onFocusChanged,Complex Method,Cyclomatic complexity of the method is 8,2057
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onTouchEvent,Complex Conditional,The conditional expression mItemsCanFocus && ev.getAction() == MotionEvent.ACTION_DOWN && ev.getEdgeFlags() != 0 is complex.,2129
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollExtent,Magic Number,The method contains a magic number: 100,676
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollExtent,Magic Number,The method contains a magic number: 100,676
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollExtent,Magic Number,The method contains a magic number: 100,676
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Long Statement,The length of the statement "return Math.max(firstPosition * 100 - (top * 100) / height + (int)((float)getScrollY() / getHeight() * mItemCount * 100)`0);" is 124.,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Magic Number,The method contains a magic number: 100,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Magic Number,The method contains a magic number: 100,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Magic Number,The method contains a magic number: 100,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollOffset,Magic Number,The method contains a magic number: 2,708
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,computeVerticalScrollRange,Magic Number,The method contains a magic number: 100,738
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onLayout,Long Parameter List,The method has 5 parameters. ,802
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,obtainView,Complex Method,Cyclomatic complexity of the method is 9,882
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,positionSelector,Long Statement,The length of the statement "mSelectorRect.set(l - mSelectionLeftPadding`t - mSelectionTopPadding`r + mSelectionRightPadding`b + mSelectionBottomPadding);" is 125.,955
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,touchModeDrawsInPressedState,Missing default,The following switch statement is missing a default case: switch (mTouchMode) {,983
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,drawSelector,Complex Conditional,The conditional expression shouldShowSelector() && mSelectorRect != null && !mSelectorRect.isEmpty() is complex.,1009
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Complex Conditional,The conditional expression adapter != null && mItemCount > 0 && motionPosition != INVALID_POSITION && motionPosition < adapter.getCount() && sameWindow() is complex.,1208
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Long Statement,The length of the statement "if (adapter != null && mItemCount > 0 && motionPosition != INVALID_POSITION && motionPosition < adapter.getCount() && sameWindow()) {" is 133.,1208
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Complex Method,Cyclomatic complexity of the method is 8,1308
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Complex Conditional,The conditional expression (mTouchMode != TOUCH_MODE_FLING) && (motionPosition >= 0) && (getAdapter().isEnabled(motionPosition)) is complex.,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Complex Conditional,The conditional expression mFirstPosition == 0 && top >= mListPadding.top && mFirstPosition + childCount < mItemCount && bottom <= getHeight() - mListPadding.bottom is complex.,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 47,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Long Method,The method has 227 lines of code.,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Long Statement,The length of the statement "if (mFirstPosition == 0 && top >= mListPadding.top && mFirstPosition + childCount < mItemCount && bottom <= getHeight() - mListPadding.bottom) {" is 144.,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onTouchEvent,Magic Number,The method contains a magic number: 1000,1384
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,1652
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,onSecondaryPointerUp,Long Statement,The length of the statement "final int pointerIndex=(ev.getAction() & MotionEvent.ACTION_POINTER_INDEX_MASK) >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;" is 122.,1713
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Missing default,The following switch statement is missing a default case: switch (mTouchMode) {,1835
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,start,Complex Method,Cyclomatic complexity of the method is 9,1948
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Complex Conditional,The conditional expression firstPos == mBoundPos || childCount <= nextViewIndex || firstPos + childCount >= mItemCount is complex.,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Complex Method,Cyclomatic complexity of the method is 19,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Long Method,The method has 107 lines of code.,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Magic Number,The method contains a magic number: 2,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,run,Missing default,The following switch statement is missing a default case: switch (mMode) {,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,trackMotionScroll,Complex Conditional,The conditional expression firstPosition == 0 && firstTop >= listPadding.top && deltaY >= 0 is complex.,2213
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,trackMotionScroll,Complex Conditional,The conditional expression firstPosition + childCount == mItemCount && lastBottom <= end && deltaY <= 0 is complex.,2213
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,trackMotionScroll,Complex Method,Cyclomatic complexity of the method is 18,2213
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,handleDataChanged,Complex Conditional,The conditional expression mTranscriptMode == TRANSCRIPT_MODE_ALWAYS_SCROLL || (mTranscriptMode == TRANSCRIPT_MODE_NORMAL && mFirstPosition + getChildCount() >= mOldItemCount) is complex.,2419
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,handleDataChanged,Complex Method,Cyclomatic complexity of the method is 10,2419
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,handleDataChanged,Long Statement,The length of the statement "if (mTranscriptMode == TRANSCRIPT_MODE_ALWAYS_SCROLL || (mTranscriptMode == TRANSCRIPT_MODE_NORMAL && mFirstPosition + getChildCount() >= mOldItemCount)) {" is 155.,2419
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Magic Number,The method contains a magic number: 2,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,getDistance,Missing default,The following switch statement is missing a default case: switch (direction) {,2496
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AbsListView,scrapActiveViews,Complex Method,Cyclomatic complexity of the method is 8,2992
+47_MvpLightup-master,com.huewu.pla.lib.internal,PerformClick,run,Complex Conditional,The conditional expression adapter != null && mItemCount > 0 && motionPosition != INVALID_POSITION && motionPosition < adapter.getCount() && sameWindow() is complex.,1208
+47_MvpLightup-master,com.huewu.pla.lib.internal,PerformClick,run,Long Statement,The length of the statement "if (adapter != null && mItemCount > 0 && motionPosition != INVALID_POSITION && motionPosition < adapter.getCount() && sameWindow()) {" is 133.,1208
+47_MvpLightup-master,com.huewu.pla.lib.internal,CheckForTap,run,Complex Method,Cyclomatic complexity of the method is 8,1308
+47_MvpLightup-master,com.huewu.pla.lib.internal,FlingRunnable,run,Missing default,The following switch statement is missing a default case: switch (mTouchMode) {,1835
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,start,Complex Method,Cyclomatic complexity of the method is 9,1948
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Complex Conditional,The conditional expression firstPos == mBoundPos || childCount <= nextViewIndex || firstPos + childCount >= mItemCount is complex.,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Complex Method,Cyclomatic complexity of the method is 19,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Long Method,The method has 107 lines of code.,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Magic Number,The method contains a magic number: 2,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,PositionScroller,run,Missing default,The following switch statement is missing a default case: switch (mMode) {,2011
+47_MvpLightup-master,com.huewu.pla.lib.internal,RecycleBin,scrapActiveViews,Complex Method,Cyclomatic complexity of the method is 8,2992
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,onLayout,Long Parameter List,The method has 5 parameters. ,492
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,getSelectedItem,Complex Conditional,The conditional expression adapter != null && adapter.getCount() > 0 && selection >= 0 is complex.,522
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,setFocusable,Long Identifier,The length of the field mDesiredFocusableInTouchModeState is 33.,639
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,setFocusableInTouchMode,Long Identifier,The length of the field mDesiredFocusableInTouchModeState is 33.,652
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,checkFocus,Long Identifier,The length of the field mDesiredFocusableInTouchModeState is 33.,665
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,setOnClickListener,Long Statement,The length of the statement "throw new RuntimeException("Don't call setOnClickListener for an AdapterView. " + "You probably want setOnItemClickListener instead");" is 134.,726
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,onChanged,Complex Conditional,The conditional expression PLA_AdapterView.this.getAdapter().hasStableIds() && mInstanceState != null && mOldItemCount == 0 && mItemCount > 0 is complex.,752
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,onChanged,Long Statement,The length of the statement "if (PLA_AdapterView.this.getAdapter().hasStableIds() && mInstanceState != null && mOldItemCount == 0 && mItemCount > 0) {" is 121.,752
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,findSyncPosition,Complex Conditional,The conditional expression hitFirst || (next && !hitLast) is complex.,840
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,findSyncPosition,Complex Conditional,The conditional expression hitLast || (!next && !hitFirst) is complex.,840
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_AdapterView,findSyncPosition,Complex Method,Cyclomatic complexity of the method is 9,840
+47_MvpLightup-master,com.huewu.pla.lib.internal,AdapterDataSetObserver,onChanged,Complex Conditional,The conditional expression PLA_AdapterView.this.getAdapter().hasStableIds() && mInstanceState != null && mOldItemCount == 0 && mItemCount > 0 is complex.,752
+47_MvpLightup-master,com.huewu.pla.lib.internal,AdapterDataSetObserver,onChanged,Long Statement,The length of the statement "if (PLA_AdapterView.this.getAdapter().hasStableIds() && mInstanceState != null && mOldItemCount == 0 && mItemCount > 0) {" is 121.,752
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,adjustViewsUpOrDown,Complex Method,Cyclomatic complexity of the method is 8,176
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,requestChildRectangleOnScreen,Complex Method,Cyclomatic complexity of the method is 10,533
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onMeasure,Complex Conditional,The conditional expression mItemCount > 0 && (widthMode == MeasureSpec.UNSPECIFIED || heightMode == MeasureSpec.UNSPECIFIED) is complex.,729
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onMeasure,Magic Number,The method contains a magic number: 2,729
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,measureHeightOfChildren,Long Parameter List,The method has 5 parameters. ,808
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,measureHeightOfChildren,Long Statement,The length of the statement "return (disallowPartialChildPosition >= 0) && (i > disallowPartialChildPosition) && (prevHeightWithoutPartialChild > 0)&& (returnedHeight != maxHeight) ? prevHeightWithoutPartialChild : maxHeight;" is 196.,808
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,correctTooHigh,Complex Conditional,The conditional expression bottomOffset > 0 && (mFirstPosition > 0 || firstTop < mListPadding.top) is complex.,963
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Complex Method,Cyclomatic complexity of the method is 27,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Long Method,The method has 136 lines of code.,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Long Statement,The length of the statement "throw new IllegalStateException("The content of the adapter has changed but " + "ListView did not receive a notification. Make sure the content of " + "your adapter is not modified from a background thread` but only "+ "from the UI thread. [in ListView(" + getId() + "` "+ getClass()+ ") with Adapter("+ mAdapter.getClass()+ ")]");" is 331.,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Missing default,The following switch statement is missing a default case: switch (mLayoutMode) {,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,layoutChildren,Missing default,The following switch statement is missing a default case: switch (mLayoutMode) {,1068
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setupChild,Complex Conditional,The conditional expression (recycled && !p.forceAdd) || (p.recycledHeaderFooter && p.viewType == PLA_AdapterView.ITEM_VIEW_TYPE_HEADER_OR_FOOTER) is complex.,1329
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setupChild,Complex Method,Cyclomatic complexity of the method is 10,1329
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setupChild,Long Parameter List,The method has 7 parameters. ,1329
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setupChild,Long Statement,The length of the statement "if ((recycled && !p.forceAdd) || (p.recycledHeaderFooter && p.viewType == PLA_AdapterView.ITEM_VIEW_TYPE_HEADER_OR_FOOTER)) {" is 125.,1329
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onLayoutChild,Long Parameter List,The method has 6 parameters. ,1424
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,lookForSelectablePosition,Complex Method,Cyclomatic complexity of the method is 8,1466
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchPopulateAccessibilityEvent,Magic Number,The method contains a magic number: 15,1507
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,scrollListItemsBy,Complex Method,Cyclomatic complexity of the method is 11,1574
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setCacheColorHint,Magic Number,The method contains a magic number: 24,1717
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,setCacheColorHint,Magic Number,The method contains a magic number: 0xFF,1717
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression drawDividers || drawOverscrollHeader || drawOverscrollFooter is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression fillForMissingDividers && mDividerPaint == null && mIsCacheColorOpaque is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression (headerDividers || first + i >= headerCount) && (footerDividers || first + i < footerLimit) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression drawDividers && (bottom < listBottom && !(drawOverscrollFooter && i == count - 1)) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression (areAllItemsSelectable || (adapter.isEnabled(first + i) && (i == count - 1 || adapter.isEnabled(first + i + 1)))) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression drawOverscrollFooter && first + count == itemCount && overFooterBottom > bottom is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression (headerDividers || first + i >= headerCount) && (footerDividers || first + i < footerLimit) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Conditional,The conditional expression (areAllItemsSelectable || (adapter.isEnabled(first + i) && (i == count - 1 || adapter.isEnabled(first + i + 1)))) is complex.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Complex Method,Cyclomatic complexity of the method is 22,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,dispatchDraw,Long Method,The method has 112 lines of code.,1764
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onFocusChanged,Complex Method,Cyclomatic complexity of the method is 8,2057
+47_MvpLightup-master,com.huewu.pla.lib.internal,PLA_ListView,onTouchEvent,Complex Conditional,The conditional expression mItemsCanFocus && ev.getAction() == MotionEvent.ACTION_DOWN && ev.getEdgeFlags() != 0 is complex.,2129
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnListView,onLayout,Long Parameter List,The method has 5 parameters. ,113
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnListView,onMeasure,Long Statement,The length of the statement "int width=(getMeasuredWidth() - mListPadding.left - mListPadding.right- mColumnPaddingLeft- mColumnPaddingRight) / mColumnNumber;" is 129.,119
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnListView,onScrollStateChanged,Complex Conditional,The conditional expression scrollState == OnScrollListener.SCROLL_STATE_IDLE && visibleLastIndex == lastIndex && loadingMoreComplete is complex.,481
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Long Identifier,The length of the field ROTATE_ARROW_ANIMATION_DURATION is 31.,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Long Statement,The length of the statement "reverseFlipAnimation=new RotateAnimation(-180`0`RotateAnimation.RELATIVE_TO_SELF`0.5f`RotateAnimation.RELATIVE_TO_SELF`0.5f);" is 125.,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Long Statement,The length of the statement "refreshingAnimation=new RotateAnimation(0`720`RotateAnimation.RELATIVE_TO_SELF`0.5f`RotateAnimation.RELATIVE_TO_SELF`0.5f);" is 123.,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 180,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 180,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 720,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 1200,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onInterceptTouchEvent,Complex Conditional,The conditional expression lockScrollWhileRefreshing && (state == State.REFRESHING || getAnimation() != null && !getAnimation().hasEnded()) is complex.,278
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 8,278
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onTouchEvent,Complex Conditional,The conditional expression lockScrollWhileRefreshing && (state == State.REFRESHING || getAnimation() != null && !getAnimation().hasEnded()) is complex.,307
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onTouchEvent,Complex Conditional,The conditional expression enablePull(event) && (state == State.RELEASE_TO_REFRESH || getFirstVisiblePosition() == 0) is complex.,307
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 12,307
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (state) {,307
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,bounceBackHeader,Long Statement,The length of the statement "int yTranslate=state == State.REFRESHING ? header.getHeight() - headerContainer.getHeight() : -headerContainer.getHeight() - headerContainer.getTop();" is 150.,364
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,bounceBackHeader,Long Statement,The length of the statement "bounceAnimation=new TranslateAnimation(TranslateAnimation.ABSOLUTE`0`TranslateAnimation.ABSOLUTE`0`TranslateAnimation.ABSOLUTE`0`TranslateAnimation.ABSOLUTE`yTranslate);" is 169.,364
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnListView,onLayout,Long Parameter List,The method has 5 parameters. ,113
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnListView,onMeasure,Long Statement,The length of the statement "int width=(getMeasuredWidth() - mListPadding.left - mListPadding.right- mColumnPaddingLeft- mColumnPaddingRight) / mColumnNumber;" is 129.,119
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnListView,onScrollStateChanged,Complex Conditional,The conditional expression scrollState == OnScrollListener.SCROLL_STATE_IDLE && visibleLastIndex == lastIndex && loadingMoreComplete is complex.,481
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Long Identifier,The length of the field ROTATE_ARROW_ANIMATION_DURATION is 31.,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Long Statement,The length of the statement "reverseFlipAnimation=new RotateAnimation(-180`0`RotateAnimation.RELATIVE_TO_SELF`0.5f`RotateAnimation.RELATIVE_TO_SELF`0.5f);" is 125.,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Long Statement,The length of the statement "refreshingAnimation=new RotateAnimation(0`720`RotateAnimation.RELATIVE_TO_SELF`0.5f`RotateAnimation.RELATIVE_TO_SELF`0.5f);" is 123.,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 180,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 180,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 720,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 0.5f,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,init,Magic Number,The method contains a magic number: 1200,221
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onInterceptTouchEvent,Complex Conditional,The conditional expression lockScrollWhileRefreshing && (state == State.REFRESHING || getAnimation() != null && !getAnimation().hasEnded()) is complex.,278
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 8,278
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onTouchEvent,Complex Conditional,The conditional expression lockScrollWhileRefreshing && (state == State.REFRESHING || getAnimation() != null && !getAnimation().hasEnded()) is complex.,307
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onTouchEvent,Complex Conditional,The conditional expression enablePull(event) && (state == State.RELEASE_TO_REFRESH || getFirstVisiblePosition() == 0) is complex.,307
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 12,307
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (state) {,307
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,bounceBackHeader,Long Statement,The length of the statement "int yTranslate=state == State.REFRESHING ? header.getHeight() - headerContainer.getHeight() : -headerContainer.getHeight() - headerContainer.getTop();" is 150.,364
+47_MvpLightup-master,com.huewu.pla.lib,MultiColumnPullToRefreshListView,bounceBackHeader,Long Statement,The length of the statement "bounceAnimation=new TranslateAnimation(TranslateAnimation.ABSOLUTE`0`TranslateAnimation.ABSOLUTE`0`TranslateAnimation.ABSOLUTE`0`TranslateAnimation.ABSOLUTE`yTranslate);" is 169.,364
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,IndexScroller,Magic Number,The method contains a magic number: 20,55
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,IndexScroller,Magic Number,The method contains a magic number: 10,55
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,IndexScroller,Magic Number,The method contains a magic number: 5,55
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Long Statement,The length of the statement "RectF previewRect=new RectF((mListViewWidth - previewSize) / 2`(mListViewHeight - previewSize) / 2`(mListViewWidth - previewSize) / 2 + previewSize`(mListViewHeight - previewSize) / 2 + previewSize);" is 199.,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Long Statement,The length of the statement "canvas.drawText(mSections[mCurrentSection]`previewRect.left + (previewSize - previewTextWidth) / 2 - 1`previewRect.top + mPreviewPadding - previewTextPaint.ascent() + 1`previewTextPaint);" is 187.,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Long Statement,The length of the statement "canvas.drawText(mSections[i]`mIndexbarRect.left + paddingLeft`mIndexbarRect.top + mIndexbarMargin + sectionHeight * i + paddingTop - indexPaint.ascent()`indexPaint);" is 165.,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 64,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 5,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 5,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 96,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 3,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 64,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 50,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 5,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 5,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 255,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 12,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,119
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,setState,Magic Number,The method contains a magic number: 3000,185
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,getSectionByPoint,Long Statement,The length of the statement "return (int)((y - mIndexbarRect.top - mIndexbarMargin) / ((mIndexbarRect.height() - 2 * mIndexbarMargin) / mSections.length));" is 126.,217
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,getSectionByPoint,Magic Number,The method contains a magic number: 2,217
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 0.2,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 0.9,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 10,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 0.2,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 0.1,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 10,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,IndexScroller,Magic Number,The method contains a magic number: 20,55
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,IndexScroller,Magic Number,The method contains a magic number: 10,55
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,IndexScroller,Magic Number,The method contains a magic number: 5,55
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Long Statement,The length of the statement "RectF previewRect=new RectF((mListViewWidth - previewSize) / 2`(mListViewHeight - previewSize) / 2`(mListViewWidth - previewSize) / 2 + previewSize`(mListViewHeight - previewSize) / 2 + previewSize);" is 199.,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Long Statement,The length of the statement "canvas.drawText(mSections[mCurrentSection]`previewRect.left + (previewSize - previewTextWidth) / 2 - 1`previewRect.top + mPreviewPadding - previewTextPaint.ascent() + 1`previewTextPaint);" is 187.,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Long Statement,The length of the statement "canvas.drawText(mSections[i]`mIndexbarRect.left + paddingLeft`mIndexbarRect.top + mIndexbarMargin + sectionHeight * i + paddingTop - indexPaint.ascent()`indexPaint);" is 165.,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 64,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 5,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 5,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 96,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 3,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 64,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 50,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 5,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 5,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 255,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 12,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,draw,Magic Number,The method contains a magic number: 2,66
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,119
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,setState,Magic Number,The method contains a magic number: 3000,185
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,getSectionByPoint,Long Statement,The length of the statement "return (int)((y - mIndexbarRect.top - mIndexbarMargin) / ((mIndexbarRect.height() - 2 * mIndexbarMargin) / mSections.length));" is 126.,217
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,getSectionByPoint,Magic Number,The method contains a magic number: 2,217
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 0.2,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 0.9,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 10,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 0.2,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 0.1,234
+47_MvpLightup-master,com.woozzu.android.widget,IndexScroller,handleMessage,Magic Number,The method contains a magic number: 10,234
+47_MvpLightup-master,me.maxwin.view,XListView,onLayout,Long Parameter List,The method has 5 parameters. ,124
+47_MvpLightup-master,me.maxwin.view,XListView,resetHeaderHeight,Magic Number,The method contains a magic number: 100,270
+47_MvpLightup-master,me.maxwin.view,XListView,startLoadMore,Complex Conditional,The conditional expression mEnablePullLoad && mFooterView.getBottomMargin() > PULL_LOAD_MORE_DELTA && !mPullLoading is complex.,316
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Complex Conditional,The conditional expression getFirstVisiblePosition() == 0 && (mHeaderView.getVisiableHeight() > 0 || deltaY > 0) && !mPullRefreshing is complex.,329
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Complex Conditional,The conditional expression getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) && !mPullLoading is complex.,329
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,329
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Long Statement,The length of the statement "else if (getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) && !mPullLoading) {" is 129.,329
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (ev.getAction()) {,329
+47_MvpLightup-master,me.maxwin.view,XListView,startOnRefresh,Complex Conditional,The conditional expression mEnablePullRefresh && mHeaderView.getVisiableHeight() > mHeaderViewHeight && !mPullRefreshing is complex.,381
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 180.0f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 3000,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 180.0f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,setState,Complex Method,Cyclomatic complexity of the method is 9,84
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,setState,Missing default,The following switch statement is missing a default case: switch (state) {,84
+47_MvpLightup-master,me.maxwin.view,XListView,onLayout,Long Parameter List,The method has 5 parameters. ,124
+47_MvpLightup-master,me.maxwin.view,XListView,resetHeaderHeight,Magic Number,The method contains a magic number: 100,266
+47_MvpLightup-master,me.maxwin.view,XListView,startLoadMore,Complex Conditional,The conditional expression mEnablePullLoad && mFooterView.getBottomMargin() > PULL_LOAD_MORE_DELTA && !mPullLoading is complex.,312
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Complex Conditional,The conditional expression getFirstVisiblePosition() == 0 && (mHeaderView.getVisiableHeight() > 0 || deltaY > 0) && !mPullRefreshing is complex.,325
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Complex Conditional,The conditional expression getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) && !mPullLoading is complex.,325
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,325
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Long Statement,The length of the statement "else if (getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) && !mPullLoading) {" is 129.,325
+47_MvpLightup-master,me.maxwin.view,XListView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (ev.getAction()) {,325
+47_MvpLightup-master,me.maxwin.view,XListView,startOnRefresh,Complex Conditional,The conditional expression mEnablePullRefresh && mHeaderView.getVisiableHeight() > mHeaderViewHeight && !mPullRefreshing is complex.,377
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 180.0f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 3000,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 180.0f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,54
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,setState,Complex Method,Cyclomatic complexity of the method is 9,83
+47_MvpLightup-master,me.maxwin.view,XListViewHeader,setState,Missing default,The following switch statement is missing a default case: switch (state) {,83

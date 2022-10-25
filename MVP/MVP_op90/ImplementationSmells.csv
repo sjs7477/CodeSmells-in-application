@@ -1,0 +1,64 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+90_MyAppMVP-master,com.demo.myappmvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+90_MyAppMVP-master,com.demo.myappmvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+90_MyAppMVP-master,com.demo.myappmvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+90_MyAppMVP-master,com.demo.myappmvp.adapter,MainActivity,initView,Magic Number,The method contains a magic number: 2,42
+90_MyAppMVP-master,com.demo.myappmvp.adapter,SectionsPagerAdapter,getItem,Long Statement,The length of the statement "return mShoppingCartFragment=(null == mShoppingCartFragment) ? ShoppingCartFragment.newInstance() : mShoppingCartFragment;" is 122.,26
+90_MyAppMVP-master,com.demo.myappmvp.adapter,SectionsPagerAdapter,getItem,Missing default,The following switch statement is missing a default case: switch (position) {,26
+90_MyAppMVP-master,com.demo.myappmvp.adapter,SectionsPagerAdapter,getCount,Magic Number,The method contains a magic number: 3,47
+90_MyAppMVP-master,com.demo.myappmvp.data.http,BlogService,uploadPhoto,Long Parameter List,The method has 6 parameters. ,38
+90_MyAppMVP-master,com.demo.myappmvp.data.http,OkHttpClientUtil,OkHttpClientUtil,Magic Number,The method contains a magic number: 30,16
+90_MyAppMVP-master,com.demo.myappmvp.data.http,OkHttpClientUtil,OkHttpClientUtil,Magic Number,The method contains a magic number: 30,16
+90_MyAppMVP-master,com.demo.myappmvp.data.http,RetrofitUtil,RetrofitUtil,Long Statement,The length of the statement "mRetrofit=new Retrofit.Builder().baseUrl(TEXT_BASIC_WWW_URL).client(OkHttpClientUtil.getInstance().getOkHttpClient()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build();" is 234.,32
+90_MyAppMVP-master,com.demo.myappmvp.data.http,RetrofitUtil,getPList,Long Statement,The length of the statement "mService.getPList(ACTION_PRODUCTS`CMD_PRODUCTS`PL`(String)mSPUtil.get(SPUtil.TOKEN`"")).subscribeOn(Schedulers.newThread()).unsubscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).subscribe(subscriber);" is 234.,55
+90_MyAppMVP-master,com.demo.myappmvp.data.http,RetrofitUtil,getToken,Long Statement,The length of the statement "mService.getToken(ACTION_TOKEN`CMD_TOKEN`PL`KEY).subscribeOn(Schedulers.newThread()).unsubscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).subscribe(subscriber);" is 195.,63
+90_MyAppMVP-master,com.demo.myappmvp.data.http,VolleyRequest,confirmOrders,Long Parameter List,The method has 7 parameters. ,205
+90_MyAppMVP-master,com.demo.myappmvp.data.http,VolleyRequest,getMyOrderList,Long Parameter List,The method has 5 parameters. ,272
+90_MyAppMVP-master,com.demo.myappmvp.data.http,VolleyRequest,addAddress,Long Parameter List,The method has 8 parameters. ,329
+90_MyAppMVP-master,com.demo.myappmvp.data.http,VolleyRequest,editAddress,Long Parameter List,The method has 9 parameters. ,372
+90_MyAppMVP-master,com.demo.myappmvp.data.http,VolleyRequest,creatDeliveryOrders,Long Parameter List,The method has 6 parameters. ,496
+90_MyAppMVP-master,com.demo.myappmvp.data.http,VolleyRequest,addComment,Long Parameter List,The method has 6 parameters. ,606
+90_MyAppMVP-master,com.demo.myappmvp.data.http,VolleyRequest,creatFriendOrder,Long Parameter List,The method has 5 parameters. ,835
+90_MyAppMVP-master,com.demo.myappmvp.data,ProductData,getPList,Magic Number,The method contains a magic number: 99,21
+90_MyAppMVP-master,com.demo.myappmvp.data,ProductData,onNext,Magic Number,The method contains a magic number: 99,33
+90_MyAppMVP-master,com.demo.myappmvp.data,Task,equals,Long Statement,The length of the statement "return Objects.equals(mId`task.mId) && Objects.equals(mTitle`task.mTitle) && Objects.equals(mDescription`task.getDescription());" is 128.,78
+90_MyAppMVP-master,com.demo.myappmvp.home,HomePresenter,getProductList,Long Statement,The length of the statement "com.demo.myappmvp.data.entity.ProductEntity entity=LoadDataUtil.getInstance().getJsonData(response`com.demo.myappmvp.data.entity.ProductEntity.class);" is 150.,27
+90_MyAppMVP-master,com.demo.myappmvp.home,HomePresenter,getProductList,Magic Number,The method contains a magic number: 99,27
+90_MyAppMVP-master,com.demo.myappmvp.home,HomePresenter,success,Long Statement,The length of the statement "com.demo.myappmvp.data.entity.ProductEntity entity=LoadDataUtil.getInstance().getJsonData(response`com.demo.myappmvp.data.entity.ProductEntity.class);" is 150.,29
+90_MyAppMVP-master,com.demo.myappmvp.home,HomePresenter,success,Magic Number,The method contains a magic number: 99,29
+90_MyAppMVP-master,com.demo.myappmvp.tasks,TasksActivity,setupDrawerContent,Missing default,The following switch statement is missing a default case: switch (menuItem.getItemId()) {,50
+90_MyAppMVP-master,com.demo.myappmvp.tasks,TasksPresenter,loadTasks,Long Statement,The length of the statement ").subscribe(this::processTasks`throwable -> mTasksView.showLoadingTasksError()`() -> mTasksView.setLoadingIndicator(false));" is 124.,68
+90_MyAppMVP-master,com.demo.myappmvp.tasks,TasksPresenter,loadTasks,Missing default,The following switch statement is missing a default case: switch (mCurrentFiltering) {,68
+90_MyAppMVP-master,com.demo.myappmvp.tasks,TasksPresenter,showFilterlabel,Missing default,The following switch statement is missing a default case: switch (mCurrentFiltering) {,126
+90_MyAppMVP-master,com.demo.myappmvp.tasks,TasksPresenter,processEmptyTasks,Missing default,The following switch statement is missing a default case: switch (mCurrentFiltering) {,140
+90_MyAppMVP-master,com.demo.myappmvp.utils,SPUtil,getChannel,Magic Number,The method contains a magic number: 2,154
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 14,149
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,dismissView,Magic Number,The method contains a magic number: 2,256
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,killView,Long Statement,The length of the statement "mRootView.addView(imageView`new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 129.,267
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,killView,Magic Number,The method contains a magic number: 20,267
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,initSpring,Long Parameter List,The method has 5 parameters. ,371
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,update,Magic Number,The method contains a magic number: 2,391
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,update,Magic Number,The method contains a magic number: 2,391
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,updatePosition,Magic Number,The method contains a magic number: 0.2f,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,startSpringAction,Magic Number,The method contains a magic number: 120,467
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,DragIndicatorView,startSpringAction,Magic Number,The method contains a magic number: 5,467
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,initSpring,Long Parameter List,The method has 5 parameters. ,371
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,update,Magic Number,The method contains a magic number: 2,391
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,update,Magic Number,The method contains a magic number: 2,391
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,updatePosition,Magic Number,The method contains a magic number: 0.2f,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,updatePosition,Magic Number,The method contains a magic number: 2,401
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,startSpringAction,Magic Number,The method contains a magic number: 120,467
+90_MyAppMVP-master,com.demo.myappmvp.widget.dragindicator,SpringView,startSpringAction,Magic Number,The method contains a magic number: 5,467

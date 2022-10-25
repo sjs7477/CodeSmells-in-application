@@ -1,0 +1,117 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+50_MyMVP-master,test.aron.com.fragmentdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+50_MyMVP-master,test.aron.com.fragmentdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+50_MyMVP-master,test.aron.com.fragmentdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+50_MyMVP-master,test.aron.com.fragmentdemo.impl,CallBackImpl,onResponse,Magic Number,The method contains a magic number: 2000,28
+50_MyMVP-master,test.aron.com.fragmentdemo.impl,CallBackImpl,run,Magic Number,The method contains a magic number: 2000,31
+50_MyMVP-master,test.aron.com.fragmentdemo.ui.fragment,ItemFragment,setData,Magic Number,The method contains a magic number: 10,64
+50_MyMVP-master,com.aron.framedemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+50_MyMVP-master,com.aron.framedemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+50_MyMVP-master,com.aron.framedemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,RetrofitManager,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(Constant.NETEAST_HOST).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).client(getOkHttpClient()).build();" is 214.,41
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,getOkHttpClient,Long Statement,The length of the statement "sOkHttpClient=new OkHttpClient.Builder().cache(cache).connectTimeout(6`TimeUnit.SECONDS).readTimeout(6`TimeUnit.SECONDS).writeTimeout(6`TimeUnit.SECONDS).addInterceptor(mLoggingInterceptor).build();" is 198.,49
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 1024,49
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 1024,49
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 100,49
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 6,49
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 6,49
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 6,49
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,intercept,Long Statement,The length of the statement "KLog.i(String.format(Locale.getDefault()`"Received response for %s in %.1fms%n%s"`response.request().url()`(t2 - t1) / 1e6d`response.headers()));" is 145.,68
+50_MyMVP-master,com.aron.framedemo.api,RetrofitManager,intercept,Magic Number,The method contains a magic number: 1e6d,68
+50_MyMVP-master,com.aron.framedemo.presenter.impl,NewsDetailPresenterImpl,isChange,Magic Number,The method contains a magic number: 2,71
+50_MyMVP-master,com.aron.framedemo.presenter.impl,NewsPresenterImpl,loadNewsData,Long Statement,The length of the statement "RetrofitManager.getInstance().getNewsListObservable(mNewsType`mNewsId`mStartPage).flatMap(new Func1<Map<String`List<NewsSummary>>`Observable<NewsSummary>>(){" is 157.,36
+50_MyMVP-master,com.aron.framedemo.presenter.impl,NewsPresenterImpl,loadNewsData,Magic Number,The method contains a magic number: 20,36
+50_MyMVP-master,com.aron.framedemo.presenter.impl,NewsPresenterImpl,onNext,Magic Number,The method contains a magic number: 20,70
+50_MyMVP-master,com.aron.framedemo.ui.activity,MainActivity,initRecyclerView,Complex Conditional,The conditional expression !mIsAllLoaded && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItemPosition >= totalItemCount - 1 is complex.,81
+50_MyMVP-master,com.aron.framedemo.ui.activity,MainActivity,initRecyclerView,Long Statement,The length of the statement "if (!mIsAllLoaded && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItemPosition >= totalItemCount - 1) {" is 139.,81
+50_MyMVP-master,com.aron.framedemo.ui.activity,MainActivity,onScrollStateChanged,Complex Conditional,The conditional expression !mIsAllLoaded && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItemPosition >= totalItemCount - 1 is complex.,87
+50_MyMVP-master,com.aron.framedemo.ui.activity,MainActivity,onScrollStateChanged,Long Statement,The length of the statement "if (!mIsAllLoaded && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItemPosition >= totalItemCount - 1) {" is 139.,87
+50_MyMVP-master,com.aron.framedemo.ui.activity,MainActivity,startActivity,Long Statement,The length of the statement "ActivityOptions options=ActivityOptions.makeSceneTransitionAnimation(this`newsSummaryPhotoIv`Constant.TRANSITION_ANIMATION_NEWS_PHOTOS);" is 136.,227
+50_MyMVP-master,com.aron.framedemo.ui.activity,MainActivity,startActivity,Long Statement,The length of the statement "ActivityOptionsCompat options=ActivityOptionsCompat.makeScaleUpAnimation(view`view.getWidth() / 2`view.getHeight() / 2`0`0);" is 124.,227
+50_MyMVP-master,com.aron.framedemo.ui.activity,MainActivity,startActivity,Magic Number,The method contains a magic number: 2,227
+50_MyMVP-master,com.aron.framedemo.ui.activity,MainActivity,startActivity,Magic Number,The method contains a magic number: 2,227
+50_MyMVP-master,com.aron.framedemo.ui.activity,NewsDetailActivity,setNewsDetailPhotoIv,Long Statement,The length of the statement "Glide.with(this).load(imgSrc).asBitmap().placeholder(R.drawable.ic_loading).format(DecodeFormat.PREFER_ARGB_8888).error(R.drawable.ic_load_fail).diskCacheStrategy(DiskCacheStrategy.ALL).into(mNewsDetailPhotoIv);" is 211.,113
+50_MyMVP-master,com.aron.framedemo.ui.activity,NewsDetailActivity,setNewsDetailBodyTv,Long Statement,The length of the statement "Observable.timer(500`TimeUnit.MILLISECONDS).compose(TransformUtils.<Long>defaultSchedulers()).subscribe(new Subscriber<Long>(){" is 127.,122
+50_MyMVP-master,com.aron.framedemo.ui.activity,NewsDetailActivity,setNewsDetailBodyTv,Magic Number,The method contains a magic number: 500,122
+50_MyMVP-master,com.aron.framedemo.ui.activity,NewsDetailActivity,isShowBody,Magic Number,The method contains a magic number: 2,154
+50_MyMVP-master,com.aron.framedemo.ui.adapter.base,BaseRecyclerViewAdapter,onBindViewHolder,Long Statement,The length of the statement "StaggeredGridLayoutManager.LayoutParams params=(StaggeredGridLayoutManager.LayoutParams)holder.itemView.getLayoutParams();" is 122.,40
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,onCreateViewHolder,Long Statement,The length of the statement "throw new RuntimeException("there is no type that matches the type " + viewType + " + make sure your using types correctly");" is 125.,39
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,onCreateViewHolder,Missing default,The following switch statement is missing a default case: switch (viewType) {,39
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setItemValues,Long Statement,The length of the statement "Glide.with(BaseApplication.getAppContext()).load(imgSrc).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.color.image_place_holder).error(R.drawable.ic_load_fail).into(holder.mNewsSummaryPhotoIv);" is 251.,94
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Complex Method,Cyclomatic complexity of the method is 9,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Long Statement,The length of the statement "holder.mNewsSummaryTitleTv.setText(BaseApplication.getAppContext().getString(R.string.photo_collections`adsBeanList.get(0).getTitle()));" is 136.,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 90,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 120,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 150,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 3,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 2,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 2,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 3,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 2,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 2,117
+50_MyMVP-master,com.aron.framedemo.ui.adapter,NewsListAdapter,showAndSetPhoto,Long Statement,The length of the statement "Glide.with(BaseApplication.getAppContext()).load(imgSrc).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.color.image_place_holder).error(R.drawable.ic_load_fail).into(imageView);" is 234.,209
+50_MyMVP-master,com.aron.framedemo.util,DimenUtil,dp2px,Magic Number,The method contains a magic number: 0.5f,26
+50_MyMVP-master,com.aron.framedemo.util,MyUtils,defaultSchedulers,Long Statement,The length of the statement "return tObservable.unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 121.,72
+50_MyMVP-master,com.aron.framedemo.util,MyUtils,call,Long Statement,The length of the statement "return tObservable.unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 121.,75
+50_MyMVP-master,com.aron.framedemo.util,MyUtils,isNightMode,Long Statement,The length of the statement "SharedPreferences preferences=BaseApplication.getAppContext().getSharedPreferences(Constant.SHARES_COLOURFUL_NEWS`Activity.MODE_PRIVATE);" is 137.,94
+50_MyMVP-master,com.aron.framedemo.util,NetUtil,isNetworkAvailable,Long Statement,The length of the statement "ConnectivityManager connectivityManager=(ConnectivityManager)BaseApplication.getAppContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 140.,31
+50_MyMVP-master,com.aron.framedemo.util,TransformUtils,defaultSchedulers,Long Statement,The length of the statement "return tObservable.unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 121.,28
+50_MyMVP-master,com.aron.framedemo.util,TransformUtils,call,Long Statement,The length of the statement "return tObservable.unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 121.,31
+50_MyMVP-master,com.aron.framedemo.widget,ScrollAwareFABBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,33
+50_MyMVP-master,com.aron.framedemo.widget,ScrollAwareFABBehavior,onStartNestedScroll,Long Statement,The length of the statement "return nestedScrollAxes == ViewCompat.SCROLL_AXIS_VERTICAL || super.onStartNestedScroll(coordinatorLayout`child`directTargetChild`target`nestedScrollAxes);" is 155.,33
+50_MyMVP-master,com.aron.framedemo.widget,ScrollAwareFABBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,41
+50_MyMVP-master,com.aron.framedemo.widget,URLImageGetter,getDrawableFromNet,Long Statement,The length of the statement "mSubscription=RetrofitManager.getInstance().getNewsBodyHtmlPhoto(source).unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).map(new Func1<ResponseBody`Boolean>(){" is 213.,94
+50_MyMVP-master,com.aron.framedemo.widget,URLImageGetter,WritePicToDisk,Magic Number,The method contains a magic number: 1024,130
+50_MyMVP-master,com.aron.framedemo.widget,URLImageGetter,createPicPlaceholder,Magic Number,The method contains a magic number: 3,161
+50_MyMVP-master,test.aron.com.mvpdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+50_MyMVP-master,test.aron.com.mvpdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+50_MyMVP-master,test.aron.com.mvpdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+50_MyMVP-master,test.aron.com.mvpdemo.api,RestApi,createApiClient,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(baseUrl).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build();" is 174.,21
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,RetrofitManager,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(Common.NETEAST_HOST).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).client(getOkHttpClient()).build();" is 212.,39
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,getOkHttpClient,Long Statement,The length of the statement "sOkHttpClient=new OkHttpClient.Builder().cache(cache).connectTimeout(6`TimeUnit.SECONDS).readTimeout(6`TimeUnit.SECONDS).writeTimeout(6`TimeUnit.SECONDS).addInterceptor(mLoggingInterceptor).build();" is 198.,47
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 1024,47
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 1024,47
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 100,47
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 6,47
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 6,47
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,getOkHttpClient,Magic Number,The method contains a magic number: 6,47
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,intercept,Long Statement,The length of the statement "KLog.i(String.format(Locale.getDefault()`"Received response for %s in %.1fms%n%s"`response.request().url()`(t2 - t1) / 1e6d`response.headers()));" is 145.,66
+50_MyMVP-master,test.aron.com.mvpdemo.common,RetrofitManager,intercept,Magic Number,The method contains a magic number: 1e6d,66
+50_MyMVP-master,test.aron.com.mvpdemo.presenter.impl,DeviceInfoPresenterImpl,onLoadDeviceInfoData,Long Statement,The length of the statement "service.getDeviceInfo_(body).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(subscriber);" is 122.,21
+50_MyMVP-master,test.aron.com.mvpdemo.presenter.impl,NewsPresenterImpl,loadNewsData,Long Statement,The length of the statement "RetrofitManager.getInstance().getNewsListObservable(mNewsType`mNewsId`mStartPage).flatMap(new Func1<Map<String`List<NewsSummary>>`Observable<NewsSummary>>(){" is 157.,35
+50_MyMVP-master,test.aron.com.mvpdemo.presenter.impl,NewsPresenterImpl,loadNewsData,Magic Number,The method contains a magic number: 20,35
+50_MyMVP-master,test.aron.com.mvpdemo.presenter.impl,NewsPresenterImpl,onNext,Magic Number,The method contains a magic number: 20,69
+50_MyMVP-master,test.aron.com.mvpdemo.ui.activity,MainActivity,setViewPager,Long Statement,The length of the statement "NewsFragmentPagerAdapter adapter=new NewsFragmentPagerAdapter(getSupportFragmentManager()`channelNames`mNewsFragmentList);" is 122.,71
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter.base,BaseRecyclerViewAdapter,onBindViewHolder,Long Statement,The length of the statement "StaggeredGridLayoutManager.LayoutParams params=(StaggeredGridLayoutManager.LayoutParams)holder.itemView.getLayoutParams();" is 122.,40
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,onCreateViewHolder,Long Statement,The length of the statement "throw new RuntimeException("there is no type that matches the type " + viewType + " + make sure your using types correctly");" is 125.,40
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,onCreateViewHolder,Missing default,The following switch statement is missing a default case: switch (viewType) {,40
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setItemValues,Long Statement,The length of the statement "Glide.with(BaseApplication.getAppContext()).load(imgSrc).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.color.image_place_holder).error(R.drawable.ic_load_fail).into(holder.mNewsSummaryPhotoIv);" is 251.,95
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Complex Method,Cyclomatic complexity of the method is 9,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Long Statement,The length of the statement "holder.mNewsSummaryTitleTv.setText(BaseApplication.getAppContext().getString(R.string.photo_collections`adsBeanList.get(0).getTitle()));" is 136.,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 90,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 120,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 150,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 3,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 2,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 2,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 3,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 2,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,setImageView,Magic Number,The method contains a magic number: 2,119
+50_MyMVP-master,test.aron.com.mvpdemo.ui.adapter,NewsListAdapter,showAndSetPhoto,Long Statement,The length of the statement "Glide.with(BaseApplication.getAppContext()).load(imgSrc).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.color.image_place_holder).error(R.drawable.ic_load_fail).into(imageView);" is 234.,211
+50_MyMVP-master,test.aron.com.mvpdemo.ui.fragment,NewsListFragment,initRecyclerView,Complex Conditional,The conditional expression !mIsAllLoaded && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItemPosition >= totalItemCount - 1 is complex.,83
+50_MyMVP-master,test.aron.com.mvpdemo.ui.fragment,NewsListFragment,initRecyclerView,Long Statement,The length of the statement "if (!mIsAllLoaded && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItemPosition >= totalItemCount - 1) {" is 139.,83
+50_MyMVP-master,test.aron.com.mvpdemo.ui.fragment,NewsListFragment,onScrollStateChanged,Complex Conditional,The conditional expression !mIsAllLoaded && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItemPosition >= totalItemCount - 1 is complex.,89
+50_MyMVP-master,test.aron.com.mvpdemo.ui.fragment,NewsListFragment,onScrollStateChanged,Long Statement,The length of the statement "if (!mIsAllLoaded && visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItemPosition >= totalItemCount - 1) {" is 139.,89
+50_MyMVP-master,test.aron.com.mvpdemo.utils,DimenUtil,dp2px,Magic Number,The method contains a magic number: 0.5f,26
+50_MyMVP-master,test.aron.com.mvpdemo.utils,MyUtils,defaultSchedulers,Long Statement,The length of the statement "return tObservable.unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 121.,64
+50_MyMVP-master,test.aron.com.mvpdemo.utils,MyUtils,call,Long Statement,The length of the statement "return tObservable.unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 121.,67
+50_MyMVP-master,test.aron.com.mvpdemo.utils,NetUtil,isNetworkAvailable,Long Statement,The length of the statement "ConnectivityManager connectivityManager=(ConnectivityManager)BaseApplication.getAppContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 140.,31
+50_MyMVP-master,test.aron.com.mvpdemo.widget,ScrollAwareFABBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,36
+50_MyMVP-master,test.aron.com.mvpdemo.widget,ScrollAwareFABBehavior,onStartNestedScroll,Long Statement,The length of the statement "return nestedScrollAxes == ViewCompat.SCROLL_AXIS_VERTICAL || super.onStartNestedScroll(coordinatorLayout`child`directTargetChild`target`nestedScrollAxes);" is 155.,36
+50_MyMVP-master,test.aron.com.mvpdemo.widget,ScrollAwareFABBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,44
+50_MyMVP-master,test.aron.com.retrofitdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+50_MyMVP-master,test.aron.com.retrofitdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+50_MyMVP-master,test.aron.com.retrofitdemo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+50_MyMVP-master,test.aron.com.retrofitdemo.api,RestApi,createApiClient,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(baseUrl).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build();" is 174.,21
+50_MyMVP-master,test.aron.com.retrofitdemo.presenter,DeviceInfoPresenter,onLoadDeviceInfoData,Long Statement,The length of the statement "service.getDeviceInfo_(body).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(subscriber);" is 122.,26
+50_MyMVP-master,test.aron.com.retrofitdemo.presenter,StoreFeaturePresenter,onLoadStoreFeatureData,Long Statement,The length of the statement "service.getStoreFeature(body).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(subscriber);" is 123.,26

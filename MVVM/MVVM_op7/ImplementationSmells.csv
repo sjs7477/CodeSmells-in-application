@@ -1,0 +1,334 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 24,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 60,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 60,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 1000,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 1000,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 60,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 60,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 60,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,stringForTime,Magic Number,The method contains a magic number: 3600,33
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,hideSupportActionBar,Long Statement,The length of the statement "fragmentActivity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN`WindowManager.LayoutParams.FLAG_FULLSCREEN);" is 125.,110
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,hideSupportActionBar,Long Statement,The length of the statement "CommonUtil.getAppCompActivity(context).getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN`WindowManager.LayoutParams.FLAG_FULLSCREEN);" is 147.,110
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,hideNavKey,Long Statement,The length of the statement "((Activity)context).getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE);" is 178.,164
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,hideNavKey,Long Statement,The length of the statement "((Activity)context).getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE);" is 183.,164
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,hideNavKey,Long Statement,The length of the statement "((Activity)context).getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);" is 151.,164
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,hideNavKey,Magic Number,The method contains a magic number: 29,164
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,210
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,218
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getTextSpeed,Magic Number,The method contains a magic number: 1024,252
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,CommonUtil,getCurrentScreenLand,Long Statement,The length of the statement "return context.getWindowManager().getDefaultDisplay().getRotation() == Surface.ROTATION_90 || context.getWindowManager().getDefaultDisplay().getRotation() == Surface.ROTATION_270;" is 179.,296
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,AnimationUtil,moveToViewBottom,Long Statement,The length of the statement "TranslateAnimation mHiddenAction=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`1.0f);" is 185.,9
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,AnimationUtil,moveToViewBottom,Magic Number,The method contains a magic number: 300,9
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,AnimationUtil,moveToViewLocation,Long Statement,The length of the statement "TranslateAnimation mHiddenAction=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`1.0f`Animation.RELATIVE_TO_SELF`0.0f);" is 185.,22
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,AnimationUtil,moveToViewLocation,Magic Number,The method contains a magic number: 300,22
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,AnimationUtil,moveTopToViewLocation,Long Statement,The length of the statement "TranslateAnimation mHiddenAction=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`-1.0f`Animation.RELATIVE_TO_SELF`0.0f);" is 186.,35
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,AnimationUtil,moveTopToViewLocation,Magic Number,The method contains a magic number: 300,35
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,AnimationUtil,moveLocationToViewTop,Long Statement,The length of the statement "TranslateAnimation mHiddenAction=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`-1.0f);" is 186.,48
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,AnimationUtil,moveLocationToViewTop,Magic Number,The method contains a magic number: 300,48
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,v,Long Parameter List,The method has 5 parameters. ,73
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,v,Long Parameter List,The method has 6 parameters. ,79
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,v,Long Parameter List,The method has 5 parameters. ,103
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,v,Long Parameter List,The method has 6 parameters. ,109
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,d,Long Parameter List,The method has 5 parameters. ,170
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,d,Long Parameter List,The method has 6 parameters. ,176
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,d,Long Parameter List,The method has 5 parameters. ,200
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,d,Long Parameter List,The method has 6 parameters. ,206
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,i,Long Parameter List,The method has 5 parameters. ,267
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,i,Long Parameter List,The method has 6 parameters. ,273
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,i,Long Parameter List,The method has 5 parameters. ,297
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,FLog,i,Long Parameter List,The method has 6 parameters. ,303
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.utils,ImageLoaders,buildDisplayImageOptions,Long Statement,The length of the statement "return new DisplayImageOptions.Builder().cacheInMemory(true).cacheOnDisk(true).showImageForEmptyUri(drawableId).showImageOnFail(drawableId).showImageOnLoading(drawableId).build();" is 179.,18
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,getCurrentPosition,Empty catch clause,The method has an empty catch block.,93
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,initPlayer,Magic Number,The method contains a magic number: 20,115
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,resume,Magic Number,The method contains a magic number: 100,229
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,start,Magic Number,The method contains a magic number: 100,249
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,start,Magic Number,The method contains a magic number: 10,249
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,onInfo,Missing default,The following switch statement is missing a default case: switch (what) {,385
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,videoPrepared,Empty catch clause,The method has an empty catch block.,450
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,videoPrepared,Magic Number,The method contains a magic number: 100,450
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,bufferStart,Magic Number,The method contains a magic number: 10,470
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,bufferEnd,Magic Number,The method contains a magic number: 10,477
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,doLiveLogin,Magic Number,The method contains a magic number: 50,513
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveReplayView,initCover,Empty catch clause,The method has an empty catch block.,584
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,getCurrentPosition,Empty catch clause,The method has an empty catch block.,76
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,start,Empty catch clause,The method has an empty catch block.,93
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,start,Empty catch clause,The method has an empty catch block.,106
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,switchUrl,Empty catch clause,The method has an empty catch block.,147
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,onPrepared,Magic Number,The method contains a magic number: 100,233
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,onInfo,Magic Number,The method contains a magic number: 10,246
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,onInfo,Magic Number,The method contains a magic number: 10,246
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,onInfo,Missing default,The following switch statement is missing a default case: switch (what) {,246
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCVideoView,initCover,Empty catch clause,The method has an empty catch block.,403
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,inflateViews,Magic Number,The method contains a magic number: 1000,158
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,184
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,start,Magic Number,The method contains a magic number: 1000,335
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,showPauseCover,Complex Conditional,The conditional expression tempBitmap != null && !tempBitmap.isRecycled() && surface != null && surface.isValid() is complex.,392
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,onInfo,Missing default,The following switch statement is missing a default case: switch (what) {,485
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,onVideoSizeChanged,Long Parameter List,The method has 5 parameters. ,513
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,onStreamEnd,Magic Number,The method contains a magic number: 1000,587
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,onLiveStatus,Missing default,The following switch statement is missing a default case: switch (status) {,603
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view,CCLiveVideoView,run,Missing default,The following switch statement is missing a default case: switch (status) {,615
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,initViews,Magic Number,The method contains a magic number: 1000,328
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,initViews,Magic Number,The method contains a magic number: 50,328
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onProgressChanged,Magic Number,The method contains a magic number: 100,417
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onStopTrackingTouch,Magic Number,The method contains a magic number: 100,431
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,handleMessage,Complex Conditional,The conditional expression mContext != null && msg.obj != null && mProgressBar != null is complex.,445
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,handleMessage,Complex Method,Cyclomatic complexity of the method is 53,445
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,handleMessage,Long Method,The method has 222 lines of code.,445
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,handleMessage,Magic Number,The method contains a magic number: 1000,445
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,handleMessage,Magic Number,The method contains a magic number: 100,445
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,handleMessage,Magic Number,The method contains a magic number: 100,445
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,handleMessage,Magic Number,The method contains a magic number: 3,445
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,handleMessage,Magic Number,The method contains a magic number: 1500,445
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateViewFlat,Magic Number,The method contains a magic number: 45,756
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateViewFlat,Magic Number,The method contains a magic number: 800,756
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateViewFlat,Magic Number,The method contains a magic number: 45,756
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateViewFlat,Magic Number,The method contains a magic number: 24,756
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateViewFlat,Magic Number,The method contains a magic number: 24,756
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onClick,Complex Conditional,The conditional expression vId == backImageView.getId() || vId == videoBackNet.getId() || vId == videoBackNoNet.getId() is complex.,800
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onClick,Complex Method,Cyclomatic complexity of the method is 24,800
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onClick,Magic Number,The method contains a magic number: 2,800
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onClick,Magic Number,The method contains a magic number: 1.5f,800
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onClick,Magic Number,The method contains a magic number: 1.25f,800
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onClick,Magic Number,The method contains a magic number: 0.5f,800
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Complex Method,Cyclomatic complexity of the method is 8,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Long Statement,The length of the statement "spannableString.setSpan(new ForegroundColorSpan(Color.parseColor("#FFFF6375"))`6`tip.indexOf("速") + 1`Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);" is 136.,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Magic Number,The method contains a magic number: 2.0,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Magic Number,The method contains a magic number: 1.5,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Magic Number,The method contains a magic number: 1.25,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Magic Number,The method contains a magic number: 0.5,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Magic Number,The method contains a magic number: 1.25,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Magic Number,The method contains a magic number: 6,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateSpeedView,Magic Number,The method contains a magic number: 3000,873
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateAndSendConnectionType,Complex Method,Cyclomatic complexity of the method is 10,984
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,updateAndSendConnectionType,Empty catch clause,The method has an empty catch block.,984
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,setProgressAndTime,Complex Conditional,The conditional expression mProgressBar == null || mTotalTimeTextView == null || mCurrentTimeTextView == null is complex.,1071
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,setProgressAndTime,Complex Method,Cyclomatic complexity of the method is 10,1071
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,setProgressAndTime,Long Parameter List,The method has 5 parameters. ,1071
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,setProgressAndTime,Magic Number,The method contains a magic number: 94,1071
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,setProgressAndTime,Magic Number,The method contains a magic number: 100,1071
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,setTextAndProgress,Magic Number,The method contains a magic number: 100,1100
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,run,Magic Number,The method contains a magic number: 1000,1107
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,startProgressTimer,Magic Number,The method contains a magic number: 300,1131
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,touchSurfaceMoveFullLogic,Complex Method,Cyclomatic complexity of the method is 8,1141
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,touchSurfaceMoveFullLogic,Magic Number,The method contains a magic number: 0.5f,1141
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onBrightnessSlide,Magic Number,The method contains a magic number: 0.50f,1178
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onBrightnessSlide,Magic Number,The method contains a magic number: 0.01f,1178
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onBrightnessSlide,Magic Number,The method contains a magic number: 0.01f,1178
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onBrightnessSlide,Magic Number,The method contains a magic number: 0.01f,1178
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onBrightnessSlide,Magic Number,The method contains a magic number: 0.01f,1178
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,touchSurfaceMove,Complex Method,Cyclomatic complexity of the method is 8,1200
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,touchSurfaceMove,Magic Number,The method contains a magic number: 100,1200
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,touchSurfaceMove,Magic Number,The method contains a magic number: 100,1200
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,touchSurfaceUp,Complex Conditional,The conditional expression mChangePosition && (mCurrentState == CURRENT_STATE_PLAYING || mCurrentState == CURRENT_STATE_PAUSE) is complex.,1236
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,touchSurfaceUp,Magic Number,The method contains a magic number: 100,1236
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onTouch,Complex Conditional,The conditional expression mIfCurrentIsFullscreen && mLockCurScreen && mNeedLockFull is complex.,1276
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onTouch,Complex Conditional,The conditional expression (mIfCurrentIsFullscreen && mIsTouchWigetFull) || (mIsTouchWiget && !mIfCurrentIsFullscreen) is complex.,1276
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onTouch,Complex Conditional,The conditional expression !mChangePosition && !mChangeVolume && !mBrightness is complex.,1276
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onTouch,Complex Method,Cyclomatic complexity of the method is 9,1276
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onTouch,Empty catch clause,The method has an empty catch block.,1276
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onSingleTapConfirmed,Complex Conditional,The conditional expression !mChangePosition && !mChangeVolume && !mBrightness is complex.,1340
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,showProgressDialog,Complex Method,Cyclomatic complexity of the method is 15,1369
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,showProgressDialog,Magic Number,The method contains a magic number: 11,1369
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,showProgressDialog,Magic Number,The method contains a magic number: 11,1369
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,showProgressDialog,Magic Number,The method contains a magic number: 100,1369
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,showVolumeDialog,Magic Number,The method contains a magic number: 2,1451
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,showBrightnessDialog,Magic Number,The method contains a magic number: 2,1492
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,showBrightnessDialog,Magic Number,The method contains a magic number: 1000,1492
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,getTime,Magic Number,The method contains a magic number: 3600,1528
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,getTime,Magic Number,The method contains a magic number: 60,1528
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,getTime,Magic Number,The method contains a magic number: 3600,1528
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,getTime,Magic Number,The method contains a magic number: 60,1528
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.view.base,VideoBaseView,onClickUiToggle,Magic Number,The method contains a magic number: 500,1542
+mvvm_jetpack-android-dev_3.0.0,com.reactlibrary.netstatus,ConnectivityBroadcastReceiver,updateAndSendConnectionType,Complex Method,Cyclomatic complexity of the method is 9,39
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,onConfigurationChanged,Long Statement,The length of the statement "ViewGroup.LayoutParams params=videoCcVideo.getVisibility() == View.VISIBLE ? videoCcVideo.getLayoutParams() : videoCcReplay.getLayoutParams();" is 142.,80
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,onConfigurationChanged,Long Statement,The length of the statement "ViewGroup.LayoutParams params=videoCcVideo.getVisibility() == View.VISIBLE ? videoCcVideo.getLayoutParams() : videoCcReplay.getLayoutParams();" is 142.,80
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,onConfigurationChanged,Magic Number,The method contains a magic number: 9,80
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,onConfigurationChanged,Magic Number,The method contains a magic number: 16,80
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,initReplayVideo,Magic Number,The method contains a magic number: 3,148
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,initReplayVideo,Magic Number,The method contains a magic number: 9,148
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,initReplayVideo,Magic Number,The method contains a magic number: 16,148
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,initVideo,Magic Number,The method contains a magic number: 9,169
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,initVideo,Magic Number,The method contains a magic number: 16,169
+mvvm_jetpack-android-dev_3.0.0,com.test,VideoTestActivity,clickView,Complex Method,Cyclomatic complexity of the method is 9,209
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.live,DWLiveCoreHandler,onPageChange,Long Parameter List,The method has 6 parameters. ,552
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,BaseLinearLayout,BaseLinearLayout,Abstract Function Call From Constructor,The constructor BaseLinearLayout calls a virtual method initViews.,23
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,BaseLinearLayout,BaseLinearLayout,Abstract Function Call From Constructor,The constructor BaseLinearLayout calls a virtual method initViews.,29
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,BaseLinearLayout,BaseLinearLayout,Abstract Function Call From Constructor,The constructor BaseLinearLayout calls a virtual method initViews.,35
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,BaseRelativeLayout,BaseRelativeLayout,Abstract Function Call From Constructor,The constructor BaseRelativeLayout calls a virtual method initViews.,18
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,BaseRelativeLayout,BaseRelativeLayout,Abstract Function Call From Constructor,The constructor BaseRelativeLayout calls a virtual method initViews.,24
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,BaseRelativeLayout,BaseRelativeLayout,Abstract Function Call From Constructor,The constructor BaseRelativeLayout calls a virtual method initViews.,30
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,ResizeTextureView,onMeasure,Complex Method,Cyclomatic complexity of the method is 13,32
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 90,32
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.view,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 270,32
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.replay,DWReplayCoreHandler,hasPdfView,Complex Conditional,The conditional expression dwLiveReplay != null && dwLiveReplay.getTemplateInfo() != null && dwLiveReplay.getTemplateInfo().getPdfView() != null is complex.,150
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.replay,DWReplayCoreHandler,hasPdfView,Long Statement,The length of the statement "if (dwLiveReplay != null && dwLiveReplay.getTemplateInfo() != null && dwLiveReplay.getTemplateInfo().getPdfView() != null) {" is 124.,150
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.replay,DWReplayCoreHandler,hasChatView,Complex Conditional,The conditional expression dwLiveReplay != null && dwLiveReplay.getTemplateInfo() != null && dwLiveReplay.getTemplateInfo().getPdfView() != null is complex.,161
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.replay,DWReplayCoreHandler,hasChatView,Long Statement,The length of the statement "if (dwLiveReplay != null && dwLiveReplay.getTemplateInfo() != null && dwLiveReplay.getTemplateInfo().getPdfView() != null) {" is 124.,161
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.replay,DWReplayCoreHandler,hasQaView,Complex Conditional,The conditional expression dwLiveReplay != null && dwLiveReplay.getTemplateInfo() != null && dwLiveReplay.getTemplateInfo().getPdfView() != null is complex.,172
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.replay,DWReplayCoreHandler,hasQaView,Long Statement,The length of the statement "if (dwLiveReplay != null && dwLiveReplay.getTemplateInfo() != null && dwLiveReplay.getTemplateInfo().getPdfView() != null) {" is 124.,172
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.replay,DWReplayCoreHandler,replayVideoPrepared,Empty catch clause,The method has an empty catch block.,278
+mvvm_jetpack-android-dev_3.0.0,com.bokecc.livemodule.replay,DWReplayCoreHandler,onPageChange,Long Parameter List,The method has 6 parameters. ,329
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.widget.guandian,MyRoundImageView,onLayout,Long Parameter List,The method has 5 parameters. ,47
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.widget.guandian,MyRoundImageView,init,Magic Number,The method contains a magic number: 18,54
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.guandian,ExpertAnalysisnFragment,getDataBindingConfig,Long Statement,The length of the statement "return new DataBindingConfig(R.layout.fragment_expertanalysis`BR.expertanalysis`expertAnalysisViewModel).addBindingParam(BR.click`new ClickProxy());" is 148.,27
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.guandian,GanDianFragment,getDataBindingConfig,Long Statement,The length of the statement "return new DataBindingConfig(R.layout.fragment_guandian`BR.guandian`mViewModel).addBindingParam(BR.event`new EventHandler()).addBindingParam(BR.click`new ClickProxy());" is 168.,33
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.guandian,NewsFragment,getDataBindingConfig,Long Statement,The length of the statement "return new DataBindingConfig(R.layout.fragment_news`BR.news`newsViewModel).addBindingParam(BR.event`new EventHandler()).addBindingParam(BR.viewpagerhandler`new ViewPagerHandler());" is 180.,30
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.guandian,NewsFragment,onPageScrollStateChanged,Missing default,The following switch statement is missing a default case: switch (currentPosition) {,93
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.guandian,ViewPagerHandler,onPageScrollStateChanged,Missing default,The following switch statement is missing a default case: switch (currentPosition) {,93
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment,SecondFragment,getDataBindingConfig,Long Statement,The length of the statement "return new DataBindingConfig(R.layout.fragment_second`BR.secondViewModel`mState).addBindingParam(BR.callback`new SecondFragmentCallBack());" is 139.,20
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu,YanBaoCeLueFragment,onConfigureTab,Magic Number,The method contains a magic number: 12,64
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGTabItem,getHeaderTabs,Complex Method,Cyclomatic complexity of the method is 8,25
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGTabItem,getHeaderTabs,Magic Number,The method contains a magic number: 2,25
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGTabItem,getHeaderTabs,Magic Number,The method contains a magic number: 3,25
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGTabItem,getHeaderTabs,Magic Number,The method contains a magic number: 4,25
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGTabItem,getHeaderTabs,Magic Number,The method contains a magic number: 5,25
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGTabItem,getHeaderTabs,Magic Number,The method contains a magic number: 6,25
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGTabItem,getHeaderTabs,Missing default,The following switch statement is missing a default case: switch (level) {,25
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGHeaderView,onTabSelected,Long Statement,The length of the statement "((TextView)customView.findViewById(R.id.tab_text)).setTextColor(mContext.getResources().getColor(R.color.color_xg_tabheader_selected));" is 135.,74
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGHeaderView,onTabSelected,Magic Number,The method contains a magic number: 18,74
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGHeaderView,onTabUnselected,Long Statement,The length of the statement "((TextView)customView.findViewById(R.id.tab_text)).setTextColor(mContext.getResources().getColor(R.color.color_xg_tabheader));" is 126.,84
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGHeaderView,onTabUnselected,Magic Number,The method contains a magic number: 15,84
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.xuangu.view,XGQuickTabView,initView,Magic Number,The method contains a magic number: 4,37
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,HomeFragment,setEntranceData,Magic Number,The method contains a magic number: 5,131
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,ScrollListDemoFragment,initData,Magic Number,The method contains a magic number: 40,66
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initView,Complex Method,Cyclomatic complexity of the method is 15,68
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initView,Magic Number,The method contains a magic number: 2,68
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initView,Magic Number,The method contains a magic number: 2,68
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initView,Magic Number,The method contains a magic number: 3,68
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initView,Magic Number,The method contains a magic number: 4,68
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initView,Magic Number,The method contains a magic number: 2,68
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initView,Magic Number,The method contains a magic number: 3,68
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initView,Magic Number,The method contains a magic number: 4,68
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,onTabSelected,Complex Method,Cyclomatic complexity of the method is 8,94
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,onTabSelected,Magic Number,The method contains a magic number: 2,94
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,onTabSelected,Magic Number,The method contains a magic number: 3,94
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,onTabSelected,Magic Number,The method contains a magic number: 4,94
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,onTabUnselected,Magic Number,The method contains a magic number: 2,114
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,onTabUnselected,Magic Number,The method contains a magic number: 3,114
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,onTabUnselected,Magic Number,The method contains a magic number: 4,114
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initTab,Magic Number,The method contains a magic number: 2,144
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initTab,Magic Number,The method contains a magic number: 3,144
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.ui.fragment.main,MainFragment,initTab,Magic Number,The method contains a magic number: 4,144
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.repository.xuangu,YanBaoCeLueRepository,getBurstData,Long Statement,The length of the statement "service.getBurstData().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<BurstBean>(){" is 130.,38
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.repository.main,MainFragmentRepository,request1,Long Statement,The length of the statement "Observable.mergeArray(zuixinjiaoyi`ggjy`ggjy`ggjy`ggjy`ggjy`ggjy`ggjy`ggjy`ggjy`zuixinjiaoyi).subscribe(new Observer<Object>(){" is 127.,71
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.repository.main,MainFragmentRepository,subscribeNodeMianZhangDieFu,Long Statement,The length of the statement "RequestModule build=RequestModule.builder().cmd(CMDConstant.ON).id(HuiXuanGuApplication.socketID).path(NodePath.sczl).build();" is 126.,147
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.repository.main,DataRepository,getGGJMSCTJ,Long Statement,The length of the statement "service.gaoguanjingmaishichangtongji().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<GaoguanjingmaishichangtongjiBean>(){" is 169.,21
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.net.socket,WebSocketReceive,onMessage,Magic Number,The method contains a magic number: 10007,36
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.net.socket,WebSocketReceive,onFailure,Magic Number,The method contains a magic number: 1800,59
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.net.socket,SocketModule,toString,Long Statement,The length of the statement "return "SocketModule{" + "code=" + code + "` command='"+ command+ '\''+ "` data="+ data+ "` msg='"+ msg+ '\''+ "` token='"+ token+ '\''+ '}';" is 141.,47
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.bean,GaoguanjingmaishichangtongjiBean,toString,Long Statement,The length of the statement "return "Data{" + "id=" + id + "` shares="+ shares+ "` chgdate='"+ chgdate+ '\''+ "` mktcode='"+ mktcode+ '\''+ "` boardcode='"+ boardcode+ '\''+ '}';" is 149.,27
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.bean,Data,toString,Long Statement,The length of the statement "return "Data{" + "id=" + id + "` shares="+ shares+ "` chgdate='"+ chgdate+ '\''+ "` mktcode='"+ mktcode+ '\''+ "` boardcode='"+ boardcode+ '\''+ '}';" is 149.,27
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,DensityUtils,pxToDp,Magic Number,The method contains a magic number: 0.5f,7
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,DensityUtils,dip2px,Magic Number,The method contains a magic number: 0.5f,18
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,DensityUtils,px2sp,Magic Number,The method contains a magic number: 0.5f,28
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,DensityUtils,sp2px,Magic Number,The method contains a magic number: 0.5f,40
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,BarUtils,addMarginTopEqualStatusBarHeight,Long Statement,The length of the statement "layoutParams.setMargins(layoutParams.leftMargin`layoutParams.topMargin + getStatusBarHeight()`layoutParams.rightMargin`layoutParams.bottomMargin);" is 146.,166
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,BarUtils,subtractMarginTopEqualStatusBarHeight,Long Statement,The length of the statement "layoutParams.setMargins(layoutParams.leftMargin`layoutParams.topMargin - getStatusBarHeight()`layoutParams.rightMargin`layoutParams.bottomMargin);" is 146.,185
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,BarUtils,applyStatusBarColor,Long Statement,The length of the statement "ViewGroup parent=isDecor ? (ViewGroup)activity.getWindow().getDecorView() : (ViewGroup)activity.findViewById(android.R.id.content);" is 131.,334
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,BarUtils,getActionBarHeight,Long Statement,The length of the statement "return TypedValue.complexToDimensionPixelSize(tv.data`HuiXuanGuApplication.getInstance().getResources().getDisplayMetrics());" is 125.,402
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.utils,BarUtils,setNavBarVisibility,Long Statement,The length of the statement "final int uiOptions=View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;" is 140.,480
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.adapter.dabang,DaBangFunctionAdapter,onClicked,Complex Method,Cyclomatic complexity of the method is 8,66
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.adapter.dabang,DaBangFunctionAdapter,bind,Long Statement,The length of the statement "mBinding.funTitle.setCompoundDrawablesWithIntrinsicBounds(null`null`mBinding.funTitle.getContext().getResources().getDrawable(R.mipmap.dabang_vip)`null);" is 153.,94
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.adapter.dabang,ViewHolder,bind,Long Statement,The length of the statement "mBinding.funTitle.setCompoundDrawablesWithIntrinsicBounds(null`null`mBinding.funTitle.getContext().getResources().getDrawable(R.mipmap.dabang_vip)`null);" is 153.,94
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.adapter.main,ZhiShuRecyclerViewAdapter,onCreateViewHolder,Long Statement,The length of the statement "ViewDataBinding binding=DataBindingUtil.inflate(LayoutInflater.from(parent.getContext())`R.layout.item_home_recyclerview_zhishu`parent`false);" is 142.,38
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.adapter.main,EntranceRecyclerViewAdapter,onCreateViewHolder,Long Statement,The length of the statement "ViewDataBinding binding=DataBindingUtil.inflate(LayoutInflater.from(parent.getContext())`R.layout.item_home_recyclerview_entrance`parent`false);" is 144.,34
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.adapter.main,Stock,Stock,Long Parameter List,The method has 8 parameters. ,19
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.adapter.main,ImageAdapter,onCreateHolder,Long Statement,The length of the statement "imageView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT));" is 127.,21
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EChartsWebViewClient,shouldInterceptRequest,Complex Conditional,The conditional expression url.contains("http") || url.contains("www") || url.contains("https") is complex.,19
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EChartsWebViewClient,shouldInterceptRequest,Long Statement,The length of the statement "WebResourceResponse weResourceResponse=new WebResourceResponse("text/html"`"utf-8"`new ByteArrayInputStream(response.getBytes()));" is 130.,19
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EChartsWebViewClient,shouldOverrideUrlLoading,Complex Conditional,The conditional expression url.contains("http") || url.contains("www") || url.contains("https") is complex.,56
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 10,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 20,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 20,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 30,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 150,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 230,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 224,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 218,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 135,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 147,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 260,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 110,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 50,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 330,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 204,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 218,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 235,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 47,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 60,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 310,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getLineChartOptions,Magic Number,The method contains a magic number: 60,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Long Statement,The length of the statement "gauge.startAngle(180).type(SeriesType.gauge).endAngle(0).min(0).max(100).splitNumber(20).data(40).itemStyle(new ItemStyle().color("#5833F9"));" is 142.,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Long Statement,The length of the statement "gauge.progress(new ProgressYd().show(true).roundCap(true)).axisTick(new AxisTick().show(false)).splitLine(new SplitLine().show(false)).axisLabel(new Label().show(false)).pointer(new PointerYd().setShow(false)).center("25%"`"50%").detail(detail);" is 245.,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Long Statement,The length of the statement "gauge2.startAngle(180).type(SeriesType.gauge).endAngle(0).min(0).max(100).splitNumber(20).data(40).itemStyle(new ItemStyle().color("#5833F9"));" is 143.,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Long Statement,The length of the statement "gauge2.progress(new ProgressYd().show(true).roundCap(true)).axisTick(new AxisTick().show(false)).splitLine(new SplitLine().show(false)).axisLabel(new Label().show(false)).pointer(new PointerYd().setShow(false)).center("75%"`"50%").detail(detail2);" is 247.,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Magic Number,The method contains a magic number: 180,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Magic Number,The method contains a magic number: 100,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Magic Number,The method contains a magic number: 20,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Magic Number,The method contains a magic number: 40,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Magic Number,The method contains a magic number: 180,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Magic Number,The method contains a magic number: 100,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Magic Number,The method contains a magic number: 20,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.view.echarts,EchartOptionUtil,getGauGeChartOptions,Magic Number,The method contains a magic number: 40,73
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initTabAndPage,Long Statement,The length of the statement "TabLayoutMediator tabLayoutMediator=new TabLayoutMediator(tabLayout`viewPager`new TabLayoutMediator.TabConfigurationStrategy(){" is 127.,51
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initTabAndPage,Long Statement,The length of the statement "View inflate=((FragmentActivity)tabLayout.getContext()).getLayoutInflater().inflate(R.layout.guandian_tab_layout`null`true);" is 124.,51
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initTabAndPage,Magic Number,The method contains a magic number: 2,51
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initTabAndPage,Magic Number,The method contains a magic number: 2,51
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,onPageSelected,Magic Number,The method contains a magic number: 2,82
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,onConfigureTab,Long Statement,The length of the statement "View inflate=((FragmentActivity)tabLayout.getContext()).getLayoutInflater().inflate(R.layout.guandian_tab_layout`null`true);" is 124.,94
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initNewsTabAndPage,Complex Method,Cyclomatic complexity of the method is 9,107
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initNewsTabAndPage,Long Statement,The length of the statement "TabLayoutMediator tabLayoutMediator=new TabLayoutMediator(tabLayout`viewPager`new TabLayoutMediator.TabConfigurationStrategy(){" is 127.,107
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initNewsTabAndPage,Long Statement,The length of the statement "View inflate=((FragmentActivity)tabLayout.getContext()).getLayoutInflater().inflate(R.layout.guandian_tab_layout`null`true);" is 124.,107
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initNewsTabAndPage,Magic Number,The method contains a magic number: 2,107
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initNewsTabAndPage,Magic Number,The method contains a magic number: 3,107
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,initNewsTabAndPage,Magic Number,The method contains a magic number: 4,107
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.binding_adapter,GuanDianBindingAdapter,onConfigureTab,Long Statement,The length of the statement "View inflate=((FragmentActivity)tabLayout.getContext()).getLayoutInflater().inflate(R.layout.guandian_tab_layout`null`true);" is 124.,137
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.base,HuiXuanGuApplication,onCreate,Empty catch clause,The method has an empty catch block.,33
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.base,BaseFragment,getApplicationScopeViewModel,Long Statement,The length of the statement "mApplicationProvider=new ViewModelProvider((HuiXuanGuApplication)mActivity.getApplicationContext()`getApplicationFactory(mActivity));" is 133.,62
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.base,BaseFragment,checkApplication,Long Statement,The length of the statement "throw new IllegalStateException("Your activity/fragment is not yet attached to " + "Application. You can't request ViewModel before onCreate call.");" is 149.,76
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.cy_professional_select_stock.base,BaseActivity,checkApplication,Long Statement,The length of the statement "throw new IllegalStateException("Your activity/fragment is not yet attached to " + "Application. You can't request ViewModel before onCreate call.");" is 149.,141
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.usercenter,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.usercenter,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.usercenter,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.usercenter.viewModel,AccountViewModel,changeLoginType,Magic Number,The method contains a magic number: 2,46
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.usercenter.ui.fragment,LoginFragment,init,Magic Number,The method contains a magic number: 2,44
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.usercenter.ui.fragment,LoginFragment,onChanged,Magic Number,The method contains a magic number: 2,46
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.usercenter.repository,AccountRepository,loginWithPassword,Long Statement,The length of the statement "String params="{\"username\":\"13730129660\"`\"password\":\"a123456\"`\"last_time\":\"2020-12-30 15:32:36\"`\"version\":\"240\"`\"type\":0`\"device_id\":\"865f274c98ce936a\"`\"device_version\":\"9\"`\"system\":\"COR-AL10\"`\"channel\":\"official\"`\"channelId\":381`\"source\":\"官网\"}";" is 286.,59
+mvvm_jetpack-android-dev_3.0.0,com.yuanda.usercenter.repository,AccountRepository,loginWithPassword,Long Statement,The length of the statement "service.loginWithPwd(url`body).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<BaseResp>(){" is 137.,59
+mvvm_jetpack-android-dev_3.0.0,com.yd.grpc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+mvvm_jetpack-android-dev_3.0.0,com.yd.grpc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvvm_jetpack-android-dev_3.0.0,com.yd.grpc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,YDYWebSocketManage,close,Magic Number,The method contains a magic number: 1001,88
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,OkHttpClientInstance,getClient,Long Statement,The length of the statement "client=new OkHttpClient.Builder().readTimeout(3`TimeUnit.SECONDS).writeTimeout(3`TimeUnit.SECONDS).connectTimeout(3`TimeUnit.SECONDS).build();" is 142.,20
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,OkHttpClientInstance,getClient,Magic Number,The method contains a magic number: 3,20
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,OkHttpClientInstance,getClient,Magic Number,The method contains a magic number: 3,20
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,OkHttpClientInstance,getClient,Magic Number,The method contains a magic number: 3,20
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,YDYWebSocketController,analysisEvent,Magic Number,The method contains a magic number: 10007,103
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,YDYWebSocketController,analysisEvent,Magic Number,The method contains a magic number: 1100,103
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,YDYWebSocketController,analysisEvent,Magic Number,The method contains a magic number: 1104,103
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,YDYWebSocketController,analysisEvent,Magic Number,The method contains a magic number: 1101,103
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,YDYWebSocketController,analysisEvent,Magic Number,The method contains a magic number: 1102,103
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,YDYWebSocketController,analysisEvent,Magic Number,The method contains a magic number: 1103,103
+mvvm_jetpack-android-dev_3.0.0,com.yd.ydyun.websocket,YDYWebSocketController,analysisEvent,Missing default,The following switch statement is missing a default case: switch (data.getCode()) {,103
+mvvm_jetpack-android-dev_3.0.0,com.yd.httpmudule,OkHttp,init,Magic Number,The method contains a magic number: 1024,26
+mvvm_jetpack-android-dev_3.0.0,com.yd.httpmudule,OkHttp,init,Magic Number,The method contains a magic number: 1024,26
+mvvm_jetpack-android-dev_3.0.0,com.yd.httpmudule,OkHttp,init,Magic Number,The method contains a magic number: 50,26
+mvvm_jetpack-android-dev_3.0.0,com.yd.httpmudule,OkHttp,getHttpClient,Long Statement,The length of the statement "httpClientBuilder.connectTimeout(DEFAULT_TIMEOUT`TimeUnit.SECONDS).writeTimeout(DEFAULT_TIMEOUT`TimeUnit.SECONDS).readTimeout(DEFAULT_TIMEOUT`TimeUnit.SECONDS).addInterceptor(new LoggerInterceptor()).addInterceptor(new HeaderInterceptor()).addInterceptor(new UrlInterceptor(hostMap)).cache(cache);" is 297.,42
+mvvm_jetpack-android-dev_3.0.0,com.yd.httpmudule,LoggerInterceptor,intercept,Long Statement,The length of the statement "Log.d(TAG`"收到响应: code:" + response.code() + "\n请求url："+ response.request().url()+ "\n请求body："+ body+ "\nResponse: "+ rBody);" is 124.,28
+mvvm_jetpack-android-dev_3.0.0,com.yd.httpmudule,RetrofitService,getRetrofitBuilder,Long Statement,The length of the statement "retrofitBuilder=new Retrofit.Builder().baseUrl("http://www.xxxx.com/").addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJava3CallAdapterFactory.create());" is 180.,31
+mvvm_jetpack-android-dev_3.0.0,com.yd.market,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+mvvm_jetpack-android-dev_3.0.0,com.yd.market,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvvm_jetpack-android-dev_3.0.0,com.yd.market,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13

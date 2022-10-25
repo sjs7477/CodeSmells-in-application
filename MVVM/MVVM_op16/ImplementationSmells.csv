@@ -1,0 +1,116 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+1_FindMeHomeApp-master,com.example.findmehomeapp,IntroActivity,onCreate,Magic Number,The method contains a magic number: 3000,12
+1_FindMeHomeApp-master,com.example.findmehomeapp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+1_FindMeHomeApp-master,com.example.findmehomeapp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+1_FindMeHomeApp-master,com.example.findmehomeapp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Model,refreshPostsList,Long Statement,The length of the statement "Long lastUpdateDate=MyApplication.getContext().getSharedPreferences("TAG"`Context.MODE_PRIVATE).getLong("PostsLastUpdateDate"`0);" is 129.,63
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Model,refreshPostsList,Long Statement,The length of the statement "MyApplication.getContext().getSharedPreferences("TAG"`Context.MODE_PRIVATE).edit().putLong("PostsLastUpdateDate"`lud).commit();" is 127.,63
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Model,onComplete,Long Statement,The length of the statement "MyApplication.getContext().getSharedPreferences("TAG"`Context.MODE_PRIVATE).edit().putLong("PostsLastUpdateDate"`lud).commit();" is 127.,71
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Model,run,Long Statement,The length of the statement "MyApplication.getContext().getSharedPreferences("TAG"`Context.MODE_PRIVATE).edit().putLong("PostsLastUpdateDate"`lud).commit();" is 127.,75
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Model,refreshUserPostsList,Long Statement,The length of the statement "Long lastUpdateDate=MyApplication.getContext().getSharedPreferences("TAG"`Context.MODE_PRIVATE).getLong("PostsLastUpdateDate"`0);" is 129.,113
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Model,refreshUserPostsList,Long Statement,The length of the statement "MyApplication.getContext().getSharedPreferences("TAG"`Context.MODE_PRIVATE).edit().putLong("PostsLastUpdateDate"`lud).commit();" is 127.,113
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Model,onComplete,Long Statement,The length of the statement "MyApplication.getContext().getSharedPreferences("TAG"`Context.MODE_PRIVATE).edit().putLong("PostsLastUpdateDate"`lud).commit();" is 127.,122
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Model,run,Long Statement,The length of the statement "MyApplication.getContext().getSharedPreferences("TAG"`Context.MODE_PRIVATE).edit().putLong("PostsLastUpdateDate"`lud).commit();" is 127.,126
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,addUser,Long Statement,The length of the statement "firebaseAuth.createUserWithEmailAndPassword(user.email`password).addOnCompleteListener(new OnCompleteListener<AuthResult>(){" is 124.,47
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,addUser,Long Statement,The length of the statement "db.collection(User.COLLECTION_NAME).document(user.getId()).set(json).addOnSuccessListener(unused -> listener.onComplete(user)).addOnFailureListener(e -> listener.onComplete(user));" is 180.,47
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,addUser,Long Statement,The length of the statement "Toast.makeText(MyApplication.getContext()`"Sorry` your email already exists` please try another one."`Toast.LENGTH_LONG).show();" is 128.,47
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,onComplete,Long Statement,The length of the statement "db.collection(User.COLLECTION_NAME).document(user.getId()).set(json).addOnSuccessListener(unused -> listener.onComplete(user)).addOnFailureListener(e -> listener.onComplete(user));" is 180.,50
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,onFailure,Long Statement,The length of the statement "Toast.makeText(MyApplication.getContext()`"Sorry` your email already exists` please try another one."`Toast.LENGTH_LONG).show();" is 128.,68
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,savePost,Long Statement,The length of the statement "db.collection(Post.COLLECTION_NAME).document(post.getId()).set(json).addOnSuccessListener(unused -> listener.onComplete()).addOnFailureListener(e -> listener.onFailure());" is 171.,101
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,getAllPosts,Long Statement,The length of the statement "db.collection(Post.COLLECTION_NAME).whereGreaterThanOrEqualTo("updateDate"`new Timestamp(lastUpdateDate`0)).get().addOnCompleteListener(task -> {" is 145.,114
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,addPost,Long Statement,The length of the statement "db.collection(Post.COLLECTION_NAME).document(post.getId()).set(json).addOnSuccessListener(unused -> listener.onComplete()).addOnFailureListener(e -> listener.onComplete());" is 172.,153
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,getPostById,Long Statement,The length of the statement "db.collection(Post.COLLECTION_NAME).document(postId).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){" is 124.,162
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,getUserById,Long Statement,The length of the statement "db.collection(User.COLLECTION_NAME).document(userId).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){" is 124.,178
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,getUserByEmail,Long Statement,The length of the statement "db.collection(User.COLLECTION_NAME).whereEqualTo("email"`email).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>(){" is 132.,202
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,getUserByEmail,Long Statement,The length of the statement "db.collection(User.COLLECTION_NAME).document(documentId).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){" is 128.,202
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,onComplete,Long Statement,The length of the statement "db.collection(User.COLLECTION_NAME).document(documentId).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){" is 128.,207
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,editUser,Long Statement,The length of the statement "db.collection(User.COLLECTION_NAME).document(user.getId()).set(json).addOnSuccessListener(unused -> listener.onComplete()).addOnFailureListener(e -> listener.onComplete());" is 172.,229
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,saveImage,Long Statement,The length of the statement "uploadTask.addOnFailureListener(exception -> listener.onComplete(null)).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>(){" is 142.,238
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,saveImage,Magic Number,The method contains a magic number: 100,238
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,savePostImage,Long Statement,The length of the statement "uploadTask.addOnFailureListener(exception -> listener.onComplete(null)).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>(){" is 142.,263
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,ModelFirebase,savePostImage,Magic Number,The method contains a magic number: 100,263
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Post,Post,Long Parameter List,The method has 9 parameters. ,35
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Post,toString,Long Statement,The length of the statement "return "Post{" + "id='" + id + '\''+ "` userId='"+ userId+ '\''+ "` text='"+ text+ '\''+ "` image='"+ image+ '\''+ "` type='"+ type+ '\''+ "` age='"+ age+ '\''+ "` size='"+ size+ '\''+ "` gender='"+ gender+ '\''+ "` location='"+ location+ '\''+ "` isDeleted='"+ isDeleted+ '\''+ '}';" is 283.,70
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,User,User,Long Parameter List,The method has 6 parameters. ,27
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,User,toString,Long Statement,The length of the statement "return "User{" + "id='" + id + '\''+ "` name='"+ name+ '\''+ "` phone='"+ phone+ '\''+ "` email='"+ email+ '\''+ "` gender='"+ gender+ '\''+ "` updateDate="+ updateDate+ "` avatarUrl='"+ avatarUrl+ '\''+ '}';" is 208.,41
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterType=ArrayAdapter.createFromResource(this.getContext()`R.array.types`android.R.layout.simple_spinner_item);" is 141.,77
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterSize=ArrayAdapter.createFromResource(this.getContext()`R.array.sizes`android.R.layout.simple_spinner_item);" is 141.,77
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterGender=ArrayAdapter.createFromResource(this.getContext()`R.array.gender`android.R.layout.simple_spinner_item);" is 144.,77
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterLocation=ArrayAdapter.createFromResource(this.getContext()`R.array.location`android.R.layout.simple_spinner_item);" is 148.,77
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,onCreateView,Magic Number,The method contains a magic number: 191,77
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,onCreateView,Magic Number,The method contains a magic number: 215,77
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,onCreateView,Magic Number,The method contains a magic number: 255,77
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,savePost,Magic Number,The method contains a magic number: 9,185
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,savePost,Magic Number,The method contains a magic number: 5,185
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.CreatePost,CreatePostFragment,saveImageToFile,Magic Number,The method contains a magic number: 100,274
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Complex Method,Cyclomatic complexity of the method is 8,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Long Method,The method has 106 lines of code.,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterType=ArrayAdapter.createFromResource(this.getContext()`R.array.types`android.R.layout.simple_spinner_item);" is 141.,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterSize=ArrayAdapter.createFromResource(this.getContext()`R.array.sizes`android.R.layout.simple_spinner_item);" is 141.,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterGender=ArrayAdapter.createFromResource(this.getContext()`R.array.gender`android.R.layout.simple_spinner_item);" is 144.,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterLocation=ArrayAdapter.createFromResource(this.getContext()`R.array.location`android.R.layout.simple_spinner_item);" is 148.,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Magic Number,The method contains a magic number: 191,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Magic Number,The method contains a magic number: 215,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onCreateView,Magic Number,The method contains a magic number: 255,88
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,savePost,Long Method,The method has 107 lines of code.,226
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,savePost,Magic Number,The method contains a magic number: 9,226
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,savePost,Magic Number,The method contains a magic number: 5,226
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,showImagePickDialog,Magic Number,The method contains a magic number: 2,384
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,onClick,Magic Number,The method contains a magic number: 2,393
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditPost,EditPostFragment,saveImageToFile,Magic Number,The method contains a magic number: 100,453
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,onCreateView,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterGender=ArrayAdapter.createFromResource(this.getContext()`R.array.gender`android.R.layout.simple_spinner_item);" is 144.,81
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,onCreateView,Magic Number,The method contains a magic number: 191,81
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,onCreateView,Magic Number,The method contains a magic number: 215,81
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,onCreateView,Magic Number,The method contains a magic number: 255,81
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,showImagePickDialog,Magic Number,The method contains a magic number: 2,137
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,onClick,Magic Number,The method contains a magic number: 2,146
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,saveImageToFile,Magic Number,The method contains a magic number: 100,208
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,save,Complex Method,Cyclomatic complexity of the method is 8,290
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,save,Long Method,The method has 112 lines of code.,290
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,save,Long Statement,The length of the statement "User user=new User(viewModel.getConnectedUserId()`fullName`phone`viewModel.data.getValue().getEmail()`viewModel.data.getValue().getGender()`"true");" is 148.,290
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,save,Magic Number,The method contains a magic number: 9,290
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.EditProfile,EditProfileFragment,save,Magic Number,The method contains a magic number: 10,290
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.home,HomeFragment,onBindViewHolder,Magic Number,The method contains a magic number: 250,162
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.home,HomeFragment,onBindViewHolder,Magic Number,The method contains a magic number: 180,162
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.home,MyAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 250,162
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.home,MyAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 180,162
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Login,LoginFragment,onViewCreated,Magic Number,The method contains a magic number: 191,66
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Login,LoginFragment,onViewCreated,Magic Number,The method contains a magic number: 215,66
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Login,LoginFragment,onViewCreated,Magic Number,The method contains a magic number: 255,66
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Login,LoginFragment,loginTheUser,Complex Conditional,The conditional expression !email.contains("@") || !email.contains(".") || email.endsWith(".")|| email.contains("@.")|| email.contains(" ")|| email.startsWith("@")|| email.startsWith(".") is complex.,95
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Login,LoginFragment,loginTheUser,Long Statement,The length of the statement "else if (!email.contains("@") || !email.contains(".") || email.endsWith(".")|| email.contains("@.")|| email.contains(" ")|| email.startsWith("@")|| email.startsWith(".")) {" is 172.,95
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Login,LoginFragment,loginTheUser,Long Statement,The length of the statement "Toast.makeText(MyApplication.getContext()`"Sorry` your password or email were incorrect` please try again."`Toast.LENGTH_LONG).show();" is 134.,95
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Login,LoginFragment,loginTheUser,Magic Number,The method contains a magic number: 6,95
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Login,LoginFragment,onFailure,Long Statement,The length of the statement "Toast.makeText(MyApplication.getContext()`"Sorry` your password or email were incorrect` please try again."`Toast.LENGTH_LONG).show();" is 134.,138
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Post,PostFragment,onCreateView,Complex Method,Cyclomatic complexity of the method is 11,48
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Post,PostFragment,onCreateView,Magic Number,The method contains a magic number: 250,48
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Post,PostFragment,onCreateView,Magic Number,The method contains a magic number: 180,48
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Profile,ProfileFragment,onBindViewHolder,Magic Number,The method contains a magic number: 250,156
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Profile,ProfileFragment,onBindViewHolder,Magic Number,The method contains a magic number: 180,156
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Profile,MyAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 250,156
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Profile,MyAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 180,156
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,onViewCreated,Long Statement,The length of the statement "ArrayAdapter<CharSequence> adapterGender=ArrayAdapter.createFromResource(this.getContext()`R.array.gender`android.R.layout.simple_spinner_item);" is 144.,89
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,onViewCreated,Magic Number,The method contains a magic number: 191,89
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,onViewCreated,Magic Number,The method contains a magic number: 215,89
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,onViewCreated,Magic Number,The method contains a magic number: 255,89
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,saveImageToFile,Magic Number,The method contains a magic number: 100,181
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,registerUser,Complex Conditional,The conditional expression !email.contains("@") || !email.contains(".") || email.endsWith(".")|| email.contains("@.")|| email.contains(" ")|| email.startsWith("@")|| email.startsWith(".") is complex.,244
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,registerUser,Complex Method,Cyclomatic complexity of the method is 10,244
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,registerUser,Long Method,The method has 150 lines of code.,244
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,registerUser,Long Statement,The length of the statement "else if (!email.contains("@") || !email.contains(".") || email.endsWith(".")|| email.contains("@.")|| email.contains(" ")|| email.startsWith("@")|| email.startsWith(".")) {" is 172.,244
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,registerUser,Magic Number,The method contains a magic number: 9,244
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,registerUser,Magic Number,The method contains a magic number: 10,244
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui.Register,RegisterFragment,registerUser,Magic Number,The method contains a magic number: 6,244
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Complex Method,Cyclomatic complexity of the method is 9,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 1000000000000L,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 1000,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 60,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 60,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 24,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 7,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 360,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 360,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 30,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 30,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 7,7
+1_FindMeHomeApp-master,com.example.findmehomeapp.ui,TimeAgo,getTimeAgo,Magic Number,The method contains a magic number: 7,7

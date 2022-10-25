@@ -1,0 +1,4 @@
+Project Name,Package Name,Architecture Smell,Cause of the Smell
+1_FindMeHomeApp-master,com.example.findmehomeapp,Cyclic Dependency,The tool detected the smell in this component because this component participates in a cyclic dependency. The participating components in the cycle are: com.example.findmehomeapp; com.example.findmehomeapp.Model
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Cyclic Dependency,The tool detected the smell in this component because this component participates in a cyclic dependency. The participating components in the cycle are: com.example.findmehomeapp.Model; com.example.findmehomeapp
+1_FindMeHomeApp-master,com.example.findmehomeapp.Model,Unstable Dependency,The tool detected the smell in this component because this component depends on other components that are less stable than itself. This component depends on following less stable component(s): com.example.findmehomeapp

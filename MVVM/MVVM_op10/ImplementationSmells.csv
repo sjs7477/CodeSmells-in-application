@@ -1,0 +1,59 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+JDI-master,com.android.nunu,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+JDI-master,com.android.nunu,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+JDI-master,com.android.nunu,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+JDI-master,com.android.nunu,MyApplication,activityInjector,Long Identifier,The length of the field activityDispatchingAndroidInjector is 34.,25
+JDI-master,com.android.nunu.ui.home,HomeViewModel,loadHomeData,Long Statement,The length of the statement "getCompositeDisposable().add(getDataManager().doHomeApiRequest(new HomeApiService.HomeApiRequest()).doOnSuccess(response -> getDataManager().setHomeResponseData(response)).subscribeOn(getSchedulerProvider().io()).observeOn(getSchedulerProvider().ui()).subscribe(response -> {" is 275.,68
+JDI-master,com.android.nunu.ui.home,HomeViewModel,removeSingleData,Empty catch clause,The method has an empty catch block.,126
+JDI-master,com.android.nunu.ui.home.adapter,HomeRVAdapter,onCreateViewHolder,Long Statement,The length of the statement "ItemHomeContentViewBinding itemHomeContentViewBinding=ItemHomeContentViewBinding.inflate(LayoutInflater.from(parent.getContext())`parent`false);" is 144.,50
+JDI-master,com.android.nunu.ui.home.adapter,HomeRVAdapter,onCreateViewHolder,Missing default,The following switch statement is missing a default case: switch (viewType) {,50
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onLayout,Long Parameter List,The method has 5 parameters. ,58
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Long Statement,The length of the statement "mFirstCurveControlPoint1.set(mFirstCurveStartPoint.x + CURVE_CIRCLE_RADIUS + (CURVE_CIRCLE_RADIUS / 4)`mFirstCurveStartPoint.y);" is 128.,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Long Statement,The length of the statement "mFirstCurveControlPoint2.set(mFirstCurveEndPoint.x - (CURVE_CIRCLE_RADIUS * 2) + CURVE_CIRCLE_RADIUS`mFirstCurveEndPoint.y);" is 124.,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Long Statement,The length of the statement "mSecondCurveControlPoint1.set(mSecondCurveStartPoint.x + (CURVE_CIRCLE_RADIUS * 2) - CURVE_CIRCLE_RADIUS`mSecondCurveStartPoint.y);" is 131.,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Long Statement,The length of the statement "mSecondCurveControlPoint2.set(mSecondCurveEndPoint.x - (CURVE_CIRCLE_RADIUS + (CURVE_CIRCLE_RADIUS / 4))`mSecondCurveEndPoint.y);" is 129.,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Long Statement,The length of the statement "mPath.cubicTo(mFirstCurveControlPoint1.x`mFirstCurveControlPoint1.y`mFirstCurveControlPoint2.x`mFirstCurveControlPoint2.y`mFirstCurveEndPoint.x`mFirstCurveEndPoint.y);" is 167.,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Long Statement,The length of the statement "mPath.cubicTo(mSecondCurveControlPoint1.x`mSecondCurveControlPoint1.y`mSecondCurveControlPoint2.x`mSecondCurveControlPoint2.y`mSecondCurveEndPoint.x`mSecondCurveEndPoint.y);" is 173.,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 2,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 2,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 3,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 2,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 4,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 2,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 2,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 3,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 4,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 2,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 2,64
+JDI-master,com.android.nunu.ui.uihelper,CurvedBottomNavigationView,onSizeChanged,Magic Number,The method contains a magic number: 4,64
+JDI-master,com.android.nunu.ui.login,LoginViewModel,login,Long Statement,The length of the statement "getCompositeDisposable().add(getDataManager().doServerLoginRequest(new LoginApiService.ServerLoginRequest(email`password)).doOnSuccess(response -> getDataManager().updateUserInfo(response.getUserDetails().getToken()`response.getUserDetails().getId()`DataManager.LoggedInMode.LOGGED_IN_MODE_SERVER`response.getUserDetails().getFirstName()`response.getUserDetails().getEmail()`response.getUserDetails().getImage())).subscribeOn(getSchedulerProvider().io()).observeOn(getSchedulerProvider().ui()).subscribe(response -> {" is 517.,29
+JDI-master,com.android.nunu.ui.base,BaseActivity,hasPermission,Long Statement,The length of the statement "return Build.VERSION.SDK_INT < Build.VERSION_CODES.M || checkSelfPermission(permission) == PackageManager.PERMISSION_GRANTED;" is 125.,80
+JDI-master,com.android.nunu.ui.base,BaseDialog,onCreateDialog,Long Statement,The length of the statement "root.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 122.,32
+JDI-master,com.android.nunu.di.module,AppModule,provideCalligraphyDefaultConfig,Long Statement,The length of the statement "return new CalligraphyConfig.Builder().setDefaultFontPath("sans-pro/Regular.ttf").setFontAttrId(R.attr.fontPath).build();" is 121.,43
+JDI-master,com.android.nunu.utils,ViewPagerCustomDuration,startScroll,Long Parameter List,The method has 5 parameters. ,127
+JDI-master,com.android.nunu.utils,ScrollerCustomDuration,startScroll,Long Parameter List,The method has 5 parameters. ,127
+JDI-master,com.android.nunu.utils,ViewUtils,pxToDp,Magic Number,The method contains a magic number: 160f,36
+JDI-master,com.android.nunu.utils,AppUtils,openPlayStoreForApp,Long Statement,The length of the statement "context.startActivity(new Intent(Intent.ACTION_VIEW`Uri.parse(context.getResources().getString(R.string.app_market_link) + appPackageName)));" is 141.,24
+JDI-master,com.android.nunu.utils,AppUtils,openPlayStoreForApp,Long Statement,The length of the statement "context.startActivity(new Intent(Intent.ACTION_VIEW`Uri.parse(context.getResources().getString(R.string.app_google_play_store_link) + appPackageName)));" is 152.,24
+JDI-master,com.android.nunu.utils,AppUtils,handleApiError,Complex Method,Cyclomatic complexity of the method is 9,55
+JDI-master,com.android.nunu.utils,AppUtils,handleApiError,Missing default,The following switch statement is missing a default case: switch (((HttpException)error).getStatusCode()) {,55
+JDI-master,com.android.nunu.utils,CommonUtils,showSnackBar,Magic Number,The method contains a magic number: 3000,116
+JDI-master,com.android.nunu.utils,ViewAnimationUtils,scaleAnimateView,Long Statement,The length of the statement "ScaleAnimation animation=new ScaleAnimation(1.15f`1`1.15f`1`Animation.RELATIVE_TO_SELF`0.5f`Animation.RELATIVE_TO_SELF`0.5f);" is 125.,17
+JDI-master,com.android.nunu.utils,ViewAnimationUtils,scaleAnimateView,Magic Number,The method contains a magic number: 1.15f,17
+JDI-master,com.android.nunu.utils,ViewAnimationUtils,scaleAnimateView,Magic Number,The method contains a magic number: 1.15f,17
+JDI-master,com.android.nunu.utils,ViewAnimationUtils,scaleAnimateView,Magic Number,The method contains a magic number: 0.5f,17
+JDI-master,com.android.nunu.utils,ViewAnimationUtils,scaleAnimateView,Magic Number,The method contains a magic number: 0.5f,17
+JDI-master,com.android.nunu.utils,ViewAnimationUtils,scaleAnimateView,Magic Number,The method contains a magic number: 100,17
+JDI-master,com.android.nunu.apiservice,LoginApiService,hashCode,Magic Number,The method contains a magic number: 31,48
+JDI-master,com.android.nunu.apiservice,LoginApiService,hashCode,Magic Number,The method contains a magic number: 31,98
+JDI-master,com.android.nunu.apiservice,LoginApiService,hashCode,Magic Number,The method contains a magic number: 31,148
+JDI-master,com.android.nunu.apiservice,FacebookLoginRequest,hashCode,Magic Number,The method contains a magic number: 31,48
+JDI-master,com.android.nunu.apiservice,GoogleLoginRequest,hashCode,Magic Number,The method contains a magic number: 31,98
+JDI-master,com.android.nunu.apiservice,ServerLoginRequest,hashCode,Magic Number,The method contains a magic number: 31,148
+JDI-master,com.android.nunu.apiservice.api,ApiError,hashCode,Magic Number,The method contains a magic number: 31,47
+JDI-master,com.android.nunu.apiservice.api,ApiError,hashCode,Magic Number,The method contains a magic number: 31,47
+JDI-master,com.android.nunu.apiservice.api,AppApiHelper,doServerLoginRequest,Long Statement,The length of the statement "return Rx2AndroidNetworking.post(ApiEndPoint.ENDPOINT_SERVER_LOGIN).addBodyParameter(request).build().getObjectSingle(User.class);" is 130.,33
+JDI-master,com.android.nunu.data,AppDataManager,updateUserInfo,Long Parameter List,The method has 6 parameters. ,52
+JDI-master,com.android.nunu.data,DataManager,updateUserInfo,Long Parameter List,The method has 6 parameters. ,13
+JDI-master,com.android.nunu.data.helpers,AppPreferencesHelper,getCurrentUserProfilePicUrl,Long Identifier,The length of the field PREF_KEY_CURRENT_USER_PROFILE_PIC_URL is 37.,109
+JDI-master,com.android.nunu.data.helpers,AppPreferencesHelper,setCurrentUserProfilePicUrl,Long Identifier,The length of the field PREF_KEY_CURRENT_USER_PROFILE_PIC_URL is 37.,114

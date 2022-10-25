@@ -1,0 +1,39 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+10_newsportal-master,net.filippov.newsportal.domain,Article,hashCode,Magic Number,The method contains a magic number: 31,286
+10_newsportal-master,net.filippov.newsportal.domain,Article,hashCode,Magic Number,The method contains a magic number: 17,286
+10_newsportal-master,net.filippov.newsportal.domain,Category,hashCode,Magic Number,The method contains a magic number: 31,95
+10_newsportal-master,net.filippov.newsportal.domain,Category,hashCode,Magic Number,The method contains a magic number: 17,95
+10_newsportal-master,net.filippov.newsportal.domain,Comment,hashCode,Magic Number,The method contains a magic number: 31,135
+10_newsportal-master,net.filippov.newsportal.domain,Comment,hashCode,Magic Number,The method contains a magic number: 17,135
+10_newsportal-master,net.filippov.newsportal.domain,Comment,toString,Long Statement,The length of the statement "return String.format("Comment[id=%d` author=%s` article_id=%s]"`getId()`getAuthor() == null ? "null" : getAuthor().getLogin()`getArticle() == null ? "null" : getArticle().getId());" is 180.,176
+10_newsportal-master,net.filippov.newsportal.domain,Tag,getScale,Magic Number,The method contains a magic number: 9,86
+10_newsportal-master,net.filippov.newsportal.domain,Tag,getScale,Magic Number,The method contains a magic number: 9,86
+10_newsportal-master,net.filippov.newsportal.domain,Tag,hashCode,Magic Number,The method contains a magic number: 31,108
+10_newsportal-master,net.filippov.newsportal.domain,Tag,hashCode,Magic Number,The method contains a magic number: 17,108
+10_newsportal-master,net.filippov.newsportal.domain,User,hashCode,Magic Number,The method contains a magic number: 31,287
+10_newsportal-master,net.filippov.newsportal.domain,User,hashCode,Magic Number,The method contains a magic number: 17,287
+10_newsportal-master,net.filippov.newsportal.domain,UserRole,hashCode,Magic Number,The method contains a magic number: 31,83
+10_newsportal-master,net.filippov.newsportal.domain,UserRole,hashCode,Magic Number,The method contains a magic number: 17,83
+10_newsportal-master,net.filippov.newsportal.domain,NewsTest,testSetModified,Magic Number,The method contains a magic number: 10,23
+10_newsportal-master,net.filippov.newsportal.security,CustomUserDetailsService,loadUserByUsername,Long Statement,The length of the statement "return new User(user.getLogin()`user.getPassword()`user.isEnabled()`accountNonExpired`credentialsNonExpired`!user.isLocked()`getAuthorities(user.getRoles()));" is 158.,28
+10_newsportal-master,net.filippov.newsportal.service.impl,ArticleServiceImpl,ArticleServiceImpl,Long Parameter List,The method has 5 parameters. ,49
+10_newsportal-master,net.filippov.newsportal.service.impl,ArticleServiceImpl,getByPageByCategoryName,Long Statement,The length of the statement "return getArticlesData(page`articlesPerPage`"Article.GET_ALL_BY_CATEGORY_NAME"`setParam("name"`name).buildMap()`category.getArticleCount());" is 140.,166
+10_newsportal-master,net.filippov.newsportal.service.impl,ArticleServiceImpl,getByPageByTagName,Long Statement,The length of the statement "return getArticlesData(page`articlesPerPage`"Article.GET_ALL_BY_TAG_NAME"`setParam("name"`name).buildMap()`tag.getArticleCount());" is 130.,190
+10_newsportal-master,net.filippov.newsportal.service.impl,ArticleServiceImpl,getByPageByUserId,Long Statement,The length of the statement "Map<String`Object> articlesData=getArticlesData(page`articlesPerPage`"Article.GET_ALL_BY_USER_ID"`setParam("id"`id).buildMap()`user.getArticleCount());" is 151.,214
+10_newsportal-master,net.filippov.newsportal.service.impl,ArticleServiceImpl,getArticlesData,Long Parameter List,The method has 5 parameters. ,269
+10_newsportal-master,net.filippov.newsportal.service.impl,UserServiceImpl,add,Long Statement,The length of the statement "UserRole defaultRole=roleRepository.getByNamedQuery("UserRole.GET_BY_AUTHORITY"`setParam("authority"`"ROLE_USER").buildMap());" is 126.,52
+10_newsportal-master,net.filippov.newsportal.web,ArticleController,viewArticlePage,Long Parameter List,The method has 5 parameters. ,81
+10_newsportal-master,net.filippov.newsportal.web,ArticleController,viewArticlePage,Long Statement,The length of the statement "boolean needIncreaseViewCount=request.getHeader("Referer") != null && !request.getHeader("Referer").equals(request.getRequestURL().toString());" is 143.,81
+10_newsportal-master,net.filippov.newsportal.web,ArticleController,addArticleSubmit,Long Parameter List,The method has 7 parameters. ,133
+10_newsportal-master,net.filippov.newsportal.web,ArticleController,editArticleSubmit,Long Parameter List,The method has 7 parameters. ,183
+10_newsportal-master,net.filippov.newsportal.web,ArticleController,deleteArticle,Long Statement,The length of the statement "return new ModelAndView(View.SUCCESS).addObject("messageProperty"`"success.article.deleted").addObject("url"`request.getServletContext().getContextPath());" is 155.,205
+10_newsportal-master,net.filippov.newsportal.web,ErrorController,errorPage,Magic Number,The method contains a magic number: 400,24
+10_newsportal-master,net.filippov.newsportal.web,ErrorController,errorPage,Magic Number,The method contains a magic number: 404,24
+10_newsportal-master,net.filippov.newsportal.web,ErrorController,errorPage,Magic Number,The method contains a magic number: 500,24
+10_newsportal-master,net.filippov.newsportal.web,ErrorController,errorPage,Missing default,The following switch statement is missing a default case: switch (statusCode) {,24
+10_newsportal-master,net.filippov.newsportal.web,MainController,homeModelAndView,Long Statement,The length of the statement "return new ModelAndView(View.HOME).addObject("pageCount"`pageCount).addObject("articlesByPage"`articlesByPage).addObject("currentPage"`pageNumber).addObject("requestUrl"`URL.HOME);" is 180.,71
+10_newsportal-master,net.filippov.newsportal.web,SearchController,categoryModelAndView,Long Statement,The length of the statement "Map<String`Object> articlesData=articleService.getByPageByCategoryName(pageNumber`Common.ARTICLES_PER_PAGE`categoryName);" is 121.,70
+10_newsportal-master,net.filippov.newsportal.web,SearchController,categoryModelAndView,Long Statement,The length of the statement "String message=String.format(context.getMessage("search.result.byCategory"`null`LocaleContextHolder.getLocale())`categoryName);" is 127.,70
+10_newsportal-master,net.filippov.newsportal.web,SearchController,fragmentModelAndView,Long Statement,The length of the statement "String message=String.format(context.getMessage("search.result.byFragment"`null`LocaleContextHolder.getLocale())`fragment);" is 123.,191
+10_newsportal-master,net.filippov.newsportal.web,SearchController,searchModelAndView,Long Statement,The length of the statement "ModelAndView mav=new ModelAndView(View.SEARCH).addObject("message"`message).addObject("requestUrl"`requestUrl).addObject("currentPage"`pageNumber);" is 147.,205
+10_newsportal-master,net.filippov.newsportal.web,UserController,registerSubmit,Long Parameter List,The method has 5 parameters. ,62

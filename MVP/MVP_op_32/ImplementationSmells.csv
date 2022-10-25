@@ -1,0 +1,375 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Feeder2-master,me.zsr.feeder,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+Feeder2-master,me.zsr.feeder,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+Feeder2-master,me.zsr.feeder,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+Feeder2-master,com.feeder.android.util,ArticleUtil,setContent,Long Statement,The length of the statement "StatManager.statEvent(context`StatManager.EXCEPTION_SET_HTML`"subscription=" + subscriptionName + "` desc="+ article.getDescription());" is 135.,22
+Feeder2-master,com.feeder.android.util,ArticleUtil,setContent,Long Statement,The length of the statement "StatManager.statEvent(context`StatManager.EXCEPTION_PARSE_HTML`"subscription=" + subscriptionName + "` desc="+ article.getDescription()+ "` message="+ e.getMessage());" is 167.,22
+Feeder2-master,com.feeder.android.util,StatManager,uploadFile,Magic Number,The method contains a magic number: 512,106
+Feeder2-master,com.feeder.android.util,StatManager,uploadFile,Magic Number,The method contains a magic number: 1024,106
+Feeder2-master,com.feeder.android.util,OPMLHelper,parseSubscription,Long Statement,The length of the statement "Subscription subscription=new Subscription(null`"feed/" + xmlUrl`title`iconUrl`xmlUrl`null`htmlUrl`description`""`""`0L`0L`accountId`""`""`"");" is 143.,134
+Feeder2-master,com.feeder.android.util,OPMLHelper,parseSubscription,Magic Number,The method contains a magic number: 2,134
+Feeder2-master,com.feeder.android.util,HtmlUtil,getOptimizedDesc,Magic Number,The method contains a magic number: 50,15
+Feeder2-master,com.feeder.android.util,HtmlUtil,getOptimizedDesc,Magic Number,The method contains a magic number: 50,15
+Feeder2-master,com.feeder.android.util,DateUtil,isSameDay,Long Statement,The length of the statement "return cal1.get(Calendar.YEAR) == cal2.get(Calendar.YEAR) && cal1.get(Calendar.DAY_OF_YEAR) == cal2.get(Calendar.DAY_OF_YEAR);" is 126.,47
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Long Statement,The length of the statement "DisplayImageOptions options=new DisplayImageOptions.Builder().showImageOnLoading(defaultDrawable).showImageForEmptyUri(defaultDrawable).showImageOnFail(defaultDrawable).cacheInMemory(true).cacheOnDisk(true).build();" is 215.,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Long Statement,The length of the statement "ImageLoaderConfiguration config=new ImageLoaderConfiguration.Builder(context).defaultDisplayImageOptions(options).memoryCache(new LruMemoryCache(8 * 1024 * 1024)).diskCacheSize(100 * 1024 * 1024).diskCacheFileCount(100).writeDebugLogs().build();" is 245.,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Magic Number,The method contains a magic number: 8,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Magic Number,The method contains a magic number: 1024,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Magic Number,The method contains a magic number: 1024,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Magic Number,The method contains a magic number: 100,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Magic Number,The method contains a magic number: 1024,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Magic Number,The method contains a magic number: 1024,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,init,Magic Number,The method contains a magic number: 100,22
+Feeder2-master,com.feeder.android.util,ImageLoaderManager,getSubsciptionIconOptions,Long Statement,The length of the statement "DisplayImageOptions options=new DisplayImageOptions.Builder().showImageOnLoading(defaultDrawable).showImageForEmptyUri(defaultDrawable).showImageOnFail(defaultDrawable).cacheInMemory(true).cacheOnDisk(true).build();" is 215.,46
+Feeder2-master,com.feeder.android.presenter,AccountsPresenter,onItemLongClick,Long Statement,The length of the statement "new MaterialDialog.Builder(mActivity).items(R.array.account_long_click_menu).itemsCallback(new MaterialDialog.ListCallback(){" is 125.,86
+Feeder2-master,com.feeder.android.presenter,AccountsPresenter,rename,Long Statement,The length of the statement "new MaterialDialog.Builder(mActivity).title(R.string.rename).input(hint`account.getName()`new MaterialDialog.InputCallback(){" is 125.,108
+Feeder2-master,com.feeder.android.presenter,AccountsPresenter,confirmDelete,Long Statement,The length of the statement "new MaterialDialog.Builder(mActivity).title(R.string.delete_account).content(R.string.delete_confirm_tip).positiveText(R.string.upper_confirm).negativeText(R.string.upper_cancel).negativeColor(mActivity.getResources().getColor(R.color.main_grey_normal)).onPositive(new MaterialDialog.SingleButtonCallback(){" is 307.,124
+Feeder2-master,com.feeder.android.presenter,ArticlesPresenter,onItemLongClick,Complex Method,Cyclomatic complexity of the method is 8,121
+Feeder2-master,com.feeder.android.presenter,ArticlesPresenter,onItemLongClick,Long Statement,The length of the statement "new MaterialDialog.Builder(mActivity).title(data.getTitle()).items(menuList.toArray(new CharSequence[menuList.size()])).itemsCallback(new MaterialDialog.ListCallback(){" is 168.,121
+Feeder2-master,com.feeder.android.presenter,SubscriptionsPresenter,onStart,Magic Number,The method contains a magic number: 2000,55
+Feeder2-master,com.feeder.android.presenter,SubscriptionsPresenter,onItemLongClick,Long Statement,The length of the statement "new MaterialDialog.Builder(mActivity).title(data.getTitle()).items(menuList.toArray(new CharSequence[menuList.size()])).itemsCallback(new MaterialDialog.ListCallback(){" is 168.,116
+Feeder2-master,com.feeder.android.presenter,SubscriptionsPresenter,updateCategory,Complex Method,Cyclomatic complexity of the method is 9,141
+Feeder2-master,com.feeder.android.other,HtmlImageGetterEx,onPostExecute,Long Statement,The length of the statement "StatManager.statEvent(imageGetter.container.getContext()`StatManager.EXCEPTION_SET_HTML`"content=" + imageGetter.container.getText());" is 134.,85
+Feeder2-master,com.feeder.android.other,HtmlImageGetterEx,fetchDrawable,Long Statement,The length of the statement "Bitmap bitmap=ImageLoader.getInstance().loadImageSync(urlString`new ImageSize(container.getWidth()`container.getHeight()));" is 123.,116
+Feeder2-master,com.feeder.android.other,ImageGetterAsyncTask,onPostExecute,Long Statement,The length of the statement "StatManager.statEvent(imageGetter.container.getContext()`StatManager.EXCEPTION_SET_HTML`"content=" + imageGetter.container.getText());" is 134.,85
+Feeder2-master,com.feeder.android.other,ImageGetterAsyncTask,fetchDrawable,Long Statement,The length of the statement "Bitmap bitmap=ImageLoader.getInstance().loadImageSync(urlString`new ImageSize(container.getWidth()`container.getHeight()));" is 123.,116
+Feeder2-master,com.feeder.android.view.articlelist,ArticleListActivity,onCreate,Magic Number,The method contains a magic number: 300,36
+Feeder2-master,com.feeder.android.view.articlelist,ArticleListActivity,onMenuItemClick,Magic Number,The method contains a magic number: 300,57
+Feeder2-master,com.feeder.android.view.articlelist,ArticleViewHolder,bind,Magic Number,The method contains a magic number: 0.54f,52
+Feeder2-master,com.feeder.android.view.articlelist,ArticleViewHolder,bind,Magic Number,The method contains a magic number: 0.24f,52
+Feeder2-master,com.feeder.android.view.articlelist,ArticleViewHolder,bind,Magic Number,The method contains a magic number: 0.87f,52
+Feeder2-master,com.feeder.android.view,AuthInoreaderActivity,onCreate,Long Statement,The length of the statement "webview.loadUrl("https://www.inoreader.com/oauth2/auth?" + "client_id=" + InoreaderManager.CLIENT_ID + "&redirect_uri="+ mRedirectUrl+ "&response_type=code"+ "&scope="+ SCOPE+ "&state="+ CSRF_PROTECTION_STRING);" is 211.,35
+Feeder2-master,com.feeder.android.view,AuthInoreaderActivity,requestToken,Long Statement,The length of the statement "StringRequest tokenRequest=new StringRequest(Request.Method.POST`"https://www.inoreader.com/oauth2/token"`new Response.Listener<String>(){" is 138.,80
+Feeder2-master,com.feeder.android.view,AboutActivity,layoutOnClick,Complex Method,Cyclomatic complexity of the method is 11,103
+Feeder2-master,com.feeder.android.view,AboutActivity,showChangeLogDialog,Long Statement,The length of the statement "MaterialDialog dialog=new MaterialDialog.Builder(this).title(R.string.changelog).customView(markdownView`false).positiveText(R.string.got_it).callback(new MaterialDialog.ButtonCallback(){" is 187.,165
+Feeder2-master,com.feeder.android.view,AboutActivity,showShareMenu,Long Statement,The length of the statement "adapter.add(new MaterialSimpleListItem.Builder(this).content(R.string.google_plus).icon(R.drawable.ic_menu_google_plus).build());" is 129.,183
+Feeder2-master,com.feeder.android.view,AboutActivity,showShareMenu,Magic Number,The method contains a magic number: 2,183
+Feeder2-master,com.feeder.android.view,AboutActivity,showShareMenu,Magic Number,The method contains a magic number: 3,183
+Feeder2-master,com.feeder.android.view,AboutActivity,onSelection,Magic Number,The method contains a magic number: 2,205
+Feeder2-master,com.feeder.android.view,AboutActivity,onSelection,Magic Number,The method contains a magic number: 3,205
+Feeder2-master,com.feeder.android.view,SettingsActivity,layoutOnClick,Complex Method,Cyclomatic complexity of the method is 12,171
+Feeder2-master,com.feeder.android.view,SettingsActivity,showSingleChoice,Long Statement,The length of the statement "new MaterialDialog.Builder(this).title(R.string.font).items(R.array.font_size).itemsCallbackSingleChoice(currentSize`new MaterialDialog.ListCallbackSingleChoice(){" is 163.,222
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,initViews,Complex Method,Cyclomatic complexity of the method is 10,88
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,loadDataAsync,Long Statement,The length of the statement "final List<Article> articleList=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.Id.eq(articleId)).list();" is 126.,155
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,loadDataAsync,Long Statement,The length of the statement "final List<Subscription> subscriptionList=DBManager.getSubscriptionDao().queryBuilder().where(SubscriptionDao.Properties.Id.eq(mArticle.getSubscriptionId())).list();" is 165.,155
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,run,Long Statement,The length of the statement "final List<Article> articleList=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.Id.eq(articleId)).list();" is 126.,159
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,run,Long Statement,The length of the statement "final List<Subscription> subscriptionList=DBManager.getSubscriptionDao().queryBuilder().where(SubscriptionDao.Properties.Id.eq(mArticle.getSubscriptionId())).list();" is 165.,159
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,statTimeSpend,Magic Number,The method contains a magic number: 50,190
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,statTimeSpend,Magic Number,The method contains a magic number: 100,190
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,statTimeSpend,Magic Number,The method contains a magic number: 300,190
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,statTimeSpend,Magic Number,The method contains a magic number: 500,190
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,statTimeSpend,Magic Number,The method contains a magic number: 800,190
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,setData,Magic Number,The method contains a magic number: 0.2f,208
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,setData,Magic Number,The method contains a magic number: 0.2f,208
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Complex Conditional,The conditional expression contentIdList.size() == 0 || (contentIdList.size() == 1 && contentIdList.get(0) == R.string.more) is complex.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Complex Method,Cyclomatic complexity of the method is 16,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "adapter.add(new MaterialSimpleListItem.Builder(this).content(R.string.wechat).icon(drawable).backgroundColor(Color.WHITE).build());" is 131.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "adapter.add(new MaterialSimpleListItem.Builder(this).content(R.string.moment).icon(drawable).backgroundColor(Color.WHITE).build());" is 131.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "adapter.add(new MaterialSimpleListItem.Builder(this).content(R.string.weibo).icon(drawable).backgroundColor(Color.WHITE).build());" is 130.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "if (SPManager.getBoolean(KEY_SWITCH_SHARE_INSTAPAPER`true) && AppUtil.isAppInstalled(this`Constants.PACKAGE_NAME_INSTAPAPER)) {" is 127.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "adapter.add(new MaterialSimpleListItem.Builder(this).content(R.string.instapaper).icon(drawable).backgroundColor(Color.WHITE).build());" is 135.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "adapter.add(new MaterialSimpleListItem.Builder(this).content(R.string.pocket).icon(drawable).backgroundColor(Color.WHITE).build());" is 131.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "if (SPManager.getBoolean(KEY_SWITCH_SHARE_EVERNOTE`true) && AppUtil.isAppInstalled(this`Constants.PACKAGE_NAME_EVERNOTE)) {" is 123.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "adapter.add(new MaterialSimpleListItem.Builder(this).content(R.string.evernote).icon(drawable).backgroundColor(Color.WHITE).build());" is 133.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,showShareMenu,Long Statement,The length of the statement "adapter.add(new MaterialSimpleListItem.Builder(this).content(R.string.more).icon(drawable).backgroundColor(Color.WHITE).build());" is 129.,248
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,onSelection,Complex Method,Cyclomatic complexity of the method is 8,339
+Feeder2-master,com.feeder.android.view.article,ArticleActivity,recordClick,Magic Number,The method contains a magic number: 500,396
+Feeder2-master,com.feeder.android.view.main,MainDialogHelper,showCreateLocalAccountDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(activity).title(R.string.create).input(R.string.account_name`R.string.none`new MaterialDialog.InputCallback(){" is 137.,25
+Feeder2-master,com.feeder.android.view.main,MainDialogHelper,showCreateAccountDialog,Long Statement,The length of the statement "new MaterialDialog.Builder(activity).items(R.array.account_type_selection).itemsCallback(new MaterialDialog.ListCallback(){" is 123.,39
+Feeder2-master,com.feeder.android.view.main,Category,Category,Complex Conditional,The conditional expression childItemList != null && childItemList.size() != 0 && childItemList.get(0) != null is complex.,17
+Feeder2-master,com.feeder.android.view.main,CategoryViewHolder,bind,Complex Conditional,The conditional expression category == null || category.getChildList() == null || category.getChildList().size() == 0 is complex.,31
+Feeder2-master,com.feeder.android.view.main,MainActivity,initDrawerPanel,Long Statement,The length of the statement "((ImageView)createAccountEntrance.findViewById(R.id.create_account_img)).setColorFilter(getResources().getColor(R.color.main_grey_normal));" is 139.,93
+Feeder2-master,com.feeder.android.view.main,MainActivity,initDrawerPanel,Long Statement,The length of the statement "((ImageView)settingsEntrance.findViewById(R.id.settings_img)).setColorFilter(getResources().getColor(R.color.main_grey_normal));" is 128.,93
+Feeder2-master,com.feeder.android.view.main,MainActivity,initDrawerPanel,Long Statement,The length of the statement "((ImageView)aboutEntrance.findViewById(R.id.about_img)).setColorFilter(getResources().getColor(R.color.main_grey_normal));" is 122.,93
+Feeder2-master,com.feeder.android.view.main,MainActivity,initDrawerPanel,Magic Number,The method contains a magic number: 1000,93
+Feeder2-master,com.feeder.android.view.main,MainActivity,initDrawerPanel,Magic Number,The method contains a magic number: 1000,93
+Feeder2-master,com.feeder.android.view.main,MainActivity,initDrawerPanel,Magic Number,The method contains a magic number: 1000,93
+Feeder2-master,com.feeder.android.view.main,MainActivity,onClick,Magic Number,The method contains a magic number: 1000,114
+Feeder2-master,com.feeder.android.view.main,MainActivity,onClick,Magic Number,The method contains a magic number: 1000,133
+Feeder2-master,com.feeder.android.view.main,MainActivity,onClick,Magic Number,The method contains a magic number: 1000,145
+Feeder2-master,com.feeder.android.view.main,MainActivity,pickFile,Long Statement,The length of the statement "new MaterialFilePicker().withActivity(MainActivity.this).withRequestCode(OPML_FILE_SELECT_CODE).withFilterDirectories(true).start();" is 132.,154
+Feeder2-master,com.feeder.android.view.main,MainActivity,onMessageEvent,Magic Number,The method contains a magic number: 300,188
+Feeder2-master,com.feeder.android.view.main,MainActivity,onBackPressed,Magic Number,The method contains a magic number: 5000,205
+Feeder2-master,com.feeder.android.view.main,MainActivity,onRequestPermissionsResult,Long Identifier,The length of the field PERMISSION_REQUEST_WRITE_EXTERNAL_STORAGE is 41.,274
+Feeder2-master,com.feeder.android.view.main,MainActivity,onImportOPMLClick,Long Identifier,The length of the field PERMISSION_REQUEST_WRITE_EXTERNAL_STORAGE is 41.,287
+Feeder2-master,com.feeder.android.view.main,MainActivity,onImportOPMLClick,Long Statement,The length of the statement "ActivityCompat.requestPermissions(MainActivity.this`new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}`PERMISSION_REQUEST_WRITE_EXTERNAL_STORAGE);" is 152.,287
+Feeder2-master,com.feeder.android.view.main,MainActivity,onImportOPMLClick,Magic Number,The method contains a magic number: 1000,287
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,initToolbar,Long Statement,The length of the statement "Subscription subscription=FeedlyUtils.result2Subscription(result`AccountModel.getInstance().getCurrentAccount().getId());" is 121.,88
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,onItemClick,Long Statement,The length of the statement "Subscription subscription=FeedlyUtils.result2Subscription(result`AccountModel.getInstance().getCurrentAccount().getId());" is 121.,165
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,disableSearchForAWhile,Magic Number,The method contains a magic number: 100,181
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,searchByFeedly,Long Statement,The length of the statement "final String requestUrl=URIUtils.createURI("http"`"cloud.feedly.com"`-1`"/v3/search/feeds"`URLEncodedUtils.format(params`"utf-8")`null).toString();" is 147.,191
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,searchByFeedly,Long Statement,The length of the statement "mResultAdapter=new ArrayAdapter<>(mActivity`R.layout.result_list_item`R.id.result_txt`titleList.toArray(new String[titleList.size()]));" is 135.,191
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,onResponse,Long Statement,The length of the statement "mResultAdapter=new ArrayAdapter<>(mActivity`R.layout.result_list_item`R.id.result_txt`titleList.toArray(new String[titleList.size()]));" is 135.,199
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,onCreateOptionsMenu,Magic Number,The method contains a magic number: 100,273
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,onMenuItemClick,Magic Number,The method contains a magic number: 100,277
+Feeder2-master,com.feeder.android.view.main,MainToolbarController,filterResult,Magic Number,The method contains a magic number: 5,300
+Feeder2-master,com.feeder.android.view.main,SubscriptionViewHolder,bind,Long Statement,The length of the statement "ImageLoader.getInstance().displayImage(subscription.getIconUrl()`mIconImageView`ImageLoaderManager.getSubsciptionIconOptions(mItemView.getContext()));" is 150.,33
+Feeder2-master,com.feeder.android.htmltextview,JellyBeanSpanFixTextView,addSpacesAroundSpansUntilFixed,Empty catch clause,The method has an empty catch block.,130
+Feeder2-master,com.feeder.android.htmltextview,DrawTableLinkSpan,getSize,Long Parameter List,The method has 5 parameters. ,52
+Feeder2-master,com.feeder.android.htmltextview,DrawTableLinkSpan,draw,Long Parameter List,The method has 9 parameters. ,59
+Feeder2-master,com.feeder.android.htmltextview,NumberSpan,drawLeadingMargin,Long Parameter List,The method has 12 parameters. ,46
+Feeder2-master,com.feeder.android.htmltextview,HtmlTagHandler,handleTag,Complex Method,Cyclomatic complexity of the method is 40,144
+Feeder2-master,com.feeder.android.htmltextview,HtmlTagHandler,handleTag,Long Method,The method has 134 lines of code.,144
+Feeder2-master,com.feeder.android.htmltextview,HtmlTagHandler,handleTag,Magic Number,The method contains a magic number: 2,144
+Feeder2-master,com.feeder.android.htmltextview,HtmlTagHandler,handleTag,Magic Number,The method contains a magic number: 2,144
+Feeder2-master,com.feeder.android.htmltextview,HtmlTagHandler,handleTag,Magic Number,The method contains a magic number: 2,144
+Feeder2-master,com.feeder.android.htmltextview,HtmlTagHandler,handleTag,Magic Number,The method contains a magic number: 2,144
+Feeder2-master,com.feeder.common,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+Feeder2-master,com.feeder.common,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+Feeder2-master,com.feeder.common,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+Feeder2-master,com.feeder.common,HttpHelper,post,Long Parameter List,The method has 5 parameters. ,60
+Feeder2-master,com.feeder.common,HttpHelper,closeSilently,Empty catch clause,The method has an empty catch block.,117
+Feeder2-master,com.feeder.common,HttpHelper,toString,Long Statement,The length of the statement "return "httpResponseCode = " + httpResponseCode + " ` "+ "httpResponseMessage = "+ httpResponseMessage+ " ` "+ "serverResponseMessage = "+ serverResponseMessage;" is 161.,178
+Feeder2-master,com.feeder.common,Response,toString,Long Statement,The length of the statement "return "httpResponseCode = " + httpResponseCode + " ` "+ "httpResponseMessage = "+ httpResponseMessage+ " ` "+ "serverResponseMessage = "+ serverResponseMessage;" is 161.,178
+Feeder2-master,com.feeder.common,LogUtil,getInformation,Long Statement,The length of the statement "return exception.getStackTrace()[STACK_INDEX].getFileName() + "|" + exception.getStackTrace()[STACK_INDEX].getLineNumber()+ "|"+ msg;" is 133.,67
+Feeder2-master,me.imid.swipebacklayout.lib.app,SwipeBackActivityHelper,onActivityCreate,Long Statement,The length of the statement "mSwipeBackLayout=(SwipeBackLayout)LayoutInflater.from(mActivity).inflate(me.imid.swipebacklayout.lib.R.layout.swipeback_layout`null);" is 133.,24
+Feeder2-master,me.imid.swipebacklayout.lib,Utils,convertActivityFromTranslucent,Empty catch clause,The method has an empty catch block.,17
+Feeder2-master,me.imid.swipebacklayout.lib,Utils,convertActivityToTranslucentBeforeL,Empty catch clause,The method has an empty catch block.,58
+Feeder2-master,me.imid.swipebacklayout.lib,Utils,convertActivityToTranslucentBeforeL,Long Identifier,The length of the identifier translucentConversionListenerClazz is 34.,58
+Feeder2-master,me.imid.swipebacklayout.lib,Utils,convertActivityToTranslucentAfterL,Empty catch clause,The method has an empty catch block.,80
+Feeder2-master,me.imid.swipebacklayout.lib,Utils,convertActivityToTranslucentAfterL,Long Identifier,The length of the identifier translucentConversionListenerClazz is 34.,80
+Feeder2-master,me.imid.swipebacklayout.lib,Utils,convertActivityToTranslucentAfterL,Long Statement,The length of the statement "Method convertToTranslucent=Activity.class.getDeclaredMethod("convertToTranslucent"`translucentConversionListenerClazz`ActivityOptions.class);" is 142.,80
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,SwipeBackLayout,Magic Number,The method contains a magic number: 2f,132
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onLayout,Long Parameter List,The method has 5 parameters. ,382
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onLayout,Long Statement,The length of the statement "if (mContentView != null) mContentView.layout(mContentLeft`mContentTop`mContentLeft + mContentView.getMeasuredWidth()`mContentTop + mContentView.getMeasuredHeight());" is 166.,382
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,drawChild,Complex Conditional,The conditional expression mScrimOpacity > 0 && drawContent && mDragHelper.getViewDragState() != ViewDragHelper.STATE_IDLE is complex.,399
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,drawScrim,Magic Number,The method contains a magic number: 0xff000000,412
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,drawScrim,Magic Number,The method contains a magic number: 24,412
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,drawScrim,Magic Number,The method contains a magic number: 24,412
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,drawScrim,Magic Number,The method contains a magic number: 0xffffff,412
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,drawShadow,Long Statement,The length of the statement "mShadowRight.setBounds(childRect.right`childRect.top`childRect.right + mShadowRight.getIntrinsicWidth()`childRect.bottom);" is 122.,427
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,drawShadow,Long Statement,The length of the statement "mShadowBottom.setBounds(childRect.left`childRect.bottom`childRect.right`childRect.bottom + mShadowBottom.getIntrinsicHeight());" is 127.,427
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,tryCaptureView,Complex Method,Cyclomatic complexity of the method is 10,481
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onViewPositionChanged,Complex Conditional,The conditional expression mListeners != null && !mListeners.isEmpty() && mDragHelper.getViewDragState() == STATE_DRAGGING && mScrollPercent >= mScrollThreshold && mIsScrollOverValid is complex.,521
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onViewPositionChanged,Complex Method,Cyclomatic complexity of the method is 9,521
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,521
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onViewPositionChanged,Long Statement,The length of the statement "if (mListeners != null && !mListeners.isEmpty() && mDragHelper.getViewDragState() == STATE_DRAGGING && mScrollPercent >= mScrollThreshold && mIsScrollOverValid) {" is 162.,521
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onViewReleased,Long Statement,The length of the statement "left=xvel > 0 || xvel == 0 && mScrollPercent > mScrollThreshold ? childWidth + mShadowLeft.getIntrinsicWidth() + OVERSCROLL_DISTANCE : 0;" is 137.,557
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onViewReleased,Long Statement,The length of the statement "left=xvel < 0 || xvel == 0 && mScrollPercent > mScrollThreshold ? -(childWidth + mShadowLeft.getIntrinsicWidth() + OVERSCROLL_DISTANCE) : 0;" is 140.,557
+Feeder2-master,me.imid.swipebacklayout.lib,SwipeBackLayout,onViewReleased,Long Statement,The length of the statement "top=yvel < 0 || yvel == 0 && mScrollPercent > mScrollThreshold ? -(childHeight + mShadowBottom.getIntrinsicHeight() + OVERSCROLL_DISTANCE) : 0;" is 143.,557
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragCallback,tryCaptureView,Complex Method,Cyclomatic complexity of the method is 10,481
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragCallback,onViewPositionChanged,Complex Conditional,The conditional expression mListeners != null && !mListeners.isEmpty() && mDragHelper.getViewDragState() == STATE_DRAGGING && mScrollPercent >= mScrollThreshold && mIsScrollOverValid is complex.,521
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragCallback,onViewPositionChanged,Complex Method,Cyclomatic complexity of the method is 9,521
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragCallback,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,521
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragCallback,onViewPositionChanged,Long Statement,The length of the statement "if (mListeners != null && !mListeners.isEmpty() && mDragHelper.getViewDragState() == STATE_DRAGGING && mScrollPercent >= mScrollThreshold && mIsScrollOverValid) {" is 162.,521
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragCallback,onViewReleased,Long Statement,The length of the statement "left=xvel > 0 || xvel == 0 && mScrollPercent > mScrollThreshold ? childWidth + mShadowLeft.getIntrinsicWidth() + OVERSCROLL_DISTANCE : 0;" is 137.,557
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragCallback,onViewReleased,Long Statement,The length of the statement "left=xvel < 0 || xvel == 0 && mScrollPercent > mScrollThreshold ? -(childWidth + mShadowLeft.getIntrinsicWidth() + OVERSCROLL_DISTANCE) : 0;" is 140.,557
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragCallback,onViewReleased,Long Statement,The length of the statement "top=yvel < 0 || yvel == 0 && mScrollPercent > mScrollThreshold ? -(childHeight + mShadowBottom.getIntrinsicHeight() + OVERSCROLL_DISTANCE) : 0;" is 143.,557
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,176
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,ViewDragHelper,Magic Number,The method contains a magic number: 0.5f,403
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,captureChildView,Long Statement,The length of the statement "throw new IllegalArgumentException("captureChildView: parameter must be a descendant " + "of the ViewDragHelper's tracked parent view (" + mParentView + ")");" is 158.,531
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,settleCapturedViewAt,Long Statement,The length of the statement "return forceSettleCapturedViewAt(finalLeft`finalTop`(int)VelocityTrackerCompat.getXVelocity(mVelocityTracker`mActivePointerId)`(int)VelocityTrackerCompat.getYVelocity(mVelocityTracker`mActivePointerId));" is 203.,634
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,computeSettleDuration,Long Parameter List,The method has 5 parameters. ,688
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,computeAxisDuration,Magic Number,The method contains a magic number: 2,709
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,computeAxisDuration,Magic Number,The method contains a magic number: 4,709
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,computeAxisDuration,Magic Number,The method contains a magic number: 1000,709
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 0.5f,769
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 0.3f,769
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 2.0f,769
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,flingCapturedView,Long Statement,The length of the statement "mScroller.fling(mCapturedView.getLeft()`mCapturedView.getTop()`(int)VelocityTrackerCompat.getXVelocity(mVelocityTracker`mActivePointerId)`(int)VelocityTrackerCompat.getYVelocity(mVelocityTracker`mActivePointerId)`minLeft`maxLeft`minTop`maxTop);" is 244.,775
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,continueSettling,Complex Conditional,The conditional expression keepGoing && x == mScroller.getFinalX() && y == mScroller.getFinalY() is complex.,799
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,continueSettling,Complex Method,Cyclomatic complexity of the method is 8,799
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,canScroll,Complex Conditional,The conditional expression x + scrollX >= child.getLeft() && x + scrollX < child.getRight() && y + scrollY >= child.getTop() && y + scrollY < child.getBottom() && canScroll(child`true`dx`dy`x + scrollX - child.getLeft()`y + scrollY - child.getTop()) is complex.,996
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,canScroll,Long Parameter List,The method has 6 parameters. ,996
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,canScroll,Long Statement,The length of the statement "if (x + scrollX >= child.getLeft() && x + scrollX < child.getRight() && y + scrollY >= child.getTop() && y + scrollY < child.getBottom() && canScroll(child`true`dx`dy`x + scrollX - child.getLeft()`y + scrollY - child.getTop())) {" is 229.,996
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,shouldInterceptTouchEvent,Complex Conditional,The conditional expression toCapture != null && checkTouchSlop(toCapture`dx`dy) && tryCaptureViewForDrag(toCapture`pointerId) is complex.,1036
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,shouldInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 18,1036
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,processTouchEvent,Complex Method,Cyclomatic complexity of the method is 24,1147
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,processTouchEvent,Long Method,The method has 119 lines of code.,1147
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,checkNewEdgeDrag,Complex Conditional,The conditional expression (mInitialEdgeTouched[pointerId] & edge) != edge || (mTrackingEdges & edge) == 0 || (mEdgeDragsLocked[pointerId] & edge) == edge || (mEdgeDragsInProgress[pointerId] & edge) == edge || (absDelta <= mTouchSlop && absODelta <= mTouchSlop) is complex.,1333
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,checkNewEdgeDrag,Long Statement,The length of the statement "if ((mInitialEdgeTouched[pointerId] & edge) != edge || (mTrackingEdges & edge) == 0 || (mEdgeDragsLocked[pointerId] & edge) == edge || (mEdgeDragsInProgress[pointerId] & edge) == edge || (absDelta <= mTouchSlop && absODelta <= mTouchSlop)) {" is 241.,1333
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,checkNewEdgeDrag,Magic Number,The method contains a magic number: 0.5f,1333
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,releaseViewForPointerUp,Long Statement,The length of the statement "final float xvel=clampMag(VelocityTrackerCompat.getXVelocity(mVelocityTracker`mActivePointerId)`mMinVelocity`mMaxVelocity);" is 123.,1479
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,releaseViewForPointerUp,Long Statement,The length of the statement "final float yvel=clampMag(VelocityTrackerCompat.getYVelocity(mVelocityTracker`mActivePointerId)`mMinVelocity`mMaxVelocity);" is 123.,1479
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,releaseViewForPointerUp,Magic Number,The method contains a magic number: 1000,1479
+Feeder2-master,me.imid.swipebacklayout.lib,ViewDragHelper,findTopChildUnder,Complex Conditional,The conditional expression x >= child.getLeft() && x < child.getRight() && y >= child.getTop() && y < child.getBottom() is complex.,1544
+Feeder2-master,me.imid.swipebacklayout.lib,Callback,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,176
+Feeder2-master,com.feeder.model,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+Feeder2-master,com.feeder.model,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+Feeder2-master,com.feeder.model,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+Feeder2-master,com.feeder.model,MigrationHelper,generateTempTables,Empty catch clause,The method has an empty catch block.,37
+Feeder2-master,com.feeder.model,MigrationHelper,getTypeByClass,Complex Conditional,The conditional expression type.equals(Long.class) || type.equals(Integer.class) || type.equals(long.class) is complex.,122
+Feeder2-master,com.feeder.model,MigrationHelper,getTypeByClass,Long Identifier,The length of the field CONVERSION_CLASS_NOT_FOUND_EXCEPTION is 36.,122
+Feeder2-master,com.feeder.model,Article,Article,Long Parameter List,The method has 13 parameters. ,117
+Feeder2-master,com.feeder.model,Article,Article,Magic Number,The method contains a magic number: 19592054,117
+Feeder2-master,com.feeder.model,Article,Article,Magic Number,The method contains a magic number: 742516792,136
+Feeder2-master,com.feeder.model,Article,equals,Long Statement,The length of the statement "return StringUtil.equals(article.getTitle()`getTitle()) && NumberUtil.equals(article.getSubscriptionId()`subscriptionId);" is 121.,140
+Feeder2-master,com.feeder.model,Account,Account,Long Parameter List,The method has 8 parameters. ,95
+Feeder2-master,com.feeder.model,Account,Account,Magic Number,The method contains a magic number: 503954081,95
+Feeder2-master,com.feeder.model,Account,Account,Magic Number,The method contains a magic number: 882125521,108
+Feeder2-master,com.feeder.model,Subscription,Subscription,Long Parameter List,The method has 16 parameters. ,178
+Feeder2-master,com.feeder.model,Subscription,Subscription,Magic Number,The method contains a magic number: 1522689432,178
+Feeder2-master,com.feeder.model,Subscription,Subscription,Magic Number,The method contains a magic number: 1800298428,201
+Feeder2-master,com.feeder.domain,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+Feeder2-master,com.feeder.domain,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+Feeder2-master,com.feeder.domain,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+Feeder2-master,com.feeder.domain,FeedlyUtils,result2Subscription,Long Statement,The length of the statement "Subscription subscription=new Subscription(null`result.feedId`result.title`result.iconUrl`result.feedId.substring(5)`result.lastUpdated`result.website`result.description`""`""`0L`0L`accountId`""`""`"");" is 202.,13
+Feeder2-master,com.feeder.domain,FeedlyUtils,result2Subscription,Magic Number,The method contains a magic number: 5,13
+Feeder2-master,com.feeder.domain,FeedParser,readItemForArticle,Complex Method,Cyclomatic complexity of the method is 8,159
+Feeder2-master,com.feeder.domain,FeedParser,readItemForArticle,Long Statement,The length of the statement "return new Article(null`title`link`description`false`false`content`null`DateUtil.parseRfc822(pubDate).getTime()`false`""`""`"");" is 128.,159
+Feeder2-master,com.feeder.domain.net,ArticleListRequest,deliverError,Complex Conditional,The conditional expression HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER is complex.,75
+Feeder2-master,com.feeder.domain.net,ArticleListRequest,deliverError,Long Statement,The length of the statement "if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {" is 143.,75
+Feeder2-master,com.feeder.domain.net,VolleySingleton,VolleySingleton,Magic Number,The method contains a magic number: 20,18
+Feeder2-master,com.feeder.domain.net,SubscriptionRequest,deliverError,Complex Conditional,The conditional expression HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER is complex.,58
+Feeder2-master,com.feeder.domain.net,SubscriptionRequest,deliverError,Long Statement,The length of the statement "if (HttpURLConnection.HTTP_MOVED_PERM == status || status == HttpURLConnection.HTTP_MOVED_TEMP || status == HttpURLConnection.HTTP_SEE_OTHER) {" is 143.,58
+Feeder2-master,com.feeder.domain.model,LocalSubscriptionModel,requestData,Long Statement,The length of the statement "final List<Subscription> list=DBManager.getSubscriptionDao().queryBuilder().where(SubscriptionDao.Properties.AccountId.eq(AccountModel.getInstance().getCurrentAccount().getId())).list();" is 186.,23
+Feeder2-master,com.feeder.domain.model,LocalSubscriptionModel,run,Long Statement,The length of the statement "final List<Subscription> list=DBManager.getSubscriptionDao().queryBuilder().where(SubscriptionDao.Properties.AccountId.eq(AccountModel.getInstance().getCurrentAccount().getId())).list();" is 186.,27
+Feeder2-master,com.feeder.domain.model,LocalSubscriptionModel,updateArticleInfo,Long Statement,The length of the statement "final long totalCount=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.SubscriptionId.eq(subscription.getId())).count();" is 140.,63
+Feeder2-master,com.feeder.domain.model,LocalSubscriptionModel,updateArticleInfo,Long Statement,The length of the statement "final long unreadCount=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.SubscriptionId.eq(subscription.getId())`ArticleDao.Properties.Read.eq(false)).count();" is 178.,63
+Feeder2-master,com.feeder.domain.model,LocalSubscriptionModel,run,Long Statement,The length of the statement "final long totalCount=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.SubscriptionId.eq(subscription.getId())).count();" is 140.,70
+Feeder2-master,com.feeder.domain.model,LocalSubscriptionModel,run,Long Statement,The length of the statement "final long unreadCount=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.SubscriptionId.eq(subscription.getId())`ArticleDao.Properties.Read.eq(false)).count();" is 178.,70
+Feeder2-master,com.feeder.domain.model,AccountModel,fillAndNotifySync,Long Statement,The length of the statement "long unreadCount=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.SubscriptionId.eq(subscription.getId())`ArticleDao.Properties.Read.eq(false)).count();" is 172.,226
+Feeder2-master,com.feeder.domain.model,AccountModel,run,Long Statement,The length of the statement "long unreadCount=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.SubscriptionId.eq(subscription.getId())`ArticleDao.Properties.Read.eq(false)).count();" is 172.,229
+Feeder2-master,com.feeder.domain.model,ArticleModel,queryFav,Long Statement,The length of the statement "return DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.Favorite.eq(true)).orderDesc(ArticleDao.Properties.Published).list();" is 145.,108
+Feeder2-master,com.feeder.domain.model,ArticleModel,queryBySubscriptionIdSync,Long Statement,The length of the statement "qb.where(ArticleDao.Properties.SubscriptionId.eq(subscriptionId)`ArticleDao.Properties.Trash.eq(false)`qb.or(ArticleDao.Properties.Favorite.eq(false)`ArticleDao.Properties.Favorite.isNull())).orderDesc(ArticleDao.Properties.Published);" is 235.,114
+Feeder2-master,com.feeder.domain.model,ArticleModel,requestNetwork,Long Statement,The length of the statement "List<Subscription> subscriptionList=DBManager.getSubscriptionDao().queryBuilder().where(SubscriptionDao.Properties.Id.eq(subscriptionId)).list();" is 145.,124
+Feeder2-master,com.feeder.domain.model,ArticleModel,run,Long Statement,The length of the statement "List<Subscription> subscriptionList=DBManager.getSubscriptionDao().queryBuilder().where(SubscriptionDao.Properties.Id.eq(subscriptionId)).list();" is 145.,127
+Feeder2-master,com.feeder.domain.model,ArticleModel,insertToDB,Long Statement,The length of the statement "List<Article> dbArticleList=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.SubscriptionId.eq(subscriptionId)).list();" is 139.,167
+Feeder2-master,com.feeder.domain.model,ArticleModel,run,Long Statement,The length of the statement "List<Article> dbArticleList=DBManager.getArticleDao().queryBuilder().where(ArticleDao.Properties.SubscriptionId.eq(subscriptionId)).list();" is 139.,172
+Feeder2-master,com.feeder.domain.model,ArticleModel,markReadTrash,Long Statement,The length of the statement "qb.where(ArticleDao.Properties.Read.eq(true)`ArticleDao.Properties.Trash.eq(false)`qb.or(ArticleDao.Properties.Favorite.eq(false)`ArticleDao.Properties.Favorite.isNull()));" is 172.,283
+Feeder2-master,com.feeder.domain.model,ArticleModel,run,Long Statement,The length of the statement "qb.where(ArticleDao.Properties.Read.eq(true)`ArticleDao.Properties.Trash.eq(false)`qb.or(ArticleDao.Properties.Favorite.eq(false)`ArticleDao.Properties.Favorite.isNull()));" is 172.,289
+Feeder2-master,com.feeder.domain.inoreader,InoreaderManager,saveToken,Magic Number,The method contains a magic number: 1000,46
+Feeder2-master,com.feeder.domain.inoreader,InoreaderManager,refreshToken,Long Statement,The length of the statement "StringRequest tokenRequest=new StringRequest(Request.Method.POST`"https://www.inoreader.com/oauth2/token"`new Response.Listener<String>(){" is 138.,69
+Feeder2-master,com.feeder.domain.inoreader,InoreaderManager,requestUserInfo,Long Statement,The length of the statement "StringRequest userInfoRequest=new StringRequest(Request.Method.POST`InoreaderApi.USER_INFO`new Response.Listener<String>(){" is 123.,123
+Feeder2-master,com.feeder.domain.inoreader,InoUserInfo,toString,Long Statement,The length of the statement "return "InoUserInfo{" + "userId='" + userId + '\''+ "` userName='"+ userName+ '\''+ "` userProfileId='"+ userProfileId+ '\''+ "` userEmail='"+ userEmail+ '\''+ "` isBloggerUser='"+ isBloggerUser+ '\''+ "` signupTimeSec='"+ signupTimeSec+ '\''+ "` isMultiLoginEnabled='"+ isMultiLoginEnabled+ '\''+ '}';" is 302.,18
+Feeder2-master,me.zsr.share,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Feeder2-master,me.zsr.share,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Feeder2-master,me.zsr.share,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Feeder2-master,me.zsr.share,WXEntryActivity,onShowMessageFromWXReq,Complex Conditional,The conditional expression msg != null && msg.mediaObject != null && (msg.mediaObject instanceof WXAppExtendObject) is complex.,34
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,show,Complex Conditional,The conditional expression silent || isCustomPlatform || isUseClientToShare is complex.,82
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,isUseClientToShare,Complex Conditional,The conditional expression "Wechat".equals(name) || "WechatMoments".equals(name) || "WechatFavorite".equals(name)|| "ShortMessage".equals(name)|| "Email".equals(name)|| "Qzone".equals(name)|| "QQ".equals(name)|| "Pinterest".equals(name)|| "Instagram".equals(name)|| "Yixin".equals(name)|| "YixinMoments".equals(name)|| "QZone".equals(name)|| "Mingdao".equals(name)|| "Line".equals(name)|| "KakaoStory".equals(name)|| "KakaoTalk".equals(name)|| "Bluetooth".equals(name)|| "WhatsApp".equals(name)|| "BaiduTieba".equals(name)|| "Laiwang".equals(name)|| "LaiwangMoments".equals(name)|| "Alipay".equals(name)|| "AlipayMoments".equals(name)|| "FacebookMessenger".equals(name)|| "GooglePlus".equals(name) is complex.,103
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,isUseClientToShare,Long Statement,The length of the statement "if ("Wechat".equals(name) || "WechatMoments".equals(name) || "WechatFavorite".equals(name)|| "ShortMessage".equals(name)|| "Email".equals(name)|| "Qzone".equals(name)|| "QQ".equals(name)|| "Pinterest".equals(name)|| "Instagram".equals(name)|| "Yixin".equals(name)|| "YixinMoments".equals(name)|| "QZone".equals(name)|| "Mingdao".equals(name)|| "Line".equals(name)|| "KakaoStory".equals(name)|| "KakaoTalk".equals(name)|| "Bluetooth".equals(name)|| "WhatsApp".equals(name)|| "BaiduTieba".equals(name)|| "Laiwang".equals(name)|| "LaiwangMoments".equals(name)|| "Alipay".equals(name)|| "AlipayMoments".equals(name)|| "FacebookMessenger".equals(name)|| "GooglePlus".equals(name)) {" is 677.,103
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,prepareForEditPage,Magic Number,The method contains a magic number: 3,162
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,formateShareData,Complex Conditional,The conditional expression shareParamsMap.containsKey("musicUrl") && !TextUtils.isEmpty(shareParamsMap.get("musicUrl").toString()) && isWechat is complex.,176
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,formateShareData,Complex Conditional,The conditional expression shareParamsMap.containsKey("musicUrl") && !TextUtils.isEmpty(shareParamsMap.get("musicUrl").toString()) && isWechat is complex.,176
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,formateShareData,Complex Conditional,The conditional expression shareParamsMap.containsKey("musicUrl") && !TextUtils.isEmpty(shareParamsMap.get("musicUrl").toString()) && isWechat is complex.,176
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,formateShareData,Complex Method,Cyclomatic complexity of the method is 26,176
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,formateShareData,Long Method,The method has 108 lines of code.,176
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,formateShareData,Long Statement,The length of the statement "if (shareParamsMap.containsKey("musicUrl") && !TextUtils.isEmpty(shareParamsMap.get("musicUrl").toString()) && isWechat) {" is 122.,176
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,formateShareData,Long Statement,The length of the statement "if (shareParamsMap.containsKey("musicUrl") && !TextUtils.isEmpty(shareParamsMap.get("musicUrl").toString()) && isWechat) {" is 122.,176
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,formateShareData,Long Statement,The length of the statement "if (shareParamsMap.containsKey("musicUrl") && !TextUtils.isEmpty(shareParamsMap.get("musicUrl").toString()) && isWechat) {" is 122.,176
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,shareDataToShareParams,Complex Conditional,The conditional expression TextUtils.isEmpty(imagePath) && viewToShare != null && !viewToShare.isRecycled() is complex.,295
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,shareDataToShareParams,Magic Number,The method contains a magic number: 100,295
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,onError,Magic Number,The method contains a magic number: 2,349
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,onError,Magic Number,The method contains a magic number: 4,349
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,onCancel,Magic Number,The method contains a magic number: 3,362
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,onCancel,Magic Number,The method contains a magic number: 5,362
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,handleMessage,Complex Conditional,The conditional expression "WechatClientNotExistException".equals(expName) || "WechatTimelineNotSupportedException".equals(expName) || "WechatFavoriteNotSupportedException".equals(expName) is complex.,373
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,handleMessage,Complex Method,Cyclomatic complexity of the method is 13,373
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,handleMessage,Long Statement,The length of the statement "if ("WechatClientNotExistException".equals(expName) || "WechatTimelineNotSupportedException".equals(expName) || "WechatFavoriteNotSupportedException".equals(expName)) {" is 168.,373
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,handleMessage,Magic Number,The method contains a magic number: 2,373
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShareThemeImpl,handleMessage,Magic Number,The method contains a magic number: 3,373
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShare,show,Empty catch clause,The method has an empty catch block.,228
+Feeder2-master,cn.sharesdk.onekeyshare,OnekeyShare,show,Long Statement,The length of the statement "themeImpl.setDialogMode(shareParamsMap.containsKey("dialogMode") ? ((Boolean)shareParamsMap.remove("dialogMode")) : false);" is 123.,228
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,onCreate,Magic Number,The method contains a magic number: 0xffe6e9ec,47
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,onCreate,Magic Number,The method contains a magic number: 0xffffffff,47
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initTitle,Magic Number,The method contains a magic number: 0xff3b3b3b,85
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initTitle,Magic Number,The method contains a magic number: 18,85
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initTitle,Magic Number,The method contains a magic number: 0xff3b3b3b,85
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initTitle,Magic Number,The method contains a magic number: 22,85
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initTitle,Magic Number,The method contains a magic number: 0xffff6d11,85
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initTitle,Magic Number,The method contains a magic number: 18,85
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBody,Magic Number,The method contains a magic number: 0xff3b3b3b,127
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBody,Magic Number,The method contains a magic number: 21,127
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBody,Magic Number,The method contains a magic number: 0xff313131,127
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBottom,Magic Number,The method contains a magic number: 5,176
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBottom,Magic Number,The method contains a magic number: 0xffffffff,176
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBottom,Magic Number,The method contains a magic number: 0xff3b3b3b,176
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBottom,Magic Number,The method contains a magic number: 21,176
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBottom,Magic Number,The method contains a magic number: 0xff3b3b3b,176
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBottom,Magic Number,The method contains a magic number: 18,176
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initBottom,Magic Number,The method contains a magic number: 0xffcccccc,176
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initShadow,Magic Number,The method contains a magic number: 0x29000000,217
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initShadow,Magic Number,The method contains a magic number: 0x14000000,217
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,EditPageLand,initShadow,Magic Number,The method contains a magic number: 0x07000000,217
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.land,PlatformPageAdapterLand,calculateSize,Magic Number,The method contains a magic number: 3,31
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,IndicatorView,onDraw,Magic Number,The method contains a magic number: 2,41
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,IndicatorView,onDraw,Magic Number,The method contains a magic number: 2,41
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,IndicatorView,onDraw,Magic Number,The method contains a magic number: 2,41
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,IndicatorView,onDraw,Magic Number,The method contains a magic number: 0xffffffff,41
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,IndicatorView,onDraw,Magic Number,The method contains a magic number: 0xff5d71a0,41
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,IndicatorView,onDraw,Magic Number,The method contains a magic number: 0xffafb1b7,41
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,IndicatorView,onDraw,Magic Number,The method contains a magic number: 2,41
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PicViewerPage,onCreate,Magic Number,The method contains a magic number: 0x4c000000,35
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,EditPage,setActivity,Long Statement,The length of the statement "activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE | WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);" is 149.,78
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,EditPage,onCreate,Magic Number,The method contains a magic number: 0xfff3f3f3,96
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,EditPage,cancelAndFinish,Magic Number,The method contains a magic number: 5,100
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,EditPage,isShowAtUserLayout,Long Statement,The length of the statement "return "SinaWeibo".equals(platformName) || "TencentWeibo".equals(platformName) || "Facebook".equals(platformName)|| "Twitter".equals(platformName);" is 147.,174
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListItem,FriendListItem,Magic Number,The method contains a magic number: 0xffffffff,40
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListItem,FriendListItem,Magic Number,The method contains a magic number: 0xff000000,40
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListItem,FriendListItem,Magic Number,The method contains a magic number: 18,40
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,onCreate,Magic Number,The method contains a magic number: 0x4c000000,50
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,showEditPage,Complex Conditional,The conditional expression isSilent || isCustomPlatform || isUseClientToShare is complex.,119
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,showEditPage,Magic Number,The method contains a magic number: 3,119
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,run,Complex Conditional,The conditional expression isSilent || isCustomPlatform || isUseClientToShare is complex.,121
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,run,Magic Number,The method contains a magic number: 3,121
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,initAnims,Long Statement,The length of the statement "animShow=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`1`Animation.RELATIVE_TO_SELF`0);" is 149.,152
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,initAnims,Long Statement,The length of the statement "animHide=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`0`Animation.RELATIVE_TO_SELF`1);" is 149.,152
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,initAnims,Magic Number,The method contains a magic number: 300,152
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,initAnims,Magic Number,The method contains a magic number: 300,152
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,onFinish,Magic Number,The method contains a magic number: 2,168
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPage,onAnimationEnd,Magic Number,The method contains a magic number: 2,183
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,PRTHeader,Magic Number,The method contains a magic number: 18,33
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,PRTHeader,Magic Number,The method contains a magic number: 0xff09bb07,33
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,onPullDown,Magic Number,The method contains a magic number: 100,74
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,onPullDown,Magic Number,The method contains a magic number: 100,74
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,onPullDown,Magic Number,The method contains a magic number: 180,74
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,onPullDown,Magic Number,The method contains a magic number: 20,74
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,onPullDown,Magic Number,The method contains a magic number: 180,74
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,onPullDown,Magic Number,The method contains a magic number: 180,74
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,onPullDown,Magic Number,The method contains a magic number: 100,74
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PRTHeader,reverse,Magic Number,The method contains a magic number: 180,110
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,XView,onDraw,Magic Number,The method contains a magic number: 2,28
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,XView,onDraw,Magic Number,The method contains a magic number: 2,28
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,XView,onDraw,Magic Number,The method contains a magic number: 0xffa0a0a0,28
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,XView,onDraw,Magic Number,The method contains a magic number: 3f,28
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,XView,onDraw,Magic Number,The method contains a magic number: 0xffffffff,28
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,XView,onDraw,Magic Number,The method contains a magic number: 8f,28
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPageAdapter,PlatformPageAdapter,Abstract Function Call From Constructor,The constructor PlatformPageAdapter calls a virtual method calculateSize.,51
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPageAdapter,createPanel,Magic Number,The method contains a magic number: 0xfff2f2f2,99
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPageAdapter,createPanel,Magic Number,The method contains a magic number: 0xff646464,99
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPageAdapter,createPanel,Magic Number,The method contains a magic number: 14,99
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,PlatformPageAdapter,refreshPanel,Complex Method,Cyclomatic complexity of the method is 8,153
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendAdapter,FriendAdapter,Magic Number,The method contains a magic number: 0xffeaeaea,46
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendAdapter,parseFollowers,Complex Method,Cyclomatic complexity of the method is 16,109
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendAdapter,parseFollowers,Long Statement,The length of the statement "@SuppressWarnings("unchecked") ArrayList<HashMap<String`Object>> users=(ArrayList<HashMap<String`Object>>)res.get("users");" is 123.,109
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendAdapter,parseFollowers,Long Statement,The length of the statement "@SuppressWarnings("unchecked") ArrayList<HashMap<String`Object>> infos=(ArrayList<HashMap<String`Object>>)res.get("info");" is 122.,109
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendAdapter,parseFollowers,Long Statement,The length of the statement "@SuppressWarnings("unchecked") ArrayList<HashMap<String`Object>> tweets=(ArrayList<HashMap<String`Object>>)info.get("tweet");" is 125.,109
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendAdapter,parseFollowers,Long Statement,The length of the statement "@SuppressWarnings("unchecked") ArrayList<HashMap<String`Object>> datas=(ArrayList<HashMap<String`Object>>)res.get("data");" is 122.,109
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendAdapter,parseFollowers,Long Statement,The length of the statement "@SuppressWarnings("unchecked") ArrayList<HashMap<String`Object>> users=(ArrayList<HashMap<String`Object>>)res.get("users");" is 123.,109
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendAdapter,getFooterView,Magic Number,The method contains a magic number: 10,284
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListPage,onCreate,Magic Number,The method contains a magic number: 0xfff3f3f3,56
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListPage,onCreate,Magic Number,The method contains a magic number: 0xffdad9d9,56
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListPage,initTitle,Magic Number,The method contains a magic number: 0xff3b3b3b,105
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListPage,initTitle,Magic Number,The method contains a magic number: 18,105
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListPage,initTitle,Magic Number,The method contains a magic number: 0xff3b3b3b,105
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListPage,initTitle,Magic Number,The method contains a magic number: 22,105
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListPage,initTitle,Magic Number,The method contains a magic number: 0xffff6d11,105
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,FriendListPage,initTitle,Magic Number,The method contains a magic number: 18,105
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,RotateImageView,onDraw,Magic Number,The method contains a magic number: 2,28
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic,RotateImageView,onDraw,Magic Number,The method contains a magic number: 2,28
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,PlatformPageAdapterPort,calculateSize,Magic Number,The method contains a magic number: 3,32
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,PlatformPageAdapterPort,calculateSize,Magic Number,The method contains a magic number: 4,32
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,PlatformPageAdapterPort,calculateSize,Magic Number,The method contains a magic number: 2,32
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,PlatformPageAdapterPort,calculateSize,Magic Number,The method contains a magic number: 3,32
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,onCreate,Magic Number,The method contains a magic number: 0xffe6e9ec,45
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,onCreate,Magic Number,The method contains a magic number: 0xffffffff,45
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initTitle,Magic Number,The method contains a magic number: 0xff3b3b3b,83
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initTitle,Magic Number,The method contains a magic number: 18,83
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initTitle,Magic Number,The method contains a magic number: 0xff3b3b3b,83
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initTitle,Magic Number,The method contains a magic number: 22,83
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initTitle,Magic Number,The method contains a magic number: 0xffff6d11,83
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initTitle,Magic Number,The method contains a magic number: 18,83
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBody,Magic Number,The method contains a magic number: 0xff3b3b3b,125
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBody,Magic Number,The method contains a magic number: 21,125
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBody,Magic Number,The method contains a magic number: 0xff313131,125
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBottom,Magic Number,The method contains a magic number: 5,173
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBottom,Magic Number,The method contains a magic number: 0xffffffff,173
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBottom,Magic Number,The method contains a magic number: 0xff3b3b3b,173
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBottom,Magic Number,The method contains a magic number: 22,173
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBottom,Magic Number,The method contains a magic number: 0xff3b3b3b,173
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBottom,Magic Number,The method contains a magic number: 21,173
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initBottom,Magic Number,The method contains a magic number: 0xffcccccc,173
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initShadow,Magic Number,The method contains a magic number: 0x29000000,214
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initShadow,Magic Number,The method contains a magic number: 0x14000000,214
+Feeder2-master,cn.sharesdk.onekeyshare.themes.classic.port,EditPagePort,initShadow,Magic Number,The method contains a magic number: 0x07000000,214

@@ -1,0 +1,286 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+AndroidFrame-master,com.coco.ssa,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+AndroidFrame-master,com.coco.ssa,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFrame-master,com.coco.ssa,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFrame-master,com.coco.ssa.base,BaseActivity,onCreate,Magic Number,The method contains a magic number: 10,78
+AndroidFrame-master,com.coco.ssa.base,BaseActivity,initStatusbar,Long Statement,The length of the statement "window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION`WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);" is 127.,113
+AndroidFrame-master,com.coco.ssa.base,BaseActivity,initStatusbar,Long Statement,The length of the statement "LinearLayout.LayoutParams lParams=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`getStatusBarHeight());" is 125.,113
+AndroidFrame-master,com.coco.ssa.base,BaseActivity,isDebugable,Empty catch clause,The method has an empty catch block.,273
+AndroidFrame-master,com.coco.ssa.base,BaseActivity,onBackPressed,Magic Number,The method contains a magic number: 1000,366
+AndroidFrame-master,com.coco.ssa.base,BaseActivity,isHomeActivity,Long Statement,The length of the statement "return getClass().getSimpleName().equals(MainActivity.class.getSimpleName()) || getClass().getSimpleName().equals(WebViewActivity.class.getSimpleName());" is 153.,382
+AndroidFrame-master,com.coco.ssa.base,BaseActivity,get,Magic Number,The method contains a magic number: 1000,431
+AndroidFrame-master,com.coco.ssa.base,BaseApplication,setNoHttpConfig,Long Statement,The length of the statement "InitializationConfig config=InitializationConfig.newBuilder(context).connectionTimeout(20 * 1000).readTimeout(20 * 1000).cacheStore(new DBCacheStore(context).setEnable(false)).cookieStore(new DBCookieStore(context).setEnable(true)).networkExecutor(new OkHttpNetworkExecutor()).addHeader("User-Agent"`"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML` like Gecko) Chrome/63.0.3239.132 Safari/537.36").retry(3).build();" is 435.,36
+AndroidFrame-master,com.coco.ssa.base,BaseApplication,setNoHttpConfig,Magic Number,The method contains a magic number: 20,36
+AndroidFrame-master,com.coco.ssa.base,BaseApplication,setNoHttpConfig,Magic Number,The method contains a magic number: 1000,36
+AndroidFrame-master,com.coco.ssa.base,BaseApplication,setNoHttpConfig,Magic Number,The method contains a magic number: 20,36
+AndroidFrame-master,com.coco.ssa.base,BaseApplication,setNoHttpConfig,Magic Number,The method contains a magic number: 1000,36
+AndroidFrame-master,com.coco.ssa.base,BaseApplication,setNoHttpConfig,Magic Number,The method contains a magic number: 3,36
+AndroidFrame-master,com.coco.ssa.base,BaseFragmentActivity,onCreate,Magic Number,The method contains a magic number: 10,83
+AndroidFrame-master,com.coco.ssa.base,BaseFragmentActivity,initStatusbar,Long Statement,The length of the statement "window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION`WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);" is 127.,118
+AndroidFrame-master,com.coco.ssa.base,BaseFragmentActivity,initStatusbar,Long Statement,The length of the statement "LinearLayout.LayoutParams lParams=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`getStatusBarHeight());" is 125.,118
+AndroidFrame-master,com.coco.ssa.base,BaseFragmentActivity,isDebugable,Empty catch clause,The method has an empty catch block.,278
+AndroidFrame-master,com.coco.ssa.base,BaseFragmentActivity,onBackPressed,Magic Number,The method contains a magic number: 1000,370
+AndroidFrame-master,com.coco.ssa.base,BaseFragmentActivity,get,Magic Number,The method contains a magic number: 1000,523
+AndroidFrame-master,com.coco.ssa.net,HttpUtil,HttpUtil,Magic Number,The method contains a magic number: 10,32
+AndroidFrame-master,com.coco.ssa.net,HttpUtil,get,Magic Number,The method contains a magic number: 1000,63
+AndroidFrame-master,com.coco.ssa.util,ClickUtil,isFastDoubleClick,Complex Conditional,The conditional expression lastButtonId == buttonId && lastClickTime > 0 && timeD < diff is complex.,33
+AndroidFrame-master,com.coco.ssa.util,CodeUtils,randomColor,Magic Number,The method contains a magic number: 3,121
+AndroidFrame-master,com.coco.ssa.util,CodeUtils,randomColor,Magic Number,The method contains a magic number: 0xFF,121
+AndroidFrame-master,com.coco.ssa.util,CodeUtils,randomTextStyle,Magic Number,The method contains a magic number: 11,138
+AndroidFrame-master,com.coco.ssa.util,CodeUtils,randomTextStyle,Magic Number,The method contains a magic number: 10,138
+AndroidFrame-master,com.coco.ssa.util,DimenUtil,gen,Magic Number,The method contains a magic number: 2,20
+AndroidFrame-master,com.coco.ssa.util,DimenUtil,gen,Magic Number,The method contains a magic number: 2,20
+AndroidFrame-master,com.coco.ssa.util,DimenUtil,gen,Magic Number,The method contains a magic number: 0.75,20
+AndroidFrame-master,com.coco.ssa.util,DimenUtil,gen,Magic Number,The method contains a magic number: 1.5,20
+AndroidFrame-master,com.coco.ssa.util,DimenUtil,gen,Magic Number,The method contains a magic number: 1.87,20
+AndroidFrame-master,com.coco.ssa.util,DimenUtil,gen,Magic Number,The method contains a magic number: 2.25,20
+AndroidFrame-master,com.coco.ssa.util,DimenUtil,gen,Magic Number,The method contains a magic number: 2.5,20
+AndroidFrame-master,com.coco.ssa.util,DimenUtil,gen,Magic Number,The method contains a magic number: 2.56,20
+AndroidFrame-master,com.coco.ssa.util,MathC,number,Magic Number,The method contains a magic number: 6,9
+AndroidFrame-master,com.coco.ssa.util,SoftHideKeyBoardUtil,possiblyResizeChildOfContent,Magic Number,The method contains a magic number: 4,52
+AndroidFrame-master,com.coco.ssa.util,UserUtil,setUserId,Long Statement,The length of the statement "BaseApplication.getContextObject().getSharedPreferences(PUBLICPARAMS`MODE_PRIVATE).edit().putString(MSUSERID`userId).commit();" is 126.,35
+AndroidFrame-master,com.coco.ssa.util,UserUtil,setUserType,Long Statement,The length of the statement "BaseApplication.getContextObject().getSharedPreferences(PUBLICPARAMS`MODE_PRIVATE).edit().putInt(MSUSERTYPE`userType).commit();" is 127.,39
+AndroidFrame-master,com.coco.ssa.util,UserUtil,setOrganizeId,Long Statement,The length of the statement "BaseApplication.getContextObject().getSharedPreferences(PUBLICPARAMS`MODE_PRIVATE).edit().putString(MSORGANIZEID`organizeId).commit();" is 134.,43
+AndroidFrame-master,com.coco.ssa.util,UserUtil,setToken,Long Statement,The length of the statement "BaseApplication.getContextObject().getSharedPreferences(PUBLICPARAMS`MODE_PRIVATE).edit().putString(MSTOKEN`token).commit();" is 124.,47
+AndroidFrame-master,com.coco.ssa.util,Utils,toMD5,Magic Number,The method contains a magic number: 255,54
+AndroidFrame-master,com.coco.ssa.util,Utils,toMD5,Magic Number,The method contains a magic number: 16,54
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,getimage,Magic Number,The method contains a magic number: 800f,31
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,getimage,Magic Number,The method contains a magic number: 480f,31
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,comp,Magic Number,The method contains a magic number: 100,106
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,comp,Magic Number,The method contains a magic number: 1024,106
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,comp,Magic Number,The method contains a magic number: 1024,106
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,comp,Magic Number,The method contains a magic number: 50,106
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,comp,Magic Number,The method contains a magic number: 800f,106
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,comp,Magic Number,The method contains a magic number: 480f,106
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 90,146
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 90,146
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 1024,146
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 1024,146
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 10,146
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,167
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,saveBitmap,Magic Number,The method contains a magic number: 90,186
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,readPictureDegree,Magic Number,The method contains a magic number: 90,211
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,readPictureDegree,Magic Number,The method contains a magic number: 180,211
+AndroidFrame-master,com.coco.ssa.util.image,BitmapUtil,readPictureDegree,Magic Number,The method contains a magic number: 270,211
+AndroidFrame-master,com.coco.ssa.util.image,GlideCircleTransform,circleCrop,Magic Number,The method contains a magic number: 2,26
+AndroidFrame-master,com.coco.ssa.util.image,GlideCircleTransform,circleCrop,Magic Number,The method contains a magic number: 2,26
+AndroidFrame-master,com.coco.ssa.util.image,GlideCircleTransform,circleCrop,Magic Number,The method contains a magic number: 2f,26
+AndroidFrame-master,com.coco.ssa.util.image,GlideRoundTransform,GlideRoundTransform,Magic Number,The method contains a magic number: 4,25
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 252,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 88,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 17,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 129,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 130,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 149,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 255,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 255,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 255,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 52,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 2,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 14,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 30,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initDefaultAttrs,Magic Number,The method contains a magic number: 30,101
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initCustomAttr,Complex Method,Cyclomatic complexity of the method is 11,123
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initTabChildView,Complex Method,Cyclomatic complexity of the method is 12,187
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initTabChildView,Long Statement,The length of the statement "mSupportFragmentManager.beginTransaction().add(R.id.tabview_fragment_container`mFragments[0]).show(mFragments[0]).commit();" is 123.,187
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initTabChildView,Long Statement,The length of the statement "mSupportFragmentManager.beginTransaction().add(R.id.tabview_fragment_container`mFragments[mTabViewDefaultPosition]).show(mFragments[mTabViewDefaultPosition]).commit();" is 167.,187
+AndroidFrame-master,com.coco.ssa.widget.tabview,TabView,initTabChildView,Long Statement,The length of the statement "LinearLayout.LayoutParams textviewParams=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT`LinearLayout.LayoutParams.WRAP_CONTENT);" is 150.,187
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicBinary,onWriteBinary,Complex Conditional,The conditional expression (0 == progress % 3 || 0 == progress % 5 || 0 == progress % 7) && oldProgress != progress is complex.,80
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicBinary,onWriteBinary,Magic Number,The method contains a magic number: 4096,80
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicBinary,onWriteBinary,Magic Number,The method contains a magic number: 100,80
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicBinary,onWriteBinary,Magic Number,The method contains a magic number: 3,80
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicBinary,onWriteBinary,Magic Number,The method contains a magic number: 5,80
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicBinary,onWriteBinary,Magic Number,The method contains a magic number: 7,80
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,getContentType,Long Statement,The length of the statement "if (getRequestMethod().allowRequestBody() && isMultipartFormEnable()) return Headers.HEAD_VALUE_CONTENT_TYPE_FORM_DATA + "; boundary=" + boundary;" is 146.,582
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,validateMethodForBody,Long Statement,The length of the statement "if (!getRequestMethod().allowRequestBody()) throw new IllegalArgumentException(methodObject + " only supports these handle methods: POST/PUT/PATCH/DELETE.");" is 157.,748
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,add,Complex Method,Cyclomatic complexity of the method is 10,806
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,set,Complex Method,Cyclomatic complexity of the method is 10,841
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,validateParamForBody,Long Statement,The length of the statement "if (body == null || TextUtils.isEmpty(contentType)) throw new NullPointerException("The requestBody and contentType must be can't be null");" is 140.,902
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,writeFormStreamData,Complex Method,Cyclomatic complexity of the method is 9,1053
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,writeFormBinary,Long Statement,The length of the statement "String binaryFieldBuilder=startBoundary + "\r\n" + "Content-Disposition: form-data; name=\""+ key+ "\"; filename=\""+ value.getFileName()+ "\"\r\n"+ "Content-Type: "+ value.getMimeType()+ "\r\n\r\n";" is 199.,1093
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,cancelBySign,Complex Conditional,The conditional expression mCancelSign == sign || (sign != null && mCancelSign != null && mCancelSign.equals(sign)) is complex.,1237
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,createBoundary,Magic Number,The method contains a magic number: 12,1279
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,createBoundary,Magic Number,The method contains a magic number: 3L,1279
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,createBoundary,Magic Number,The method contains a magic number: 3L,1279
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,createBoundary,Magic Number,The method contains a magic number: 65L,1279
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,createBoundary,Magic Number,The method contains a magic number: 26L,1279
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,createBoundary,Magic Number,The method contains a magic number: 97L,1279
+AndroidFrame-master,com.yanzhenjie.nohttp,BasicRequest,createBoundary,Magic Number,The method contains a magic number: 26L,1279
+AndroidFrame-master,com.yanzhenjie.nohttp,BitmapBinary,BitmapBinary,Long Statement,The length of the statement "if (bitmap.isRecycled()) throw new IllegalArgumentException("Bitmap is recycled: " + fileName + "` bitmap must be not recycled.");" is 130.,51
+AndroidFrame-master,com.yanzhenjie.nohttp,BitmapBinary,bitmap2ByteArray,Magic Number,The method contains a magic number: 100,79
+AndroidFrame-master,com.yanzhenjie.nohttp,Headers,getDateField,Empty catch clause,The method has an empty catch block.,517
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,getConnection,Complex Conditional,The conditional expression responseCode == 301 || responseCode == 302 || responseCode == 303 || responseCode == 307 is complex.,55
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,getConnection,Long Statement,The length of the statement "if (!NetUtils.isNetworkAvailable()) throw new NetworkError("The network is not available` please check the network. The requested url is:" + url);" is 146.,55
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,getConnection,Magic Number,The method contains a magic number: 301,55
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,getConnection,Magic Number,The method contains a magic number: 302,55
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,getConnection,Magic Number,The method contains a magic number: 303,55
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,getConnection,Magic Number,The method contains a magic number: 307,55
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,createNetwork,Long Statement,The length of the statement "if (values == null || values.size() == 0) headers.add(Headers.HEAD_KEY_CONNECTION`Headers.HEAD_VALUE_CONNECTION_KEEP_ALIVE);" is 124.,135
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,createNetwork,Long Statement,The length of the statement "if (requestMethod.allowRequestBody()) headers.set(Headers.HEAD_KEY_CONTENT_LENGTH`Long.toString(request.getContentLength()));" is 125.,135
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,handleRedirect,Empty catch clause,The method has an empty catch block.,186
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,hasResponseBody,Long Statement,The length of the statement "return !(100 <= responseCode && responseCode < 200) && responseCode != 204 && responseCode != 205 && !(300 <= responseCode && responseCode < 400);" is 146.,277
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,hasResponseBody,Magic Number,The method contains a magic number: 100,277
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,hasResponseBody,Magic Number,The method contains a magic number: 200,277
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,hasResponseBody,Magic Number,The method contains a magic number: 204,277
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,hasResponseBody,Magic Number,The method contains a magic number: 205,277
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,hasResponseBody,Magic Number,The method contains a magic number: 300,277
+AndroidFrame-master,com.yanzhenjie.nohttp,HttpConnection,hasResponseBody,Magic Number,The method contains a magic number: 400,277
+AndroidFrame-master,com.yanzhenjie.nohttp,InputStreamBinary,InputStreamBinary,Complex Conditional,The conditional expression !(inputStream instanceof FileInputStream) && !(inputStream instanceof ByteArrayInputStream) && !(inputStream instanceof AssetManager.AssetInputStream) is complex.,49
+AndroidFrame-master,com.yanzhenjie.nohttp,InputStreamBinary,InputStreamBinary,Long Statement,The length of the statement "if (!(inputStream instanceof FileInputStream) && !(inputStream instanceof ByteArrayInputStream) && !(inputStream instanceof AssetManager.AssetInputStream)) throw new IllegalArgumentException("The inputStream must be FileInputStream` ByteArrayInputStream and " + "AssetInputStream.");" is 283.,49
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,testInitialize,Long Statement,The length of the statement "if (sInitializeConfig == null) throw new ExceptionInInitializerError("Please invoke NoHttp.initialize(Application) on Application#onCreate()");" is 143.,68
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,newRequestQueue,Magic Number,The method contains a magic number: 3,92
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,createImageRequest,Magic Number,The method contains a magic number: 1000,196
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,createImageRequest,Magic Number,The method contains a magic number: 1000,196
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,createImageRequest,Long Parameter List,The method has 6 parameters. ,209
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,newDownloadQueue,Magic Number,The method contains a magic number: 3,262
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,createDownloadRequest,Long Parameter List,The method has 5 parameters. ,314
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,createDownloadRequest,Long Parameter List,The method has 5 parameters. ,330
+AndroidFrame-master,com.yanzhenjie.nohttp,NoHttp,createDownloadRequest,Long Parameter List,The method has 6 parameters. ,346
+AndroidFrame-master,com.yanzhenjie.nohttp,OkHttpNetworkExecutor,execute,Long Statement,The length of the statement "if (values == null || values.size() == 0) headers.add(Headers.HEAD_KEY_CONNECTION`Headers.HEAD_VALUE_CONNECTION_KEEP_ALIVE);" is 124.,32
+AndroidFrame-master,com.yanzhenjie.nohttp,URLConnectionNetworkExecutor,execute,Complex Method,Cyclomatic complexity of the method is 10,43
+AndroidFrame-master,com.yanzhenjie.nohttp,URLConnectionNetworkExecutor,execute,Long Statement,The length of the statement "if (values == null || values.size() == 0) headers.set(Headers.HEAD_KEY_CONNECTION`Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT ? Headers.HEAD_VALUE_CONNECTION_KEEP_ALIVE : Headers.HEAD_VALUE_CONNECTION_CLOSE);" is 215.,43
+AndroidFrame-master,com.yanzhenjie.nohttp,URLConnectionNetworkExecutor,execute,Magic Number,The method contains a magic number: 256,43
+AndroidFrame-master,com.yanzhenjie.nohttp,URLConnectionNetworkExecutor,execute,Magic Number,The method contains a magic number: 1024,43
+AndroidFrame-master,com.yanzhenjie.nohttp,URLConnectionNetworkExecutor,isAllowBody,Long Statement,The length of the statement "if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) return allowRequestBody && requestMethod != RequestMethod.DELETE;" is 123.,106
+AndroidFrame-master,com.yanzhenjie.nohttp,URLConnectionNetworkExecutor,getServerStream,Magic Number,The method contains a magic number: 400,114
+AndroidFrame-master,com.yanzhenjie.nohttp,UserAgent,newInstance,Long Statement,The length of the statement "String webUserAgent="Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/533.1 (KHTML` like Gecko) Version/5.0 %sSafari/533.1";" is 122.,47
+AndroidFrame-master,com.yanzhenjie.nohttp.cache,CacheEntity,CacheEntity,Long Parameter List,The method has 5 parameters. ,58
+AndroidFrame-master,com.yanzhenjie.nohttp.cache,CacheEntityDao,getList,Long Statement,The length of the statement "cacheEntity.setData(Base64.decode(decrypt(cursor.getString(cursor.getColumnIndex(CacheSQLHelper.DATA)))`Base64.DEFAULT));" is 121.,68
+AndroidFrame-master,com.yanzhenjie.nohttp.cache,CacheEntityDao,getList,Long Statement,The length of the statement "cacheEntity.setLocalExpire(Long.parseLong(decrypt(cursor.getString(cursor.getColumnIndex(CacheSQLHelper.LOCAL_EXPIRES)))));" is 123.,68
+AndroidFrame-master,com.yanzhenjie.nohttp.cookie,CookieEntity,CookieEntity,Complex Conditional,The conditional expression !TextUtils.isEmpty(path) && path.length() > 1 && path.endsWith("/") is complex.,51
+AndroidFrame-master,com.yanzhenjie.nohttp.cookie,CookieEntity,CookieEntity,Magic Number,The method contains a magic number: 1000L,51
+AndroidFrame-master,com.yanzhenjie.nohttp.cookie,CookieEntity,toHttpCookie,Magic Number,The method contains a magic number: 1000L,82
+AndroidFrame-master,com.yanzhenjie.nohttp.cookie,DBCookieStore,add,Complex Conditional,The conditional expression mEnable && uri != null && cookie != null is complex.,90
+AndroidFrame-master,com.yanzhenjie.nohttp.cookie,DBCookieStore,get,Complex Method,Cyclomatic complexity of the method is 9,106
+AndroidFrame-master,com.yanzhenjie.nohttp.cookie,DBCookieStore,get,Long Statement,The length of the statement "Where subWhere=new Where(CookieSQLHelper.PATH`Options.EQUAL`path).or(CookieSQLHelper.PATH`Options.EQUAL`"/").orNull(CookieSQLHelper.PATH);" is 138.,106
+AndroidFrame-master,com.yanzhenjie.nohttp.cookie,DBCookieStore,get,Long Statement,The length of the statement "for ( CookieEntity cookieEntity : cookieList) if (!cookieEntity.isExpired()) returnedCookies.add(cookieEntity.toHttpCookie());" is 126.,106
+AndroidFrame-master,com.yanzhenjie.nohttp.cookie,DBCookieStore,trimSize,Magic Number,The method contains a magic number: 10,235
+AndroidFrame-master,com.yanzhenjie.nohttp.db,BaseDao,delete,Magic Number,The method contains a magic number: 6,130
+AndroidFrame-master,com.yanzhenjie.nohttp.db,BaseDao,delete,Magic Number,The method contains a magic number: 6,130
+AndroidFrame-master,com.yanzhenjie.nohttp.db,Where,add,Complex Conditional,The conditional expression Options.EQUAL.equals(op) || Options.ThAN_LARGE.equals(op) || Options.THAN_SMALL.equals(op)|| Options.NO_EQUAL.equals(op) is complex.,87
+AndroidFrame-master,com.yanzhenjie.nohttp.db,Where,add,Long Statement,The length of the statement "if (Options.EQUAL.equals(op) || Options.ThAN_LARGE.equals(op) || Options.THAN_SMALL.equals(op)|| Options.NO_EQUAL.equals(op)) {" is 127.,87
+AndroidFrame-master,com.yanzhenjie.nohttp.db,Where,add,Long Statement,The length of the statement "else if (Options.IN.equals(op) && value instanceof List<?>) addColumnName(columnName`op).append(value).in((List<?>)value);" is 122.,87
+AndroidFrame-master,com.yanzhenjie.nohttp.db,Where,in,Complex Conditional,The conditional expression value instanceof Integer || value instanceof Long || value instanceof Short is complex.,108
+AndroidFrame-master,com.yanzhenjie.nohttp.db,Where,in,Magic Number,The method contains a magic number: 2,108
+AndroidFrame-master,com.yanzhenjie.nohttp.db,Where,isNumber,Long Statement,The length of the statement "return value != null && (value instanceof Character || value instanceof Integer || value instanceof Long|| value instanceof Short|| value instanceof Double|| value instanceof Float);" is 182.,190
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,validateDevice,Long Statement,The length of the statement "if (!NetUtils.isNetworkAvailable()) throw new NetworkError("Network is not available` please check network and permission: INTERNET` " + "ACCESS_WIFI_STATE` ACCESS_NETWORK_STATE.");" is 181.,70
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,validateDevice,Long Statement,The length of the statement "if (!IOUtils.createFolder(savePathDir)) throw new StorageReadWriteError("SD card isn't available` please check SD card and permission: WRITE_EXTERNAL_STORAGE." + "\nYou must pay attention to Android6.0 RunTime Permissions: https://github.com/yanzhenjie/AndPermission." + "\nFailed to create folder: "+ savePathDir);" is 315.,70
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,getConnectionRetry,Magic Number,The method contains a magic number: 416,81
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,getRealFileName,Empty catch clause,The method has an empty catch block.,97
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Complex Conditional,The conditional expression request.isRange() && tempFile.exists() && tempFile.length() > 0 is complex.,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Complex Conditional,The conditional expression request.isRange() && tempFile.exists() && tempFile.length() > 0 is complex.,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Complex Method,Cyclomatic complexity of the method is 29,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Long Method,The method has 199 lines of code.,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Long Statement,The length of the statement "if (IOUtils.getDirSize(savePathDir) < contentLength) throw new StorageSpaceNotEnoughError("The folder is not enough space to save the downloaded file: " + savePathDir + ".");" is 174.,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Long Statement,The length of the statement "if (responseCode != 206 && !IOUtils.createNewFile(tempFile)) throw new StorageReadWriteError("SD card isn't available` please check SD card and permission: WRITE_EXTERNAL_STORAGE." + "\nYou must pay attention to Android6.0 RunTime Permissions: https://github.com/yanzhenjie/AndPermission." + "\nFailed to create file: "+ tempFile);" is 331.,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Long Statement,The length of the statement "if (!IOUtils.canWrite(savePathDir)) newException=new StorageReadWriteError("SD card isn't available` please check SD card and permission: WRITE_EXTERNAL_STORAGE." + "\nYou must pay attention to Android6.0 RunTime Permissions: https://github.com/yanzhenjie/AndPermission." + "\nFailed to create folder: "+ savePathDir);" is 318.,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Long Statement,The length of the statement "else if (IOUtils.getDirSize(savePathDir) < 1024) newException=new StorageSpaceNotEnoughError("The folder is not enough space to save the downloaded file: " + savePathDir + ".");" is 177.,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Long Statement,The length of the statement "if (!NetUtils.isNetworkAvailable()) e=new NetworkError("Network is not available` please check network and permission: " + "INTERNET` ACCESS_WIFI_STATE` ACCESS_NETWORK_STATE.");" is 177.,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 400,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 206,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 304,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 100,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 100,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 206,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 8096,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 1000,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 300,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 100,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Downloader,download,Magic Number,The method contains a magic number: 1024,129
+AndroidFrame-master,com.yanzhenjie.nohttp.download,DownloadListener,onStart,Long Parameter List,The method has 5 parameters. ,56
+AndroidFrame-master,com.yanzhenjie.nohttp.download,DownloadRequest,DownloadRequest,Long Parameter List,The method has 5 parameters. ,60
+AndroidFrame-master,com.yanzhenjie.nohttp.download,DownloadRequest,DownloadRequest,Long Parameter List,The method has 6 parameters. ,74
+AndroidFrame-master,com.yanzhenjie.nohttp.download,DownloadRequest,checkBeforeStatus,Empty catch clause,The method has an empty catch block.,130
+AndroidFrame-master,com.yanzhenjie.nohttp.download,ListenerDelegate,onStart,Long Parameter List,The method has 5 parameters. ,25
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Messenger,progress,Magic Number,The method contains a magic number: 2,101
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Messenger,error,Magic Number,The method contains a magic number: 3,109
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Messenger,cancel,Magic Number,The method contains a magic number: 4,115
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Messenger,finish,Magic Number,The method contains a magic number: 5,120
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Messenger,run,Magic Number,The method contains a magic number: 2,126
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Messenger,run,Magic Number,The method contains a magic number: 3,126
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Messenger,run,Magic Number,The method contains a magic number: 4,126
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Messenger,run,Magic Number,The method contains a magic number: 5,126
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Poster,progress,Magic Number,The method contains a magic number: 2,101
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Poster,error,Magic Number,The method contains a magic number: 3,109
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Poster,cancel,Magic Number,The method contains a magic number: 4,115
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Poster,finish,Magic Number,The method contains a magic number: 5,120
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Poster,run,Magic Number,The method contains a magic number: 2,126
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Poster,run,Magic Number,The method contains a magic number: 3,126
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Poster,run,Magic Number,The method contains a magic number: 4,126
+AndroidFrame-master,com.yanzhenjie.nohttp.download,Poster,run,Magic Number,The method contains a magic number: 5,126
+AndroidFrame-master,com.yanzhenjie.nohttp.download,SimpleDownloadListener,onStart,Long Parameter List,The method has 5 parameters. ,30
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,ImageRequest,ImageRequest,Long Parameter List,The method has 6 parameters. ,46
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,ImageRequest,doResponse,Complex Conditional,The conditional expression tempBitmap != null && (tempBitmap.getWidth() > desiredWidth || tempBitmap.getHeight() > desiredHeight) is complex.,73
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,ImageRequest,getResizedDimension,Complex Method,Cyclomatic complexity of the method is 9,106
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,ImageRequest,getResizedDimension,Long Parameter List,The method has 5 parameters. ,106
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,ImageRequest,findBestSampleSize,Magic Number,The method contains a magic number: 2,150
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,ImageRequest,findBestSampleSize,Magic Number,The method contains a magic number: 2,150
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,Messenger,response,Magic Number,The method contains a magic number: 2,71
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,Messenger,finish,Magic Number,The method contains a magic number: 3,77
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,Messenger,run,Magic Number,The method contains a magic number: 2,82
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,Messenger,run,Magic Number,The method contains a magic number: 3,82
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,Poster,response,Magic Number,The method contains a magic number: 2,71
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,Poster,finish,Magic Number,The method contains a magic number: 3,77
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,Poster,run,Magic Number,The method contains a magic number: 2,82
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,Poster,run,Magic Number,The method contains a magic number: 3,82
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,RequestDispatcher,run,Empty catch clause,The method has an empty catch block.,56
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,RequestHandler,handle,Long Statement,The length of the statement "return new RestResponse<>(request`protocol.fromCache`protocol.headers`result`SystemClock.elapsedRealtime() - startTime`protocol.exception);" is 139.,62
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,RequestHandler,requestCacheOrNetwork,Complex Method,Cyclomatic complexity of the method is 10,90
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,RequestHandler,requestCacheOrNetwork,Long Statement,The length of the statement "if (localCache == null) protocol.exception=new NotFoundCacheError("The cache mode is ONLY_READ_CACHE` but did not find the cache.");" is 132.,90
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,RequestHandler,setRequestCacheHeader,Long Statement,The length of the statement "if (lastModified > 0) request.getHeaders().set(Headers.HEAD_KEY_IF_MODIFIED_SINCE`HeaderUtils.formatMillisToGMT(lastModified));" is 127.,146
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,RequestHandler,handleCache,Complex Method,Cyclomatic complexity of the method is 12,190
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,RequestHandler,handleCache,Magic Number,The method contains a magic number: 304,190
+AndroidFrame-master,com.yanzhenjie.nohttp.rest,RestResponse,RestResponse,Long Parameter List,The method has 6 parameters. ,60
+AndroidFrame-master,com.yanzhenjie.nohttp.ssl,SSLUtils,fixSSLLowerThanLollipop,Long Statement,The length of the statement "if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP && !(socketFactory instanceof CompatSSLSocketFactory)) socketFactory=new CompatSSLSocketFactory(socketFactory);" is 168.,39
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,getKey,Magic Number,The method contains a magic number: 8,65
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,byteArrayToHexStr,Magic Number,The method contains a magic number: 2,74
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,byteArrayToHexStr,Magic Number,The method contains a magic number: 256,74
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,byteArrayToHexStr,Magic Number,The method contains a magic number: 16,74
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,byteArrayToHexStr,Magic Number,The method contains a magic number: 16,74
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,hexStrToByteArray,Magic Number,The method contains a magic number: 2,90
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,hexStrToByteArray,Magic Number,The method contains a magic number: 2,90
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,hexStrToByteArray,Magic Number,The method contains a magic number: 2,90
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,hexStrToByteArray,Magic Number,The method contains a magic number: 2,90
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,hexStrToByteArray,Magic Number,The method contains a magic number: 16,90
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,getMD5ForString,Magic Number,The method contains a magic number: 256,101
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,Encryption,getMD5ForString,Magic Number,The method contains a magic number: 16,101
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getMaxExpiryMillis,Magic Number,The method contains a magic number: 1000L,78
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getMaxExpiryMillis,Magic Number,The method contains a magic number: 60L,78
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getMaxExpiryMillis,Magic Number,The method contains a magic number: 60L,78
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getMaxExpiryMillis,Magic Number,The method contains a magic number: 24L,78
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getMaxExpiryMillis,Magic Number,The method contains a magic number: 365L,78
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getMaxExpiryMillis,Magic Number,The method contains a magic number: 100L,78
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getLocalExpires,Complex Method,Cyclomatic complexity of the method is 10,141
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getLocalExpires,Magic Number,The method contains a magic number: 8,141
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getLocalExpires,Magic Number,The method contains a magic number: 23,141
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getLocalExpires,Magic Number,The method contains a magic number: 1000,141
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,HeaderUtils,getLocalExpires,Magic Number,The method contains a magic number: 1000,141
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,IOUtils,closeQuietly,Empty catch clause,The method has an empty catch block.,51
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,IOUtils,flushQuietly,Empty catch clause,The method has an empty catch block.,59
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,IOUtils,toBufferedInputStream,Long Statement,The length of the statement "return inputStream instanceof BufferedInputStream ? (BufferedInputStream)inputStream : new BufferedInputStream(inputStream);" is 124.,72
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,IOUtils,toBufferedOutputStream,Long Statement,The length of the statement "return outputStream instanceof BufferedOutputStream ? (BufferedOutputStream)outputStream : new BufferedOutputStream(outputStream);" is 130.,76
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,IOUtils,write,Magic Number,The method contains a magic number: 4096,266
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,IOUtils,write,Magic Number,The method contains a magic number: 4096,300
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,IOUtils,getDirSize,Long Statement,The length of the statement "if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) return stat.getBlockSizeLong() * stat.getAvailableBlocksLong();" is 128.,350
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,LruCache,LruCache,Magic Number,The method contains a magic number: 0.75f,42
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,LruCache,trimToSize,Complex Conditional,The conditional expression size < 0 || (map.isEmpty() && size != 0) is complex.,159
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,LruCache,toString,Long Statement,The length of the statement "return String.format(Locale.getDefault()`"LruCache[maxSize=%d`hits=%d`misses=%d`hitRate=%d%%]"`maxSize`hitCount`missCount`hitPercent);" is 134.,365
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,LruCache,toString,Magic Number,The method contains a magic number: 100,365
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,getConnectivityManager,Long Statement,The length of the statement "if (sConnectivityManager == null) sConnectivityManager=(ConnectivityManager)NoHttp.getContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 143.,61
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,isConnected,Complex Method,Cyclomatic complexity of the method is 13,154
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,isMobileSubType,Complex Conditional,The conditional expression subtypeName.equalsIgnoreCase("TD-SCDMA") || subtypeName.equalsIgnoreCase("WCDMA") || subtypeName.equalsIgnoreCase("CDMA2000") is complex.,195
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,isMobileSubType,Complex Method,Cyclomatic complexity of the method is 17,195
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,isMobileSubType,Long Statement,The length of the statement "if (subtypeName.equalsIgnoreCase("TD-SCDMA") || subtypeName.equalsIgnoreCase("WCDMA") || subtypeName.equalsIgnoreCase("CDMA2000")) {" is 132.,195
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,isMobileSubType,Missing default,The following switch statement is missing a default case: switch (networkInfo.getType()) {,195
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,isGPRSOpen,Empty catch clause,The method has an empty catch block.,231
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,setGPRSEnable,Empty catch clause,The method has an empty catch block.,249
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,NetUtils,isIPv6HexCompressedAddress,Magic Number,The method contains a magic number: 7,331
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setLeftDrawable,Magic Number,The method contains a magic number: 2,53
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setLeftDrawable,Magic Number,The method contains a magic number: 3,53
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setTopDrawable,Magic Number,The method contains a magic number: 2,65
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setTopDrawable,Magic Number,The method contains a magic number: 3,65
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setRightDrawable,Magic Number,The method contains a magic number: 3,77
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setBottomDrawable,Magic Number,The method contains a magic number: 2,89
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setCompoundDrawables,Long Parameter List,The method has 5 parameters. ,101
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setCompoundDrawables,Long Parameter List,The method has 5 parameters. ,113
+AndroidFrame-master,com.yanzhenjie.nohttp.tools,ResCompat,setCompoundDrawables,Long Statement,The length of the statement "setCompoundDrawables(textView`getDrawable(drawableLeftId)`getDrawable(drawableRightId)`getDrawable(drawableTopId)`getDrawable(drawableBottomId));" is 145.,113

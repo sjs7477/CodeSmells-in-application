@@ -1,0 +1,274 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+AndroidQuick-main,io.github.sdwfqin.quickseed.ui.components,WebViewMainActivity,initClickListener,Magic Number,The method contains a magic number: 2,45
+AndroidQuick-main,io.github.sdwfqin.quickseed.ui.components,WebViewMainActivity,initClickListener,Missing default,The following switch statement is missing a default case: switch (i) {,45
+AndroidQuick-main,io.github.sdwfqin.quickseed.ui.components,ShowSvgActivity,initEventAndData,Long Statement,The length of the statement "RequestBuilder<PictureDrawable> requestBuilder=GlideApp.with(this).as(PictureDrawable.class).transition(withCrossFade()).listener(new SvgSoftwareLayerSetter());" is 160.,53
+AndroidQuick-main,io.github.sdwfqin.quickseed.ui.components,WindowFloatAndScreenshotActivity,requestCapturePermission,Long Statement,The length of the statement "MediaProjectionManager mediaProjectionManager=(MediaProjectionManager)getSystemService(Context.MEDIA_PROJECTION_SERVICE);" is 121.,63
+AndroidQuick-main,io.github.sdwfqin.quickseed.ui.components,CircleProgressDemoActivity,initEventAndData,Magic Number,The method contains a magic number: 2,23
+AndroidQuick-main,io.github.sdwfqin.quickseed.ui.components,CircleProgressDemoActivity,initEventAndData,Magic Number,The method contains a magic number: 2,23
+AndroidQuick-main,io.github.sdwfqin.quickseed.ui.components,CircleProgressDemoActivity,initEventAndData,Magic Number,The method contains a magic number: 2,23
+AndroidQuick-main,io.github.sdwfqin.quickseed.ui.components,CircleProgressDemoActivity,initEventAndData,Magic Number,The method contains a magic number: 2,23
+AndroidQuick-main,io.github.sdwfqin.quickseed,IntroActivity,initData,Magic Number,The method contains a magic number: 6,80
+AndroidQuick-main,io.github.sdwfqin.quickseed,IntroActivity,initData,Magic Number,The method contains a magic number: 6,80
+AndroidQuick-main,io.github.sdwfqin.quickseed,IntroActivity,initData,Magic Number,The method contains a magic number: 6,80
+AndroidQuick-main,io.github.sdwfqin.quickseed,IntroActivity,onPageSelected,Magic Number,The method contains a magic number: 1000,132
+AndroidQuick-main,io.github.sdwfqin.widget,DecimalEditText,DecimalEditText,Magic Number,The method contains a magic number: 2,29
+AndroidQuick-main,io.github.sdwfqin.widget,DecimalEditText,onTextChanged,Magic Number,The method contains a magic number: 2,47
+AndroidQuick-main,io.github.sdwfqin.widget,DecimalEditText,onTextChanged,Magic Number,The method contains a magic number: 2,47
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,initPaint,Long Statement,The length of the statement "mNormalPaint.setStyle(mProgressStyle == ProgressStyle.FILL_IN_ARC || mProgressStyle == ProgressStyle.FILL_IN_SQUARE ? Paint.Style.FILL : Paint.Style.STROKE);" is 157.,80
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,initPaint,Long Statement,The length of the statement "mReachPaint.setStyle(mProgressStyle == ProgressStyle.FILL_IN_ARC || mProgressStyle == ProgressStyle.FILL_IN_SQUARE ? Paint.Style.FILL : Paint.Style.STROKE);" is 156.,80
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,obtainAttributes,Complex Method,Cyclomatic complexity of the method is 10,116
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,obtainAttributes,Magic Number,The method contains a magic number: 270,116
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,obtainAttributes,Magic Number,The method contains a magic number: 2,116
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,obtainAttributes,Magic Number,The method contains a magic number: 270,116
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,obtainAttributes,Magic Number,The method contains a magic number: 270,116
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,obtainAttributes,Missing default,The following switch statement is missing a default case: switch (mProgressStyle) {,116
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,onMeasure,Magic Number,The method contains a magic number: 2,188
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,onMeasure,Magic Number,The method contains a magic number: 2,188
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,onMeasure,Magic Number,The method contains a magic number: 2,188
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,onMeasure,Magic Number,The method contains a magic number: 2,188
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,onMeasure,Magic Number,The method contains a magic number: 2,188
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,onMeasure,Magic Number,The method contains a magic number: 2,188
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,onMeasure,Missing default,The following switch statement is missing a default case: switch (mProgressStyle) {,188
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,onDraw,Missing default,The following switch statement is missing a default case: switch (mProgressStyle) {,227
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInArcCircle,Magic Number,The method contains a magic number: 2,246
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInArcCircle,Magic Number,The method contains a magic number: 2,246
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInArcCircle,Magic Number,The method contains a magic number: 360,246
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInArcCircle,Magic Number,The method contains a magic number: 360,246
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInArcCircle,Magic Number,The method contains a magic number: 360,246
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInArcCircle,Magic Number,The method contains a magic number: 360,246
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInSquare,Magic Number,The method contains a magic number: 2,267
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInSquare,Magic Number,The method contains a magic number: 2,267
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInSquare,Magic Number,The method contains a magic number: 360,267
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInSquare,Magic Number,The method contains a magic number: 360,267
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 2,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 2,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 2,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 180,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 90,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 360,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 2,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 180,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 270,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 2,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 180,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 2,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawFillInCircle,Magic Number,The method contains a magic number: 2,288
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawNormalCircle,Magic Number,The method contains a magic number: 2,317
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawNormalCircle,Magic Number,The method contains a magic number: 2,317
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawNormalCircle,Magic Number,The method contains a magic number: 2,317
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawNormalCircle,Magic Number,The method contains a magic number: 2,317
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawNormalCircle,Magic Number,The method contains a magic number: 2,317
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawNormalCircle,Magic Number,The method contains a magic number: 360,317
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawNormalCircle,Magic Number,The method contains a magic number: 360,317
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,drawNormalCircle,Magic Number,The method contains a magic number: 360,317
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Complex Method,Cyclomatic complexity of the method is 9,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 45,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 45,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 90,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 45,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 90,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 135,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 90,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 135,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 180,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 135,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 180,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 225,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 180,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 225,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 270,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 225,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 270,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 315,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 270,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 315,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 360,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 315,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 315,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePath,Magic Number,The method contains a magic number: 315,346
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Complex Method,Cyclomatic complexity of the method is 9,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 45,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 45,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 90,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 45,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 90,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 135,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 90,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 135,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 180,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 135,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 180,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 225,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 180,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 225,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 270,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 225,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 270,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 315,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 270,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 315,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 360,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getSquarePathNot,Magic Number,The method contains a magic number: 315,396
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,getOpposite,Magic Number,The method contains a magic number: 180,445
+AndroidQuick-main,io.github.sdwfqin.widget,CircleProgressView,setInnerPadding,Magic Number,The method contains a magic number: 2,627
+AndroidQuick-main,io.github.sdwfqin.widget,ControlViewPager,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,106
+AndroidQuick-main,io.github.sdwfqin.widget,ControlViewPager,onTouchEvent,Magic Number,The method contains a magic number: 80,106
+AndroidQuick-main,io.github.sdwfqin.widget,ControlViewPager,onTouchEvent,Magic Number,The method contains a magic number: 2,106
+AndroidQuick-main,io.github.sdwfqin.widget,ControlViewPager,onTouchEvent,Magic Number,The method contains a magic number: 80,106
+AndroidQuick-main,io.github.sdwfqin.widget,ControlViewPager,onTouchEvent,Magic Number,The method contains a magic number: 2,106
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,onLayout,Long Parameter List,The method has 5 parameters. ,294
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,onLayout,Magic Number,The method contains a magic number: 2,294
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,onLayout,Magic Number,The method contains a magic number: 2,294
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,onLayout,Magic Number,The method contains a magic number: 2,294
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBottomBorder,Magic Number,The method contains a magic number: 2,357
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBottomBorder,Magic Number,The method contains a magic number: 2,357
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBottomBorder,Magic Number,The method contains a magic number: 2,357
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawBlockBorder,Magic Number,The method contains a magic number: 2,375
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawText,Magic Number,The method contains a magic number: 2,411
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawText,Magic Number,The method contains a magic number: 2,411
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawText,Magic Number,The method contains a magic number: 2,411
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,drawPsdCircle,Magic Number,The method contains a magic number: 2,437
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,measureWidth,Magic Number,The method contains a magic number: 200,473
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,measureWidth,Missing default,The following switch statement is missing a default case: switch (specMode) {,473
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,measureHeight,Magic Number,The method contains a magic number: 200,492
+AndroidQuick-main,io.github.sdwfqin.widget,PayPwdInputView,measureHeight,Missing default,The following switch statement is missing a default case: switch (specMode) {,492
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,AliPayOrderInfoUtil,buildOrderParamMap,Long Statement,The length of the statement "keyValues.put("biz_content"`"{\"timeout_express\":\"30m\"`" + "\"product_code\":\"QUICK_MSECURITY_PAY\"`" + "\"total_amount\":\"" + aliPayModel.getMoney() + "\"`"+ "\"subject\":\""+ aliPayModel.getName()+ "\"`"+ "\"body\":\""+ aliPayModel.getDetail()+ "\"`"+ "\"out_trade_no\":\""+ aliPayModel.getOut_trade_no()+ "\"}");" is 320.,61
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,AliPayOrderInfoUtil,getOutTradeNo,Magic Number,The method contains a magic number: 15,186
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,isWhiteSpace,Magic Number,The method contains a magic number: 0x20,50
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,isWhiteSpace,Magic Number,The method contains a magic number: 0xd,50
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,isWhiteSpace,Magic Number,The method contains a magic number: 0xa,50
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,isWhiteSpace,Magic Number,The method contains a magic number: 0x9,50
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0x0f,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0x03,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0xc0,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0xf0,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 6,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 6,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0xfc,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0x3f,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0x03,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0xc0,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0x0f,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0x03,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0xc0,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 0xf0,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Complex Conditional,The conditional expression !isData((d1=base64Data[dataIndex++])) || !isData((d2=base64Data[dataIndex++])) || !isData((d3=base64Data[dataIndex++]))|| !isData((d4=base64Data[dataIndex++])) is complex.,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Complex Method,Cyclomatic complexity of the method is 12,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Long Statement,The length of the statement "if (!isData((d1=base64Data[dataIndex++])) || !isData((d2=base64Data[dataIndex++])) || !isData((d3=base64Data[dataIndex++]))|| !isData((d4=base64Data[dataIndex++]))) {" is 166.,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 3,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 2,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 4,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 0xf,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 4,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 2,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 0xf,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 6,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 0xf,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 3,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 3,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 2,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 4,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 0x3,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 3,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 2,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 3,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 2,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 4,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 0xf,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 4,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 2,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 0xf,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 2,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 4,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 0xf,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 4,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 2,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 0xf,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,Base64,decode,Magic Number,The method contains a magic number: 6,144
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,AliPayTools,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,27
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,AliPayTools,aliPay,Long Parameter List,The method has 6 parameters. ,56
+AndroidQuick-main,io.github.sdwfqin.paylib.alipay,AliPayModel,AliPayModel,Long Parameter List,The method has 6 parameters. ,35
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,MD5,getMessageDigest,Magic Number,The method contains a magic number: 2,7
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,MD5,getMessageDigest,Magic Number,The method contains a magic number: 4,7
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,MD5,getMessageDigest,Magic Number,The method contains a magic number: 0xf,7
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,MD5,getMessageDigest,Magic Number,The method contains a magic number: 0xf,7
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayModel,WechatPayModel,Long Parameter List,The method has 7 parameters. ,14
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,wechatPayUnifyOrder,Long Parameter List,The method has 6 parameters. ,51
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,wechatPayUnifyOrder,Magic Number,The method contains a magic number: 8,51
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,wechatPayApp,Long Parameter List,The method has 6 parameters. ,139
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,wechatPayApp,Long Statement,The length of the statement "WechatPayModel wechatPayModel=new WechatPayModel(appid`mchId`params.get("prepayid")`"Sign=WechatPay"`params.get("noncestr")`params.get("timestamp")`sign);" is 154.,139
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,wechatPayApp,Long Parameter List,The method has 7 parameters. ,157
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,wechatPayApp,Long Statement,The length of the statement "WechatPayModel wechatPayModel=new WechatPayModel(appId`partnerId`prepayId`"Sign=WechatPay"`params.get("noncestr")`params.get("timestamp")`sign);" is 144.,157
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,wechatPayApp,Long Parameter List,The method has 8 parameters. ,185
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,wechatPayApp,Long Statement,The length of the statement "WechatPayModel wechatPayModel=new WechatPayModel(appId`partnerId`prepayId`params.get("package")`noncestr`timestamp`sign);" is 121.,185
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,doWXPay,Missing default,The following switch statement is missing a default case: switch (errorCode) {,213
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,onError,Missing default,The following switch statement is missing a default case: switch (errorCode) {,231
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPayTools,getSign,Complex Conditional,The conditional expression null != v && !"".equals(v) && !"sign".equals(k) && !"key".equals(k) is complex.,256
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatModel,WechatModel,Long Parameter List,The method has 5 parameters. ,17
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPay,doPay,Complex Conditional,The conditional expression TextUtils.isEmpty(param.optString("appid")) || TextUtils.isEmpty(param.optString("partnerid")) || TextUtils.isEmpty(param.optString("prepayid"))|| TextUtils.isEmpty(param.optString("packageValue"))|| TextUtils.isEmpty(param.optString("noncestr"))|| TextUtils.isEmpty(param.optString("timestamp"))|| TextUtils.isEmpty(param.optString("sign")) is complex.,75
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPay,doPay,Long Statement,The length of the statement "if (TextUtils.isEmpty(param.optString("appid")) || TextUtils.isEmpty(param.optString("partnerid")) || TextUtils.isEmpty(param.optString("prepayid"))|| TextUtils.isEmpty(param.optString("packageValue"))|| TextUtils.isEmpty(param.optString("noncestr"))|| TextUtils.isEmpty(param.optString("timestamp"))|| TextUtils.isEmpty(param.optString("sign"))) {" is 348.,75
+AndroidQuick-main,io.github.sdwfqin.paylib.wechat,WechatPay,onResp,Magic Number,The method contains a magic number: 2,121
+AndroidQuick-main,io.github.sdwfqin.quicklib.webview,QuickBaseWebViewActivity,getWebViewCommonBuilder,Long Statement,The length of the statement "return AgentWeb.with(mContext).setAgentWebParent(mBinding.container`new LinearLayout.LayoutParams(-1`-1)).useDefaultIndicator().setWebChromeClient(new WebChromeClient(){" is 169.,42
+AndroidQuick-main,io.github.sdwfqin.quicklib.webview,QuickWebViewLoadDataActivity,launch,Long Statement,The length of the statement "ARouter.getInstance().build(QuickArouterConstants.QUICK_WEBVIEWLOADDATA).withString("title"`title).withString("content"`content).withString("baseUrl"`baseUrl).withBoolean("autoSetTitle"`autoSetTitle).navigation();" is 213.,40
+AndroidQuick-main,io.github.sdwfqin.quicklib.webview,QuickWebViewActivity,launch,Long Statement,The length of the statement "ARouter.getInstance().build(QuickArouterConstants.QUICK_WEBVIEW).withString("url"`url).withString("title"`title).withBoolean("autoSetTitle"`autoSetTitle).navigation();" is 167.,35
+AndroidQuick-main,io.github.sdwfqin.quicklib.utils,QuickExecutor,QuickExecutor,Magic Number,The method contains a magic number: 1024,28
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToLeftTop,Long Parameter List,The method has 7 parameters. ,17
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToRightBottom,Long Parameter List,The method has 7 parameters. ,36
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToRightBottom,Long Statement,The length of the statement "return drawTextToBitmap(context`bitmap`text`paint`bounds`bitmap.getWidth() - bounds.width() - paddingRight`bitmap.getHeight() - paddingBottom);" is 143.,36
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToRightTop,Long Parameter List,The method has 7 parameters. ,59
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToRightTop,Long Statement,The length of the statement "return drawTextToBitmap(context`bitmap`text`paint`bounds`bitmap.getWidth() - bounds.width() - paddingRight`paddingTop + bounds.height());" is 137.,59
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToLeftBottom,Long Parameter List,The method has 7 parameters. ,83
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToCenter,Long Parameter List,The method has 5 parameters. ,106
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToCenter,Long Statement,The length of the statement "return drawTextToBitmap(context`bitmap`text`paint`bounds`(bitmap.getWidth() - bounds.width()) / 2`(bitmap.getHeight() + bounds.height()) / 2);" is 142.,106
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToCenter,Magic Number,The method contains a magic number: 2,106
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToCenter,Magic Number,The method contains a magic number: 2,106
+AndroidQuick-main,io.github.sdwfqin.quicklib.imagewatermark,ImageWatermarkUtils,drawTextToBitmap,Long Parameter List,The method has 7 parameters. ,127
+AndroidQuick-main,io.github.sdwfqin.quicklib.dialog,QuickSimpleHintDialog,initDataAndEvent,Complex Method,Cyclomatic complexity of the method is 11,52
+AndroidQuick-main,io.github.sdwfqin.quicklib.dialog,QuickSimpleHintDialog,onStart,Magic Number,The method contains a magic number: 0.7,91
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.picture,PictureSelectUtils,SelectSystemPhoto,Long Statement,The length of the statement "Matisse.from(activity).choose(MimeType.ofImage()).countable(false).capture(false).captureStrategy(new CaptureStrategy(true`Constants.FILE_PROVIDER)).maxSelectable(imgCount).originalEnable(true).imageEngine(new MatisseGlideEngine()).forResult(requestCode);" is 255.,21
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.picture,MatisseGlideEngine,loadThumbnail,Long Parameter List,The method has 5 parameters. ,20
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.picture,MatisseGlideEngine,loadThumbnail,Long Statement,The length of the statement "GlideApp.with(context).asBitmap().load(uri).placeholder(placeholder).override(resize`resize).centerCrop().into(imageView);" is 122.,20
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.picture,MatisseGlideEngine,loadGifThumbnail,Long Parameter List,The method has 5 parameters. ,31
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.picture,MatisseGlideEngine,loadGifThumbnail,Long Statement,The length of the statement "GlideApp.with(context).asBitmap().load(uri).placeholder(placeholder).override(resize`resize).centerCrop().into(imageView);" is 122.,31
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.picture,MatisseGlideEngine,loadImage,Long Parameter List,The method has 5 parameters. ,42
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.picture,MatisseGlideEngine,loadGifImage,Long Parameter List,The method has 5 parameters. ,52
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,CreateCodeTools,createQRCode,Long Parameter List,The method has 5 parameters. ,82
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,CreateCodeTools,createQRCode,Magic Number,The method contains a magic number: 0xffffffff,115
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,CreateCodeTools,createQRCode,Magic Number,The method contains a magic number: 0xff000000,115
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,CreateCodeTools,createQRCode,Magic Number,The method contains a magic number: 800,119
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,CreateCodeTools,createQRCode,Magic Number,The method contains a magic number: 16,119
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,CreateCodeTools,createQRCode,Magic Number,The method contains a magic number: 16,123
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,DecodeCodeTools,decodeFromPhoto,Long Statement,The length of the statement "rawResult=getDefaultMultiFormatReader().decodeWithState(new BinaryBitmap(new HybridBinarizer(new BitmapLuminanceSource(smallBitmap))));" is 135.,25
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,DecodeCodeTools,decodeFromPhoto,Magic Number,The method contains a magic number: 2,25
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,DecodeCodeTools,decodeFromPhoto,Magic Number,The method contains a magic number: 2,25
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.utils.qrbarscan,DecodeCodeTools,getDefaultMultiFormatReader,Magic Number,The method contains a magic number: 2,49
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.view,FocusImageView,FocusImageView,Complex Conditional,The conditional expression mFocusImg == NO_ID || mFocusSucceedImg == NO_ID || mFocusFailedImg == NO_ID is complex.,40
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.view,FocusImageView,startFocus,Complex Conditional,The conditional expression mFocusImg == NO_ID || mFocusSucceedImg == NO_ID || mFocusFailedImg == NO_ID is complex.,57
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.view,FocusImageView,startFocus,Magic Number,The method contains a magic number: 2,57
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.view,FocusImageView,startFocus,Magic Number,The method contains a magic number: 2,57
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.view,FocusImageView,onFocusSuccess,Magic Number,The method contains a magic number: 1000,75
+AndroidQuick-main,io.github.sdwfqin.samplecommonlibrary.view,FocusImageView,onFocusFailed,Magic Number,The method contains a magic number: 1000,86

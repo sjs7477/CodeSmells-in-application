@@ -1,0 +1,47 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+6_Android-Codelabs-master,com.example.mvvm_architecture,AddNoteActivity,onCreate,Magic Number,The method contains a magic number: 10,26
+6_Android-Codelabs-master,com.example.mvvm_architecture,AddNoteActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,68
+6_Android-Codelabs-master,com.example.mvvm_architecture,NoteDatabase,getInstance,Long Statement,The length of the statement "instance=Room.databaseBuilder(context.getApplicationContext()`NoteDatabase.class`"note_database").fallbackToDestructiveMigration().addCallback(roomCallback).build();" is 165.,16
+6_Android-Codelabs-master,com.example.mvvm_architecture,NoteDatabase,PopulateDbAsyncTask,Abstract Function Call From Constructor,The constructor PopulateDbAsyncTask calls a virtual method noteDao.,34
+6_Android-Codelabs-master,com.example.mvvm_architecture,NoteDatabase,doInBackground,Magic Number,The method contains a magic number: 2,37
+6_Android-Codelabs-master,com.example.mvvm_architecture,NoteDatabase,doInBackground,Magic Number,The method contains a magic number: 3,37
+6_Android-Codelabs-master,com.example.mvvm_architecture,PopulateDbAsyncTask,PopulateDbAsyncTask,Abstract Function Call From Constructor,The constructor PopulateDbAsyncTask calls a virtual method noteDao.,34
+6_Android-Codelabs-master,com.example.mvvm_architecture,PopulateDbAsyncTask,doInBackground,Magic Number,The method contains a magic number: 2,37
+6_Android-Codelabs-master,com.example.mvvm_architecture,PopulateDbAsyncTask,doInBackground,Magic Number,The method contains a magic number: 3,37
+6_Android-Codelabs-master,com.example.mvvm_architecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+6_Android-Codelabs-master,com.example.mvvm_architecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.mvvm_architecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.mvvm_architecture,AddNoteActivity,onCreate,Magic Number,The method contains a magic number: 10,26
+6_Android-Codelabs-master,com.example.mvvm_architecture,AddNoteActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,68
+6_Android-Codelabs-master,com.example.mvvm_architecture,NoteDatabase,getInstance,Long Statement,The length of the statement "instance=Room.databaseBuilder(context.getApplicationContext()`NoteDatabase.class`"note_database").fallbackToDestructiveMigration().addCallback(roomCallback).build();" is 165.,16
+6_Android-Codelabs-master,com.example.mvvm_architecture,NoteDatabase,PopulateDbAsyncTask,Abstract Function Call From Constructor,The constructor PopulateDbAsyncTask calls a virtual method noteDao.,34
+6_Android-Codelabs-master,com.example.mvvm_architecture,NoteDatabase,doInBackground,Magic Number,The method contains a magic number: 2,37
+6_Android-Codelabs-master,com.example.mvvm_architecture,NoteDatabase,doInBackground,Magic Number,The method contains a magic number: 3,37
+6_Android-Codelabs-master,com.example.mvvm_architecture,PopulateDbAsyncTask,PopulateDbAsyncTask,Abstract Function Call From Constructor,The constructor PopulateDbAsyncTask calls a virtual method noteDao.,34
+6_Android-Codelabs-master,com.example.mvvm_architecture,PopulateDbAsyncTask,doInBackground,Magic Number,The method contains a magic number: 2,37
+6_Android-Codelabs-master,com.example.mvvm_architecture,PopulateDbAsyncTask,doInBackground,Magic Number,The method contains a magic number: 3,37
+6_Android-Codelabs-master,com.example.mvvm_architecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+6_Android-Codelabs-master,com.example.mvvm_architecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.mvvm_architecture,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.fragment,MainActivity,onCreate,Long Statement,The length of the statement "manager.beginTransaction().hide(manager.findFragmentById(R.id.detailFrag)).show(manager.findFragmentById(R.id.listFrag)).commit();" is 130.,15
+6_Android-Codelabs-master,com.example.fragment,MainActivity,onCreate,Long Statement,The length of the statement "manager.beginTransaction().show(manager.findFragmentById(R.id.detailFrag)).show(manager.findFragmentById(R.id.listFrag)).commit();" is 130.,15
+6_Android-Codelabs-master,com.example.fragment,MainActivity,onItemSelected,Long Statement,The length of the statement "manager.beginTransaction().show(manager.findFragmentById(R.id.detailFrag)).hide(manager.findFragmentById(R.id.listFrag)).addToBackStack(null).commit();" is 151.,59
+6_Android-Codelabs-master,com.example.fragment,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+6_Android-Codelabs-master,com.example.fragment,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.fragment,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.recyclerviewadvanced,PersonAdapter,getItemViewType,Magic Number,The method contains a magic number: 5,29
+6_Android-Codelabs-master,com.example.recyclerviewadvanced,PersonAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 5,85
+6_Android-Codelabs-master,com.example.recyclerviewadvanced,PersonAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 5,85
+6_Android-Codelabs-master,com.example.recyclerviewadvanced,PersonAdapter,getItemCount,Magic Number,The method contains a magic number: 5,104
+6_Android-Codelabs-master,com.example.recyclerviewadvanced,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+6_Android-Codelabs-master,com.example.recyclerviewadvanced,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.recyclerviewadvanced,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.recyclerviewandcardview,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+6_Android-Codelabs-master,com.example.recyclerviewandcardview,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.recyclerviewandcardview,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.room_demo,MainActivity,onCreate,Long Identifier,The length of the field NEW_WORD_ACTIVITY_REQUEST_CODE is 30.,18
+6_Android-Codelabs-master,com.example.room_demo,MainActivity,onActivityResult,Long Identifier,The length of the field NEW_WORD_ACTIVITY_REQUEST_CODE is 30.,38
+6_Android-Codelabs-master,com.example.room_demo,WordRoomDatabase,getDatabase,Long Statement,The length of the statement "INSTANCE=Room.databaseBuilder(context.getApplicationContext()`WordRoomDatabase.class`"word_database").addCallback(sRoomDatabaseCallback).build();" is 145.,20
+6_Android-Codelabs-master,com.example.room_demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+6_Android-Codelabs-master,com.example.room_demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+6_Android-Codelabs-master,com.example.room_demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13

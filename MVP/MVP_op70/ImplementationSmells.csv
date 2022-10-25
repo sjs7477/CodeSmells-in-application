@@ -1,0 +1,169 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+55_SetTopBox-master,com.oeasy.stb.app.push,Coder,encryptMD5,Magic Number,The method contains a magic number: 16,29
+55_SetTopBox-master,com.oeasy.stb.app.push,Coder,encryptSHA,Magic Number,The method contains a magic number: 32,43
+55_SetTopBox-master,com.oeasy.stb.app.push,Coder,encryptHMAC,Magic Number,The method contains a magic number: 32,56
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Complex Method,Cyclomatic complexity of the method is 9,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 1900,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 1000,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 4,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 10,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 10,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 10,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 10,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 10,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 1000,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 1000000,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 9,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 8,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,timestampToString,Magic Number,The method contains a magic number: 20,17
+55_SetTopBox-master,com.oeasy.stb.app.push,CommonTool,encryptHMAC,Magic Number,The method contains a magic number: 32,108
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,checkLogin,Magic Number,The method contains a magic number: 2000,196
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,run,Magic Number,The method contains a magic number: 2000,201
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,PushManager,Long Statement,The length of the statement "connector.getFilterChain().addLast("keepalive"`new KeepAliveFilter(new KeepAliveMessageFactoryImpl()`IdleStatus.READER_IDLE`KeepAliveRequestTimeoutHandler.DEAF_SPEAKER`config.getKeepAliveTimeInterval()`config.getKeepAliveResponseTimeout()));" is 241.,232
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,PushManager,Magic Number,The method contains a magic number: 1024,232
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,PushManager,Magic Number,The method contains a magic number: 1024,232
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,PushManager,Magic Number,The method contains a magic number: 1024,232
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,PushManager,Magic Number,The method contains a magic number: 1024,232
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,changeStateToServer,Empty catch clause,The method has an empty catch block.,335
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,_connect,Complex Method,Cyclomatic complexity of the method is 9,360
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,_connect,Long Statement,The length of the statement "OeLog.i(TAG`"before _connect disposed: " + connector.isDisposed() + " disposing: "+ connector.isDisposing()+ " active: "+ connector.isActive());" is 144.,360
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,_connect,Long Statement,The length of the statement "OeLog.e(TAG`"connect again after " + delay + " millisecond` isNetworkConnect:"+ isNetworkConnect()+ " connector:"+ connector);" is 126.,360
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,_connect,Long Statement,The length of the statement "OeLog.i(TAG`host + ":" + port+ " future connect complete` isConnected : "+ connectFuture.isConnected()+ " isDone : "+ connectFuture.isDone());" is 142.,360
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,_connect,Long Statement,The length of the statement "OeLog.e(TAG`"connect success !! before socketJNI.ope session " + session + " future.getSession() : "+ connectFuture.getSession());" is 130.,360
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,_connect,Long Statement,The length of the statement "OeLog.e(TAG`host + ":" + port+ " future connect fail because session is null or disConnected do connect agent after "+ delay+ " millisecond`future.getSession():"+ connectFuture.getSession());" is 191.,360
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,_connect,Magic Number,The method contains a magic number: 2000,360
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,operationComplete,Long Statement,The length of the statement "OeLog.i(TAG`host + ":" + port+ " future connect complete` isConnected : "+ connectFuture.isConnected()+ " isDone : "+ connectFuture.isDone());" is 142.,410
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,operationComplete,Long Statement,The length of the statement "OeLog.e(TAG`"connect success !! before socketJNI.ope session " + session + " future.getSession() : "+ connectFuture.getSession());" is 130.,410
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,operationComplete,Long Statement,The length of the statement "OeLog.e(TAG`host + ":" + port+ " future connect fail because session is null or disConnected do connect agent after "+ delay+ " millisecond`future.getSession():"+ connectFuture.getSession());" is 191.,410
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,disConnect,Long Statement,The length of the statement "OeLog.i(TAG`"before dispose disposed: " + connector.isDisposed() + " disposing: "+ connector.isDisposing()+ " active: "+ connector.isActive());" is 143.,459
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,disConnect,Long Statement,The length of the statement "OeLog.i(TAG`"after dispose disposed: " + connector.isDisposed() + " disposing: "+ connector.isDisposing()+ " active: "+ connector.isActive());" is 142.,459
+55_SetTopBox-master,com.oeasy.stb.app.push,PushManager,onMessageReceived,Complex Method,Cyclomatic complexity of the method is 11,591
+55_SetTopBox-master,com.oeasy.stb.app.push,ServerConfig,toString,Long Statement,The length of the statement "sb.append("{hostName:").append(host).append("`port:").append(port).append("`connectTimeout:").append(connectTimeout).append("`keepAliveTimeInterval:").append(keepAliveTimeInterval).append("`keepAliveResponseTimeout:").append(keepAliveResponseTimeout).append("`reconnectInterval:").append(reconnectInterval).append("`deviceid:").append(id).append("`token:").append(token).append("`privateKey:").append(privateKey).append("}");" is 425.,126
+55_SetTopBox-master,com.oeasy.stb.app.receiver,STBReceiver,onReceive,Missing default,The following switch statement is missing a default case: switch (action) {,24
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,init,Long Identifier,The length of the field MSG_START_REGISTER_PUSH_CENTER is 30.,68
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,init,Magic Number,The method contains a magic number: 2,68
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,startRegisterPushCenter,Long Identifier,The length of the field MSG_START_REGISTER_PUSH_CENTER is 30.,94
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,startRegisterPushCenter,Magic Number,The method contains a magic number: 3,94
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,startRegisterPushCenter,Magic Number,The method contains a magic number: 1000,94
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,doCancel,Magic Number,The method contains a magic number: 2,151
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,doCancel,Magic Number,The method contains a magic number: 1000,151
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handlerMessageAction,Complex Method,Cyclomatic complexity of the method is 9,166
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handlerMessageAction,Long Identifier,The length of the field MSG_START_REGISTER_PUSH_CENTER is 30.,166
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handlerMessageAction,Missing default,The following switch statement is missing a default case: switch (msg.what) {,166
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,registerPushCenter,Long Identifier,The length of the field MSG_START_REGISTER_PUSH_CENTER is 30.,210
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,registerPushCenter,Long Statement,The length of the statement "Disposable disposable=ApiFactory.getDeviceService().getPushAccount(STBUtil.getDeviceSn()).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`3)).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseHttpConsumer<BaseResponse<ServerConfig>>(){" is 257.,210
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,registerPushCenter,Magic Number,The method contains a magic number: 3,210
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,registerPushCenter,Magic Number,The method contains a magic number: 3,210
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,registerPushCenter,Magic Number,The method contains a magic number: 5,210
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,registerPushCenter,Magic Number,The method contains a magic number: 1000,210
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,onFailedCall,Long Identifier,The length of the field MSG_START_REGISTER_PUSH_CENTER is 30.,231
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,onFailedCall,Magic Number,The method contains a magic number: 5,231
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,onFailedCall,Magic Number,The method contains a magic number: 1000,231
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handlePushMessage,Complex Method,Cyclomatic complexity of the method is 9,250
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handlePushMessage,Missing default,The following switch statement is missing a default case: switch (type) {,250
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handleIncallType,Complex Method,Cyclomatic complexity of the method is 11,327
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handleIncallType,Magic Number,The method contains a magic number: 2,327
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handleIncallType,Magic Number,The method contains a magic number: 3,327
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handleIncallType,Magic Number,The method contains a magic number: 4,327
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handleIncallType,Missing default,The following switch statement is missing a default case: switch (pushInfo.getCmd()) {,327
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,handleNoticeType,Missing default,The following switch statement is missing a default case: switch (cmd) {,391
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,notifiServerGetIncall,Long Statement,The length of the statement "Disposable disposable=ApiFactory.getDeviceService().notifiServerGetIncall(callId`callAccount`Constants.TYPE_STB).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`3)).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseHttpConsumer<BaseResponse>(){" is 266.,446
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,notifiServerGetIncall,Magic Number,The method contains a magic number: 3,446
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,notifiServerGetIncall,Magic Number,The method contains a magic number: 3,446
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,rejectOpenDoor,Long Statement,The length of the statement "Disposable disposable=ApiFactory.getDeviceService().rejectOpendoor(callId`callAccount`Constants.TYPE_STB).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`3)).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseHttpConsumer<BaseResponse>(){" is 259.,483
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,rejectOpenDoor,Magic Number,The method contains a magic number: 3,483
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,rejectOpenDoor,Magic Number,The method contains a magic number: 3,483
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,openDoor,Long Statement,The length of the statement "Disposable disposable=ApiFactory.getDeviceService().opendoor(callId`callAccount`Constants.TYPE_STB).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`3)).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseHttpConsumer<BaseResponse>(){" is 253.,524
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,openDoor,Magic Number,The method contains a magic number: 3,524
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,openDoor,Magic Number,The method contains a magic number: 3,524
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,openDoor,Magic Number,The method contains a magic number: 2,524
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,openDoor,Magic Number,The method contains a magic number: 1000,524
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,onSuccessedCall,Magic Number,The method contains a magic number: 2,546
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,onSuccessedCall,Magic Number,The method contains a magic number: 1000,546
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,getCallDoorName,Long Statement,The length of the statement "Disposable disposable=ApiFactory.getDeviceService().getCallDoorName(sipAccount).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`3)).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseHttpConsumer<BaseResponse<String>>(){" is 241.,566
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,getCallDoorName,Magic Number,The method contains a magic number: 3,566
+55_SetTopBox-master,com.oeasy.stb.app.service,STBService,getCallDoorName,Magic Number,The method contains a magic number: 3,566
+55_SetTopBox-master,com.oeasy.stb.app.service,StbHandler,handlerMessageAction,Complex Method,Cyclomatic complexity of the method is 9,166
+55_SetTopBox-master,com.oeasy.stb.app.service,StbHandler,handlerMessageAction,Missing default,The following switch statement is missing a default case: switch (msg.what) {,166
+55_SetTopBox-master,com.oeasy.stb.mvp.model.api,ApiFactory,getDeviceService,Long Statement,The length of the statement "mDeviceService=new Retrofit.Builder().baseUrl(baseUrl).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).client(getOkHttpClientWithSign()).build().create(DeviceService.class);" is 234.,24
+55_SetTopBox-master,com.oeasy.stb.mvp.model.api,DeviceService,getDeviceNotiList,Long Parameter List,The method has 5 parameters. ,26
+55_SetTopBox-master,com.oeasy.stb.mvp.model.database,STBProvider,getType,Missing default,The following switch statement is missing a default case: switch (mMatcher.match(uri)) {,41
+55_SetTopBox-master,com.oeasy.stb.mvp.model.database,STBProvider,query,Long Parameter List,The method has 5 parameters. ,52
+55_SetTopBox-master,com.oeasy.stb.mvp.model.database,STBProvider,getTableName,Missing default,The following switch statement is missing a default case: switch (mMatcher.match(uri)) {,117
+55_SetTopBox-master,com.oeasy.stb.mvp.model.entity,DeviceStatusInfo,DeviceStatusInfo,Long Parameter List,The method has 5 parameters. ,17
+55_SetTopBox-master,com.oeasy.stb.mvp.model.manager,ResolverManager,query,Long Parameter List,The method has 5 parameters. ,53
+55_SetTopBox-master,com.oeasy.stb.mvp.model.manager,ResolverManager,updateAndSaveToDb,Long Statement,The length of the statement "Cursor cursor=query(DBInfo.COMMUNITY_NOTI_INFO_URI`new String[]{DBInfo.NotiColumns.COMMUNITY_NOTI_ID}`DBInfo.NotiColumns.COMMUNITY_NOTI_ID + "=?"`new String[]{info.getId() + ""}`null);" is 184.,73
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getQrContent,Magic Number,The method contains a magic number: 150,67
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getQrContent,Magic Number,The method contains a magic number: 150,67
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getDeviceStatus,Complex Method,Cyclomatic complexity of the method is 12,93
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getDeviceStatus,Long Statement,The length of the statement "mCompositeDisposable.add(ApiFactory.getDeviceService().getDeviceStatus(STBUtil.getDeviceSn()).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`3)).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseHttpConsumer<BaseResponse<DeviceStatusInfo>>(){" is 265.,93
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getDeviceStatus,Long Statement,The length of the statement "mView.showDeviceStatus(false`BaseApplication.getAppContext().getString(R.string.device_status_unbind_name)`BaseApplication.getAppContext().getString(R.string.device_status_unbind_des));" is 185.,93
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getDeviceStatus,Magic Number,The method contains a magic number: 3,93
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getDeviceStatus,Magic Number,The method contains a magic number: 3,93
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,onFailedCall,Long Statement,The length of the statement "mView.showDeviceStatus(false`BaseApplication.getAppContext().getString(R.string.device_status_unbind_name)`BaseApplication.getAppContext().getString(R.string.device_status_unbind_des));" is 185.,138
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getDbNotiList,Long Statement,The length of the statement "Cursor cursor=ResolverManager.getManager().query(DBInfo.COMMUNITY_NOTI_INFO_URI`new String[]{DBInfo.NotiColumns.COMMUNITY_NOTI_INFO}`null`null`DBInfo.NotiColumns.COMMUNITY_NOTI_TIME + " DESC");" is 193.,176
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getNetNotiList,Long Statement,The length of the statement "mCompositeDisposable.add(ApiFactory.getDeviceService().getDeviceNotiList(SpfUtil.getUnitId()`SpfUtil.getBulidingCode()`SpfUtil.getRoomCode()`null`null).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`3)).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseHttpConsumer<BaseResponse<ArrayList<NotiItemInfo>>>(){" is 330.,213
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getNetNotiList,Magic Number,The method contains a magic number: 3,213
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getNetNotiList,Magic Number,The method contains a magic number: 3,213
+55_SetTopBox-master,com.oeasy.stb.mvp.presenter,FirstPagePresenter,getNotiUnReadCount,Long Statement,The length of the statement "Cursor cursor=ResolverManager.getManager().query(DBInfo.COMMUNITY_NOTI_INFO_URI`new String[]{DBInfo.NotiColumns.COMMUNITY_NOTI_READ_STATE}`DBInfo.NotiColumns.COMMUNITY_NOTI_READ_STATE + "=?"`new String[]{Constants.NOTI_UNREAD + ""}`null);" is 238.,260
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,initData,Magic Number,The method contains a magic number: 1000,85
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,onClick,Long Statement,The length of the statement "showConfirmDialog(this`getString(R.string.residential_watch_dog_des)`getString(R.string.residential_unbind_confirm)`null`false);" is 128.,137
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,137
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,handleNotiClick,Long Statement,The length of the statement "showConfirmDialog(this`getString(R.string.residential_unbind_tip)`getString(R.string.residential_unbind_confirm)`null`false);" is 125.,159
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,showConfirmDialog,Long Parameter List,The method has 5 parameters. ,173
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,showDeviceStatus,Long Statement,The length of the statement "mBindName.setText(TextUtils.isEmpty(name) ? getString(R.string.device_status_unbind_name) : getString(R.string.device_status_bind_name`name));" is 142.,219
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,showNotiList,Long Statement,The length of the statement "showConfirmDialog(this`getString(R.string.residential_no_noti_tip)`getString(R.string.residential_unbind_confirm)`null`false);" is 126.,250
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,getDeviceStatusLoop,Magic Number,The method contains a magic number: 5,297
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,getDeviceStatusLoop,Magic Number,The method contains a magic number: 1000,297
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,getNetNotiList,Magic Number,The method contains a magic number: 10,309
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,getNetNotiList,Magic Number,The method contains a magic number: 1000,309
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,handlerMessageAction,Missing default,The following switch statement is missing a default case: switch (msg.what) {,371
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageActivity,onReceive,Missing default,The following switch statement is missing a default case: switch (action) {,411
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageHandler,handlerMessageAction,Missing default,The following switch statement is missing a default case: switch (msg.what) {,371
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,FirstPageReceiver,onReceive,Missing default,The following switch statement is missing a default case: switch (action) {,411
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,ItemDetailActivity,showPic,Long Statement,The length of the statement "LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 136.,93
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,ItemDetailActivity,showPic,Magic Number,The method contains a magic number: 10,93
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,ItemDetailActivity,showPic,Magic Number,The method contains a magic number: 2,93
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,NotiListActivity,onItemClick,Long Statement,The length of the statement "ResolverManager.getManager().update(DBInfo.COMMUNITY_NOTI_INFO_URI`values`DBInfo.NotiColumns.COMMUNITY_NOTI_ID + "=?"`new String[]{info.getId() + ""});" is 151.,116
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,NotiListActivity,getNotiDetail,Long Statement,The length of the statement "mCompositeDisposable.add(ApiFactory.getDeviceService().getNotiDetail(SpfUtil.getUnitId()`notiId).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`3)).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseHttpConsumer<BaseResponse<NotiItemInfo>>(){" is 264.,174
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,NotiListActivity,getNotiDetail,Magic Number,The method contains a magic number: 3,174
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.activity,NotiListActivity,getNotiDetail,Magic Number,The method contains a magic number: 3,174
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.adapter,NotiListAdapter,getView,Long Statement,The length of the statement "viewHolder.mTvNotiTitle.setCompoundDrawablesWithIntrinsicBounds(mContext.getResources().getDrawable(R.drawable.circular_shape_red)`null`null`null);" is 147.,55
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,BadgeView,BadgeView,Long Parameter List,The method has 5 parameters. ,99
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,BadgeView,init,Magic Number,The method contains a magic number: 200,104
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,BadgeView,init,Magic Number,The method contains a magic number: 200,104
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,BadgeView,applyLayoutParams,Missing default,The following switch statement is missing a default case: switch (badgePosition) {,332
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,ConfirmDialog,ConfirmDialog,Long Parameter List,The method has 5 parameters. ,46
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,ConfirmDialog,show,Magic Number,The method contains a magic number: 270,86
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,ConfirmDialog,show,Magic Number,The method contains a magic number: 170,86
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,ConfirmDialog,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,104
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,DefaultBadgeView,DefaultBadgeView,Long Parameter List,The method has 5 parameters. ,51
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,DefaultBadgeView,init,Magic Number,The method contains a magic number: 2.5f,57
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,DefaultBadgeView,init,Magic Number,The method contains a magic number: 1.5,57
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,DefaultBadgeView,init,Magic Number,The method contains a magic number: 255,57
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,DefaultBadgeView,init,Magic Number,The method contains a magic number: 115,57
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,DefaultBadgeView,init,Magic Number,The method contains a magic number: 57,57
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,DefaultBadgeView,setCount,Magic Number,The method contains a magic number: 99,77
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,InCallDialog,show,Magic Number,The method contains a magic number: 450,73
+55_SetTopBox-master,com.oeasy.stb.mvp.ui.widget,InCallDialog,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,105
+55_SetTopBox-master,com.oeasy.stb.utils,CustomInterceptor,intercept,Long Statement,The length of the statement "url=url + "&v=" + SecurityUtils.getVersionName(BaseApplication.getAppContext())+ "&device=android&ttid="+ Constants.TID_ANDROID;" is 128.,20
+55_SetTopBox-master,com.oeasy.stb.utils,CustomInterceptor,intercept,Long Statement,The length of the statement "url=url + "?v=" + SecurityUtils.getVersionName(BaseApplication.getAppContext())+ "&device=android&ttid="+ Constants.TID_ANDROID;" is 128.,20
+55_SetTopBox-master,com.oeasy.stb.utils,CustomInterceptor,intercept,Magic Number,The method contains a magic number: 2,20
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,deleteWhite,Magic Number,The method contains a magic number: 2,47
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,deleteWhite,Magic Number,The method contains a magic number: 3,47
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,addLogo,Magic Number,The method contains a magic number: 5,63
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,addLogo,Magic Number,The method contains a magic number: 5,63
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,addLogo,Magic Number,The method contains a magic number: 2,63
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,addLogo,Magic Number,The method contains a magic number: 2,63
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,addLogo,Magic Number,The method contains a magic number: 2,63
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,addLogo,Magic Number,The method contains a magic number: 2,63
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,addLogo,Magic Number,The method contains a magic number: 2,63
+55_SetTopBox-master,com.oeasy.stb.utils,QrCodeUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,83
+55_SetTopBox-master,com.oeasy.stb.utils,SecurityUtils,sortParam,Complex Conditional,The conditional expression valueObj instanceof Integer || valueObj instanceof String || valueObj instanceof Double|| valueObj instanceof Float|| valueObj instanceof Long|| valueObj instanceof Boolean|| valueObj instanceof Byte|| valueObj instanceof Character is complex.,38
+55_SetTopBox-master,com.oeasy.stb.utils,SecurityUtils,sortParam,Long Statement,The length of the statement "if (valueObj instanceof Integer || valueObj instanceof String || valueObj instanceof Double|| valueObj instanceof Float|| valueObj instanceof Long|| valueObj instanceof Boolean|| valueObj instanceof Byte|| valueObj instanceof Character) {" is 238.,38
+55_SetTopBox-master,com.oeasy.stb.utils,SecurityUtils,getMessageDigest,Magic Number,The method contains a magic number: 2,63
+55_SetTopBox-master,com.oeasy.stb.utils,SecurityUtils,getMessageDigest,Magic Number,The method contains a magic number: 4,63
+55_SetTopBox-master,com.oeasy.stb.utils,SecurityUtils,getMessageDigest,Magic Number,The method contains a magic number: 0xf,63
+55_SetTopBox-master,com.oeasy.stb.utils,SecurityUtils,getMessageDigest,Magic Number,The method contains a magic number: 0xf,63
+55_SetTopBox-master,com.oeasy.stb.utils,STBUtil,_toEntity,Complex Method,Cyclomatic complexity of the method is 8,87
+55_SetTopBox-master,com.oeasy.stb.utils,STBUtil,_toEntity,Empty catch clause,The method has an empty catch block.,87

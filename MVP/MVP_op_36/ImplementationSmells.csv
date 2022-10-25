@@ -1,0 +1,706 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,open,Long Parameter List,The method has 5 parameters. ,37
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,open,Long Statement,The length of the statement "com.maning.imagebrowserlibrary.MNImageBrowser.with(context).setIndicatorType(ImageBrowserConfig.IndicatorType.Indicator_Number).setIndicatorHide(false).setCurrentPosition(position).setImageEngine(new GlideImageEngine()).setImageList(imageList).setOnLongClickListener(new OnLongClickListener(){" is 293.,37
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,showBottomSheet,Complex Method,Cyclomatic complexity of the method is 10,70
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,showBottomSheet,Long Statement,The length of the statement "ListFragmentDialog.newInstance(context).showDailog(context.getSupportFragmentManager()`mListDialogDatas`new OnItemClickListener(){" is 130.,70
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,showBottomSheet,Magic Number,The method contains a magic number: 2,70
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,showBottomSheet,Magic Number,The method contains a magic number: 3,70
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,onItemClick,Complex Method,Cyclomatic complexity of the method is 8,87
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,onItemClick,Magic Number,The method contains a magic number: 2,87
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,onItemClick,Magic Number,The method contains a magic number: 3,87
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,saveImage,Long Statement,The length of the statement "final boolean saveBitmapToSD=BitmapUtils.saveBitmapToSD(bitmap`Constants.BasePath`System.currentTimeMillis() + ".jpg"`true);" is 124.,132
+GankMM-master,com.maning.gankmm.ui.imagebrowser,ImageBrowserUtils,run,Long Statement,The length of the statement "final boolean saveBitmapToSD=BitmapUtils.saveBitmapToSD(bitmap`Constants.BasePath`System.currentTimeMillis() + ".jpg"`true);" is 124.,141
+GankMM-master,com.maning.gankmm.ui.imagebrowser,GlideImageEngine,loadImage,Long Parameter List,The method has 5 parameters. ,24
+GankMM-master,com.maning.gankmm.ui.imagebrowser,GlideImageEngine,loadImage,Long Statement,The length of the statement "@Override public boolean onLoadFailed( @Nullable GlideException e` Object model` Target<Bitmap> target` boolean isFirstResource){" is 129.,24
+GankMM-master,com.maning.gankmm.ui.imagebrowser,GlideImageEngine,loadImage,Long Statement,The length of the statement "@Override public boolean onResourceReady( Bitmap resource` Object model` Target<Bitmap> target` DataSource dataSource` boolean isFirstResource){" is 144.,24
+GankMM-master,com.maning.gankmm.ui.imagebrowser,GlideImageEngine,onResourceReady,Long Parameter List,The method has 5 parameters. ,42
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainListActivity,initRecyclerView,Long Statement,The length of the statement "recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).color(Color.parseColor("#FFCCCCCC")).build());" is 127.,78
+GankMM-master,com.maning.gankmm.ui.activity.tools,RubbishActivity,initRecyclerView,Magic Number,The method contains a magic number: 20,61
+GankMM-master,com.maning.gankmm.ui.activity.tools,RubbishActivity,onScrolled,Magic Number,The method contains a magic number: 20,67
+GankMM-master,com.maning.gankmm.ui.activity.tools,LotteryCategoryActivity,initView,Magic Number,The method contains a magic number: 3,69
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,onCreate,Magic Number,The method contains a magic number: 20,52
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,ivSwap,Magic Number,The method contains a magic number: 2,87
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,ivSwap,Magic Number,The method contains a magic number: 2,87
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,ivSwap,Magic Number,The method contains a magic number: 600,87
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,ivSwap,Magic Number,The method contains a magic number: 600,87
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,onAnimationStart,Magic Number,The method contains a magic number: 2,94
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,onAnimationStart,Magic Number,The method contains a magic number: 2,94
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,onAnimationStart,Magic Number,The method contains a magic number: 600,94
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightActivity,onAnimationStart,Magic Number,The method contains a magic number: 600,94
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,onCreate,Magic Number,The method contains a magic number: 20,52
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,ivSwap,Magic Number,The method contains a magic number: 2,87
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,ivSwap,Magic Number,The method contains a magic number: 2,87
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,ivSwap,Magic Number,The method contains a magic number: 600,87
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,ivSwap,Magic Number,The method contains a magic number: 600,87
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,onAnimationStart,Magic Number,The method contains a magic number: 2,94
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,onAnimationStart,Magic Number,The method contains a magic number: 2,94
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,onAnimationStart,Magic Number,The method contains a magic number: 600,94
+GankMM-master,com.maning.gankmm.ui.activity.tools,TrainActivity,onAnimationStart,Magic Number,The method contains a magic number: 600,94
+GankMM-master,com.maning.gankmm.ui.activity.tools,WorldPhoneCodeActivity,queryDatas,Long Statement,The length of the statement "mDatas.put("" + i`new CommonItemEntity(dataEntity.getZhCn() + "(" + dataEntity.getEnUs()+ ")"`dataEntity.getPhoneCode()));" is 122.,51
+GankMM-master,com.maning.gankmm.ui.activity.tools,WorldPhoneCodeActivity,onSuccess,Long Statement,The length of the statement "mDatas.put("" + i`new CommonItemEntity(dataEntity.getZhCn() + "(" + dataEntity.getEnUs()+ ")"`dataEntity.getPhoneCode()));" is 122.,54
+GankMM-master,com.maning.gankmm.ui.activity.tools,CookListActivity,onCreate,Magic Number,The method contains a magic number: 100,54
+GankMM-master,com.maning.gankmm.ui.activity.tools,FlightListActivity,initRecyclerView,Long Statement,The length of the statement "recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).color(Color.parseColor("#FFCCCCCC")).build());" is 127.,77
+GankMM-master,com.maning.gankmm.ui.activity.tools,CookMenuActivity,initAdapterLeft,Long Identifier,The length of the field mRecycleCookCategoryAdapterLeft is 31.,83
+GankMM-master,com.maning.gankmm.ui.activity.tools,CookMenuActivity,initAdapterRight,Long Identifier,The length of the field mRecycleCookCategoryAdapterRIght is 32.,102
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,item_feedback,Long Statement,The length of the statement "DialogUtils.showMyDialog(this`"通知"`"由于个人原因`暂时移除了之前版本的意见反馈`暂时把意见反馈链接到了GitHub项目的Issues地址`请你谅解!"`"确定"`""`new DialogUtils.OnDialogClickListener(){" is 142.,125
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,showAppUpdateDialog,Magic Number,The method contains a magic number: 1024,264
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,showAppUpdateDialog,Magic Number,The method contains a magic number: 1024,264
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,showDownloadDialog,Complex Method,Cyclomatic complexity of the method is 9,303
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,showDownloadDialog,Long Statement,The length of the statement "dialogUpdate=new MaterialDialog.Builder(SettingActivity.this).title("正在下载最新版本").content("请稍等").canceledOnTouchOutside(false).cancelable(false).progress(false`100`false).negativeText("后台下载").onNegative(new MaterialDialog.SingleButtonCallback(){" is 243.,303
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,showDownloadDialog,Magic Number,The method contains a magic number: 100,303
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,showDownloadDialog,Magic Number,The method contains a magic number: 100,303
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,showDownloadDialog,Magic Number,The method contains a magic number: 100,303
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,onLoading,Magic Number,The method contains a magic number: 100,360
+GankMM-master,com.maning.gankmm.ui.activity,SettingActivity,onLoading,Magic Number,The method contains a magic number: 100,360
+GankMM-master,com.maning.gankmm.ui.activity,GankActivity,initView,Magic Number,The method contains a magic number: 0.75,89
+GankMM-master,com.maning.gankmm.ui.activity,GankActivity,initAdapter,Long Statement,The length of the statement "IntentUtils.startToWebActivity(GankActivity.this`gankList.get(position).getType()`gankList.get(position).getDesc()`gankList.get(position).getUrl());" is 148.,97
+GankMM-master,com.maning.gankmm.ui.activity,GankActivity,onItemClick,Long Statement,The length of the statement "IntentUtils.startToWebActivity(GankActivity.this`gankList.get(position).getType()`gankList.get(position).getDesc()`gankList.get(position).getUrl());" is 148.,103
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,initIntent,Long Statement,The length of the statement "DialogUtils.showMyDialog(this`getString(R.string.gank_dialog_title_notify)`pushMessage`getString(R.string.gank_dialog_confirm)`""`null);" is 136.,160
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,setMenuSelection,Complex Method,Cyclomatic complexity of the method is 9,212
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,setMenuSelection,Magic Number,The method contains a magic number: 2,212
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,setMenuSelection,Magic Number,The method contains a magic number: 3,212
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,initNavigationView,Complex Method,Cyclomatic complexity of the method is 14,278
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,onNavigationItemSelected,Complex Method,Cyclomatic complexity of the method is 14,283
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,onBackPressed,Magic Number,The method contains a magic number: 2000,384
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,showAppUpdateDialog,Magic Number,The method contains a magic number: 1024,430
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,showAppUpdateDialog,Magic Number,The method contains a magic number: 1024,430
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,showDownloadDialog,Complex Method,Cyclomatic complexity of the method is 8,458
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,showDownloadDialog,Long Statement,The length of the statement "dialogUpdate=new MaterialDialog.Builder(MainActivity.this).title("正在下载最新版本").content("请稍等").canceledOnTouchOutside(false).cancelable(false).progress(false`100`false).negativeText("后台下载").onNegative(new MaterialDialog.SingleButtonCallback(){" is 240.,458
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,showDownloadDialog,Magic Number,The method contains a magic number: 100,458
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,showDownloadDialog,Magic Number,The method contains a magic number: 100,458
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,showDownloadDialog,Magic Number,The method contains a magic number: 100,458
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,onLoading,Magic Number,The method contains a magic number: 100,514
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,onLoading,Magic Number,The method contains a magic number: 100,514
+GankMM-master,com.maning.gankmm.ui.activity,MainActivity,initWeatherInfo,Long Statement,The length of the statement "header_iv_weather.setImageDrawable(getResources().getDrawable(SharePreUtil.getIntData(context`weather`R.drawable.icon_weather_none)));" is 134.,588
+GankMM-master,com.maning.gankmm.ui.activity,WeatherActivity,onCreate,Magic Number,The method contains a magic number: 80,84
+GankMM-master,com.maning.gankmm.ui.activity,WeatherActivity,initBackgroundPic,Magic Number,The method contains a magic number: 25,111
+GankMM-master,com.maning.gankmm.ui.activity,WeatherActivity,initBackgroundPic,Magic Number,The method contains a magic number: 3,111
+GankMM-master,com.maning.gankmm.ui.activity,WeatherActivity,onResourceReady,Magic Number,The method contains a magic number: 25,125
+GankMM-master,com.maning.gankmm.ui.activity,WeatherActivity,onResourceReady,Magic Number,The method contains a magic number: 3,125
+GankMM-master,com.maning.gankmm.ui.activity,WeatherActivity,initViews,Magic Number,The method contains a magic number: 700,144
+GankMM-master,com.maning.gankmm.ui.activity,WeatherActivity,onScrolled,Magic Number,The method contains a magic number: 700,170
+GankMM-master,com.maning.gankmm.ui.activity,SplashActivity,onCreate,Magic Number,The method contains a magic number: 2000,24
+GankMM-master,com.maning.gankmm.ui.activity,CodesActivity,onCreate,Magic Number,The method contains a magic number: 100,86
+GankMM-master,com.maning.gankmm.ui.activity,CodesActivity,initViews,Long Statement,The length of the statement "recycleContent.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).color(getResources().getColor(R.color.lineColor_night)).build());" is 148.,129
+GankMM-master,com.maning.gankmm.ui.activity,CodesActivity,initViews,Long Statement,The length of the statement "recycleMenu.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).color(getResources().getColor(R.color.lineColor_night)).build());" is 145.,129
+GankMM-master,com.maning.gankmm.ui.activity,CodesActivity,initContentAdapter,Magic Number,The method contains a magic number: 4,189
+GankMM-master,com.maning.gankmm.ui.activity,CodesActivity,onScrolled,Magic Number,The method contains a magic number: 4,201
+GankMM-master,com.maning.gankmm.ui.activity,CodesActivity,onScrollUp,Magic Number,The method contains a magic number: 500,221
+GankMM-master,com.maning.gankmm.ui.activity,CodesActivity,onScrollDown,Magic Number,The method contains a magic number: 500,243
+GankMM-master,com.maning.gankmm.ui.activity,WebActivity,initWebView,Magic Number,The method contains a magic number: 100,121
+GankMM-master,com.maning.gankmm.ui.activity,WebActivity,initWebView,Magic Number,The method contains a magic number: 100,121
+GankMM-master,com.maning.gankmm.ui.activity,WebActivity,onProgressChanged,Magic Number,The method contains a magic number: 100,188
+GankMM-master,com.maning.gankmm.ui.activity,WebActivity,onDownloadStart,Long Parameter List,The method has 5 parameters. ,208
+GankMM-master,com.maning.gankmm.ui.activity,MyWebViewDownLoadListener,onDownloadStart,Long Parameter List,The method has 5 parameters. ,208
+GankMM-master,com.maning.gankmm.ui.activity,OpenFrameActivity,initDatas,Long Statement,The length of the statement "mDatas.add(new OpenFrameEntity("RecyclerView-FlexibleDivider"`"https://github.com/yqritc/RecyclerView-FlexibleDivider"));" is 121.,51
+GankMM-master,com.maning.gankmm.ui.activity,OpenFrameActivity,initAdapter,Long Statement,The length of the statement "IntentUtils.startToWebActivity(mContext`null`"GitHub:" + openFrameEntity.getFrameName()`openFrameEntity.getFrameGithubUrl());" is 125.,124
+GankMM-master,com.maning.gankmm.ui.activity,OpenFrameActivity,onItemClick,Long Statement,The length of the statement "IntentUtils.startToWebActivity(mContext`null`"GitHub:" + openFrameEntity.getFrameName()`openFrameEntity.getFrameGithubUrl());" is 125.,129
+GankMM-master,com.maning.gankmm.ui.activity.login,UserInfoActivity,onCreate,Magic Number,The method contains a magic number: 20,37
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,initPickerView,Long Statement,The length of the statement ").setType(new boolean[]{true`true`true`false`false`false}).setLabel(""`""`""`""`""`"").setSubmitColor(mContext.getResources().getColor(R.color.main_color)).setCancelColor(mContext.getResources().getColor(R.color.main_color)).build();" is 233.,96
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,choosePicture,Long Statement,The length of the statement "PictureSelector.create(this).openGallery(PictureMimeType.ofImage()).theme(R.style.picture_QQ_style).imageSpanCount(4).selectionMode(PictureConfig.SINGLE).previewImage(true).compressGrade(Luban.THIRD_GEAR).isCamera(true).enableCrop(true).compress(true).compressMode(PictureConfig.LUBAN_COMPRESS_MODE).sizeMultiplier(0.5f).glideOverride(160`160).withAspectRatio(1`1).freeStyleCropEnabled(false).circleDimmedLayer(false).showCropFrame(true).showCropGrid(true).cropCompressQuality(90).rotateEnabled(true).scaleEnabled(true).forResult(PictureConfig.CHOOSE_REQUEST);" is 560.,142
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,choosePicture,Magic Number,The method contains a magic number: 4,142
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,choosePicture,Magic Number,The method contains a magic number: 0.5f,142
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,choosePicture,Magic Number,The method contains a magic number: 160,142
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,choosePicture,Magic Number,The method contains a magic number: 160,142
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,choosePicture,Magic Number,The method contains a magic number: 90,142
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,rl_item_user_signature,Magic Number,The method contains a magic number: 0x003,207
+GankMM-master,com.maning.gankmm.ui.activity.login,EditUserInfoActivity,onActivityResult,Magic Number,The method contains a magic number: 0x003,220
+GankMM-master,com.maning.gankmm.ui.activity.login,ForgetPsdActivity,initViews,Magic Number,The method contains a magic number: 60000,66
+GankMM-master,com.maning.gankmm.ui.activity.login,ForgetPsdActivity,initViews,Magic Number,The method contains a magic number: 1000,66
+GankMM-master,com.maning.gankmm.ui.activity.login,ForgetPsdActivity,btn_ok,Magic Number,The method contains a magic number: 6,120
+GankMM-master,com.maning.gankmm.ui.activity.login,ForgetPsdActivity,onTick,Magic Number,The method contains a magic number: 1000,162
+GankMM-master,com.maning.gankmm.ui.activity.login,MyCountDownTimer,onTick,Magic Number,The method contains a magic number: 1000,162
+GankMM-master,com.maning.gankmm.ui.activity.login,RegisterActivity,btn_register,Magic Number,The method contains a magic number: 6,69
+GankMM-master,com.maning.gankmm.ui.activity.login,LoginActivity,btn_forget,Magic Number,The method contains a magic number: 2,89
+GankMM-master,com.maning.gankmm.ui.presenter.impl,ImagePresenterImpl,saveImage,Long Statement,The length of the statement "final boolean saveBitmapToSD=BitmapUtils.saveBitmapToSD(bitmap`Constants.BasePath`System.currentTimeMillis() + ".jpg"`true);" is 124.,28
+GankMM-master,com.maning.gankmm.ui.presenter.impl,ImagePresenterImpl,run,Long Statement,The length of the statement "final boolean saveBitmapToSD=BitmapUtils.saveBitmapToSD(bitmap`Constants.BasePath`System.currentTimeMillis() + ".jpg"`true);" is 124.,43
+GankMM-master,com.maning.gankmm.ui.presenter.impl,SearchPresenterImpl,searchDatas,Complex Conditional,The conditional expression gankSearchList == null || gankSearchList.size() == 0 || gankSearchList.size() < pageIndex * pageSize is complex.,31
+GankMM-master,com.maning.gankmm.ui.presenter.impl,SearchPresenterImpl,onSuccess,Complex Conditional,The conditional expression gankSearchList == null || gankSearchList.size() == 0 || gankSearchList.size() < pageIndex * pageSize is complex.,46
+GankMM-master,com.maning.gankmm.ui.presenter.impl,PublicPresenterImpl,getMoreDatas,Complex Conditional,The conditional expression publicList == null || publicList.size() == 0 || publicList.size() < pageIndex * pageSize is complex.,79
+GankMM-master,com.maning.gankmm.ui.presenter.impl,PublicPresenterImpl,onSuccess,Complex Conditional,The conditional expression publicList == null || publicList.size() == 0 || publicList.size() < pageIndex * pageSize is complex.,82
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GankPresenterImpl,getOneDayDatas,Complex Method,Cyclomatic complexity of the method is 9,32
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GankPresenterImpl,getOneDayDatas,Magic Number,The method contains a magic number: 2,32
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GankPresenterImpl,getOneDayDatas,Magic Number,The method contains a magic number: 2,32
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GankPresenterImpl,getTopImage,Complex Method,Cyclomatic complexity of the method is 9,90
+GankMM-master,com.maning.gankmm.ui.presenter.impl,SettingPresenterImpl,clickNightMode,Magic Number,The method contains a magic number: 1000,63
+GankMM-master,com.maning.gankmm.ui.presenter.impl,SettingPresenterImpl,checkAppUpdate,Complex Method,Cyclomatic complexity of the method is 8,157
+GankMM-master,com.maning.gankmm.ui.presenter.impl,CodesPresenterImpl,getDatas,Complex Method,Cyclomatic complexity of the method is 21,45
+GankMM-master,com.maning.gankmm.ui.presenter.impl,CodesPresenterImpl,getDatas,Long Method,The method has 136 lines of code.,45
+GankMM-master,com.maning.gankmm.ui.presenter.impl,CodesPresenterImpl,run,Complex Method,Cyclomatic complexity of the method is 21,47
+GankMM-master,com.maning.gankmm.ui.presenter.impl,CodesPresenterImpl,run,Long Method,The method has 131 lines of code.,47
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GirlPresenterImpl,getNewDatas,Long Statement,The length of the statement "GankApi2.getCategorys(Constants.FlagGirls`Constants.FlagGirls`1`pageSize`new CommonHttpCallback<Gank2CategoryTypeListBean>(){" is 125.,37
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GirlPresenterImpl,getMoreDatas,Complex Conditional,The conditional expression welFareLists == null || welFareLists.size() == 0 || welFareLists.size() < pageIndex * pageSize is complex.,64
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GirlPresenterImpl,getMoreDatas,Long Statement,The length of the statement "GankApi2.getCategorys(Constants.FlagGirls`Constants.FlagGirls`pageIndex`pageSize`new CommonHttpCallback<Gank2CategoryTypeListBean>(){" is 133.,64
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GirlPresenterImpl,onSuccess,Complex Conditional,The conditional expression welFareLists == null || welFareLists.size() == 0 || welFareLists.size() < pageIndex * pageSize is complex.,67
+GankMM-master,com.maning.gankmm.ui.presenter.impl,GirlPresenterImpl,getRandomDatas,Magic Number,The method contains a magic number: 10,98
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleMoreAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 20,56
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleMoreAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,56
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleMoreAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,56
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleMoreAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,56
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleMoreAdapter,onItemClick,Complex Method,Cyclomatic complexity of the method is 15,96
+GankMM-master,com.maning.gankmm.ui.adapter,Weather2Adapter,onBindViewHolder,Long Statement,The length of the statement "myViewHolder01.iv_01.setImageDrawable(mContext.getResources().getDrawable(SharePreUtil.getIntData(mContext`futureBean.getDayWeather()`R.drawable.icon_weather_none)));" is 166.,44
+GankMM-master,com.maning.gankmm.ui.adapter,Weather2Adapter,onBindViewHolder,Long Statement,The length of the statement "myViewHolder01.iv_02.setImageDrawable(mContext.getResources().getDrawable(SharePreUtil.getIntData(mContext`futureBean.getNightWeather()`R.drawable.icon_weather_none)));" is 168.,44
+GankMM-master,com.maning.gankmm.ui.adapter,Weather2Adapter,onBindViewHolder,Magic Number,The method contains a magic number: 5,44
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleCookDetailsAdapter,RecycleCookDetailsAdapter,Empty catch clause,The method has an empty catch block.,38
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleSearchAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 8,47
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 11,137
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onBindViewHolder,Long Statement,The length of the statement "StaggeredGridLayoutManager.LayoutParams layoutParams=(StaggeredGridLayoutManager.LayoutParams)viewHolder.itemView.getLayoutParams();" is 132.,137
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onBindViewHolder,Long Statement,The length of the statement "@Override public boolean onLoadFailed( @Nullable GlideException e` Object model` Target<Bitmap> target` boolean isFirstResource){" is 129.,137
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onBindViewHolder,Long Statement,The length of the statement "@Override public boolean onResourceReady( Bitmap resource` Object model` Target<Bitmap> target` DataSource dataSource` boolean isFirstResource){" is 144.,137
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,137
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 0.2f,137
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,137
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onResourceReady,Long Parameter List,The method has 5 parameters. ,195
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePicAdapter,onResourceReady,Magic Number,The method contains a magic number: 2,195
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePublicAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 9,59
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePublicAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 10,59
+GankMM-master,com.maning.gankmm.ui.adapter,RecyclePublicAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 10,59
+GankMM-master,com.maning.gankmm.ui.adapter,WeatherAdapter,onCreateViewHolder,Magic Number,The method contains a magic number: 2,62
+GankMM-master,com.maning.gankmm.ui.adapter,WeatherAdapter,onCreateViewHolder,Magic Number,The method contains a magic number: 3,62
+GankMM-master,com.maning.gankmm.ui.adapter,WeatherAdapter,onBindViewHolder,Long Statement,The length of the statement "viewHolderWeatherForecast.recycle_later.addItemDecoration(new VerticalDividerItemDecoration.Builder(mContext).color(mContext.getResources().getColor(R.color.lineColor)).build());" is 178.,81
+GankMM-master,com.maning.gankmm.ui.adapter,WeatherAdapter,onBindViewHolder,Long Statement,The length of the statement "viewHolderHoliday.tv_03.setText(holidayBean.getYearTips() + " (" + holidayBean.getChineseZodiac()+ ") - "+ holidayBean.getSolarTerms());" is 136.,81
+GankMM-master,com.maning.gankmm.ui.adapter,WeatherAdapter,getItemCount,Magic Number,The method contains a magic number: 3,137
+GankMM-master,com.maning.gankmm.ui.adapter,WeatherAdapter,getItemCount,Magic Number,The method contains a magic number: 4,137
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,getColumnCount,Magic Number,The method contains a magic number: 5,43
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,48
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,getItemViewType,Magic Number,The method contains a magic number: 3,48
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 14,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 4,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 4,66
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onCreateViewHolder,Magic Number,The method contains a magic number: 2,114
+GankMM-master,com.maning.gankmm.ui.adapter,OilPriceAdapter,onCreateViewHolder,Magic Number,The method contains a magic number: 3,114
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleTrainAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 17,52
+GankMM-master,com.maning.gankmm.ui.adapter,RecycleLotteryAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 13,43
+GankMM-master,com.maning.gankmm.ui.dialog,ListFragmentDialog,onStart,Magic Number,The method contains a magic number: 0.5f,121
+GankMM-master,com.maning.gankmm.ui.fragment,HistoryFragment,initRefresh,Long Statement,The length of the statement "swipeTarget.addItemDecoration(new HorizontalDividerItemDecoration.Builder(getActivity()).color(getResources().getColor(R.color.lineColor_night)).build());" is 154.,92
+GankMM-master,com.maning.gankmm.ui.fragment,CategoryFragment,initViewPager,Magic Number,The method contains a magic number: 20,106
+GankMM-master,com.maning.gankmm.ui.fragment,GirlsFragment,onViewCreated,Magic Number,The method contains a magic number: 100,64
+GankMM-master,com.maning.gankmm.ui.fragment,GirlsFragment,initRefresh,Long Statement,The length of the statement "StaggeredGridLayoutManager staggeredGridLayoutManager=new StaggeredGridLayoutManager(2`StaggeredGridLayoutManager.VERTICAL);" is 124.,100
+GankMM-master,com.maning.gankmm.ui.fragment,GirlsFragment,initRefresh,Magic Number,The method contains a magic number: 2,100
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,drawLine,Magic Number,The method contains a magic number: 3.0f,81
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,onDraw,Magic Number,The method contains a magic number: 2,87
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,onDraw,Magic Number,The method contains a magic number: 2,87
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,setDrawable,Magic Number,The method contains a magic number: 22,95
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,setDrawable,Magic Number,The method contains a magic number: 22,95
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,setDrawable,Magic Number,The method contains a magic number: 25,95
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,setDrawable,Magic Number,The method contains a magic number: 25,95
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,updateDrawable,Long Statement,The length of the statement "setCompoundDrawables(mLeftDrawable`getCompoundDrawables()[DRAWABLE_TOP]`mClearDrawable`getCompoundDrawables()[DRAWABLE_BOTTOM]);" is 128.,111
+GankMM-master,com.maning.gankmm.ui.view,MClearEditText,dip2px,Magic Number,The method contains a magic number: 0.5f,165
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,init,Long Statement,The length of the statement "mRadius=a.getInt(R.styleable.WaveSideBarView_sidebarRadius`context.getResources().getDimensionPixelSize(R.dimen.radius_sidebar));" is 129.,98
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,init,Long Statement,The length of the statement "mBallRadius=a.getInt(R.styleable.WaveSideBarView_sidebarBallRadius`context.getResources().getDimensionPixelSize(R.dimen.ball_radius_sidebar));" is 142.,98
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,dispatchTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,131
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,dispatchTouchEvent,Magic Number,The method contains a magic number: 2,131
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,dispatchTouchEvent,Missing default,The following switch statement is missing a default case: switch (event.getAction()) {,131
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,onMeasure,Magic Number,The method contains a magic number: 1.6f,172
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawLetters,Magic Number,The method contains a magic number: 2,198
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawLetters,Magic Number,The method contains a magic number: 2,198
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawLetters,Magic Number,The method contains a magic number: 2,198
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawChooseText,Magic Number,The method contains a magic number: 0.9f,239
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawChooseText,Magic Number,The method contains a magic number: 2,239
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawWavePath,Magic Number,The method contains a magic number: 3,260
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawWavePath,Magic Number,The method contains a magic number: 2,260
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawWavePath,Magic Number,The method contains a magic number: 1.8f,260
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawWavePath,Magic Number,The method contains a magic number: 2,260
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawBallPath,Magic Number,The method contains a magic number: 2.0f,292
+GankMM-master,com.maning.gankmm.ui.view,WaveSideBarView,drawBallPath,Magic Number,The method contains a magic number: 2.0f,292
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setupBounds,Long Statement,The length of the statement "circleBounds=new RectF(xOffset + barWidth`yOffset + barWidth`xOffset + circleDiameter - barWidth`yOffset + circleDiameter - barWidth);" is 134.,187
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setupBounds,Long Statement,The length of the statement "circleBounds=new RectF(paddingLeft + barWidth`paddingTop + barWidth`layout_width - paddingRight - barWidth`layout_height - paddingBottom - barWidth);" is 149.,187
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,187
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,187
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,187
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,187
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,parseAttributes,Magic Number,The method contains a magic number: 360.0f,216
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,parseAttributes,Magic Number,The method contains a magic number: 360,216
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Complex Method,Cyclomatic complexity of the method is 10,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 1000.0f,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360f,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 90,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 135,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 1000,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 2.0f,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 2.0f,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 90,271
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,updateBarLength,Magic Number,The method contains a magic number: 2,357
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,updateBarLength,Magic Number,The method contains a magic number: 0.5f,357
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 100,429
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 360.0f,429
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 100,429
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setInstantProgress,Magic Number,The method contains a magic number: 360.0f,436
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setInstantProgress,Magic Number,The method contains a magic number: 360.0f,436
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,getProgress,Magic Number,The method contains a magic number: 360.0f,510
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setProgress,Magic Number,The method contains a magic number: 360.0f,522
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setProgress,Magic Number,The method contains a magic number: 360.0f,522
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,getSpinSpeed,Magic Number,The method contains a magic number: 360.0f,648
+GankMM-master,com.maning.gankmm.ui.view,ProgressWheel,setSpinSpeed,Magic Number,The method contains a magic number: 360.0f,657
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getInnerMatrix,Magic Number,The method contains a magic number: 2f,137
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getInnerMatrix,Magic Number,The method contains a magic number: 2f,137
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getInnerMatrix,Magic Number,The method contains a magic number: 2f,137
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getInnerMatrix,Magic Number,The method contains a magic number: 2f,137
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 19,287
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onTouchEvent,Magic Number,The method contains a magic number: 2,287
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onTouchEvent,Magic Number,The method contains a magic number: 8,287
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onTouchEvent,Magic Number,The method contains a magic number: 2,287
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onTouchEvent,Magic Number,The method contains a magic number: 2,287
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onTouchEvent,Magic Number,The method contains a magic number: 8,287
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onTouchEvent,Magic Number,The method contains a magic number: 2,287
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onTouchEvent,Magic Number,The method contains a magic number: 2,287
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,scrollBy,Complex Method,Cyclomatic complexity of the method is 13,365
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,doubleTap,Complex Conditional,The conditional expression (mScaleAnimator != null && mScaleAnimator.isRunning()) || getDrawable() == null is complex.,461
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,doubleTap,Complex Method,Cyclomatic complexity of the method is 11,461
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,doubleTap,Magic Number,The method contains a magic number: 2,461
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,doubleTap,Magic Number,The method contains a magic number: 2,461
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,doubleTap,Magic Number,The method contains a magic number: 2,461
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,doubleTap,Magic Number,The method contains a magic number: 2,461
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,doubleTap,Magic Number,The method contains a magic number: 2,461
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,doubleTap,Magic Number,The method contains a magic number: 2,461
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,scaleEnd,Complex Conditional,The conditional expression (mScaleAnimator != null && mScaleAnimator.isRunning()) || getDrawable() == null is complex.,528
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,scaleEnd,Complex Method,Cyclomatic complexity of the method is 14,528
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,scaleEnd,Magic Number,The method contains a magic number: 2,528
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,scaleEnd,Magic Number,The method contains a magic number: 2,528
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,scaleEnd,Magic Number,The method contains a magic number: 2,528
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,scaleEnd,Magic Number,The method contains a magic number: 2,528
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,fling,Complex Conditional,The conditional expression !(mScaleAnimator != null && mScaleAnimator.isRunning()) && getDrawable() != null is complex.,606
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,fling,Magic Number,The method contains a magic number: 1000,606
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,fling,Magic Number,The method contains a magic number: 16,606
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,fling,Magic Number,The method contains a magic number: 1000,606
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,fling,Magic Number,The method contains a magic number: 16,606
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,FlingAnimator,Magic Number,The method contains a magic number: 1000000,623
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onAnimationUpdate,Magic Number,The method contains a magic number: 9,657
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,onAnimationUpdate,Magic Number,The method contains a magic number: 9,657
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getCenterPoint,Magic Number,The method contains a magic number: 2f,681
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getCenterPoint,Magic Number,The method contains a magic number: 2f,681
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getMatrixScale,Magic Number,The method contains a magic number: 9,686
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getMatrixScale,Magic Number,The method contains a magic number: 4,686
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,getMatrixScale,Magic Number,The method contains a magic number: 2,686
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,inverseMatrixPoint,Magic Number,The method contains a magic number: 2,697
+GankMM-master,com.maning.gankmm.ui.view,PinchImageView,inverseMatrixPoint,Magic Number,The method contains a magic number: 2,697
+GankMM-master,com.maning.gankmm.ui.view,FlingAnimator,FlingAnimator,Magic Number,The method contains a magic number: 1000000,623
+GankMM-master,com.maning.gankmm.ui.view,ScaleAnimator,onAnimationUpdate,Magic Number,The method contains a magic number: 9,657
+GankMM-master,com.maning.gankmm.ui.view,ScaleAnimator,onAnimationUpdate,Magic Number,The method contains a magic number: 9,657
+GankMM-master,com.maning.gankmm.ui.view,MathUtils,getCenterPoint,Magic Number,The method contains a magic number: 2f,681
+GankMM-master,com.maning.gankmm.ui.view,MathUtils,getCenterPoint,Magic Number,The method contains a magic number: 2f,681
+GankMM-master,com.maning.gankmm.ui.view,MathUtils,getMatrixScale,Magic Number,The method contains a magic number: 9,686
+GankMM-master,com.maning.gankmm.ui.view,MathUtils,getMatrixScale,Magic Number,The method contains a magic number: 4,686
+GankMM-master,com.maning.gankmm.ui.view,MathUtils,getMatrixScale,Magic Number,The method contains a magic number: 2,686
+GankMM-master,com.maning.gankmm.ui.view,MathUtils,inverseMatrixPoint,Magic Number,The method contains a magic number: 2,697
+GankMM-master,com.maning.gankmm.ui.view,MathUtils,inverseMatrixPoint,Magic Number,The method contains a magic number: 2,697
+GankMM-master,com.maning.gankmm.ui.view,FullyLinearLayoutManager,onMeasure,Complex Method,Cyclomatic complexity of the method is 11,27
+GankMM-master,com.maning.gankmm.ui.view,FullyLinearLayoutManager,onMeasure,Long Statement,The length of the statement "Log.i(TAG`"onMeasure called. \nwidthMode " + widthMode + " \nheightMode "+ heightSpec+ " \nwidthSize "+ widthSize+ " \nheightSize "+ heightSize+ " \ngetItemCount() "+ getItemCount());" is 183.,27
+GankMM-master,com.maning.gankmm.ui.view,FullyLinearLayoutManager,onMeasure,Long Statement,The length of the statement "measureScrapChild(recycler`i`View.MeasureSpec.makeMeasureSpec(i`View.MeasureSpec.UNSPECIFIED)`View.MeasureSpec.makeMeasureSpec(i`View.MeasureSpec.UNSPECIFIED)`mMeasuredDimension);" is 179.,27
+GankMM-master,com.maning.gankmm.ui.view,FullyLinearLayoutManager,measureScrapChild,Long Parameter List,The method has 5 parameters. ,79
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,onDraw,Magic Number,The method contains a magic number: 2,66
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,onDraw,Magic Number,The method contains a magic number: 2,66
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,onDraw,Magic Number,The method contains a magic number: 2,66
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,drawTextNumber,Magic Number,The method contains a magic number: 2,131
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,drawTextNumber,Magic Number,The method contains a magic number: 2,131
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,drawTextStepString,Magic Number,The method contains a magic number: 12,148
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,drawTextStepString,Magic Number,The method contains a magic number: 2,148
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,dipToPx,Magic Number,The method contains a magic number: 0.5f,177
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 4,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 40,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 4,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 6,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 30,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 6,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 8,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 20,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 8,237
+GankMM-master,com.maning.gankmm.ui.view,ArcProgressView,setTextSize,Magic Number,The method contains a magic number: 15,237
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,onMove,Magic Number,The method contains a magic number: 2,80
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,onMove,Magic Number,The method contains a magic number: 3,80
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,onMove,Magic Number,The method contains a magic number: 90,80
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,onMove,Magic Number,The method contains a magic number: 30,80
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,onMove,Magic Number,The method contains a magic number: 30,80
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 50,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 180,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 30,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 100,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 70,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 40,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 160,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 40,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 80,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 80,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 30,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 200,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 40,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 100,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 70,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 60,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 170,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 45,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 80,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 80,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 100,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 200,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 300,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 400,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startAnimation,Magic Number,The method contains a magic number: 500,133
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startParabolaAnimation,Long Statement,The length of the statement "keyframes[i]=Keyframe.ofFloat(key`getY(startPoint`endPoint`midPoint`i * getDx(startPoint`endPoint) / count + startPoint[0]));" is 125.,189
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startParabolaAnimation,Magic Number,The method contains a magic number: 200,189
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,startParabolaAnimation,Magic Number,The method contains a magic number: 600,189
+GankMM-master,com.maning.gankmm.ui.view,CookRefreshHeaderView,getY,Long Statement,The length of the statement "a=(y1 * (x2 - x3) + y2 * (x3 - x1) + y3 * (x1 - x2)) / (x1 * x1 * (x2 - x3) + x2 * x2 * (x3 - x1) + x3 * x3 * (x1 - x2));" is 121.,233
+GankMM-master,com.maning.gankmm.ui.base,BaseActivity,initStatus,Magic Number,The method contains a magic number: 60,40
+GankMM-master,com.maning.gankmm.ui.base,BaseActivity,initStatus,Magic Number,The method contains a magic number: 60,40
+GankMM-master,com.maning.gankmm.skin,SkinManager,getCurrentSkinTheme,Missing default,The following switch statement is missing a default case: switch (saveSkinType) {,71
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Long Identifier,The length of the field REWRITE_CACHE_CONTROL_INTERCEPTOR is 33.,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 30,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 1000,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 20,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 1000,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 15,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 1000,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 10,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 1024,94
+GankMM-master,com.maning.gankmm.app,MyApplication,defaultOkHttpClient,Magic Number,The method contains a magic number: 1024,94
+GankMM-master,com.maning.gankmm.app,MyApplication,intercept,Long Statement,The length of the statement "response.newBuilder().removeHeader("Pragma").header("Cache-Control"`"public` only-if-cached` max-stale=" + maxStale).build();" is 125.,114
+GankMM-master,com.maning.gankmm.app,MyApplication,intercept,Magic Number,The method contains a magic number: 60,114
+GankMM-master,com.maning.gankmm.app,MyApplication,intercept,Magic Number,The method contains a magic number: 60,114
+GankMM-master,com.maning.gankmm.app,MyApplication,intercept,Magic Number,The method contains a magic number: 24,114
+GankMM-master,com.maning.gankmm.app,MyApplication,intercept,Magic Number,The method contains a magic number: 7,114
+GankMM-master,com.maning.gankmm.app,MyApplication,intercept,Long Statement,The length of the statement "KLog.i(TAG`"-----LoggingInterceptor----- :\nrequest url:" + request.url() + "\ntime:"+ (t2 - t1) / 1e6d + "\nbody:" + content + "\n");" is 134.,160
+GankMM-master,com.maning.gankmm.app,MyApplication,intercept,Magic Number,The method contains a magic number: 1e6d,160
+GankMM-master,com.maning.gankmm.bean.web,CategoryContentBean,toString,Long Statement,The length of the statement "return "CategoryContentBean{" + "title='" + title + '\''+ "` url='"+ url+ '\''+ "` imageUrl='"+ imageUrl+ '\''+ "` description='"+ description+ '\''+ "` otherInfo='"+ otherInfo+ '\''+ '}';" is 188.,54
+GankMM-master,com.maning.gankmm.bean.mob,MobBaseEntity,toString,Long Statement,The length of the statement "return "MobBaseEntity{" + "msg='" + msg + '\''+ "` retCode='"+ retCode+ '\''+ "` result="+ (result == null ? "" : result.toString())+ '}';" is 138.,42
+GankMM-master,com.maning.gankmm.bean.mob,MobTrainNoEntity,toString,Long Statement,The length of the statement "return "MobTrainNoEntity{" + "arriveTime='" + arriveTime + '\''+ "` endStationName='"+ endStationName+ '\''+ "` startStationName='"+ startStationName+ '\''+ "` startTime='"+ startTime+ '\''+ "` stationName='"+ stationName+ '\''+ "` stationNo='"+ stationNo+ '\''+ "` stationTrainCode='"+ stationTrainCode+ '\''+ "` stopoverTime='"+ stopoverTime+ '\''+ "` trainClassName='"+ trainClassName+ '\''+ '}';" is 399.,108
+GankMM-master,com.maning.gankmm.bean.mob,MobOilPriceEntity,toString,Long Statement,The length of the statement "return "OilBean{" + "dieselOil0='" + dieselOil0 + '\''+ "` gasoline90='"+ gasoline90+ '\''+ "` gasoline93='"+ gasoline93+ '\''+ "` gasoline97='"+ gasoline97+ '\''+ "` province='"+ province+ '\''+ '}';" is 200.,379
+GankMM-master,com.maning.gankmm.bean.mob,MobOilPriceEntity,toString,Long Statement,The length of the statement "return "MobOilPriceEntity{" + "北京=" + 北京 + "` 重庆="+ 重庆+ "` 新疆="+ 新疆+ "` 广东="+ 广东+ "` 浙江="+ 浙江+ "` 天津="+ 天津+ "` 广西="+ 广西+ "` 内蒙古="+ 内蒙古+ "` 宁夏="+ 宁夏+ "` 江西="+ 江西+ "` 安徽="+ 安徽+ "` 贵州="+ 贵州+ "` 陕西="+ 陕西+ "` 辽宁="+ 辽宁+ "` 山西="+ 山西+ "` 青海="+ 青海+ "` 四川="+ 四川+ "` 江苏="+ 江苏+ "` 河北="+ 河北+ "` 西藏="+ 西藏+ "` 福建="+ 福建+ "` 吉林="+ 吉林+ "` 海南="+ 海南+ "` 云南="+ 云南+ "` 湖北="+ 湖北+ "` 上海="+ 上海+ "` 甘肃="+ 甘肃+ "` 湖南="+ 湖南+ "` 河南="+ 河南+ "` 山东="+ 山东+ "` 黑龙江="+ 黑龙江+ '}';" is 441.,392
+GankMM-master,com.maning.gankmm.bean.mob,OilBean,toString,Long Statement,The length of the statement "return "OilBean{" + "dieselOil0='" + dieselOil0 + '\''+ "` gasoline90='"+ gasoline90+ '\''+ "` gasoline93='"+ gasoline93+ '\''+ "` gasoline97='"+ gasoline97+ '\''+ "` province='"+ province+ '\''+ '}';" is 200.,379
+GankMM-master,com.maning.gankmm.bean.mob,MobCarDetailsEntity,toString,Long Statement,The length of the statement "return "MobCarDetailsEntity{" + "brand='" + brand + '\''+ "` brandName='"+ brandName+ '\''+ "` carImage='"+ carImage+ '\''+ "` seriesName='"+ seriesName+ '\''+ "` sonBrand='"+ sonBrand+ '\''+ "` baseInfo="+ baseInfo+ "` airConfig="+ airConfig+ "` carbody="+ carbody+ "` chassis="+ chassis+ "` controlConfig="+ controlConfig+ "` engine="+ engine+ "` exterConfig="+ exterConfig+ "` glassConfig="+ glassConfig+ "` interConfig="+ interConfig+ "` lightConfig="+ lightConfig+ "` mediaConfig="+ mediaConfig+ "` safetyDevice="+ safetyDevice+ "` seatConfig="+ seatConfig+ "` techConfig="+ techConfig+ "` transmission="+ transmission+ "` wheelInfo="+ wheelInfo+ "` motorList="+ motorList+ '}';" is 683.,252
+GankMM-master,com.maning.gankmm.bean.mob,MobPhoneAddressEntity,toString,Long Statement,The length of the statement "return "MobPhoneAddressEntity{" + "city='" + city + '\''+ "` cityCode='"+ cityCode+ '\''+ "` mobileNumber='"+ mobileNumber+ '\''+ "` operator='"+ operator+ '\''+ "` province='"+ province+ '\''+ "` zipCode='"+ zipCode+ '\''+ '}';" is 228.,74
+GankMM-master,com.maning.gankmm.bean.mob,MobUserInfo,toString,Long Statement,The length of the statement "return "MobUserInfo{" + "userName='" + userName + '\''+ "` userPsd='"+ userPsd+ '\''+ "` userEmail='"+ userEmail+ '\''+ "` token='"+ token+ '\''+ "` uid='"+ uid+ '\''+ "` avatarLocal='"+ avatarLocal+ '\''+ "` avatarNet='"+ avatarNet+ '\''+ "` sex='"+ sex+ '\''+ "` birth='"+ birth+ '\''+ "` signature='"+ signature+ '\''+ '}';" is 326.,103
+GankMM-master,com.maning.gankmm.bean.mob,MobTrainEntity,toString,Long Statement,The length of the statement "return "MobTrainEntity{" + "arriveTime='" + arriveTime + '\''+ "` endStationName='"+ endStationName+ '\''+ "` lishi='"+ lishi+ '\''+ "` startStationName='"+ startStationName+ '\''+ "` startTime='"+ startTime+ '\''+ "` stationTrainCode='"+ stationTrainCode+ '\''+ "` trainClassName='"+ trainClassName+ '\''+ "` pricesw='"+ pricesw+ '\''+ "` pricetd='"+ pricetd+ '\''+ "` pricegrw='"+ pricegrw+ '\''+ "` pricerw='"+ pricerw+ '\''+ "` priceyw='"+ priceyw+ '\''+ "` priceyd='"+ priceyd+ '\''+ "` priceed='"+ priceed+ '\''+ "` pricerz='"+ pricerz+ '\''+ "` priceyz='"+ priceyz+ '\''+ "` pricewz='"+ pricewz+ '\''+ '}';" is 613.,205
+GankMM-master,com.maning.gankmm.bean.mob,MobFlightEntity,toString,Long Statement,The length of the statement "return "MobFlightEntity{" + "airLines='" + airLines + '\''+ "` flightNo='"+ flightNo+ '\''+ "` flightRate='"+ flightRate+ '\''+ "` flightTime='"+ flightTime+ '\''+ "` from='"+ from+ '\''+ "` fromAirportCode='"+ fromAirportCode+ '\''+ "` fromCityCode='"+ fromCityCode+ '\''+ "` fromCityName='"+ fromCityName+ '\''+ "` fromTerminal='"+ fromTerminal+ '\''+ "` planArriveTime='"+ planArriveTime+ '\''+ "` planTime='"+ planTime+ '\''+ "` to='"+ to+ '\''+ "` toAirportCode='"+ toAirportCode+ '\''+ "` toCityCode='"+ toCityCode+ '\''+ "` toCityName='"+ toCityName+ '\''+ "` toTerminal='"+ toTerminal+ '\''+ "` week='"+ week+ '\''+ '}';" is 628.,188
+GankMM-master,com.maning.gankmm.bean.mob,WeatherBeseEntity,toString,Long Statement,The length of the statement "return "FutureBean{" + "date='" + date + '\''+ "` dayTime='"+ dayTime+ '\''+ "` night='"+ night+ '\''+ "` temperature='"+ temperature+ '\''+ "` week='"+ week+ '\''+ "` wind='"+ wind+ '\''+ '}';" is 193.,319
+GankMM-master,com.maning.gankmm.bean.mob,WeatherBeseEntity,toString,Long Statement,The length of the statement "return "ResultBean{" + "airCondition='" + airCondition + '\''+ "` city='"+ city+ '\''+ "` coldIndex='"+ coldIndex+ '\''+ "` updateTime='"+ updateTime+ '\''+ "` date='"+ date+ '\''+ "` distrct='"+ distrct+ '\''+ "` dressingIndex='"+ dressingIndex+ '\''+ "` exerciseIndex='"+ exerciseIndex+ '\''+ "` humidity='"+ humidity+ '\''+ "` province='"+ province+ '\''+ "` sunset='"+ sunset+ '\''+ "` sunrise='"+ sunrise+ '\''+ "` temperature='"+ temperature+ '\''+ "` time='"+ time+ '\''+ "` washIndex='"+ washIndex+ '\''+ "` weather='"+ weather+ '\''+ "` week='"+ week+ '\''+ "` wind='"+ wind+ '\''+ "` future="+ future+ '}';" is 616.,334
+GankMM-master,com.maning.gankmm.bean.mob,WeatherBean,toString,Long Statement,The length of the statement "return "FutureBean{" + "date='" + date + '\''+ "` dayTime='"+ dayTime+ '\''+ "` night='"+ night+ '\''+ "` temperature='"+ temperature+ '\''+ "` week='"+ week+ '\''+ "` wind='"+ wind+ '\''+ '}';" is 193.,319
+GankMM-master,com.maning.gankmm.bean.mob,WeatherBean,toString,Long Statement,The length of the statement "return "ResultBean{" + "airCondition='" + airCondition + '\''+ "` city='"+ city+ '\''+ "` coldIndex='"+ coldIndex+ '\''+ "` updateTime='"+ updateTime+ '\''+ "` date='"+ date+ '\''+ "` distrct='"+ distrct+ '\''+ "` dressingIndex='"+ dressingIndex+ '\''+ "` exerciseIndex='"+ exerciseIndex+ '\''+ "` humidity='"+ humidity+ '\''+ "` province='"+ province+ '\''+ "` sunset='"+ sunset+ '\''+ "` sunrise='"+ sunrise+ '\''+ "` temperature='"+ temperature+ '\''+ "` time='"+ time+ '\''+ "` washIndex='"+ washIndex+ '\''+ "` weather='"+ weather+ '\''+ "` week='"+ week+ '\''+ "` wind='"+ wind+ '\''+ "` future="+ future+ '}';" is 616.,334
+GankMM-master,com.maning.gankmm.bean.mob,FutureBean,toString,Long Statement,The length of the statement "return "FutureBean{" + "date='" + date + '\''+ "` dayTime='"+ dayTime+ '\''+ "` night='"+ night+ '\''+ "` temperature='"+ temperature+ '\''+ "` week='"+ week+ '\''+ "` wind='"+ wind+ '\''+ '}';" is 193.,319
+GankMM-master,com.maning.gankmm.utils,Permission5Utils,isVoicePermission,Long Statement,The length of the statement "record=new AudioRecord(MediaRecorder.AudioSource.MIC`22050`AudioFormat.CHANNEL_CONFIGURATION_MONO`AudioFormat.ENCODING_PCM_16BIT`AudioRecord.getMinBufferSize(22050`AudioFormat.CHANNEL_CONFIGURATION_MONO`AudioFormat.ENCODING_PCM_16BIT));" is 236.,48
+GankMM-master,com.maning.gankmm.utils,Permission5Utils,isVoicePermission,Long Statement,The length of the statement "record=new AudioRecord(MediaRecorder.AudioSource.MIC`22050`AudioFormat.CHANNEL_CONFIGURATION_MONO`AudioFormat.ENCODING_PCM_16BIT`AudioRecord.getMinBufferSize(22050`AudioFormat.CHANNEL_CONFIGURATION_MONO`AudioFormat.ENCODING_PCM_16BIT));" is 236.,48
+GankMM-master,com.maning.gankmm.utils,Permission5Utils,isVoicePermission,Magic Number,The method contains a magic number: 22050,48
+GankMM-master,com.maning.gankmm.utils,Permission5Utils,isVoicePermission,Magic Number,The method contains a magic number: 22050,48
+GankMM-master,com.maning.gankmm.utils,Permission5Utils,isVoicePermission,Magic Number,The method contains a magic number: 22050,48
+GankMM-master,com.maning.gankmm.utils,Permission5Utils,isVoicePermission,Magic Number,The method contains a magic number: 22050,48
+GankMM-master,com.maning.gankmm.utils,EncodeUtils,htmlEncode,Missing default,The following switch statement is missing a default case: switch (c) {,140
+GankMM-master,com.maning.gankmm.utils,AppValidationMgr,isEmpty,Complex Conditional,The conditional expression str == null || "".equals(str) || str.length() == 0 is complex.,111
+GankMM-master,com.maning.gankmm.utils,AppValidationMgr,isEmpty,Complex Conditional,The conditional expression c != ' ' && c != '\t' && c != '\r' && c != '\n' is complex.,111
+GankMM-master,com.maning.gankmm.utils,AppValidationMgr,isPoint,Magic Number,The method contains a magic number: 3,302
+GankMM-master,com.maning.gankmm.utils,AppValidationMgr,isBankNo,Magic Number,The method contains a magic number: 12,317
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,remove,Long Statement,The length of the statement "return diskCacheManager.removeByKey(TYPE_BYTE + key) && diskCacheManager.removeByKey(TYPE_STRING + key) && diskCacheManager.removeByKey(TYPE_JSON_OBJECT + key)&& diskCacheManager.removeByKey(TYPE_JSON_ARRAY + key)&& diskCacheManager.removeByKey(TYPE_BITMAP + key)&& diskCacheManager.removeByKey(TYPE_DRAWABLE + key)&& diskCacheManager.removeByKey(TYPE_PARCELABLE + key)&& diskCacheManager.removeByKey(TYPE_SERIALIZABLE + key);" is 426.,675
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,getCacheNameByKey,Magic Number,The method contains a magic number: 3,780
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,getCacheNameByKey,Magic Number,The method contains a magic number: 3,780
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,createDueTime,Magic Number,The method contains a magic number: 1000,876
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,getDueTime,Magic Number,The method contains a magic number: 2,894
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,getDueTime,Magic Number,The method contains a magic number: 12,894
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,getDueTime,Magic Number,The method contains a magic number: 1000,894
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,hasTimeInfo,Long Statement,The length of the statement "return data != null && data.length >= TIME_INFO_LEN && data[0] == '_' && data[1] == '$' && data[12] == '$' && data[13] == '_';" is 126.,921
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,hasTimeInfo,Magic Number,The method contains a magic number: 12,921
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,hasTimeInfo,Magic Number,The method contains a magic number: 13,921
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,bitmap2Bytes,Magic Number,The method contains a magic number: 100,1037
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,drawable2Bitmap,Long Statement,The length of the statement "bitmap=Bitmap.createBitmap(1`1`drawable.getOpacity() != PixelFormat.OPAQUE ? Bitmap.Config.ARGB_8888 : Bitmap.Config.RGB_565);" is 126.,1058
+GankMM-master,com.maning.gankmm.utils,CacheDiskUtils,drawable2Bitmap,Long Statement,The length of the statement "bitmap=Bitmap.createBitmap(drawable.getIntrinsicWidth()`drawable.getIntrinsicHeight()`drawable.getOpacity() != PixelFormat.OPAQUE ? Bitmap.Config.ARGB_8888 : Bitmap.Config.RGB_565);" is 181.,1058
+GankMM-master,com.maning.gankmm.utils,DiskCacheManager,getCacheNameByKey,Magic Number,The method contains a magic number: 3,780
+GankMM-master,com.maning.gankmm.utils,DiskCacheManager,getCacheNameByKey,Magic Number,The method contains a magic number: 3,780
+GankMM-master,com.maning.gankmm.utils,DiskCacheHelper,createDueTime,Magic Number,The method contains a magic number: 1000,876
+GankMM-master,com.maning.gankmm.utils,DiskCacheHelper,getDueTime,Magic Number,The method contains a magic number: 2,894
+GankMM-master,com.maning.gankmm.utils,DiskCacheHelper,getDueTime,Magic Number,The method contains a magic number: 12,894
+GankMM-master,com.maning.gankmm.utils,DiskCacheHelper,getDueTime,Magic Number,The method contains a magic number: 1000,894
+GankMM-master,com.maning.gankmm.utils,DiskCacheHelper,hasTimeInfo,Long Statement,The length of the statement "return data != null && data.length >= TIME_INFO_LEN && data[0] == '_' && data[1] == '$' && data[12] == '$' && data[13] == '_';" is 126.,921
+GankMM-master,com.maning.gankmm.utils,DiskCacheHelper,hasTimeInfo,Magic Number,The method contains a magic number: 12,921
+GankMM-master,com.maning.gankmm.utils,DiskCacheHelper,hasTimeInfo,Magic Number,The method contains a magic number: 13,921
+GankMM-master,com.maning.gankmm.utils,BitmapUtils,saveBitmapToSD,Long Statement,The length of the statement "MyApplication.getIntstance().sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE`Uri.parse("file://" + file)));" is 122.,28
+GankMM-master,com.maning.gankmm.utils,BitmapUtils,saveBitmapToSD,Magic Number,The method contains a magic number: 100,28
+GankMM-master,com.maning.gankmm.utils,PermissionManager,getRandomRequestCode,Magic Number,The method contains a magic number: 2,119
+GankMM-master,com.maning.gankmm.utils,PermissionManager,getRandomRequestCode,Magic Number,The method contains a magic number: 16,119
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,parseMm,Magic Number,The method contains a magic number: 2,110
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,parseMm,Magic Number,The method contains a magic number: 2,127
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,parseMm,Magic Number,The method contains a magic number: 2,145
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,parseDd,Magic Number,The method contains a magic number: 5,156
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,parseDd,Magic Number,The method contains a magic number: 5,173
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,parseDd,Magic Number,The method contains a magic number: 5,191
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getWeekNumber,Magic Number,The method contains a magic number: 7,307
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getWeekOfMonth,Magic Number,The method contains a magic number: 4,337
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getWeekOfYear,Magic Number,The method contains a magic number: 3,367
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,dateTimeToTimeStamp,Magic Number,The method contains a magic number: 1000L,378
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,timeStampToDateTime,Magic Number,The method contains a magic number: 1000L,393
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,minutesBetweenTwoDate,Magic Number,The method contains a magic number: 60L,460
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getChineseZodiac,Magic Number,The method contains a magic number: 12,503
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getZodiac,Magic Number,The method contains a magic number: 10,546
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getZodiac,Magic Number,The method contains a magic number: 12,546
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getNowDayOffset,Magic Number,The method contains a magic number: 24,556
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getNowDayOffset,Magic Number,The method contains a magic number: 3600,556
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getNowDayOffset,Magic Number,The method contains a magic number: 1000,556
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,forward,Magic Number,The method contains a magic number: 11,583
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,backward,Magic Number,The method contains a magic number: 11,609
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,backward,Magic Number,The method contains a magic number: 31,609
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,isLeapYear,Magic Number,The method contains a magic number: 400,634
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,isLeapYear,Magic Number,The method contains a magic number: 100,634
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,isLeapYear,Magic Number,The method contains a magic number: 4,634
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Complex Method,Cyclomatic complexity of the method is 15,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 12,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 3,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 5,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 7,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 8,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 10,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 12,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 31,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 4,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 6,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 9,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 11,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 30,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 2,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 29,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,getDaysOfMonth,Magic Number,The method contains a magic number: 28,649
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,addDateTime,Magic Number,The method contains a magic number: 60,882
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,addDateTime,Magic Number,The method contains a magic number: 60,882
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,addDateTime,Magic Number,The method contains a magic number: 1000,882
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,subDateTime,Magic Number,The method contains a magic number: 60,899
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,subDateTime,Magic Number,The method contains a magic number: 60,899
+GankMM-master,com.maning.gankmm.utils,AppDateMgr,subDateTime,Magic Number,The method contains a magic number: 1000,899
+GankMM-master,com.maning.gankmm.utils,FileUtils,removeDir,Complex Method,Cyclomatic complexity of the method is 8,92
+GankMM-master,com.maning.gankmm.utils,FileUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,326
+GankMM-master,com.maning.gankmm.utils,FileUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,326
+GankMM-master,com.maning.gankmm.utils,FileUtils,getFormatSize,Magic Number,The method contains a magic number: 2,326
+GankMM-master,com.maning.gankmm.utils,FileUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,326
+GankMM-master,com.maning.gankmm.utils,FileUtils,getFormatSize,Magic Number,The method contains a magic number: 2,326
+GankMM-master,com.maning.gankmm.utils,FileUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,326
+GankMM-master,com.maning.gankmm.utils,FileUtils,getFormatSize,Magic Number,The method contains a magic number: 2,326
+GankMM-master,com.maning.gankmm.utils,FileUtils,getFormatSize,Magic Number,The method contains a magic number: 2,326
+GankMM-master,com.maning.gankmm.utils,FileUtils,FormetFileSize,Magic Number,The method contains a magic number: 1024,380
+GankMM-master,com.maning.gankmm.utils,FileUtils,FormetFileSize,Magic Number,The method contains a magic number: 1048576,380
+GankMM-master,com.maning.gankmm.utils,FileUtils,FormetFileSize,Magic Number,The method contains a magic number: 1024,380
+GankMM-master,com.maning.gankmm.utils,FileUtils,FormetFileSize,Magic Number,The method contains a magic number: 1073741824,380
+GankMM-master,com.maning.gankmm.utils,FileUtils,FormetFileSize,Magic Number,The method contains a magic number: 1048576,380
+GankMM-master,com.maning.gankmm.utils,FileUtils,FormetFileSize,Magic Number,The method contains a magic number: 1073741824,380
+GankMM-master,com.maning.gankmm.utils,IntentUtils,startToImageShow,Long Parameter List,The method has 5 parameters. ,42
+GankMM-master,com.maning.gankmm.utils,ZxingScanUtils,open,Long Statement,The length of the statement "MNScanConfig scanConfig=new MNScanConfig.Builder().isShowVibrate(false).isShowBeep(true).isShowPhotoAlbum(true).isShowLightController(true).setScanHintText("请对准二维码/条形码识别").setScanColor(COLOR_MAIN).isShowZoomController(false).setLaserStyle(MNScanConfig.LaserStyle.Line).setFullScreenScan(true).isShowResultPoint(true).setResultPointConfigs(30`30`3`"#FFFFFFFF"`"#7000A81F").builder();" is 382.,22
+GankMM-master,com.maning.gankmm.utils,ZxingScanUtils,open,Magic Number,The method contains a magic number: 30,22
+GankMM-master,com.maning.gankmm.utils,ZxingScanUtils,open,Magic Number,The method contains a magic number: 30,22
+GankMM-master,com.maning.gankmm.utils,ZxingScanUtils,open,Magic Number,The method contains a magic number: 3,22
+GankMM-master,com.maning.gankmm.utils,ZxingScanUtils,onGranted,Long Statement,The length of the statement "MNScanConfig scanConfig=new MNScanConfig.Builder().isShowVibrate(false).isShowBeep(true).isShowPhotoAlbum(true).isShowLightController(true).setScanHintText("请对准二维码/条形码识别").setScanColor(COLOR_MAIN).isShowZoomController(false).setLaserStyle(MNScanConfig.LaserStyle.Line).setFullScreenScan(true).isShowResultPoint(true).setResultPointConfigs(30`30`3`"#FFFFFFFF"`"#7000A81F").builder();" is 382.,25
+GankMM-master,com.maning.gankmm.utils,ZxingScanUtils,onGranted,Magic Number,The method contains a magic number: 30,25
+GankMM-master,com.maning.gankmm.utils,ZxingScanUtils,onGranted,Magic Number,The method contains a magic number: 30,25
+GankMM-master,com.maning.gankmm.utils,ZxingScanUtils,onGranted,Magic Number,The method contains a magic number: 3,25
+GankMM-master,com.maning.gankmm.utils,DensityUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,7
+GankMM-master,com.maning.gankmm.utils,DensityUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,15
+GankMM-master,com.maning.gankmm.utils,ColoredSnackbar,colorSnackBar,Magic Number,The method contains a magic number: 0.95f,34
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,setCompatBuilder,Long Parameter List,The method has 8 parameters. ,39
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,setBuilder,Long Parameter List,The method has 6 parameters. ,97
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_normal_singline,Long Parameter List,The method has 8 parameters. ,134
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_mailbox,Long Parameter List,The method has 10 parameters. ,152
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_customview,Long Parameter List,The method has 7 parameters. ,199
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_normail_moreline,Long Parameter List,The method has 8 parameters. ,218
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_progress,Long Parameter List,The method has 8 parameters. ,245
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_bigPic,Long Parameter List,The method has 9 parameters. ,301
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_bigPic,Magic Number,The method contains a magic number: 2,301
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_button,Long Parameter List,The method has 13 parameters. ,327
+GankMM-master,com.maning.gankmm.utils,NotifyUtil,notify_HeadUp,Long Parameter List,The method has 15 parameters. ,353
+GankMM-master,com.maning.gankmm.utils,DialogUtils,showMyDialog,Long Parameter List,The method has 6 parameters. ,15
+GankMM-master,com.maning.gankmm.utils,DialogUtils,showMyDialog,Long Statement,The length of the statement "MaterialDialog materialDialog=new MaterialDialog.Builder(context).title(title).content(content).positiveText(positiveBtnText).negativeText(negativeBtnText).onPositive(new MaterialDialog.SingleButtonCallback(){" is 209.,15
+GankMM-master,com.maning.gankmm.utils,DialogUtils,showMyListDialog,Long Statement,The length of the statement "MaterialDialog materialDialog=new MaterialDialog.Builder(context).title(title).items(contents).itemsCallback(new MaterialDialog.ListCallback(){" is 143.,50
+GankMM-master,com.maning.gankmm.utils,MMKVUtils,saveWithTime,Magic Number,The method contains a magic number: 1000,37
+GankMM-master,com.maning.gankmm.utils,MMKVUtils,getWithTime,Magic Number,The method contains a magic number: 1000,50
+GankMM-master,com.maning.gankmm.utils,LocationUtils,getLocation,Magic Number,The method contains a magic number: 10000,30
+GankMM-master,com.maning.gankmm.utils,LocationUtils,getLocation,Magic Number,The method contains a magic number: 12,30
+GankMM-master,com.maning.gankmm.utils,LocationUtils,getLocation,Magic Number,The method contains a magic number: 2000,30
+GankMM-master,com.maning.gankmm.utils,LocationUtils,getLocation,Magic Number,The method contains a magic number: 20000,30
+GankMM-master,com.maning.gankmm.utils,LocationUtils,onLocationChanged,Magic Number,The method contains a magic number: 10000,42
+GankMM-master,com.maning.gankmm.utils,LocationUtils,onLocationChanged,Magic Number,The method contains a magic number: 12,42
+GankMM-master,com.maning.gankmm.http,BuildApi,getRetrofit,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(baseUrl).addConverterFactory(GsonConverterFactory.create()).client(MyApplication.defaultOkHttpClient()).build();" is 161.,29
+GankMM-master,com.maning.gankmm.http.gank2,GankApi2,getCategorys,Long Parameter List,The method has 5 parameters. ,17
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWeatherFromZhixin,Complex Conditional,The conditional expression result == null || result.getResults() == null || result.getResults().size() == 0 is complex.,42
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWeatherFromZhixin,Long Statement,The length of the statement "BuildApi.getWeatherAPIService().getWeatherNow(ZHIXIN_KEY`location).enqueue(new CommonHttpCallback<ZhixinWeatherRealtimeBean>(){" is 127.,42
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,onSuccess,Complex Conditional,The conditional expression result == null || result.getResults() == null || result.getResults().size() == 0 is complex.,53
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWeatherFromCaiyun,Long Statement,The length of the statement "BuildApi.getWeatherAPIService().getWeatherFromCaiyun(location).enqueue(new CommonHttpCallback<CaiyunWeatherRealTimeBean>(){" is 123.,94
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWeatherFromCaiyun,Magic Number,The method contains a magic number: 100,94
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,onSuccess,Magic Number,The method contains a magic number: 100,104
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Complex Method,Cyclomatic complexity of the method is 19,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 5,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 6,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 11,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 2,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 12,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 19,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 3,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 20,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 28,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 4,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 29,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 38,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 5,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 39,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 49,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 6,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 50,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 61,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 7,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 62,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 74,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 8,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 75,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 88,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 9,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 89,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 102,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 10,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 103,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 117,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 11,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 118,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 133,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 12,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 134,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 149,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 13,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 150,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 166,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 14,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 167,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 183,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 15,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 184,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 201,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 16,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 202,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 220,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindScale,Magic Number,The method contains a magic number: 17,177
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Complex Method,Cyclomatic complexity of the method is 17,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 348.76,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 11.25,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 11.26,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 33.75,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 33.76,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 56.25,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 56.26,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 78.75,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 78.76,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 101.25,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 101.26,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 123.75,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 123.76,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 146.25,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 146.26,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 168.75,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 168.76,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 191.25,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 191.26,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 213.75,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 213.76,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 236.25,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 236.26,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 258.75,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 258.76,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 281.25,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 281.26,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 303.75,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 303.76,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 326.25,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 326.26,220
+GankMM-master,com.maning.gankmm.http.weather,WeatherApi,getWindDirection,Magic Number,The method contains a magic number: 348.75,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Complex Method,Cyclomatic complexity of the method is 19,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 5,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 6,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 11,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 2,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 12,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 19,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 3,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 20,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 28,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 4,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 29,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 38,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 5,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 39,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 49,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 6,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 50,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 61,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 7,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 62,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 74,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 8,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 75,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 88,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 9,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 89,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 102,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 10,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 103,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 117,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 11,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 118,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 133,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 12,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 134,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 149,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 13,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 150,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 166,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 14,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 167,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 183,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 15,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 184,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 201,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 16,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 202,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 220,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindScale,Magic Number,The method contains a magic number: 17,177
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Complex Method,Cyclomatic complexity of the method is 17,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 348.76,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 11.25,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 11.26,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 33.75,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 33.76,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 56.25,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 56.26,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 78.75,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 78.76,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 101.25,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 101.26,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 123.75,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 123.76,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 146.25,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 146.26,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 168.75,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 168.76,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 191.25,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 191.26,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 213.75,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 213.76,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 236.25,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 236.26,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 258.75,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 258.76,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 281.25,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 281.26,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 303.75,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 303.76,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 326.25,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 326.26,220
+GankMM-master,com.maning.gankmm.http.weather,CaiyunUtils,getWindDirection,Magic Number,The method contains a magic number: 348.75,220
+GankMM-master,com.maning.gankmm.http.callback,CommonHttpCallback,onResponse,Complex Method,Cyclomatic complexity of the method is 10,25
+GankMM-master,com.maning.gankmm.http.callback,CommonHttpCallback,onResponse,Magic Number,The method contains a magic number: 200,25
+GankMM-master,com.maning.gankmm.http.callback,CommonHttpCallback,onResponse,Magic Number,The method contains a magic number: 100,25
+GankMM-master,com.maning.gankmm.http.callback,CommonHttpCallback,onResponse,Magic Number,The method contains a magic number: 1000,25
+GankMM-master,com.maning.gankmm.http.callback,CommonHttpCallback,onResponse,Magic Number,The method contains a magic number: 1000,25
+GankMM-master,com.maning.gankmm.db,PublicDao,queryByID,Long Statement,The length of the statement "Cursor cursor=db.query(GankMMHelper.TABLE_NAME_PUBLIC`null`GankMMHelper.gankId + "=?"`new String[]{gankId}`null`null`null);" is 123.,50
+GankMM-master,com.maning.gankmm.db,GankMMHelper,updateTableToVersion,Magic Number,The method contains a magic number: 2,119

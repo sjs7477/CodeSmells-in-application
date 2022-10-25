@@ -1,0 +1,78 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+WatchGithub-master,io.fisache.watchgithub.service,FakeUtils,converResponseToUser,Long Statement,The length of the statement "return new User(userResponse.id`userResponse.login`userResponse.name`userResponse.avatar_url`userResponse.email`userResponse.followers`userResponse.type`"");" is 157.,18
+WatchGithub-master,io.fisache.watchgithub.service.sqlbrite,SqlbriteService,getUsers,Long Statement,The length of the statement "String sql=String.format("SELECT %s FROM %s"`TextUtils.join("`"`UsersPersistenceContract.projection)`UsersPersistenceContract.UserEntry.TABLE_NAME);" is 148.,36
+WatchGithub-master,io.fisache.watchgithub.service.sqlbrite,SqlbriteService,getUser,Long Statement,The length of the statement "String sql=String.format("SELECT %s FROM %s WHERE %s LIKE ?"`TextUtils.join("`"`UsersPersistenceContract.projection)`UsersPersistenceContract.UserEntry.TABLE_NAME`UsersPersistenceContract.UserEntry.COLUMN_NAME_ENTRY_ID);" is 220.,44
+WatchGithub-master,io.fisache.watchgithub.service.sqlbrite,SqlbriteService,getUser,Long Statement,The length of the statement "return databaseHelper.createQuery(UsersPersistenceContract.UserEntry.TABLE_NAME`sql`Long.toString(userId)).mapToOneOrDefault(userMapperFunction`null);" is 150.,44
+WatchGithub-master,io.fisache.watchgithub.service.sqlbrite,SqlbriteService,searchUsersWithPattern,Long Statement,The length of the statement "String sql=String.format("SELECT %s FROM %s WHERE %s LIKE \'%%" + pattern + "%%\'"`TextUtils.join("`"`UsersPersistenceContract.projection)`UsersPersistenceContract.UserEntry.TABLE_NAME`UsersPersistenceContract.UserEntry.COLUMN_NAME_LOGIN);" is 239.,52
+WatchGithub-master,io.fisache.watchgithub.service.github,GithubApiModule,provideOkHttpClient,Magic Number,The method contains a magic number: 60,22
+WatchGithub-master,io.fisache.watchgithub.service.github,GithubApiModule,provideOkHttpClient,Magic Number,The method contains a magic number: 1000,22
+WatchGithub-master,io.fisache.watchgithub.service.github,GithubApiModule,provideOkHttpClient,Magic Number,The method contains a magic number: 60,22
+WatchGithub-master,io.fisache.watchgithub.service.github,GithubApiModule,provideOkHttpClient,Magic Number,The method contains a magic number: 1000,22
+WatchGithub-master,io.fisache.watchgithub.service.github,GithubApiModule,provideRestAdapter,Long Statement,The length of the statement "builder.client(okHttpClient).baseUrl(application.getString(R.string.github_endpoint)).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create());" is 194.,33
+WatchGithub-master,io.fisache.watchgithub.ui,UsersListScreenTest,setup,Long Identifier,The length of the field usersListActivityActivityTestRule is 33.,50
+WatchGithub-master,io.fisache.watchgithub.ui,UsersListScreenTest,enterEachTypeUsers,Magic Number,The method contains a magic number: 151,181
+WatchGithub-master,io.fisache.watchgithub.ui,RepoDetailScreenTest,setup,Long Identifier,The length of the field repositoryDetailActivityTestRule is 32.,48
+WatchGithub-master,io.fisache.watchgithub.ui,RepoDetailScreenTest,clickBackBtn_finishActivity,Long Identifier,The length of the field repositoryDetailActivityTestRule is 32.,76
+WatchGithub-master,io.fisache.watchgithub.ui,RepoDetailScreenTest,clickBackBtn_finishActivity,Long Statement,The length of the statement "onView(withContentDescription(TestUtils.getToolbarNavigationContentDescription(repositoryDetailActivityTestRule.getActivity()`R.id.toolbar))).perform(click());" is 159.,76
+WatchGithub-master,io.fisache.watchgithub.ui,ReposListScreenTest,createDummyRepositories_checkDisplayed,Magic Number,The method contains a magic number: 30,109
+WatchGithub-master,io.fisache.watchgithub.ui,ReposListScreenTest,clickBackBtn_finishActivity,Long Identifier,The length of the field repositoriesListActivityTestRule is 32.,153
+WatchGithub-master,io.fisache.watchgithub.ui,ReposListScreenTest,clickBackBtn_finishActivity,Long Statement,The length of the statement "onView(withContentDescription(TestUtils.getToolbarNavigationContentDescription(repositoriesListActivityTestRule.getActivity()`R.id.toolbar))).perform(click());" is 159.,153
+WatchGithub-master,io.fisache.watchgithub.ui,ReposListScreenTest,createSpecificRepositories,Magic Number,The method contains a magic number: 550,175
+WatchGithub-master,io.fisache.watchgithub.ui,ReposListScreenTest,launchWithUser,Long Identifier,The length of the field repositoriesListActivityTestRule is 32.,199
+WatchGithub-master,io.fisache.watchgithub.ui,UsersDetailScreenTest,clickBackBtn_finishActivity,Long Statement,The length of the statement "onView(withContentDescription(TestUtils.getToolbarNavigationContentDescription(userDetailActivityTestRule.getActivity()`R.id.toolbar))).perform(click());" is 153.,80
+WatchGithub-master,io.fisache.watchgithub,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+WatchGithub-master,io.fisache.watchgithub,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+WatchGithub-master,io.fisache.watchgithub,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+WatchGithub-master,io.fisache.watchgithub.mock,UserDummy,newInstance,Long Statement,The length of the statement "return new User(random`"User" + random`"Name" + random`"URL" + random`"Email" + random`random + new Random().nextInt(1000)`"User"`"");" is 134.,8
+WatchGithub-master,io.fisache.watchgithub.mock,UserDummy,newInstance,Magic Number,The method contains a magic number: 1000,8
+WatchGithub-master,io.fisache.watchgithub.mock,UserDummy,newInstance,Magic Number,The method contains a magic number: 1000,8
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryDummy,newInstance,Long Statement,The length of the statement "return new Repository(random`"Name" + random`"Html_url" + random`"Desc" + random`random + new Random().nextInt(100)`random + new Random().nextInt(100)`random > 500 ? true : false`"1990-11-16T04:00:00Z");" is 203.,10
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryDummy,newInstance,Magic Number,The method contains a magic number: 10000,10
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryDummy,newInstance,Magic Number,The method contains a magic number: 100,10
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryDummy,newInstance,Magic Number,The method contains a magic number: 100,10
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryDummy,newInstance,Magic Number,The method contains a magic number: 500,10
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryMock,newInstance,Long Statement,The length of the statement "return new Repository(random`"Name" + random`"Html_url" + random`"Desc" + random`random + new Random().nextInt(100)`random + new Random().nextInt(100)`random > 500 ? true : false`"1990-11-16T04:00:00Z");" is 203.,8
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryMock,newInstance,Magic Number,The method contains a magic number: 10000,8
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryMock,newInstance,Magic Number,The method contains a magic number: 100,8
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryMock,newInstance,Magic Number,The method contains a magic number: 100,8
+WatchGithub-master,io.fisache.watchgithub.mock,RepositoryMock,newInstance,Magic Number,The method contains a magic number: 500,8
+WatchGithub-master,io.fisache.watchgithub.mock,UserMock,newInstance,Long Statement,The length of the statement "return new User(random`"User" + random`"Name" + random`"URL" + random`"Email" + random`random + new Random().nextInt(1000)`"User"`"");" is 134.,8
+WatchGithub-master,io.fisache.watchgithub.mock,UserMock,newInstance,Magic Number,The method contains a magic number: 1000,8
+WatchGithub-master,io.fisache.watchgithub.mock,UserMock,newInstance,Magic Number,The method contains a magic number: 1000,8
+WatchGithub-master,io.fisache.watchgithub.presenter,UsersListPresenterTest,subscribeUsers_showExistUsersList,Magic Number,The method contains a magic number: 4,53
+WatchGithub-master,io.fisache.watchgithub.presenter,ReposListPresenterTest,setup,Long Statement,The length of the statement "presenter=new RepositoriesListActivityPresenter(repositoriesListActivity`user`githubRepositoriesManager`cacheRepositoriesManager);" is 130.,43
+WatchGithub-master,io.fisache.watchgithub.presenter,ReposListPresenterTest,subscribe_showReposFromCache,Magic Number,The method contains a magic number: 10,52
+WatchGithub-master,io.fisache.watchgithub.presenter,ReposListPresenterTest,subscribe_showReposFromRemote,Long Statement,The length of the statement "when(cacheRepositoriesManager.getUserRepositories(anyInt())).thenReturn(Observable.error(new RuntimeException("cache missing")).map(new Func1<Object`List<Repository>>(){" is 169.,67
+WatchGithub-master,io.fisache.watchgithub.presenter,ReposListPresenterTest,subscribe_showReposFromRemote,Magic Number,The method contains a magic number: 10,67
+WatchGithub-master,io.fisache.watchgithub.manager,GithubReposManagerTest,getUserRepositories,Long Statement,The length of the statement "when(githubApiService.getGithubRepositories(anyString()`anyInt())).thenReturn(Observable.from(new ArrayList<RepositoryResponse>()).toList());" is 141.,49
+WatchGithub-master,io.fisache.watchgithub.manager,CacheReposManagerTest,getUserRepositories,Long Statement,The length of the statement "when(cacheService.getRepositories(anyString()`anyInt())).thenReturn(Observable.from(new ArrayList<Repository>()).toList());" is 123.,44
+WatchGithub-master,io.fisache.watchgithub.manager,CacheReposManagerTest,replaceCache_addRepos,Magic Number,The method contains a magic number: 2,63
+WatchGithub-master,io.fisache.watchgithub.manager,CacheReposManagerTest,replaceCache_addRepos,Magic Number,The method contains a magic number: 2,63
+WatchGithub-master,io.fisache.watchgithub.ui.repositorieslist,RepositoriesListAdapter,getItemViewType,Long Statement,The length of the statement "if (DateUtils.getTermsFromLastPushed(repositories.get(position).pushed_at) <= resources.getInteger(R.integer.repo_recent_push_terms)) {" is 135.,51
+WatchGithub-master,io.fisache.watchgithub.ui.repositorieslist,RepositoriesListActivityPresenter,setRepositories,Long Statement,The length of the statement "Subscription mSubscription=cacheRepositoriesManager.getUserRepositories(repoPage).subscribe(new Observer<List<Repository>>(){" is 125.,67
+WatchGithub-master,io.fisache.watchgithub.ui.repositorieslist,RepositoriesListActivityPresenter,setRepositories,Long Statement,The length of the statement "githubRepositoriesManager.getUserRepositories(repoPage).subscribeOn(schedulerProvider.io()).observeOn(schedulerProvider.ui()).subscribe(new Observer<List<Repository>>(){" is 169.,67
+WatchGithub-master,io.fisache.watchgithub.ui.repositorieslist,RepositoriesListActivityPresenter,onError,Long Statement,The length of the statement "githubRepositoriesManager.getUserRepositories(repoPage).subscribeOn(schedulerProvider.io()).observeOn(schedulerProvider.ui()).subscribe(new Observer<List<Repository>>(){" is 169.,80
+WatchGithub-master,io.fisache.watchgithub.ui.repositorieslist,RepositoriesListActivityPresenter,setCacheRepositories,Long Statement,The length of the statement "return DateUtils.getTermsFromLastPushed(repository.pushed_at) <= resources.getInteger(R.integer.repo_recent_push_terms) ? true : false;" is 135.,155
+WatchGithub-master,io.fisache.watchgithub.ui.repositorieslist,RepositoriesListActivityPresenter,setCacheRepositories,Missing default,The following switch statement is missing a default case: switch (repoFilterType) {,155
+WatchGithub-master,io.fisache.watchgithub.ui.repositorieslist,RepositoriesListActivityPresenter,call,Long Statement,The length of the statement "return DateUtils.getTermsFromLastPushed(repository.pushed_at) <= resources.getInteger(R.integer.repo_recent_push_terms) ? true : false;" is 135.,166
+WatchGithub-master,io.fisache.watchgithub.ui.repositorieslist,RepositoriesListActivityPresenter,call,Missing default,The following switch statement is missing a default case: switch (repoFilterType) {,166
+WatchGithub-master,io.fisache.watchgithub.ui.userslist,UsersListActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,109
+WatchGithub-master,io.fisache.watchgithub.ui.userslist,UsersListActivityPresenter,setUsers,Long Statement,The length of the statement "Subscription mSubscription=usersManager.getUsers().subscribeOn(schedulerProvider.io()).observeOn(schedulerProvider.ui()).subscribe(new Observer<List<User>>(){" is 158.,63
+WatchGithub-master,io.fisache.watchgithub.ui.userslist,UsersListActivityPresenter,processUsers,Long Statement,The length of the statement "Subscription remoteSubscription=githubUserManager.getGithubUsers(users).subscribeOn(schedulerProvider.io()).observeOn(schedulerProvider.ui()).subscribe(new Observer<List<User>>(){" is 179.,96
+WatchGithub-master,io.fisache.watchgithub.ui.userslist,UsersListActivityPresenter,usersFilterObservable,Missing default,The following switch statement is missing a default case: switch (userFilterType) {,137
+WatchGithub-master,io.fisache.watchgithub.ui.userslist,UsersListActivityPresenter,call,Missing default,The following switch statement is missing a default case: switch (userFilterType) {,140
+WatchGithub-master,io.fisache.watchgithub.ui.userslist,UsersListActivityPresenter,observeSearchText,Magic Number,The method contains a magic number: 200,195
+WatchGithub-master,io.fisache.watchgithub.util,TextUtils,getForkStarString,Magic Number,The method contains a magic number: 1000,4
+WatchGithub-master,io.fisache.watchgithub.util,TextUtils,getForkStarString,Magic Number,The method contains a magic number: 1000,4
+WatchGithub-master,io.fisache.watchgithub.util,TextUtils,getForkStarString,Magic Number,The method contains a magic number: 1000,4
+WatchGithub-master,io.fisache.watchgithub.util,TextUtils,getForkStarString,Magic Number,The method contains a magic number: 100,4
+WatchGithub-master,io.fisache.watchgithub.util,TextUtils,getForkStarString,Magic Number,The method contains a magic number: 1000,4
+WatchGithub-master,io.fisache.watchgithub.util,TextUtils,getForkStarString,Magic Number,The method contains a magic number: 1000,4
+WatchGithub-master,io.fisache.watchgithub.util,TextUtils,getForkStarString,Magic Number,The method contains a magic number: 1000,4
+WatchGithub-master,io.fisache.watchgithub.util,TextUtils,getForkStarString,Magic Number,The method contains a magic number: 100,4
+WatchGithub-master,io.fisache.watchgithub.data.component,GithubUserComponent,plus,Long Identifier,The length of the parameter repositoriesListActivityModule is 30.,18
+WatchGithub-master,io.fisache.watchgithub.data.component,GithubUserComponent,plus,Long Identifier,The length of the parameter repositoryDetailActivityModule is 30.,20
+WatchGithub-master,io.fisache.watchgithub.data.manager,GithubRepositoriesManager,getUserRepositories,Long Statement,The length of the statement "return githubApiService.getGithubRepositories(user.login`repoPage).map(new Func1<List<RepositoryResponse>`List<Repository>>(){" is 126.,29
+WatchGithub-master,io.fisache.watchgithub.data.model,UserResponse,UserResponse,Long Parameter List,The method has 7 parameters. ,35
+WatchGithub-master,io.fisache.watchgithub.data.model,User,User,Long Parameter List,The method has 8 parameters. ,29
+WatchGithub-master,io.fisache.watchgithub.data.model,Repository,Repository,Long Parameter List,The method has 8 parameters. ,30

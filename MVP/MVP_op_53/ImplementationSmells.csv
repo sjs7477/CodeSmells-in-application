@@ -1,0 +1,393 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+sugar-master,com.sugar.sugarlibrary,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+sugar-master,com.sugar.sugarlibrary,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+sugar-master,com.sugar.sugarlibrary,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+sugar-master,com.sugar.sugarlibrary.core,AppManager,appExit,Empty catch clause,The method has an empty catch block.,151
+sugar-master,com.sugar.sugarlibrary.widget,BaseLoadingDialog,createLoadingDialog,Long Statement,The length of the statement "loadingDialog.setContentView(loadingStatusView`new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT`LinearLayout.LayoutParams.WRAP_CONTENT));" is 157.,17
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.animator,BallSizeAnimator,start,Magic Number,The method contains a magic number: 300,36
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs,BallView,defaultBallColors,Magic Number,The method contains a magic number: 9956,58
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs,BallView,defaultBallColors,Magic Number,The method contains a magic number: 46262,58
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs,BallView,defaultBallColors,Magic Number,The method contains a magic number: 12742913,58
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs,BallView,initAttributes,Magic Number,The method contains a magic number: 2,62
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs,BallView,initAttributes,Magic Number,The method contains a magic number: 2,62
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs,BallView,onSizeChanged,Magic Number,The method contains a magic number: 2,88
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs,BallView,onSizeChanged,Magic Number,The method contains a magic number: 2,88
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory,PathFactory,makePath,Long Parameter List,The method has 5 parameters. ,26
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory,PathFactory,makePath,Missing default,The following switch statement is missing a default case: switch (path) {,26
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 4,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 4,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 3,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 4,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 3,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Star,draw,Magic Number,The method contains a magic number: 4,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 4,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 3,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 3,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Diamond,draw,Magic Number,The method contains a magic number: 3,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Circle,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Infinite,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Infinite,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Infinite,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Infinite,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Infinite,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Square,draw,Long Statement,The length of the statement "path.addRect(startPoint.x + maxBallSize`startPoint.y + maxBallSize`endPoint.x - maxBallSize`endPoint.y - maxBallSize`Path.Direction.CCW);" is 137.,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Square,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Square,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Square,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.widget.loadingballs.factory.path,Square,draw,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.util,HttpUtil,createUrlFromParams,Empty catch clause,The method has an empty catch block.,43
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderOptions,setRadiusDp,Long Statement,The length of the statement "this.topLeftRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`topLeftRadius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 180.,215
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderOptions,setRadiusDp,Long Statement,The length of the statement "this.topRightRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`topRightRadius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 182.,215
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderOptions,setRadiusDp,Long Statement,The length of the statement "this.bottomLeftRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`bottomLeftRadius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 186.,215
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderOptions,setRadiusDp,Long Statement,The length of the statement "this.bottomRightRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`bottomRightRadius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 188.,215
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderOptions,imageRadiusPx,Long Statement,The length of the statement "this.imageRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_PX`rdius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 169.,224
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderOptions,imageRadiusDp,Long Statement,The length of the statement "this.imageRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`rdius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 170.,229
+sugar-master,com.sugar.sugarlibrary.imageload.framework,Builder,setRadiusDp,Long Statement,The length of the statement "this.topLeftRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`topLeftRadius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 180.,215
+sugar-master,com.sugar.sugarlibrary.imageload.framework,Builder,setRadiusDp,Long Statement,The length of the statement "this.topRightRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`topRightRadius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 182.,215
+sugar-master,com.sugar.sugarlibrary.imageload.framework,Builder,setRadiusDp,Long Statement,The length of the statement "this.bottomLeftRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`bottomLeftRadius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 186.,215
+sugar-master,com.sugar.sugarlibrary.imageload.framework,Builder,setRadiusDp,Long Statement,The length of the statement "this.bottomRightRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`bottomRightRadius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 188.,215
+sugar-master,com.sugar.sugarlibrary.imageload.framework,Builder,imageRadiusPx,Long Statement,The length of the statement "this.imageRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_PX`rdius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 169.,224
+sugar-master,com.sugar.sugarlibrary.imageload.framework,Builder,imageRadiusDp,Long Statement,The length of the statement "this.imageRadius=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`rdius`mViewContainer.getContext().getApplicationContext().getResources().getDisplayMetrics());" is 170.,229
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,bitmapSizeOk,Magic Number,The method contains a magic number: 1.5,60
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Complex Method,Cyclomatic complexity of the method is 15,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Long Method,The method has 163 lines of code.,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 256,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 3,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 0xff0000,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 16,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 0x00ff00,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 8,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 0x0000ff,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 0xff0000,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 16,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 0x00ff00,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 8,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 0x0000ff,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 0xff000000,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 16,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 8,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,fastBlur,Magic Number,The method contains a magic number: 2,85
+sugar-master,com.sugar.sugarlibrary.imageload.framework,BitmapUtils,getPhotoPath,Complex Method,Cyclomatic complexity of the method is 12,296
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderConfig,getMaxMemory,Magic Number,The method contains a magic number: 40,20
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderConfig,getMaxMemory,Magic Number,The method contains a magic number: 1024,20
+sugar-master,com.sugar.sugarlibrary.imageload.framework,ImageLoaderConfig,getMaxMemory,Magic Number,The method contains a magic number: 1024,20
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Complex Method,Cyclomatic complexity of the method is 22,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Long Method,The method has 110 lines of code.,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Long Statement,The length of the statement "GenericDraweeHierarchyBuilder hierarchyBuilder=GenericDraweeHierarchyBuilder.newInstance(imageView.getContext().getResources());" is 128.,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Long Statement,The length of the statement "RoundingParams roundingParams=RoundingParams.fromCornersRadii(options.getTopLeftRadius()`options.getTopRightRadius()`options.getBottomLeftRadius()`options.getBottomRightRadius());" is 179.,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Long Statement,The length of the statement "PipelineDraweeControllerBuilder controllerBuilder=Fresco.newDraweeControllerBuilder().setUri(uri).setAutoPlayAnimations(true);" is 126.,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Long Statement,The length of the statement "imageRequestBuilder.setResizeOptions(new ResizeOptions(options.getImageSize().getWidth()`options.getImageSize().getWidth()));" is 125.,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Long Statement,The length of the statement "@Override public void onFinalImageSet( String id` @androidx.annotation.Nullable ImageInfo imageInfo` @androidx.annotation.Nullable Animatable animatable){" is 154.,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Magic Number,The method contains a magic number: 200,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,showImgae,Magic Number,The method contains a magic number: 200,88
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,getPipelineConfig,Long Statement,The length of the statement "DiskCacheConfig diskCacheConfig=DiskCacheConfig.newBuilder(context).setMaxCacheSize(config.getMaxMemory()).setMaxCacheSizeOnLowDiskSpace(config.getMaxMemory() / 5).build();" is 172.,265
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,getPipelineConfig,Long Statement,The length of the statement "return OkHttpImagePipelineConfigFactory.newBuilder(context`AppConfig.INSTANCE.getAppSetting().getHttpSetting().getOkHttpBuilder().build()).setDownsampleEnabled(true).setMainDiskCacheConfig(diskCacheConfig).setBitmapsConfig(Bitmap.Config.RGB_565).setBitmapMemoryCacheParamsSupplier(new BitmapMemoryCacheParamsSupplier((ActivityManager)context.getSystemService(Context.ACTIVITY_SERVICE))).build();" is 395.,265
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,FrescoImageLoader,getPipelineConfig,Magic Number,The method contains a magic number: 5,265
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,BitmapMemoryCacheParamsSupplier,get,Long Statement,The length of the statement "return new com.facebook.imagepipeline.cache.MemoryCacheParams(getMaxCacheSize()`MAX_CACHE_ENTRIES`MAX_CACHE_EVICTION_SIZE`MAX_CACHE_EVICTION_ENTRIES`1);" is 152.,24
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,BitmapMemoryCacheParamsSupplier,get,Long Statement,The length of the statement "return new com.facebook.imagepipeline.cache.MemoryCacheParams(getMaxCacheSize()`MAX_CACHE_ASHM_ENTRIES`Integer.MAX_VALUE`Integer.MAX_VALUE`Integer.MAX_VALUE);" is 158.,24
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 32,37
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 4,37
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 64,37
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 6,37
+sugar-master,com.sugar.sugarlibrary.imageload.fresco,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 6,37
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,initAttrs,Magic Number,The method contains a magic number: 100,44
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,initAttrs,Magic Number,The method contains a magic number: 10,44
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,initAttrs,Magic Number,The method contains a magic number: 0xFFadadad,44
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,initAttrs,Magic Number,The method contains a magic number: 0xFF0EB6D2,44
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,initAttrs,Magic Number,The method contains a magic number: 2,44
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,drawBar,Magic Number,The method contains a magic number: 2,73
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,drawBar,Magic Number,The method contains a magic number: 2,73
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,drawBar,Magic Number,The method contains a magic number: 90,73
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,drawBar,Magic Number,The method contains a magic number: 360,73
+sugar-master,com.sugar.sugarlibrary.image.loading,ImageLoadingDrawable,onLevelChange,Magic Number,The method contains a magic number: 10000,87
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,draw,Magic Number,The method contains a magic number: 100,75
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,draw,Magic Number,The method contains a magic number: 100,75
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,DrawText,Long Statement,The length of the statement "canvas.drawText(mCustomStr == null ? (int)((double)((double)mProgress / (double)mMaxValue) * 100) + "%" : mCustomStr`size.centerX() + mTextXOffset`baseline + mTextYOffset`mTextPaint);" is 183.,93
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,DrawText,Magic Number,The method contains a magic number: 2,93
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,DrawText,Magic Number,The method contains a magic number: 100,93
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,initProperty,Magic Number,The method contains a magic number: 20,218
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,initProperty,Magic Number,The method contains a magic number: 10,218
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,initProperty,Magic Number,The method contains a magic number: 0xaa59c8cc,218
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,initProperty,Magic Number,The method contains a magic number: 0xdddddddd,218
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,initProperty,Magic Number,The method contains a magic number: 8,218
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,initProperty,Magic Number,The method contains a magic number: 100,218
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,initProperty,Magic Number,The method contains a magic number: 5,218
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,initProperty,Magic Number,The method contains a magic number: 2,218
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawCircle,Long Statement,The length of the statement "canvas.drawCircle(xpos`ypos`mCircleStyle == CircleStyle.RING ? mCircleRadius : mCircleRadius + mFanPadding`mCirclePaint);" is 121.,251
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawCircle,Magic Number,The method contains a magic number: 2,251
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawCircle,Magic Number,The method contains a magic number: 2,251
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawArc,Long Statement,The length of the statement "if (mGradientType == GradientType.LINEAR) mCirclePaint.setShader(new LinearGradient(bounds.centerX()`bounds.centerY() - mCircleRadius`bounds.centerX()`bounds.centerY() + mCircleRadius`mGradientColor`null`Shader.TileMode.MIRROR));" is 229.,270
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawArc,Magic Number,The method contains a magic number: 2,270
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawArc,Magic Number,The method contains a magic number: 2,270
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawArc,Magic Number,The method contains a magic number: 360,270
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawArc,Magic Number,The method contains a magic number: 0xffffffff,270
+sugar-master,com.sugar.sugarlibrary.image.loading,ProgressBarDrawable,drawArc,Magic Number,The method contains a magic number: 270,270
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Complex Method,Cyclomatic complexity of the method is 13,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 2,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 2,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 2f,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 0.5f,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 360,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 360,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 360,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 2,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 0.5f,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 2,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 2,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Magic Number,The method contains a magic number: 2,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,onDraw,Missing default,The following switch statement is missing a default case: switch (mProgressFillType) {,159
+sugar-master,com.sugar.sugarlibrary.image.loading,LoadingProgressBarView,animateProgressFill,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Animation progress (%d) is greater than the max progress (%d) or lower than 0 "`animateTo`mMax));" is 147.,269
+sugar-master,com.sugar.sugarlibrary.image.config,BitmapMemoryCacheParamsSupplier,get,Magic Number,The method contains a magic number: 56,27
+sugar-master,com.sugar.sugarlibrary.image.config,BitmapMemoryCacheParamsSupplier,get,Magic Number,The method contains a magic number: 256,27
+sugar-master,com.sugar.sugarlibrary.image.config,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 32,45
+sugar-master,com.sugar.sugarlibrary.image.config,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 4,45
+sugar-master,com.sugar.sugarlibrary.image.config,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 64,45
+sugar-master,com.sugar.sugarlibrary.image.config,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 6,45
+sugar-master,com.sugar.sugarlibrary.image.config,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 8,45
+sugar-master,com.sugar.sugarlibrary.image.config,BitmapMemoryCacheParamsSupplier,getMaxCacheSize,Magic Number,The method contains a magic number: 4,45
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,setBitmapMemoryCacheParamsSupplier,Long Identifier,The length of the parameter bitmapMemoryCacheParamsSupplier is 31.,90
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,setBitmapMemoryCacheParamsSupplier,Long Identifier,The length of the field mBitmapMemoryCacheParamsSupplier is 32.,90
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Complex Conditional,The conditional expression MemoryTrimType.OnCloseToDalvikHeapLimit.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInBackground.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInForeground.getSuggestedTrimRatio() == suggestedTrimRatio is complex.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Complex Method,Cyclomatic complexity of the method is 8,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Long Identifier,The length of the field mBitmapMemoryCacheParamsSupplier is 32.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Long Identifier,The length of the field IMAGE_PIPELINE_SMALL_CACHE_DIR is 30.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Long Identifier,The length of the field MAX_DISK_SMALL_ONLOWDISKSPACE_CACHE_SIZE is 40.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Long Statement,The length of the statement "mBitmapMemoryCacheParamsSupplier=new BitmapMemoryCacheParamsSupplier((ActivityManager)mContext.getSystemService(Context.ACTIVITY_SERVICE));" is 139.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Long Statement,The length of the statement "if (MemoryTrimType.OnCloseToDalvikHeapLimit.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInBackground.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInForeground.getSuggestedTrimRatio() == suggestedTrimRatio) {" is 296.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Long Statement,The length of the statement "mMainDiskCacheConfig=DiskCacheConfig.newBuilder(mContext).setBaseDirectoryName(IMAGE_PIPELINE_CACHE_DIR).setBaseDirectoryPath(fileCacheDir).build();" is 148.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Long Statement,The length of the statement "mSmallImageDiskCacheConfig=DiskCacheConfig.newBuilder(mContext).setBaseDirectoryPath(fileCacheDir).setBaseDirectoryName(IMAGE_PIPELINE_SMALL_CACHE_DIR).setMaxCacheSize(MAX_DISK_SMALL_CACHE_SIZE).setMaxCacheSizeOnLowDiskSpace(MAX_DISK_SMALL_ONLOWDISKSPACE_CACHE_SIZE).build();" is 275.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,build,Long Statement,The length of the statement "return ImagePipelineConfig.newBuilder(mContext).setBitmapsConfig(Bitmap.Config.ARGB_8888).setDownsampleEnabled(true).setNetworkFetcher(mNetworkFetcher).setRequestListeners(mRequestListeners).setMemoryTrimmableRegistry(mMemoryTrimmableRegistry).setBitmapMemoryCacheParamsSupplier(mBitmapMemoryCacheParamsSupplier).setMainDiskCacheConfig(mMainDiskCacheConfig).setSmallImageDiskCacheConfig(mSmallImageDiskCacheConfig).build();" is 423.,106
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,trim,Complex Conditional,The conditional expression MemoryTrimType.OnCloseToDalvikHeapLimit.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInBackground.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInForeground.getSuggestedTrimRatio() == suggestedTrimRatio is complex.,125
+sugar-master,com.sugar.sugarlibrary.image.config,PhoenixConfig,trim,Long Statement,The length of the statement "if (MemoryTrimType.OnCloseToDalvikHeapLimit.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInBackground.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInForeground.getSuggestedTrimRatio() == suggestedTrimRatio) {" is 296.,125
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,setBitmapMemoryCacheParamsSupplier,Long Identifier,The length of the parameter bitmapMemoryCacheParamsSupplier is 31.,90
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,setBitmapMemoryCacheParamsSupplier,Long Identifier,The length of the field mBitmapMemoryCacheParamsSupplier is 32.,90
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Complex Conditional,The conditional expression MemoryTrimType.OnCloseToDalvikHeapLimit.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInBackground.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInForeground.getSuggestedTrimRatio() == suggestedTrimRatio is complex.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Complex Method,Cyclomatic complexity of the method is 8,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Long Identifier,The length of the field mBitmapMemoryCacheParamsSupplier is 32.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Long Identifier,The length of the field IMAGE_PIPELINE_SMALL_CACHE_DIR is 30.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Long Identifier,The length of the field MAX_DISK_SMALL_ONLOWDISKSPACE_CACHE_SIZE is 40.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Long Statement,The length of the statement "mBitmapMemoryCacheParamsSupplier=new BitmapMemoryCacheParamsSupplier((ActivityManager)mContext.getSystemService(Context.ACTIVITY_SERVICE));" is 139.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Long Statement,The length of the statement "if (MemoryTrimType.OnCloseToDalvikHeapLimit.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInBackground.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInForeground.getSuggestedTrimRatio() == suggestedTrimRatio) {" is 296.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Long Statement,The length of the statement "mMainDiskCacheConfig=DiskCacheConfig.newBuilder(mContext).setBaseDirectoryName(IMAGE_PIPELINE_CACHE_DIR).setBaseDirectoryPath(fileCacheDir).build();" is 148.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Long Statement,The length of the statement "mSmallImageDiskCacheConfig=DiskCacheConfig.newBuilder(mContext).setBaseDirectoryPath(fileCacheDir).setBaseDirectoryName(IMAGE_PIPELINE_SMALL_CACHE_DIR).setMaxCacheSize(MAX_DISK_SMALL_CACHE_SIZE).setMaxCacheSizeOnLowDiskSpace(MAX_DISK_SMALL_ONLOWDISKSPACE_CACHE_SIZE).build();" is 275.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,build,Long Statement,The length of the statement "return ImagePipelineConfig.newBuilder(mContext).setBitmapsConfig(Bitmap.Config.ARGB_8888).setDownsampleEnabled(true).setNetworkFetcher(mNetworkFetcher).setRequestListeners(mRequestListeners).setMemoryTrimmableRegistry(mMemoryTrimmableRegistry).setBitmapMemoryCacheParamsSupplier(mBitmapMemoryCacheParamsSupplier).setMainDiskCacheConfig(mMainDiskCacheConfig).setSmallImageDiskCacheConfig(mSmallImageDiskCacheConfig).build();" is 423.,106
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,trim,Complex Conditional,The conditional expression MemoryTrimType.OnCloseToDalvikHeapLimit.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInBackground.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInForeground.getSuggestedTrimRatio() == suggestedTrimRatio is complex.,125
+sugar-master,com.sugar.sugarlibrary.image.config,Builder,trim,Long Statement,The length of the statement "if (MemoryTrimType.OnCloseToDalvikHeapLimit.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInBackground.getSuggestedTrimRatio() == suggestedTrimRatio || MemoryTrimType.OnSystemLowMemoryWhileAppInForeground.getSuggestedTrimRatio() == suggestedTrimRatio) {" is 296.,125
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,ViewOptionsCompat,createViewOptions,Magic Number,The method contains a magic number: 2,45
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,ViewOptionsCompat,isInScreen,Magic Number,The method contains a magic number: 0.3f,68
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,ViewOptionsCompat,isInScreen,Magic Number,The method contains a magic number: 0.3f,68
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,TransitionAnimator,enterAnimsEnd,Magic Number,The method contains a magic number: 255,31
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,TransitionCompat,startTransition,Complex Conditional,The conditional expression viewOptions == null || viewOptions.thumbnail == null || !viewOptions.isInTheScreen || !viewOptions.isVerticalScreen is complex.,41
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,TransitionCompat,startTransition,Long Statement,The length of the statement "if (viewOptions == null || viewOptions.thumbnail == null || !viewOptions.isInTheScreen || !viewOptions.isVerticalScreen) {" is 122.,41
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,TransitionCompat,finishAfterTransition,Complex Conditional,The conditional expression viewOptions != null && viewOptions.isInTheScreen && viewOptions.isVerticalScreen is complex.,52
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,TransitionCompat,startThumbnailAnimation,Long Statement,The length of the statement "final Rect finalBounds=new Rect(0`0`(int)(mActivity.getResources().getDisplayMetrics().widthPixels * fraction)`(int)(mActivity.getResources().getDisplayMetrics().heightPixels * fraction));" is 188.,90
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,TransitionCompat,startThumbnailAnimation,Magic Number,The method contains a magic number: 0.8f,90
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,TransitionCompat,endThumbnailAnimation,Long Statement,The length of the statement "ViewGroup.LayoutParams orginalParams=new ViewGroup.LayoutParams(mActivity.getResources().getDisplayMetrics().widthPixels`mActivity.getResources().getDisplayMetrics().heightPixels);" is 180.,129
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,TransitionCompat,endThumbnailAnimation,Long Statement,The length of the statement "final Rect finalBounds=new Rect(viewOptions.startX`viewOptions.startY`viewOptions.startX + viewOptions.width`viewOptions.startY + viewOptions.height);" is 150.,129
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,ViewAnim,startViewSimpleAnim,Long Parameter List,The method has 6 parameters. ,16
+sugar-master,com.sugar.sugarlibrary.image.photoview.anim,ViewAnim,startViewSimpleAnim,Magic Number,The method contains a magic number: 2,16
+sugar-master,com.sugar.sugarlibrary.image.photoview.entity,PhotoInfo,toString,Long Statement,The length of the statement "return "PhotoInfo{" + "photoId='" + photoId + '\''+ "` originalUrl='"+ originalUrl+ '\''+ "` thumbnailUrl='"+ thumbnailUrl+ '\''+ '}';" is 134.,27
+sugar-master,com.sugar.sugarlibrary.image.photoview,PhotoX,enabledAnimation,Complex Conditional,The conditional expression mLayoutManager != null && mThumbnailList != null && mThumbnailList.size() > 0 is complex.,133
+sugar-master,com.sugar.sugarlibrary.image.photoview,Builder,enabledAnimation,Complex Conditional,The conditional expression mLayoutManager != null && mThumbnailList != null && mThumbnailList.size() > 0 is complex.,133
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,getScale,Long Statement,The length of the statement "return (float)Math.sqrt((float)Math.pow(getMatrixValue(mMatrix`Matrix.MSCALE_X)`2) + (float)Math.pow(getMatrixValue(mMatrix`Matrix.MSKEW_Y)`2));" is 144.,119
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,getScale,Magic Number,The method contains a magic number: 2,119
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,getScale,Magic Number,The method contains a magic number: 2,119
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,setScale,Magic Number,The method contains a magic number: 2,129
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,setScale,Magic Number,The method contains a magic number: 2,129
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,setScale,Complex Conditional,The conditional expression draweeView == null || scale < mMinScale || scale > mMaxScale is complex.,136
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,checkMatrixBounds,Complex Method,Cyclomatic complexity of the method is 8,249
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,checkMatrixBounds,Magic Number,The method contains a magic number: 2,249
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,checkMatrixBounds,Magic Number,The method contains a magic number: 2,249
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,getDisplayRect,Complex Conditional,The conditional expression draweeView == null || (mImageInfoWidth == -1 && mImageInfoHeight == -1) is complex.,286
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,onDrag,Complex Conditional,The conditional expression mAllowParentInterceptOnEdge && !mScaleDragDetector.isScaling() && !mBlockParentIntercept is complex.,344
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,onDrag,Complex Conditional,The conditional expression mScrollEdge == EDGE_BOTH || (mScrollEdge == EDGE_LEFT && dx >= 1f) || (mScrollEdge == EDGE_RIGHT && dx <= -1f) is complex.,344
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,postOnAnimation,Magic Number,The method contains a magic number: 16,531
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,Attacher,postOnAnimation,Magic Number,The method contains a magic number: 16L,531
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,ScaleDragDetector,onTouchActivePointer,Long Statement,The length of the statement "mActivePointerIndex=MotionEventCompat.findPointerIndex(ev`mActivePointerId != INVALID_POINTER_ID ? mActivePointerId : 0);" is 121.,104
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,ScaleDragDetector,onTouchDragEvent,Complex Method,Cyclomatic complexity of the method is 14,130
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,ScaleDragDetector,onTouchDragEvent,Magic Number,The method contains a magic number: 1000,130
+sugar-master,com.sugar.sugarlibrary.image.photoview.photodraweeview,DefaultOnDoubleTapListener,onDoubleTap,Empty catch clause,The method has an empty catch block.,50
+sugar-master,com.sugar.sugarlibrary.image.utils,ImageFileUtils,getFileSize,Magic Number,The method contains a magic number: 1073741824,111
+sugar-master,com.sugar.sugarlibrary.image.utils,ImageFileUtils,getFileSize,Magic Number,The method contains a magic number: 1048576,111
+sugar-master,com.sugar.sugarlibrary.image.utils,ImageFileUtils,getFileSize,Magic Number,The method contains a magic number: 1073741824,111
+sugar-master,com.sugar.sugarlibrary.image.utils,CircleBitmapTransform,transform,Magic Number,The method contains a magic number: 2,19
+sugar-master,com.sugar.sugarlibrary.image.utils,CircleBitmapTransform,transform,Magic Number,The method contains a magic number: 2,19
+sugar-master,com.sugar.sugarlibrary.image.utils,DensityUtil,dip2px,Magic Number,The method contains a magic number: 0.5F,29
+sugar-master,com.sugar.sugarlibrary.image.utils,DensityUtil,px2dip,Magic Number,The method contains a magic number: 0.5F,34
+sugar-master,com.sugar.sugarlibrary.image.utils,DensityUtil,sp2px,Magic Number,The method contains a magic number: 0.5F,39
+sugar-master,com.sugar.sugarlibrary.image.utils,DensityUtil,px2sp,Magic Number,The method contains a magic number: 0.5F,44
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,setMinScale,Magic Number,The method contains a magic number: 0.1f,113
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,handleEvent,Complex Conditional,The conditional expression isSwipingToClose || (Math.abs(currentY - mLastY) > 2 * viewConfiguration.getScaledTouchSlop() && Math.abs(currentY - mLastY) > Math.abs(currentX - mLastX) * 1.5) is complex.,122
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,handleEvent,Complex Method,Cyclomatic complexity of the method is 22,122
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,handleEvent,Long Statement,The length of the statement "if (isSwipingToClose || (Math.abs(currentY - mLastY) > 2 * viewConfiguration.getScaledTouchSlop() && Math.abs(currentY - mLastY) > Math.abs(currentX - mLastX) * 1.5)) {" is 168.,122
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,handleEvent,Magic Number,The method contains a magic number: 2,122
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,handleEvent,Magic Number,The method contains a magic number: 1.5,122
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,handleEvent,Magic Number,The method contains a magic number: 255,122
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,resetCallBackAnimation,Magic Number,The method contains a magic number: 255,290
+sugar-master,com.sugar.sugarlibrary.image.utils,DragCloseHelper,onAnimationEnd,Magic Number,The method contains a magic number: 255,318
+sugar-master,com.sugar.sugarlibrary.image.utils,StreamTool,copy,Magic Number,The method contains a magic number: 1024,18
+sugar-master,com.sugar.sugarlibrary.image.utils,StreamTool,read,Magic Number,The method contains a magic number: 1024,60
+sugar-master,com.sugar.sugarlibrary.image.utils,StreamTool,read,Magic Number,The method contains a magic number: 100,81
+sugar-master,com.sugar.sugarlibrary.image,Phoenix,loadNormal,Magic Number,The method contains a magic number: 100,445
+sugar-master,com.sugar.sugarlibrary.image,Phoenix,run,Magic Number,The method contains a magic number: 100,476
+sugar-master,com.sugar.sugarlibrary.image,Phoenix,adjustLayoutParams,Complex Conditional,The conditional expression mAspectRatio > 0 && (mWidth > 0 || mHeight > 0) is complex.,530
+sugar-master,com.sugar.sugarlibrary.image,Builder,loadNormal,Magic Number,The method contains a magic number: 100,445
+sugar-master,com.sugar.sugarlibrary.image,Builder,run,Magic Number,The method contains a magic number: 100,476
+sugar-master,com.sugar.sugarlibrary.image,Builder,adjustLayoutParams,Complex Conditional,The conditional expression mAspectRatio > 0 && (mWidth > 0 || mHeight > 0) is complex.,530
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadImage,Long Parameter List,The method has 5 parameters. ,87
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadImageSmall,Long Parameter List,The method has 5 parameters. ,133
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadFile,Long Parameter List,The method has 5 parameters. ,193
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadDrawable,Long Parameter List,The method has 5 parameters. ,244
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadAssetDrawable,Long Parameter List,The method has 5 parameters. ,293
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadImageBlur,Magic Number,The method contains a magic number: 35,343
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,process,Magic Number,The method contains a magic number: 35,350
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadImageBlur,Magic Number,The method contains a magic number: 35,360
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,process,Magic Number,The method contains a magic number: 35,367
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadFileBlur,Magic Number,The method contains a magic number: 35,377
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,process,Magic Number,The method contains a magic number: 35,384
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadFileBlur,Magic Number,The method contains a magic number: 35,394
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,process,Magic Number,The method contains a magic number: 35,401
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadDrawableBlur,Magic Number,The method contains a magic number: 35,411
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,process,Magic Number,The method contains a magic number: 35,418
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadDrawableBlur,Magic Number,The method contains a magic number: 35,428
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,process,Magic Number,The method contains a magic number: 35,435
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadImage,Long Parameter List,The method has 7 parameters. ,445
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadOriginalImage,Complex Method,Cyclomatic complexity of the method is 12,503
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,onNewResultImpl,Complex Method,Cyclomatic complexity of the method is 9,527
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,downloadImage,Magic Number,The method contains a magic number: 100,583
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,onProgressUpdate,Magic Number,The method contains a magic number: 100,630
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadImage,Complex Method,Cyclomatic complexity of the method is 14,652
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadImage,Long Parameter List,The method has 5 parameters. ,652
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,onNewResultImpl,Complex Method,Cyclomatic complexity of the method is 9,689
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadLocalDiskCache,Complex Method,Cyclomatic complexity of the method is 12,745
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,loadLocalDiskCache,Long Statement,The length of the statement "DataSource<CloseableReference<CloseableImage>> dataSource=imagePipeline.fetchDecodedImage(imageRequest`context`ImageRequest.RequestLevel.DISK_CACHE);" is 149.,745
+sugar-master,com.sugar.sugarlibrary.image,ImageLoader,onNewResultImpl,Complex Method,Cyclomatic complexity of the method is 9,763
+sugar-master,com.sugar.sugarlibrary.image.controller,SingleImageControllerListener,onFinalImageSet,Complex Method,Cyclomatic complexity of the method is 8,34
+sugar-master,com.sugar.sugarlibrary.image.controller,SingleImageControllerListener,onFinalImageSet,Magic Number,The method contains a magic number: 1080,34
+sugar-master,com.sugar.sugarlibrary.image.controller,SingleImageControllerListener,onFinalImageSet,Magic Number,The method contains a magic number: 1080,34
+sugar-master,com.sugar.sugarlibrary.image.controller,SingleImageControllerListener,onFinalImageSet,Magic Number,The method contains a magic number: 1920,34
+sugar-master,com.sugar.sugarlibrary.image.controller,SingleImageControllerListener,onFinalImageSet,Magic Number,The method contains a magic number: 1920,34
+sugar-master,com.sugar.sugarlibrary.image.blur,BitmapBlurHelper,blur,Magic Number,The method contains a magic number: 25,17
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Complex Method,Cyclomatic complexity of the method is 15,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Long Method,The method has 166 lines of code.,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 256,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 256,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 3,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 0xff0000,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 16,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 0x00ff00,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 8,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 0x0000ff,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 0xff0000,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 16,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 0x00ff00,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 8,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 0x0000ff,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 0xff000000,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 16,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 8,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.image.blur,FastBlur,blur,Magic Number,The method contains a magic number: 2,23
+sugar-master,com.sugar.sugarlibrary.http,AppHttpClient,AppHttpClient,Long Statement,The length of the statement "this.mRetrofit=new Retrofit.Builder().baseUrl(httpSetting.getBaseUrl()).addConverterFactory(httpSetting.getHttpConverter()).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addCallAdapterFactory(CoroutineCallAdapterFactory.create()).client(mOkHttpClient).build();" is 272.,49
+sugar-master,com.sugar.sugarlibrary.http,SugarRepository,customObservable,Long Statement,The length of the statement "return observable.compose(mIView.getProvider().bindToLifecycle()).retryWhen(new RetryWithDelay(2`2)).subscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).doFinally(() -> {" is 233.,77
+sugar-master,com.sugar.sugarlibrary.http,SugarRepository,customObservable,Magic Number,The method contains a magic number: 2,77
+sugar-master,com.sugar.sugarlibrary.http,SugarRepository,customObservable,Magic Number,The method contains a magic number: 2,77
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarChaceInterceptor,intercept,Long Statement,The length of the statement "return response.newBuilder().removeHeader("Pragma").removeHeader("Cache-Control").header("Cache-Control"`cacheControl).build();" is 127.,34
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarChaceInterceptor,intercept,Long Statement,The length of the statement "return response.newBuilder().removeHeader("Pragma").removeHeader("Cache-Control").header("Cache-Control"`"public` only-if-cached` max-stale=" + request.cacheControl().maxAgeSeconds()).build();" is 192.,34
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarCustomHeaderInterceptor,addGetParamsSign,Long Statement,The length of the statement "String value=httpUrl.queryParameterValues(nameList.get(i)) != null && httpUrl.queryParameterValues(nameList.get(i)).size() > 0 ? httpUrl.queryParameterValues(nameList.get(i)).get(0) : "";" is 187.,72
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarCustomHeaderInterceptor,addPostParamsSign,Complex Method,Cyclomatic complexity of the method is 8,106
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarNormalChaceInterceptor,intercept,Long Statement,The length of the statement "return response.newBuilder().removeHeader("Pragma").removeHeader("Cache-Control").header("Cache-Control"`"public` only-if-cached` max-stale=" + maxAge).build();" is 160.,33
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarNormalChaceInterceptor,intercept,Long Statement,The length of the statement "return response.newBuilder().removeHeader("Pragma").removeHeader("Cache-Control").header("Cache-Control"`"public` only-if-cached` max-stale=" + maxStale).build();" is 162.,33
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarNormalChaceInterceptor,intercept,Magic Number,The method contains a magic number: 10,33
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarNormalChaceInterceptor,intercept,Magic Number,The method contains a magic number: 60,33
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarNormalChaceInterceptor,intercept,Magic Number,The method contains a magic number: 60,33
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarNormalChaceInterceptor,intercept,Magic Number,The method contains a magic number: 24,33
+sugar-master,com.sugar.sugarlibrary.http.interceptor,SugarNormalChaceInterceptor,intercept,Magic Number,The method contains a magic number: 3,33
+sugar-master,com.sugar.sugarlibrary.rx,RxEventBus,toObservable,Long Statement,The length of the statement "return mBus.ofType(eventType).compose(provider.<T>bindToLifecycle()).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 171.,71
+sugar-master,com.sugar.sugarlibrary.rx,RxEventBus,toObservable,Long Statement,The length of the statement "return mBus.ofType(eventType).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnError(throwable -> AppConfig.INSTANCE.getRxErrorHandler().getHandlerFactory().handleError(throwable));" is 238.,82
+sugar-master,com.sugar.sugarlibrary.rx,RxEventBus,toObservableSticky,Long Statement,The length of the statement "Observable<T> observable=mBus.ofType(eventType).compose(provider.<T>bindToLifecycle()).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 189.,122
+sugar-master,com.sugar.sugarlibrary.rx,RxEventBus,toObservableSticky,Long Statement,The length of the statement "Observable<T> observable=mBus.ofType(eventType).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnError(throwable -> AppConfig.INSTANCE.getRxErrorHandler().getHandlerFactory().handleError(throwable));" is 256.,148
+sugar-master,com.sugar.sugarlibrary.base.sugar,BaseSugarActivity,hideSoftKeyBoard,Magic Number,The method contains a magic number: 2,193
+sugar-master,com.sugar.sugarlibrary.base.sugar,BaseSugarPresenter,subscribeStickyEvent,Long Statement,The length of the statement "RxEventBus.getInstance().toObservableSticky(eventType).compose(mView.getProvider().bindToLifecycle()).subscribe(subscriber);" is 124.,51
+sugar-master,com.sugar.sugarlibrary.base.config,AppHttpSetting,Builder,Magic Number,The method contains a magic number: 20,102
+sugar-master,com.sugar.sugarlibrary.base.config,AppHttpSetting,Builder,Magic Number,The method contains a magic number: 20,102
+sugar-master,com.sugar.sugarlibrary.base.config,AppHttpSetting,Builder,Magic Number,The method contains a magic number: 20,102
+sugar-master,com.sugar.sugarlibrary.base.config,AppHttpSetting,with,Magic Number,The method contains a magic number: 10,118
+sugar-master,com.sugar.sugarlibrary.base.config,AppHttpSetting,with,Magic Number,The method contains a magic number: 1024,118
+sugar-master,com.sugar.sugarlibrary.base.config,AppHttpSetting,with,Magic Number,The method contains a magic number: 1024,118
+sugar-master,com.sugar.sugarlibrary.base.config,Builder,Builder,Magic Number,The method contains a magic number: 20,102
+sugar-master,com.sugar.sugarlibrary.base.config,Builder,Builder,Magic Number,The method contains a magic number: 20,102
+sugar-master,com.sugar.sugarlibrary.base.config,Builder,Builder,Magic Number,The method contains a magic number: 20,102
+sugar-master,com.sugar.sugarlibrary.base.config,Builder,with,Magic Number,The method contains a magic number: 10,118
+sugar-master,com.sugar.sugarlibrary.base.config,Builder,with,Magic Number,The method contains a magic number: 1024,118
+sugar-master,com.sugar.sugarlibrary.base.config,Builder,with,Magic Number,The method contains a magic number: 1024,118
+sugar-master,com.sugar.sugarlibrary.base.config,SugarConfigure,getAppSettingBuilder,Long Statement,The length of the statement "return AppSetting.builder().with(mApplication).setHttpSetting(getHttpSetting()).setResponseErrorListener(getErrorResponse()).setGloadingAdapter(getGloadingAdapter()).setLoadingDialog(getLoadingDialog()).setImageLoadSetting(getImageLoadSetting()).isDebug(false);" is 261.,99
+sugar-master,com.sugar.sugarlibrary.base.config,SugarConfigure,getImageLoaderConfig,Magic Number,The method contains a magic number: 40,152
+sugar-master,com.sugar.sugarlibrary.base.config,SugarConfigure,getImageLoaderConfig,Magic Number,The method contains a magic number: 1024,152
+sugar-master,com.sugar.sugarlibrary.base.config,SugarConfigure,getImageLoaderConfig,Magic Number,The method contains a magic number: 1024L,152
+sugar-master,com.sugar.sugarlibrary.base.presenter,PresenterProviders,checkApplication,Long Statement,The length of the statement "throw new IllegalStateException("Your activity/fragment is not yet attached to Application. You can't request PresenterProviders before onCreate call.");" is 153.,64
+sugar-master,com.sugar.lib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+sugar-master,com.sugar.lib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+sugar-master,com.sugar.lib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+sugar-master,com.sugar.demo.ui.widget,SignleTouchMotionLayout,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 15,71
+sugar-master,com.sugar.demo.ui.widget,SignleTouchMotionLayout,handleProgress,Long Statement,The length of the statement "timeDisposable=Observable.intervalRange(startTime`endTime - startTime`0`3`TimeUnit.MILLISECONDS).observeOn(Schedulers.io()).compose(((BaseActivity)getContext()).getProvider().bindToLifecycle()).observeOn(AndroidSchedulers.mainThread()).map(new Function<Long`Long>(){" is 266.,132
+sugar-master,com.sugar.demo.ui.widget,SignleTouchMotionLayout,handleProgress,Magic Number,The method contains a magic number: 200,132
+sugar-master,com.sugar.demo.ui.widget,SignleTouchMotionLayout,handleProgress,Magic Number,The method contains a magic number: 3,132
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getYOffset,Magic Number,The method contains a magic number: 240,23
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getZ,Magic Number,The method contains a magic number: 30,28
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getCornerRadius,Magic Number,The method contains a magic number: 10,33
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getBackgroundColor,Magic Number,The method contains a magic number: 0XFFEB9D3E,38
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getTextColor,Magic Number,The method contains a magic number: 0XFFFFFFFF,43
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getTextSize,Magic Number,The method contains a magic number: 16,48
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getMaxLines,Magic Number,The method contains a magic number: 4,53
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getPaddingLeft,Magic Number,The method contains a magic number: 16,58
+sugar-master,com.sugar.demo.ui.widget,ToastStyle,getPaddingTop,Magic Number,The method contains a magic number: 10,63
+sugar-master,com.sugar.demo.ui,StartActivity,initImmersionBar,Magic Number,The method contains a magic number: 0.2f,36
+sugar-master,com.sugar.demo.ui,StartActivity,init,Magic Number,The method contains a magic number: 2.0f,49
+sugar-master,com.sugar.demo.ui,ContainerFragment,initImmersionBar,Magic Number,The method contains a magic number: 0.2f,27
+sugar-master,com.sugar.demo.config,DemoConfigure,getHttpSetting,Long Statement,The length of the statement "return AppHttpSetting.builder().with(mApplication).setBaseUrl(Gank.HOST).putDomain(Wan.DOMAN`Wan.HOST).setHttpLog(true).setHttpMoniter(true).setCacheMaxTime(65).connectTimeout(20).readTimeout(20).writeTimeout(20).addHeaderInterceptor(getHeader()).addCustomHeaderInterceptor(getCustomHeader()).addConverterFactory(FastJsonConverterFactory.create()).build();" is 356.,62
+sugar-master,com.sugar.demo.config,DemoConfigure,getHttpSetting,Magic Number,The method contains a magic number: 65,62
+sugar-master,com.sugar.demo.config,DemoConfigure,getHttpSetting,Magic Number,The method contains a magic number: 20,62
+sugar-master,com.sugar.demo.config,DemoConfigure,getHttpSetting,Magic Number,The method contains a magic number: 20,62
+sugar-master,com.sugar.demo.config,DemoConfigure,getHttpSetting,Magic Number,The method contains a magic number: 20,62
+sugar-master,com.sugar.demo.config,DemoConfigure,getImageLoadSetting,Long Statement,The length of the statement "return AppImageLoadSetting.builder().imageLoaderConfig(getImageLoaderConfig()).isCrossFade(true).errorholder(R.mipmap.ic_launcher_round).placeholder(R.mipmap.ic_logo).build();" is 175.,122

@@ -1,0 +1,293 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+58_Tea-master,android.serialport.api,SerialPort,RootCommand,Empty catch clause,The method has an empty catch block.,28
+58_Tea-master,android.serialport.api,SerialPort,open,Long Statement,The length of the statement "mFd=open(device`baudrate`0`SerialPortParam.DataBits`SerialPortParam.StopBits`SerialPortParam.Parity`SerialPortParam.Flowcontrol);" is 129.,53
+58_Tea-master,android.serialport.api,SerialPort,Write,Magic Number,The method contains a magic number: 100,87
+58_Tea-master,android.serialport.api,SerialPort,Write,Magic Number,The method contains a magic number: 10,87
+58_Tea-master,android.serialport.api,SerialPort,run,Magic Number,The method contains a magic number: 4096,133
+58_Tea-master,android.serialport.api,SerialPort,run,Magic Number,The method contains a magic number: 4096,133
+58_Tea-master,android.serialport.api,SerialPort,open,Long Parameter List,The method has 7 parameters. ,176
+58_Tea-master,android.serialport.api,SerialPort,byteToString,Magic Number,The method contains a magic number: 0xf0,185
+58_Tea-master,android.serialport.api,SerialPort,byteToString,Magic Number,The method contains a magic number: 0x0f,185
+58_Tea-master,android.serialport.api,SerialPort,byteToString,Magic Number,The method contains a magic number: 4,185
+58_Tea-master,android.serialport.api,SerialPort,findHex,Magic Number,The method contains a magic number: 16,203
+58_Tea-master,android.serialport.api,SerialPort,findHex,Magic Number,The method contains a magic number: 9,203
+58_Tea-master,android.serialport.api,SerialPort,findHex,Magic Number,The method contains a magic number: 10,203
+58_Tea-master,android.serialport.api,SerialPort,hexStringToBytes,Magic Number,The method contains a magic number: 4,214
+58_Tea-master,android.serialport.api,ReadThread,run,Magic Number,The method contains a magic number: 4096,133
+58_Tea-master,android.serialport.api,ReadThread,run,Magic Number,The method contains a magic number: 4096,133
+58_Tea-master,android.serialport.api,SerialPortFinder,getDrivers,Magic Number,The method contains a magic number: 0x15,62
+58_Tea-master,android.serialport.api,SerialPortFinder,getDrivers,Magic Number,The method contains a magic number: 5,62
+58_Tea-master,android.serialport.api,SerialPortFinder,getDrivers,Magic Number,The method contains a magic number: 4,62
+58_Tea-master,android.serialport.api,SerialPortFinder,getDrivers,Magic Number,The method contains a magic number: 4,62
+58_Tea-master,android.serialport.api,SerialPortHelper,SerialPortHelper,Long Statement,The length of the statement "if (serialportDataReceivedPrint != null && SerialPortClass.serialPortName.equals(SerialPortClass.SERIALPORT.comPrinter)) {" is 122.,15
+58_Tea-master,android.serialport.api,SerialPortHelper,SerialPortHelper,Long Statement,The length of the statement "else if (serialportDataReceivedScan != null && SerialPortClass.serialPortName.equals(SerialPortClass.SERIALPORT.comScan)) {" is 123.,15
+58_Tea-master,android.serialport.api,SerialPortHelper,onDataReceivedListener,Long Statement,The length of the statement "if (serialportDataReceivedPrint != null && SerialPortClass.serialPortName.equals(SerialPortClass.SERIALPORT.comPrinter)) {" is 122.,18
+58_Tea-master,android.serialport.api,SerialPortHelper,onDataReceivedListener,Long Statement,The length of the statement "else if (serialportDataReceivedScan != null && SerialPortClass.serialPortName.equals(SerialPortClass.SERIALPORT.comScan)) {" is 123.,18
+58_Tea-master,android.serialport.api,SerialPortHelper,SendPackage,Magic Number,The method contains a magic number: 100,74
+58_Tea-master,android.serialport.api,SerialPortHelper,SendPackage,Magic Number,The method contains a magic number: 1000000,74
+58_Tea-master,android.serialport.api,SerialPortHelper,SendPackage,Magic Number,The method contains a magic number: 1000,74
+58_Tea-master,android.serialport.api,SerialPortHelper,Write,Magic Number,The method contains a magic number: 500,117
+58_Tea-master,android.serialport.api,SerialPortHelper,Write,Magic Number,The method contains a magic number: 10,117
+58_Tea-master,android.serialport.api,SerialPortHelper,byte2HexStr,Magic Number,The method contains a magic number: 0xFF,150
+58_Tea-master,com.fengjie.model.activity.addTea,AddInfoFragmentAddTea,onClick,Complex Method,Cyclomatic complexity of the method is 8,139
+58_Tea-master,com.fengjie.model.activity.addTea,AddInfoFragmentAddTea,onClick,Long Statement,The length of the statement "if (!variety_EditText_tjcy.getText().toString().equals("") || !price_EditText_tjcy.getText().toString().equals("")) promptExit();" is 129.,139
+58_Tea-master,com.fengjie.model.activity.addTea,AddInfoFragmentAddTea,onClick,Long Statement,The length of the statement "if (!variety_EditText_tjcy.getText().toString().equals("") || !price_EditText_tjcy.getText().toString().equals("")) promptExit();" is 129.,139
+58_Tea-master,com.fengjie.model.activity.addTea,AddInfoFragmentAddTea,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,139
+58_Tea-master,com.fengjie.model.activity.addTea,AddInfoFragmentAddTea,promptExit,Long Statement,The length of the statement "commonDialog.initCommonDialog("�??示"`" 您有信�?�尚未�?存是�?�退出？"`"确定"`new DialogInterface.OnClickListener(){" is 129.,186
+58_Tea-master,com.fengjie.model.activity.addTea,mButtonListener,onClick,Complex Method,Cyclomatic complexity of the method is 8,139
+58_Tea-master,com.fengjie.model.activity.addTea,mButtonListener,onClick,Long Statement,The length of the statement "if (!variety_EditText_tjcy.getText().toString().equals("") || !price_EditText_tjcy.getText().toString().equals("")) promptExit();" is 129.,139
+58_Tea-master,com.fengjie.model.activity.addTea,mButtonListener,onClick,Long Statement,The length of the statement "if (!variety_EditText_tjcy.getText().toString().equals("") || !price_EditText_tjcy.getText().toString().equals("")) promptExit();" is 129.,139
+58_Tea-master,com.fengjie.model.activity.addTea,mButtonListener,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,139
+58_Tea-master,com.fengjie.model.activity.addTea,AddTeaActivity,initBottomButton,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,111
+58_Tea-master,com.fengjie.model.activity.addTea,AddTeaActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,119
+58_Tea-master,com.fengjie.model.activity.addWorker,AddWorkerActivity,OnClick,Missing default,The following switch statement is missing a default case: switch (view.getId()) {,95
+58_Tea-master,com.fengjie.model.activity.addWorker,AddWorkerActivity,getPhoneNumber,Long Identifier,The length of the field phoneNumber_EditText_addWorker is 30.,121
+58_Tea-master,com.fengjie.model.activity.addWorker,AddWorkerActivity,promptExit,Complex Conditional,The conditional expression !name_EditText_addWorker.getText().toString().equals("") || !phoneNumber_EditText_addWorker.getText().toString().equals("") || !idNumber_EditText_addWorker.getText().toString().equals("") is complex.,163
+58_Tea-master,com.fengjie.model.activity.addWorker,AddWorkerActivity,promptExit,Long Identifier,The length of the field phoneNumber_EditText_addWorker is 30.,163
+58_Tea-master,com.fengjie.model.activity.addWorker,AddWorkerActivity,promptExit,Long Statement,The length of the statement "if (!name_EditText_addWorker.getText().toString().equals("") || !phoneNumber_EditText_addWorker.getText().toString().equals("") || !idNumber_EditText_addWorker.getText().toString().equals("")) {" is 194.,163
+58_Tea-master,com.fengjie.model.activity.addWorker,AddWorkerActivity,clearAllEditText,Long Identifier,The length of the field phoneNumber_EditText_addWorker is 30.,210
+58_Tea-master,com.fengjie.model.activity.addWorker.model,AddWorkerBiz,isCheckBefore,Magic Number,The method contains a magic number: 11,30
+58_Tea-master,com.fengjie.model.activity.addWorker.model,AddWorkerBiz,isCheckBefore,Magic Number,The method contains a magic number: 18,30
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,OnClickListerner,Long Identifier,The length of the field unitPrice_EditText_inputWorkload is 32.,76
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,OnClickListerner,Missing default,The following switch statement is missing a default case: switch (view.getId()) {,76
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,afterTextChanged_unitPrice,Long Identifier,The length of the field unitPrice_EditText_inputWorkload is 32.,108
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,afterTextChanged_unitPrice,Long Statement,The length of the statement "money_textView_inputWorkload.setText(String.valueOf(Float.parseFloat(s.toString().equals("") ? "0" : s.toString()) * getWeight()));" is 131.,108
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,afterTextChanged_weight,Long Statement,The length of the statement "money_textView_inputWorkload.setText(String.valueOf(Float.parseFloat(s.toString().equals("") ? "0" : s.toString()) * getUnitPrice()));" is 134.,114
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,initFloatingSearchView,Long Identifier,The length of the field unitPrice_EditText_inputWorkload is 32.,158
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,onSearchTextChanged,Long Identifier,The length of the field unitPrice_EditText_inputWorkload is 32.,217
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,onSuggestionClicked,Long Identifier,The length of the field unitPrice_EditText_inputWorkload is 32.,232
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,ShowSuggestion,Missing default,The following switch statement is missing a default case: switch (flag) {,264
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,getUnitPrice,Long Identifier,The length of the field unitPrice_EditText_inputWorkload is 32.,312
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,getUnitPrice,Long Statement,The length of the statement "return Float.parseFloat(unitPrice_EditText_inputWorkload.getText().toString().equals("") ? "0" : unitPrice_EditText_inputWorkload.getText().toString());" is 152.,312
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,getWeight,Long Statement,The length of the statement "return Float.parseFloat(weight_EditText_inputWorkload.getText().toString().equals("") ? "0" : weight_EditText_inputWorkload.getText().toString());" is 146.,318
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,showToastInView,Complex Method,Cyclomatic complexity of the method is 13,352
+58_Tea-master,com.fengjie.model.activity.inputWorkload,InputWorkload,showToastInView,Missing default,The following switch statement is missing a default case: switch (flag) {,352
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,getFilterWorker,Long Statement,The length of the statement "if (info.getStaff_Name().indexOf(filterStr) != -1 || mCharacterParser.getSelling(info.getStaff_Name()).startsWith(filterStr)) {" is 127.,65
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,getFilterTea,Long Statement,The length of the statement "if (info.getTea_Category().indexOf(filterStr) != -1 || mCharacterParser.getSelling(info.getTea_Category()).startsWith(filterStr)) {" is 131.,93
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Complex Method,Cyclomatic complexity of the method is 9,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Long Parameter List,The method has 5 parameters. ,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Long Statement,The length of the statement "return pickTeaDBUtil.insertPickTeaInfo(new PickTeaInfo(uid`tid`time`weight`uintPrice`String.valueOf(uid) + String.valueOf(tid) + changeValue(weight)+ time.substring(5`7)+ time.substring(8`10)+ time.substring(11`13)+ time.substring(14`16)+ time.substring(17`19)+ changeValue(weight * uintPrice)`weight * uintPrice)) > 0 ? Flag.ADD_WORKLOAD_SUCCEED : Flag.ADD_WORKLOAD_FAILED;" is 374.,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 5,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 7,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 8,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 10,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 11,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 13,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 14,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 16,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 17,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,printAndSaveData,Magic Number,The method contains a magic number: 19,170
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Complex Method,Cyclomatic complexity of the method is 19,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Long Statement,The length of the statement "MyToast.showLong(mContext`mContext.getResources().getString(R.string.str_printer_state) + ":" + mContext.getResources().getString(R.string.str_printer_nopaper));" is 161.,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Long Statement,The length of the statement "MyToast.showLong(mContext`mContext.getResources().getString(R.string.str_printer_state) + ":" + mContext.getResources().getString(R.string.str_printer_hightemperature));" is 169.,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Long Statement,The length of the statement "MyToast.showLong(mContext`mContext.getResources().getString(R.string.str_printer_state) + ":" + mContext.getResources().getString(R.string.str_printer_lowpower));" is 162.,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Magic Number,The method contains a magic number: 0x13,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Magic Number,The method contains a magic number: 0x11,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Magic Number,The method contains a magic number: 0x08,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Magic Number,The method contains a magic number: 0x04,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Magic Number,The method contains a magic number: 0x02,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Magic Number,The method contains a magic number: 72,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,openPrinter,Magic Number,The method contains a magic number: 48,216
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Complex Method,Cyclomatic complexity of the method is 19,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Long Statement,The length of the statement "MyToast.showLong(mContext`mContext.getResources().getString(R.string.str_printer_state) + ":" + mContext.getResources().getString(R.string.str_printer_nopaper));" is 161.,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Long Statement,The length of the statement "MyToast.showLong(mContext`mContext.getResources().getString(R.string.str_printer_state) + ":" + mContext.getResources().getString(R.string.str_printer_hightemperature));" is 169.,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Long Statement,The length of the statement "MyToast.showLong(mContext`mContext.getResources().getString(R.string.str_printer_state) + ":" + mContext.getResources().getString(R.string.str_printer_lowpower));" is 162.,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Magic Number,The method contains a magic number: 0x13,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Magic Number,The method contains a magic number: 0x11,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Magic Number,The method contains a magic number: 0x08,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Magic Number,The method contains a magic number: 0x04,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Magic Number,The method contains a magic number: 0x02,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Magic Number,The method contains a magic number: 72,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,handleMessage,Magic Number,The method contains a magic number: 48,226
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,changeValue,Magic Number,The method contains a magic number: 2,347
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,changeValue,Magic Number,The method contains a magic number: 3,347
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,changeValue,Magic Number,The method contains a magic number: 4,347
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,changeValue,Magic Number,The method contains a magic number: 4,347
+58_Tea-master,com.fengjie.model.activity.inputWorkload.model,InputWorkloadBiz,changeValue,Missing default,The following switch statement is missing a default case: switch ((temp + "").length()) {,347
+58_Tea-master,com.fengjie.model.activity.inputWorkload.presenter,InputWorkloadPresenter,saveTeaUnitPrice,Long Statement,The length of the statement "mView.showToastInView(mBiz.updateTeaUnitPrice(mView.getCategory()`mView.getUnitPrice()) ? Flag.SAVE_UNIT_PRICE_SUCCEED : Flag.SAVE_UNIT_PRICE_FAILED);" is 150.,45
+58_Tea-master,com.fengjie.model.activity.inputWorkload.presenter,InputWorkloadPresenter,printAndSaveData,Long Statement,The length of the statement "mView.showToastInView(mBiz.printAndSaveData(mView.getName()`mView.getCategory()`mView.getUnitPrice()`mView.getWeight()`mView.getBitMapDialog()));" is 145.,60
+58_Tea-master,com.fengjie.model.activity.inputWorkload.presenter,InputWorkloadPresenter,isExistTea,Magic Number,The method contains a magic number: 0.1f,81
+58_Tea-master,com.fengjie.model.activity.main,MainActivity,OnClick,Missing default,The following switch statement is missing a default case: switch (view.getId()) {,56
+58_Tea-master,com.fengjie.model.adapter.recyclerview.base,ItemViewDelegateManager,addDelegate,Long Statement,The length of the statement "throw new IllegalArgumentException("An ItemViewDelegate is already registered for the viewType = " + viewType + ". Already registered ItemViewDelegate is "+ delegates.get(viewType));" is 182.,25
+58_Tea-master,com.fengjie.model.adapter.recyclerview.base,ItemViewDelegateManager,convert,Long Statement,The length of the statement "throw new IllegalArgumentException("No ItemViewDelegateManager added that matches position=" + position + " in data source");" is 125.,80
+58_Tea-master,com.fengjie.model.adapter.recyclerview.wrapper,EmptyWrapper,onAttachedToRecyclerView,Long Statement,The length of the statement "@Override public int getSpanSize( GridLayoutManager gridLayoutManager` GridLayoutManager.SpanSizeLookup oldLookup` int position){" is 129.,53
+58_Tea-master,com.fengjie.model.adapter.recyclerview.wrapper,HeaderAndFooterWrapper,onAttachedToRecyclerView,Long Statement,The length of the statement "@Override public int getSpanSize( GridLayoutManager layoutManager` GridLayoutManager.SpanSizeLookup oldLookup` int position){" is 125.,86
+58_Tea-master,com.fengjie.model.adapter.recyclerview.wrapper,LoadmoreWrapper,onAttachedToRecyclerView,Long Statement,The length of the statement "@Override public int getSpanSize( GridLayoutManager layoutManager` GridLayoutManager.SpanSizeLookup oldLookup` int position){" is 125.,79
+58_Tea-master,com.fengjie.model.dbhelper.Other,TeaDBHelper,onCreate,Long Identifier,The length of the field SET_TB_STAFF_INFO_UID_AUTOINCREMENT_START_NUMBER is 48.,84
+58_Tea-master,com.fengjie.model.dbhelper.PickCheckout,PickCheckoutDBUtil,insertPickCheckoutInfo,Complex Conditional,The conditional expression x == y && y > 0 && y > 0 is complex.,81
+58_Tea-master,com.fengjie.model.dbhelper.PickCheckout,PickCheckoutDBUtil,select_checkout_date_of_pickteainfo,Long Identifier,The length of the field SELECT_CHECOUT_SERIAL_NUMBERS_LIST is 34.,166
+58_Tea-master,com.fengjie.model.dbhelper.PickCheckout,PickCheckoutInfo,PickCheckoutInfo,Long Parameter List,The method has 5 parameters. ,21
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,updatePickTeaInfo,Long Statement,The length of the statement "if (!(database.query(TB_PICK_TEA_INFO`null`SERIAL_NUMBER + "==?"`new String[]{serial_number}`null`null`null)).moveToFirst()) {" is 126.,191
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,updatePickTeaInfo,Long Statement,The length of the statement "Cursor cursor=database.query(TB_PICK_TEA_INFO`new String[]{PICK_ISCHECKOUT}`SERIAL_NUMBER + "==?"`new String[]{serial_number}`null`null`null);" is 142.,191
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,updatePickTeaInfo,Magic Number,The method contains a magic number: 2,191
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,updatePickTeaInfo,Long Statement,The length of the statement "if (!(database.query(TB_PICK_TEA_INFO`null`SERIAL_NUMBER + "==?"`new String[]{serial_number}`null`null`null)).moveToFirst()) {" is 126.,220
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,updatePickTeaInfo,Long Statement,The length of the statement "Cursor cursor=database.query(TB_PICK_TEA_INFO`new String[]{PICK_ISCHECKOUT}`SERIAL_NUMBER + "==?"`new String[]{serial_number}`null`null`null);" is 142.,220
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,updatePickTeaInfo,Magic Number,The method contains a magic number: 2,220
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,insertPickTeaInfo,Long Statement,The length of the statement "if (!(database.query(StaffDBUtil.TB_STAFF_INFO`new String[]{UID}`UID + "==?"`new String[]{pickTeaInfo.getUid() + ""}`null`null`null)).moveToFirst()) {" is 150.,252
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,insertPickTeaInfo,Long Statement,The length of the statement "if (!(database.query(TeaDBUtil.TB_TEA_INFO`new String[]{TID}`TID + "==?"`new String[]{pickTeaInfo.getTid() + ""}`null`null`null)).moveToFirst()) {" is 146.,252
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,insertPickTeaInfo,Long Statement,The length of the statement "values.put(PICK_DATETIME`pickTeaInfo.getPick_datetime() != null ? pickTeaInfo.getPick_datetime() : TimeHelper.getCurrentDateTime());" is 132.,252
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,insertPickTeaInfo,Magic Number,The method contains a magic number: 2,252
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,insertPickTeaInfo,Magic Number,The method contains a magic number: 3,252
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,insertPickTeaInfo,Magic Number,The method contains a magic number: 4,252
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,selectPickTeaInfo,Complex Method,Cyclomatic complexity of the method is 8,333
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByDate_ListInfo,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_DATE_CUSTOM_BEFORE is 46.,435
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByDate_ListInfo,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_DATE_CUSTOM_AFTER is 45.,435
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByDate_ListInfo,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_DATE_ALL is 36.,435
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByDate_ListInfo,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_DATE_CUSTOM_BETWEEN is 47.,435
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByDate_ListInfo_Detail,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_DATE_ALL_DETAILS is 44.,502
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByDate_ListInfo_Detail,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_DATE_CUSTOM_DETAILS is 47.,502
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByStaff_ListInfo,Long Identifier,The length of the field SELECT_NON_CHECK_INFO_BY_STAFF_ALL is 34.,549
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByStaff_ListInfo_Detail,Complex Method,Cyclomatic complexity of the method is 8,586
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByStaff_ListInfo_Detail,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_STAFF_CUSTOM_BEFORE_DETAILS is 55.,586
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByStaff_ListInfo_Detail,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_STAFF_CUSTOM_AFTER_DETAILS is 54.,586
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByStaff_ListInfo_Detail,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_STAFF_CUSTOM_STAFF_DETAILS is 54.,586
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByStaff_ListInfo_Detail,Long Identifier,The length of the field SELECT_NON_CHECKOUT_INFO_BY_STAFF_CUSTOM_BETWEEN_DETAILS is 56.,586
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaDBUtil,getCheckoutByStaff_ListInfo_Detail,Long Statement,The length of the statement "cursor=database.rawQuery(SELECT_NON_CHECKOUT_INFO_BY_STAFF_CUSTOM_BETWEEN_DETAILS`new String[]{uid + ""`startDatetime`endDatetime});" is 132.,586
+58_Tea-master,com.fengjie.model.dbhelper.PickTea,PickTeaInfo,PickTeaInfo,Long Parameter List,The method has 7 parameters. ,23
+58_Tea-master,com.fengjie.model.dbhelper.Staff,StaffDBUtil,deleteStaff,Long Statement,The length of the statement "if (database.query(PickTeaDBUtil.TB_PICK_TEA_INFO`new String[]{STAFF_ID}`STAFF_ID + "==?"`new String[]{uid + ""}`null`null`null).moveToFirst()) {" is 145.,105
+58_Tea-master,com.fengjie.model.dbhelper.Staff,StaffDBUtil,updateStaff,Long Statement,The length of the statement "if ((database.query(TB_STAFF_INFO`null`STAFF_ID + "==?"`new String[]{staffInfo.getStaff_id() + ""}`null`null`null)).moveToFirst()) {" is 132.,120
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo,Magic Number,The method contains a magic number: 2,117
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo,Magic Number,The method contains a magic number: 3,117
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo,Missing default,The following switch statement is missing a default case: switch (sortType) {,117
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfoByTime,Long Statement,The length of the statement "cursor=database.rawQuery(GET_LIST_INFO_BY_TIME_BETWEEN`new String[]{start_checkout_date`end_checkout_date + " 23:59:59"});" is 122.,197
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo_Detail_BY_TIME,Long Identifier,The length of the field GET_LIST_INFO_DETAIL_BY_TIME_BEFORE is 35.,275
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo_Detail_BY_TIME,Long Identifier,The length of the field GET_LIST_INFO_DETAIL_BY_TIME_AFTER is 34.,275
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo_Detail_BY_TIME,Long Identifier,The length of the field GET_LIST_INFO_DETAIL_BY_TIME_ALL is 32.,275
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo_Detail_BY_TIME,Long Identifier,The length of the field GET_LIST_INFO_DETAIL_BY_TIME_BETWEEN is 36.,275
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo_Detail_BY_TIME,Long Statement,The length of the statement "cursor=database.rawQuery(GET_LIST_INFO_DETAIL_BY_TIME_BETWEEN`new String[]{start_checkout_date`end_checkout_date + " 23:59:59"});" is 129.,275
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo_Detail_BY_TIME,Long Identifier,The length of the field GET_LIST_INFO_DETAIL_BY_TIME_Onedate is 36.,328
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo_Detail_ByRecord,Long Identifier,The length of the field GET_checkout_serial_numbers_BY_checkout_record_serial is 53.,362
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,getListInfo_Detail_ByRecord,Long Statement,The length of the statement "Cursor cursor=database.rawQuery(GET_checkout_serial_numbers_BY_checkout_record_serial`new String[]{checkout_record_serial});" is 124.,362
+58_Tea-master,com.fengjie.model.dbhelper.Statistic,StatisticDBUtil,get_Detail_ListInfo_order_by_serial_number,Long Identifier,The length of the field GET_LIST_INFO_DETAIL_order_BY_serial_number is 43.,395
+58_Tea-master,com.fengjie.model.dbhelper.Tea,TeaDBUtil,updateTea,Long Statement,The length of the statement "if ((database.query(TB_TEA_INFO`null`TEA_ID + "==?"`new String[]{teaInfo.getTea_Id() + ""}`null`null`null)).moveToFirst()) {" is 124.,106
+58_Tea-master,com.fengjie.model.dbhelper.Tea,TeaDBUtil,updateTeaUseCategory,Long Statement,The length of the statement "if ((database.query(TB_TEA_INFO`null`TEA_CATEGORY + "==?"`new String[]{teaInfo.getTea_Category()}`null`null`null)).moveToFirst()) {" is 131.,123
+58_Tea-master,com.fengjie.model.dbhelper.Temp,TempDBUtil,selectTea,Long Statement,The length of the statement "Cursor cursor=database.query(TB_TEMP`null`TEMP_ID + "==?" + " And "+ TEMP_MD5+ "==?"`new String[]{id + ""`MD5Value}`null`null`null);" is 132.,110
+58_Tea-master,com.fengjie.model.dbhelper.Temp,TempDBUtil,selectTea,Magic Number,The method contains a magic number: 22,110
+58_Tea-master,com.fengjie.model.dbhelper.Temp,TempDBUtil,selectTea,Magic Number,The method contains a magic number: 22,110
+58_Tea-master,com.fengjie.model.dbhelper.Temp,TempDBUtil,selectTea,Magic Number,The method contains a magic number: 22,110
+58_Tea-master,com.fengjie.model.dbhelper.Temp,TempDBUtil,selectTea,Magic Number,The method contains a magic number: 22,131
+58_Tea-master,com.fengjie.model.dbhelper.Temp,TempDBUtil,selectTea,Magic Number,The method contains a magic number: 22,131
+58_Tea-master,com.fengjie.model.dbhelper.Temp,TempDBUtil,selectTea,Magic Number,The method contains a magic number: 22,131
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getChsAscii,Complex Conditional,The conditional expression bytes == null || bytes.length > 2 || bytes.length <= 0 is complex.,73
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 2,73
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 2,73
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,73
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,73
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,73
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,73
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,73
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,convert,Magic Number,The method contains a magic number: 160,95
+58_Tea-master,com.fengjie.model.helper.characterParser,CharacterParser,getSelling,Magic Number,The method contains a magic number: 2,112
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,PrinterClassSerialPort,Complex Conditional,The conditional expression buffer[0] == 0x08 || buffer[0] == 0x01 || buffer[0] == 0x04 || buffer[0] == 0x02 is complex.,24
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,PrinterClassSerialPort,Magic Number,The method contains a magic number: 200,24
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,PrinterClassSerialPort,Magic Number,The method contains a magic number: 0x08,24
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,PrinterClassSerialPort,Magic Number,The method contains a magic number: 0x04,24
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,PrinterClassSerialPort,Magic Number,The method contains a magic number: 0x02,24
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,onDataReceivedListener,Complex Conditional,The conditional expression buffer[0] == 0x08 || buffer[0] == 0x01 || buffer[0] == 0x04 || buffer[0] == 0x02 is complex.,44
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,onDataReceivedListener,Magic Number,The method contains a magic number: 0x08,44
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,onDataReceivedListener,Magic Number,The method contains a magic number: 0x04,44
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,onDataReceivedListener,Magic Number,The method contains a magic number: 0x02,44
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,run,Magic Number,The method contains a magic number: 300,69
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,open,Magic Number,The method contains a magic number: 200,111
+58_Tea-master,com.fengjie.model.helper.printer,PrinterClassSerialPort,write,Magic Number,The method contains a magic number: 200,184
+58_Tea-master,com.fengjie.model.helper.printer,WriteThread,run,Magic Number,The method contains a magic number: 300,69
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,getImage,Magic Number,The method contains a magic number: 8,48
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,resizeImage,Magic Number,The method contains a magic number: 24,91
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,resizeImage,Magic Number,The method contains a magic number: 24,91
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,resizeImage,Magic Number,The method contains a magic number: 2,91
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,string2Unicode,Magic Number,The method contains a magic number: 2,122
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,string2Unicode,Magic Number,The method contains a magic number: 2,122
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,string2Unicode,Magic Number,The method contains a magic number: 2,122
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,string2Unicode,Magic Number,The method contains a magic number: 2,122
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,string2Unicode,Magic Number,The method contains a magic number: 0xff,122
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,string2Unicode,Magic Number,The method contains a magic number: 0xff,122
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 7,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 8,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 7,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 8,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 7,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 7,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 24,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 24,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 8,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 8,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 8,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 4,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 4,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 0x1f,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 0x10,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 2,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 8,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 3,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 4,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 4,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 4,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,StartBmpToPrintCode,Magic Number,The method contains a magic number: 4,146
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 2,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 8,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 0xff000000,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 24,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 0xff0000,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 16,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 0xff00,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 8,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 66,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 129,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 25,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 128,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 8,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 16,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 38,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 74,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 112,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 128,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 8,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 128,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 112,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 94,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 18,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 128,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 8,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 128,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 255,201
+58_Tea-master,com.fengjie.model.helper.printer,PrintService,encodeYUV420SP,Magic Number,The method contains a magic number: 255,201
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,initView,Long Identifier,The length of the field left_button_bottomButton_moudule is 32.,25
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,initView,Long Identifier,The length of the field right_button_bottomButton_moudule is 33.,25
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,initView,Long Identifier,The length of the field moreFuntion_button_bottomButton_moudule is 39.,25
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,init,Long Identifier,The length of the field right_button_bottomButton_moudule is 33.,35
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,init,Long Identifier,The length of the field left_button_bottomButton_moudule is 32.,50
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,init,Long Identifier,The length of the field right_button_bottomButton_moudule is 33.,50
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,init,Long Identifier,The length of the field left_button_bottomButton_moudule is 32.,67
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,init,Long Identifier,The length of the field right_button_bottomButton_moudule is 33.,67
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,init,Long Identifier,The length of the field moreFuntion_button_bottomButton_moudule is 39.,67
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setAllButtonSameColor,Long Identifier,The length of the field right_button_bottomButton_moudule is 33.,87
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setAllButtonSameColor,Long Identifier,The length of the field left_button_bottomButton_moudule is 32.,87
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setAllButtonSameColor,Long Identifier,The length of the field moreFuntion_button_bottomButton_moudule is 39.,87
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setRightButtonBackground,Long Identifier,The length of the field right_button_bottomButton_moudule is 33.,96
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setLeftButtonBackground,Long Identifier,The length of the field left_button_bottomButton_moudule is 32.,100
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setMoreFuntionButtonBackground,Long Identifier,The length of the field moreFuntion_button_bottomButton_moudule is 39.,105
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setLeftButtonVisibility,Long Identifier,The length of the field left_button_bottomButton_moudule is 32.,108
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setRightButtonVisibility,Long Identifier,The length of the field right_button_bottomButton_moudule is 33.,116
+58_Tea-master,com.fengjie.model.userdefinedview,CustomBottomButton,setfuntionButtonView,Long Identifier,The length of the field moreFuntion_button_bottomButton_moudule is 39.,120
+58_Tea-master,com.fengjie.model.userdefinedview,DropDownWindow,DropDownWindow,Long Parameter List,The method has 5 parameters. ,35
+58_Tea-master,com.fengjie.model.userdefinedview,DropDownWindow,DropDownWindow,Magic Number,The method contains a magic number: 30,35
+58_Tea-master,com.fengjie.model.userdefinedview,DropDownWindow,DropDownWindow,Magic Number,The method contains a magic number: 6,35
+58_Tea-master,com.fengjie.model.userdefinedview,DropDownWindow,DropDownWindow,Magic Number,The method contains a magic number: 11,35
+58_Tea-master,com.fengjie.model.userdefinedview,DropDownWindow,DropDownWindow,Magic Number,The method contains a magic number: 2,35
+58_Tea-master,com.fengjie.model.userdefinedview,Menu,init,Magic Number,The method contains a magic number: 30,89
+58_Tea-master,com.fengjie.model.userdefinedview,Menu,initPopupWindow,Magic Number,The method contains a magic number: 60,127
+58_Tea-master,com.fengjie.model.userdefinedview,Menu,initPopupWindow,Magic Number,The method contains a magic number: 90,127
+58_Tea-master,com.fengjie.model.utils,HttpUtils,doGet,Empty catch clause,The method has an empty catch block.,88
+58_Tea-master,com.fengjie.model.utils,HttpUtils,doGet,Empty catch clause,The method has an empty catch block.,88
+58_Tea-master,com.fengjie.model.utils,HttpUtils,doGet,Magic Number,The method contains a magic number: 200,88
+58_Tea-master,com.fengjie.model.utils,HttpUtils,doGet,Magic Number,The method contains a magic number: 128,88
+58_Tea-master,com.fengjie.model.utils,SDCardUtils,getSDCardAllSize,Magic Number,The method contains a magic number: 4,45
+58_Tea-master,com.fengjie.model.utils,SDCardUtils,getFreeBytes,Magic Number,The method contains a magic number: 4,64
+58_Tea-master,com.fengjie.model.utils,SPUtils,findApplyMethod,Empty catch clause,The method has an empty catch block.,159
+58_Tea-master,com.fengjie.model.utils,SPUtils,apply,Empty catch clause,The method has an empty catch block.,178
+58_Tea-master,com.fengjie.model.utils,SPUtils,apply,Empty catch clause,The method has an empty catch block.,178
+58_Tea-master,com.fengjie.model.utils,SPUtils,apply,Empty catch clause,The method has an empty catch block.,178
+58_Tea-master,com.fengjie.model.utils,SharedPreferencesCompat,findApplyMethod,Empty catch clause,The method has an empty catch block.,159
+58_Tea-master,com.fengjie.model.utils,SharedPreferencesCompat,apply,Empty catch clause,The method has an empty catch block.,178
+58_Tea-master,com.fengjie.model.utils,SharedPreferencesCompat,apply,Empty catch clause,The method has an empty catch block.,178
+58_Tea-master,com.fengjie.model.utils,SharedPreferencesCompat,apply,Empty catch clause,The method has an empty catch block.,178

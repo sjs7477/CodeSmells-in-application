@@ -1,0 +1,121 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,getRandomValWithSpecifySubRate,Long Parameter List,The method has 5 parameters. ,34
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,randomBonusWithSpecifyBound,Long Parameter List,The method has 7 parameters. ,49
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,randomBonusWithSpecifyBound,Long Statement,The length of the statement "logger.info("获�?�下一个红包金�? | {} | {} | {} | {} | {} | {} | {}"`totalBonus`totalNum`sentBonus`sentNum`rdMin`rdMax`bigRate);" is 136.,49
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,randomBonusWithSpecifyBound,Magic Number,The method contains a magic number: 2.0,49
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,randomBonusWithSpecifyBound,Magic Number,The method contains a magic number: 2.0,49
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,randomBonusWithSpecifyBound,Magic Number,The method contains a magic number: 2.0,49
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,randomBonusWithSpecifyBound,Magic Number,The method contains a magic number: 2,49
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,randomBonusWithSpecifyBound,Magic Number,The method contains a magic number: 2,49
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,createBonusList,Long Parameter List,The method has 5 parameters. ,113
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,main,Magic Number,The method contains a magic number: 100_00,131
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,main,Magic Number,The method contains a magic number: 13,131
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,main,Magic Number,The method contains a magic number: 100,131
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,main,Magic Number,The method contains a magic number: 200_00,131
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.algorithm,RedEnvelopeAlgorithm,main,Magic Number,The method contains a magic number: 0.8,131
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,getLastTime,Magic Number,The method contains a magic number: 23,124
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,getLastTime,Magic Number,The method contains a magic number: 59,124
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,getLastTime,Magic Number,The method contains a magic number: 59,124
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,getLastTime,Magic Number,The method contains a magic number: 999_999_999,124
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,main,Magic Number,The method contains a magic number: 2018,138
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,main,Magic Number,The method contains a magic number: 2,138
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,main,Magic Number,The method contains a magic number: 2019,138
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,main,Magic Number,The method contains a magic number: 2,138
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,DateTimeUtil,main,Magic Number,The method contains a magic number: 2,138
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,EmailUtil,sendTextEmail,Long Parameter List,The method has 7 parameters. ,22
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,EmailUtil,sendHtmlEmail,Long Parameter List,The method has 7 parameters. ,32
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,EmailUtil,buildSimpleEmail,Long Parameter List,The method has 6 parameters. ,42
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,EmailUtil,buildHtmlEmail,Long Parameter List,The method has 6 parameters. ,47
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,EmailUtil,setEmailBaseInfo,Long Parameter List,The method has 7 parameters. ,52
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,HttpUtil,doGet,Magic Number,The method contains a magic number: 200,42
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,HttpUtil,doPost,Complex Method,Cyclomatic complexity of the method is 8,86
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,HttpUtil,doPost,Magic Number,The method contains a magic number: 200,86
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,ListUtil,main,Magic Number,The method contains a magic number: 120,46
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,ListUtil,main,Magic Number,The method contains a magic number: 17,46
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,MathUtil,lcm,Complex Method,Cyclomatic complexity of the method is 8,8
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,PageUtil,checkPageSize,Magic Number,The method contains a magic number: 10,15
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,StringUtil,splitToLongList,Empty catch clause,The method has an empty catch block.,70
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,TimeUtil,getIntervalTime,Magic Number,The method contains a magic number: 10.0,25
+4_SpringMVC-Project-master,com.doodl6.springmvc.common.util,TimeUtil,getIntervalTime,Magic Number,The method contains a magic number: 100.0,25
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,JSONObjectTransCoder,decode,Magic Number,The method contains a magic number: 1024,22
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 5,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 5,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 250,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 1000,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 60,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 60,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 6,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 30,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,MemcachedConfig,memCachedClient,Magic Number,The method contains a magic number: 3000,24
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.memcached,XmemcachedImpl,set,Magic Number,The method contains a magic number: 1000,23
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,BloomFilterHelper,murmurHashOffset,Magic Number,The method contains a magic number: 32,22
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,BloomFilterHelper,optimalNumOfBits,Magic Number,The method contains a magic number: 2,39
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,BloomFilterHelper,optimalNumOfBits,Magic Number,The method contains a magic number: 2,39
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,BloomFilterHelper,optimalNumOfHashFunctions,Magic Number,The method contains a magic number: 2,49
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,RedisConfig,redisConnectionFactory,Long Identifier,The length of the identifier lettucePoolingClientConfiguration is 33.,46
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,RedisConfig,redisConnectionFactory,Long Statement,The length of the statement "LettucePoolingClientConfiguration lettucePoolingClientConfiguration=LettucePoolingClientConfiguration.builder().commandTimeout(Duration.ofSeconds(10)).shutdownTimeout(Duration.ZERO).poolConfig(poolConfig).build();" is 213.,46
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,RedisConfig,redisConnectionFactory,Long Statement,The length of the statement "LettuceConnectionFactory lettuceConnectionFactory=new LettuceConnectionFactory(redisStandaloneConfiguration`lettucePoolingClientConfiguration);" is 143.,46
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,RedisConfig,redisConnectionFactory,Magic Number,The method contains a magic number: 10,46
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.cache.redis,RedisService,getLock,Long Statement,The length of the statement "String script="if redis.call('setNX'`KEYS[1]`ARGV[1]) == 1 then if redis.call('get'`KEYS[1])==ARGV[1] then return redis.call('expire'`KEYS[1]`ARGV[2]) else return 0 end end";" is 174.,55
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.elasticsearch,ElasticSearchService,queryArticle,Magic Number,The method contains a magic number: 5,79
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment.dao.impl,IDAllocDaoImpl,updateMaxIdByCustomStepAndGetLeafAlloc,Long Statement,The length of the statement "LeafAlloc result=sqlSession.selectOne("com.doodl6.springmvc.service.leaf.segment.dao.IDAllocMapper.getLeafAlloc"`leafAlloc.getKey());" is 133.,52
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment.model,SegmentBuffer,nextPos,Magic Number,The method contains a magic number: 2,63
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateCacheFromDbAtEveryMinute,Magic Number,The method contains a magic number: 60,74
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateCacheFromDbAtEveryMinute,Magic Number,The method contains a magic number: 60,74
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,get,Long Identifier,The length of the field EXCEPTION_ID_IDCACHE_INIT_FALSE is 31.,128
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateSegmentFromDb,Long Statement,The length of the statement "logger.info("leafKey[{}]` step[{}]` duration[{}mins]` nextStep[{}]"`key`buffer.getStep()`String.format("%.2f"`((double)duration / (1000 * 60)))`nextStep);" is 154.,153
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateSegmentFromDb,Magic Number,The method contains a magic number: 2,153
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateSegmentFromDb,Magic Number,The method contains a magic number: 2,153
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateSegmentFromDb,Magic Number,The method contains a magic number: 2,153
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateSegmentFromDb,Magic Number,The method contains a magic number: 2,153
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateSegmentFromDb,Magic Number,The method contains a magic number: 2,153
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateSegmentFromDb,Magic Number,The method contains a magic number: 1000,153
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,updateSegmentFromDb,Magic Number,The method contains a magic number: 60,153
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,getIdFromSegmentBuffer,Complex Conditional,The conditional expression !buffer.isNextReady() && (segment.getIdle() < 0.9 * segment.getStep()) && buffer.getThreadRunning().compareAndSet(false`true) is complex.,196
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,getIdFromSegmentBuffer,Long Identifier,The length of the field EXCEPTION_ID_TWO_SEGMENTS_ARE_NULL is 34.,196
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,getIdFromSegmentBuffer,Long Statement,The length of the statement "if (!buffer.isNextReady() && (segment.getIdle() < 0.9 * segment.getStep()) && buffer.getThreadRunning().compareAndSet(false`true)) {" is 132.,196
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,getIdFromSegmentBuffer,Magic Number,The method contains a magic number: 0.9,196
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,waitAndSleep,Magic Number,The method contains a magic number: 10000,254
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.leaf.segment,SegmentIDGenImpl,waitAndSleep,Magic Number,The method contains a magic number: 10,254
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq.listener,ChatRecordMessageListener,consumeMessage,Long Statement,The length of the statement "chatService.saveChatRecord(messageJSON.getString("userName")`messageJSON.getString("content")`messageJSON.getLongValue("timestamp"));" is 133.,28
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq,RocketMQConfig,afterPropertiesSet,Long Statement,The length of the statement "clearUserProducer.setTransactionListener(applicationContext.getAutowireCapableBeanFactory().getBean(ClearUserTransactionListener.class));" is 137.,101
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq,RocketMQConfig,afterPropertiesSet,Long Statement,The length of the statement "clearUserConsumer.registerMessageListener(applicationContext.getAutowireCapableBeanFactory().getBean(ClearUserMessageListener.class));" is 134.,101
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq,RocketMQConfig,afterPropertiesSet,Long Statement,The length of the statement "chatRecordConsumer.registerMessageListener(applicationContext.getAutowireCapableBeanFactory().getBean(ChatRecordMessageListener.class));" is 136.,101
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq,RocketMQConfig,afterPropertiesSet,Magic Number,The method contains a magic number: 2,101
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq,RocketMQConfig,afterPropertiesSet,Magic Number,The method contains a magic number: 5,101
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq,RocketMQConfig,afterPropertiesSet,Magic Number,The method contains a magic number: 100,101
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq,RocketMQConfig,afterPropertiesSet,Magic Number,The method contains a magic number: 2000,101
+4_SpringMVC-Project-master,com.doodl6.springmvc.service.mq,RocketMQService,sendNewChatRecord,Long Statement,The length of the statement "Message msg=new Message(chatRecordTopic`chatRecordTags`messageJSON.toJSONString().getBytes(RemotingHelper.DEFAULT_CHARSET));" is 124.,36
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.aspect,RtAspect,recordRt,Long Statement,The length of the statement "logger.info("{} | {} | {}ms"`pjp.getSignature().getDeclaringType().getSimpleName()`pjp.getSignature().getName()`System.currentTimeMillis() - start);" is 148.,38
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ChatController,pullData,Magic Number,The method contains a magic number: 5000L,42
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ChatController,pullData,Magic Number,The method contains a magic number: 4000,42
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ChatController,run,Magic Number,The method contains a magic number: 9,124
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,PullDataThread,run,Magic Number,The method contains a magic number: 9,124
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ExcelController,down,Magic Number,The method contains a magic number: 18,27
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ExcelController,down,Magic Number,The method contains a magic number: 19,27
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ExcelController,upload,Long Statement,The length of the statement "response.setData("文件上传�?功，文件�??:" + file.getOriginalFilename() + "，有效行数:"+ processResult.getRows());" is 127.,57
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,XhttpController,sendMessage,Magic Number,The method contains a magic number: 10,19
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,XhttpController,sendMessage,Magic Number,The method contains a magic number: 1000,19
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ZkController,doLockBiz,Magic Number,The method contains a magic number: 60,27
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ZkController,doLockBiz,Magic Number,The method contains a magic number: 1000L,27
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ZkController,doWriteLockBiz,Magic Number,The method contains a magic number: 60,59
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ZkController,doWriteLockBiz,Magic Number,The method contains a magic number: 1000L,59
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ZkController,doReadLockBiz,Magic Number,The method contains a magic number: 5,91
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.controller,ZkController,doReadLockBiz,Magic Number,The method contains a magic number: 1000L,91
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.listener,ExcelDataListener,invoke,Long Statement,The length of the statement "logger.info("读�?�到excel上传数�?� | {} | {}"`analysisContext.readRowHolder().getRowIndex()`JSON.toJSONString(excelData));" is 127.,26
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.server,ChatServer,start,Long Statement,The length of the statement "b.group(group).channel(NioServerSocketChannel.class).localAddress(new InetSocketAddress(8888)).childHandler(new WebSocketServerInitializer()).option(ChannelOption.SO_BACKLOG`128).childOption(ChannelOption.SO_KEEPALIVE`true);" is 224.,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.server,ChatServer,start,Magic Number,The method contains a magic number: 8888,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.server,ChatServer,start,Magic Number,The method contains a magic number: 128,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.server,HeartbeatHandler,userEventTriggered,Long Statement,The length of the statement "ctx.writeAndFlush(new TextWebSocketFrame("[系统]:哈喽，你还在嘛")).addListener(ChannelFutureListener.CLOSE_ON_FAILURE);" is 128.,11
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.server,WebSocketServerInitializer,initChannel,Magic Number,The method contains a magic number: 60,18
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.server,WebSocketServerInitializer,initChannel,Magic Number,The method contains a magic number: 64,18
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.server,WebSocketServerInitializer,initChannel,Magic Number,The method contains a magic number: 1024,18
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.util,RequestUtil,getIpAddress,Complex Conditional,The conditional expression ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip) is complex.,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.util,RequestUtil,getIpAddress,Complex Conditional,The conditional expression ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip) is complex.,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.util,RequestUtil,getIpAddress,Complex Conditional,The conditional expression ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip) is complex.,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.util,RequestUtil,getIpAddress,Complex Conditional,The conditional expression ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip) is complex.,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.util,RequestUtil,getIpAddress,Complex Conditional,The conditional expression ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip) is complex.,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.util,RequestUtil,getIpAddress,Empty catch clause,The method has an empty catch block.,17
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.websocket,ChatWebSocket,sendMessage,Empty catch clause,The method has an empty catch block.,80
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.websocket,ChatWebSocket,sendMessage,Magic Number,The method contains a magic number: 3,80
+4_SpringMVC-Project-master,com.doodl6.springmvc.web.websocket,ChatWebSocket,sendMessage,Magic Number,The method contains a magic number: 100,80

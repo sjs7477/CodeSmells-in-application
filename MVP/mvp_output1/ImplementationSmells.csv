@@ -1,0 +1,17 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+CodeSmells-in-application-MVP-1,me.kaede.mvp.eventbus,EventBusActivity,onCreate,Long Statement,The length of the statement "RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT`RelativeLayout.LayoutParams.MATCH_PARENT);" is 156.,27
+CodeSmells-in-application-MVP-1,me.kaede.mvp.eventbus,EventBusActivity,onEvent,Complex Conditional,The conditional expression getDatasEvent != null && getDatasEvent.getDatas() != null && getDatasEvent.getDatas().size() > 0 is complex.,82
+CodeSmells-in-application-MVP-1,me.kaede.mvp.eventbus.presenter,EventBusPresenterCompl,loadDatas,Magic Number,The method contains a magic number: 2000,25
+CodeSmells-in-application-MVP-1,me.kaede.mvp.fragment,DemoFragment,onEvent,Complex Conditional,The conditional expression getDatasEvent != null && getDatasEvent.getDatas() != null && getDatasEvent.getDatas().size() > 0 is complex.,79
+CodeSmells-in-application-MVP-1,me.kaede.mvp.fragment,FragmentsActivity,onCreate,Magic Number,The method contains a magic number: 3,17
+CodeSmells-in-application-MVP-1,me.kaede.mvp.fragment.presenter,ActivityPresenterCompl,loadDatas,Magic Number,The method contains a magic number: 1000,24
+CodeSmells-in-application-MVP-1,me.kaede.mvp.home,HomeActivity,onCreate,Long Statement,The length of the statement "RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT`RelativeLayout.LayoutParams.MATCH_PARENT);" is 156.,24
+CodeSmells-in-application-MVP-1,me.kaede.mvp.home.presenter,HomePresenterCompl,loadDatas,Magic Number,The method contains a magic number: 2000,38
+CodeSmells-in-application-MVP-1,me.kaede.mvp.login.model,UserModel,checkUserValidity,Complex Conditional,The conditional expression name == null || passwd == null || !name.equals(getName()) || !passwd.equals(getPasswd()) is complex.,25
+CodeSmells-in-application-MVP-1,me.kaede.mvp.login.presenter,LoginPresenterCompl,doLogin,Magic Number,The method contains a magic number: 5000,28
+CodeSmells-in-application-MVP-1,me.kaede.mvp.loginoptimized.model,UserModel,checkUserValidity,Complex Conditional,The conditional expression name == null || passwd == null || !name.equals(getName()) || !passwd.equals(getPasswd()) is complex.,25
+CodeSmells-in-application-MVP-1,me.kaede.mvp.loginoptimized.presenter,LoginPresenterCompl,doLogin,Magic Number,The method contains a magic number: 5000,28
+CodeSmells-in-application-MVP-1,me.kaede.mvp.outteradapter,AdapterActivityA,onCreate,Long Statement,The length of the statement "RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT`RelativeLayout.LayoutParams.MATCH_PARENT);" is 156.,28
+CodeSmells-in-application-MVP-1,me.kaede.mvp.outteradapter,AdapterActivityB,onCreate,Long Statement,The length of the statement "RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT`RelativeLayout.LayoutParams.MATCH_PARENT);" is 156.,28
+CodeSmells-in-application-MVP-1,me.kaede.mvp.outteradapter.presenter,AdapterPresenterCompl,loadDatas,Magic Number,The method contains a magic number: 2000,22
+CodeSmells-in-application-MVP-1,me.kaede.mvp.outteradapter.presenter,AdapterPresenterCompl,loadMoreData,Magic Number,The method contains a magic number: 2000,39

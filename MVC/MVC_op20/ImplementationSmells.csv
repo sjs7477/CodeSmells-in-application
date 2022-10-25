@@ -1,0 +1,102 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+5_springboot-simple-master,tk.springboot.simple.conf,WebMvcConfig,addInterceptors,Long Statement,The length of the statement "registry.addInterceptor(new GeneralInterceptor()).addPathPatterns("/**").excludePathPatterns("/login/**"`"/pull/**"`"/user/save"`"/user/ifExist/**");" is 149.,17
+5_springboot-simple-master,tk.springboot.simple.controller,DeliveryManInfoController,upload,Complex Method,Cyclomatic complexity of the method is 9,61
+5_springboot-simple-master,tk.springboot.simple.controller,DeliveryManInfoController,upload,Long Statement,The length of the statement "List<SheetBean> sheetBeans=ExcelUtil.readExcel(file.getInputStream()`originalName.substring(originalName.lastIndexOf(".") + 1));" is 128.,61
+5_springboot-simple-master,tk.springboot.simple.controller,DeliveryManInfoController,doValid,Long Statement,The length of the statement "if (StringUtils.isEmpty(deliveryManInfo.getCode()) || StringUtils.isEmpty(deliveryManInfo.getName())) throw new BizException("承�?商代�?或承�?商�??称�?能为空");" is 174.,109
+5_springboot-simple-master,tk.springboot.simple.controller,OrderController,upload,Complex Method,Cyclomatic complexity of the method is 10,69
+5_springboot-simple-master,tk.springboot.simple.controller,OrderController,upload,Long Statement,The length of the statement "List<SheetBean> sheetBeans=ExcelUtil.readExcel(file.getInputStream()`originalName.substring(originalName.lastIndexOf(".") + 1));" is 128.,69
+5_springboot-simple-master,tk.springboot.simple.controller,PersonalInfoController,upload,Complex Method,Cyclomatic complexity of the method is 9,61
+5_springboot-simple-master,tk.springboot.simple.controller,PersonalInfoController,upload,Long Statement,The length of the statement "List<SheetBean> sheetBeans=ExcelUtil.readExcel(file.getInputStream()`originalName.substring(originalName.lastIndexOf(".") + 1));" is 128.,61
+5_springboot-simple-master,tk.springboot.simple.controller,SendInfoController,upload,Complex Method,Cyclomatic complexity of the method is 9,64
+5_springboot-simple-master,tk.springboot.simple.controller,SendInfoController,upload,Long Statement,The length of the statement "List<SheetBean> sheetBeans=ExcelUtil.readExcel(file.getInputStream()`originalName.substring(originalName.lastIndexOf(".") + 1));" is 128.,64
+5_springboot-simple-master,tk.springboot.simple.controller,SendInfoController,doValid,Long Statement,The length of the statement "if (StringUtils.isEmpty(sendInfo.getCode()) || StringUtils.isEmpty(sendInfo.getName())) throw new BizException("客户编�?或者客户�??称�?能为空");" is 157.,113
+5_springboot-simple-master,tk.springboot.simple.mapper,MyBatis331Test,testInsertList,Magic Number,The method contains a magic number: 3,58
+5_springboot-simple-master,tk.springboot.simple.service,BaseService,createDateRangeExample,Complex Conditional,The conditional expression !StringUtils.isEmpty(sort) && !"null".equals(sort) && !"undefined".equals(sort)&& !StringUtils.isEmpty(order)&& !"null".equals(order)&& !"undefined".equals(order) is complex.,13
+5_springboot-simple-master,tk.springboot.simple.service,BaseService,createDateRangeExample,Long Parameter List,The method has 5 parameters. ,13
+5_springboot-simple-master,tk.springboot.simple.service,BaseService,createDateRangeExample,Long Statement,The length of the statement "if (!StringUtils.isEmpty(sort) && !"null".equals(sort) && !"undefined".equals(sort)&& !StringUtils.isEmpty(order)&& !"null".equals(order)&& !"undefined".equals(order)) example.setOrderByClause(String.format("%s %s"`sort`order));" is 228.,13
+5_springboot-simple-master,tk.springboot.simple.service,BaseService,createDateRangeExample,Magic Number,The method contains a magic number: 3,13
+5_springboot-simple-master,tk.springboot.simple.service,FundsStatisticsInfoService,getAll,Long Statement,The length of the statement "return fundsStatisticsInfoMapper.selectByExample(createDateRangeExample(FundsStatisticsInfo.class`order`sort`dateRange));" is 121.,21
+5_springboot-simple-master,tk.springboot.simple.service,UploadResultService,getByType,Long Statement,The length of the statement "Example example=createDateRangeExample(UploadResult.class`order`sort`dateRange`"upload_type=" + uploadResult.getUploadType().ordinal());" is 136.,31
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Complex Method,Cyclomatic complexity of the method is 19,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 2,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 3,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 4,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 5,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 6,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 7,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 8,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 9,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 10,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 11,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 12,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 13,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseSendInfos,Magic Number,The method contains a magic number: 14,35
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Complex Method,Cyclomatic complexity of the method is 16,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 2,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 3,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 4,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 5,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 6,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 7,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 8,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 9,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 10,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseDeliveryManInfos,Magic Number,The method contains a magic number: 11,88
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Complex Method,Cyclomatic complexity of the method is 16,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 2,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 3,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 4,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 5,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 6,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 7,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 8,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 9,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 10,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parsePersonalInfos,Magic Number,The method contains a magic number: 11,124
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Complex Method,Cyclomatic complexity of the method is 23,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 2,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 3,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 4,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 5,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 6,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 7,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 8,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 9,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 10,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 11,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 12,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 13,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 14,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 15,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 16,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 17,160
+5_springboot-simple-master,tk.springboot.simple.util,UploadExcelRules,parseOrders,Magic Number,The method contains a magic number: 18,160
+5_springboot-simple-master,tk.springboot.simple.test,BeanUtil,genCreateTableSql,Complex Conditional,The conditional expression !field.equals("tableName") && !field.equals("param") && !propertys[0].equals("List") is complex.,73
+5_springboot-simple-master,tk.springboot.simple.test,BeanUtil,genCreateTableSql,Complex Method,Cyclomatic complexity of the method is 8,73
+5_springboot-simple-master,tk.springboot.simple.test,PermissionTest,userSave,Magic Number,The method contains a magic number: 44,31
+5_springboot-simple-master,tk.springboot.simple.test,PermissionTest,userSave,Magic Number,The method contains a magic number: 4,31
+5_springboot-simple-master,tk.springboot.simple.test,PermissionTest,userSave,Magic Number,The method contains a magic number: 4,31
+5_springboot-simple-master,tk.springboot.simple.test,PermissionTest,userSave,Magic Number,The method contains a magic number: 4,31
+5_springboot-simple-master,tk.springboot.simple.test,PermissionTest,userSave,Magic Number,The method contains a magic number: 2,31
+5_springboot-simple-master,tk.springboot.simple.test,RoleTest,roleSave,Magic Number,The method contains a magic number: 10,31
+5_springboot-simple-master,tk.springboot.simple.test,UserTest,userSave,Magic Number,The method contains a magic number: 20,33
+5_springboot-simple-master,tk.comm.utils,DownUploadUtil,download,Magic Number,The method contains a magic number: 2048,61
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellTypeName,Magic Number,The method contains a magic number: 3,222
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellTypeName,Magic Number,The method contains a magic number: 4,222
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellTypeName,Magic Number,The method contains a magic number: 2,222
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellValue,Complex Method,Cyclomatic complexity of the method is 8,238
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellValue,Magic Number,The method contains a magic number: 4,238
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellValue,Magic Number,The method contains a magic number: 170,238
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellValue,Magic Number,The method contains a magic number: 2,238
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellValue,Magic Number,The method contains a magic number: 170,238
+5_springboot-simple-master,tk.comm.utils,ExcelUtil,getCellValue,Magic Number,The method contains a magic number: 3,238
+5_springboot-simple-master,tk.comm.utils,MailUtil,createMimeMessage,Complex Method,Cyclomatic complexity of the method is 10,57
+5_springboot-simple-master,tk.comm.utils,MD5Util,getMD5By32bit,Magic Number,The method contains a magic number: 256,12
+5_springboot-simple-master,tk.comm.utils,MD5Util,getMD5By32bit,Magic Number,The method contains a magic number: 16,12
+5_springboot-simple-master,tk.comm.utils,MD5Util,main,Long Statement,The length of the statement "System.out.println(m.getMD5ToUpperBy32bit("InputCharset=1&Version=v1.0&Language=1&SignType=1&PageUrl=http://192.168.0.122/index.do&BgUrl=http://192.168.0.122/index.do&ShowUrl=http://192.168.0.122/index.do&MerchantOrderId=123456789&AssBillNo=123456789&TradeName=电商网站&TradeCode=hg456&SrcNcode=1234567&OrderCommitTime=20071117020101&SenderName=张三&SenderTel=021-888888888&SenderCompanyName=海购购物网站&SenderAddr=�?加哥350�?�&SenderZip=201020&SenderCity=�?加哥&SenderProvince=伊利诺伊州&SenderCountry=美国&CargoDescript=电器相关物�?&AllCargoTotalPrice=3700.00&AllCargoTotalTax=60.58&ExpressPrice=100.50&PayTotalPrice=3861.08&PayCUR=RMB&CrtCountryCode=AO&CrtAccount=356000023&CrtAccountName=�?�四&CrtCUR=RMB&CargoName=iphone4^GALAXY S4&CargoCode=100000^100001&HSCode=HG-100000^HG1000001&CargoOrigin=美国^加拿大&CargoNum=2^1&CargoUnit=部^部&CargoUnitPrice=1200.00^1300.00&CargoTotalTax=20.50^40.08ds12345"`"UTF-8"));" is 956.,52
+5_springboot-simple-master,tk.common.test,ExcelTest,writeExcelTest,Magic Number,The method contains a magic number: 5,19
+5_springboot-simple-master,tk.common.test,ExcelTest,writeExcelTest,Magic Number,The method contains a magic number: 10,19
+5_springboot-simple-master,tk.common.test,ExcelTest,writeExcelTest,Magic Number,The method contains a magic number: 2,19
+5_springboot-simple-master,tk.common.test,ExcelTest,writeExcelTest,Magic Number,The method contains a magic number: 5,19
+5_springboot-simple-master,tk.common.test,ExcelTest,readExcelTest,Magic Number,The method contains a magic number: 2,73
+5_springboot-simple-master,tk.common.test,MailTest,sendMail,Long Statement,The length of the statement "mailInfo.setContent("<img src='http://cimg2.163.com/help/vip/img/vipvsfree03.jpg' border='0' title='�?�级VIP邮箱，尊享20多项特�?�'>");" is 143.,14

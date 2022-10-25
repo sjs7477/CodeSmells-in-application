@@ -1,0 +1,25 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Android-MVC-Architecture-master,com.mirzaadil.task,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Android-MVC-Architecture-master,com.mirzaadil.task,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Android-MVC-Architecture-master,com.mirzaadil.task,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Android-MVC-Architecture-master,com.mirzaadil.task.controller.rest,ApiClient,getClient,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().baseUrl(ApplicationConstants.BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();" is 130.,16
+Android-MVC-Architecture-master,com.mirzaadil.task.controller.utils,RecyclerTouchListener,onInterceptTouchEvent,Complex Conditional,The conditional expression child != null && clickListener != null && gestureDetector.onTouchEvent(e) is complex.,38
+Android-MVC-Architecture-master,com.mirzaadil.task.model,Movie,Movie,Long Parameter List,The method has 14 parameters. ,46
+Android-MVC-Architecture-master,com.mirzaadil.task.view.activities,MainActivity,initNavigationDrawer,Long Statement,The length of the statement "ActionBarDrawerToggle actionBarDrawerToggle=new ActionBarDrawerToggle(this`drawerLayoutMain`mtoolbar`R.string.drawer_open`R.string.drawer_close){" is 145.,50
+Android-MVC-Architecture-master,com.mirzaadil.task.view.activities,MainActivity,initNavigationDrawer,Magic Number,The method contains a magic number: 25,50
+Android-MVC-Architecture-master,com.mirzaadil.task.view.activities,MainActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,123
+Android-MVC-Architecture-master,com.mirzaadil.task.view.activities,SearchActivity,onCreate,Magic Number,The method contains a magic number: 2,52
+Android-MVC-Architecture-master,com.mirzaadil.task.view.activities,SearchActivity,onCreate,Magic Number,The method contains a magic number: 2,52
+Android-MVC-Architecture-master,com.mirzaadil.task.view.activities,SearchActivity,onCreate,Magic Number,The method contains a magic number: 10,52
+Android-MVC-Architecture-master,com.mirzaadil.task.view.activities,SearchActivity,apiCall,Long Statement,The length of the statement "recyclerViewSearchMovies.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext()`recyclerViewSearchMovies`new ClickListener(){" is 143.,152
+Android-MVC-Architecture-master,com.mirzaadil.task.view.activities,SearchActivity,onResponse,Long Statement,The length of the statement "recyclerViewSearchMovies.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext()`recyclerViewSearchMovies`new ClickListener(){" is 143.,156
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,PopularMoviesFragment,initView,Magic Number,The method contains a magic number: 2,83
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,PopularMoviesFragment,initView,Magic Number,The method contains a magic number: 2,83
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,PopularMoviesFragment,initView,Magic Number,The method contains a magic number: 10,83
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,PopularMoviesFragment,callAPI,Long Statement,The length of the statement "recyclerViewPopularMovies.addOnItemTouchListener(new RecyclerTouchListener(getActivity()`recyclerViewPopularMovies`new ClickListener(){" is 135.,90
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,PopularMoviesFragment,onResponse,Long Statement,The length of the statement "recyclerViewPopularMovies.addOnItemTouchListener(new RecyclerTouchListener(getActivity()`recyclerViewPopularMovies`new ClickListener(){" is 135.,94
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,TopRatedMoviesFragment,initView,Magic Number,The method contains a magic number: 2,81
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,TopRatedMoviesFragment,initView,Magic Number,The method contains a magic number: 2,81
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,TopRatedMoviesFragment,initView,Magic Number,The method contains a magic number: 10,81
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,TopRatedMoviesFragment,callApi,Long Statement,The length of the statement "recyclerViewTopRatedMovies.addOnItemTouchListener(new RecyclerTouchListener(getActivity()`recyclerViewTopRatedMovies`new ClickListener(){" is 137.,89
+Android-MVC-Architecture-master,com.mirzaadil.task.view.fragments,TopRatedMoviesFragment,onResponse,Long Statement,The length of the statement "recyclerViewTopRatedMovies.addOnItemTouchListener(new RecyclerTouchListener(getActivity()`recyclerViewTopRatedMovies`new ClickListener(){" is 137.,93

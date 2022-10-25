@@ -1,0 +1,544 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+60_AndroidMvpEXample-master,com.hankou.base,BaseActivity,injectActivity,Long Statement,The length of the statement "mActivityComponent=DaggerActivityComponent.builder().activityModule(new ActivityModule(this)).appComponent(HankouApplication.getApplication().getAppComponent()).build();" is 169.,85
+60_AndroidMvpEXample-master,com.hankou.base,BaseFragment,injectFragment,Long Statement,The length of the statement "mFragmentComponent=DaggerFragmentComponent.builder().appComponent(HankouApplication.getApplication().getAppComponent()).fragmentModule(new FragmentModule(this)).build();" is 169.,78
+60_AndroidMvpEXample-master,com.hankou.common.view,MainActivity,initTabLayout,Magic Number,The method contains a magic number: 2,109
+60_AndroidMvpEXample-master,com.hankou.common.view,MainActivity,testIO,Magic Number,The method contains a magic number: 1024,211
+60_AndroidMvpEXample-master,com.hankou.common.view,MainActivity,testIO,Magic Number,The method contains a magic number: 8,211
+60_AndroidMvpEXample-master,com.hankou.common.view,MainActivity,testNIO,Magic Number,The method contains a magic number: 1024,243
+60_AndroidMvpEXample-master,com.hankou.common.view,MainActivity,testNIO,Magic Number,The method contains a magic number: 8,243
+60_AndroidMvpEXample-master,com.hankou.home.presenter,HomePresenterImpl,getData,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().getAllUser()`new CommonObserver<CommonEntity<List<UserEntity>>>(){" is 128.,28
+60_AndroidMvpEXample-master,com.hankou.home.presenter,VideoImagePresentImpl,getVideoImage,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().getVideoImage()`new CommonObserver<CommonEntity<ImageEntity>>(){" is 126.,17
+60_AndroidMvpEXample-master,com.hankou.home.presenter,VideoPresenterImpl,getVideos,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().getVideos()`new CommonObserver<CommonEntity<List<VideoEntity>>>(){" is 128.,30
+60_AndroidMvpEXample-master,com.hankou.home.presenter,VideoPresenterImpl,addVideo,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().addVideo(videoEntity)`new CommonObserver<CommonEntity<Object>>(){" is 127.,45
+60_AndroidMvpEXample-master,com.hankou.home.view,HomeFragment,initViews,Magic Number,The method contains a magic number: 20,41
+60_AndroidMvpEXample-master,com.hankou.home.view,SearchActivity,initListeners,Magic Number,The method contains a magic number: 2,40
+60_AndroidMvpEXample-master,com.hankou.home.view,SearchActivity,onTabSelected,Magic Number,The method contains a magic number: 2,43
+60_AndroidMvpEXample-master,com.hankou.home.view,SearchActivity,initFragment,Long Statement,The length of the statement "getSupportFragmentManager().beginTransaction().add(R.id.container`mHomeFragment`"home").add(R.id.container`mSceneFragment`"scene").add(R.id.container`mMineFragment`"mine").commitAllowingStateLoss();" is 198.,60
+60_AndroidMvpEXample-master,com.hankou.home.view,SearchActivity,showFragment,Magic Number,The method contains a magic number: 2,72
+60_AndroidMvpEXample-master,com.hankou.home.view,TestActivity,initViews,Magic Number,The method contains a magic number: 20,52
+60_AndroidMvpEXample-master,com.hankou.home.view,TestActivity,getData,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().getAllUser()`new CommonObserver<CommonEntity<List<UserEntity>>>(){" is 128.,74
+60_AndroidMvpEXample-master,com.hankou.home.view,VideoImageActivity,setKFImage,Long Statement,The length of the statement "mKeyFramesDrawable=new KeyframesDrawableBuilder().withImage(mKfImage).withMaxFrameRate(60).withExperimentalFeatures().withParticleFeatureConfigs(Pair.create("keyframes"`Pair.create(logoDrawable`new Matrix()))).build();" is 218.,108
+60_AndroidMvpEXample-master,com.hankou.home.view,VideoImageActivity,setKFImage,Magic Number,The method contains a magic number: 80,108
+60_AndroidMvpEXample-master,com.hankou.home.view,VideoImageActivity,setKFImage,Magic Number,The method contains a magic number: 80,108
+60_AndroidMvpEXample-master,com.hankou.home.view,VideoImageActivity,setKFImage,Magic Number,The method contains a magic number: 60,108
+60_AndroidMvpEXample-master,com.hankou.home.view,VideoImageActivity,getSampleImage,Empty catch clause,The method has an empty catch block.,129
+60_AndroidMvpEXample-master,com.hankou.mine.presenter,MinePresenterImpl,insert,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().insertUser(userEntity)`new CommonObserver<CommonEntity<Object>>(){" is 128.,32
+60_AndroidMvpEXample-master,com.hankou.mine.presenter,MinePresenterImpl,delete,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().deleteUser(userId)`new CommonObserver<CommonEntity<Object>>(){" is 124.,47
+60_AndroidMvpEXample-master,com.hankou.mine.presenter,MinePresenterImpl,selected,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().selectedUser(userId)`new CommonObserver<CommonEntity<UserEntity>>(){" is 130.,62
+60_AndroidMvpEXample-master,com.hankou.mine.presenter,MinePresenterImpl,update,Long Statement,The length of the statement "HttpUtil.getHttpResult(HttpManager.getInstance().getUserApi().updateUser(userEntity)`new CommonObserver<CommonEntity<Object>>(){" is 128.,77
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,AnimationBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,33
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,AnimationBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,39
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,AnimationBehavior,onNestedScroll,Magic Number,The method contains a magic number: 200,39
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,AnimationBehavior,onNestedScroll,Magic Number,The method contains a magic number: 200,39
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,BottomBarBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,39
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,BottomBarBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,45
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,BottomBarBehavior,onNestedScroll,Magic Number,The method contains a magic number: 400,45
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,BottomBarBehavior,onNestedScroll,Magic Number,The method contains a magic number: 400,45
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,CustomBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,20
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,CustomBehavior,onStartNestedScroll,Long Statement,The length of the statement "return nestedScrollAxes == ViewCompat.SCROLL_AXIS_VERTICAL || super.onStartNestedScroll(coordinatorLayout`child`directTargetChild`target`nestedScrollAxes);" is 155.,20
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,CustomBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,27
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,FloatButtonBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,41
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,FloatButtonBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,47
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,60
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onNestedPreScroll,Long Parameter List,The method has 6 parameters. ,65
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,79
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onNestedScroll,Magic Number,The method contains a magic number: 2,79
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onStopNestedScroll,Long Statement,The length of the statement "mScroller.startScroll(0`(int)child.getTranslationY()`0`-((int)child.getTranslationY() + mChildHeight) + (int)child.getTranslationY()`2000);" is 139.,93
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onStopNestedScroll,Magic Number,The method contains a magic number: 2000,93
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onStopNestedScroll,Magic Number,The method contains a magic number: 2,93
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onStopNestedScroll,Magic Number,The method contains a magic number: 2,93
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,ImageBehavior,onStopNestedScroll,Magic Number,The method contains a magic number: 2000,93
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,RecyclerViewBehavior,onNestedScrollAccepted,Long Parameter List,The method has 5 parameters. ,50
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,RecyclerViewBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,56
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,RecyclerViewBehavior,onNestedPreScroll,Long Parameter List,The method has 6 parameters. ,61
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,RecyclerViewBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,76
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,RecyclerViewBehavior,onNestedFling,Long Parameter List,The method has 6 parameters. ,90
+60_AndroidMvpEXample-master,com.hankou.utils.behavior,RecyclerViewBehavior,scrollToPosition,Magic Number,The method contains a magic number: 500,102
+60_AndroidMvpEXample-master,com.hankou.utils,CloseUtils,closeIOQuietly,Empty catch clause,The method has an empty catch block.,39
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bytes2HexString,Magic Number,The method contains a magic number: 4,42
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bytes2HexString,Magic Number,The method contains a magic number: 0x0f,42
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bytes2HexString,Magic Number,The method contains a magic number: 0x0f,42
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,hexString2Bytes,Magic Number,The method contains a magic number: 2,62
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,hexString2Bytes,Magic Number,The method contains a magic number: 2,62
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,hexString2Bytes,Magic Number,The method contains a magic number: 4,62
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,hex2Dec,Magic Number,The method contains a magic number: 10,85
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bytes2Chars,Magic Number,The method contains a magic number: 0xff,117
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,byte2Size,Missing default,The following switch statement is missing a default case: switch (unit) {,134
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,size2Byte,Missing default,The following switch statement is missing a default case: switch (unit) {,161
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bytes2Bits,Magic Number,The method contains a magic number: 7,209
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bits2Bytes,Magic Number,The method contains a magic number: 8,225
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bits2Bytes,Magic Number,The method contains a magic number: 8,225
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bits2Bytes,Magic Number,The method contains a magic number: 8,225
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bits2Bytes,Magic Number,The method contains a magic number: 8,225
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bits2Bytes,Magic Number,The method contains a magic number: 8,225
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,bitmap2Bytes,Magic Number,The method contains a magic number: 100,408
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,dp2px,Magic Number,The method contains a magic number: 0.5f,495
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,px2dp,Magic Number,The method contains a magic number: 0.5f,507
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,sp2px,Magic Number,The method contains a magic number: 0.5f,519
+60_AndroidMvpEXample-master,com.hankou.utils,ConvertUtils,px2sp,Magic Number,The method contains a magic number: 0.5f,531
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,createFileByDeleteOldFile,Complex Conditional,The conditional expression file.exists() && file.isFile() && !file.delete() is complex.,204
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,copyOrMoveDir,Complex Method,Cyclomatic complexity of the method is 10,236
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,deleteDir,Complex Method,Cyclomatic complexity of the method is 10,406
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,deleteFilesInDir,Complex Method,Cyclomatic complexity of the method is 10,462
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,writeFileFromIS,Magic Number,The method contains a magic number: 1024,738
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,writeFileFromIS,Magic Number,The method contains a magic number: 1024,738
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,readFile2List,Magic Number,The method contains a magic number: 0x7FFFFFFF,813
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,readFile2String,Magic Number,The method contains a magic number: 2,885
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileCharsetSimple,Magic Number,The method contains a magic number: 8,952
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileCharsetSimple,Magic Number,The method contains a magic number: 0xefbb,952
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileCharsetSimple,Magic Number,The method contains a magic number: 0xfffe,952
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileCharsetSimple,Magic Number,The method contains a magic number: 0xfeff,952
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileCharsetSimple,Missing default,The following switch statement is missing a default case: switch (p) {,952
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileLines,Magic Number,The method contains a magic number: 1024,991
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileLines,Magic Number,The method contains a magic number: 1024,991
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileMD5,Magic Number,The method contains a magic number: 1024,1070
+60_AndroidMvpEXample-master,com.hankou.utils,FileUtils,getFileMD5,Magic Number,The method contains a magic number: 256,1070
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,clip,Long Parameter List,The method has 5 parameters. ,404
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,clip,Long Parameter List,The method has 6 parameters. ,418
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,skew,Long Parameter List,The method has 5 parameters. ,461
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,skew,Long Parameter List,The method has 6 parameters. ,475
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,rotate,Long Parameter List,The method has 5 parameters. ,508
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,getRotateDegree,Magic Number,The method contains a magic number: 90,528
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,getRotateDegree,Magic Number,The method contains a magic number: 180,528
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,getRotateDegree,Magic Number,The method contains a magic number: 270,528
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,getRotateDegree,Missing default,The following switch statement is missing a default case: switch (orientation) {,528
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,fastBlur,Long Parameter List,The method has 5 parameters. ,643
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,fastBlur,Magic Number,The method contains a magic number: 0.5f,643
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,fastBlur,Magic Number,The method contains a magic number: 0.5f,643
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,renderScriptBlur,Magic Number,The method contains a magic number: 25,681
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,renderScriptBlur,Magic Number,The method contains a magic number: 25.0f,681
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Complex Method,Cyclomatic complexity of the method is 15,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Long Method,The method has 166 lines of code.,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 256,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 256,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 3,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 0xff0000,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 16,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 0x00ff00,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 8,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 0x0000ff,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 0xff0000,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 16,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 0x00ff00,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 8,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 0x0000ff,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 0xff000000,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 16,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 8,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,stackBlur,Magic Number,The method contains a magic number: 2,718
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,addReflection,Long Statement,The length of the statement "LinearGradient shader=new LinearGradient(0`srcHeight`0`ret.getHeight() + REFLECTION_GAP`0x70FFFFFF`0x00FFFFFF`Shader.TileMode.MIRROR);" is 134.,981
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,addReflection,Magic Number,The method contains a magic number: 0x70FFFFFF,981
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,addReflection,Magic Number,The method contains a magic number: 0x00FFFFFF,981
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,addTextWatermark,Long Parameter List,The method has 6 parameters. ,1017
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,addTextWatermark,Long Parameter List,The method has 7 parameters. ,1033
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,addImageWatermark,Long Parameter List,The method has 5 parameters. ,1060
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,addImageWatermark,Long Parameter List,The method has 6 parameters. ,1074
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,save,Magic Number,The method contains a magic number: 100,1191
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isImage,Long Statement,The length of the statement "return path.endsWith(".PNG") || path.endsWith(".JPG") || path.endsWith(".JPEG")|| path.endsWith(".BMP")|| path.endsWith(".GIF");" is 128.,1227
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,getImageType,Magic Number,The method contains a magic number: 8,1270
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,getImageType,Magic Number,The method contains a magic number: 8,1270
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isJPEG,Magic Number,The method contains a magic number: 2,1301
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isJPEG,Magic Number,The method contains a magic number: 0xFF,1301
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isJPEG,Magic Number,The method contains a magic number: 0xD8,1301
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isGIF,Long Statement,The length of the statement "return b.length >= 6 && b[0] == 'G' && b[1] == 'I' && b[2] == 'F' && b[3] == '8' && (b[4] == '7' || b[4] == '9') && b[5] == 'a';" is 128.,1306
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isGIF,Magic Number,The method contains a magic number: 6,1306
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isGIF,Magic Number,The method contains a magic number: 2,1306
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isGIF,Magic Number,The method contains a magic number: 3,1306
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isGIF,Magic Number,The method contains a magic number: 4,1306
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isGIF,Magic Number,The method contains a magic number: 4,1306
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isGIF,Magic Number,The method contains a magic number: 5,1306
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Long Statement,The length of the statement "return b.length >= 8 && (b[0] == (byte)137 && b[1] == (byte)80 && b[2] == (byte)78 && b[3] == (byte)71 && b[4] == (byte)13 && b[5] == (byte)10 && b[6] == (byte)26 && b[7] == (byte)10);" is 184.,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 8,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 137,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 80,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 2,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 78,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 3,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 71,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 4,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 13,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 5,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 10,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 6,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 26,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 7,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isPNG,Magic Number,The method contains a magic number: 10,1313
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isBMP,Magic Number,The method contains a magic number: 2,1321
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isBMP,Magic Number,The method contains a magic number: 0x42,1321
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,isBMP,Magic Number,The method contains a magic number: 0x4d,1321
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,compressByQuality,Complex Conditional,The conditional expression isEmptyBitmap(src) || quality < 0 || quality > 100 is complex.,1399
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,compressByQuality,Magic Number,The method contains a magic number: 100,1399
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,compressByQuality,Magic Number,The method contains a magic number: 100,1427
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,compressByQuality,Magic Number,The method contains a magic number: 5,1427
+60_AndroidMvpEXample-master,com.hankou.utils,ImageUtils,compressBySampleSize,Magic Number,The method contains a magic number: 100,1461
+60_AndroidMvpEXample-master,com.hankou.utils,ListUtils,removeSameItemFromList,Complex Conditional,The conditional expression !StringUtils.isEmpty(result) && !StringUtils.isEmpty(targetResult) && targetResult.equals(result) is complex.,12
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,equals,Complex Conditional,The conditional expression a != null && b != null && (length=a.length()) == b.length() is complex.,39
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,upperFirstLetter,Magic Number,The method contains a magic number: 32,82
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,lowerFirstLetter,Magic Number,The method contains a magic number: 32,95
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,toDBC,Magic Number,The method contains a magic number: 12288,128
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,toDBC,Magic Number,The method contains a magic number: 65281,128
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,toDBC,Magic Number,The method contains a magic number: 65374,128
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,toDBC,Magic Number,The method contains a magic number: 65248,128
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,toSBC,Magic Number,The method contains a magic number: 12288,151
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,toSBC,Magic Number,The method contains a magic number: 33,151
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,toSBC,Magic Number,The method contains a magic number: 126,151
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,toSBC,Magic Number,The method contains a magic number: 65248,151
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,oneCn2ASCII,Magic Number,The method contains a magic number: 2,266
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,oneCn2ASCII,Magic Number,The method contains a magic number: 256,266
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,oneCn2ASCII,Magic Number,The method contains a magic number: 256,266
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,oneCn2ASCII,Magic Number,The method contains a magic number: 256,266
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,oneCn2ASCII,Magic Number,The method contains a magic number: 256,266
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,oneCn2ASCII,Magic Number,The method contains a magic number: 256,266
+60_AndroidMvpEXample-master,com.hankou.utils,StringUtils,oneCn2PY,Magic Number,The method contains a magic number: 127,292
+60_AndroidMvpEXample-master,com.hankou.utils.network,HttpManager,HttpManager,Long Statement,The length of the statement "mRetrofit=new Retrofit.Builder().client(mOkHttpClient).baseUrl(HOST_URL).addConverterFactory(CommonConverterFactory.create()).addCallAdapterFactory(rxJavaCallAdapterFactory).build();" is 182.,22
+60_AndroidMvpEXample-master,com.hankou.utils.views,AutoRecyclerView,onScrolled,Complex Method,Cyclomatic complexity of the method is 9,83
+60_AndroidMvpEXample-master,com.hankou.utils.views,AutoRecyclerView,onScrolled,Long Statement,The length of the statement "throw new RuntimeException("Unsupported LayoutManager used. Valid ones are LinearLayoutManager` GridLayoutManager and StaggeredGridLayoutManager");" is 147.,83
+60_AndroidMvpEXample-master,com.hankou.utils.views,AutoRecyclerView,onScrollStateChanged,Complex Conditional,The conditional expression (visibleItemCount > 0 && currentScrollState == RecyclerView.SCROLL_STATE_IDLE && (lastVisibleItemPosition) >= totalItemCount - 1) is complex.,121
+60_AndroidMvpEXample-master,com.hankou.utils.views,AutoRecyclerView,onScrollStateChanged,Long Statement,The length of the statement "if ((visibleItemCount > 0 && currentScrollState == RecyclerView.SCROLL_STATE_IDLE && (lastVisibleItemPosition) >= totalItemCount - 1)) {" is 136.,121
+60_AndroidMvpEXample-master,com.hankou.utils.views,CustomLayoutManager,generateDefaultLayoutParams,Long Statement,The length of the statement "RecyclerView.LayoutParams params=new RecyclerView.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 136.,13
+60_AndroidMvpEXample-master,com.hankou.utils.views,CustomLayoutManager,onLayoutChildren,Magic Number,The method contains a magic number: 2,20
+60_AndroidMvpEXample-master,com.hankou.utils.views,CustomLayoutManager,onLayoutChildren,Magic Number,The method contains a magic number: 2,20
+60_AndroidMvpEXample-master,com.hankou.utils.views,CustomLayoutManager,onLayoutChildren,Magic Number,The method contains a magic number: 2,20
+60_AndroidMvpEXample-master,com.hankou.utils.views,CustomLayoutManager,onLayoutChildren,Magic Number,The method contains a magic number: 2,20
+60_AndroidMvpEXample-master,com.hankou.utils.views,CustomLayoutManager,onLayoutChildren,Magic Number,The method contains a magic number: 20,20
+60_AndroidMvpEXample-master,com.hankou.utils.views,SlideView,onInterceptTouchEvent,Complex Conditional,The conditional expression (mMoveX - mStartX) > mTouchSlop && (mMoveX - mStartX) > (Math.abs(mMoveY - mStartY)) && mStartX <= mScreentWidth / 5 && !isCancelScroll is complex.,75
+60_AndroidMvpEXample-master,com.hankou.utils.views,SlideView,onInterceptTouchEvent,Long Statement,The length of the statement "if ((mMoveX - mStartX) > mTouchSlop && (mMoveX - mStartX) > (Math.abs(mMoveY - mStartY)) && mStartX <= mScreentWidth / 5 && !isCancelScroll) {" is 142.,75
+60_AndroidMvpEXample-master,com.hankou.utils.views,SlideView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 5,75
+60_AndroidMvpEXample-master,com.hankou.utils.views,SlideView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 8,105
+60_AndroidMvpEXample-master,com.hankou.utils.views,SlideView,onTouchEvent,Magic Number,The method contains a magic number: 5,105
+60_AndroidMvpEXample-master,com.hankou.utils.views,TestViewGroup,onLayout,Long Parameter List,The method has 5 parameters. ,30
+60_AndroidMvpEXample-master,com.hankou.utils.views,TestViewGroup,onMeasure,Long Statement,The length of the statement "measureChild(child`MeasureSpec.makeMeasureSpec(widthSize`MeasureSpec.AT_MOST)`MeasureSpec.makeMeasureSpec(heightSize`MeasureSpec.AT_MOST));" is 139.,43
+60_AndroidMvpEXample-master,com.facebook.keyframes,SanityTests,testFramesForSample,Long Statement,The length of the statement "int resIdentifier=getContext().getResources().getIdentifier("test_" + (int)(progress / step)`"drawable"`getContext().getPackageName());" is 135.,40
+60_AndroidMvpEXample-master,com.facebook.keyframes,SanityTests,testFramesForSample,Magic Number,The method contains a magic number: .1f,40
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,KeyframesDrawable,Long Identifier,The length of the field mKeyframesDrawableAnimationCallback is 35.,102
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,KeyframesDrawable,Long Statement,The length of the statement "mFeatureConfigs=builder.getExperimentalFeatures().getParticleFeatureConfigs() == null ? null : Collections.unmodifiableMap(builder.getExperimentalFeatures().getParticleFeatureConfigs());" is 186.,102
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,draw,Complex Conditional,The conditional expression config != null && config.drawable != null && uniqueFeatureMatrix != null is complex.,166
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,draw,Complex Method,Cyclomatic complexity of the method is 10,166
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,startAnimation,Long Identifier,The length of the field mKeyframesDrawableAnimationCallback is 35.,260
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,stopAnimation,Long Identifier,The length of the field mKeyframesDrawableAnimationCallback is 35.,269
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,stopAnimationAtLoopEnd,Long Identifier,The length of the field mKeyframesDrawableAnimationCallback is 35.,276
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,calculateScaleMatrix,Magic Number,The method contains a magic number: 2,324
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,calculateScaleMatrix,Magic Number,The method contains a magic number: 2,324
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,calculateScaleMatrix,Magic Number,The method contains a magic number: 2,324
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,setMaxFrameRate,Long Identifier,The length of the field mKeyframesDrawableAnimationCallback is 35.,350
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,prepareShadersForFeature,Long Statement,The length of the statement "mCachedShaders[i]=new LinearGradient(0`0`0`mKFImage.getCanvasSize()[1]`colorPair.getStartColor()`colorPair.getEndColor()`Shader.TileMode.CLAMP);" is 144.,456
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,extractScaleFromMatrix,Magic Number,The method contains a magic number: 4,502
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawable,extractScaleFromMatrix,Magic Number,The method contains a magic number: 2f,502
+60_AndroidMvpEXample-master,com.facebook.keyframes,FeatureState,prepareShadersForFeature,Long Statement,The length of the statement "mCachedShaders[i]=new LinearGradient(0`0`0`mKFImage.getCanvasSize()[1]`colorPair.getStartColor()`colorPair.getEndColor()`Shader.TileMode.CLAMP);" is 144.,456
+60_AndroidMvpEXample-master,com.facebook.keyframes,FeatureState,extractScaleFromMatrix,Magic Number,The method contains a magic number: 4,502
+60_AndroidMvpEXample-master,com.facebook.keyframes,FeatureState,extractScaleFromMatrix,Magic Number,The method contains a magic number: 2f,502
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawableAnimationCallback,KeyframesDrawableAnimationCallback,Magic Number,The method contains a magic number: 1000,74
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawableAnimationCallback,setMaxFrameRate,Long Identifier,The length of the field mMinimumMillisBetweenProgressUpdates is 36.,80
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawableAnimationCallback,setMaxFrameRate,Magic Number,The method contains a magic number: 1000,80
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawableAnimationCallback,advanceAnimation,Long Identifier,The length of the field mMinimumMillisBetweenProgressUpdates is 36.,122
+60_AndroidMvpEXample-master,com.facebook.keyframes,KeyframesDrawableAnimationCallback,doFrame,Magic Number,The method contains a magic number: 1000000,169
+60_AndroidMvpEXample-master,com.facebook.keyframes,FrameCallbackFaceAnimationCallback,doFrame,Magic Number,The method contains a magic number: 1000000,169
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPath,cubicTo,Long Parameter List,The method has 6 parameters. ,99
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPath,rCubicTo,Long Parameter List,The method has 6 parameters. ,113
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.5f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.6f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.5f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.6f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.5f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.6f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.5f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.6f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.1f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.2f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.3f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.4f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.5f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.6f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.5f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.5f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 1.6f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes,KFPathTest,testDrawingCommandsAndLastPoint,Magic Number,The method contains a magic number: 2.6f,46
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFAnimationDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,33
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFAnimationFrameDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,33
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFAnimationGroupDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,33
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFColorFrameDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,34
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFFeatureDeserializer,readObject,Complex Method,Cyclomatic complexity of the method is 15,36
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFFeatureDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,36
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFFeatureEffectDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,25
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFFeatureFrameDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,33
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFGradientColorDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,25
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFGradientDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,33
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFImageDeserializer,readObject,Complex Method,Cyclomatic complexity of the method is 8,38
+60_AndroidMvpEXample-master,com.facebook.keyframes.deserializers,KFImageDeserializer,readObject,Missing default,The following switch statement is missing a default case: switch (name) {,38
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFAnimation,KFAnimation,Long Statement,The length of the statement "mAnimationFrames=ArgCheckUtil.checkArg(ListHelper.immutableOrEmpty(animationFrames)`animationFrames != null && animationFrames.size() > 0`ANIMATION_FRAMES_JSON_FIELD);" is 167.,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFAnimation,KFAnimation,Long Statement,The length of the statement "mTimingCurves=ArgCheckUtil.checkArg(timingCurves`ArgCheckUtil.checkTimingCurveObjectValidity(timingCurves`mAnimationFrames.size())`TIMING_CURVES_JSON_FIELD);" is 157.,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFAnimation,KFAnimation,Magic Number,The method contains a magic number: 2,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFFeature,build,Long Statement,The length of the statement "return new KFFeature(name`fillColor`strokeColor`strokeWidth`fromFrame`toFrame`keyFrames`timingCurves`animationGroup`strokeLineCap`featureAnimations`anchorPoint`effect`className);" is 178.,148
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFFeature,KFFeature,Long Parameter List,The method has 14 parameters. ,167
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFFeature,KFFeature,Long Statement,The length of the statement "mTimingCurves=ArgCheckUtil.checkArg(timingCurves`ArgCheckUtil.checkTimingCurveObjectValidity(timingCurves`mKeyFrames.size())`TIMING_CURVES_JSON_FIELD);" is 151.,167
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFFeature,KFFeature,Long Statement,The length of the statement "mStrokeWidthAnimation=AnimationHelper.extractSpecialAnimationAnimationSet(featureAnimations`KFAnimation.PropertyType.STROKE_WIDTH);" is 131.,167
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFFeature,KFFeature,Long Statement,The length of the statement "mAnchorPoint=AnimationHelper.extractSpecialAnimationAnimationSet(featureAnimations`KFAnimation.PropertyType.ANCHOR_POINT);" is 122.,167
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,Builder,build,Long Statement,The length of the statement "return new KFFeature(name`fillColor`strokeColor`strokeWidth`fromFrame`toFrame`keyFrames`timingCurves`animationGroup`strokeLineCap`featureAnimations`anchorPoint`effect`className);" is 178.,148
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFGradient,KFGradient,Long Statement,The length of the statement "mStartGradient=KeyFramedGradient.fromGradient(ArgCheckUtil.checkArg(colorStart`colorStart != null`COLOR_START_JSON_FIELD)`START);" is 129.,50
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFGradientColor,KFGradientColor,Long Statement,The length of the statement "mTimingCurves=ArgCheckUtil.checkArg(timingCurves`ArgCheckUtil.checkTimingCurveObjectValidity(timingCurves`mKeyValues.size())`TIMING_CURVES_JSON_FIELD);" is 151.,45
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFImage,KFImage,Long Parameter List,The method has 6 parameters. ,76
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFImage,KFImage,Long Statement,The length of the statement "mAnimationGroups=ArgCheckUtil.checkArg(ListHelper.immutableOrEmpty(animationGroups)`ArgCheckUtil.checkAnimationGroupIdUniqueness(animationGroups)`ANIMATION_GROUPS_JSON_FIELD);" is 175.,76
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFImage,KFImage,Long Statement,The length of the statement "mCanvasSize=ArgCheckUtil.checkArg(canvasSize`canvasSize.length == 2 && canvasSize[0] > 0 && canvasSize[1] > 0`CANVAS_SIZE_JSON_FIELD);" is 134.,76
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFImage,KFImage,Magic Number,The method contains a magic number: 2,76
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,KFImage,setAnimationMatrices,Long Statement,The length of the statement "for (int animationIndex=0` animationsLen=group.getAnimations().size(); animationIndex < animationsLen; animationIndex++) {" is 122.,124
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,ModelTests,testMatrixOrderingAnimationGroup,Long Statement,The length of the statement "builder.animations=Arrays.asList(createDummyAnimationOfType(KFAnimation.PropertyType.ROTATION)`createDummyAnimationOfType(KFAnimation.PropertyType.X_POSITION)`createDummyAnimationOfType(KFAnimation.PropertyType.SCALE));" is 219.,21
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,ModelTests,testMatrixOrderingAnimationGroup,Magic Number,The method contains a magic number: 2,21
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,ModelTests,testFeatureAnimationOrderingAndExtraction,Long Statement,The length of the statement "builder.featureAnimations=new ArrayList<>(Arrays.asList(createDummyAnimationOfType(KFAnimation.PropertyType.ROTATION)`dummyStrokeWidth`createDummyAnimationOfType(KFAnimation.PropertyType.X_POSITION)`createDummyAnimationOfType(KFAnimation.PropertyType.SCALE)));" is 260.,42
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,ModelTests,testFeatureAnimationOrderingAndExtraction,Magic Number,The method contains a magic number: 3,42
+60_AndroidMvpEXample-master,com.facebook.keyframes.model,ModelTests,testFeatureAnimationOrderingAndExtraction,Magic Number,The method contains a magic number: 2,42
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedGradient,getTransitionColor,Long Statement,The length of the statement "return ((startA + (int)(progress * (endA - startA))) << 24) | ((startR + (int)(progress * (endR - startR))) << 16) | ((startG + (int)(progress * (endG - startG))) << 8)| ((startB + (int)(progress * (endB - startB))));" is 217.,116
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedGradient,getTransitionColor,Magic Number,The method contains a magic number: 24,116
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedGradient,getTransitionColor,Magic Number,The method contains a magic number: 16,116
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedGradient,getTransitionColor,Magic Number,The method contains a magic number: 8,116
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,fromAnimation,Long Statement,The length of the statement "return new KeyFramedMatrixAnimation(animation.getAnimationFrames()`animation.getTimingCurves()`animation.getPropertyType()`animation.getAnchor());" is 146.,25
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,KeyFramedMatrixAnimation,Magic Number,The method contains a magic number: 2,52
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyImpl,Missing default,The following switch statement is missing a default case: switch (mPropertyType) {,69
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyRotation,Long Statement,The length of the statement "modifiable.postRotate(interpolateValue(rotationStart`rotationEnd`interpolationValue)`mAnchor != null ? mAnchor[0] : 0`mAnchor != null ? mAnchor[1] : 0);" is 152.,106
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyScale,Long Statement,The length of the statement "modifiable.postScale(stateA.getData()[0] / 100f`stateA.getData()[1] / 100f`mAnchor != null ? mAnchor[0] : 0`mAnchor != null ? mAnchor[1] : 0);" is 142.,128
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyScale,Long Statement,The length of the statement "modifiable.postScale(interpolateValue(scaleStartX`scaleEndX`interpolationValue) / 100f`interpolateValue(scaleStartY`scaleEndY`interpolationValue) / 100f`mAnchor != null ? mAnchor[0] : 0`mAnchor != null ? mAnchor[1] : 0);" is 220.,128
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyScale,Magic Number,The method contains a magic number: 100f,128
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyScale,Magic Number,The method contains a magic number: 100f,128
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyScale,Magic Number,The method contains a magic number: 100f,128
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyScale,Magic Number,The method contains a magic number: 100f,128
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedMatrixAnimation,applyPosition,Long Statement,The length of the statement "modifiable.postTranslate(interpolateValue(translationStartX`translationEndX`interpolationValue) - mAnchor[0]`interpolateValue(translationStartY`translationEndY`interpolationValue) - mAnchor[1]);" is 194.,195
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedObject,apply,Complex Conditional,The conditional expression mObjects.keyAt(interpolatorIndex) == frameProgress || (mObjects.keyAt(interpolatorIndex) < frameProgress && mObjects.keyAt(interpolatorIndex + 1) > frameProgress) is complex.,56
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedObject,apply,Long Statement,The length of the statement "if (mObjects.keyAt(interpolatorIndex) == frameProgress || (mObjects.keyAt(interpolatorIndex) < frameProgress && mObjects.keyAt(interpolatorIndex + 1) > frameProgress)) {" is 169.,56
+60_AndroidMvpEXample-master,com.facebook.keyframes.model.keyframedmodels,KeyFramedPath,applyImpl,Long Statement,The length of the statement "thisMoveList.getVectorCommands().get(i).interpolate(nextMoveList.getVectorCommands().get(i)`interpolationValue`modifiable);" is 123.,36
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,ArgCheckUtil,checkTimingCurveObjectValidity,Complex Conditional,The conditional expression keyFrameQuantity <= 1 && (timingCurves == null || timingCurves.length == 0) is complex.,40
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,ArgCheckUtil,checkTimingCurveObjectValidity,Magic Number,The method contains a magic number: 2,40
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,ArgCheckUtil,checkTimingCurveObjectValidity,Magic Number,The method contains a magic number: 2,40
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,KFPathInterpolator,KFPathInterpolator,Magic Number,The method contains a magic number: 2,39
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,KFPathInterpolator,getInterpolation,Magic Number,The method contains a magic number: 2,57
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,createVectorCommand,Complex Method,Cyclomatic complexity of the method is 14,45
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,createVectorCommand,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format(Locale.US`"VectorCommand MoveTo requires two arguments` but got %s"`args.toString()));" is 135.,45
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,createVectorCommand,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format(Locale.US`"VectorCommand QuadraticTo requires four arguments` but got %s"`args.toString()));" is 141.,45
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,createVectorCommand,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format(Locale.US`"VectorCommand CubicTo requires six arguments` but got %s"`args.toString()));" is 136.,45
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,createVectorCommand,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format(Locale.US`"VectorCommand LineTo requires two arguments` but got %s"`args.toString()));" is 135.,45
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,createVectorCommand,Missing default,The following switch statement is missing a default case: switch (cmd) {,45
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Long Statement,The length of the statement "throw new IllegalArgumentException("convertUp should only be called to convert a lower " + "order argument array to a higher one.");" is 132.,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Unknown conversion from %d args to %d"`fromArgs.length`destArgs.length));" is 123.,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Unknown conversion from %d args to %d"`fromArgs.length`destArgs.length));" is 123.,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Unknown conversion from %d args to %d"`fromArgs.length`destArgs.length));" is 123.,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 4,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 6,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 4,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 5,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 4,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 6,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3f,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 4,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 2,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 5,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,convertUp,Magic Number,The method contains a magic number: 3,111
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,interpolate,Long Statement,The length of the statement "throw new IllegalArgumentException("Argument format must match between interpolated commands. RELATIVE and ABSOLUTE " + "coordinates should stay consistent");" is 158.,193
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Missing default,The following switch statement is missing a default case: switch (format) {,252
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,interpolate,Long Statement,The length of the statement "throw new IllegalArgumentException("MoveToCommand should only be interpolated with other " + "instances of MoveToCommand");" is 123.,272
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 2,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 3,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 2,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 3,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Missing default,The following switch statement is missing a default case: switch (format) {,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 2,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 3,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 4,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 5,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 2,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 3,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 4,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Magic Number,The method contains a magic number: 5,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Missing default,The following switch statement is missing a default case: switch (format) {,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommand,applyInner,Missing default,The following switch statement is missing a default case: switch (format) {,380
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,MoveToCommand,applyInner,Missing default,The following switch statement is missing a default case: switch (format) {,252
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,MoveToCommand,interpolate,Long Statement,The length of the statement "throw new IllegalArgumentException("MoveToCommand should only be interpolated with other " + "instances of MoveToCommand");" is 123.,272
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,QuadraticToCommand,applyInner,Magic Number,The method contains a magic number: 2,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,QuadraticToCommand,applyInner,Magic Number,The method contains a magic number: 3,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,QuadraticToCommand,applyInner,Magic Number,The method contains a magic number: 2,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,QuadraticToCommand,applyInner,Magic Number,The method contains a magic number: 3,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,QuadraticToCommand,applyInner,Missing default,The following switch statement is missing a default case: switch (format) {,296
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Magic Number,The method contains a magic number: 2,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Magic Number,The method contains a magic number: 3,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Magic Number,The method contains a magic number: 4,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Magic Number,The method contains a magic number: 5,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Magic Number,The method contains a magic number: 2,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Magic Number,The method contains a magic number: 3,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Magic Number,The method contains a magic number: 4,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Magic Number,The method contains a magic number: 5,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,CubicToCommand,applyInner,Missing default,The following switch statement is missing a default case: switch (format) {,336
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,LineToCommand,applyInner,Missing default,The following switch statement is missing a default case: switch (format) {,380
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingMove,Magic Number,The method contains a magic number: 2,32
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingMove,Magic Number,The method contains a magic number: 2,32
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingMove,Magic Number,The method contains a magic number: 2,32
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingMove,Magic Number,The method contains a magic number: 3,32
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingMove,Magic Number,The method contains a magic number: 4,32
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 4,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 2,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 3,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 2,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 4,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 3,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 4,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 5,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 6,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 7,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 2,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 8,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingQuadratic,Magic Number,The method contains a magic number: 3,71
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 6,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 2,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 3,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 2,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 4,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 3,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 5,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 4,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 6,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 5,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 6,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 7,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 8,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 9,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 2,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 10,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 3,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 11,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 4,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 12,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingCubic,Magic Number,The method contains a magic number: 5,115
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingLine,Magic Number,The method contains a magic number: 2,163
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingLine,Magic Number,The method contains a magic number: 2,163
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingLine,Magic Number,The method contains a magic number: 2,163
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingLine,Magic Number,The method contains a magic number: 3,163
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testValidParsingLine,Magic Number,The method contains a magic number: 4,163
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 5,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 10,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 15,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 20,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 25,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 30,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 35,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 40,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 45,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 50,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 55,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 60,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 65,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 5,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 10,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 15,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 20,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 25,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 30,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 35,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 40,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 45,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 50,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 55,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 60,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testSimplePathApplication,Magic Number,The method contains a magic number: 65,203
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testConvertUp,Magic Number,The method contains a magic number: 4,237
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testConvertUp,Magic Number,The method contains a magic number: 6,237
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testConvertUp,Magic Number,The method contains a magic number: 0.1f,237
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testConvertUp,Magic Number,The method contains a magic number: 0.1f,237
+60_AndroidMvpEXample-master,com.facebook.keyframes.util,VectorCommandTest,testConvertUp,Magic Number,The method contains a magic number: 0.1f,237

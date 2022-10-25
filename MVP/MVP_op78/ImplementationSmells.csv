@@ -1,0 +1,181 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+78_skyMvp-master,me.jessyan.mvparms.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+78_skyMvp-master,me.jessyan.mvparms.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+78_skyMvp-master,me.jessyan.mvparms.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+78_skyMvp-master,me.jessyan.mvparms.demo.app,AppLifecyclesImpl,onCreate,Long Statement,The length of the statement "ArmsUtils.obtainAppComponentFromContext(application).extras().put(IntelligentCache.KEY_KEEP + RefWatcher.class.getName()`BuildConfig.USE_CANARY ? LeakCanary.install(application) : RefWatcher.DISABLED);" is 201.,48
+78_skyMvp-master,me.jessyan.mvparms.demo.app,GlobalConfiguration,applyOptions,Long Statement,The length of the statement "builder.baseurl(Api.APP_DOMAIN).globalHttpHandler(new GlobalHttpHandlerImpl(context)).responseErrorListener(new ResponseErrorListenerImpl()).gsonConfiguration((context1`gsonBuilder) -> {" is 186.,56
+78_skyMvp-master,me.jessyan.mvparms.demo.app,GlobalConfiguration,applyOptions,Magic Number,The method contains a magic number: 10,56
+78_skyMvp-master,me.jessyan.mvparms.demo.app,GlobalConfiguration,injectFragmentLifecycle,Long Statement,The length of the statement "((RefWatcher)ArmsUtils.obtainAppComponentFromContext(f.getActivity()).extras().get(IntelligentCache.KEY_KEEP + RefWatcher.class.getName())).watch(f);" is 149.,164
+78_skyMvp-master,me.jessyan.mvparms.demo.app,GlobalConfiguration,onFragmentDestroyed,Long Statement,The length of the statement "((RefWatcher)ArmsUtils.obtainAppComponentFromContext(f.getActivity()).extras().get(IntelligentCache.KEY_KEEP + RefWatcher.class.getName())).watch(f);" is 149.,177
+78_skyMvp-master,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,handleResponseError,Complex Conditional,The conditional expression t instanceof JsonParseException || t instanceof ParseException || t instanceof JSONException|| t instanceof JsonIOException is complex.,45
+78_skyMvp-master,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,handleResponseError,Long Statement,The length of the statement "else if (t instanceof JsonParseException || t instanceof ParseException || t instanceof JSONException|| t instanceof JsonIOException) {" is 135.,45
+78_skyMvp-master,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,convertStatusCode,Magic Number,The method contains a magic number: 500,63
+78_skyMvp-master,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,convertStatusCode,Magic Number,The method contains a magic number: 404,63
+78_skyMvp-master,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,convertStatusCode,Magic Number,The method contains a magic number: 403,63
+78_skyMvp-master,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,convertStatusCode,Magic Number,The method contains a magic number: 307,63
+78_skyMvp-master,me.jessyan.mvparms.demo.di.module,UserModule,provideLayoutManager,Magic Number,The method contains a magic number: 2,75
+78_skyMvp-master,me.jessyan.mvparms.demo.mvp.model.api.cache,CommonCache,getUsers,Magic Number,The method contains a magic number: 2,40
+78_skyMvp-master,me.jessyan.mvparms.demo.mvp.model,UserModel,getUsers,Long Statement,The length of the statement "return Observable.just(mRepositoryManager.obtainRetrofitService(UserService.class).getUsers(lastIdQueried`USERS_PER_PAGE)).flatMap(new Function<Observable<List<User>>`ObservableSource<List<User>>>(){" is 199.,60
+78_skyMvp-master,me.jessyan.mvparms.demo.mvp.model,UserModel,getUsers,Long Statement,The length of the statement "return mRepositoryManager.obtainCacheService(CommonCache.class).getUsers(listObservable`new DynamicKey(lastIdQueried)`new EvictDynamicKey(update)).map(listReply -> listReply.getData());" is 185.,60
+78_skyMvp-master,me.jessyan.mvparms.demo.mvp.model,UserModel,apply,Long Statement,The length of the statement "return mRepositoryManager.obtainCacheService(CommonCache.class).getUsers(listObservable`new DynamicKey(lastIdQueried)`new EvictDynamicKey(update)).map(listReply -> listReply.getData());" is 185.,67
+78_skyMvp-master,me.jessyan.mvparms.demo.mvp.presenter,UserPresenter,requestUsers,Long Statement,The length of the statement "mModel.getUsers(lastUserId`isEvictCache).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`2)).doOnSubscribe(disposable -> {" is 134.,84
+78_skyMvp-master,me.jessyan.mvparms.demo.mvp.presenter,UserPresenter,requestUsers,Magic Number,The method contains a magic number: 3,84
+78_skyMvp-master,me.jessyan.mvparms.demo.mvp.presenter,UserPresenter,requestUsers,Magic Number,The method contains a magic number: 2,84
+78_skyMvp-master,me.jessyan.mvparms.demo.mvp.ui.holder,UserItemHolder,setData,Long Statement,The length of the statement "mImageLoader.loadImage(itemView.getContext()`ImageConfigImpl.builder().url(data.getAvatarUrl()).imageView(mAvatar).build());" is 124.,58
+78_skyMvp-master,com.jess.arms.base,BaseApplication,getAppComponent,Long Statement,The length of the statement "Preconditions.checkState(mAppDelegate instanceof App`"%s must be implements %s"`AppDelegate.class.getName()`App.class.getName());" is 129.,72
+78_skyMvp-master,com.jess.arms.base.delegate,AppDelegate,onCreate,Long Identifier,The length of the field mActivityLifecycleForRxLifecycle is 32.,98
+78_skyMvp-master,com.jess.arms.base.delegate,AppDelegate,onCreate,Long Statement,The length of the statement "mAppComponent=DaggerAppComponent.builder().application(mApplication).globalConfigModule(getGlobalConfigModule(mApplication`mModules)).build();" is 142.,98
+78_skyMvp-master,com.jess.arms.base.delegate,AppDelegate,onTerminate,Complex Method,Cyclomatic complexity of the method is 8,142
+78_skyMvp-master,com.jess.arms.base.delegate,AppDelegate,onTerminate,Long Identifier,The length of the field mActivityLifecycleForRxLifecycle is 32.,142
+78_skyMvp-master,com.jess.arms.base.delegate,AppDelegate,getAppComponent,Long Statement,The length of the statement "Preconditions.checkNotNull(mAppComponent`"%s cannot be null`first call %s#onCreate(Application) in %s#onCreate()"`AppComponent.class.getName()`getClass().getName()`Application.class.getName());" is 193.,193
+78_skyMvp-master,com.jess.arms.di.module,AppModule,bindActivityLifecycleForRxLifecycle,Long Identifier,The length of the parameter activityLifecycleForRxLifecycle is 31.,77
+78_skyMvp-master,com.jess.arms.di.module,ClientModule,provideRetrofit,Long Parameter List,The method has 6 parameters. ,63
+78_skyMvp-master,com.jess.arms.di.module,ClientModule,provideRetrofit,Long Statement,The length of the statement "builder.addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create(gson));" is 121.,63
+78_skyMvp-master,com.jess.arms.di.module,ClientModule,provideClient,Long Parameter List,The method has 6 parameters. ,91
+78_skyMvp-master,com.jess.arms.di.module,ClientModule,provideClient,Long Statement,The length of the statement "builder.connectTimeout(TIME_OUT`TimeUnit.SECONDS).readTimeout(TIME_OUT`TimeUnit.SECONDS).addNetworkInterceptor(intercept);" is 122.,91
+78_skyMvp-master,com.jess.arms.di.module,GlobalConfigModule,provideCacheFactory,Missing default,The following switch statement is missing a default case: switch (type.getCacheTypeId()) {,212
+78_skyMvp-master,com.jess.arms.di.module,GlobalConfigModule,build,Missing default,The following switch statement is missing a default case: switch (type.getCacheTypeId()) {,216
+78_skyMvp-master,com.jess.arms.di.module,GlobalConfigModule,printHttpLogLevel,Long Statement,The length of the statement "this.printHttpLogLevel=Preconditions.checkNotNull(printHttpLogLevel`"The printHttpLogLevel can not be null` use RequestInterceptor.Level.NONE instead.");" is 153.,317
+78_skyMvp-master,com.jess.arms.di.module,GlobalConfigModule,formatPrinter,Long Statement,The length of the statement "this.formatPrinter=Preconditions.checkNotNull(formatPrinter`FormatPrinter.class.getCanonicalName() + "can not be null.");" is 121.,322
+78_skyMvp-master,com.jess.arms.di.module,Builder,printHttpLogLevel,Long Statement,The length of the statement "this.printHttpLogLevel=Preconditions.checkNotNull(printHttpLogLevel`"The printHttpLogLevel can not be null` use RequestInterceptor.Level.NONE instead.");" is 153.,317
+78_skyMvp-master,com.jess.arms.di.module,Builder,formatPrinter,Long Statement,The length of the statement "this.formatPrinter=Preconditions.checkNotNull(formatPrinter`FormatPrinter.class.getCanonicalName() + "can not be null.");" is 121.,322
+78_skyMvp-master,com.jess.arms.http,OkHttpStreamFetcher,cleanup,Empty catch clause,The method has an empty catch block.,95
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideConfiguration,applyOptions,Long Statement,The length of the statement "return DiskLruCacheWrapper.create(DataHelper.makeDirs(new File(appComponent.cacheFile()`"Glide"))`IMAGE_DISK_CACHE_MAX_SIZE);" is 125.,54
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideConfiguration,applyOptions,Magic Number,The method contains a magic number: 1.2,54
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideConfiguration,applyOptions,Magic Number,The method contains a magic number: 1.2,54
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideConfiguration,build,Long Statement,The length of the statement "return DiskLruCacheWrapper.create(DataHelper.makeDirs(new File(appComponent.cacheFile()`"Glide"))`IMAGE_DISK_CACHE_MAX_SIZE);" is 125.,58
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideImageLoaderStrategy,loadImage,Complex Method,Cyclomatic complexity of the method is 16,53
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideImageLoaderStrategy,loadImage,Magic Number,The method contains a magic number: 2,53
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideImageLoaderStrategy,loadImage,Magic Number,The method contains a magic number: 3,53
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideImageLoaderStrategy,loadImage,Magic Number,The method contains a magic number: 4,53
+78_skyMvp-master,com.jess.arms.http.imageloader.glide,GlideImageLoaderStrategy,loadImage,Missing default,The following switch statement is missing a default case: switch (config.getCacheStrategy()) {,53
+78_skyMvp-master,com.jess.arms.http.log,DefaultFormatPrinter,printJsonResponse,Long Parameter List,The method has 9 parameters. ,104
+78_skyMvp-master,com.jess.arms.http.log,DefaultFormatPrinter,printJsonResponse,Long Statement,The length of the statement "bodyString=RequestInterceptor.isJson(contentType) ? CharacterHandler.jsonFormat(bodyString) : RequestInterceptor.isXml(contentType) ? CharacterHandler.xmlFormat(bodyString) : bodyString;" is 186.,104
+78_skyMvp-master,com.jess.arms.http.log,DefaultFormatPrinter,printFileResponse,Long Parameter List,The method has 7 parameters. ,134
+78_skyMvp-master,com.jess.arms.http.log,DefaultFormatPrinter,logLines,Magic Number,The method contains a magic number: 110,159
+78_skyMvp-master,com.jess.arms.http.log,DefaultFormatPrinter,computeKey,Magic Number,The method contains a magic number: 4,188
+78_skyMvp-master,com.jess.arms.http.log,DefaultFormatPrinter,getRequest,Long Statement,The length of the statement "log=METHOD_TAG + request.method() + DOUBLE_SEPARATOR+ (isEmpty(header) ? "" : HEADERS_TAG + LINE_SEPARATOR + dotHeaders(header));" is 129.,214
+78_skyMvp-master,com.jess.arms.http.log,DefaultFormatPrinter,getResponse,Long Parameter List,The method has 6 parameters. ,222
+78_skyMvp-master,com.jess.arms.http.log,DefaultFormatPrinter,getResponse,Long Statement,The length of the statement "log=((!TextUtils.isEmpty(segmentString) ? segmentString + " - " : "") + "is success : " + isSuccessful+ " - "+ RECEIVED_TAG+ tookMs+ "ms"+ DOUBLE_SEPARATOR+ STATUS_CODE_TAG+ code+ " / "+ message+ DOUBLE_SEPARATOR+ (isEmpty(header) ? "" : HEADERS_TAG + LINE_SEPARATOR + dotHeaders(header)));" is 290.,222
+78_skyMvp-master,com.jess.arms.http.log,FormatPrinter,printJsonResponse,Long Parameter List,The method has 9 parameters. ,54
+78_skyMvp-master,com.jess.arms.http.log,FormatPrinter,printFileResponse,Long Parameter List,The method has 7 parameters. ,70
+78_skyMvp-master,com.jess.arms.http.log,RequestInterceptor,intercept,Long Statement,The length of the statement "mPrinter.printJsonResponse(TimeUnit.NANOSECONDS.toMillis(t2 - t1)`isSuccessful`code`header`responseBody.contentType()`bodyString`segmentList`message`url);" is 154.,77
+78_skyMvp-master,com.jess.arms.http.log,RequestInterceptor,isParseable,Long Statement,The length of the statement "return isText(mediaType) || isPlain(mediaType) || isJson(mediaType)|| isForm(mediaType)|| isHtml(mediaType)|| isXml(mediaType);" is 127.,218
+78_skyMvp-master,com.jess.arms.integration,ActivityLifecycle,onActivityCreated,Long Statement,The length of the statement "if (activity.getIntent() != null) isNotAdd=activity.getIntent().getBooleanExtra(AppManager.IS_NOT_ADD_ACTIVITY_LIST`false);" is 123.,71
+78_skyMvp-master,com.jess.arms.integration,ActivityLifecycle,registerFragmentCallbacks,Long Statement,The length of the statement "((FragmentActivity)activity).getSupportFragmentManager().registerFragmentLifecycleCallbacks(mFragmentLifecycle.get()`true);" is 123.,154
+78_skyMvp-master,com.jess.arms.integration,AppManager,onReceive,Complex Method,Cyclomatic complexity of the method is 8,85
+78_skyMvp-master,com.jess.arms.integration,AppManager,onReceive,Missing default,The following switch statement is missing a default case: switch (message.what) {,85
+78_skyMvp-master,com.jess.arms.integration,ManifestParser,parse,Long Statement,The length of the statement "ApplicationInfo appInfo=context.getPackageManager().getApplicationInfo(context.getPackageName()`PackageManager.GET_META_DATA);" is 126.,44
+78_skyMvp-master,com.jess.arms.integration.cache,CacheType,getCacheTypeId,Long Identifier,The length of the field RETROFIT_SERVICE_CACHE_TYPE_ID is 30.,50
+78_skyMvp-master,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,55
+78_skyMvp-master,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,78
+78_skyMvp-master,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,101
+78_skyMvp-master,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,124
+78_skyMvp-master,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,147
+78_skyMvp-master,com.jess.arms.integration.lifecycle,ActivityLifecycleForRxLifecycle,onActivityCreated,Long Statement,The length of the statement "((FragmentActivity)activity).getSupportFragmentManager().registerFragmentLifecycleCallbacks(mFragmentLifecycle.get()`true);" is 123.,50
+78_skyMvp-master,com.jess.arms.utils,ArmsUtils,dip2px,Magic Number,The method contains a magic number: 0.5f,86
+78_skyMvp-master,com.jess.arms.utils,ArmsUtils,pix2dip,Magic Number,The method contains a magic number: 0.5f,111
+78_skyMvp-master,com.jess.arms.utils,ArmsUtils,getDimens,Long Statement,The length of the statement "return getResources(context).getDimension(getResources(context).getIdentifier(dimenName`"dimen"`context.getPackageName()));" is 123.,131
+78_skyMvp-master,com.jess.arms.utils,ArmsUtils,encodeToMD5,Magic Number,The method contains a magic number: 2,361
+78_skyMvp-master,com.jess.arms.utils,ArmsUtils,encodeToMD5,Magic Number,The method contains a magic number: 0xFF,361
+78_skyMvp-master,com.jess.arms.utils,ArmsUtils,encodeToMD5,Magic Number,The method contains a magic number: 0x10,361
+78_skyMvp-master,com.jess.arms.utils,ArmsUtils,encodeToMD5,Magic Number,The method contains a magic number: 0xFF,361
+78_skyMvp-master,com.jess.arms.utils,CharacterHandler,filter,Long Parameter List,The method has 6 parameters. ,60
+78_skyMvp-master,com.jess.arms.utils,CharacterHandler,str2HexStr,Magic Number,The method contains a magic number: 0x0f0,74
+78_skyMvp-master,com.jess.arms.utils,CharacterHandler,str2HexStr,Magic Number,The method contains a magic number: 4,74
+78_skyMvp-master,com.jess.arms.utils,CharacterHandler,str2HexStr,Magic Number,The method contains a magic number: 0x0f,74
+78_skyMvp-master,com.jess.arms.utils,CharacterHandler,jsonFormat,Magic Number,The method contains a magic number: 4,96
+78_skyMvp-master,com.jess.arms.utils,CharacterHandler,jsonFormat,Magic Number,The method contains a magic number: 4,96
+78_skyMvp-master,com.jess.arms.utils,DataHelper,bytyToString,Magic Number,The method contains a magic number: 1024,278
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,dpToPixel,Magic Number,The method contains a magic number: 160F,86
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,pixelsToDp,Magic Number,The method contains a magic number: 160F,97
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getDefaultLoadFactor,Magic Number,The method contains a magic number: 0xf,108
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Empty catch clause,The method has an empty catch block.,152
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Empty catch clause,The method has an empty catch block.,152
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Magic Number,The method contains a magic number: 2,152
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Magic Number,The method contains a magic number: 14,152
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Magic Number,The method contains a magic number: 17,152
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Magic Number,The method contains a magic number: 17,152
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,hasBigScreen,Magic Number,The method contains a magic number: 0xf,217
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,hasBigScreen,Magic Number,The method contains a magic number: 3,217
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,hasBigScreen,Magic Number,The method contains a magic number: 1.5F,217
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,hasInternet,Long Statement,The length of the statement "ConnectivityManager manager=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 128.,277
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,isLandscape,Magic Number,The method contains a magic number: 2,333
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,isTablet,Magic Number,The method contains a magic number: 0xf,361
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,isTablet,Magic Number,The method contains a magic number: 3,361
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,showSoftKeyboard,Magic Number,The method contains a magic number: 4,380
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,showSoftKeyboard,Long Statement,The length of the statement "((InputMethodManager)context.getSystemService(Context.INPUT_METHOD_SERVICE)).showSoftInput(view`InputMethodManager.SHOW_FORCED);" is 128.,384
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,toogleSoftKeyboard,Long Statement,The length of the statement "((InputMethodManager)context.getSystemService(Context.INPUT_METHOD_SERVICE)).toggleSoftInput(0`InputMethodManager.HIDE_NOT_ALWAYS);" is 131.,390
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getCurCountryLan,Long Statement,The length of the statement "return context.getResources().getConfiguration().locale.getLanguage() + "-" + context.getResources().getConfiguration().locale.getCountry();" is 140.,401
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,percent,Magic Number,The method contains a magic number: 2,418
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,openCamera,Magic Number,The method contains a magic number: 0x34c40000,591
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,isWifiOpen,Long Statement,The length of the statement "ConnectivityManager cm=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 123.,631
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getStatuBarHeight,Magic Number,The method contains a magic number: 38,703
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,getNetworkType,Long Statement,The length of the statement "ConnectivityManager connectivityManager=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 140.,748
+78_skyMvp-master,com.jess.arms.utils,DeviceUtils,netIsConnected,Long Statement,The length of the statement "ConnectivityManager connectMgr=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 131.,776
+78_skyMvp-master,com.jess.arms.utils,DrawableProvider,getScaleDrawable,Long Statement,The length of the statement "drawable.setBounds(0`0`(int)(drawable.getIntrinsicWidth() * percent + 0.5f)`(int)(drawable.getIntrinsicHeight() * percent + 0.5f));" is 131.,91
+78_skyMvp-master,com.jess.arms.utils,DrawableProvider,getScaleDrawable,Magic Number,The method contains a magic number: 0.5f,91
+78_skyMvp-master,com.jess.arms.utils,DrawableProvider,getScaleDrawable,Magic Number,The method contains a magic number: 0.5f,91
+78_skyMvp-master,com.jess.arms.utils,DrawableProvider,getBitmapDegree,Magic Number,The method contains a magic number: 90,179
+78_skyMvp-master,com.jess.arms.utils,DrawableProvider,getBitmapDegree,Magic Number,The method contains a magic number: 180,179
+78_skyMvp-master,com.jess.arms.utils,DrawableProvider,getBitmapDegree,Magic Number,The method contains a magic number: 270,179
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Complex Method,Cyclomatic complexity of the method is 15,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Long Method,The method has 166 lines of code.,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 256,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 256,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 3,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0xff0000,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 16,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0x00ff00,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 8,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0x0000ff,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0xff0000,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 16,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0x00ff00,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 8,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0x0000ff,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0xff000000,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 16,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 8,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+78_skyMvp-master,com.jess.arms.utils,FastBlur,blur,Long Statement,The length of the statement "Bitmap overlay=Bitmap.createBitmap((int)(view.getMeasuredWidth() / scaleFactor)`(int)(view.getMeasuredHeight() / scaleFactor)`Bitmap.Config.ARGB_8888);" is 151.,276
+78_skyMvp-master,com.jess.arms.utils,FastBlur,blur,Magic Number,The method contains a magic number: 15,276
+78_skyMvp-master,com.jess.arms.utils,FastBlur,blur,Magic Number,The method contains a magic number: 8,276
+78_skyMvp-master,com.jess.arms.utils,FastBlur,blurBitmap,Magic Number,The method contains a magic number: 15,303
+78_skyMvp-master,com.jess.arms.utils,FastBlur,blurBitmap,Magic Number,The method contains a magic number: 8,303
+78_skyMvp-master,com.jess.arms.utils,LogUtils,debugLongInfo,Magic Number,The method contains a magic number: 3500,59
+78_skyMvp-master,com.jess.arms.utils,PermissionUtil,requestPermission,Complex Method,Cyclomatic complexity of the method is 8,72
+78_skyMvp-master,com.jess.arms.utils,PermissionUtil,requestPermission,Long Statement,The length of the statement "rxPermissions.requestEach(needRequest.toArray(new String[needRequest.size()])).buffer(permissions.length).subscribe(new ErrorHandleSubscriber<List<Permission>>(errorHandler){" is 174.,72
+78_skyMvp-master,com.jess.arms.utils,PermissionUtil,launchCamera,Long Statement,The length of the statement "requestPermission(requestPermission`rxPermissions`errorHandler`Manifest.permission.WRITE_EXTERNAL_STORAGE`Manifest.permission.CAMERA);" is 134.,113
+78_skyMvp-master,com.jess.arms.utils,Preconditions,badElementIndex,Magic Number,The method contains a magic number: 26,105
+78_skyMvp-master,com.jess.arms.utils,Preconditions,badPositionIndex,Long Statement,The length of the statement "return format("%s (%s) must not be greater than size (%s)"`new Object[]{desc`Integer.valueOf(index)`Integer.valueOf(size)});" is 124.,127
+78_skyMvp-master,com.jess.arms.utils,Preconditions,badPositionIndex,Magic Number,The method contains a magic number: 26,127
+78_skyMvp-master,com.jess.arms.utils,Preconditions,checkPositionIndexes,Complex Conditional,The conditional expression start < 0 || end < start || end > size is complex.,137
+78_skyMvp-master,com.jess.arms.utils,Preconditions,badPositionIndexes,Long Statement,The length of the statement "return start >= 0 && start <= size ? (end >= 0 && end <= size ? format("end index (%s) must not be less than start index (%s)"`new Object[]{Integer.valueOf(end)`Integer.valueOf(start)}) : badPositionIndex(end`size`"end index")) : badPositionIndex(start`size`"start index");" is 273.,143
+78_skyMvp-master,com.jess.arms.utils,Preconditions,format,Magic Number,The method contains a magic number: 16,147
+78_skyMvp-master,com.jess.arms.utils,Preconditions,format,Magic Number,The method contains a magic number: 2,147
+78_skyMvp-master,com.jess.arms.utils,ThirdViewUtil,convertAutoView,Complex Conditional,The conditional expression applicationInfo == null || applicationInfo.metaData == null || !applicationInfo.metaData.containsKey("design_width") || !applicationInfo.metaData.containsKey("design_height") is complex.,64
+78_skyMvp-master,com.jess.arms.utils,ThirdViewUtil,convertAutoView,Long Statement,The length of the statement "if (applicationInfo == null || applicationInfo.metaData == null || !applicationInfo.metaData.containsKey("design_width") || !applicationInfo.metaData.containsKey("design_height")) {" is 181.,64
+78_skyMvp-master,com.jess.arms.utils,ZipHelper,decompressForZlib,Long Identifier,The length of the identifier numberOfBytesDecompressedSoFar is 30.,90
+78_skyMvp-master,com.jess.arms.utils,ZipHelper,decompressForZlib,Long Identifier,The length of the identifier numberOfBytesDecompressedThisTime is 33.,90
+78_skyMvp-master,com.jess.arms.utils,ZipHelper,closeQuietly,Empty catch clause,The method has an empty catch block.,262
+78_skyMvp-master,com.jess.arms.widget.autolayout,AutoAppBarLayout,onLayout,Long Parameter List,The method has 5 parameters. ,58
+78_skyMvp-master,com.jess.arms.widget.autolayout,AutoCollapsingToolbarLayout,onLayout,Long Parameter List,The method has 5 parameters. ,61
+78_skyMvp-master,com.jess.arms.widget.autolayout,AutoScrollView,onLayout,Long Parameter List,The method has 5 parameters. ,62
+78_skyMvp-master,com.jess.arms.widget.autolayout,AutoToolbar,onLayout,Long Parameter List,The method has 5 parameters. ,62

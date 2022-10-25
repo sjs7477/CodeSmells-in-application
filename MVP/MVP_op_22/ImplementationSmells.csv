@@ -1,0 +1,647 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+BaseMVP-master-master,com.barnettwong.basemvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+BaseMVP-master-master,com.barnettwong.basemvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+BaseMVP-master-master,com.barnettwong.basemvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+BaseMVP-master-master,com.barnettwong.basemvp.ui.activity,MainActivity,SwitchTo,Magic Number,The method contains a magic number: 2,131
+BaseMVP-master-master,com.barnettwong.basemvp.ui.activity,MainActivity,SwitchTo,Magic Number,The method contains a magic number: 3,131
+BaseMVP-master-master,com.barnettwong.basemvp.ui.activity,MainActivity,SwitchTo,Missing default,The following switch statement is missing a default case: switch (position) {,131
+BaseMVP-master-master,com.barnettwong.basemvp.ui.fragment,MovieCommentFragment,showErrorTip,Magic Number,The method contains a magic number: 2000,116
+BaseMVP-master-master,com.barnettwong.basemvp.mvp.model,MovieCommentModel,getMovieComments,Long Statement,The length of the statement "return Api.getDefault(HostType.YINGPIN_TV).getMovieReview().map(resultBean -> resultBean).compose(RxSchedulers.io_main());" is 122.,19
+BaseMVP-master-master,com.barnettwong.basemvp.api,ApiConstants,getHost,Missing default,The following switch statement is missing a default case: switch (hostType) {,26
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,Api,Long Identifier,The length of the field mRewriteCacheControlInterceptor is 31.,72
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,Api,Long Statement,The length of the statement "okHttpClient=new OkHttpClient.Builder().readTimeout(READ_TIME_OUT`TimeUnit.SECONDS).connectTimeout(CONNECT_TIME_OUT`TimeUnit.SECONDS).addInterceptor(mRewriteCacheControlInterceptor).addNetworkInterceptor(mRewriteCacheControlInterceptor).addInterceptor(headerInterceptor).addInterceptor(logInterceptor).cache(cache).build();" is 323.,72
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,Api,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().client(okHttpClient).addConverterFactory(LenientGsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).baseUrl(ApiConstants.getHost(hostType)).build();" is 216.,72
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,Api,Magic Number,The method contains a magic number: 1024,72
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,Api,Magic Number,The method contains a magic number: 1024,72
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,Api,Magic Number,The method contains a magic number: 100,72
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,intercept,Long Statement,The length of the statement "request=request.newBuilder().cacheControl(TextUtils.isEmpty(cacheControl) ? CacheControl.FORCE_NETWORK : CacheControl.FORCE_CACHE).build();" is 139.,156
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,intercept,Long Statement,The length of the statement "return originalResponse.newBuilder().header("Cache-Control"`"public` only-if-cached` max-stale=" + CACHE_STALE_SEC).removeHeader("Pragma").build();" is 147.,156
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,intercept,Long Statement,The length of the statement "return response.newBuilder().header("Cache-Control"`"public`only-if-cached`max-stale=" + maxStale).removeHeader("Pragma").build();" is 130.,183
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,intercept,Magic Number,The method contains a magic number: 60,183
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,intercept,Magic Number,The method contains a magic number: 60,183
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,intercept,Magic Number,The method contains a magic number: 60,183
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,intercept,Magic Number,The method contains a magic number: 24,183
+BaseMVP-master-master,com.barnettwong.basemvp.api,Api,intercept,Magic Number,The method contains a magic number: 7,183
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelActivity,onCreate,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 126.,60
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelActivity,onRequestPermissionsResult,Long Statement,The length of the statement "getSupportFragmentManager().beginTransaction().add(R.id.fmImageList`ImgSelFragment.instance(config)`null).commitAllowingStateLoss();" is 132.,193
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,193
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Complex Method,Cyclomatic complexity of the method is 10,84
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Empty catch clause,The method has an empty catch block.,84
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Magic Number,The method contains a magic number: 3,84
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Complex Method,Cyclomatic complexity of the method is 9,105
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Long Statement,The length of the statement "CursorLoader cursorLoader=new CursorLoader(getActivity()`MediaStore.Images.Media.EXTERNAL_CONTENT_URI`IMAGE_PROJECTION`null`null`IMAGE_PROJECTION[2] + " DESC");" is 160.,152
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Long Statement,The length of the statement "CursorLoader cursorLoader=new CursorLoader(getActivity()`MediaStore.Images.Media.EXTERNAL_CONTENT_URI`IMAGE_PROJECTION`IMAGE_PROJECTION[0] + " like '%" + args.getString("path")+ "%'"`null`IMAGE_PROJECTION[2] + " DESC");" is 219.,152
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Magic Number,The method contains a magic number: 2,152
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Magic Number,The method contains a magic number: 2,152
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onLoadFinished,Complex Method,Cyclomatic complexity of the method is 9,168
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onLoadFinished,Magic Number,The method contains a magic number: 2,168
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 3,256
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 2,256
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 3,256
+BaseMVP-master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 2,256
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1024,207
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1048576,207
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1024,207
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1073741824,207
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1048576,207
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1073741824,207
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,FileUtils,getFileOutputString,Magic Number,The method contains a magic number: 8192,285
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'e' == level && ('e' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'w' == level && ('w' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'd' == level && ('d' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+BaseMVP-master-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'i' == level && ('d' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Complex Method,Cyclomatic complexity of the method is 11,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 100,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 15,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 25,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 35,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 45,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 55,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 65,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 75,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 85,18
+BaseMVP-master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 95,18
+BaseMVP-master-master,com.dueeeke.videocontroller,StandardVideoController,setPlayState,Complex Method,Cyclomatic complexity of the method is 11,179
+BaseMVP-master-master,com.dueeeke.videocontroller,StandardVideoController,setProgress,Complex Method,Cyclomatic complexity of the method is 9,384
+BaseMVP-master-master,com.dueeeke.videocontroller,StandardVideoController,setProgress,Magic Number,The method contains a magic number: 95,384
+BaseMVP-master-master,com.dueeeke.videocontroller,StandardVideoController,setProgress,Magic Number,The method contains a magic number: 10,384
+BaseMVP-master-master,com.dueeeke.videocontroller,StandardVideoController,setProgress,Magic Number,The method contains a magic number: 10,384
+BaseMVP-master-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+BaseMVP-master-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+BaseMVP-master-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+BaseMVP-master-master,com.example.provider7,ProviderSevenUriUtils,getUriForFile,Magic Number,The method contains a magic number: 24,18
+BaseMVP-master-master,com.example.provider7,ProviderSevenUriUtils,setIntentDataAndType,Long Parameter List,The method has 5 parameters. ,36
+BaseMVP-master-master,com.example.provider7,ProviderSevenUriUtils,setIntentDataAndType,Magic Number,The method contains a magic number: 24,36
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeChanged,Magic Number,The method contains a magic number: 2,38
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeChanged,Magic Number,The method contains a magic number: 2,43
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeInserted,Magic Number,The method contains a magic number: 2,48
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeRemoved,Magic Number,The method contains a magic number: 2,53
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,WrapperAdapter,Long Parameter List,The method has 5 parameters. ,64
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemCount,Magic Number,The method contains a magic number: 4,114
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 3,119
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,151
+BaseMVP-master-master,com.aspsine.irecyclerview,WrapperAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,151
+BaseMVP-master-master,com.aspsine.irecyclerview,IViewHolder,getIPosition,Magic Number,The method contains a magic number: 2,15
+BaseMVP-master-master,com.aspsine.irecyclerview,IViewHolder,getILayoutPosition,Magic Number,The method contains a magic number: 2,20
+BaseMVP-master-master,com.aspsine.irecyclerview,IViewHolder,getIAdapterPosition,Magic Number,The method contains a magic number: 2,24
+BaseMVP-master-master,com.aspsine.irecyclerview,IViewHolder,getIOldPosition,Magic Number,The method contains a magic number: 2,28
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,setRefreshHeaderView,Long Statement,The length of the statement "final View refreshHeader=LayoutInflater.from(getContext()).inflate(refreshHeaderLayoutRes`mRefreshHeaderContainer`false);" is 121.,243
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,setLoadMoreFooterView,Long Statement,The length of the statement "final View loadMoreFooter=LayoutInflater.from(getContext()).inflate(loadMoreFooterLayoutRes`mLoadMoreFooterContainer`false);" is 124.,272
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,removeFooterView,Magic Number,The method contains a magic number: 2,321
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,addFooterView,Magic Number,The method contains a magic number: 2,330
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,setAdapter,Long Statement,The length of the statement "super.setAdapter(new WrapperAdapter(adapter`mRefreshHeaderContainer`mHeaderViewContainer`mFooterViewContainer`mLoadMoreFooterContainer));" is 137.,344
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,ensureLoadMoreFooterContainer,Long Statement,The length of the statement "mLoadMoreFooterContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 132.,360
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,ensureHeaderViewContainer,Long Statement,The length of the statement "mHeaderViewContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 128.,367
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,ensureFooterViewContainer,Long Statement,The length of the statement "mFooterViewContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 128.,375
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 16,437
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Long Statement,The length of the statement "LogUtils.loge(TAG`"Error processing scroll; pointer index for id " + index + " not found. Did any MotionEvents get skipped?");" is 126.,437
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Long Statement,The length of the statement "final boolean triggerCondition=isEnabled() && mRefreshEnabled && mRefreshHeaderView != null && isFingerDragging() && canTriggerRefresh();" is 137.,437
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,getMotionEventX,Magic Number,The method contains a magic number: 0.5f,544
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,getMotionEventY,Magic Number,The method contains a magic number: 0.5f,548
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,fingerMove,Magic Number,The method contains a magic number: 0.5f,552
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,fingerMove,Magic Number,The method contains a magic number: 0.5,552
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,startScrollDefaultStatusToRefreshingStatus,Magic Number,The method contains a magic number: 400,583
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,startScrollSwipingToRefreshStatusToDefaultStatus,Magic Number,The method contains a magic number: 300,591
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,startScrollReleaseStatusToRefreshingStatus,Magic Number,The method contains a magic number: 300,597
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,startScrollRefreshingStatusToDefaultStatus,Magic Number,The method contains a magic number: 400,605
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onAnimationEnd,Complex Method,Cyclomatic complexity of the method is 8,659
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,onAnimationEnd,Long Statement,The length of the statement "LogUtils.logi(TAG`"onAnimationEnd " + getStatusLog(lastStatus) + " -> "+ getStatusLog(mStatus)+ " ;refresh view height:"+ mRefreshHeaderContainer.getMeasuredHeight());" is 167.,659
+BaseMVP-master-master,com.aspsine.irecyclerview,IRecyclerView,getStatusLog,Missing default,The following switch statement is missing a default case: switch (status) {,787
+BaseMVP-master-master,com.aspsine.irecyclerview,RefreshHeaderLayout,onLayout,Long Parameter List,The method has 5 parameters. ,83
+BaseMVP-master-master,com.aspsine.irecyclerview,OnLoadMoreScrollListener,onScrollStateChanged,Long Statement,The length of the statement "boolean triggerCondition=visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && canTriggerLoadMore(recyclerView);" is 128.,15
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 100.0f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 380.0f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 100.0f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 360f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 360f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,onMove,Magic Number,The method contains a magic number: 360,90
+BaseMVP-master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,onMove,Magic Number,The method contains a magic number: 360,90
+BaseMVP-master-master,com.aspsine.irecyclerview.universaladapter.recyclerview.support,SectionAdapter,SectionAdapter,Long Parameter List,The method has 5 parameters. ,52
+BaseMVP-master-master,com.aspsine.irecyclerview.universaladapter,ViewHolderHelper,get,Long Parameter List,The method has 5 parameters. ,45
+BaseMVP-master-master,com.jaydenxiao.common.baserx,RxManager,on,Long Statement,The length of the statement "mCompositeSubscription.add(mObservable.observeOn(AndroidSchedulers.mainThread()).subscribe(action1`new Action1<Throwable>(){" is 124.,24
+BaseMVP-master-master,com.jaydenxiao.common.baserx,RxCache,load,Long Parameter List,The method has 5 parameters. ,43
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,OnDoubleClickListener,onClick,Magic Number,The method contains a magic number: 2,15
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,OnDoubleClickListener,onClick,Magic Number,The method contains a magic number: 1000,15
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,LoadingTip,setLoadingTip,Complex Method,Cyclomatic complexity of the method is 8,82
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,LoadingDialog,showDialogForLoading,Long Statement,The length of the statement "mLoadingDialog.setContentView(view`new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT));" is 145.,21
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,LoadingDialog,showDialogForLoading,Long Statement,The length of the statement "mLoadingDialog.setContentView(view`new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT));" is 145.,40
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,NoScrollListview,onMeasure,Magic Number,The method contains a magic number: 2,19
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,setStatusBarColor,Complex Conditional,The conditional expression mDecorView.getTag() != null && mDecorView.getTag() instanceof Boolean && (Boolean)mDecorView.getTag() is complex.,32
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,translucentStatusBar,Complex Conditional,The conditional expression mDecorView.getTag() != null && mDecorView.getTag() instanceof Boolean && (Boolean)mDecorView.getTag() is complex.,89
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,translucentStatusBar,Complex Method,Cyclomatic complexity of the method is 9,89
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 255f,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 16,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 8,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 24,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 16,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 8,153
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,WaveView,WaveView,Magic Number,The method contains a magic number: 80,28
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 0.1f,48
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 2,48
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 20,48
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 8,48
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 20,48
+BaseMVP-master-master,com.jaydenxiao.common.commonwidget,NoScrollGridView,onMeasure,Magic Number,The method contains a magic number: 2,22
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 6,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,113
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,175
+BaseMVP-master-master,com.jaydenxiao.common.security,Base64,isValidBase64Byte,Magic Number,The method contains a magic number: 128,274
+BaseMVP-master-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+BaseMVP-master-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+BaseMVP-master-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+BaseMVP-master-master,com.jaydenxiao.common.security,AESUtil,Encrypt,Magic Number,The method contains a magic number: 16,22
+BaseMVP-master-master,com.jaydenxiao.common.security,AESUtil,Decrypt,Magic Number,The method contains a magic number: 16,43
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,init,Complex Method,Cyclomatic complexity of the method is 13,80
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,onCreateView,Complex Method,Cyclomatic complexity of the method is 13,88
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,getAttr,Complex Conditional,The conditional expression attrName == null || attrName.trim().equals("") || draw == null is complex.,139
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeNight,Complex Conditional,The conditional expression mBackGroundDrawableViews == null || mOneTextColorViews == null || mBackGroundViews == null is complex.,183
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeDay,Complex Conditional,The conditional expression mBackGroundDrawableViews == null || mOneTextColorViews == null || mTwoTextColorViews == null || mThreeTextColorViews == null || mBackGroundViews == null is complex.,198
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeDay,Long Statement,The length of the statement "if (mBackGroundDrawableViews == null || mOneTextColorViews == null || mTwoTextColorViews == null || mThreeTextColorViews == null || mBackGroundViews == null) {" is 159.,198
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,refreshStatusBar,Magic Number,The method contains a magic number: 21,265
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,showAnimation,Long Statement,The length of the statement "ViewGroup.LayoutParams layoutParam=new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT);" is 135.,277
+BaseMVP-master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,showAnimation,Magic Number,The method contains a magic number: 500,277
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,Compressor,compressToFile,Long Statement,The length of the statement "return ImageUtil.compressImage(context`Uri.fromFile(file)`maxWidth`maxHeight`compressFormat`quality`destinationDirectoryPath);" is 126.,74
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 16,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 1024,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2.0f,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2.0f,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 6,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 90,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 3,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 180,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 8,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 270,26
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,compressImage,Empty catch clause,The method has an empty catch block.,124
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,compressImage,Long Parameter List,The method has 7 parameters. ,124
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,generateFilePath,Long Statement,The length of the statement "return file.getAbsolutePath() + File.separator + FileUtil.splitFileName(FileUtil.getFileName(context`uri))[0]+ "."+ extension;" is 126.,158
+BaseMVP-master-master,com.jaydenxiao.common.compressorutils,ImageUtil,calculateInSampleSize,Magic Number,The method contains a magic number: 2,166
+BaseMVP-master-master,com.jaydenxiao.common.baseapp,AppManager,preActivity,Magic Number,The method contains a magic number: 2,59
+BaseMVP-master-master,com.jaydenxiao.common.baseapp,AppManager,AppExit,Empty catch clause,The method has an empty catch block.,159
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,NetWorkUtils,isNetConnected,Long Statement,The length of the statement "NetworkInfo localNetworkInfo=((ConnectivityManager)paramContext.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();" is 135.,17
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,NetWorkUtils,isLinkAvailable,Long Statement,The length of the statement "Pattern pattern=Pattern.compile("^(http://|https://)?((?:[A-Za-z0-9]+-[A-Za-z0-9]+|[A-Za-z0-9]+)\\.)+([A-Za-z]+)[/\\?\\:]?.*$"`Pattern.CASE_INSENSITIVE);" is 153.,59
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,IpUtils,GetHostIp,Empty catch clause,The method has an empty catch block.,15
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,IpUtils,GetHostIp,Empty catch clause,The method has an empty catch block.,15
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2,27
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2,27
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2f,27
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Parameter List,The method has 5 parameters. ,18
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,26
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,38
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displaySmallPhoto,Long Statement,The length of the statement "Glide.with(context).load(url).asBitmap().diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).thumbnail(0.5f).into(imageView);" is 190.,49
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displaySmallPhoto,Magic Number,The method contains a magic number: 0.5f,49
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayBigPhoto,Long Statement,The length of the statement "Glide.with(context).load(url).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).into(imageView);" is 212.,60
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,71
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayRound,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.toux2).centerCrop().transform(new GlideRoundTransformUtil(context)).into(imageView);" is 172.,82
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayRound,Long Statement,The length of the statement "Glide.with(context).load(resId).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.toux2).centerCrop().transform(new GlideRoundTransformUtil(context)).into(imageView);" is 174.,91
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,DisplayUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,27
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,DisplayUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,39
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,DisplayUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,51
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,DisplayUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,63
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,PermissionDialog,Long Statement,The length of the statement "Dialog deleteDialog=new AlertDialog.Builder(activity).setTitle("提示").setMessage(content).setPositiveButton("去设置"`new DialogInterface.OnClickListener(){" is 151.,19
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,startSettingIntent,Magic Number,The method contains a magic number: 9,32
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,startSettingIntent,Magic Number,The method contains a magic number: 8,32
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,put,Magic Number,The method contains a magic number: 1024,96
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,put,Empty catch clause,The method has an empty catch block.,375
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,isDue,Magic Number,The method contains a magic number: 2,718
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,isDue,Magic Number,The method contains a magic number: 1000,718
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 15,769
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 13,769
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 14,769
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,774
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,774
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,createDateInfo,Magic Number,The method contains a magic number: 13,805
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,ACache,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,816
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,isDue,Magic Number,The method contains a magic number: 2,718
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,isDue,Magic Number,The method contains a magic number: 1000,718
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 15,769
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 13,769
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 14,769
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,774
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,774
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,createDateInfo,Magic Number,The method contains a magic number: 13,805
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,Utils,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,816
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2,26
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2,26
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2f,26
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,AdViewpagerUtil,Long Parameter List,The method has 6 parameters. ,116
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initAdimgs,Long Statement,The length of the statement "LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT);" is 142.,161
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initAdimgs,Magic Number,The method contains a magic number: 2,161
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,setImg,Magic Number,The method contains a magic number: 2,179
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Complex Method,Cyclomatic complexity of the method is 24,210
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 0.01,210
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Missing default,The following switch statement is missing a default case: switch (action) {,210
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onTouch,Missing default,The following switch statement is missing a default case: switch (action) {,222
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrollStateChanged,Magic Number,The method contains a magic number: 2,244
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrolled,Magic Number,The method contains a magic number: 0.01,262
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrolled,Magic Number,The method contains a magic number: 2,262
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageSelected,Complex Method,Cyclomatic complexity of the method is 10,279
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageSelected,Magic Number,The method contains a magic number: 2,279
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,startLoopViewPager,Complex Conditional,The conditional expression !isLoop && viewPager != null && handler != null is complex.,361
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,stopLoopViewPager,Complex Conditional,The conditional expression isLoop && viewPager != null && handler != null is complex.,372
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,394
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatData,Magic Number,The method contains a magic number: 1000,127
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getOffectHour,Magic Number,The method contains a magic number: 24,436
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getOffectMinutes,Magic Number,The method contains a magic number: 60,456
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getDayOfWeek,Magic Number,The method contains a magic number: 7,496
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFirstTimeOfDay,Empty catch clause,The method has an empty catch block.,567
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getLastTimeOfDay,Empty catch clause,The method has an empty catch block.,583
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Complex Conditional,The conditional expression (year % 4 == 0 && year % 400 != 0) || year % 400 == 0 is complex.,599
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 4,599
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 400,599
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 400,599
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Complex Method,Cyclomatic complexity of the method is 14,614
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Empty catch clause,The method has an empty catch block.,614
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Magic Number,The method contains a magic number: 2,614
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Magic Number,The method contains a magic number: 2,614
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Complex Method,Cyclomatic complexity of the method is 8,671
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 2,671
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 3,671
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 4,671
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 5,671
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 6,671
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Complex Method,Cyclomatic complexity of the method is 12,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 3600000,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 86400000,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 86400000,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 3600000,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 2,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 2,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 10,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 10,728
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 24,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,922
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,944
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 10,944
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,944
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,944
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,944
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 10,944
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,959
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,959
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,959
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 10,959
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 1000,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,975
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 3 && day >= 21) || (mouth == 4 && day <= 19) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 4 && day >= 20) || (mouth == 5 && day <= 20) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 5 && day >= 21) || (mouth == 6 && day <= 21) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 6 && day >= 22) || (mouth == 7 && day <= 22) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 7 && day >= 23) || (mouth == 8 && day <= 22) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 8 && day >= 23) || (mouth == 9 && day <= 22) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 9 && day >= 23) || (mouth == 10 && day <= 23) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 10 && day >= 24) || (mouth == 11 && day <= 22) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 11 && day >= 23) || (mouth == 12 && day <= 21) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 12 && day >= 22) || (mouth == 1 && day <= 19) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 1 && day >= 20) || (mouth == 2 && day <= 18) is complex.,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Method,Cyclomatic complexity of the method is 12,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 3,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 4,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 19,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 4,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 5,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 5,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 6,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 6,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 7,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 7,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 8,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 8,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 9,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 9,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 10,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 10,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 24,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 11,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 11,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 12,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 12,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 19,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 2,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 18,987
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,isEmail,Long Statement,The length of the statement "String str="^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1`3}\\.[0-9]{1`3}\\.[0-9]{1`3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2`4}|[0-9]{1`3})(\\]?)$";" is 140.,29
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,isChinese,Complex Conditional,The conditional expression ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A || ub == Character.UnicodeBlock.GENERAL_PUNCTUATION || ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION || ub == Character.UnicodeBlock.HALFWIDTH_AND_FULLWIDTH_FORMS is complex.,70
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,isChinese,Long Statement,The length of the statement "if (ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A || ub == Character.UnicodeBlock.GENERAL_PUNCTUATION || ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION || ub == Character.UnicodeBlock.HALFWIDTH_AND_FULLWIDTH_FORMS) {" is 360.,70
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Complex Conditional,The conditional expression nonCheckCodeCardId == null || nonCheckCodeCardId.trim().length() == 0 || !nonCheckCodeCardId.matches("\\d+") is complex.,122
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 2,122
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 2,122
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Complex Method,Cyclomatic complexity of the method is 13,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Long Statement,The length of the statement "if ((gc.get(Calendar.YEAR) - Integer.parseInt(strYear)) > 150 || (gc.getTime().getTime() - s.parse(strYear + "-" + strMonth+ "-"+ strDay).getTime()) < 0) {" is 155.,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 17,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 10,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 10,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 14,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 150,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 31,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 2,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 17,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 11,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,FormatUtil,isDataFormat,Long Statement,The length of the statement "String regxStr="^((\\d{2}(([02468][048])|([13579][26]))[\\-\\/\\s]?((((0?[13578])|(1[02]))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(3[01])))|(((0?[469])|(11))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(30)))|(0?2[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])))))|(\\d{2}(([02468][1235679])|([13579][01345789]))[\\-\\/\\s]?((((0?[13578])|(1[02]))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(3[01])))|(((0?[469])|(11))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(30)))|(0?2[\\-\\/\\s]?((0?[1-9])|(1[0-9])|(2[0-8]))))))(\\s(((0?[0-9])|([1-2][0-3]))\\:([0-5]?[0-9])((\\s)|(\\:([0-5]?[0-9])))))?$";" is 554.,298
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 2,14
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 3,14
+BaseMVP-master-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 2,14
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,addGuideView,Long Statement,The length of the statement "LinearLayout.LayoutParams layoutParams=new LinearLayout.LayoutParams(getResources().getDimensionPixelSize(R.dimen.gudieview_width)`getResources().getDimensionPixelSize(R.dimen.gudieview_heigh));" is 194.,117
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,addGuideView,Magic Number,The method contains a magic number: 10,117
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "FrameLayout.LayoutParams loadingLayoutParams=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 147.,157
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "Glide.with(context).load(imgurl).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.ic_empty_picture).thumbnail(0.1f).listener(new RequestListener<String`GlideDrawable>(){" is 178.,157
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "@Override public boolean onResourceReady( GlideDrawable resource` String model` Target<GlideDrawable> target` boolean isFromMemoryCache` boolean isFirstResource){" is 162.,157
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Magic Number,The method contains a magic number: 0.1f,157
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,onResourceReady,Long Parameter List,The method has 5 parameters. ,195
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "FrameLayout.LayoutParams loadingLayoutParams=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 147.,157
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "Glide.with(context).load(imgurl).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.ic_empty_picture).thumbnail(0.1f).listener(new RequestListener<String`GlideDrawable>(){" is 178.,157
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "@Override public boolean onResourceReady( GlideDrawable resource` String model` Target<GlideDrawable> target` boolean isFromMemoryCache` boolean isFirstResource){" is 162.,157
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Magic Number,The method contains a magic number: 0.1f,157
+BaseMVP-master-master,com.jaydenxiao.common.imagePager,ImageAdapter,onResourceReady,Long Parameter List,The method has 5 parameters. ,195
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Complex Method,Cyclomatic complexity of the method is 21,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 90,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 270,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 16,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 9,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 16,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 9,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 9,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 16,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 3,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 4,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Missing default,The following switch statement is missing a default case: switch (screenType) {,40
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Complex Method,Cyclomatic complexity of the method is 21,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 90,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 270,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 16,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 9,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 16,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 9,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 9,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 16,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 4,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 3,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 4,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 3,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 3,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 4,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Missing default,The following switch statement is missing a default case: switch (screenType) {,39
+BaseMVP-master-master,com.dueeeke.videoplayer.widget,StatusView,dispatchTouchEvent,Long Statement,The length of the statement "if (absDeltaX > ViewConfiguration.get(getContext()).getScaledTouchSlop() || absDeltaY > ViewConfiguration.get(getContext()).getScaledTouchSlop()) {" is 147.,55
+BaseMVP-master-master,com.dueeeke.videoplayer.util,NetworkUtil,getNetworkType,Complex Method,Cyclomatic complexity of the method is 22,23
+BaseMVP-master-master,com.dueeeke.videoplayer.util,NetworkUtil,getNetworkType,Long Statement,The length of the statement "ConnectivityManager connectMgr=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 131.,23
+BaseMVP-master-master,com.dueeeke.videoplayer.util,WindowUtil,scanForActivity,Long Statement,The length of the statement "return context == null ? null : (context instanceof Activity ? (Activity)context : (context instanceof ContextWrapper ? scanForActivity(((ContextWrapper)context).getBaseContext()) : null));" is 189.,125
+BaseMVP-master-master,com.dueeeke.videoplayer.util,WindowUtil,isEdge,Long Statement,The length of the statement "return e.getRawX() < edgeSize || e.getRawX() > getScreenWidth(context) - edgeSize || e.getRawY() < edgeSize || e.getRawY() > getScreenHeight(context`true) - edgeSize;" is 166.,186
+BaseMVP-master-master,com.dueeeke.videoplayer.util,WindowUtil,isEdge,Magic Number,The method contains a magic number: 50,186
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,GestureVideoController,onScroll,Complex Method,Cyclomatic complexity of the method is 8,95
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,GestureVideoController,onScroll,Magic Number,The method contains a magic number: 2,95
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeBrightness,Magic Number,The method contains a magic number: 0.5f,164
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeBrightness,Magic Number,The method contains a magic number: 2,164
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeBrightness,Magic Number,The method contains a magic number: 100,164
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeVolume,Magic Number,The method contains a magic number: 2,185
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeVolume,Magic Number,The method contains a magic number: 100,185
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,MyGestureListener,onScroll,Complex Method,Cyclomatic complexity of the method is 8,95
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,MyGestureListener,onScroll,Magic Number,The method contains a magic number: 2,95
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,BaseVideoController,run,Magic Number,The method contains a magic number: 1000,145
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,BaseVideoController,run,Magic Number,The method contains a magic number: 1000,145
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 1000,176
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 60,176
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 60,176
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 60,176
+BaseMVP-master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 3600,176
+BaseMVP-master-master,com.dueeeke.videoplayer.player,IjkPlayer,onVideoSizeChanged,Long Parameter List,The method has 5 parameters. ,233
+BaseMVP-master-master,com.dueeeke.videoplayer.player,IjkVideoView,addSurfaceView,Long Statement,The length of the statement "LayoutParams params=new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT`Gravity.CENTER);" is 125.,134
+BaseMVP-master-master,com.dueeeke.videoplayer.player,IjkVideoView,addTextureView,Long Statement,The length of the statement "LayoutParams params=new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT`Gravity.CENTER);" is 125.,165
+BaseMVP-master-master,com.dueeeke.videoplayer.player,IjkVideoView,checkNetwork,Long Statement,The length of the statement "if (NetworkUtil.getNetworkType(getContext()) == NetworkUtil.NETWORK_MOBILE && !PlayerConstants.IS_PLAY_ON_MOBILE_NETWORK) {" is 123.,208
+BaseMVP-master-master,com.dueeeke.videoplayer.player,RawDataSourceProvider,readBytes,Magic Number,The method contains a magic number: 1024,65
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 340,92
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 260,92
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 280,92
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 70,92
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 90,92
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationPortrait,Complex Conditional,The conditional expression isLockFullScreen || !mPlayerConfig.mAutoRotate || currentOrientation == PORTRAIT is complex.,107
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationPortrait,Complex Conditional,The conditional expression (currentOrientation == LANDSCAPE || currentOrientation == REVERSE_LANDSCAPE) && !isFullScreen() is complex.,107
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,startPrepare,Magic Number,The method contains a magic number: 100,192
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,addOnVideoViewStateChangeListener,Long Identifier,The length of the field mOnVideoViewStateChangeListeners is 32.,336
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,removeOnVideoViewStateChangeListener,Long Identifier,The length of the field mOnVideoViewStateChangeListeners is 32.,346
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,clearOnVideoViewStateChangeListeners,Long Identifier,The length of the field mOnVideoViewStateChangeListeners is 32.,355
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,isInPlaybackState,Long Statement,The length of the statement "return (mMediaPlayer != null && mCurrentPlayState != STATE_ERROR && mCurrentPlayState != STATE_IDLE && mCurrentPlayState != STATE_PREPARING && mCurrentPlayState != STATE_PLAYBACK_COMPLETED);" is 190.,364
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onAudioFocusChange,Complex Conditional,The conditional expression mMediaPlayer != null && isPlaying() && !isMute is complex.,623
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onAudioFocusChange,Complex Method,Cyclomatic complexity of the method is 11,623
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onAudioFocusChange,Magic Number,The method contains a magic number: 0.1f,623
+BaseMVP-master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onAudioFocusChange,Magic Number,The method contains a magic number: 0.1f,623
+BaseMVP-master-master,com.dueeeke.videoplayer.player,AudioFocusHelper,onAudioFocusChange,Complex Conditional,The conditional expression mMediaPlayer != null && isPlaying() && !isMute is complex.,623
+BaseMVP-master-master,com.dueeeke.videoplayer.player,AudioFocusHelper,onAudioFocusChange,Complex Method,Cyclomatic complexity of the method is 11,623
+BaseMVP-master-master,com.dueeeke.videoplayer.player,AudioFocusHelper,onAudioFocusChange,Magic Number,The method contains a magic number: 0.1f,623
+BaseMVP-master-master,com.dueeeke.videoplayer.player,AudioFocusHelper,onAudioFocusChange,Magic Number,The method contains a magic number: 0.1f,623
+BaseMVP-master-master,com.dueeeke.videoplayer.player,VideoCacheManager,newProxy,Magic Number,The method contains a magic number: 1024,22
+BaseMVP-master-master,com.dueeeke.videoplayer.player,VideoCacheManager,newProxy,Magic Number,The method contains a magic number: 1024,22
+BaseMVP-master-master,com.dueeeke.videoplayer.player,VideoCacheManager,newProxy,Magic Number,The method contains a magic number: 1024,22
+BaseMVP-master-master,com.dueeeke.videoplayer.player,VideoCacheManager,clearDefaultCache,Long Statement,The length of the statement "String pathTmp=StorageUtil.getIndividualCacheDirectory(context.getApplicationContext()).getAbsolutePath() + File.separator + name+ ".download";" is 143.,38
+BaseMVP-master-master,com.dueeeke.videoplayer.player,VideoCacheManager,clearDefaultCache,Long Statement,The length of the statement "String path=StorageUtil.getIndividualCacheDirectory(context.getApplicationContext()).getAbsolutePath() + File.separator + name;" is 127.,38

@@ -1,0 +1,86 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+avenging-development,com.joaquimley.core,ListPresenterTest,initialCharacterListRequested_Success,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,57
+avenging-development,com.joaquimley.core,ListPresenterTest,initialCharacterListRequested_NoResult,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,86
+avenging-development,com.joaquimley.core,ListPresenterTest,initialCharacterListRequested_Unauthorized,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,113
+avenging-development,com.joaquimley.core,ListPresenterTest,initialCharacterListRequested_Failed,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,135
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Success,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,157
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Success,Magic Number,The method contains a magic number: 2,157
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Success,Magic Number,The method contains a magic number: 30,157
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_NoResult,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,188
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_NoResult,Magic Number,The method contains a magic number: 2,188
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_NoResult,Magic Number,The method contains a magic number: 30,188
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Unauthorized,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,220
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Unauthorized,Magic Number,The method contains a magic number: 2,220
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Unauthorized,Magic Number,The method contains a magic number: 30,220
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Failed,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,242
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Failed,Magic Number,The method contains a magic number: 2,242
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedNoSearchQuery_Failed,Magic Number,The method contains a magic number: 30,242
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Success,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,266
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Success,Magic Number,The method contains a magic number: 2,266
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Success,Magic Number,The method contains a magic number: 30,266
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_NoResult,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,297
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_NoResult,Magic Number,The method contains a magic number: 2,297
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_NoResult,Magic Number,The method contains a magic number: 30,297
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Unauthorized,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,327
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Unauthorized,Magic Number,The method contains a magic number: 2,327
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Unauthorized,Magic Number,The method contains a magic number: 30,327
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Failed,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,349
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Failed,Magic Number,The method contains a magic number: 2,349
+avenging-development,com.joaquimley.core,ListPresenterTest,listEndReachedSearchQuery_Failed,Magic Number,The method contains a magic number: 30,349
+avenging-development,com.joaquimley.core,ListPresenterTest,characterListSearched_Success,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,373
+avenging-development,com.joaquimley.core,ListPresenterTest,characterSearched_NoResult,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,402
+avenging-development,com.joaquimley.core,ListPresenterTest,characterListSearchedRequested_Unauthorized,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,430
+avenging-development,com.joaquimley.core,ListPresenterTest,characterListSearchedRequested_Failed,Long Identifier,The length of the field mGetCharactersListCallbackCaptor is 32.,451
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterComicListRequested_Success,Magic Number,The method contains a magic number: 30,194
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterComicListRequested_NoResult,Magic Number,The method contains a magic number: 30,219
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterComicListRequested_Unauthorized,Magic Number,The method contains a magic number: 30,244
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterComicListRequested_Failed,Magic Number,The method contains a magic number: 30,264
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterSeriesListRequested_Success,Magic Number,The method contains a magic number: 30,286
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterSeriesListRequested_NoResult,Magic Number,The method contains a magic number: 30,311
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterSeriesListRequested_Unauthorized,Magic Number,The method contains a magic number: 30,336
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterSeriesListRequested_Failed,Magic Number,The method contains a magic number: 30,356
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterStoriesListRequested_Success,Magic Number,The method contains a magic number: 30,379
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterStoriesListRequested_NoResult,Magic Number,The method contains a magic number: 30,404
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterStoriesListRequested_Unauthorized,Magic Number,The method contains a magic number: 30,429
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterStoriesListRequested_Failed,Magic Number,The method contains a magic number: 30,449
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterEventsListRequested_Success,Magic Number,The method contains a magic number: 30,471
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterEventsListRequested_NoResult,Magic Number,The method contains a magic number: 30,496
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterEventsListRequested_Unauthorized,Magic Number,The method contains a magic number: 30,521
+avenging-development,com.joaquimley.core,CharacterPresenterTest,characterEventsListRequested_Failed,Magic Number,The method contains a magic number: 30,541
+avenging-development,com.joaquimley.core.data.network,MarvelServiceFactory,makeMarvelService,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(JacksonConverterFactory.create()).client(okHttpClient).build();" is 142.,41
+avenging-development,com.joaquimley.core.data.network,MarvelService,getCharacters,Long Parameter List,The method has 6 parameters. ,34
+avenging-development,com.joaquimley.core.data.network,MarvelService,getCharacterComics,Long Parameter List,The method has 7 parameters. ,54
+avenging-development,com.joaquimley.core.data.network,RemoteCallback,onResponse,Missing default,The following switch statement is missing a default case: switch (response.code()) {,28
+avenging-development,com.joaquimley.core.data,DataManager,getCharactersList,Long Statement,The length of the statement "mMarvelService.getCharacters(BuildConfig.PUBLIC_KEY`buildMd5AuthParameter(timeStamp)`timeStamp`offSet`limit`searchQuery).enqueue(listener);" is 139.,59
+avenging-development,com.joaquimley.core.data,DataManager,getCharacter,Long Statement,The length of the statement "mMarvelService.getCharacter(characterId`BuildConfig.PUBLIC_KEY`buildMd5AuthParameter(timeStamp)`timeStamp).enqueue(listener);" is 125.,67
+avenging-development,com.joaquimley.core.data,DataManager,getComicListByType,Long Statement,The length of the statement "return mMarvelService.getCharacterComics(id`comicType`offset`limit`BuildConfig.PUBLIC_KEY`buildMd5AuthParameter(timeStamp)`timeStamp);" is 134.,102
+avenging-development,com.joaquimley.core.data,DataManager,buildMd5AuthParameter,Magic Number,The method contains a magic number: 16,115
+avenging-development,com.joaquimley.core.data,DataManager,buildMd5AuthParameter,Magic Number,The method contains a magic number: 32,115
+avenging-development,com.joaquimley.core.data.model,Comic,equals,Long Statement,The length of the statement "return mId != null ? mId.equals(comic.mId) : comic.mId == null && (mType != null ? mType.equals(comic.mType) : comic.mType == null);" is 132.,91
+avenging-development,com.joaquimley.core.data.model,Comic,hashCode,Magic Number,The method contains a magic number: 31,101
+avenging-development,com.joaquimley.core.data.model,CharacterMarvel,hashCode,Magic Number,The method contains a magic number: 32,153
+avenging-development,com.joaquimley.avenging.ui.character,CharacterActivity,onCreate,Long Statement,The length of the statement "getSupportFragmentManager().beginTransaction().replace(R.id.character_container`CharacterFragment.newInstance(characterMarvel)).commit();" is 137.,37
+avenging-development,com.joaquimley.avenging.ui.character,CharacterFragment,initViews,Long Statement,The length of the statement "toolbar.setTitle(mCharacterMarvel != null ? mCharacterMarvel.getName() : mActivity.getString(R.string.character_details));" is 122.,117
+avenging-development,com.joaquimley.avenging.ui.character,CharacterFragment,initViews,Long Statement,The length of the statement "Picasso.with(mActivity).load(mCharacterMarvel.getImageUrl()).centerCrop().fit().into((ImageView)view.findViewById(R.id.iv_header));" is 131.,117
+avenging-development,com.joaquimley.avenging.ui.character,CharacterFragment,initViews,Long Statement,The length of the statement "mDescriptionWrapper=new DescriptionFrameWrapper(mActivity`mActivity.getResources().getString(R.string.description)`mCharacterMarvel.getDescription());" is 150.,117
+avenging-development,com.joaquimley.avenging.ui.character,CharacterFragment,showCharacter,Long Statement,The length of the statement "mDescriptionWrapper=new DescriptionFrameWrapper(mActivity`mActivity.getResources().getString(R.string.description)`mCharacterMarvel.getDescription());" is 150.,156
+avenging-development,com.joaquimley.avenging.ui.character,CharacterFragment,showCharacter,Long Statement,The length of the statement "mContentFrame.addView(new UrlFrameWrapper(mActivity`mActivity.getResources().getString(R.string.related_links)`character.getUrls()));" is 133.,156
+avenging-development,com.joaquimley.avenging.ui.character,CharacterFragment,onComicClick,Long Statement,The length of the statement "mActivity.getSupportFragmentManager().beginTransaction().add(R.id.character_container`ComicFragment.newInstance(comicList`clickedPosition)).addSharedElement(sharedImageView`ViewCompat.getTransitionName(sharedImageView)).addToBackStack(ComicFragment.TAG).commit();" is 263.,204
+avenging-development,com.joaquimley.avenging.ui.comic,ComicAdapter,onBindViewHolder,Long Statement,The length of the statement "Picasso.with(holder.listItem.getContext()).load(mComicList.get(position).getThumbnailUrl()).fit().into(holder.imageView);" is 121.,65
+avenging-development,com.joaquimley.avenging.ui.comic,ComicFragment,init,Magic Number,The method contains a magic number: 2,104
+avenging-development,com.joaquimley.avenging.ui.comic,ComicFragment,init,Magic Number,The method contains a magic number: 0.5f,104
+avenging-development,com.joaquimley.avenging.ui.comic,ComicFragment,init,Magic Number,The method contains a magic number: 2,104
+avenging-development,com.joaquimley.avenging.ui.comic,ComicFragment,init,Magic Number,The method contains a magic number: 0.5f,104
+avenging-development,com.joaquimley.avenging.ui.comic,ComicFragment,transformPage,Magic Number,The method contains a magic number: 2,111
+avenging-development,com.joaquimley.avenging.ui.comic,ComicFragment,transformPage,Magic Number,The method contains a magic number: 0.5f,111
+avenging-development,com.joaquimley.avenging.ui.comic,ComicFragment,transformPage,Magic Number,The method contains a magic number: 2,111
+avenging-development,com.joaquimley.avenging.ui.comic,ComicFragment,transformPage,Magic Number,The method contains a magic number: 0.5f,111
+avenging-development,com.joaquimley.avenging.ui.list,ListActivity,showCopyRightSnackbar,Long Statement,The length of the statement "final Snackbar copyrightSnackbar=Snackbar.make(findViewById(R.id.list_container)`getString(R.string.marvel_copyright_notice)`Snackbar.LENGTH_INDEFINITE);" is 153.,54
+avenging-development,com.joaquimley.avenging.ui.list,EndlessRecyclerViewOnScrollListener,onScrolled,Complex Method,Cyclomatic complexity of the method is 8,66
+avenging-development,com.joaquimley.avenging.ui.list,ListFragment,initGridLayoutManager,Missing default,The following switch statement is missing a default case: switch (mListCharacterAdapter.getItemViewType(position)) {,162
+avenging-development,com.joaquimley.avenging.ui.list,ListFragment,getSpanSize,Missing default,The following switch statement is missing a default case: switch (mListCharacterAdapter.getItemViewType(position)) {,165
+avenging-development,com.joaquimley.avenging.ui.list,ListFragment,setupScrollListener,Long Statement,The length of the statement "return new EndlessRecyclerViewOnScrollListener(isTabletLayout ? (GridLayoutManager)layoutManager : (LinearLayoutManager)layoutManager){" is 135.,180
+avenging-development,com.joaquimley.avenging.ui.list,ListFragment,makeTransitionBundle,Long Statement,The length of the statement "return ActivityOptionsCompat.makeSceneTransitionAnimation(mActivity`sharedElementView`ViewCompat.getTransitionName(sharedElementView)).toBundle();" is 146.,276
+avenging-development,com.joaquimley.avenging.ui.list,ListActivity,onPageScrolled,Long Parameter List,The method has 6 parameters. ,152
+avenging-development,com.joaquimley.avenging.ui.list,ListActivity,onPageSelected,Magic Number,The method contains a magic number: 2,157
+avenging-development,com.joaquimley.avenging.ui.base,BaseActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (item.getItemId()) {,30

@@ -1,0 +1,52 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+AndroidFramework-master,fun.shdf.androidframework,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+AndroidFramework-master,fun.shdf.androidframework,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.androidframework,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.androidframework.http,HttpRequest,HttpRequest,Long Statement,The length of the statement "apiService=new Retrofit.Builder().client(client).baseUrl(ApiConstant.URL).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build().create(ApiService.class);" is 216.,26
+AndroidFramework-master,fun.shdf.androidframework.modelImpl,RegistModelImpl,regist,Long Statement,The length of the statement "HttpRequest.getInstance().regist(username`pass`confimpass).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<BaseResponse>(){" is 169.,18
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,init,Magic Number,The method contains a magic number: 3,53
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,init,Magic Number,The method contains a magic number: 30,53
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,init,Magic Number,The method contains a magic number: 2,53
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,setData,Magic Number,The method contains a magic number: 80,69
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,setData,Magic Number,The method contains a magic number: 140,69
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,onMeasure,Magic Number,The method contains a magic number: 2,80
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,onMeasure,Magic Number,The method contains a magic number: 2,80
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,onLayout,Long Parameter List,The method has 5 parameters. ,103
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,onLayout,Magic Number,The method contains a magic number: 10,103
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,onLayout,Magic Number,The method contains a magic number: 2,103
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,onLayout,Magic Number,The method contains a magic number: 2,103
+AndroidFramework-master,fun.shdf.androidframework.view,ChartView,onDraw,Magic Number,The method contains a magic number: 2,114
+AndroidFramework-master,fun.shdf.java_aac,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+AndroidFramework-master,fun.shdf.java_aac,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.java_aac,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.java_aac.base.view,BaseActivity,onKeyDown,Magic Number,The method contains a magic number: 2000,132
+AndroidFramework-master,fun.shdf.java_aac.http,BasicParamsInterceptor,intercept,Complex Method,Cyclomatic complexity of the method is 9,37
+AndroidFramework-master,fun.shdf.java_aac.http,BasicParamsInterceptor,intercept,Long Statement,The length of the statement "requestBuilder.post(RequestBody.create(MediaType.parse("application/x-www-form-urlencoded;charset=UTF-8")`postBodyString));" is 123.,37
+AndroidFramework-master,fun.shdf.java_aac.http,HttpLogger,log,Complex Conditional,The conditional expression (message.startsWith("{") && message.endsWith("}")) || (message.startsWith("[") && message.endsWith("]")) is complex.,18
+AndroidFramework-master,fun.shdf.java_aac.http,RetrofitUtil,RetrofitUtil,Long Statement,The length of the statement "apiService=new Retrofit.Builder().baseUrl(ApiConstant.URL).client((OkHttpClient)client).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build().create(ApiService.class);" is 230.,32
+AndroidFramework-master,fun.shdf.java_aac.http,RetrofitUtil,initOkhttp,Long Statement,The length of the statement "basicParamsInterceptor=new BasicParamsInterceptor.Builder().addParam("from"`"android").addQueryParam("version"`"1").addHeaderLine("X-Ping: Pong").build();" is 154.,76
+AndroidFramework-master,fun.shdf.java_aac.http,RetrofitUtil,initOkhttp,Long Statement,The length of the statement "builder.addInterceptor(basicParamsInterceptor).addInterceptor(new HttpLoggingInterceptor(new HttpLogger()).setLevel(HttpLoggingInterceptor.Level.BODY)).connectTimeout(AppConstants.TIME_OUT`TimeUnit.SECONDS).readTimeout(AppConstants.TIME_OUT`TimeUnit.SECONDS).writeTimeout(AppConstants.TIME_OUT`TimeUnit.SECONDS);" is 312.,76
+AndroidFramework-master,fun.shdf.java_aac.ui,HomeReposity,getHomeData,Long Statement,The length of the statement "apiService.login(username`password).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new BaseObserver<String>(){" is 144.,19
+AndroidFramework-master,fun.shdf.java_aac.utils,GenericUtil,getNewInstance,Long Statement,The length of the statement "return ((Class<T>)((ParameterizedType)(object.getClass().getGenericSuperclass())).getActualTypeArguments()[i]).newInstance();" is 125.,22
+AndroidFramework-master,fun.shdf.java_aac.utils,NetUtil,isIP,Long Statement,The length of the statement "Pattern pattern=Pattern.compile("\\b((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\b");" is 231.,144
+AndroidFramework-master,fun.shdf.java_aac.utils,NetUtil,ipToInt,Magic Number,The method contains a magic number: 3,157
+AndroidFramework-master,fun.shdf.java_aac.utils,NetUtil,ipToInt,Magic Number,The method contains a magic number: 256,157
+AndroidFramework-master,fun.shdf.java_aac.utils,NetUtil,ipToInt,Magic Number,The method contains a magic number: 256,157
+AndroidFramework-master,fun.shdf.java_aac.utils,NetUtil,isConnected,Complex Method,Cyclomatic complexity of the method is 19,184
+AndroidFramework-master,fun.shdf.java_aac.utils,NetUtil,isConnected,Missing default,The following switch statement is missing a default case: switch (ni.getType()) {,184
+AndroidFramework-master,fun.shdf.java_aac.utils,NetUtil,isConnected,Missing default,The following switch statement is missing a default case: switch (ni.getSubtype()) {,184
+AndroidFramework-master,fun.shdf.java_aac.utils,NetUtil,getUrlParams,Complex Conditional,The conditional expression url != null && url.indexOf("&") > -1 && url.indexOf("=") > -1 is complex.,235
+AndroidFramework-master,fun.shdf.java_mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+AndroidFramework-master,fun.shdf.java_mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.java_mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.java_mvp.http,HttpRequest,HttpRequest,Long Statement,The length of the statement "apiService=new Retrofit.Builder().client(client).baseUrl(ApiConstant.URL).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build().create(ApiService.class);" is 216.,26
+AndroidFramework-master,fun.shdf.java_mvp.ui.model,RegistModelImpl,regist,Long Statement,The length of the statement "HttpRequest.getInstance().regist(username`pass`confimpass).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<BaseResponse>(){" is 169.,23
+AndroidFramework-master,fun.shdf.java_mvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+AndroidFramework-master,fun.shdf.java_mvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.java_mvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.kotlin_aac,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+AndroidFramework-master,fun.shdf.kotlin_aac,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.kotlin_aac,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.kotlin_mvc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+AndroidFramework-master,fun.shdf.kotlin_mvc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+AndroidFramework-master,fun.shdf.kotlin_mvc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13

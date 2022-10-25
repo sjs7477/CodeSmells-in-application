@@ -1,0 +1,1199 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+youqu_master-master,com.barnettwong.quyou,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+youqu_master-master,com.barnettwong.quyou,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+youqu_master-master,com.barnettwong.quyou,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+youqu_master-master,com.barnettwong.quyou.ui.widght,PullBackLayout,PullBackLayout,Magic Number,The method contains a magic number: 8f,48
+youqu_master-master,com.barnettwong.quyou.ui.widght,PullBackLayout,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,132
+youqu_master-master,com.barnettwong.quyou.ui.widght,PullBackLayout,onViewReleased,Magic Number,The method contains a magic number: 6,139
+youqu_master-master,com.barnettwong.quyou.ui.widght,PullBackLayout,onViewReleased,Magic Number,The method contains a magic number: 3,139
+youqu_master-master,com.barnettwong.quyou.ui.widght,ViewDragCallback,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,132
+youqu_master-master,com.barnettwong.quyou.ui.widght,ViewDragCallback,onViewReleased,Magic Number,The method contains a magic number: 6,139
+youqu_master-master,com.barnettwong.quyou.ui.widght,ViewDragCallback,onViewReleased,Magic Number,The method contains a magic number: 3,139
+youqu_master-master,com.barnettwong.quyou.ui.activity.guide,IntroActivity,onCreate,Long Statement,The length of the statement "addSlide(new SlideFragmentBuilder().backgroundColor(R.color.first_slide_background).buttonsColor(R.color.first_slide_buttons).image(R.drawable.img_guide1).title("和我们一起享受乐趣").description("你想尝试吗?").build()`new MessageButtonBehaviour(new View.OnClickListener(){" is 258.,18
+youqu_master-master,com.barnettwong.quyou.ui.activity.guide,IntroActivity,onCreate,Long Statement,The length of the statement "addSlide(new SlideFragmentBuilder().backgroundColor(R.color.second_slide_background).buttonsColor(R.color.second_slide_buttons).title("想要更多?").description("那就继续吧").build());" is 173.,18
+youqu_master-master,com.barnettwong.quyou.ui.activity.guide,IntroActivity,onCreate,Long Statement,The length of the statement "addSlide(new SlideFragmentBuilder().backgroundColor(R.color.third_slide_background).buttonsColor(R.color.third_slide_buttons).possiblePermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE`Manifest.permission.WRITE_EXTERNAL_STORAGE`Manifest.permission.READ_PHONE_STATE`Manifest.permission.CALL_PHONE`Manifest.permission.READ_LOGS`Manifest.permission.SET_DEBUG_APP`Manifest.permission.SYSTEM_ALERT_WINDOW`Manifest.permission.GET_ACCOUNTS`Manifest.permission.WRITE_APN_SETTINGS}).neededPermissions(new String[]{Manifest.permission.CAMERA`Manifest.permission.ACCESS_FINE_LOCATION`Manifest.permission.ACCESS_COARSE_LOCATION}).image(R.drawable.img_guide2).title("友趣，提供最好的快乐源泉").description("永远").build()`new MessageButtonBehaviour(new View.OnClickListener(){" is 765.,18
+youqu_master-master,com.barnettwong.quyou.ui.activity.guide,IntroActivity,onCreate,Long Statement,The length of the statement "addSlide(new SlideFragmentBuilder().backgroundColor(R.color.fourth_slide_background).buttonsColor(R.color.fourth_slide_buttons).title("友趣的所有").description("加入我们吧?").build());" is 174.,18
+youqu_master-master,com.barnettwong.quyou.ui.activity,BookMoreReviewActivity,initView,Long Statement,The length of the statement "mSwipeRefreshLayout.setColorSchemeResources(R.color.recycler_color1`R.color.recycler_color2`R.color.recycler_color3`R.color.recycler_color4);" is 141.,58
+youqu_master-master,com.barnettwong.quyou.ui.activity,BookDetailActivity,startAction,Long Statement,The length of the statement "ActivityOptionsCompat options=ActivityOptionsCompat.makeScaleUpAnimation(view`view.getWidth() / 2`view.getHeight() / 2`0`0);" is 124.,65
+youqu_master-master,com.barnettwong.quyou.ui.activity,BookDetailActivity,startAction,Magic Number,The method contains a magic number: 2,65
+youqu_master-master,com.barnettwong.quyou.ui.activity,BookDetailActivity,startAction,Magic Number,The method contains a magic number: 2,65
+youqu_master-master,com.barnettwong.quyou.ui.activity,BookDetailActivity,initView,Magic Number,The method contains a magic number: 0.9f,97
+youqu_master-master,com.barnettwong.quyou.ui.activity,BookDetailActivity,initView,Magic Number,The method contains a magic number: 0.9f,97
+youqu_master-master,com.barnettwong.quyou.ui.activity,BookDetailActivity,onResourceReady,Magic Number,The method contains a magic number: 0.9f,126
+youqu_master-master,com.barnettwong.quyou.ui.activity,BookDetailActivity,returnBookReviewList,Magic Number,The method contains a magic number: 6,176
+youqu_master-master,com.barnettwong.quyou.ui.activity,MainActivity,initPermissions,Long Statement,The length of the statement "RxPermissions.getInstance(MainActivity.this).request(Manifest.permission.READ_EXTERNAL_STORAGE`Manifest.permission.WRITE_EXTERNAL_STORAGE`Manifest.permission.READ_PHONE_STATE`Manifest.permission.CALL_PHONE`Manifest.permission.READ_LOGS`Manifest.permission.SET_DEBUG_APP`Manifest.permission.SYSTEM_ALERT_WINDOW`Manifest.permission.GET_ACCOUNTS`Manifest.permission.WRITE_APN_SETTINGS`Manifest.permission.CAMERA`Manifest.permission.ACCESS_FINE_LOCATION`Manifest.permission.ACCESS_COARSE_LOCATION).subscribe(new Action1<Boolean>(){" is 527.,129
+youqu_master-master,com.barnettwong.quyou.ui.activity,MainActivity,SwitchTo,Magic Number,The method contains a magic number: 2,184
+youqu_master-master,com.barnettwong.quyou.ui.activity,MainActivity,SwitchTo,Magic Number,The method contains a magic number: 3,184
+youqu_master-master,com.barnettwong.quyou.ui.activity,MainActivity,SwitchTo,Missing default,The following switch statement is missing a default case: switch (position) {,184
+youqu_master-master,com.barnettwong.quyou.ui.activity,MainActivity,onKeyDown,Magic Number,The method contains a magic number: 3000,243
+youqu_master-master,com.barnettwong.quyou.ui.activity,SplashActivity,handleMessage,Long Statement,The length of the statement "TaskStackBuilder.create(SplashActivity.this).addNextIntentWithParentStack(new Intent(SplashActivity.this`MainActivity.class)).addNextIntent(new Intent(SplashActivity.this`IntroActivity.class)).startActivities();" is 211.,23
+youqu_master-master,com.barnettwong.quyou.ui.activity,SplashActivity,initView,Long Statement,The length of the statement "OpeningStartAnimation openingStartAnimation=new OpeningStartAnimation.Builder(this).setDrawStategy(new LineDrawStrategy()).setAppIcon(getResources().getDrawable(R.drawable.splash_icon)).setAppStatement(getString(R.string.app_statement)).setAnimationFinishTime(2000).create();" is 275.,50
+youqu_master-master,com.barnettwong.quyou.ui.activity,SplashActivity,initView,Magic Number,The method contains a magic number: 1500,50
+youqu_master-master,com.barnettwong.quyou.ui.activity,SplashActivity,initView,Magic Number,The method contains a magic number: 2000,50
+youqu_master-master,com.barnettwong.quyou.ui.activity,PhotosDetailActivity,loadPhotoIv,Long Statement,The length of the statement "Glide.with(this).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).error(com.jaydenxiao.common.R.drawable.ic_empty_picture).crossFade().into(photoTouchIv);" is 156.,96
+youqu_master-master,com.barnettwong.quyou.ui.activity,PhotosDetailActivity,hideOrShowToolbar,Magic Number,The method contains a magic number: 2,120
+youqu_master-master,com.barnettwong.quyou.ui.activity,PhotosDetailActivity,onPull,Magic Number,The method contains a magic number: 3f,155
+youqu_master-master,com.barnettwong.quyou.ui.activity,PhotosDetailActivity,onPull,Magic Number,The method contains a magic number: 0xff,155
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookReviewsAdapter,onBindViewHolder,Long Statement,The length of the statement "Glide.with(BaseApplication.getAppContext()).load(reviews.get(position).getAuthor().getAvatar()).asBitmap().centerCrop().into(new BitmapImageViewTarget(((BookCommentHolder)holder).iv_avatar){" is 190.,58
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookReviewsAdapter,onBindViewHolder,Long Statement,The length of the statement "RoundedBitmapDrawable circularBitmapDrawable=RoundedBitmapDrawableFactory.create(BaseApplication.getAppContext().getResources()`resource);" is 138.,58
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookReviewsAdapter,setResource,Long Statement,The length of the statement "RoundedBitmapDrawable circularBitmapDrawable=RoundedBitmapDrawableFactory.create(BaseApplication.getAppContext().getResources()`resource);" is 138.,67
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 17,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Long Method,The method has 111 lines of code.,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Long Statement,The length of the statement "((BookInfoHolder)holder).tv_comment_num.setText(mBookInfo.getRating().getNumRaters() + mContext.getString(R.string.comment_num));" is 129.,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Long Statement,The length of the statement "new AlertDialog.Builder(mContext).setTitle("详细信息：").setMessage(sb).setOnDismissListener(new DialogInterface.OnDismissListener(){" is 128.,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Long Statement,The length of the statement "((BookCommentHolder)holder).tv_more_comment.setText(mContext.getString(R.string.more_brief) + mReviewsListResponse.getTotal() + "条");" is 133.,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Long Statement,The length of the statement "Glide.with(mContext).load(reviews.get(position - HEADER_COUNT).getAuthor().getAvatar()).asBitmap().centerCrop().into(new BitmapImageViewTarget(((BookCommentHolder)holder).iv_avatar){" is 182.,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Long Statement,The length of the statement "((BookCommentHolder)holder).ratingBar_hots.setRating(Float.valueOf(reviews.get(position - HEADER_COUNT).getRating().getValue()));" is 129.,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 90,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 90,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 90,90
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onClick,Long Statement,The length of the statement "new AlertDialog.Builder(mContext).setTitle("详细信息：").setMessage(sb).setOnDismissListener(new DialogInterface.OnDismissListener(){" is 128.,123
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onClick,Magic Number,The method contains a magic number: 90,123
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onClick,Magic Number,The method contains a magic number: 90,123
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onClick,Magic Number,The method contains a magic number: 90,123
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,onDismiss,Magic Number,The method contains a magic number: 90,134
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookDetailAdapter,getItemViewType,Long Statement,The length of the statement "else if (position > 1 && position < (mReviewsListResponse == null ? HEADER_COUNT : (mReviewsListResponse.getReviews().size() + HEADER_COUNT))) {" is 144.,205
+youqu_master-master,com.barnettwong.quyou.ui.adapter,BookListAdapter,convert,Magic Number,The method contains a magic number: 2,38
+youqu_master-master,com.barnettwong.quyou.ui.holder,BookSeriesCeilHolder,initEvent,Magic Number,The method contains a magic number: 2,50
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MovieTypeFragment,initView,Long Statement,The length of the statement "helper.setText(R.id.tv_play_time`String.format(getResources().getString(R.string.video_play_times)`String.valueOf(videoData.getPlayCount())));" is 142.,56
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MovieTypeFragment,convert,Long Statement,The length of the statement "helper.setText(R.id.tv_play_time`String.format(getResources().getString(R.string.video_play_times)`String.valueOf(videoData.getPlayCount())));" is 142.,63
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MovieTypeFragment,initGsyVideoPlayer,Long Statement,The length of the statement "PlayerConfig mPlayerConfig=new PlayerConfig.Builder().enableCache().enableMediaCodec().addToPlayerManager().setCustomMediaPlayer(new IjkPlayer(getContext()){" is 157.,98
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MovieTypeFragment,initGsyVideoPlayer,Long Statement,The length of the statement "mMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT`"protocol_whitelist"`"rtmp`concat`ffconcat`file`subfile`http`https`tls`rtp`tcp`udp`crypto`rtsp");" is 155.,98
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MovieTypeFragment,setOptions,Long Statement,The length of the statement "mMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT`"protocol_whitelist"`"rtmp`concat`ffconcat`file`subfile`http`https`tls`rtp`tcp`udp`crypto`rtsp");" is 155.,108
+youqu_master-master,com.barnettwong.quyou.ui.fragment,GirlFragment,initView,Long Statement,The length of the statement "Picasso.with(MyApplication.getAppContext()).load(photoGirl.getUrl()).placeholder(com.jaydenxiao.common.R.drawable.ic_image_loading).error(com.jaydenxiao.common.R.drawable.ic_empty_picture).into(imageView);" is 205.,56
+youqu_master-master,com.barnettwong.quyou.ui.fragment,GirlFragment,initView,Magic Number,The method contains a magic number: 2,56
+youqu_master-master,com.barnettwong.quyou.ui.fragment,GirlFragment,initView,Magic Number,The method contains a magic number: 16,56
+youqu_master-master,com.barnettwong.quyou.ui.fragment,GirlFragment,convert,Long Statement,The length of the statement "Picasso.with(MyApplication.getAppContext()).load(photoGirl.getUrl()).placeholder(com.jaydenxiao.common.R.drawable.ic_image_loading).error(com.jaydenxiao.common.R.drawable.ic_empty_picture).into(imageView);" is 205.,59
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MineFragment,initUmengShare,Long Statement,The length of the statement "mShareAction=new ShareAction(getActivity()).setDisplayList(SHARE_MEDIA.WEIXIN`SHARE_MEDIA.WEIXIN_CIRCLE`SHARE_MEDIA.WEIXIN_FAVORITE`SHARE_MEDIA.SINA`SHARE_MEDIA.QQ`SHARE_MEDIA.QZONE).addButton("复制文本"`"复制文本"`"umeng_socialize_copy"`"umeng_socialize_copy").addButton("复制链接"`"复制链接"`"umeng_socialize_copyurl"`"umeng_socialize_copyurl").setShareboardclickCallback(new ShareBoardlistener(){" is 383.,68
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MineFragment,onResult,Complex Conditional,The conditional expression platform != SHARE_MEDIA.MORE && platform != SHARE_MEDIA.SMS && platform != SHARE_MEDIA.EMAIL && platform != SHARE_MEDIA.FLICKR && platform != SHARE_MEDIA.FOURSQUARE && platform != SHARE_MEDIA.TUMBLR && platform != SHARE_MEDIA.POCKET && platform != SHARE_MEDIA.PINTEREST && platform != SHARE_MEDIA.INSTAGRAM && platform != SHARE_MEDIA.GOOGLEPLUS && platform != SHARE_MEDIA.YNOTE && platform != SHARE_MEDIA.EVERNOTE is complex.,120
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MineFragment,onResult,Long Statement,The length of the statement "if (platform != SHARE_MEDIA.MORE && platform != SHARE_MEDIA.SMS && platform != SHARE_MEDIA.EMAIL && platform != SHARE_MEDIA.FLICKR && platform != SHARE_MEDIA.FOURSQUARE && platform != SHARE_MEDIA.TUMBLR && platform != SHARE_MEDIA.POCKET && platform != SHARE_MEDIA.PINTEREST && platform != SHARE_MEDIA.INSTAGRAM && platform != SHARE_MEDIA.GOOGLEPLUS && platform != SHARE_MEDIA.YNOTE && platform != SHARE_MEDIA.EVERNOTE) {" is 420.,120
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MineFragment,onError,Complex Conditional,The conditional expression platform != SHARE_MEDIA.MORE && platform != SHARE_MEDIA.SMS && platform != SHARE_MEDIA.EMAIL && platform != SHARE_MEDIA.FLICKR && platform != SHARE_MEDIA.FOURSQUARE && platform != SHARE_MEDIA.TUMBLR && platform != SHARE_MEDIA.POCKET && platform != SHARE_MEDIA.PINTEREST && platform != SHARE_MEDIA.INSTAGRAM && platform != SHARE_MEDIA.GOOGLEPLUS && platform != SHARE_MEDIA.YNOTE && platform != SHARE_MEDIA.EVERNOTE is complex.,143
+youqu_master-master,com.barnettwong.quyou.ui.fragment,MineFragment,onError,Long Statement,The length of the statement "if (platform != SHARE_MEDIA.MORE && platform != SHARE_MEDIA.SMS && platform != SHARE_MEDIA.EMAIL && platform != SHARE_MEDIA.FLICKR && platform != SHARE_MEDIA.FOURSQUARE && platform != SHARE_MEDIA.TUMBLR && platform != SHARE_MEDIA.POCKET && platform != SHARE_MEDIA.PINTEREST && platform != SHARE_MEDIA.INSTAGRAM && platform != SHARE_MEDIA.GOOGLEPLUS && platform != SHARE_MEDIA.YNOTE && platform != SHARE_MEDIA.EVERNOTE) {" is 420.,143
+youqu_master-master,com.barnettwong.quyou.ui.fragment,CustomShareListener,onResult,Complex Conditional,The conditional expression platform != SHARE_MEDIA.MORE && platform != SHARE_MEDIA.SMS && platform != SHARE_MEDIA.EMAIL && platform != SHARE_MEDIA.FLICKR && platform != SHARE_MEDIA.FOURSQUARE && platform != SHARE_MEDIA.TUMBLR && platform != SHARE_MEDIA.POCKET && platform != SHARE_MEDIA.PINTEREST && platform != SHARE_MEDIA.INSTAGRAM && platform != SHARE_MEDIA.GOOGLEPLUS && platform != SHARE_MEDIA.YNOTE && platform != SHARE_MEDIA.EVERNOTE is complex.,120
+youqu_master-master,com.barnettwong.quyou.ui.fragment,CustomShareListener,onResult,Long Statement,The length of the statement "if (platform != SHARE_MEDIA.MORE && platform != SHARE_MEDIA.SMS && platform != SHARE_MEDIA.EMAIL && platform != SHARE_MEDIA.FLICKR && platform != SHARE_MEDIA.FOURSQUARE && platform != SHARE_MEDIA.TUMBLR && platform != SHARE_MEDIA.POCKET && platform != SHARE_MEDIA.PINTEREST && platform != SHARE_MEDIA.INSTAGRAM && platform != SHARE_MEDIA.GOOGLEPLUS && platform != SHARE_MEDIA.YNOTE && platform != SHARE_MEDIA.EVERNOTE) {" is 420.,120
+youqu_master-master,com.barnettwong.quyou.ui.fragment,CustomShareListener,onError,Complex Conditional,The conditional expression platform != SHARE_MEDIA.MORE && platform != SHARE_MEDIA.SMS && platform != SHARE_MEDIA.EMAIL && platform != SHARE_MEDIA.FLICKR && platform != SHARE_MEDIA.FOURSQUARE && platform != SHARE_MEDIA.TUMBLR && platform != SHARE_MEDIA.POCKET && platform != SHARE_MEDIA.PINTEREST && platform != SHARE_MEDIA.INSTAGRAM && platform != SHARE_MEDIA.GOOGLEPLUS && platform != SHARE_MEDIA.YNOTE && platform != SHARE_MEDIA.EVERNOTE is complex.,143
+youqu_master-master,com.barnettwong.quyou.ui.fragment,CustomShareListener,onError,Long Statement,The length of the statement "if (platform != SHARE_MEDIA.MORE && platform != SHARE_MEDIA.SMS && platform != SHARE_MEDIA.EMAIL && platform != SHARE_MEDIA.FLICKR && platform != SHARE_MEDIA.FOURSQUARE && platform != SHARE_MEDIA.TUMBLR && platform != SHARE_MEDIA.POCKET && platform != SHARE_MEDIA.PINTEREST && platform != SHARE_MEDIA.INSTAGRAM && platform != SHARE_MEDIA.GOOGLEPLUS && platform != SHARE_MEDIA.YNOTE && platform != SHARE_MEDIA.EVERNOTE) {" is 420.,143
+youqu_master-master,com.barnettwong.quyou.mvp.contract,BookListContract,getBookList,Long Parameter List,The method has 5 parameters. ,19
+youqu_master-master,com.barnettwong.quyou.mvp.contract,BookListContract,startBookListRequest,Long Parameter List,The method has 5 parameters. ,31
+youqu_master-master,com.barnettwong.quyou.mvp.contract,Model,getBookList,Long Parameter List,The method has 5 parameters. ,19
+youqu_master-master,com.barnettwong.quyou.mvp.contract,Presenter,startBookListRequest,Long Parameter List,The method has 5 parameters. ,31
+youqu_master-master,com.barnettwong.quyou.mvp.presenter,BookListPresenter,startBookListRequest,Long Parameter List,The method has 5 parameters. ,29
+youqu_master-master,com.barnettwong.quyou.mvp.presenter,BookListPresenter,startBookListRequest,Long Statement,The length of the statement "mRxManage.add(mModel.getBookList(q`tag`start`count`fields).subscribe(new RxSubscriber<List<BookInfoBean>>(mContext`false){" is 122.,29
+youqu_master-master,com.barnettwong.quyou.mvp.presenter,BookDetailPresenter,startBookReviewsRequest,Long Statement,The length of the statement "mRxManage.add(mModel.getBookReviewList(bookId`start`count`fields).subscribe(new RxSubscriber<BookReviewsData>(mContext`false){" is 126.,22
+youqu_master-master,com.barnettwong.quyou.mvp.presenter,BookDetailPresenter,startBookSeriesRequest,Long Statement,The length of the statement "mRxManage.add(mModel.getBookSeriesList(SeriesId`start`count`fields).subscribe(new RxSubscriber<BookListData>(mContext`false){" is 125.,44
+youqu_master-master,com.barnettwong.quyou.mvp.model,PhotosListModel,getPhotosListData,Long Statement,The length of the statement "return Api.getDefault(HostType.GANK_GIRL_PHOTO).getPhotoList(Api.getCacheControl()`size`page).map(new Func1<GirlData`List<PhotoGirl>>(){" is 136.,20
+youqu_master-master,com.barnettwong.quyou.mvp.model,VideosListModel,getVideosListData,Long Statement,The length of the statement "return Api.getDefault(HostType.SINA_VIDEO).getVideoList(Api.getCacheControl()`type`startPage).flatMap(new Func1<Map<String`List<VideoData>>`Observable<VideoData>>(){" is 165.,22
+youqu_master-master,com.barnettwong.quyou.mvp.model,BookDetailModel,getBookReviewList,Long Statement,The length of the statement "return Api.getDefault(HostType.NEWS_SERVER).getBookReviews(bookId`start`count`fields).map(resultBean -> resultBean).compose(RxSchedulers.io_main());" is 148.,24
+youqu_master-master,com.barnettwong.quyou.mvp.model,BookDetailModel,getBookSeriesList,Long Statement,The length of the statement "return Api.getDefault(HostType.NEWS_SERVER).getBookSeries(SeriesId`start`count`fields).map(resultBean -> resultBean).compose(RxSchedulers.io_main());" is 149.,33
+youqu_master-master,com.barnettwong.quyou.mvp.model,BookListModel,getBookList,Long Parameter List,The method has 5 parameters. ,20
+youqu_master-master,com.barnettwong.quyou.mvp.model,BookListModel,getBookList,Long Statement,The length of the statement "return Api.getDefault(HostType.NEWS_SERVER).getBookLists(map).map(resultBean -> resultBean.getBooks()).compose(RxSchedulers.io_main());" is 135.,20
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 10,11
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Complex Method,Cyclomatic complexity of the method is 14,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Long Method,The method has 160 lines of code.,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 256,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 256,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 3,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 0xff0000,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 16,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 0x00ff00,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 8,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 0x0000ff,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 0xff0000,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 16,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 0x00ff00,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 8,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 0x0000ff,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 0xff000000,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 16,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 8,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,Blur,apply,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.barnettwong.quyou.util,UiUtils,dip2px,Magic Number,The method contains a magic number: 0.5f,49
+youqu_master-master,com.barnettwong.quyou.util,UiUtils,pix2dip,Magic Number,The method contains a magic number: 0.5f,74
+youqu_master-master,com.barnettwong.quyou.util,UiUtils,getDimens,Long Statement,The length of the statement "return getResources(context).getDimension(getResources(context).getIdentifier(dimenNmae`"dimen"`context.getPackageName()));" is 123.,94
+youqu_master-master,com.barnettwong.quyou.util,UiUtils,MD5encode,Magic Number,The method contains a magic number: 2,277
+youqu_master-master,com.barnettwong.quyou.util,UiUtils,MD5encode,Magic Number,The method contains a magic number: 0xFF,277
+youqu_master-master,com.barnettwong.quyou.util,UiUtils,MD5encode,Magic Number,The method contains a magic number: 0x10,277
+youqu_master-master,com.barnettwong.quyou.util,UiUtils,MD5encode,Magic Number,The method contains a magic number: 0xFF,277
+youqu_master-master,com.barnettwong.quyou.util,SystemUiVisibilityUtil,exit,Magic Number,The method contains a magic number: 19,31
+youqu_master-master,com.barnettwong.quyou.util,SystemUiVisibilityUtil,enter,Magic Number,The method contains a magic number: 19,41
+youqu_master-master,com.barnettwong.quyou.bean.video,VideosChannelTableManager,loadVideosChannelsMine,Long Statement,The length of the statement "List<String> channelName=Arrays.asList(MyApplication.getAppContext().getResources().getStringArray(R.array.video_channel_name));" is 128.,30
+youqu_master-master,com.barnettwong.quyou.bean.video,VideosChannelTableManager,loadVideosChannelsMine,Long Statement,The length of the statement "List<String> channelId=Arrays.asList(MyApplication.getAppContext().getResources().getStringArray(R.array.video_channel_id));" is 124.,30
+youqu_master-master,com.barnettwong.quyou.api,ApiConstants,getHost,Missing default,The following switch statement is missing a default case: switch (hostType) {,38
+youqu_master-master,com.barnettwong.quyou.api,Api,Api,Long Identifier,The length of the field mRewriteCacheControlInterceptor is 31.,72
+youqu_master-master,com.barnettwong.quyou.api,Api,Api,Long Statement,The length of the statement "Request request=requestBuilder.removeHeader("User-Agent").addHeader("User-Agent"`"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.4)").build();" is 150.,72
+youqu_master-master,com.barnettwong.quyou.api,Api,Api,Long Statement,The length of the statement "okHttpClient=new OkHttpClient.Builder().readTimeout(READ_TIME_OUT`TimeUnit.SECONDS).connectTimeout(CONNECT_TIME_OUT`TimeUnit.SECONDS).addInterceptor(mRewriteCacheControlInterceptor).addNetworkInterceptor(mRewriteCacheControlInterceptor).addInterceptor(headerInterceptor).addInterceptor(logInterceptor).cache(cache).build();" is 323.,72
+youqu_master-master,com.barnettwong.quyou.api,Api,Api,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().client(okHttpClient).addConverterFactory(LenientGsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).baseUrl(ApiConstants.getHost(hostType)).build();" is 216.,72
+youqu_master-master,com.barnettwong.quyou.api,Api,Api,Magic Number,The method contains a magic number: 1024,72
+youqu_master-master,com.barnettwong.quyou.api,Api,Api,Magic Number,The method contains a magic number: 1024,72
+youqu_master-master,com.barnettwong.quyou.api,Api,Api,Magic Number,The method contains a magic number: 100,72
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Long Statement,The length of the statement "Request request=requestBuilder.removeHeader("User-Agent").addHeader("User-Agent"`"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.4)").build();" is 150.,81
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Long Statement,The length of the statement "request=request.newBuilder().cacheControl(TextUtils.isEmpty(cacheControl) ? CacheControl.FORCE_NETWORK : CacheControl.FORCE_CACHE).build();" is 139.,160
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Long Statement,The length of the statement "return originalResponse.newBuilder().header("Cache-Control"`"public` only-if-cached` max-stale=" + CACHE_STALE_SEC).removeHeader("Pragma").build();" is 147.,160
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Long Statement,The length of the statement "return response.newBuilder().header("Cache-Control"`"public`only-if-cached`max-stale=" + maxStale).removeHeader("Pragma").build();" is 130.,187
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Magic Number,The method contains a magic number: 60,187
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Magic Number,The method contains a magic number: 60,187
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Magic Number,The method contains a magic number: 60,187
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Magic Number,The method contains a magic number: 24,187
+youqu_master-master,com.barnettwong.quyou.api,Api,intercept,Magic Number,The method contains a magic number: 7,187
+youqu_master-master,com.yuyh.library.imgsel,ImgSelActivity,onCreate,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 126.,60
+youqu_master-master,com.yuyh.library.imgsel,ImgSelActivity,onRequestPermissionsResult,Long Statement,The length of the statement "getSupportFragmentManager().beginTransaction().add(R.id.fmImageList`ImgSelFragment.instance(config)`null).commitAllowingStateLoss();" is 132.,193
+youqu_master-master,com.yuyh.library.imgsel,ImgSelActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,193
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Complex Method,Cyclomatic complexity of the method is 10,84
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Empty catch clause,The method has an empty catch block.,84
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Magic Number,The method contains a magic number: 3,84
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Complex Method,Cyclomatic complexity of the method is 9,105
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Long Statement,The length of the statement "CursorLoader cursorLoader=new CursorLoader(getActivity()`MediaStore.Images.Media.EXTERNAL_CONTENT_URI`IMAGE_PROJECTION`null`null`IMAGE_PROJECTION[2] + " DESC");" is 160.,152
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Long Statement,The length of the statement "CursorLoader cursorLoader=new CursorLoader(getActivity()`MediaStore.Images.Media.EXTERNAL_CONTENT_URI`IMAGE_PROJECTION`IMAGE_PROJECTION[0] + " like '%" + args.getString("path")+ "%'"`null`IMAGE_PROJECTION[2] + " DESC");" is 219.,152
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Magic Number,The method contains a magic number: 2,152
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Magic Number,The method contains a magic number: 2,152
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onLoadFinished,Complex Method,Cyclomatic complexity of the method is 9,168
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onLoadFinished,Magic Number,The method contains a magic number: 2,168
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 3,256
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 2,256
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 3,256
+youqu_master-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 2,256
+youqu_master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1024,207
+youqu_master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1048576,207
+youqu_master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1024,207
+youqu_master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1073741824,207
+youqu_master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1048576,207
+youqu_master-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1073741824,207
+youqu_master-master,com.yuyh.library.imgsel.utils,FileUtils,getFileOutputString,Magic Number,The method contains a magic number: 8192,285
+youqu_master-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'e' == level && ('e' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+youqu_master-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'w' == level && ('w' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+youqu_master-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'd' == level && ('d' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+youqu_master-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'i' == level && ('d' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Complex Method,Cyclomatic complexity of the method is 11,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 100,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 15,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 25,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 35,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 45,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 55,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 65,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 75,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 85,18
+youqu_master-master,com.dueeeke.videocontroller,BatteryReceiver,onReceive,Magic Number,The method contains a magic number: 95,18
+youqu_master-master,com.dueeeke.videocontroller,StandardVideoController,setPlayState,Complex Method,Cyclomatic complexity of the method is 11,179
+youqu_master-master,com.dueeeke.videocontroller,StandardVideoController,setProgress,Complex Method,Cyclomatic complexity of the method is 9,384
+youqu_master-master,com.dueeeke.videocontroller,StandardVideoController,setProgress,Magic Number,The method contains a magic number: 95,384
+youqu_master-master,com.dueeeke.videocontroller,StandardVideoController,setProgress,Magic Number,The method contains a magic number: 10,384
+youqu_master-master,com.dueeeke.videocontroller,StandardVideoController,setProgress,Magic Number,The method contains a magic number: 10,384
+youqu_master-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+youqu_master-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+youqu_master-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+youqu_master-master,com.example.provider7,ProviderSevenUriUtils,getUriForFile,Magic Number,The method contains a magic number: 24,18
+youqu_master-master,com.example.provider7,ProviderSevenUriUtils,setIntentDataAndType,Long Parameter List,The method has 5 parameters. ,36
+youqu_master-master,com.example.provider7,ProviderSevenUriUtils,setIntentDataAndType,Magic Number,The method contains a magic number: 24,36
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeChanged,Magic Number,The method contains a magic number: 2,38
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeChanged,Magic Number,The method contains a magic number: 2,43
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeInserted,Magic Number,The method contains a magic number: 2,48
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeRemoved,Magic Number,The method contains a magic number: 2,53
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,WrapperAdapter,Long Parameter List,The method has 5 parameters. ,64
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemCount,Magic Number,The method contains a magic number: 4,114
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 3,119
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,151
+youqu_master-master,com.aspsine.irecyclerview,WrapperAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,151
+youqu_master-master,com.aspsine.irecyclerview,IViewHolder,getIPosition,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.aspsine.irecyclerview,IViewHolder,getILayoutPosition,Magic Number,The method contains a magic number: 2,20
+youqu_master-master,com.aspsine.irecyclerview,IViewHolder,getIAdapterPosition,Magic Number,The method contains a magic number: 2,24
+youqu_master-master,com.aspsine.irecyclerview,IViewHolder,getIOldPosition,Magic Number,The method contains a magic number: 2,28
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,setRefreshHeaderView,Long Statement,The length of the statement "final View refreshHeader=LayoutInflater.from(getContext()).inflate(refreshHeaderLayoutRes`mRefreshHeaderContainer`false);" is 121.,243
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,setLoadMoreFooterView,Long Statement,The length of the statement "final View loadMoreFooter=LayoutInflater.from(getContext()).inflate(loadMoreFooterLayoutRes`mLoadMoreFooterContainer`false);" is 124.,272
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,removeFooterView,Magic Number,The method contains a magic number: 2,321
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,addFooterView,Magic Number,The method contains a magic number: 2,330
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,setAdapter,Long Statement,The length of the statement "super.setAdapter(new WrapperAdapter(adapter`mRefreshHeaderContainer`mHeaderViewContainer`mFooterViewContainer`mLoadMoreFooterContainer));" is 137.,344
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,ensureLoadMoreFooterContainer,Long Statement,The length of the statement "mLoadMoreFooterContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 132.,360
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,ensureHeaderViewContainer,Long Statement,The length of the statement "mHeaderViewContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 128.,367
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,ensureFooterViewContainer,Long Statement,The length of the statement "mFooterViewContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 128.,375
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 16,437
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Long Statement,The length of the statement "LogUtils.loge(TAG`"Error processing scroll; pointer index for id " + index + " not found. Did any MotionEvents get skipped?");" is 126.,437
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Long Statement,The length of the statement "final boolean triggerCondition=isEnabled() && mRefreshEnabled && mRefreshHeaderView != null && isFingerDragging() && canTriggerRefresh();" is 137.,437
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,getMotionEventX,Magic Number,The method contains a magic number: 0.5f,544
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,getMotionEventY,Magic Number,The method contains a magic number: 0.5f,548
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,fingerMove,Magic Number,The method contains a magic number: 0.5f,552
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,fingerMove,Magic Number,The method contains a magic number: 0.5,552
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,startScrollDefaultStatusToRefreshingStatus,Magic Number,The method contains a magic number: 400,583
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,startScrollSwipingToRefreshStatusToDefaultStatus,Magic Number,The method contains a magic number: 300,591
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,startScrollReleaseStatusToRefreshingStatus,Magic Number,The method contains a magic number: 300,597
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,startScrollRefreshingStatusToDefaultStatus,Magic Number,The method contains a magic number: 400,605
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onAnimationEnd,Complex Method,Cyclomatic complexity of the method is 8,659
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,onAnimationEnd,Long Statement,The length of the statement "LogUtils.logi(TAG`"onAnimationEnd " + getStatusLog(lastStatus) + " -> "+ getStatusLog(mStatus)+ " ;refresh view height:"+ mRefreshHeaderContainer.getMeasuredHeight());" is 167.,659
+youqu_master-master,com.aspsine.irecyclerview,IRecyclerView,getStatusLog,Missing default,The following switch statement is missing a default case: switch (status) {,787
+youqu_master-master,com.aspsine.irecyclerview,RefreshHeaderLayout,onLayout,Long Parameter List,The method has 5 parameters. ,83
+youqu_master-master,com.aspsine.irecyclerview,OnLoadMoreScrollListener,onScrollStateChanged,Long Statement,The length of the statement "boolean triggerCondition=visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && canTriggerLoadMore(recyclerView);" is 128.,15
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 100.0f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 380.0f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 100.0f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 360f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 360f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,onMove,Magic Number,The method contains a magic number: 360,90
+youqu_master-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,onMove,Magic Number,The method contains a magic number: 360,90
+youqu_master-master,com.aspsine.irecyclerview.universaladapter.recyclerview.support,SectionAdapter,SectionAdapter,Long Parameter List,The method has 5 parameters. ,52
+youqu_master-master,com.aspsine.irecyclerview.universaladapter,ViewHolderHelper,get,Long Parameter List,The method has 5 parameters. ,45
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,onCreate,Long Identifier,The length of the field permissionNotGrantedClickListener is 33.,71
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,onCreate,Long Identifier,The length of the field messageButtonBehaviourOnPageSelected is 36.,71
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,onCreate,Magic Number,The method contains a magic number: 2,71
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,run,Long Identifier,The length of the field messageButtonBehaviourOnPageSelected is 36.,107
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,onRequestPermissionsResult,Long Identifier,The length of the field messageButtonBehaviourOnPageSelected is 36.,120
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,onKeyDown,Missing default,The following switch statement is missing a default case: switch (keyCode) {,140
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,getPageIndicatorTranslationWrapper,Long Identifier,The length of the field pageIndicatorTranslationWrapper is 31.,259
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,initOnPageChangeListeners,Long Identifier,The length of the field messageButtonBehaviourOnPageSelected is 36.,314
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,initOnPageChangeListeners,Long Identifier,The length of the field pageIndicatorTranslationWrapper is 31.,314
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,initOnPageChangeListeners,Long Statement,The length of the statement "messageButtonBehaviourOnPageSelected=new MessageButtonBehaviourOnPageSelected(messageButton`adapter`messageButtonBehaviours);" is 125.,314
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,initOnPageChangeListeners,Long Statement,The length of the statement "viewPager.addOnPageChangeListener(new ViewBehavioursOnPageChangeListener(adapter).registerViewTranslationWrapper(nextButtonTranslationWrapper).registerViewTranslationWrapper(backButtonTranslationWrapper).registerViewTranslationWrapper(pageIndicatorTranslationWrapper).registerViewTranslationWrapper(viewPagerTranslationWrapper).registerViewTranslationWrapper(skipButtonTranslationWrapper).registerOnPageScrolled(new IPageScrolledListener(){" is 440.,314
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,initOnPageChangeListeners,Long Statement,The length of the statement ").registerOnPageScrolled(new ColorTransitionScrollListener()).registerOnPageScrolled(new ParallaxScrollListener(adapter)).registerPageSelectedListener(messageButtonBehaviourOnPageSelected).registerPageSelectedListener(new IPageSelectedListener(){" is 246.,314
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,nextButtonBehaviour,Long Identifier,The length of the field permissionNotGrantedClickListener is 33.,366
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,getBackgroundColor,Long Statement,The length of the statement "return (Integer)argbEvaluator.evaluate(positionOffset`color(adapter.getItem(position).backgroundColor())`color(adapter.getItem(position + 1).backgroundColor()));" is 161.,418
+youqu_master-master,agency.tango.materialintroscreen,MaterialIntroActivity,getButtonsColor,Long Statement,The length of the statement "return (Integer)argbEvaluator.evaluate(positionOffset`color(adapter.getItem(position).buttonsColor())`color(adapter.getItem(position + 1).buttonsColor()));" is 155.,422
+youqu_master-master,agency.tango.materialintroscreen,SlideFragment,askForPermissions,Complex Method,Cyclomatic complexity of the method is 9,124
+youqu_master-master,agency.tango.materialintroscreen.listeners,MessageButtonBehaviourOnPageSelected,checkIfMessageButtonHasBehaviour,Long Statement,The length of the statement "return messageButtonBehaviours.get(position) != null && isNotNullOrEmpty(messageButtonBehaviours.get(position).getMessageButtonText());" is 135.,49
+youqu_master-master,agency.tango.materialintroscreen.animations.wrappers,SkipButtonTranslationWrapper,SkipButtonTranslationWrapper,Long Statement,The length of the statement "setEnterTranslation(new EnterDefaultTranslation()).setDefaultTranslation(new DefaultPositionTranslation()).setExitTranslation(new ExitDefaultTranslation());" is 156.,11
+youqu_master-master,agency.tango.materialintroscreen.animations.wrappers,BackButtonTranslationWrapper,BackButtonTranslationWrapper,Long Statement,The length of the statement "setEnterTranslation(new EnterDefaultTranslation()).setDefaultTranslation(new DefaultPositionTranslation()).setExitTranslation(new ExitDefaultTranslation());" is 156.,11
+youqu_master-master,agency.tango.materialintroscreen.animations.wrappers,NextButtonTranslationWrapper,NextButtonTranslationWrapper,Long Statement,The length of the statement "setExitTranslation(new ExitDefaultTranslation()).setDefaultTranslation(new DefaultPositionTranslation()).setErrorAnimation(R.anim.shake_it);" is 140.,11
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,OverScrollViewPager,Long Statement,The length of the statement "RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT`RelativeLayout.LayoutParams.MATCH_PARENT);" is 156.,32
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,onTouchEvent,Magic Number,The method contains a magic number: 0.5f,66
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,calculateOffset,Magic Number,The method contains a magic number: 100f,106
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,calculateOffset,Magic Number,The method contains a magic number: 100f,106
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,resetOverScrollViewWithAnimation,Magic Number,The method contains a magic number: 300,118
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,finishOverScrollViewWithAnimation,Magic Number,The method contains a magic number: 300,122
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,run,Long Statement,The length of the statement "final int deltaY=Math.round((scrollFromPosition - scrollToPosition) * interpolator.getInterpolation(normalizedTime / 1000f));" is 125.,161
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,run,Magic Number,The method contains a magic number: 1000,161
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,run,Magic Number,The method contains a magic number: 1000,161
+youqu_master-master,agency.tango.materialintroscreen.widgets,OverScrollViewPager,run,Magic Number,The method contains a magic number: 1000f,161
+youqu_master-master,agency.tango.materialintroscreen.widgets,SmoothScrollRunnable,run,Long Statement,The length of the statement "final int deltaY=Math.round((scrollFromPosition - scrollToPosition) * interpolator.getInterpolation(normalizedTime / 1000f));" is 125.,161
+youqu_master-master,agency.tango.materialintroscreen.widgets,SmoothScrollRunnable,run,Magic Number,The method contains a magic number: 1000,161
+youqu_master-master,agency.tango.materialintroscreen.widgets,SmoothScrollRunnable,run,Magic Number,The method contains a magic number: 1000,161
+youqu_master-master,agency.tango.materialintroscreen.widgets,SmoothScrollRunnable,run,Magic Number,The method contains a magic number: 1000f,161
+youqu_master-master,agency.tango.materialintroscreen.widgets,SwipeableViewPager,onInterceptTouchEvent,Missing default,The following switch statement is missing a default case: switch (action) {,23
+youqu_master-master,agency.tango.materialintroscreen.widgets,SwipeableViewPager,onTouchEvent,Magic Number,The method contains a magic number: 16,45
+youqu_master-master,agency.tango.materialintroscreen.widgets,SwipeableViewPager,onTouchEvent,Magic Number,The method contains a magic number: 16,45
+youqu_master-master,agency.tango.materialintroscreen.widgets,SwipeableViewPager,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (action) {,45
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,InkPageIndicator,Magic Number,The method contains a magic number: 2,87
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,InkPageIndicator,Magic Number,The method contains a magic number: 2,87
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,InkPageIndicator,Magic Number,The method contains a magic number: 2,87
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,calculateDotPositions,Magic Number,The method contains a magic number: 2,178
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,onMeasure,Missing default,The following switch statement is missing a default case: switch (MeasureSpec.getMode(heightMeasureSpec)) {,222
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,onMeasure,Missing default,The following switch statement is missing a default case: switch (MeasureSpec.getMode(widthMeasureSpec)) {,222
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,drawUnselected,Long Statement,The length of the statement "Path unselectedPath=getUnselectedPath(page`dotCenterX[page]`dotCenterX[nextXIndex]`page == pageCount - 1 ? INVALID_FRACTION : joiningFractions[page]`dotRevealFractions[page]);" is 175.,285
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Complex Conditional,The conditional expression joiningFraction > 0.5f && joiningFraction < 1f && retreatingJoinX1 == INVALID_FRACTION is complex.,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Long Parameter List,The method has 5 parameters. ,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 90,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 180,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 90,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 180,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 0.5f,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 0.2f,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 1.25f,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 90,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 180,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 2,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 270,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,getUnselectedPath,Magic Number,The method contains a magic number: 180,315
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,isDotJoining,Magic Number,The method contains a magic number: 0.5f,441
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,isDotNotJoining,Long Statement,The length of the statement "return (joiningFraction == 0f || joiningFraction == INVALID_FRACTION) && dotRevealFraction == 0f && !(page == currentPage && selectedDotInPosition);" is 148.,445
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,createMoveSelectedAnimator,Long Statement,The length of the statement "retreatAnimation=new PendingRetreatAnimator(was`now`steps`now > was ? new RightwardStartPredicate(moveTo - ((moveTo - selectedDotX) * 0.25f)) : new LeftwardStartPredicate(moveTo + ((selectedDotX - moveTo) * 0.25f)));" is 216.,488
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,createMoveSelectedAnimator,Magic Number,The method contains a magic number: 0.25f,488
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,createMoveSelectedAnimator,Magic Number,The method contains a magic number: 0.25f,488
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,createMoveSelectedAnimator,Magic Number,The method contains a magic number: 4L,488
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,createMoveSelectedAnimator,Magic Number,The method contains a magic number: 3L,488
+youqu_master-master,agency.tango.materialintroscreen.widgets,InkPageIndicator,createMoveSelectedAnimator,Magic Number,The method contains a magic number: 4L,488
+youqu_master-master,android.support.v4.view,CustomViewPager,setAdapter,Complex Method,Cyclomatic complexity of the method is 9,502
+youqu_master-master,android.support.v4.view,CustomViewPager,setCurrentItemInternal,Complex Conditional,The conditional expression !always && mCurItem == item && mItems.size() != 0 is complex.,635
+youqu_master-master,android.support.v4.view,CustomViewPager,setCurrentItemInternal,Complex Method,Cyclomatic complexity of the method is 9,635
+youqu_master-master,android.support.v4.view,CustomViewPager,setPageTransformer,Magic Number,The method contains a magic number: 11,751
+youqu_master-master,android.support.v4.view,CustomViewPager,setChildrenDrawingOrderEnabledCompat,Long Identifier,The length of the field mSetChildrenDrawingOrderEnabled is 31.,778
+youqu_master-master,android.support.v4.view,CustomViewPager,setChildrenDrawingOrderEnabledCompat,Long Statement,The length of the statement "mSetChildrenDrawingOrderEnabled=ViewGroup.class.getDeclaredMethod("setChildrenDrawingOrderEnabled"`new Class[]{Boolean.TYPE});" is 126.,778
+youqu_master-master,android.support.v4.view,CustomViewPager,setChildrenDrawingOrderEnabledCompat,Magic Number,The method contains a magic number: 7,778
+youqu_master-master,android.support.v4.view,CustomViewPager,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 0.5f,922
+youqu_master-master,android.support.v4.view,CustomViewPager,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 0.3f,922
+youqu_master-master,android.support.v4.view,CustomViewPager,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 2.0f,922
+youqu_master-master,android.support.v4.view,CustomViewPager,smoothScrollTo,Magic Number,The method contains a magic number: 2,938
+youqu_master-master,android.support.v4.view,CustomViewPager,smoothScrollTo,Magic Number,The method contains a magic number: 4,938
+youqu_master-master,android.support.v4.view,CustomViewPager,smoothScrollTo,Magic Number,The method contains a magic number: 1000,938
+youqu_master-master,android.support.v4.view,CustomViewPager,smoothScrollTo,Magic Number,The method contains a magic number: 100,938
+youqu_master-master,android.support.v4.view,CustomViewPager,dataSetChanged,Complex Method,Cyclomatic complexity of the method is 12,1016
+youqu_master-master,android.support.v4.view,CustomViewPager,dataSetChanged,Magic Number,The method contains a magic number: 2,1016
+youqu_master-master,android.support.v4.view,CustomViewPager,populate,Complex Method,Cyclomatic complexity of the method is 35,1091
+youqu_master-master,android.support.v4.view,CustomViewPager,populate,Long Method,The method has 151 lines of code.,1091
+youqu_master-master,android.support.v4.view,CustomViewPager,populate,Long Statement,The length of the statement "throw new IllegalStateException("The application's PagerAdapter changed the adapter's" + " contents without calling PagerAdapter#notifyDataSetChanged!" + " Expected adapter item count: " + mExpectedAdapterCount + "` found: "+ N+ " Pager id: "+ resName+ " Pager class: "+ getClass()+ " Problematic adapter: "+ mAdapter.getClass());" is 330.,1091
+youqu_master-master,android.support.v4.view,CustomViewPager,populate,Long Statement,The length of the statement "final float leftWidthNeeded=clientWidth <= 0 ? 0 : 2.f - curItem.widthFactor + (float)getPaddingLeft() / (float)clientWidth;" is 124.,1091
+youqu_master-master,android.support.v4.view,CustomViewPager,populate,Magic Number,The method contains a magic number: 2.f,1091
+youqu_master-master,android.support.v4.view,CustomViewPager,populate,Magic Number,The method contains a magic number: 2.f,1091
+youqu_master-master,android.support.v4.view,CustomViewPager,populate,Magic Number,The method contains a magic number: 2.f,1091
+youqu_master-master,android.support.v4.view,CustomViewPager,calculatePageOffsets,Complex Method,Cyclomatic complexity of the method is 16,1293
+youqu_master-master,android.support.v4.view,CustomViewPager,onMeasure,Complex Method,Cyclomatic complexity of the method is 16,1540
+youqu_master-master,android.support.v4.view,CustomViewPager,onMeasure,Magic Number,The method contains a magic number: 10,1540
+youqu_master-master,android.support.v4.view,CustomViewPager,onLayout,Complex Method,Cyclomatic complexity of the method is 16,1672
+youqu_master-master,android.support.v4.view,CustomViewPager,onLayout,Long Parameter List,The method has 5 parameters. ,1672
+youqu_master-master,android.support.v4.view,CustomViewPager,onLayout,Long Statement,The length of the statement "Log.v(TAG`"Positioning #" + i + " "+ child+ " f="+ ii.object+ ":"+ childLeft+ "`"+ childTop+ " "+ child.getMeasuredWidth()+ "x"+ child.getMeasuredHeight());" is 156.,1672
+youqu_master-master,android.support.v4.view,CustomViewPager,onLayout,Magic Number,The method contains a magic number: 2,1672
+youqu_master-master,android.support.v4.view,CustomViewPager,onLayout,Magic Number,The method contains a magic number: 2,1672
+youqu_master-master,android.support.v4.view,CustomViewPager,onLayout,Missing default,The following switch statement is missing a default case: switch (hgrav) {,1672
+youqu_master-master,android.support.v4.view,CustomViewPager,onLayout,Missing default,The following switch statement is missing a default case: switch (vgrav) {,1672
+youqu_master-master,android.support.v4.view,CustomViewPager,onPageScrolled,Complex Method,Cyclomatic complexity of the method is 11,1842
+youqu_master-master,android.support.v4.view,CustomViewPager,onPageScrolled,Magic Number,The method contains a magic number: 2,1842
+youqu_master-master,android.support.v4.view,CustomViewPager,onPageScrolled,Missing default,The following switch statement is missing a default case: switch (hgrav) {,1842
+youqu_master-master,android.support.v4.view,CustomViewPager,completeScroll,Complex Method,Cyclomatic complexity of the method is 9,1965
+youqu_master-master,android.support.v4.view,CustomViewPager,onInterceptTouchEvent,Complex Conditional,The conditional expression dx != 0 && !isGutterDrag(mLastMotionX`dx) && canScroll(this`false`(int)dx`(int)x`(int)y) is complex.,2015
+youqu_master-master,android.support.v4.view,CustomViewPager,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 23,2015
+youqu_master-master,android.support.v4.view,CustomViewPager,onInterceptTouchEvent,Long Statement,The length of the statement "Log.v(TAG`"Down at " + mLastMotionX + "`"+ mLastMotionY+ " mIsBeingDragged="+ mIsBeingDragged+ "mIsUnableToDrag="+ mIsUnableToDrag);" is 132.,2015
+youqu_master-master,android.support.v4.view,CustomViewPager,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,2015
+youqu_master-master,android.support.v4.view,CustomViewPager,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 21,2156
+youqu_master-master,android.support.v4.view,CustomViewPager,onTouchEvent,Long Method,The method has 105 lines of code.,2156
+youqu_master-master,android.support.v4.view,CustomViewPager,onTouchEvent,Magic Number,The method contains a magic number: 1000,2156
+youqu_master-master,android.support.v4.view,CustomViewPager,determineTargetPage,Magic Number,The method contains a magic number: 0.4f,2393
+youqu_master-master,android.support.v4.view,CustomViewPager,determineTargetPage,Magic Number,The method contains a magic number: 0.6f,2393
+youqu_master-master,android.support.v4.view,CustomViewPager,draw,Complex Conditional,The conditional expression overScrollMode == View.OVER_SCROLL_ALWAYS || (overScrollMode == View.OVER_SCROLL_IF_CONTENT_SCROLLS && mAdapter != null && mAdapter.getCount() > 1) is complex.,2413
+youqu_master-master,android.support.v4.view,CustomViewPager,draw,Long Statement,The length of the statement "if (overScrollMode == View.OVER_SCROLL_ALWAYS || (overScrollMode == View.OVER_SCROLL_IF_CONTENT_SCROLLS && mAdapter != null && mAdapter.getCount() > 1)) {" is 154.,2413
+youqu_master-master,android.support.v4.view,CustomViewPager,draw,Magic Number,The method contains a magic number: 270,2413
+youqu_master-master,android.support.v4.view,CustomViewPager,draw,Magic Number,The method contains a magic number: 90,2413
+youqu_master-master,android.support.v4.view,CustomViewPager,onDraw,Complex Conditional,The conditional expression mPageMargin > 0 && mMarginDrawable != null && mItems.size() > 0 && mAdapter != null is complex.,2455
+youqu_master-master,android.support.v4.view,CustomViewPager,endFakeDrag,Magic Number,The method contains a magic number: 1000,2536
+youqu_master-master,android.support.v4.view,CustomViewPager,canScroll,Complex Conditional,The conditional expression x + scrollX >= child.getLeft() && x + scrollX < child.getRight() && y + scrollY >= child.getTop() && y + scrollY < child.getBottom() && canScroll(child`true`dx`x + scrollX - child.getLeft()`y + scrollY - child.getTop()) is complex.,2696
+youqu_master-master,android.support.v4.view,CustomViewPager,canScroll,Long Parameter List,The method has 5 parameters. ,2696
+youqu_master-master,android.support.v4.view,CustomViewPager,canScroll,Long Statement,The length of the statement "if (x + scrollX >= child.getLeft() && x + scrollX < child.getRight() && y + scrollY >= child.getTop() && y + scrollY < child.getBottom() && canScroll(child`true`dx`x + scrollX - child.getLeft()`y + scrollY - child.getTop())) {" is 226.,2696
+youqu_master-master,android.support.v4.view,CustomViewPager,arrowScroll,Complex Method,Cyclomatic complexity of the method is 15,2770
+youqu_master-master,android.support.v4.view,CustomViewPager,addFocusables,Complex Conditional,The conditional expression (focusableMode & FOCUSABLES_TOUCH_MODE) == FOCUSABLES_TOUCH_MODE && isInTouchMode() && !isFocusableInTouchMode() is complex.,2885
+youqu_master-master,android.support.v4.view,CustomViewPager,addFocusables,Complex Method,Cyclomatic complexity of the method is 9,2885
+youqu_master-master,android.support.v4.view,CustomViewPager,dispatchPopulateAccessibilityEvent,Complex Conditional,The conditional expression ii != null && ii.position == mCurItem && child.dispatchPopulateAccessibilityEvent(event) is complex.,2979
+youqu_master-master,com.jaydenxiao.common.baserx,RxManager,on,Long Statement,The length of the statement "mCompositeSubscription.add(mObservable.observeOn(AndroidSchedulers.mainThread()).subscribe(action1`new Action1<Throwable>(){" is 124.,24
+youqu_master-master,com.jaydenxiao.common.baserx,RxCache,load,Long Parameter List,The method has 5 parameters. ,43
+youqu_master-master,com.jaydenxiao.common.commonwidget,OnDoubleClickListener,onClick,Magic Number,The method contains a magic number: 2,15
+youqu_master-master,com.jaydenxiao.common.commonwidget,OnDoubleClickListener,onClick,Magic Number,The method contains a magic number: 1000,15
+youqu_master-master,com.jaydenxiao.common.commonwidget,LoadingTip,setLoadingTip,Complex Method,Cyclomatic complexity of the method is 8,82
+youqu_master-master,com.jaydenxiao.common.commonwidget,LoadingDialog,showDialogForLoading,Long Statement,The length of the statement "mLoadingDialog.setContentView(view`new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT));" is 145.,21
+youqu_master-master,com.jaydenxiao.common.commonwidget,LoadingDialog,showDialogForLoading,Long Statement,The length of the statement "mLoadingDialog.setContentView(view`new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT));" is 145.,40
+youqu_master-master,com.jaydenxiao.common.commonwidget,NoScrollListview,onMeasure,Magic Number,The method contains a magic number: 2,19
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,setStatusBarColor,Complex Conditional,The conditional expression mDecorView.getTag() != null && mDecorView.getTag() instanceof Boolean && (Boolean)mDecorView.getTag() is complex.,32
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,translucentStatusBar,Complex Conditional,The conditional expression mDecorView.getTag() != null && mDecorView.getTag() instanceof Boolean && (Boolean)mDecorView.getTag() is complex.,89
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,translucentStatusBar,Complex Method,Cyclomatic complexity of the method is 9,89
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 255f,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 16,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 8,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 24,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 16,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 8,153
+youqu_master-master,com.jaydenxiao.common.commonwidget,WaveView,WaveView,Magic Number,The method contains a magic number: 80,28
+youqu_master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 0.1f,48
+youqu_master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 2,48
+youqu_master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 20,48
+youqu_master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 8,48
+youqu_master-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 20,48
+youqu_master-master,com.jaydenxiao.common.commonwidget,NoScrollGridView,onMeasure,Magic Number,The method contains a magic number: 2,22
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 6,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,113
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,175
+youqu_master-master,com.jaydenxiao.common.security,Base64,isValidBase64Byte,Magic Number,The method contains a magic number: 128,274
+youqu_master-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+youqu_master-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+youqu_master-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+youqu_master-master,com.jaydenxiao.common.security,AESUtil,Encrypt,Magic Number,The method contains a magic number: 16,22
+youqu_master-master,com.jaydenxiao.common.security,AESUtil,Decrypt,Magic Number,The method contains a magic number: 16,43
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,init,Complex Method,Cyclomatic complexity of the method is 13,80
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,onCreateView,Complex Method,Cyclomatic complexity of the method is 13,88
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,getAttr,Complex Conditional,The conditional expression attrName == null || attrName.trim().equals("") || draw == null is complex.,139
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeNight,Complex Conditional,The conditional expression mBackGroundDrawableViews == null || mOneTextColorViews == null || mBackGroundViews == null is complex.,183
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeDay,Complex Conditional,The conditional expression mBackGroundDrawableViews == null || mOneTextColorViews == null || mTwoTextColorViews == null || mThreeTextColorViews == null || mBackGroundViews == null is complex.,198
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeDay,Long Statement,The length of the statement "if (mBackGroundDrawableViews == null || mOneTextColorViews == null || mTwoTextColorViews == null || mThreeTextColorViews == null || mBackGroundViews == null) {" is 159.,198
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,refreshStatusBar,Magic Number,The method contains a magic number: 21,265
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,showAnimation,Long Statement,The length of the statement "ViewGroup.LayoutParams layoutParam=new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT);" is 135.,277
+youqu_master-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,showAnimation,Magic Number,The method contains a magic number: 500,277
+youqu_master-master,com.jaydenxiao.common.compressorutils,Compressor,compressToFile,Long Statement,The length of the statement "return ImageUtil.compressImage(context`Uri.fromFile(file)`maxWidth`maxHeight`compressFormat`quality`destinationDirectoryPath);" is 126.,74
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 16,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 1024,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2.0f,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2.0f,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 6,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 90,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 3,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 180,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 8,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 270,26
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,compressImage,Empty catch clause,The method has an empty catch block.,124
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,compressImage,Long Parameter List,The method has 7 parameters. ,124
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,generateFilePath,Long Statement,The length of the statement "return file.getAbsolutePath() + File.separator + FileUtil.splitFileName(FileUtil.getFileName(context`uri))[0]+ "."+ extension;" is 126.,158
+youqu_master-master,com.jaydenxiao.common.compressorutils,ImageUtil,calculateInSampleSize,Magic Number,The method contains a magic number: 2,166
+youqu_master-master,com.jaydenxiao.common.baseapp,AppManager,preActivity,Magic Number,The method contains a magic number: 2,59
+youqu_master-master,com.jaydenxiao.common.baseapp,AppManager,AppExit,Empty catch clause,The method has an empty catch block.,159
+youqu_master-master,com.jaydenxiao.common.commonutils,NetWorkUtils,isNetConnected,Long Statement,The length of the statement "NetworkInfo localNetworkInfo=((ConnectivityManager)paramContext.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();" is 135.,17
+youqu_master-master,com.jaydenxiao.common.commonutils,NetWorkUtils,isLinkAvailable,Long Statement,The length of the statement "Pattern pattern=Pattern.compile("^(http://|https://)?((?:[A-Za-z0-9]+-[A-Za-z0-9]+|[A-Za-z0-9]+)\\.)+([A-Za-z]+)[/\\?\\:]?.*$"`Pattern.CASE_INSENSITIVE);" is 153.,59
+youqu_master-master,com.jaydenxiao.common.commonutils,IpUtils,GetHostIp,Empty catch clause,The method has an empty catch block.,15
+youqu_master-master,com.jaydenxiao.common.commonutils,IpUtils,GetHostIp,Empty catch clause,The method has an empty catch block.,15
+youqu_master-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2,27
+youqu_master-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2,27
+youqu_master-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2f,27
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Parameter List,The method has 5 parameters. ,18
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,26
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,38
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displaySmallPhoto,Long Statement,The length of the statement "Glide.with(context).load(url).asBitmap().diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).thumbnail(0.5f).into(imageView);" is 190.,49
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displaySmallPhoto,Magic Number,The method contains a magic number: 0.5f,49
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayBigPhoto,Long Statement,The length of the statement "Glide.with(context).load(url).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).into(imageView);" is 212.,60
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,71
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayRound,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.toux2).centerCrop().transform(new GlideRoundTransformUtil(context)).into(imageView);" is 172.,82
+youqu_master-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayRound,Long Statement,The length of the statement "Glide.with(context).load(resId).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.toux2).centerCrop().transform(new GlideRoundTransformUtil(context)).into(imageView);" is 174.,91
+youqu_master-master,com.jaydenxiao.common.commonutils,DisplayUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,27
+youqu_master-master,com.jaydenxiao.common.commonutils,DisplayUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,39
+youqu_master-master,com.jaydenxiao.common.commonutils,DisplayUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,51
+youqu_master-master,com.jaydenxiao.common.commonutils,DisplayUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,63
+youqu_master-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,PermissionDialog,Long Statement,The length of the statement "Dialog deleteDialog=new AlertDialog.Builder(activity).setTitle("提示").setMessage(content).setPositiveButton("去设置"`new DialogInterface.OnClickListener(){" is 151.,19
+youqu_master-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,startSettingIntent,Magic Number,The method contains a magic number: 9,32
+youqu_master-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,startSettingIntent,Magic Number,The method contains a magic number: 8,32
+youqu_master-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+youqu_master-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+youqu_master-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,put,Magic Number,The method contains a magic number: 1024,96
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,put,Empty catch clause,The method has an empty catch block.,375
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,isDue,Magic Number,The method contains a magic number: 2,718
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,isDue,Magic Number,The method contains a magic number: 1000,718
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 15,769
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 13,769
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 14,769
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,774
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,774
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,createDateInfo,Magic Number,The method contains a magic number: 13,805
+youqu_master-master,com.jaydenxiao.common.commonutils,ACache,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,816
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,isDue,Magic Number,The method contains a magic number: 2,718
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,isDue,Magic Number,The method contains a magic number: 1000,718
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 15,769
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 13,769
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 14,769
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,774
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,774
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,createDateInfo,Magic Number,The method contains a magic number: 13,805
+youqu_master-master,com.jaydenxiao.common.commonutils,Utils,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,816
+youqu_master-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2,26
+youqu_master-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2,26
+youqu_master-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2f,26
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,AdViewpagerUtil,Long Parameter List,The method has 6 parameters. ,116
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initAdimgs,Long Statement,The length of the statement "LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT);" is 142.,161
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initAdimgs,Magic Number,The method contains a magic number: 2,161
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,setImg,Magic Number,The method contains a magic number: 2,179
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Complex Method,Cyclomatic complexity of the method is 24,210
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 0.01,210
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Missing default,The following switch statement is missing a default case: switch (action) {,210
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onTouch,Missing default,The following switch statement is missing a default case: switch (action) {,222
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrollStateChanged,Magic Number,The method contains a magic number: 2,244
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrolled,Magic Number,The method contains a magic number: 0.01,262
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrolled,Magic Number,The method contains a magic number: 2,262
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageSelected,Complex Method,Cyclomatic complexity of the method is 10,279
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageSelected,Magic Number,The method contains a magic number: 2,279
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,startLoopViewPager,Complex Conditional,The conditional expression !isLoop && viewPager != null && handler != null is complex.,361
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,stopLoopViewPager,Complex Conditional,The conditional expression isLoop && viewPager != null && handler != null is complex.,372
+youqu_master-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,394
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatData,Magic Number,The method contains a magic number: 1000,127
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getOffectHour,Magic Number,The method contains a magic number: 24,436
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getOffectMinutes,Magic Number,The method contains a magic number: 60,456
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getDayOfWeek,Magic Number,The method contains a magic number: 7,496
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFirstTimeOfDay,Empty catch clause,The method has an empty catch block.,567
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getLastTimeOfDay,Empty catch clause,The method has an empty catch block.,583
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Complex Conditional,The conditional expression (year % 4 == 0 && year % 400 != 0) || year % 400 == 0 is complex.,599
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 4,599
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 400,599
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 400,599
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Complex Method,Cyclomatic complexity of the method is 14,614
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Empty catch clause,The method has an empty catch block.,614
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Magic Number,The method contains a magic number: 2,614
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Magic Number,The method contains a magic number: 2,614
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Complex Method,Cyclomatic complexity of the method is 8,671
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 2,671
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 3,671
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 4,671
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 5,671
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 6,671
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Complex Method,Cyclomatic complexity of the method is 12,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 3600000,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 86400000,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 86400000,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 3600000,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 2,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 2,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 10,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 10,728
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 24,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,922
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,944
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 10,944
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,944
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,944
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,944
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 10,944
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,959
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,959
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,959
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 10,959
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 1000,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,975
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 3 && day >= 21) || (mouth == 4 && day <= 19) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 4 && day >= 20) || (mouth == 5 && day <= 20) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 5 && day >= 21) || (mouth == 6 && day <= 21) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 6 && day >= 22) || (mouth == 7 && day <= 22) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 7 && day >= 23) || (mouth == 8 && day <= 22) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 8 && day >= 23) || (mouth == 9 && day <= 22) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 9 && day >= 23) || (mouth == 10 && day <= 23) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 10 && day >= 24) || (mouth == 11 && day <= 22) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 11 && day >= 23) || (mouth == 12 && day <= 21) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 12 && day >= 22) || (mouth == 1 && day <= 19) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 1 && day >= 20) || (mouth == 2 && day <= 18) is complex.,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Method,Cyclomatic complexity of the method is 12,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 3,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 4,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 19,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 4,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 5,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 5,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 6,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 6,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 7,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 7,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 8,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 8,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 9,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 9,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 10,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 10,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 24,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 11,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 11,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 12,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 12,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 19,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 2,987
+youqu_master-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 18,987
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,isEmail,Long Statement,The length of the statement "String str="^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1`3}\\.[0-9]{1`3}\\.[0-9]{1`3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2`4}|[0-9]{1`3})(\\]?)$";" is 140.,29
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,isChinese,Complex Conditional,The conditional expression ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A || ub == Character.UnicodeBlock.GENERAL_PUNCTUATION || ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION || ub == Character.UnicodeBlock.HALFWIDTH_AND_FULLWIDTH_FORMS is complex.,70
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,isChinese,Long Statement,The length of the statement "if (ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A || ub == Character.UnicodeBlock.GENERAL_PUNCTUATION || ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION || ub == Character.UnicodeBlock.HALFWIDTH_AND_FULLWIDTH_FORMS) {" is 360.,70
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Complex Conditional,The conditional expression nonCheckCodeCardId == null || nonCheckCodeCardId.trim().length() == 0 || !nonCheckCodeCardId.matches("\\d+") is complex.,122
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 2,122
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 2,122
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Complex Method,Cyclomatic complexity of the method is 13,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Long Statement,The length of the statement "if ((gc.get(Calendar.YEAR) - Integer.parseInt(strYear)) > 150 || (gc.getTime().getTime() - s.parse(strYear + "-" + strMonth+ "-"+ strDay).getTime()) < 0) {" is 155.,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 17,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 10,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 10,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 14,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 150,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 31,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 2,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 17,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 11,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+youqu_master-master,com.jaydenxiao.common.commonutils,FormatUtil,isDataFormat,Long Statement,The length of the statement "String regxStr="^((\\d{2}(([02468][048])|([13579][26]))[\\-\\/\\s]?((((0?[13578])|(1[02]))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(3[01])))|(((0?[469])|(11))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(30)))|(0?2[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])))))|(\\d{2}(([02468][1235679])|([13579][01345789]))[\\-\\/\\s]?((((0?[13578])|(1[02]))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(3[01])))|(((0?[469])|(11))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(30)))|(0?2[\\-\\/\\s]?((0?[1-9])|(1[0-9])|(2[0-8]))))))(\\s(((0?[0-9])|([1-2][0-3]))\\:([0-5]?[0-9])((\\s)|(\\:([0-5]?[0-9])))))?$";" is 554.,298
+youqu_master-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 2,14
+youqu_master-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 3,14
+youqu_master-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 2,14
+youqu_master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,addGuideView,Long Statement,The length of the statement "LinearLayout.LayoutParams layoutParams=new LinearLayout.LayoutParams(getResources().getDimensionPixelSize(R.dimen.gudieview_width)`getResources().getDimensionPixelSize(R.dimen.gudieview_heigh));" is 194.,117
+youqu_master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,addGuideView,Magic Number,The method contains a magic number: 10,117
+youqu_master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "FrameLayout.LayoutParams loadingLayoutParams=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 147.,157
+youqu_master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "Glide.with(context).load(imgurl).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.ic_empty_picture).thumbnail(0.1f).listener(new RequestListener<String`GlideDrawable>(){" is 178.,157
+youqu_master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "@Override public boolean onResourceReady( GlideDrawable resource` String model` Target<GlideDrawable> target` boolean isFromMemoryCache` boolean isFirstResource){" is 162.,157
+youqu_master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Magic Number,The method contains a magic number: 0.1f,157
+youqu_master-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,onResourceReady,Long Parameter List,The method has 5 parameters. ,195
+youqu_master-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "FrameLayout.LayoutParams loadingLayoutParams=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 147.,157
+youqu_master-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "Glide.with(context).load(imgurl).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.ic_empty_picture).thumbnail(0.1f).listener(new RequestListener<String`GlideDrawable>(){" is 178.,157
+youqu_master-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "@Override public boolean onResourceReady( GlideDrawable resource` String model` Target<GlideDrawable> target` boolean isFromMemoryCache` boolean isFirstResource){" is 162.,157
+youqu_master-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Magic Number,The method contains a magic number: 0.1f,157
+youqu_master-master,com.jaydenxiao.common.imagePager,ImageAdapter,onResourceReady,Long Parameter List,The method has 5 parameters. ,195
+youqu_master-master,com.hymane.expandtextview,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+youqu_master-master,com.hymane.expandtextview,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+youqu_master-master,com.hymane.expandtextview,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+youqu_master-master,com.hymane.expandtextview,ExpandTextView,ExpandTextView,Long Statement,The length of the statement "titleTextSize=a.getDimension(R.styleable.ExpandTextView_titleTextSize`DensityUtils.sp2px(mContext`DEFAULT_TITLE_TEXT_SIZE));" is 124.,89
+youqu_master-master,com.hymane.expandtextview,ExpandTextView,ExpandTextView,Long Statement,The length of the statement "contentTextSize=a.getDimension(R.styleable.ExpandTextView_contentTextSize`DensityUtils.sp2px(mContext`DEFAULT_CONTENT_TEXT_SIZE));" is 130.,89
+youqu_master-master,com.hymane.expandtextview,ExpandTextView,ExpandTextView,Long Statement,The length of the statement "hintTextSize=a.getDimension(R.styleable.ExpandTextView_hintTextSize`DensityUtils.sp2px(mContext`DEFAULT_HINT_TEXT_SIZE));" is 121.,89
+youqu_master-master,com.hymane.expandtextview,ExpandTextView,getMaxMeasureHeight,Magic Number,The method contains a magic number: 3000,305
+youqu_master-master,com.hymane.expandtextview,ExpandTextView,getMinMeasureHeight,Magic Number,The method contains a magic number: 6,318
+youqu_master-master,com.hymane.expandtextview,ExpandTextView,getMinMeasureHeight,Magic Number,The method contains a magic number: 1000,318
+youqu_master-master,com.hymane.expandtextview,ExpandTextView,expand,Magic Number,The method contains a magic number: 180,338
+youqu_master-master,com.hymane.expandtextview,ExpandTextView,expand,Magic Number,The method contains a magic number: 180,338
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Complex Method,Cyclomatic complexity of the method is 21,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 90,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 270,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 16,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 9,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 16,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 9,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 9,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 16,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 3,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Magic Number,The method contains a magic number: 4,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeTextureView,onMeasure,Missing default,The following switch statement is missing a default case: switch (screenType) {,40
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Complex Method,Cyclomatic complexity of the method is 21,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 90,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 270,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 16,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 9,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 16,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 9,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 9,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 16,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 4,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 3,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 4,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 3,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 3,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Magic Number,The method contains a magic number: 4,39
+youqu_master-master,com.dueeeke.videoplayer.widget,ResizeSurfaceView,onMeasure,Missing default,The following switch statement is missing a default case: switch (screenType) {,39
+youqu_master-master,com.dueeeke.videoplayer.widget,StatusView,dispatchTouchEvent,Long Statement,The length of the statement "if (absDeltaX > ViewConfiguration.get(getContext()).getScaledTouchSlop() || absDeltaY > ViewConfiguration.get(getContext()).getScaledTouchSlop()) {" is 147.,55
+youqu_master-master,com.dueeeke.videoplayer.util,NetworkUtil,getNetworkType,Complex Method,Cyclomatic complexity of the method is 22,23
+youqu_master-master,com.dueeeke.videoplayer.util,NetworkUtil,getNetworkType,Long Statement,The length of the statement "ConnectivityManager connectMgr=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 131.,23
+youqu_master-master,com.dueeeke.videoplayer.util,WindowUtil,scanForActivity,Long Statement,The length of the statement "return context == null ? null : (context instanceof Activity ? (Activity)context : (context instanceof ContextWrapper ? scanForActivity(((ContextWrapper)context).getBaseContext()) : null));" is 189.,125
+youqu_master-master,com.dueeeke.videoplayer.util,WindowUtil,isEdge,Long Statement,The length of the statement "return e.getRawX() < edgeSize || e.getRawX() > getScreenWidth(context) - edgeSize || e.getRawY() < edgeSize || e.getRawY() > getScreenHeight(context`true) - edgeSize;" is 166.,186
+youqu_master-master,com.dueeeke.videoplayer.util,WindowUtil,isEdge,Magic Number,The method contains a magic number: 50,186
+youqu_master-master,com.dueeeke.videoplayer.controller,GestureVideoController,onScroll,Complex Method,Cyclomatic complexity of the method is 8,95
+youqu_master-master,com.dueeeke.videoplayer.controller,GestureVideoController,onScroll,Magic Number,The method contains a magic number: 2,95
+youqu_master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeBrightness,Magic Number,The method contains a magic number: 0.5f,164
+youqu_master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeBrightness,Magic Number,The method contains a magic number: 2,164
+youqu_master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeBrightness,Magic Number,The method contains a magic number: 100,164
+youqu_master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeVolume,Magic Number,The method contains a magic number: 2,185
+youqu_master-master,com.dueeeke.videoplayer.controller,GestureVideoController,slideToChangeVolume,Magic Number,The method contains a magic number: 100,185
+youqu_master-master,com.dueeeke.videoplayer.controller,MyGestureListener,onScroll,Complex Method,Cyclomatic complexity of the method is 8,95
+youqu_master-master,com.dueeeke.videoplayer.controller,MyGestureListener,onScroll,Magic Number,The method contains a magic number: 2,95
+youqu_master-master,com.dueeeke.videoplayer.controller,BaseVideoController,run,Magic Number,The method contains a magic number: 1000,145
+youqu_master-master,com.dueeeke.videoplayer.controller,BaseVideoController,run,Magic Number,The method contains a magic number: 1000,145
+youqu_master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 1000,176
+youqu_master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 60,176
+youqu_master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 60,176
+youqu_master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 60,176
+youqu_master-master,com.dueeeke.videoplayer.controller,BaseVideoController,stringForTime,Magic Number,The method contains a magic number: 3600,176
+youqu_master-master,com.dueeeke.videoplayer.player,IjkPlayer,onVideoSizeChanged,Long Parameter List,The method has 5 parameters. ,233
+youqu_master-master,com.dueeeke.videoplayer.player,IjkVideoView,addSurfaceView,Long Statement,The length of the statement "LayoutParams params=new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT`Gravity.CENTER);" is 125.,134
+youqu_master-master,com.dueeeke.videoplayer.player,IjkVideoView,addTextureView,Long Statement,The length of the statement "LayoutParams params=new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT`Gravity.CENTER);" is 125.,165
+youqu_master-master,com.dueeeke.videoplayer.player,IjkVideoView,checkNetwork,Long Statement,The length of the statement "if (NetworkUtil.getNetworkType(getContext()) == NetworkUtil.NETWORK_MOBILE && !PlayerConstants.IS_PLAY_ON_MOBILE_NETWORK) {" is 123.,208
+youqu_master-master,com.dueeeke.videoplayer.player,RawDataSourceProvider,readBytes,Magic Number,The method contains a magic number: 1024,65
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 340,92
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 260,92
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 280,92
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 70,92
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationChanged,Magic Number,The method contains a magic number: 90,92
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationPortrait,Complex Conditional,The conditional expression isLockFullScreen || !mPlayerConfig.mAutoRotate || currentOrientation == PORTRAIT is complex.,107
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onOrientationPortrait,Complex Conditional,The conditional expression (currentOrientation == LANDSCAPE || currentOrientation == REVERSE_LANDSCAPE) && !isFullScreen() is complex.,107
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,startPrepare,Magic Number,The method contains a magic number: 100,192
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,addOnVideoViewStateChangeListener,Long Identifier,The length of the field mOnVideoViewStateChangeListeners is 32.,336
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,removeOnVideoViewStateChangeListener,Long Identifier,The length of the field mOnVideoViewStateChangeListeners is 32.,346
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,clearOnVideoViewStateChangeListeners,Long Identifier,The length of the field mOnVideoViewStateChangeListeners is 32.,355
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,isInPlaybackState,Long Statement,The length of the statement "return (mMediaPlayer != null && mCurrentPlayState != STATE_ERROR && mCurrentPlayState != STATE_IDLE && mCurrentPlayState != STATE_PREPARING && mCurrentPlayState != STATE_PLAYBACK_COMPLETED);" is 190.,364
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onAudioFocusChange,Complex Conditional,The conditional expression mMediaPlayer != null && isPlaying() && !isMute is complex.,623
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onAudioFocusChange,Complex Method,Cyclomatic complexity of the method is 11,623
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onAudioFocusChange,Magic Number,The method contains a magic number: 0.1f,623
+youqu_master-master,com.dueeeke.videoplayer.player,BaseIjkVideoView,onAudioFocusChange,Magic Number,The method contains a magic number: 0.1f,623
+youqu_master-master,com.dueeeke.videoplayer.player,AudioFocusHelper,onAudioFocusChange,Complex Conditional,The conditional expression mMediaPlayer != null && isPlaying() && !isMute is complex.,623
+youqu_master-master,com.dueeeke.videoplayer.player,AudioFocusHelper,onAudioFocusChange,Complex Method,Cyclomatic complexity of the method is 11,623
+youqu_master-master,com.dueeeke.videoplayer.player,AudioFocusHelper,onAudioFocusChange,Magic Number,The method contains a magic number: 0.1f,623
+youqu_master-master,com.dueeeke.videoplayer.player,AudioFocusHelper,onAudioFocusChange,Magic Number,The method contains a magic number: 0.1f,623
+youqu_master-master,com.dueeeke.videoplayer.player,VideoCacheManager,newProxy,Magic Number,The method contains a magic number: 1024,22
+youqu_master-master,com.dueeeke.videoplayer.player,VideoCacheManager,newProxy,Magic Number,The method contains a magic number: 1024,22
+youqu_master-master,com.dueeeke.videoplayer.player,VideoCacheManager,newProxy,Magic Number,The method contains a magic number: 1024,22
+youqu_master-master,com.dueeeke.videoplayer.player,VideoCacheManager,clearDefaultCache,Long Statement,The length of the statement "String pathTmp=StorageUtil.getIndividualCacheDirectory(context.getApplicationContext()).getAbsolutePath() + File.separator + name+ ".download";" is 143.,38
+youqu_master-master,com.dueeeke.videoplayer.player,VideoCacheManager,clearDefaultCache,Long Statement,The length of the statement "String path=StorageUtil.getIndividualCacheDirectory(context.getApplicationContext()).getAbsolutePath() + File.separator + name;" is 127.,38
+youqu_master-master,site.gemus.openingstartanimation,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+youqu_master-master,site.gemus.openingstartanimation,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+youqu_master-master,site.gemus.openingstartanimation,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Long Parameter List,The method has 5 parameters. ,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 5,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 50,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 275,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 0.50,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 25,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 250,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 0.50f,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 25,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 250,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 0.50f,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 20,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 150,23
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Complex Method,Cyclomatic complexity of the method is 10,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Long Parameter List,The method has 5 parameters. ,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Long Statement,The length of the statement "canvas.drawLine(bitmapLeft`bitmapBottom`bitmapLeft`bitmapBottom - (bitmapBottom - bitmapTop) * (newfraction / 0.25f)`paint);" is 124.,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Long Statement,The length of the statement "canvas.drawLine(bitmapLeft`bitmapTop`bitmapLeft + (bitmapRight - bitmapLeft) * ((newfraction - 0.25f) / 0.25f)`bitmapTop`paint);" is 128.,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Long Statement,The length of the statement "canvas.drawLine(bitmapRight`bitmapTop`bitmapRight`bitmapTop + (bitmapBottom - bitmapTop) * ((newfraction - 0.50f) / 0.25f)`paint);" is 130.,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Long Statement,The length of the statement "canvas.drawLine(bitmapRight`bitmapBottom`bitmapRight - (bitmapRight - bitmapLeft) * ((newfraction - 0.75f) / 0.25f)`bitmapBottom`paint);" is 136.,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Long Statement,The length of the statement "canvas.clipRect(bitmapLeft + (bitmap.getWidth() / 2f) * ((1 - fraction) / 0.25f)`bitmapTop + (bitmap.getHeight() / 2f) * ((1 - fraction) / 0.25f)`bitmapRight - (bitmap.getWidth() / 2f) * ((1 - fraction) / 0.25f)`bitmapBottom - (bitmap.getHeight() / 2f) * ((1 - fraction) / 0.25f));" is 281.,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Long Statement,The length of the statement "canvas.drawBitmap(bitmap`(bitmapLeft + bitmapRight) / 2 - bitmap.getWidth() / 2`(bitmapTop + bitmapBottom) / 2 - bitmap.getHeight() / 2`paint);" is 143.,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 3,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 250,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 1.7f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 250,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 1.7f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.75,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.75f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.50,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.50,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.75,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.50f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.75,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.75f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.75,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.25f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 1.7f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 1.7f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.5f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.5f,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,51
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Long Parameter List,The method has 5 parameters. ,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 45,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 0.2f,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 4,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 7,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 8,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 3,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 0.60f,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 193,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 40,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 1.67f,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 193,129
+youqu_master-master,site.gemus.openingstartanimation,LineDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 40,129
+youqu_master-master,site.gemus.openingstartanimation,OpeningStartAnimation,show,Long Statement,The length of the statement "ViewGroup.LayoutParams layoutParams=new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT);" is 136.,88
+youqu_master-master,site.gemus.openingstartanimation,OpeningStartAnimation,show,Magic Number,The method contains a magic number: 50,88
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Long Parameter List,The method has 5 parameters. ,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.65f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 2,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 2,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 150,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.33f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 50,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 100,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.33f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 50,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 100,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.33f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.66f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 35,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 35,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 100,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.33f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.33f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 35,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 35,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 100,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.66f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 35,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 35,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 100,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.66f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 0.34f,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 35,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 35,16
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateOne,drawIcon,Magic Number,The method contains a magic number: 100,16
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,RedYellowBlueDrawStrategy,Long Identifier,The length of the field mRYBDrawStrategyStateController is 31.,17
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppName,Long Parameter List,The method has 5 parameters. ,21
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 50,21
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,21
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,21
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 50,21
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppIcon,Long Identifier,The length of the field mRYBDrawStrategyStateController is 31.,35
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppIcon,Long Parameter List,The method has 5 parameters. ,35
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Long Parameter List,The method has 5 parameters. ,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 45,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 0.2f,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 4,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 7,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 8,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 3,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 0.60f,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 193,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 40,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 1.67f,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 193,41
+youqu_master-master,site.gemus.openingstartanimation,RedYellowBlueDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 40,41
+youqu_master-master,site.gemus.openingstartanimation,DrawStrategy,drawAppName,Long Parameter List,The method has 5 parameters. ,14
+youqu_master-master,site.gemus.openingstartanimation,DrawStrategy,drawAppIcon,Long Parameter List,The method has 5 parameters. ,25
+youqu_master-master,site.gemus.openingstartanimation,DrawStrategy,drawAppStatement,Long Parameter List,The method has 5 parameters. ,36
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Long Parameter List,The method has 5 parameters. ,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 150,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 80,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 150,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 65,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 50,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 50,22
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppIcon,Long Parameter List,The method has 5 parameters. ,38
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppIcon,Long Statement,The length of the statement "drawIcon(canvas`(int)(fraction * 540)`((BitmapDrawable)icon).getBitmap()`widthAndHeightOfView.getWidth()`widthAndHeightOfView.getHeight());" is 139.,38
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 540,38
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Long Parameter List,The method has 5 parameters. ,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 45,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 0.2f,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 4,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 7,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 8,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 3,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 0.60f,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 193,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 40,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 1.67f,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 193,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 40,45
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Long Parameter List,The method has 5 parameters. ,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Magic Number,The method contains a magic number: 180,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Magic Number,The method contains a magic number: 180f,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Magic Number,The method contains a magic number: 180,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Magic Number,The method contains a magic number: 360,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Magic Number,The method contains a magic number: 180,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Magic Number,The method contains a magic number: 360,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Magic Number,The method contains a magic number: 540,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIcon,Magic Number,The method contains a magic number: 360,72
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Long Parameter List,The method has 5 parameters. ,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 2,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 2,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 200,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 2,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 2,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 1.7f,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 1.7f,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 0.5f,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 0.5f,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 180,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconOne,Magic Number,The method contains a magic number: 180,92
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Long Parameter List,The method has 5 parameters. ,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 200,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 1.7f,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 1.7f,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 180,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 90,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 2,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 180,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconTwo,Magic Number,The method contains a magic number: 180,123
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Long Parameter List,The method has 5 parameters. ,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 2,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 2,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 200,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 2,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 2,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 1.7f,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 1.7f,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 2,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 90,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 2,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 2,172
+youqu_master-master,site.gemus.openingstartanimation,RotationDrawStrategy,drawIconThree,Magic Number,The method contains a magic number: 180,172
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateController,setState,Long Identifier,The length of the field mRYBDrawStrategyStateInterface is 30.,20
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateController,choseStateDrawIcon,Long Identifier,The length of the field mRYBDrawStrategyStateInterface is 30.,28
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateController,choseStateDrawIcon,Long Parameter List,The method has 5 parameters. ,28
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateController,choseStateDrawIcon,Magic Number,The method contains a magic number: 0.65f,28
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateController,choseStateDrawIcon,Magic Number,The method contains a magic number: 0.65f,28
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Long Parameter List,The method has 5 parameters. ,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 2,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 2,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 150,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 0.65f,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 0.35f,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 50,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 100,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 35,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 35,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 100,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 35,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 35,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 100,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 1.7f,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 1.7f,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 1.5f,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 2,19
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateTwo,drawIcon,Magic Number,The method contains a magic number: 2,19
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppName,Long Parameter List,The method has 5 parameters. ,23
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 50,23
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,23
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 2,23
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppName,Magic Number,The method contains a magic number: 50,23
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Long Parameter List,The method has 5 parameters. ,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Long Statement,The length of the statement "matrix.postScale(1.2f + (0.5f) * (fraction - 0.6f) * 2.5f`1.2f + (0.5f) * (fraction - 0.6f) * 2.5f`centerX - bitmapWidth / 2`centerY - bitmapHeight / 2);" is 153.,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 3,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 100,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.60,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 1.2f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 1.2f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.1f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 1.2f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.5f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.6f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2.5f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 1.2f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.5f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 0.6f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2.5f,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppIcon,Magic Number,The method contains a magic number: 2,37
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Long Parameter List,The method has 5 parameters. ,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 45,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 0.2f,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 4,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 7,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 8,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 3,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 0.60f,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 193,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 40,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 1.67f,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 193,71
+youqu_master-master,site.gemus.openingstartanimation,NormalDrawStrategy,drawAppStatement,Magic Number,The method contains a magic number: 40,71
+youqu_master-master,site.gemus.openingstartanimation,RYBDrawStrategyStateInterface,drawIcon,Long Parameter List,The method has 5 parameters. ,14

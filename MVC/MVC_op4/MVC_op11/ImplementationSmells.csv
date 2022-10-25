@@ -1,0 +1,192 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,MainActivity,onCreate,Magic Number,The method contains a magic number: 10,18
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,MainActivity,onCreate,Magic Number,The method contains a magic number: 10,18
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,MainActivity,onCreate,Magic Number,The method contains a magic number: 10,18
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuslogicaestruturarepeticao,MainActivity,onCreate,Magic Number,The method contains a magic number: 10,18
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,MainActivity,onCreate,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`drawer`toolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 141.,21
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,24
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,24
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,24
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 5,24
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,27
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,27
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,27
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 5,27
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,MainActivity,onCreate,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`drawer`toolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 141.,22
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,onCreate,Magic Number,The method contains a magic number: 2000,20
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,onCreate,Magic Number,The method contains a magic number: 9.99,20
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,onCreate,Magic Number,The method contains a magic number: 9.80,20
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,MainActivity,onCreate,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`drawer`toolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 141.,26
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,MainActivity,onCreate,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`drawer`toolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 141.,20
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,MainActivity,onCreate,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`drawer`toolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 141.,21
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,24
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,24
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,24
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,24
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,27
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,27
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,27
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,27
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,MainActivity,onCreate,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`drawer`toolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 141.,20
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,25
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,25
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,apresentarTelaSplash,Magic Number,The method contains a magic number: 10,25
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,28
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,28
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc.view,SplashActivity,run,Magic Number,The method contains a magic number: 10,28
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappsendsms,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappsendsms,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappsendsms,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 8,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 10,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 10,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Complex Method,Cyclomatic complexity of the method is 8,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 10,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 10,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Complex Conditional,The conditional expression (Double.parseDouble(notaMediaPrimeiroBimestre) >= 7) && (Double.parseDouble(notaMediaSegundoBimestre) >= 7) && (Double.parseDouble(notaMediaTerceiroBimestre) >= 7)&& (Double.parseDouble(notaMediaQuartoBimestre) >= 7) is complex.,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Long Statement,The length of the statement "btnPrimeiroBimestre.setText(materiaPrimeiroBimestre + " - 1º Bimestre " + situacaoPrimeiroBimestre+ " - Nota "+ formatarValorDecimal(Double.parseDouble(notaMediaPrimeiroBimestre)));" is 181.,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Long Statement,The length of the statement "btnSegundoBimestre.setText(materiaSegundoBimestre + " - 2º Bimestre " + situacaoSegundoBimestre+ " - Nota "+ formatarValorDecimal(Double.parseDouble(notaMediaSegundoBimestre)));" is 177.,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Long Statement,The length of the statement "btnTerceiroBimestre.setText(materiaTerceiroBimestre + " - 3º Bimestre " + situacaoTerceiroBimestre+ " - Nota "+ formatarValorDecimal(Double.parseDouble(notaMediaTerceiroBimestre)));" is 181.,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Long Statement,The length of the statement "btnQuartoBimestre.setText(materiaQuartoBimestre + " - 4º Bimestre " + situacaoQuartoBimestre+ " - Nota "+ formatarValorDecimal(Double.parseDouble(notaMediaQuartoBimestre)));" is 173.,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Long Statement,The length of the statement "if ((Double.parseDouble(notaMediaPrimeiroBimestre) >= 7) && (Double.parseDouble(notaMediaSegundoBimestre) >= 7) && (Double.parseDouble(notaMediaTerceiroBimestre) >= 7)&& (Double.parseDouble(notaMediaQuartoBimestre) >= 7)) {" is 223.,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Long Statement,The length of the statement "mensagemFinal=mediaFinal >= 7 ? "Aprovado com Média Final " + formatarValorDecimal(mediaFinal) : "Reprovado com Média Final " + formatarValorDecimal(mediaFinal);" is 161.,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Magic Number,The method contains a magic number: 4,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Magic Number,The method contains a magic number: 7,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Magic Number,The method contains a magic number: 7,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Magic Number,The method contains a magic number: 7,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Magic Number,The method contains a magic number: 7,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,MainActivity,visualizarResultado,Magic Number,The method contains a magic number: 7,204
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 8,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 10,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 10,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Complex Method,Cyclomatic complexity of the method is 8,50
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 10,50
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 10,50
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,50
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,50
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 8,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 10,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 10,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Complex Method,Cyclomatic complexity of the method is 8,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 10,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 10,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 8,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 10,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 10,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,33
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Complex Method,Cyclomatic complexity of the method is 8,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 10,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 10,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,TerceiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,PrimeiroBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,QuartoBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 2,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onCreate,Magic Number,The method contains a magic number: 7,32
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 2,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolar,SegundoBimestreActivity,onClick,Magic Number,The method contains a magic number: 7,48
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.mediaescolarmvc,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuspoo.view,MainActivity,fabricarCarro,Long Statement,The length of the statement "builder.setMessage("Fabricante: " + objCarro.getFabricante() + "\nModelo: "+ objCarro.getModelo()+ "\nAno: "+ objCarro.getAno()+ "\nCor: "+ objCarro.getCor()).setNegativeButton("Objeto Carro Criado"`null).create().show();" is 221.,90
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuspoo.view,MainActivity,fabricarCarro,Long Statement,The length of the statement "builder.setMessage("Fabricante: " + objCarro.getNomeFabricante() + "\nModelo: "+ objCarro.getModelo()+ "\nAno: "+ objCarro.getAno()+ "\nCor: "+ objCarro.getCor()).setNegativeButton("Objeto Carro Criado"`null).create().show();" is 225.,92
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappmediaescolar,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappmediaescolar,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappmediaescolar,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappmediaescolar,MainActivity,onCreate,Magic Number,The method contains a magic number: 2,35
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappmediaescolar,MainActivity,onCreate,Magic Number,The method contains a magic number: 7,35
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappmediaescolar,MainActivity,onClick,Magic Number,The method contains a magic number: 2,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaappmediaescolar,MainActivity,onClick,Magic Number,The method contains a magic number: 7,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.dazzi.modelodrawerlayout,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.dazzi.modelodrawerlayout,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.dazzi.modelodrawerlayout,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.dazzi.modelodrawerlayout,MainActivity,onCreate,Long Statement,The length of the statement "ActionBarDrawerToggle toggle=new ActionBarDrawerToggle(this`drawer`toolbar`R.string.navigation_drawer_open`R.string.navigation_drawer_close);" is 141.,37
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuspoo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuspoo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuspoo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.bonuspoo,MainActivity,fabricarCarro,Long Statement,The length of the statement "builder.setMessage("Fabricante: " + objCarro.getFabricante() + "\nModelo: "+ objCarro.getModelo()+ "\nAno: "+ objCarro.getAno()+ "\nCor: "+ objCarro.getCor()).setNegativeButton("Objeto Carro Criado"`null).create().show();" is 221.,96
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.foo.poopolimorfirmoadhocsobrecarga,MainActivity,onCreate,Magic Number,The method contains a magic number: 1000.00,16
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.foo.poopolimorfirmoadhocsobrecarga,MainActivity,onCreate,Magic Number,The method contains a magic number: 1000.00,16
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.foo.poopolimorfirmoadhocsobrecarga,MainActivity,onCreate,Magic Number,The method contains a magic number: 500,16
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.foo.poopolimorfirmoadhocsobrecarga,MainActivity,onClick,Magic Number,The method contains a magic number: 1000.00,36
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.foo.poopolimorfirmoadhocsobrecarga,MainActivity,onClick,Magic Number,The method contains a magic number: 1000.00,44
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,maddo.foo.poopolimorfirmoadhocsobrecarga,MainActivity,onClick,Magic Number,The method contains a magic number: 500,44
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,AppUtil,getNetworkClass,Complex Method,Cyclomatic complexity of the method is 16,14
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,AppUtil,getNetworkClass,Missing default,The following switch statement is missing a default case: switch (networkType) {,14
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,MainActivity,onCreate,Complex Conditional,The conditional expression AppUtil.isConnectingToInternet(getApplicationContext()) && (latitude != 0) && (longitude != 0) is complex.,35
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,MainActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 8,35
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,MainActivity,onCreate,Long Statement,The length of the statement "Toast.makeText(this`"Coordenadas não disponíveis` verifique as permissões para o aplicativo...."`Toast.LENGTH_LONG).show();" is 123.,35
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,MainActivity,onCreate,Magic Number,The method contains a magic number: 2,35
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,MainActivity,onCreate,Magic Number,The method contains a magic number: 2,35
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,MainActivity,getEnderecoReverso,Magic Number,The method contains a magic number: 10,145
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,GPSTracker,getLocation,Complex Method,Cyclomatic complexity of the method is 11,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,GPSTracker,getLocation,Long Identifier,The length of the field MIN_DISTANCE_CHANGE_FOR_UPDATES is 31.,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,GPSTracker,getLocation,Long Statement,The length of the statement "if (ActivityCompat.checkSelfPermission(this`Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this`Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {" is 249.,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,GPSTracker,getLocation,Long Statement,The length of the statement "locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER`MIN_TIME_BW_UPDATES`MIN_DISTANCE_CHANGE_FOR_UPDATES`this);" is 130.,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,GPSTracker,getLocation,Long Statement,The length of the statement "if (ActivityCompat.checkSelfPermission(this`Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this`Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {" is 249.,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,foo.acervo.reversegps,GPSTracker,getLocation,Long Statement,The length of the statement "locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER`MIN_TIME_BW_UPDATES`MIN_DISTANCE_CHANGE_FOR_UPDATES`this);" is 126.,51
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaapp01,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaapp01,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+Desenvolvimento-Android-do-absoluto-zero-para-iniciantes-master,android.curso.aulaapp01,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13

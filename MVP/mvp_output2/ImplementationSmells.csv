@@ -1,0 +1,187 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+CodeSmells-in-application-MVP-2,com.jess.arms.base,BaseApplication,getAppComponent,Long Statement,The length of the statement "Preconditions.checkState(mAppDelegate instanceof App`"%s must be implements %s"`mAppDelegate.getClass().getName()`App.class.getName());" is 135.,81
+CodeSmells-in-application-MVP-2,com.jess.arms.base,BaseLazyLoadFragment,isParentVisible,Long Statement,The length of the statement "return fragment == null || (fragment instanceof BaseLazyLoadFragment && ((BaseLazyLoadFragment)fragment).isVisibleToUser);" is 122.,46
+CodeSmells-in-application-MVP-2,com.jess.arms.base,BaseLazyLoadFragment,tryLoadData,Complex Conditional,The conditional expression isViewCreated && isVisibleToUser && isParentVisible()&& !isDataLoaded is complex.,70
+CodeSmells-in-application-MVP-2,com.jess.arms.base.delegate,AppDelegate,onCreate,Long Identifier,The length of the field mActivityLifecycleForRxLifecycle is 32.,99
+CodeSmells-in-application-MVP-2,com.jess.arms.base.delegate,AppDelegate,onCreate,Long Statement,The length of the statement "mAppComponent=DaggerAppComponent.builder().application(mApplication).globalConfigModule(getGlobalConfigModule(mApplication`mModules)).build();" is 142.,99
+CodeSmells-in-application-MVP-2,com.jess.arms.base.delegate,AppDelegate,onTerminate,Complex Method,Cyclomatic complexity of the method is 8,141
+CodeSmells-in-application-MVP-2,com.jess.arms.base.delegate,AppDelegate,onTerminate,Long Identifier,The length of the field mActivityLifecycleForRxLifecycle is 32.,141
+CodeSmells-in-application-MVP-2,com.jess.arms.base.delegate,AppDelegate,getAppComponent,Long Statement,The length of the statement "Preconditions.checkNotNull(mAppComponent`"%s == null` first call %s#onCreate(Application) in %s#onCreate()"`AppComponent.class.getName()`getClass().getName()`mApplication == null ? Application.class.getName() : mApplication.getClass().getName());" is 246.,189
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,AppModule,bindActivityLifecycleForRxLifecycle,Long Identifier,The length of the parameter activityLifecycleForRxLifecycle is 31.,103
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,ClientModule,provideRetrofit,Long Parameter List,The method has 6 parameters. ,65
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,ClientModule,provideRetrofit,Long Statement,The length of the statement "builder.addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create(gson));" is 121.,65
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,ClientModule,provideClient,Long Parameter List,The method has 7 parameters. ,94
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,ClientModule,provideClient,Long Statement,The length of the statement "builder.connectTimeout(TIME_OUT`TimeUnit.SECONDS).readTimeout(TIME_OUT`TimeUnit.SECONDS).addNetworkInterceptor(intercept);" is 122.,94
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,GlobalConfigModule,provideCacheFactory,Missing default,The following switch statement is missing a default case: switch (type.getCacheTypeId()) {,216
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,GlobalConfigModule,provideExecutorService,Long Statement,The length of the statement "return mExecutorService == null ? new ThreadPoolExecutor(0`Integer.MAX_VALUE`60`TimeUnit.SECONDS`new SynchronousQueue<>()`Util.threadFactory("Arms Executor"`false)) : mExecutorService;" is 184.,235
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,GlobalConfigModule,provideExecutorService,Magic Number,The method contains a magic number: 60,235
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,GlobalConfigModule,printHttpLogLevel,Long Statement,The length of the statement "this.printHttpLogLevel=Preconditions.checkNotNull(printHttpLogLevel`"The printHttpLogLevel can not be null` use RequestInterceptor.Level.NONE instead.");" is 153.,337
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,GlobalConfigModule,formatPrinter,Long Statement,The length of the statement "this.formatPrinter=Preconditions.checkNotNull(formatPrinter`FormatPrinter.class.getCanonicalName() + "can not be null.");" is 121.,342
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,Builder,printHttpLogLevel,Long Statement,The length of the statement "this.printHttpLogLevel=Preconditions.checkNotNull(printHttpLogLevel`"The printHttpLogLevel can not be null` use RequestInterceptor.Level.NONE instead.");" is 153.,337
+CodeSmells-in-application-MVP-2,com.jess.arms.di.module,Builder,formatPrinter,Long Statement,The length of the statement "this.formatPrinter=Preconditions.checkNotNull(formatPrinter`FormatPrinter.class.getCanonicalName() + "can not be null.");" is 121.,342
+CodeSmells-in-application-MVP-2,com.jess.arms.http,OkHttpStreamFetcher,cleanup,Empty catch clause,The method has an empty catch block.,96
+CodeSmells-in-application-MVP-2,com.jess.arms.http.imageloader,ImageLoader,loadImage,Long Statement,The length of the statement "Preconditions.checkNotNull(mStrategy`"Please implement BaseImageLoaderStrategy and call GlobalConfigModule.Builder#imageLoaderStrategy(BaseImageLoaderStrategy) in the applyOptions method of ConfigModule");" is 205.,49
+CodeSmells-in-application-MVP-2,com.jess.arms.http.imageloader,ImageLoader,clear,Long Statement,The length of the statement "Preconditions.checkNotNull(mStrategy`"Please implement BaseImageLoaderStrategy and call GlobalConfigModule.Builder#imageLoaderStrategy(BaseImageLoaderStrategy) in the applyOptions method of ConfigModule");" is 205.,62
+CodeSmells-in-application-MVP-2,com.jess.arms.http.imageloader.glide,GlideConfiguration,applyOptions,Long Statement,The length of the statement "return DiskLruCacheWrapper.create(DataHelper.makeDirs(new File(appComponent.cacheFile()`"Glide"))`IMAGE_DISK_CACHE_MAX_SIZE);" is 125.,55
+CodeSmells-in-application-MVP-2,com.jess.arms.http.imageloader.glide,GlideConfiguration,applyOptions,Magic Number,The method contains a magic number: 1.2,55
+CodeSmells-in-application-MVP-2,com.jess.arms.http.imageloader.glide,GlideConfiguration,applyOptions,Magic Number,The method contains a magic number: 1.2,55
+CodeSmells-in-application-MVP-2,com.jess.arms.http.imageloader.glide,GlideImageLoaderStrategy,loadImage,Complex Method,Cyclomatic complexity of the method is 14,55
+CodeSmells-in-application-MVP-2,com.jess.arms.http.imageloader.glide,GlideImageLoaderStrategy,loadImage,Missing default,The following switch statement is missing a default case: switch (config.getCacheStrategy()) {,55
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,DefaultFormatPrinter,logLines,Magic Number,The method contains a magic number: 110,78
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,DefaultFormatPrinter,computeKey,Magic Number,The method contains a magic number: 4,98
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,DefaultFormatPrinter,getRequest,Long Statement,The length of the statement "log=METHOD_TAG + request.method() + DOUBLE_SEPARATOR+ (isEmpty(header) ? "" : HEADERS_TAG + LINE_SEPARATOR + dotHeaders(header));" is 129.,123
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,DefaultFormatPrinter,getResponse,Long Parameter List,The method has 6 parameters. ,131
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,DefaultFormatPrinter,getResponse,Long Statement,The length of the statement "log=((!TextUtils.isEmpty(segmentString) ? segmentString + " - " : "") + "is success : " + isSuccessful+ " - "+ RECEIVED_TAG+ tookMs+ "ms"+ DOUBLE_SEPARATOR+ STATUS_CODE_TAG+ code+ " / "+ message+ DOUBLE_SEPARATOR+ (isEmpty(header) ? "" : HEADERS_TAG + LINE_SEPARATOR + dotHeaders(header)));" is 290.,131
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,DefaultFormatPrinter,printJsonResponse,Long Parameter List,The method has 9 parameters. ,221
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,DefaultFormatPrinter,printJsonResponse,Long Statement,The length of the statement "bodyString=RequestInterceptor.isJson(contentType) ? CharacterHandler.jsonFormat(bodyString) : RequestInterceptor.isXml(contentType) ? CharacterHandler.xmlFormat(bodyString) : bodyString;" is 186.,221
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,DefaultFormatPrinter,printFileResponse,Long Parameter List,The method has 7 parameters. ,251
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,FormatPrinter,printJsonResponse,Long Parameter List,The method has 9 parameters. ,57
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,FormatPrinter,printFileResponse,Long Parameter List,The method has 7 parameters. ,73
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,RequestInterceptor,isParseable,Long Statement,The length of the statement "return isText(mediaType) || isPlain(mediaType) || isJson(mediaType)|| isForm(mediaType)|| isHtml(mediaType)|| isXml(mediaType);" is 127.,102
+CodeSmells-in-application-MVP-2,com.jess.arms.http.log,RequestInterceptor,intercept,Long Statement,The length of the statement "mPrinter.printJsonResponse(TimeUnit.NANOSECONDS.toMillis(t2 - t1)`isSuccessful`code`header`responseBody.contentType()`bodyString`segmentList`message`url);" is 154.,168
+CodeSmells-in-application-MVP-2,com.jess.arms.integration,ActivityLifecycle,registerFragmentCallbacks,Long Statement,The length of the statement "((FragmentActivity)activity).getSupportFragmentManager().registerFragmentLifecycleCallbacks(mFragmentLifecycle.get()`true);" is 123.,157
+CodeSmells-in-application-MVP-2,com.jess.arms.integration,ActivityLifecycle,registerFragmentCallbacks,Long Statement,The length of the statement "@SuppressWarnings("unchecked") List<ConfigModule> modules=(List<ConfigModule>)mExtras.get(IntelligentCache.getKeyOfKeep(ConfigModule.class.getName()));" is 151.,157
+CodeSmells-in-application-MVP-2,com.jess.arms.integration,ManifestParser,parse,Long Statement,The length of the statement "ApplicationInfo appInfo=context.getPackageManager().getApplicationInfo(context.getPackageName()`PackageManager.GET_META_DATA);" is 126.,66
+CodeSmells-in-application-MVP-2,com.jess.arms.integration,RepositoryManager,obtainRetrofitService,Long Statement,The length of the statement "retrofitService=(T)Proxy.newProxyInstance(serviceClass.getClassLoader()`new Class[]{serviceClass}`new RetrofitServiceProxyHandler(mRetrofit.get()`serviceClass));" is 161.,71
+CodeSmells-in-application-MVP-2,com.jess.arms.integration.cache,CacheType,getCacheTypeId,Long Identifier,The length of the field RETROFIT_SERVICE_CACHE_TYPE_ID is 30.,51
+CodeSmells-in-application-MVP-2,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,56
+CodeSmells-in-application-MVP-2,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,79
+CodeSmells-in-application-MVP-2,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,102
+CodeSmells-in-application-MVP-2,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,125
+CodeSmells-in-application-MVP-2,com.jess.arms.integration.cache,CacheType,calculateCacheSize,Magic Number,The method contains a magic number: 1024,148
+CodeSmells-in-application-MVP-2,com.jess.arms.integration.lifecycle,ActivityLifecycleForRxLifecycle,onActivityCreated,Long Statement,The length of the statement "((FragmentActivity)activity).getSupportFragmentManager().registerFragmentLifecycleCallbacks(mFragmentLifecycle.get()`true);" is 123.,51
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,dip2px,Magic Number,The method contains a magic number: 0.5f,83
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,pix2dip,Magic Number,The method contains a magic number: 0.5f,95
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,sp2px,Magic Number,The method contains a magic number: 0.5f,107
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,px2sp,Magic Number,The method contains a magic number: 0.5f,119
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,getDimens,Long Statement,The length of the statement "return getResources(context).getDimension(getResources(context).getIdentifier(dimenName`"dimen"`context.getPackageName()));" is 123.,156
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,encodeToMD5,Magic Number,The method contains a magic number: 2,369
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,encodeToMD5,Magic Number,The method contains a magic number: 0xFF,369
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,encodeToMD5,Magic Number,The method contains a magic number: 0x10,369
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,encodeToMD5,Magic Number,The method contains a magic number: 0xFF,369
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ArmsUtils,obtainAppComponentFromContext,Long Statement,The length of the statement "Preconditions.checkState(context.getApplicationContext() instanceof App`"%s must be implements %s"`context.getApplicationContext().getClass().getName()`App.class.getName());" is 173.,456
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,CharacterHandler,filter,Long Parameter List,The method has 6 parameters. ,55
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,CharacterHandler,str2HexStr,Magic Number,The method contains a magic number: 0x0f0,72
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,CharacterHandler,str2HexStr,Magic Number,The method contains a magic number: 4,72
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,CharacterHandler,str2HexStr,Magic Number,The method contains a magic number: 0x0f,72
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,CharacterHandler,jsonFormat,Magic Number,The method contains a magic number: 4,93
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,CharacterHandler,jsonFormat,Magic Number,The method contains a magic number: 4,93
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DataHelper,bytyToString,Magic Number,The method contains a magic number: 1024,276
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,dpToPixel,Magic Number,The method contains a magic number: 160F,85
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,pixelsToDp,Magic Number,The method contains a magic number: 160F,96
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getDefaultLoadFactor,Magic Number,The method contains a magic number: 0xf,107
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Empty catch clause,The method has an empty catch block.,152
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Empty catch clause,The method has an empty catch block.,152
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Magic Number,The method contains a magic number: 2,152
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Magic Number,The method contains a magic number: 14,152
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Magic Number,The method contains a magic number: 17,152
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getRealScreenSize,Magic Number,The method contains a magic number: 17,152
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,hasBigScreen,Magic Number,The method contains a magic number: 0xf,218
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,hasBigScreen,Magic Number,The method contains a magic number: 3,218
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,hasBigScreen,Magic Number,The method contains a magic number: 1.5F,218
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,hasInternet,Long Statement,The length of the statement "ConnectivityManager manager=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 128.,278
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,isLandscape,Magic Number,The method contains a magic number: 2,335
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,isTablet,Magic Number,The method contains a magic number: 0xf,361
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,isTablet,Magic Number,The method contains a magic number: 3,361
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,showSoftKeyboard,Magic Number,The method contains a magic number: 4,377
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,showSoftKeyboard,Long Statement,The length of the statement "((InputMethodManager)context.getSystemService(Context.INPUT_METHOD_SERVICE)).showSoftInput(view`InputMethodManager.SHOW_FORCED);" is 128.,381
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,toogleSoftKeyboard,Long Statement,The length of the statement "((InputMethodManager)context.getSystemService(Context.INPUT_METHOD_SERVICE)).toggleSoftInput(0`InputMethodManager.HIDE_NOT_ALWAYS);" is 131.,387
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getCurCountryLan,Long Statement,The length of the statement "return context.getResources().getConfiguration().locale.getLanguage() + "-" + context.getResources().getConfiguration().locale.getCountry();" is 140.,398
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,percent,Magic Number,The method contains a magic number: 2,412
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,openCamera,Magic Number,The method contains a magic number: 0x34c40000,585
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,isWifiOpen,Long Statement,The length of the statement "ConnectivityManager cm=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 123.,624
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getStatuBarHeight,Magic Number,The method contains a magic number: 38,697
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,getNetworkType,Long Statement,The length of the statement "ConnectivityManager connectivityManager=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 140.,737
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DeviceUtils,netIsConnected,Long Statement,The length of the statement "ConnectivityManager connectMgr=(ConnectivityManager)context.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 131.,765
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DrawableProvider,getScaleDrawable,Long Statement,The length of the statement "drawable.setBounds(0`0`(int)(drawable.getIntrinsicWidth() * percent + 0.5f)`(int)(drawable.getIntrinsicHeight() * percent + 0.5f));" is 131.,92
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DrawableProvider,getScaleDrawable,Magic Number,The method contains a magic number: 0.5f,92
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DrawableProvider,getScaleDrawable,Magic Number,The method contains a magic number: 0.5f,92
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DrawableProvider,getBitmapDegree,Magic Number,The method contains a magic number: 90,178
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DrawableProvider,getBitmapDegree,Magic Number,The method contains a magic number: 180,178
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DrawableProvider,getBitmapDegree,Magic Number,The method contains a magic number: 270,178
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,DrawableProvider,getBitmapDegree,Missing default,The following switch statement is missing a default case: switch (orientation) {,178
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Complex Method,Cyclomatic complexity of the method is 15,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Long Method,The method has 166 lines of code.,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 256,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 256,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 3,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0xff0000,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 16,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0x00ff00,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 8,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0x0000ff,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0xff0000,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 16,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0x00ff00,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 8,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0x0000ff,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 0xff000000,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 16,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 8,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,doBlur,Magic Number,The method contains a magic number: 2,41
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,blur,Long Statement,The length of the statement "Bitmap overlay=Bitmap.createBitmap((int)(view.getMeasuredWidth() / scaleFactor)`(int)(view.getMeasuredHeight() / scaleFactor)`Bitmap.Config.ARGB_8888);" is 151.,276
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,blur,Magic Number,The method contains a magic number: 15,276
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,blur,Magic Number,The method contains a magic number: 8,276
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,blurBitmap,Magic Number,The method contains a magic number: 15,303
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,FastBlur,blurBitmap,Magic Number,The method contains a magic number: 8,303
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,LogUtils,debugLongInfo,Magic Number,The method contains a magic number: 3500,70
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,PermissionUtil,requestPermission,Complex Method,Cyclomatic complexity of the method is 11,48
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,PermissionUtil,requestPermission,Long Statement,The length of the statement "rxPermissions.requestEach(needRequest.toArray(new String[0])).buffer(permissions.length).subscribe(new ErrorHandleSubscriber<List<Permission>>(errorHandler){" is 157.,48
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,PermissionUtil,launchCamera,Long Statement,The length of the statement "requestPermission(requestPermission`rxPermissions`errorHandler`Manifest.permission.WRITE_EXTERNAL_STORAGE`Manifest.permission.CAMERA);" is 134.,100
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,Preconditions,badElementIndex,Magic Number,The method contains a magic number: 26,105
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,Preconditions,badPositionIndex,Long Statement,The length of the statement "return format("%s (%s) must not be greater than size (%s)"`new Object[]{desc`Integer.valueOf(index)`Integer.valueOf(size)});" is 124.,127
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,Preconditions,badPositionIndex,Magic Number,The method contains a magic number: 26,127
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,Preconditions,checkPositionIndexes,Complex Conditional,The conditional expression start < 0 || end < start || end > size is complex.,137
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,Preconditions,badPositionIndexes,Long Statement,The length of the statement "return start >= 0 && start <= size ? (end >= 0 && end <= size ? format("end index (%s) must not be less than start index (%s)"`new Object[]{Integer.valueOf(end)`Integer.valueOf(start)}) : badPositionIndex(end`size`"end index")) : badPositionIndex(start`size`"start index");" is 273.,143
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,Preconditions,format,Magic Number,The method contains a magic number: 16,147
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,Preconditions,format,Magic Number,The method contains a magic number: 2,147
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ThirdViewUtil,convertAutoView,Complex Conditional,The conditional expression applicationInfo == null || applicationInfo.metaData == null || !applicationInfo.metaData.containsKey("design_width") || !applicationInfo.metaData.containsKey("design_height") is complex.,70
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ThirdViewUtil,convertAutoView,Complex Method,Cyclomatic complexity of the method is 8,70
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ThirdViewUtil,convertAutoView,Long Statement,The length of the statement "if (applicationInfo == null || applicationInfo.metaData == null || !applicationInfo.metaData.containsKey("design_width") || !applicationInfo.metaData.containsKey("design_height")) {" is 181.,70
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ThirdViewUtil,convertAutoView,Missing default,The following switch statement is missing a default case: switch (name) {,70
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,UrlEncoderUtils,hasUrlEncoded,Magic Number,The method contains a magic number: 2,31
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,UrlEncoderUtils,hasUrlEncoded,Magic Number,The method contains a magic number: 2,31
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ZipHelper,decompressForZlib,Long Identifier,The length of the identifier numberOfBytesDecompressedSoFar is 30.,90
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ZipHelper,decompressForZlib,Long Identifier,The length of the identifier numberOfBytesDecompressedThisTime is 33.,90
+CodeSmells-in-application-MVP-2,com.jess.arms.utils,ZipHelper,closeQuietly,Empty catch clause,The method has an empty catch block.,269
+CodeSmells-in-application-MVP-2,com.jess.arms.widget.autolayout,AutoAppBarLayout,onLayout,Long Parameter List,The method has 5 parameters. ,58
+CodeSmells-in-application-MVP-2,com.jess.arms.widget.autolayout,AutoCollapsingToolbarLayout,onLayout,Long Parameter List,The method has 5 parameters. ,61
+CodeSmells-in-application-MVP-2,com.jess.arms.widget.autolayout,AutoRadioGroup,onLayout,Long Parameter List,The method has 5 parameters. ,57
+CodeSmells-in-application-MVP-2,com.jess.arms.widget.autolayout,AutoScrollView,onLayout,Long Parameter List,The method has 5 parameters. ,63
+CodeSmells-in-application-MVP-2,com.jess.arms.widget.autolayout,AutoToolbar,AutoToolbar,Long Statement,The length of the statement "int titleTextAppearance=a.getResourceId(R.styleable.Toolbar_titleTextAppearance`R.style.TextAppearance_Widget_AppCompat_Toolbar_Title);" is 135.,52
+CodeSmells-in-application-MVP-2,com.jess.arms.widget.autolayout,AutoToolbar,AutoToolbar,Long Statement,The length of the statement "int subtitleTextAppearance=a.getResourceId(R.styleable.Toolbar_subtitleTextAppearance`R.style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle);" is 144.,52
+CodeSmells-in-application-MVP-2,com.jess.arms.widget.autolayout,AutoToolbar,onLayout,Long Parameter List,The method has 5 parameters. ,125
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.app,GlobalConfiguration,applyOptions,Long Statement,The length of the statement "builder.baseurl(Api.APP_DOMAIN).imageLoaderStrategy(new GlideImageLoaderStrategy()).globalHttpHandler(new GlobalHttpHandlerImpl(context)).responseErrorListener(new ResponseErrorListenerImpl()).gsonConfiguration((context1`gsonBuilder) -> {" is 238.,58
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.app,GlobalConfiguration,applyOptions,Magic Number,The method contains a magic number: 10,58
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,handleResponseError,Complex Conditional,The conditional expression t instanceof JsonParseException || t instanceof ParseException || t instanceof JSONException|| t instanceof JsonIOException is complex.,45
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,handleResponseError,Long Statement,The length of the statement "else if (t instanceof JsonParseException || t instanceof ParseException || t instanceof JSONException|| t instanceof JsonIOException) {" is 135.,45
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,convertStatusCode,Magic Number,The method contains a magic number: 500,64
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,convertStatusCode,Magic Number,The method contains a magic number: 404,64
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,convertStatusCode,Magic Number,The method contains a magic number: 403,64
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.app,ResponseErrorListenerImpl,convertStatusCode,Magic Number,The method contains a magic number: 307,64
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.di.module,UserModule,provideLayoutManager,Magic Number,The method contains a magic number: 2,55
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.mvp.model.api.cache,CommonCache,getUsers,Magic Number,The method contains a magic number: 2,40
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.mvp.model,UserModel,getUsers,Long Statement,The length of the statement "return Observable.just(mRepositoryManager.obtainRetrofitService(UserService.class).getUsers(lastIdQueried`USERS_PER_PAGE)).flatMap((Function<Observable<List<User>>`ObservableSource<List<User>>>)listObservable -> mRepositoryManager.obtainCacheService(CommonCache.class).getUsers(listObservable`new DynamicKey(lastIdQueried)`new EvictDynamicKey(update)).map(listReply -> listReply.getData()));" is 391.,59
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.mvp.presenter,UserPresenter,requestFromModel,Long Statement,The length of the statement "mModel.getUsers(lastUserId`isEvictCache).subscribeOn(Schedulers.io()).retryWhen(new RetryWithDelay(3`2)).doOnSubscribe(disposable -> {" is 134.,108
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.mvp.presenter,UserPresenter,requestFromModel,Magic Number,The method contains a magic number: 3,108
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.mvp.presenter,UserPresenter,requestFromModel,Magic Number,The method contains a magic number: 2,108
+CodeSmells-in-application-MVP-2,me.jessyan.mvparms.demo.mvp.ui.holder,UserItemHolder,setData,Long Statement,The length of the statement "mImageLoader.loadImage(itemView.getContext()`ImageConfigImpl.builder().url(data.getAvatarUrl()).imageView(mAvatar).build());" is 124.,64

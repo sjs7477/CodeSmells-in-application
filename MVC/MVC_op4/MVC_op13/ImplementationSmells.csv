@@ -1,0 +1,656 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+androidone-master,de.greenrobot.daogenerator.test,SimpleDaoGeneratorTest,testMinimalSchema,Magic Number,The method contains a magic number: 3,36
+androidone-master,gentest,quLoveDaoGenerator,main,Long Statement,The length of the statement "new DaoGenerator().generateAll(schema`"/Users/devin/workspace/quaidashi/qulove/src/main/java/com/jingdl/qulove/utils/db");" is 122.,31
+androidone-master,gentest,LianrenDaoGenerator,main,Magic Number,The method contains a magic number: 3,31
+androidone-master,gentest,ExampleDaoGenerator,main,Magic Number,The method contains a magic number: 3,33
+androidone-master,gentest,O2MallDaoGenerator,main,Magic Number,The method contains a magic number: 3,31
+androidone-master,de.greenrobot.daogenerator,Property,initConstraint,Complex Conditional,The conditional expression notNull || (primaryKey && propertyType == PropertyType.String) is complex.,211
+androidone-master,de.greenrobot.daogenerator,Property,initConstraint,Complex Method,Cyclomatic complexity of the method is 8,211
+androidone-master,de.greenrobot.daogenerator,ToOne,ToOne,Long Parameter List,The method has 5 parameters. ,31
+androidone-master,de.greenrobot.daogenerator,ToOne,checkUseEquals,Missing default,The following switch statement is missing a default case: switch (propertyType) {,109
+androidone-master,de.greenrobot.daogenerator,DaoGenerator,compilePattern,Long Statement,The length of the statement "return Pattern.compile(".*^\\s*?//\\s*?KEEP " + sectionName + ".*?\n(.*?)^\\s*// KEEP "+ sectionName+ " END.*?\n"`flags);" is 121.,73
+androidone-master,de.greenrobot.daogenerator,DaoGenerator,generateAll,Long Statement,The length of the statement "generate(templateContentProvider`outDirFile`entity.getJavaPackage()`entity.getClassName() + "ContentProvider"`schema`entity`additionalObjectsForTemplate);" is 154.,84
+androidone-master,de.greenrobot.daogenerator,DaoGenerator,toFileForceExists,Long Statement,The length of the statement "throw new IOException(filename + " does not exist. This check is to prevent accidental file generation into a wrong path.");" is 124.,130
+androidone-master,de.greenrobot.daogenerator,DaoGenerator,generate,Long Parameter List,The method has 6 parameters. ,139
+androidone-master,de.greenrobot.daogenerator,DaoGenerator,generate,Long Parameter List,The method has 7 parameters. ,144
+androidone-master,de.greenrobot.daogenerator,DaoGenerator,generate,Long Statement,The length of the statement "System.err.println("Error while generating " + javaPackage + "."+ javaClassName+ " ("+ outDirFile.getCanonicalPath()+ ")");" is 123.,144
+androidone-master,de.greenrobot.daogenerator,ToMany,ToMany,Long Parameter List,The method has 5 parameters. ,33
+androidone-master,de.greenrobot.daogenerator,ToMany,init2ndPass,Complex Method,Cyclomatic complexity of the method is 8,99
+androidone-master,de.greenrobot.daogenerator,DaoUtil,copyAllBytes,Magic Number,The method contains a magic number: 4096,66
+androidone-master,de.greenrobot.daogenerator,Entity,addToOneWithoutProperty,Long Parameter List,The method has 5 parameters. ,208
+androidone-master,de.greenrobot.daogenerator,Entity,init2ndPass,Complex Method,Cyclomatic complexity of the method is 11,440
+androidone-master,de.greenrobot.daogenerator,Entity,init2nPassNamesWithDefaults,Complex Method,Cyclomatic complexity of the method is 9,498
+androidone-master,com.sd.one.wxapi,WXPayEntryActivity,onResp,Magic Number,The method contains a magic number: 1000,49
+androidone-master,com.sd.one.wxapi,WXPayEntryActivity,onResp,Magic Number,The method contains a magic number: 1000,49
+androidone-master,com.sd.one.widget,ClearEditText,init,Magic Number,The method contains a magic number: 2,48
+androidone-master,com.sd.one.widget,ClearEditText,onTouchEvent,Long Statement,The length of the statement "boolean touchable=event.getX() > (getWidth() - getPaddingRight() - mClearDrawable.getIntrinsicWidth()) && (event.getX() < ((getWidth() - getPaddingRight())));" is 158.,61
+androidone-master,com.sd.one.widget,ClearEditText,onTouchEvent,Magic Number,The method contains a magic number: 2,61
+androidone-master,com.sd.one.widget,ClearEditText,setClearIconVisible,Magic Number,The method contains a magic number: 3,95
+androidone-master,com.sd.one.widget,ClearEditText,setShakeAnimation,Magic Number,The method contains a magic number: 5,125
+androidone-master,com.sd.one.widget,ClearEditText,shakeAnimation,Magic Number,The method contains a magic number: 10,133
+androidone-master,com.sd.one.widget,ClearEditText,shakeAnimation,Magic Number,The method contains a magic number: 1000,133
+androidone-master,com.sd.one.widget,NoScrollGridView,onMeasure,Magic Number,The method contains a magic number: 2,26
+androidone-master,com.sd.one.widget,NoScrollerListView,onMeasure,Magic Number,The method contains a magic number: 2,26
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getChsAscii,Complex Conditional,The conditional expression bytes == null || bytes.length > 2 || bytes.length <= 0 is complex.,119
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 2,119
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 2,119
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,119
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,119
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,119
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,119
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getChsAscii,Magic Number,The method contains a magic number: 256,119
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,convert,Magic Number,The method contains a magic number: 160,143
+androidone-master,com.sd.one.widget.sortlistview,CharacterParser,getSelling,Magic Number,The method contains a magic number: 2,160
+androidone-master,com.sd.one.widget.sortlistview,SideBar,onDraw,Magic Number,The method contains a magic number: 33,49
+androidone-master,com.sd.one.widget.sortlistview,SideBar,onDraw,Magic Number,The method contains a magic number: 65,49
+androidone-master,com.sd.one.widget.sortlistview,SideBar,onDraw,Magic Number,The method contains a magic number: 98,49
+androidone-master,com.sd.one.widget.sortlistview,SideBar,onDraw,Magic Number,The method contains a magic number: 20,49
+androidone-master,com.sd.one.widget.sortlistview,SideBar,onDraw,Magic Number,The method contains a magic number: 2,49
+androidone-master,com.sd.one.widget.sortlistview,SideBar,onDraw,Magic Number,The method contains a magic number: 2,49
+androidone-master,com.sd.one.widget.sortlistview,SideBar,dispatchTouchEvent,Long Identifier,The length of the field onTouchingLetterChangedListener is 31.,82
+androidone-master,com.sd.one.widget.sortlistview,SideBar,dispatchTouchEvent,Missing default,The following switch statement is missing a default case: switch (action) {,82
+androidone-master,com.sd.one.widget.sortlistview,SideBar,setOnTouchingLetterChangedListener,Long Identifier,The length of the parameter onTouchingLetterChangedListener is 31.,123
+androidone-master,com.sd.one.widget.sortlistview,SideBar,setOnTouchingLetterChangedListener,Long Identifier,The length of the field onTouchingLetterChangedListener is 31.,123
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,setSwipeClosesAllItemsWhenListMoves,Long Identifier,The length of the parameter swipeClosesAllItemsWhenListMoves is 32.,192
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,setSwipeClosesAllItemsWhenListMoves,Long Identifier,The length of the field swipeClosesAllItemsWhenListMoves is 32.,192
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,openAnimate,Long Statement,The length of the statement "openAnimate(swipeListView.getChildAt(position - swipeListView.getFirstVisiblePosition()).findViewById(swipeFrontView)`position);" is 128.,296
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,closeAnimate,Long Statement,The length of the statement "closeAnimate(swipeListView.getChildAt(position - swipeListView.getFirstVisiblePosition()).findViewById(swipeFrontView)`position);" is 129.,305
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,unselectedChoiceStates,Complex Conditional,The conditional expression checked.get(i) && i >= start && i <= end is complex.,340
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,makeScrollListener,Complex Method,Cyclomatic complexity of the method is 10,599
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,makeScrollListener,Long Identifier,The length of the field swipeClosesAllItemsWhenListMoves is 32.,599
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,makeScrollListener,Magic Number,The method contains a magic number: 500,599
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onScrollStateChanged,Long Identifier,The length of the field swipeClosesAllItemsWhenListMoves is 32.,610
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onScrollStateChanged,Magic Number,The method contains a magic number: 500,610
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Complex Conditional,The conditional expression velocityTracker == null || !swiping || downPosition == ListView.INVALID_POSITION is complex.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Complex Conditional,The conditional expression minFlingVelocity <= velocityX && velocityX <= maxFlingVelocity && velocityY * 2 < velocityX is complex.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Complex Conditional,The conditional expression opened.get(downPosition) && openedRight.get(downPosition) && swapRight is complex.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Complex Conditional,The conditional expression opened.get(downPosition) && !openedRight.get(downPosition) && !swapRight is complex.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Complex Conditional,The conditional expression velocityTracker == null || paused || downPosition == ListView.INVALID_POSITION is complex.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Complex Conditional,The conditional expression deltaMode > slop && swipeCurrentAction == SwipeListView.SWIPE_ACTION_NONE && velocityY < velocityX is complex.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Complex Method,Cyclomatic complexity of the method is 38,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Long Method,The method has 176 lines of code.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Long Statement,The length of the statement "boolean allowSwipe=swipeListView.getAdapter().isEnabled(childPosition) && swipeListView.getAdapter().getItemViewType(childPosition) >= 0;" is 137.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Long Statement,The length of the statement "cancelEvent.setAction(MotionEvent.ACTION_CANCEL | (MotionEventCompat.getActionIndex(motionEvent) << MotionEventCompat.ACTION_POINTER_INDEX_SHIFT));" is 147.,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Magic Number,The method contains a magic number: 2,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Magic Number,The method contains a magic number: 2,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Magic Number,The method contains a magic number: 1000,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Magic Number,The method contains a magic number: 2,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Magic Number,The method contains a magic number: 2,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,onTouch,Magic Number,The method contains a magic number: 1000,678
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,move,Complex Conditional,The conditional expression (swipingRight && deltaX > 0 && posX < DISPLACE_CHOICE) || (!swipingRight && deltaX < 0 && posX > -DISPLACE_CHOICE) || (swipingRight && deltaX < DISPLACE_CHOICE)|| (!swipingRight && deltaX > -DISPLACE_CHOICE) is complex.,880
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,move,Complex Method,Cyclomatic complexity of the method is 9,880
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,move,Long Statement,The length of the statement "if ((swipingRight && deltaX > 0 && posX < DISPLACE_CHOICE) || (!swipingRight && deltaX < 0 && posX > -DISPLACE_CHOICE) || (swipingRight && deltaX < DISPLACE_CHOICE)|| (!swipingRight && deltaX > -DISPLACE_CHOICE)) {" is 214.,880
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,move,Magic Number,The method contains a magic number: 2f,880
+androidone-master,com.sd.one.widget.swipeListview,SwipeListViewTouchListener,handlerPendingDismisses,Magic Number,The method contains a magic number: 100,986
+androidone-master,com.sd.one.widget.swipeListview,SwipeListView,init,Long Identifier,The length of the identifier swipeCloseAllItemsWhenMoveList is 30.,149
+androidone-master,com.sd.one.widget.swipeListview,SwipeListView,init,Long Statement,The length of the statement "throw new RuntimeException(String.format("You forgot the attributes swipeFrontView or swipeBackView. You can add this attributes or use '%s' and '%s' identifiers"`SWIPE_DEFAULT_FRONT_VIEW`SWIPE_DEFAULT_BACK_VIEW));" is 214.,149
+androidone-master,com.sd.one.widget.swipeListview,SwipeListView,setSwipeCloseAllItemsWhenMoveList,Long Identifier,The length of the parameter swipeCloseAllItemsWhenMoveList is 30.,525
+androidone-master,com.sd.one.widget.swipeListview,SwipeListView,onInterceptTouchEvent,Missing default,The following switch statement is missing a default case: switch (action) {,597
+androidone-master,com.sd.one.widget.wheel,WheelScroller,onFling,Magic Number,The method contains a magic number: 0x7FFFFFFF,150
+androidone-master,com.sd.one.widget.wheel,WheelRecycle,recycleView,Complex Conditional,The conditional expression (index < 0 || index >= count) && !wheel.isCyclic() is complex.,103
+androidone-master,com.sd.one.widget.wheel,WheelView,setCurrentItem,Complex Method,Cyclomatic complexity of the method is 9,326
+androidone-master,com.sd.one.widget.wheel,WheelView,getDesiredHeight,Magic Number,The method contains a magic number: 50,479
+androidone-master,com.sd.one.widget.wheel,WheelView,calculateLayoutWidth,Long Statement,The length of the statement "itemsLayout.measure(MeasureSpec.makeMeasureSpec(widthSize`MeasureSpec.UNSPECIFIED)`MeasureSpec.makeMeasureSpec(0`MeasureSpec.UNSPECIFIED));" is 139.,513
+androidone-master,com.sd.one.widget.wheel,WheelView,calculateLayoutWidth,Long Statement,The length of the statement "itemsLayout.measure(MeasureSpec.makeMeasureSpec(width - 2 * PADDING`MeasureSpec.EXACTLY)`MeasureSpec.makeMeasureSpec(0`MeasureSpec.UNSPECIFIED));" is 145.,513
+androidone-master,com.sd.one.widget.wheel,WheelView,calculateLayoutWidth,Magic Number,The method contains a magic number: 2,513
+androidone-master,com.sd.one.widget.wheel,WheelView,calculateLayoutWidth,Magic Number,The method contains a magic number: 2,513
+androidone-master,com.sd.one.widget.wheel,WheelView,onLayout,Long Parameter List,The method has 5 parameters. ,572
+androidone-master,com.sd.one.widget.wheel,WheelView,layout,Magic Number,The method contains a magic number: 2,577
+androidone-master,com.sd.one.widget.wheel,WheelView,drawShadows,Magic Number,The method contains a magic number: 1.5,602
+androidone-master,com.sd.one.widget.wheel,WheelView,drawItems,Magic Number,The method contains a magic number: 2,615
+androidone-master,com.sd.one.widget.wheel,WheelView,drawCenterRect,Magic Number,The method contains a magic number: 2,630
+androidone-master,com.sd.one.widget.wheel,WheelView,drawCenterRect,Magic Number,The method contains a magic number: 2,630
+androidone-master,com.sd.one.widget.wheel,WheelView,drawCenterRect,Magic Number,The method contains a magic number: 1.2,630
+androidone-master,com.sd.one.widget.wheel,WheelView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 8,641
+androidone-master,com.sd.one.widget.wheel,WheelView,onTouchEvent,Magic Number,The method contains a magic number: 2,641
+androidone-master,com.sd.one.widget.wheel,WheelView,onTouchEvent,Magic Number,The method contains a magic number: 2,641
+androidone-master,com.sd.one.widget.wheel,WheelView,onTouchEvent,Magic Number,The method contains a magic number: 2,641
+androidone-master,com.sd.one.widget.wheel,WheelView,doScroll,Complex Method,Cyclomatic complexity of the method is 12,673
+androidone-master,com.sd.one.widget.wheel,WheelView,doScroll,Magic Number,The method contains a magic number: 2,673
+androidone-master,com.sd.one.widget.wheel,WheelView,getItemsRange,Magic Number,The method contains a magic number: 2,744
+androidone-master,com.sd.one.widget.wheel,WheelView,rebuildItems,Complex Method,Cyclomatic complexity of the method is 8,775
+androidone-master,com.sd.one.widget.wheel,WheelView,buildViewForMeasuring,Magic Number,The method contains a magic number: 2,838
+androidone-master,com.sd.one.widget.wheel,WheelView,isValidItemIndex,Long Statement,The length of the statement "return viewAdapter != null && viewAdapter.getItemsCount() > 0 && (isCyclic || index >= 0 && index < viewAdapter.getItemsCount());" is 129.,879
+androidone-master,com.sd.one.widget.wheel.adapter,AbstractWheelTextAdapter,getView,Missing default,The following switch statement is missing a default case: switch (resource) {,241
+androidone-master,com.sd.one.widget.dialog,CommonDialog,CommonDialog,Long Parameter List,The method has 5 parameters. ,43
+androidone-master,com.sd.one.widget.dialog,CommonDialog,CommonDialog,Long Parameter List,The method has 6 parameters. ,55
+androidone-master,com.sd.one.widget.dialog,LoadDialog,LoadDialog,Magic Number,The method contains a magic number: 0.5f,34
+androidone-master,com.sd.one.widget.dialog,MessageDialog,MessageDialog,Long Parameter List,The method has 5 parameters. ,48
+androidone-master,com.sd.one.widget.dialog,MessageDialog,MessageDialog,Long Parameter List,The method has 6 parameters. ,59
+androidone-master,com.sd.one.widget.dialog,MenuDialog,setMenus,Complex Method,Cyclomatic complexity of the method is 8,120
+androidone-master,com.sd.one.widget.dialog,BottomMenuDialog,onCreate,Magic Number,The method contains a magic number: 0.5f,73
+androidone-master,com.sd.one.widget.dialog,BaseDialog,init,Magic Number,The method contains a magic number: 0.4f,54
+androidone-master,com.sd.one.widget.dialog,BaseDialog,init,Magic Number,The method contains a magic number: 0.9,54
+androidone-master,com.sd.one.widget.dialog,BaseDialog,onClick,Complex Method,Cyclomatic complexity of the method is 10,282
+androidone-master,com.sd.one.widget.dialog,BaseDialog,onClick,Missing default,The following switch statement is missing a default case: switch (id) {,282
+androidone-master,com.sd.one.widget.downtime,DownTimer,startDown,Magic Number,The method contains a magic number: 1000,26
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,DragSortListView,Long Statement,The length of the statement "mSlideRegionFrac=Math.max(0.0f`Math.min(1.0f`1.0f - a.getFloat(R.styleable.DragSortListView_slide_shuffle_speed`0.75f)));" is 121.,447
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,DragSortListView,Long Statement,The length of the statement "DragSortController controller=new DragSortController(this`dragHandleId`dragInitMode`removeMode`clickRemoveId`flingHandleId);" is 124.,447
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,DragSortListView,Magic Number,The method contains a magic number: 150,447
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,DragSortListView,Magic Number,The method contains a magic number: 0.75f,447
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,DragSortListView,Magic Number,The method contains a magic number: 0.5f,447
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,dispatchDraw,Magic Number,The method contains a magic number: 255f,793
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,getShuffleEdge,Complex Method,Cyclomatic complexity of the method is 9,902
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,getShuffleEdge,Magic Number,The method contains a magic number: 2,902
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,getShuffleEdge,Magic Number,The method contains a magic number: 2,902
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,updatePositions,Complex Conditional,The conditional expression mFirstExpPos != oldFirstExpPos || mSecondExpPos != oldSecondExpPos || mSlideFrac != oldSlideFrac is complex.,981
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,updatePositions,Complex Method,Cyclomatic complexity of the method is 18,981
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,updatePositions,Long Method,The method has 110 lines of code.,981
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,updatePositions,Magic Number,The method contains a magic number: 2,981
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,updatePositions,Magic Number,The method contains a magic number: 0.5f,981
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,updatePositions,Magic Number,The method contains a magic number: 0.5f,981
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,updatePositions,Magic Number,The method contains a magic number: 0.5f,981
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,SmoothAnimator,Magic Number,The method contains a magic number: 2f,1149
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,SmoothAnimator,Magic Number,The method contains a magic number: 2f,1149
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,getTargetY,Magic Number,The method contains a magic number: 2,1262
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,onStart,Magic Number,The method contains a magic number: 2f,1327
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,onStart,Magic Number,The method contains a magic number: 2,1327
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,onUpdate,Complex Method,Cyclomatic complexity of the method is 9,1353
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,onUpdate,Magic Number,The method contains a magic number: 1000,1353
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,removeItem,Complex Method,Cyclomatic complexity of the method is 8,1415
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,moveItem,Complex Conditional,The conditional expression from >= 0 && from < count && to >= 0 && to < count is complex.,1459
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,dropFloatView,Complex Conditional,The conditional expression mDropListener != null && mFloatPos >= 0 && mFloatPos < getCount() is complex.,1503
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,1620
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (action) {,1620
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,1705
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,onInterceptTouchEvent,Missing default,The following switch statement is missing a default case: switch (action) {,1705
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,setDragScrollStarts,Magic Number,The method contains a magic number: 0.5f,1770
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,setDragScrollStarts,Magic Number,The method contains a magic number: 0.5f,1770
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,setDragScrollStarts,Magic Number,The method contains a magic number: 0.5f,1770
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,setDragScrollStarts,Magic Number,The method contains a magic number: 0.5f,1770
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,continueDrag,Complex Conditional,The conditional expression minY > mLastY && minY > mDownScrollStartY && currentScrollDir != DragScroller.DOWN is complex.,1798
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,continueDrag,Complex Conditional,The conditional expression maxY < mLastY && maxY < mUpScrollStartY && currentScrollDir != DragScroller.UP is complex.,1798
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,continueDrag,Complex Conditional,The conditional expression maxY >= mUpScrollStartY && minY <= mDownScrollStartY && mDragScroller.isScrolling() is complex.,1798
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,adjustItem,Complex Conditional,The conditional expression position != mSrcPos && position != mFirstExpPos && position != mSecondExpPos is complex.,1889
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,adjustItem,Complex Method,Cyclomatic complexity of the method is 8,1889
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,calcItemHeight,Complex Method,Cyclomatic complexity of the method is 8,2017
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,adjustScroll,Complex Method,Cyclomatic complexity of the method is 10,2064
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,measureFloatView,Magic Number,The method contains a magic number: 2,2125
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,startDrag,Complex Conditional,The conditional expression mDragState != IDLE || !mInTouchEvent || mFloatView != null || floatView == null || !mDragEnabled is complex.,2235
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,startDrag,Complex Method,Cyclomatic complexity of the method is 8,2235
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,startDrag,Long Parameter List,The method has 5 parameters. ,2235
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,doDragFloatView,Magic Number,The method contains a magic number: 2,2320
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,doDragFloatView,Magic Number,The method contains a magic number: 2,2320
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,updateFloatView,Complex Method,Cyclomatic complexity of the method is 12,2357
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,removeCheckState,Complex Conditional,The conditional expression !(runStart[i] == position || (runEnd[i] < runStart[i] && runEnd[i] > position)) is complex.,2677
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,buildRunList,Complex Method,Cyclomatic complexity of the method is 8,2711
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,buildRunList,Long Parameter List,The method has 5 parameters. ,2711
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,run,Complex Method,Cyclomatic complexity of the method is 9,2877
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,appendState,Long Statement,The length of the statement "mBuilder.append(" <FirstExpBlankHeight>").append(getItemHeight(mFirstExpPos) - getChildHeight(mFirstExpPos)).append("</FirstExpBlankHeight>\n");" is 144.,3000
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,appendState,Long Statement,The length of the statement "mBuilder.append(" <SecondExpBlankHeight>").append(getItemHeight(mSecondExpPos) - getChildHeight(mSecondExpPos)).append("</SecondExpBlankHeight>\n");" is 148.,3000
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,appendState,Magic Number,The method contains a magic number: 1000,3000
+androidone-master,com.sd.one.widget.draglistview,DragSortListView,flush,Empty catch clause,The method has an empty catch block.,3054
+androidone-master,com.sd.one.widget.draglistview,SmoothAnimator,SmoothAnimator,Magic Number,The method contains a magic number: 2f,1149
+androidone-master,com.sd.one.widget.draglistview,SmoothAnimator,SmoothAnimator,Magic Number,The method contains a magic number: 2f,1149
+androidone-master,com.sd.one.widget.draglistview,DropAnimator,getTargetY,Magic Number,The method contains a magic number: 2,1262
+androidone-master,com.sd.one.widget.draglistview,RemoveAnimator,onStart,Magic Number,The method contains a magic number: 2f,1327
+androidone-master,com.sd.one.widget.draglistview,RemoveAnimator,onStart,Magic Number,The method contains a magic number: 2,1327
+androidone-master,com.sd.one.widget.draglistview,RemoveAnimator,onUpdate,Complex Method,Cyclomatic complexity of the method is 9,1353
+androidone-master,com.sd.one.widget.draglistview,RemoveAnimator,onUpdate,Magic Number,The method contains a magic number: 1000,1353
+androidone-master,com.sd.one.widget.draglistview,DragScroller,run,Complex Method,Cyclomatic complexity of the method is 9,2877
+androidone-master,com.sd.one.widget.draglistview,DragSortTracker,appendState,Long Statement,The length of the statement "mBuilder.append(" <FirstExpBlankHeight>").append(getItemHeight(mFirstExpPos) - getChildHeight(mFirstExpPos)).append("</FirstExpBlankHeight>\n");" is 144.,3000
+androidone-master,com.sd.one.widget.draglistview,DragSortTracker,appendState,Long Statement,The length of the statement "mBuilder.append(" <SecondExpBlankHeight>").append(getItemHeight(mSecondExpPos) - getChildHeight(mSecondExpPos)).append("</SecondExpBlankHeight>\n");" is 148.,3000
+androidone-master,com.sd.one.widget.draglistview,DragSortTracker,appendState,Magic Number,The method contains a magic number: 1000,3000
+androidone-master,com.sd.one.widget.draglistview,DragSortTracker,flush,Empty catch clause,The method has an empty catch block.,3054
+androidone-master,com.sd.one.widget.draglistview,DragSortController,DragSortController,Long Parameter List,The method has 5 parameters. ,100
+androidone-master,com.sd.one.widget.draglistview,DragSortController,DragSortController,Long Parameter List,The method has 6 parameters. ,104
+androidone-master,com.sd.one.widget.draglistview,DragSortController,onTouch,Complex Conditional,The conditional expression mRemoveEnabled && mDragging && mRemoveMode == FLING_REMOVE is complex.,237
+androidone-master,com.sd.one.widget.draglistview,DragSortController,onTouch,Complex Method,Cyclomatic complexity of the method is 8,237
+androidone-master,com.sd.one.widget.draglistview,DragSortController,onTouch,Magic Number,The method contains a magic number: 2,237
+androidone-master,com.sd.one.widget.draglistview,DragSortController,viewIdHitPosition,Complex Conditional,The conditional expression touchPos != AdapterView.INVALID_POSITION && touchPos >= numHeaders && touchPos < (count - numFooters) is complex.,321
+androidone-master,com.sd.one.widget.draglistview,DragSortController,viewIdHitPosition,Complex Conditional,The conditional expression rawX > mTempLoc[0] && rawY > mTempLoc[1] && rawX < mTempLoc[0] + dragBox.getWidth() && rawY < mTempLoc[1] + dragBox.getHeight() is complex.,321
+androidone-master,com.sd.one.widget.draglistview,DragSortController,viewIdHitPosition,Long Statement,The length of the statement "if (rawX > mTempLoc[0] && rawY > mTempLoc[1] && rawX < mTempLoc[0] + dragBox.getWidth() && rawY < mTempLoc[1] + dragBox.getHeight()) {" is 134.,321
+androidone-master,com.sd.one.widget.draglistview,DragSortController,onScroll,Complex Conditional,The conditional expression mCanDrag && !mDragging && (mHitPos != MISS || mFlingHitPos != MISS) is complex.,378
+androidone-master,com.sd.one.widget.draglistview,DragSortController,onScroll,Complex Conditional,The conditional expression mDragInitMode == ON_DRAG && Math.abs(y2 - y1) > mTouchSlop && mSortEnabled is complex.,378
+androidone-master,com.sd.one.widget.draglistview,DragSortController,onScroll,Complex Conditional,The conditional expression mDragInitMode != ON_DOWN && Math.abs(x2 - x1) > mTouchSlop && mRemoveEnabled is complex.,378
+androidone-master,com.sd.one.widget.draglistview,DragSortController,onScroll,Complex Method,Cyclomatic complexity of the method is 8,378
+androidone-master,com.sd.one.widget.draglistview,DragSortController,onFling,Magic Number,The method contains a magic number: 5,446
+androidone-master,com.sd.one.widget.draglistview,DragSortItemView,onLayout,Long Parameter List,The method has 5 parameters. ,48
+androidone-master,com.sd.one.widget.draglistview,SimpleDragSortCursorAdapter,SimpleDragSortCursorAdapter,Long Parameter List,The method has 5 parameters. ,72
+androidone-master,com.sd.one.widget.draglistview,SimpleDragSortCursorAdapter,SimpleDragSortCursorAdapter,Long Parameter List,The method has 6 parameters. ,88
+androidone-master,com.sd.one.widget.draglistview,SimpleDragSortCursorAdapter,bindView,Complex Method,Cyclomatic complexity of the method is 8,114
+androidone-master,com.sd.one.widget.draglistview,SimpleDragSortCursorAdapter,bindView,Long Statement,The length of the statement "throw new IllegalStateException(v.getClass().getName() + " is not a " + " view that can be bounds by this SimpleCursorAdapter");" is 128.,114
+androidone-master,com.sd.one.activity,MainActivity,onCheckedChanged,Magic Number,The method contains a magic number: 2,66
+androidone-master,com.sd.one.activity,MainActivity,onCheckedChanged,Magic Number,The method contains a magic number: 3,66
+androidone-master,com.sd.one.activity,MainActivity,onCheckedChanged,Magic Number,The method contains a magic number: 4,66
+androidone-master,com.sd.one.activity,MainActivity,onKeyDown,Long Statement,The length of the statement "MessageDialog dialog=new MessageDialog(MainActivity.this`getString(R.string.common_title_tips)`getString(R.string.common_confirm)`getString(R.string.common_cancel)`getString(R.string.common_exit));" is 197.,112
+androidone-master,com.sd.one.activity,GuideActivity,onCreate,Magic Number,The method contains a magic number: 20,42
+androidone-master,com.sd.one.activity,GuideActivity,onCreate,Magic Number,The method contains a magic number: 20,42
+androidone-master,com.sd.one.activity,GuideActivity,onCreate,Magic Number,The method contains a magic number: 20,42
+androidone-master,com.sd.one.activity,GuideActivity,onCreate,Magic Number,The method contains a magic number: 20,42
+androidone-master,com.sd.one.activity,GuideActivity,onPageSelected,Magic Number,The method contains a magic number: 3,90
+androidone-master,com.sd.one.utils.jpinyin,PinyinHelper,convertWithToneNumber,Magic Number,The method contains a magic number: 4,50
+androidone-master,com.sd.one.utils.jpinyin,PinyinHelper,convertWithToneNumber,Magic Number,The method contains a magic number: 4,50
+androidone-master,com.sd.one.utils.jpinyin,PinyinHelper,convertWithToneNumber,Magic Number,The method contains a magic number: 4,50
+androidone-master,com.sd.one.utils.jpinyin,PinyinHelper,convertWithoutTone,Magic Number,The method contains a magic number: 4,84
+androidone-master,com.sd.one.utils.jpinyin,PinyinHelper,convertWithoutTone,Magic Number,The method contains a magic number: 4,84
+androidone-master,com.sd.one.utils.jpinyin,PinyinHelper,convertToPinyinString,Complex Method,Cyclomatic complexity of the method is 11,152
+androidone-master,com.sd.one.utils.jpinyin,PinyinHelper,convertToPinyinString,Magic Number,The method contains a magic number: 3,152
+androidone-master,com.sd.one.utils,StringUtils,byte2hex,Magic Number,The method contains a magic number: 0XFF,53
+androidone-master,com.sd.one.utils,StringUtils,getStrlength,Magic Number,The method contains a magic number: 2,78
+androidone-master,com.sd.one.utils,StringUtils,isEmail,Long Statement,The length of the statement "String str="^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1`3}\\.[0-9]{1`3}\\.[0-9]{1`3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2`4}|[0-9]{1`3})(\\]?)$";" is 140.,115
+androidone-master,com.sd.one.utils,BitmapUtils,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,100
+androidone-master,com.sd.one.utils,BitmapUtils,Bitmap2InputStream,Magic Number,The method contains a magic number: 100,112
+androidone-master,com.sd.one.utils,BitmapUtils,drawable2Bitmap,Long Statement,The length of the statement "Bitmap bitmap=Bitmap.createBitmap(drawable.getIntrinsicWidth()`drawable.getIntrinsicHeight()`drawable.getOpacity() != PixelFormat.OPAQUE ? Bitmap.Config.ARGB_8888 : Bitmap.Config.RGB_565);" is 188.,160
+androidone-master,com.sd.one.utils,BitmapUtils,bitmaptoString,Magic Number,The method contains a magic number: 100,199
+androidone-master,com.sd.one.utils,BitmapUtils,calculateInSampleSize,Magic Number,The method contains a magic number: 2,266
+androidone-master,com.sd.one.utils,BitmapUtils,calculateInSampleSize,Magic Number,The method contains a magic number: 2,266
+androidone-master,com.sd.one.utils,BitmapUtils,calculateInSampleSize,Magic Number,The method contains a magic number: 2,266
+androidone-master,com.sd.one.utils,BitmapUtils,toRoundCorner,Magic Number,The method contains a magic number: 0xff424242,294
+androidone-master,com.sd.one.utils,FileUtils,saveFile,Magic Number,The method contains a magic number: 100,125
+androidone-master,com.sd.one.utils,FileUtils,saveFile,Magic Number,The method contains a magic number: 1024,213
+androidone-master,com.sd.one.utils,FileUtils,InputStream2Bytes,Magic Number,The method contains a magic number: 1024,316
+androidone-master,com.sd.one.utils,CommonUtils,dpToPixel,Magic Number,The method contains a magic number: 160f,154
+androidone-master,com.sd.one.utils,CommonUtils,pixelsToDp,Magic Number,The method contains a magic number: 160f,163
+androidone-master,com.sd.one.utils,CommonUtils,create2DCode,Magic Number,The method contains a magic number: 300,172
+androidone-master,com.sd.one.utils,CommonUtils,create2DCode,Magic Number,The method contains a magic number: 300,172
+androidone-master,com.sd.one.utils,CommonUtils,create2DCode,Magic Number,The method contains a magic number: 0xff000000,172
+androidone-master,com.sd.one.utils,CommonUtils,isTablet,Long Statement,The length of the statement "return (context.getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE;" is 144.,280
+androidone-master,com.sd.one.utils,VersionUpdateService,onStartCommand,Long Statement,The length of the statement "intent.setDataAndType(Uri.fromFile(new File(Environment.getExternalStorageDirectory() + "/download/" + mFileName))`"application/vnd.android.package-archive");" is 158.,39
+androidone-master,com.sd.one.utils,VersionUpdateService,onReceive,Long Statement,The length of the statement "intent.setDataAndType(Uri.fromFile(new File(Environment.getExternalStorageDirectory() + "/download/" + mFileName))`"application/vnd.android.package-archive");" is 158.,51
+androidone-master,com.sd.one.utils,VersionUpdateService,hasNewVersion,Empty catch clause,The method has an empty catch block.,85
+androidone-master,com.sd.one.utils,DateUtils,daysTillChristmas,Magic Number,The method contains a magic number: 12,51
+androidone-master,com.sd.one.utils,DateUtils,daysTillChristmas,Magic Number,The method contains a magic number: 25,51
+androidone-master,com.sd.one.utils,DateUtils,daysTillChristmas,Magic Number,The method contains a magic number: 12,51
+androidone-master,com.sd.one.utils,DateUtils,daysTillChristmas,Magic Number,The method contains a magic number: 25,51
+androidone-master,com.sd.one.utils,DateUtils,hoursDifferenceBetweenParisAndPerth,Magic Number,The method contains a magic number: 24,88
+androidone-master,com.sd.one.utils,DateUtils,weeksSinceStart,Magic Number,The method contains a magic number: 2010,104
+androidone-master,com.sd.one.utils,DateUtils,weeksSinceStart,Magic Number,The method contains a magic number: 9,104
+androidone-master,com.sd.one.utils,DateUtils,weeksSinceStart,Magic Number,The method contains a magic number: 6,104
+androidone-master,com.sd.one.utils,DateUtils,jdkDatesSuctorial,Magic Number,The method contains a magic number: 1996,138
+androidone-master,com.sd.one.utils,DateUtils,jdkDatesSuctorial,Magic Number,The method contains a magic number: 23,138
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Complex Conditional,The conditional expression c.get(Calendar.YEAR) == now.get(Calendar.YEAR) && c.get(Calendar.MONTH) == now.get(Calendar.MONTH) && c.get(Calendar.DATE) == now.get(Calendar.DATE) is complex.,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Complex Conditional,The conditional expression c.get(Calendar.YEAR) == now.get(Calendar.YEAR) && c.get(Calendar.MONTH) == now.get(Calendar.MONTH) && c.get(Calendar.DATE) == now.get(Calendar.DATE) - 1 is complex.,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Complex Method,Cyclomatic complexity of the method is 9,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Long Statement,The length of the statement "if (c.get(Calendar.YEAR) == now.get(Calendar.YEAR) && c.get(Calendar.MONTH) == now.get(Calendar.MONTH) && c.get(Calendar.DATE) == now.get(Calendar.DATE)) {" is 155.,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Long Statement,The length of the statement "if (c.get(Calendar.YEAR) == now.get(Calendar.YEAR) && c.get(Calendar.MONTH) == now.get(Calendar.MONTH) && c.get(Calendar.DATE) == now.get(Calendar.DATE) - 1) {" is 159.,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Magic Number,The method contains a magic number: 60,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Magic Number,The method contains a magic number: 1000,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Magic Number,The method contains a magic number: 30,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Magic Number,The method contains a magic number: 60,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Magic Number,The method contains a magic number: 1000,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Magic Number,The method contains a magic number: 1000,177
+androidone-master,com.sd.one.utils,DateUtils,getTimeState,Magic Number,The method contains a magic number: 60,177
+androidone-master,com.sd.one.utils,DateUtils,formatTimestamp,Magic Number,The method contains a magic number: 13,245
+androidone-master,com.sd.one.utils.pay,Base64,isWhiteSpace,Magic Number,The method contains a magic number: 0x20,50
+androidone-master,com.sd.one.utils.pay,Base64,isWhiteSpace,Magic Number,The method contains a magic number: 0xd,50
+androidone-master,com.sd.one.utils.pay,Base64,isWhiteSpace,Magic Number,The method contains a magic number: 0xa,50
+androidone-master,com.sd.one.utils.pay,Base64,isWhiteSpace,Magic Number,The method contains a magic number: 0x9,50
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0x0f,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0x03,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0xc0,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0xf0,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 6,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 6,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0xfc,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0x3f,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0x03,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0xc0,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0x0f,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0x03,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0xc0,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 0xf0,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 4,62
+androidone-master,com.sd.one.utils.pay,Base64,encode,Magic Number,The method contains a magic number: 2,62
+androidone-master,com.sd.one.utils.pay,Base64,decode,Complex Conditional,The conditional expression !isData((d1=base64Data[dataIndex++])) || !isData((d2=base64Data[dataIndex++])) || !isData((d3=base64Data[dataIndex++]))|| !isData((d4=base64Data[dataIndex++])) is complex.,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Complex Method,Cyclomatic complexity of the method is 12,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Long Statement,The length of the statement "if (!isData((d1=base64Data[dataIndex++])) || !isData((d2=base64Data[dataIndex++])) || !isData((d3=base64Data[dataIndex++]))|| !isData((d4=base64Data[dataIndex++]))) {" is 166.,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 3,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 2,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 4,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 0xf,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 4,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 2,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 0xf,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 6,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 0xf,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 3,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 3,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 2,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 4,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 0x3,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 3,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 2,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 3,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 2,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 4,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 0xf,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 4,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 2,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 0xf,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 2,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 4,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 0xf,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 4,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 2,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 0xf,145
+androidone-master,com.sd.one.utils.pay,Base64,decode,Magic Number,The method contains a magic number: 6,145
+androidone-master,com.sd.one.utils.pay,PayUtils,PayUtils,Long Parameter List,The method has 5 parameters. ,81
+androidone-master,com.sd.one.utils.pay,PayUtils,PayUtils,Long Parameter List,The method has 6 parameters. ,89
+androidone-master,com.sd.one.utils.pay,PayUtils,pay,Complex Method,Cyclomatic complexity of the method is 8,104
+androidone-master,com.sd.one.utils.pay,PayUtils,pay,Magic Number,The method contains a magic number: 10000,104
+androidone-master,com.sd.one.utils.pay,PayUtils,run,Magic Number,The method contains a magic number: 10000,152
+androidone-master,com.sd.one.utils.pay,PayUtils,handleMessage,Complex Method,Cyclomatic complexity of the method is 8,171
+androidone-master,com.sd.one.utils.pay,PayUtils,handleMessage,Magic Number,The method contains a magic number: 10000,171
+androidone-master,com.sd.one.utils.pay,PayUtils1,pay,Magic Number,The method contains a magic number: 10000,48
+androidone-master,com.sd.one.utils.pay,PayUtils1,run,Magic Number,The method contains a magic number: 10000,64
+androidone-master,com.sd.one.utils.pay,PayUtils1,handleMessage,Complex Method,Cyclomatic complexity of the method is 8,83
+androidone-master,com.sd.one.utils.pay,PayUtils1,handleMessage,Magic Number,The method contains a magic number: 10000,83
+androidone-master,com.sd.one.utils.sensitive,SensitivewordFilter,CheckSensitiveWord,Magic Number,The method contains a magic number: 2,126
+androidone-master,com.sd.one.utils.sensitive,SensitivewordFilter,main,Long Statement,The length of the statement "String string="太多的伤感情怀也许只局限于饲养基地 荧幕中的情节，主人公尝试着去用某种方式渐渐的很潇洒地释自杀指南怀那些自己经历的伤感。" + "然后法轮功 我们的扮演的角色就是跟随着主人公的喜红客联盟 怒哀乐而过于牵强的把自己的情感也附加于银幕情节中，然后感动就流泪，" + "难过就躺在某一个人的怀里尽情的阐述心扉或者手机卡复制器一个人一杯红酒一部电影在夜三级片 深人静的晚上，关上电话静静的发呆着。";" is 211.,172
+androidone-master,com.sd.one.utils.db.entity,Order,Order,Long Parameter List,The method has 8 parameters. ,74
+androidone-master,com.sd.one.utils.db.entity,Order,Order,Magic Number,The method contains a magic number: 505498130,74
+androidone-master,com.sd.one.utils.db.entity,Order,Order,Magic Number,The method contains a magic number: 1105174599,87
+androidone-master,com.sd.one.utils.db.entity,Product,Product,Long Parameter List,The method has 6 parameters. ,60
+androidone-master,com.sd.one.utils.db.entity,Product,Product,Magic Number,The method contains a magic number: 1007500402,60
+androidone-master,com.sd.one.utils.db.entity,Product,Product,Magic Number,The method contains a magic number: 1890278724,70
+androidone-master,com.sd.one.utils.db.entity,Customer,Customer,Magic Number,The method contains a magic number: 1137716255,43
+androidone-master,com.sd.one.utils.db.entity,Customer,Customer,Magic Number,The method contains a magic number: 60841032,50
+androidone-master,com.sd.one.utils.db.entity,Purchase,Purchase,Long Parameter List,The method has 11 parameters. ,100
+androidone-master,com.sd.one.utils.db.entity,Purchase,Purchase,Magic Number,The method contains a magic number: 1638243775,100
+androidone-master,com.sd.one.utils.db.entity,Purchase,Purchase,Magic Number,The method contains a magic number: 1281646125,116
+androidone-master,com.sd.one.utils.db.entity,Address,Address,Long Parameter List,The method has 10 parameters. ,88
+androidone-master,com.sd.one.utils.db.entity,Address,Address,Magic Number,The method contains a magic number: 1650495768,88
+androidone-master,com.sd.one.utils.db.entity,Address,Address,Magic Number,The method contains a magic number: 388317431,103
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"PURCHASE\" ("+ "\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT `"+ "\"PRODUCT_ID\" INTEGER NOT NULL `"+ "\"PORDUCT_NAME\" TEXT`"+ "\"PLANFLAG\" INTEGER NOT NULL `"+ "\"BASE_PRICE\" TEXT`"+ "\"PRICE\" TEXT`"+ "\"IMAGE\" TEXT`"+ "\"DESC\" TEXT`"+ "\"NUMBER\" TEXT`"+ "\"STATUS\" TEXT`"+ "\"CRETE_TIME\" TEXT);");" is 350.,49
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Complex Method,Cyclomatic complexity of the method is 10,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 2,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 3,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 4,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 5,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 6,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 7,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 8,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 9,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 10,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 11,77
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Complex Method,Cyclomatic complexity of the method is 10,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 2,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 3,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 4,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 5,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 6,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 7,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 8,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 9,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 10,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,bindValues,Magic Number,The method contains a magic number: 11,129
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Long Statement,The length of the statement "Purchase entity=new Purchase(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.getLong(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.getShort(offset + 3) != 0`cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4)`cursor.isNull(offset + 5) ? null : cursor.getString(offset + 5)`cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6)`cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7)`cursor.isNull(offset + 8) ? null : cursor.getString(offset + 8)`cursor.isNull(offset + 9) ? null : cursor.getString(offset + 9)`cursor.isNull(offset + 10) ? null : cursor.getString(offset + 10));" is 666.,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 2,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 2,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 3,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 4,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 4,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 5,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 5,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 6,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 6,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 7,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 7,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 8,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 8,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 9,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 9,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 10,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 10,186
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 2,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 2,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 3,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 4,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 4,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 5,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 5,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 6,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 6,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 7,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 7,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 8,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 8,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 9,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 9,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 10,204
+androidone-master,com.sd.one.utils.db.gen,PurchaseDao,readEntity,Magic Number,The method contains a magic number: 10,204
+androidone-master,com.sd.one.utils.db.gen,AddressDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"ADDRESS\" ("+ "\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT `"+ "\"CUSTOMER_ID\" INTEGER NOT NULL `"+ "\"RECEIVER\" TEXT`"+ "\"MOBILE\" TEXT`"+ "\"PROVINCE\" TEXT`"+ "\"CITY\" TEXT`"+ "\"AREA\" TEXT`"+ "\"ADDRESS\" TEXT`"+ "\"ZIPCODE\" TEXT`"+ "\"CRETE_TIME\" TEXT);");" is 311.,48
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Complex Method,Cyclomatic complexity of the method is 10,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 2,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 3,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 4,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 5,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 6,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 7,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 8,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 9,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 10,70
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Complex Method,Cyclomatic complexity of the method is 10,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 2,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 3,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 4,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 5,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 6,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 7,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 8,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 9,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,bindValues,Magic Number,The method contains a magic number: 10,121
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Long Statement,The length of the statement "Address entity=new Address(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.getLong(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3)`cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4)`cursor.isNull(offset + 5) ? null : cursor.getString(offset + 5)`cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6)`cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7)`cursor.isNull(offset + 8) ? null : cursor.getString(offset + 8)`cursor.isNull(offset + 9) ? null : cursor.getString(offset + 9));" is 629.,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 2,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 2,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 3,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 3,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 4,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 4,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 5,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 5,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 6,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 6,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 7,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 7,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 8,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 8,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 9,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 9,177
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 2,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 2,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 3,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 3,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 4,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 4,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 5,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 5,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 6,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 6,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 7,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 7,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 8,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 8,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 9,194
+androidone-master,com.sd.one.utils.db.gen,AddressDao,readEntity,Magic Number,The method contains a magic number: 9,194
+androidone-master,com.sd.one.utils.db.gen,OrderDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"ORDER\" ("+ "\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT `"+ "\"CUSTOMER_ID\" INTEGER NOT NULL `"+ "\"NAME\" TEXT`"+ "\"FINAL_PRICE\" TEXT`"+ "\"PRICE\" TEXT`"+ "\"STATUS\" TEXT`"+ "\"DESC\" TEXT`"+ "\"CRETE_TIME\" TEXT);");" is 267.,46
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Complex Method,Cyclomatic complexity of the method is 8,66
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 2,66
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 3,66
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 4,66
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 5,66
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 6,66
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 7,66
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 8,66
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Complex Method,Cyclomatic complexity of the method is 8,107
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 2,107
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 3,107
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 4,107
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 5,107
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 6,107
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 7,107
+androidone-master,com.sd.one.utils.db.gen,OrderDao,bindValues,Magic Number,The method contains a magic number: 8,107
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Long Statement,The length of the statement "Order entity=new Order(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.getLong(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3)`cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4)`cursor.isNull(offset + 5) ? null : cursor.getString(offset + 5)`cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6)`cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7));" is 497.,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 2,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 2,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 3,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 3,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 4,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 4,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 5,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 5,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 6,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 6,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 7,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 7,153
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 2,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 2,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 3,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 3,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 4,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 4,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 5,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 5,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 6,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 6,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 7,168
+androidone-master,com.sd.one.utils.db.gen,OrderDao,readEntity,Magic Number,The method contains a magic number: 7,168
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"CUSTOMER\" ("+ "\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT `"+ "\"NAME\" TEXT`"+ "\"PHONE\" TEXT`"+ "\"CRETE_TIME\" TEXT);");" is 169.,42
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,bindValues,Magic Number,The method contains a magic number: 2,58
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,bindValues,Magic Number,The method contains a magic number: 3,58
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,bindValues,Magic Number,The method contains a magic number: 4,58
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,bindValues,Magic Number,The method contains a magic number: 2,83
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,bindValues,Magic Number,The method contains a magic number: 3,83
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,bindValues,Magic Number,The method contains a magic number: 4,83
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Long Statement,The length of the statement "Customer entity=new Customer(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3));" is 284.,113
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Magic Number,The method contains a magic number: 2,113
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Magic Number,The method contains a magic number: 2,113
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Magic Number,The method contains a magic number: 3,113
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Magic Number,The method contains a magic number: 3,113
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Magic Number,The method contains a magic number: 2,124
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Magic Number,The method contains a magic number: 2,124
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Magic Number,The method contains a magic number: 3,124
+androidone-master,com.sd.one.utils.db.gen,CustomerDao,readEntity,Magic Number,The method contains a magic number: 3,124
+androidone-master,com.sd.one.utils.db.gen,ProductDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"PRODUCT\" ("+ "\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT `"+ "\"PORDUCT_NAME\" TEXT`"+ "\"BASE_PRICE\" TEXT`"+ "\"IMAGE\" TEXT`"+ "\"DESC\" TEXT`"+ "\"CRETE_TIME\" TEXT);");" is 218.,44
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 2,65
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 3,65
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 4,65
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 5,65
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 6,65
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 2,100
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 3,100
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 4,100
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 5,100
+androidone-master,com.sd.one.utils.db.gen,ProductDao,bindValues,Magic Number,The method contains a magic number: 6,100
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Long Statement,The length of the statement "Product entity=new Product(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3)`cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4)`cursor.isNull(offset + 5) ? null : cursor.getString(offset + 5));" is 410.,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 2,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 2,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 3,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 3,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 4,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 4,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 5,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 5,140
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 2,153
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 2,153
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 3,153
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 3,153
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 4,153
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 4,153
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 5,153
+androidone-master,com.sd.one.utils.db.gen,ProductDao,readEntity,Magic Number,The method contains a magic number: 5,153
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,Base64OutputStream,Magic Number,The method contains a magic number: 76,64
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,write,Magic Number,The method contains a magic number: 0xFF,106
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,write,Magic Number,The method contains a magic number: 16,106
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,write,Magic Number,The method contains a magic number: 8,106
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,write,Magic Number,The method contains a magic number: 3,106
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 8,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 26,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 14,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 26,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 2,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 20,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 26,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 3,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 26,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 26,120
+androidone-master,com.sd.one.utils.encrypt,Base64OutputStream,commit,Magic Number,The method contains a magic number: 4,120
+androidone-master,com.sd.one.utils.encrypt,MD5,byteToArrayString,Magic Number,The method contains a magic number: 256,16
+androidone-master,com.sd.one.utils.encrypt,MD5,byteToArrayString,Magic Number,The method contains a magic number: 16,16
+androidone-master,com.sd.one.utils.encrypt,MD5,byteToArrayString,Magic Number,The method contains a magic number: 16,16
+androidone-master,com.sd.one.utils.encrypt,Base64,copy,Magic Number,The method contains a magic number: 1024,471
+androidone-master,com.sd.one.utils.encrypt,BackAES,selectMod,Magic Number,The method contains a magic number: 2,37
+androidone-master,com.sd.one.utils.encrypt,BackAES,selectMod,Magic Number,The method contains a magic number: 3,37
+androidone-master,com.sd.one.utils.encrypt,BackAES,newencrypt,Magic Number,The method contains a magic number: 128,129
+androidone-master,com.sd.one.utils.encrypt,BackAES,newdecrypt,Magic Number,The method contains a magic number: 128,156
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseByte2HexStr,Magic Number,The method contains a magic number: 0xFF,173
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 16,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 16,191
+androidone-master,com.sd.one.utils.encrypt,BackAES,parseHexStr2Byte,Magic Number,The method contains a magic number: 16,191
+androidone-master,com.sd.one.utils.encrypt,AESUtils,selectMod,Magic Number,The method contains a magic number: 2,37
+androidone-master,com.sd.one.utils.encrypt,AESUtils,selectMod,Magic Number,The method contains a magic number: 3,37
+androidone-master,com.sd.one.utils.encrypt,AESUtils,toKey,Magic Number,The method contains a magic number: 128,64
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseByte2HexStr,Magic Number,The method contains a magic number: 0xFF,135
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 16,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 2,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 16,154
+androidone-master,com.sd.one.utils.encrypt,AESUtils,parseHexStr2Byte,Magic Number,The method contains a magic number: 16,154
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Complex Method,Cyclomatic complexity of the method is 16,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 4,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 4,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 4,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 3,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 2,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 2,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 3,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 4,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 6,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 3,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 8,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 2,88
+androidone-master,com.sd.one.utils.encrypt,Base64InputStream,acquire,Magic Number,The method contains a magic number: 0xFF,88
+androidone-master,com.sd.one.utils.photo,PhotoUtils,selectPicture,Magic Number,The method contains a magic number: 19,71
+androidone-master,com.sd.one.utils.photo,PhotoUtils,onActivityResult,Complex Method,Cyclomatic complexity of the method is 10,159
+androidone-master,com.sd.one.utils.photo,PhotoUtils,getPath,Complex Method,Cyclomatic complexity of the method is 12,214
+androidone-master,com.sd.one.common.manager,ActivityPageManager,unbindReferences,Empty catch clause,The method has an empty catch block.,126
+androidone-master,com.sd.one.common.manager,ActivityPageManager,unbindViewGroupReferences,Empty catch clause,The method has an empty catch block.,145
+androidone-master,com.sd.one.common.manager,ActivityPageManager,unbindViewReferences,Empty catch clause,The method has an empty catch block.,161
+androidone-master,com.sd.one.common.manager,ActivityPageManager,unbindViewReferences,Empty catch clause,The method has an empty catch block.,161
+androidone-master,com.sd.one.common.manager,CacheManager,isInvalidCache,Magic Number,The method contains a magic number: 1000,172
+androidone-master,com.sd.one.common.okhttp,RequestParams,RequestParams,Magic Number,The method contains a magic number: 2,65
+androidone-master,com.sd.one.common.okhttp,RequestParams,RequestParams,Magic Number,The method contains a magic number: 2,65
+androidone-master,com.sd.one.common.okhttp,HttpsUtils,prepareTrustManager,Empty catch clause,The method has an empty catch block.,92
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,byteArrayToHexString,Magic Number,The method contains a magic number: 2,226
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,byteArrayToHexString,Magic Number,The method contains a magic number: 0xff,226
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,byteArrayToHexString,Magic Number,The method contains a magic number: 16,226
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,hexStringToByteArray,Magic Number,The method contains a magic number: 2,244
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,hexStringToByteArray,Magic Number,The method contains a magic number: 2,244
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,hexStringToByteArray,Magic Number,The method contains a magic number: 2,244
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,hexStringToByteArray,Magic Number,The method contains a magic number: 16,244
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,hexStringToByteArray,Magic Number,The method contains a magic number: 4,244
+androidone-master,com.sd.one.common.okhttp,PersistentCookieStore,hexStringToByteArray,Magic Number,The method contains a magic number: 16,244
+androidone-master,com.sd.one.common.okhttp,OkHttpUtils,OkHttpUtils,Long Statement,The length of the statement "HttpsUtils.SSLParams sslParams=HttpsUtils.getSslSocketFactory(new InputStream[]{new Buffer().writeUtf8(CER).inputStream()}`null`null);" is 134.,42
+androidone-master,com.sd.one.common.okhttp,OkHttpUtils,OkHttpUtils,Long Statement,The length of the statement "OkHttpClient.Builder builder=new OkHttpClient.Builder().connectTimeout(DEFAULT_CONNECT_TIMEOUT`TimeUnit.MILLISECONDS).writeTimeout(DEFAULT_WRITE_TIMEOUT`TimeUnit.MILLISECONDS).readTimeout(DEFAULT_READ_TIMEOUT`TimeUnit.MILLISECONDS).addInterceptor(new RequestInterceptor()).addInterceptor(logging).hostnameVerifier(new HostnameVerifier(){" is 337.,42
+androidone-master,com.sd.one.common.okhttp,OkHttpUtils,OkHttpUtils,Long Statement,The length of the statement ").sslSocketFactory(sslParams.sSLSocketFactory`sslParams.trustManager).cookieJar(new CookieJarImpl(new PersistentCookieStore(context)));" is 135.,42
+androidone-master,com.sd.one.common.okhttp,RequestInterceptor,intercept,Long Statement,The length of the statement "Request request=original.newBuilder().header("User-Agent"`"Your-App-Name").method(original.method()`original.body()).build();" is 125.,17
+androidone-master,com.sd.one.model.response,ConfigData,toString,Long Statement,The length of the statement "return "ConfigData{" + "id='" + id + '\''+ "` configName='"+ configName+ '\''+ "` type="+ type+ "` orderNum='"+ orderNum+ '\''+ "` description='"+ description+ '\''+ "` valid='"+ valid+ '\''+ "` configCode='"+ configCode+ '\''+ "` configValue='"+ configValue+ '\''+ "` checkFlag="+ checkFlag+ '}';" is 297.,97
+androidone-master,com.sd.one.service,RetrofitManager,RetrofitManager,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().client(OkHttpUtils.getInstance(context).getOkHttpClient()).addConverterFactory(FastJsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).baseUrl(Constants.DOMAIN).build();" is 237.,31
+androidone-master,com.sd.one.service,RetrofitManager,toSubscribe,Long Statement,The length of the statement "observable.subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(subscriber);" is 135.,60

@@ -1,0 +1,2 @@
+Project Name,Package Name,Architecture Smell,Cause of the Smell
+MovieFinderMVVM-master,mvvm.steelkiwi.com.moviefinder.base.mvvm,Feature Concentration,The tool detected the smell in this component because the component realizes more than one architectural concern/feature. Independent sets of related classes within this component are: [RecyclerConfiguration]; [BindingAdapters]; [BindingConversions]; [RecyclerBindingAdapter; OnItemClickListener; PaginationListener; BindingHolder]. LCC (Lack of Component Cohesion) = 0.57

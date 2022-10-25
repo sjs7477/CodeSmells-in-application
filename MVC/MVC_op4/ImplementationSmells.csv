@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model.api,ApiModule,getApiInterface,Long Statement,The length of the statement "Request request=original.newBuilder().header("Authorization"`"Basic " + AUTH_64).method(original.method()`original.body()).build();" is 131.,24
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model.api,ApiModule,getApiInterface,Long Statement,The length of the statement "Retrofit.Builder builder=new Retrofit.Builder().baseUrl("https://api.github.com/").addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create());" is 191.,24
+CodeSmells-in-application-MVC-4,ua.hanasaka.mvc2.model.api,ApiModule,intercept,Long Statement,The length of the statement "Request request=original.newBuilder().header("Authorization"`"Basic " + AUTH_64).method(original.method()`original.body()).build();" is 131.,28

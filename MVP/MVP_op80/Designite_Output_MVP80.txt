@@ -1,0 +1,35 @@
+C:\Users\ranja>java -jar DesigniteJava.jar -i C:\Users\ranja\Downloads\New_6_May_RA\MVP\80_Movies-MVP-Architecture-master -o C:\Users\ranja\Downloads\New_6_May_RA\MVVM_op80
+Searching classpath folders ...
+Could not find any classpath folder.
+Parsing the source code ...
+Resolving symbols...
+Computing metrics...
+Detecting code smells...
+Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+        Total LOC analyzed: 4653        Number of packages: 28
+        Number of classes: 86   Number of methods: 869
+-Total architecture smell instances detected-
+        Cyclic dependency: 4    God component: 0
+        Ambiguous interface: 0  Feature concentration: 3
+        Unstable dependency: 1  Scattered functionality: 0
+        Dense structure: 0
+-Total design smell instances detected-
+        Imperative abstraction: 0       Multifaceted abstraction: 0
+        Unnecessary abstraction: 2      Unutilized abstraction: 23
+        Feature envy: 1 Deficient encapsulation: 6
+        Unexploited encapsulation: 0    Broken modularization: 0
+        Cyclically-dependent modularization: 0  Hub-like modularization: 0
+        Insufficient modularization: 10 Broken hierarchy: 2
+        Cyclic hierarchy: 0     Deep hierarchy: 0
+        Missing hierarchy: 0    Multipath hierarchy: 0
+        Rebellious hierarchy: 0 Wide hierarchy: 0
+-Total implementation smell instances detected-
+        Abstract function call from constructor: 0      Complex conditional: 8
+        Complex method: 9       Empty catch clause: 1
+        Long identifier: 0      Long method: 1
+        Long parameter list: 7  Long statement: 68
+        Magic number: 241       Missing default: 2
+----
+Done.

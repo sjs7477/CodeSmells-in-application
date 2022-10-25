@@ -1,0 +1,849 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+LoveDouDou-master,com.barnettwong.lovedoudou,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+LoveDouDou-master,com.barnettwong.lovedoudou,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+LoveDouDou-master,com.barnettwong.lovedoudou,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,MainActivity,SwitchTo,Magic Number,The method contains a magic number: 2,118
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,MainActivity,SwitchTo,Magic Number,The method contains a magic number: 3,118
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,MainActivity,SwitchTo,Magic Number,The method contains a magic number: 4,118
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,MainActivity,SwitchTo,Missing default,The following switch statement is missing a default case: switch (position) {,118
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,initPermissions,Long Statement,The length of the statement "RxPermissions.getInstance(SplashActivity.this).request(Manifest.permission.READ_EXTERNAL_STORAGE`Manifest.permission.WRITE_EXTERNAL_STORAGE).subscribe(new Action1<Boolean>(){" is 174.,46
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startLogoOuterAndAppName,Magic Number,The method contains a magic number: 1000,85
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startLogoOuterAndAppName,Magic Number,The method contains a magic number: 0.8,85
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startLogoOuterAndAppName,Magic Number,The method contains a magic number: 0.95,85
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 0.8,89
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 0.95,89
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startLogoOuter,Long Statement,The length of the statement "animatorSet.playTogether(ObjectAnimator.ofFloat(logoBg`"scaleX"`new float[]{1.0F`1.25F`0.75F`1.15F`1.0F})`ObjectAnimator.ofFloat(logoBg`"scaleY"`new float[]{1.0F`0.75F`1.25F`0.85F`1.0F}));" is 188.,107
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startLogoOuter,Magic Number,The method contains a magic number: 1000,107
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startShowAppName,Magic Number,The method contains a magic number: 1000,115
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startShowAppName,Magic Number,The method contains a magic number: 1000,115
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startLogoInner2,Magic Number,The method contains a magic number: 30.0F,120
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,startLogoInner2,Magic Number,The method contains a magic number: 15.0F,120
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,finishActivity,Magic Number,The method contains a magic number: 1000,124
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,SplashActivity,run,Magic Number,The method contains a magic number: 1000,126
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,NewsDetailActivity,setWebSetting,Magic Number,The method contains a magic number: 50,54
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,NewsDetailActivity,onProgressChanged,Magic Number,The method contains a magic number: 50,82
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,PhotoDetailActivity,hideToolBarAndTextView,Magic Number,The method contains a magic number: 0.1f,148
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.activity,PhotoDetailActivity,startAnimation,Magic Number,The method contains a magic number: 500,157
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.adapter,VideoListAdapter,convert,Long Statement,The length of the statement "helper.setText(R.id.tv_play_time`String.format(mContext.getResources().getString(R.string.video_play_times)`String.valueOf(videoData.getPlayCount())));" is 151.,24
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.adapter,VideoListAdapter,convert,Long Statement,The length of the statement "boolean setUp=jcVideoPlayerStandard.setUp(videoData.getMp4_url()`JCVideoPlayer.SCREEN_LAYOUT_LIST`TextUtils.isEmpty(videoData.getDescription()) ? videoData.getTitle() + "" : videoData.getDescription());" is 202.,24
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.adapter,VideoListAdapter,convert,Long Statement,The length of the statement "Glide.with(mContext).load(videoData.getCover()).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().error(com.jaydenxiao.common.R.drawable.ic_empty_picture).crossFade().into(jcVideoPlayerStandard.thumbImageView);" is 214.,24
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,JokeFragment,initView,Magic Number,The method contains a magic number: 15,52
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,JokeFragment,showErrorTip,Magic Number,The method contains a magic number: 2000,106
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,PhotoFragment,initView,Long Statement,The length of the statement "StaggeredGridLayoutManager staggeredGridLayoutManager=new StaggeredGridLayoutManager(2`StaggeredGridLayoutManager.VERTICAL);" is 124.,60
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,PhotoFragment,initView,Magic Number,The method contains a magic number: 2,60
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,PhotoFragment,initView,Magic Number,The method contains a magic number: 10,60
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,PhotoFragment,showErrorTip,Magic Number,The method contains a magic number: 2000,119
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,PhotoFragment,onPhotoItemClicked,Long Statement,The length of the statement "ActivityOptions options=ActivityOptions.makeSceneTransitionAnimation(getActivity()`animationIv`AppConstant.TRANSITION_ANIMATION_NEWS_PHOTOS);" is 141.,149
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,PhotoFragment,onPhotoItemClicked,Long Statement,The length of the statement "ActivityOptionsCompat optionsCompat=ActivityOptionsCompat.makeScaleUpAnimation(view`view.getWidth() / 2`view.getHeight() / 2`0`0);" is 130.,149
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,PhotoFragment,onPhotoItemClicked,Magic Number,The method contains a magic number: 2,149
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,PhotoFragment,onPhotoItemClicked,Magic Number,The method contains a magic number: 2,149
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,ChildVideoFragment,initData,Long Statement,The length of the statement "helper.setText(R.id.tv_play_time`String.format(getResources().getString(R.string.video_play_times)`String.valueOf(videoData.getHot())));" is 136.,82
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,ChildVideoFragment,convert,Long Statement,The length of the statement "helper.setText(R.id.tv_play_time`String.format(getResources().getString(R.string.video_play_times)`String.valueOf(videoData.getHot())));" is 136.,85
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,ChildVideoFragment,initListener,Long Statement,The length of the statement "if (((ViewGroup)view).indexOfChild(videoPlayer) != -1 && videoPlayer.currentState == JCVideoPlayer.CURRENT_STATE_PLAYING) {" is 123.,103
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,ChildVideoFragment,onChildViewDetachedFromWindow,Long Statement,The length of the statement "if (((ViewGroup)view).indexOfChild(videoPlayer) != -1 && videoPlayer.currentState == JCVideoPlayer.CURRENT_STATE_PLAYING) {" is 123.,111
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,ChildVideoFragment,showErrorTip,Magic Number,The method contains a magic number: 2000,161
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.fragment,MovieCommentFragment,showErrorTip,Magic Number,The method contains a magic number: 2000,108
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,SlidingMenu,SlidingMenu,Magic Number,The method contains a magic number: 50,54
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,SlidingMenu,onFinishInflate,Long Statement,The length of the statement "ViewGroup.LayoutParams contentParams=new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT);" is 137.,80
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,SlidingMenu,onFinishInflate,Magic Number,The method contains a magic number: 2,80
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,SlidingMenu,onTouchEvent,Magic Number,The method contains a magic number: 11,123
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,SlidingMenu,onTouchEvent,Magic Number,The method contains a magic number: 2,123
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,SlidingMenu,onScrollChanged,Magic Number,The method contains a magic number: 0.8f,151
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,SlidingMenu,onLayout,Long Parameter List,The method has 5 parameters. ,184
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,init,Magic Number,The method contains a magic number: 5,60
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,init,Magic Number,The method contains a magic number: 8,60
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,onMeasure,Long Statement,The length of the statement "mCenterLayout.measure(MeasureSpec.makeMeasureSpec(mScreenWidth - 2 * mLeftText.getMeasuredWidth()`MeasureSpec.EXACTLY)`heightMeasureSpec);" is 138.,358
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,onMeasure,Long Statement,The length of the statement "mCenterLayout.measure(MeasureSpec.makeMeasureSpec(mScreenWidth - 2 * mRightLayout.getMeasuredWidth()`MeasureSpec.EXACTLY)`heightMeasureSpec);" is 141.,358
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,onMeasure,Magic Number,The method contains a magic number: 2,358
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,onMeasure,Magic Number,The method contains a magic number: 2,358
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,onLayout,Long Parameter List,The method has 5 parameters. ,384
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,onLayout,Long Statement,The length of the statement "mRightLayout.layout(mScreenWidth - mRightLayout.getMeasuredWidth()`mStatusBarHeight`mScreenWidth`mRightLayout.getMeasuredHeight() + mStatusBarHeight);" is 150.,384
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,onLayout,Long Statement,The length of the statement "mCenterLayout.layout(mLeftText.getMeasuredWidth()`mStatusBarHeight`mScreenWidth - mLeftText.getMeasuredWidth()`getMeasuredHeight());" is 132.,384
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,onLayout,Long Statement,The length of the statement "mCenterLayout.layout(mRightLayout.getMeasuredWidth()`mStatusBarHeight`mScreenWidth - mRightLayout.getMeasuredWidth()`getMeasuredHeight());" is 138.,384
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,TitleBar,dip2px,Magic Number,The method contains a magic number: 0.5f,399
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,UrlImageGetter,getDrawable,Long Statement,The length of the statement "bitmap=Glide.with(mContext).load(source).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).error(R.mipmap.ic_load_fail).diskCacheStrategy(DiskCacheStrategy.ALL).into(Target.SIZE_ORIGINAL`Target.SIZE_ORIGINAL).get();" is 214.,52
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,UrlImageGetter,call,Long Statement,The length of the statement "bitmap=Glide.with(mContext).load(source).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).error(R.mipmap.ic_load_fail).diskCacheStrategy(DiskCacheStrategy.ALL).into(Target.SIZE_ORIGINAL`Target.SIZE_ORIGINAL).get();" is 214.,57
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,PhotoTextView,setContainText,Long Statement,The length of the statement "int width=getResources().getDisplayMetrics().widthPixels - getResources().getDimensionPixelOffset(R.dimen.activity_horizontal_margin) * 2;" is 138.,40
+LoveDouDou-master,com.barnettwong.lovedoudou.ui.view,PhotoTextView,setContainText,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.contract,JuHeJokeContract,getJokesListData,Long Parameter List,The method has 5 parameters. ,20
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.contract,JuHeJokeContract,getJokesListDataRequest,Long Parameter List,The method has 5 parameters. ,28
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.contract,Model,getJokesListData,Long Parameter List,The method has 5 parameters. ,20
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.contract,Presenter,getJokesListDataRequest,Long Parameter List,The method has 5 parameters. ,28
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.presenter,JuHeNewsPresenter,getNewsListDataRequest,Long Statement,The length of the statement "mRxManage.add(mModel.getNewsListData(type`appkey).subscribe(new RxSubscriber<List<JuHeNewsData.ResultData.JuheNewsBean>>(mContext`false){" is 137.,14
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.presenter,JuHeJokesPresenter,getJokesListDataRequest,Long Parameter List,The method has 5 parameters. ,14
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.presenter,JuHeJokesPresenter,getJokesListDataRequest,Long Statement,The length of the statement "mRxManage.add(mModel.getJokesListData(sort`page`pagesize`time`key).subscribe(new RxSubscriber<List<JuheJokeData.ResultBean.DataBean>>(mContext`false){" is 150.,14
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.model,VideoListsModel,getVideoLists,Long Statement,The length of the statement "return Api.getDefault(HostType.PH_HOST).getVideoLists(map).map(resultBean -> resultBean.getData()).compose(RxSchedulers.io_main());" is 131.,20
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.model,PhotoListModel,getGirlListData,Long Statement,The length of the statement "return Api.getDefault(HostType.GIRL_HOST).getPhotoList(Api.getCacheControl()`size`page).map(newsResult -> newsResult.getResults()).compose(RxSchedulers.io_main());" is 163.,19
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.model,MovieCommentModel,getMovieComments,Long Statement,The length of the statement "return Api.getDefault(HostType.YINGPIN_HOST).getMovieReview().map(resultBean -> resultBean).compose(RxSchedulers.io_main());" is 124.,19
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.model,JuHeJokesListModel,getJokesListData,Long Parameter List,The method has 5 parameters. ,21
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.model,JuHeJokesListModel,getJokesListData,Long Statement,The length of the statement "return Api.getDefault(HostType.NET_HOST).getJUHEJOkesList(map).map(newsResult -> newsResult.getResult().getData()).compose(RxSchedulers.io_main());" is 147.,21
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.model,JuHeNewsListModel,getNewsListData,Long Statement,The length of the statement "return Api.getDefault(HostType.NET_HOST).getJUHENewsList(map).map(newsResult -> newsResult.getResult().data).compose(RxSchedulers.io_main());" is 141.,21
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.model,MovieDetailModel,getMovieDetail,Long Statement,The length of the statement "return Api.getDefault(HostType.YINGPIN_HOST).getReviewDetails(reviewId).map(resultBean -> resultBean).compose(RxSchedulers.io_main());" is 134.,16
+LoveDouDou-master,com.barnettwong.lovedoudou.mvp.model,VideoTypesModel,getVideoTypes,Long Statement,The length of the statement "return Api.getDefault(HostType.PH_HOST).getVideoTypes(map).map(resultBean -> resultBean.getData()).compose(RxSchedulers.io_main());" is 131.,20
+LoveDouDou-master,com.barnettwong.lovedoudou.util,RxJavaCustomTransform,defaultSchedulers,Long Statement,The length of the statement "return tObservable.unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 121.,13
+LoveDouDou-master,com.barnettwong.lovedoudou.util,RxJavaCustomTransform,call,Long Statement,The length of the statement "return tObservable.unsubscribeOn(Schedulers.io()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());" is 121.,15
+LoveDouDou-master,com.barnettwong.lovedoudou.util,Utils,getMD5Str,Long Statement,The length of the statement "if (Integer.toHexString(0xFF & byteArray[i]).length() == 1) md5StrBuff.append("0").append(Integer.toHexString(0xFF & byteArray[i]));" is 132.,27
+LoveDouDou-master,com.barnettwong.lovedoudou.util,Utils,getMD5Str,Magic Number,The method contains a magic number: 0xFF,27
+LoveDouDou-master,com.barnettwong.lovedoudou.util,Utils,getMD5Str,Magic Number,The method contains a magic number: 0xFF,27
+LoveDouDou-master,com.barnettwong.lovedoudou.util,Utils,getMD5Str,Magic Number,The method contains a magic number: 0xFF,27
+LoveDouDou-master,com.barnettwong.lovedoudou.util,Utils,buildSign,Magic Number,The method contains a magic number: 0xFF,98
+LoveDouDou-master,com.barnettwong.lovedoudou.util,SystemUiVisibilityUtil,exit,Magic Number,The method contains a magic number: 19,17
+LoveDouDou-master,com.barnettwong.lovedoudou.util,SystemUiVisibilityUtil,enter,Magic Number,The method contains a magic number: 19,27
+LoveDouDou-master,com.barnettwong.lovedoudou.util,PhotoDetailUtil,getImageContentUri,Long Statement,The length of the statement "Cursor cursor=context.getContentResolver().query(MediaStore.Images.Media.EXTERNAL_CONTENT_URI`new String[]{MediaStore.Images.Media._ID}`MediaStore.Images.Media.DATA + "=?"`new String[]{absolutePath}`null);" is 205.,41
+LoveDouDou-master,com.barnettwong.lovedoudou.api,ApiConstants,getHost,Missing default,The following switch statement is missing a default case: switch (hostType) {,37
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,Api,Long Identifier,The length of the field mRewriteCacheControlInterceptor is 31.,73
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,Api,Long Statement,The length of the statement "okHttpClient=new OkHttpClient.Builder().readTimeout(READ_TIME_OUT`TimeUnit.SECONDS).connectTimeout(CONNECT_TIME_OUT`TimeUnit.SECONDS).addInterceptor(mRewriteCacheControlInterceptor).addNetworkInterceptor(mRewriteCacheControlInterceptor).addInterceptor(headerInterceptor).addInterceptor(logInterceptor).cache(cache).build();" is 323.,73
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,Api,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().client(okHttpClient).addConverterFactory(LenientGsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).baseUrl(ApiConstants.getHost(hostType)).build();" is 216.,73
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,Api,Magic Number,The method contains a magic number: 1024,73
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,Api,Magic Number,The method contains a magic number: 1024,73
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,Api,Magic Number,The method contains a magic number: 100,73
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,intercept,Long Statement,The length of the statement "request=request.newBuilder().cacheControl(TextUtils.isEmpty(cacheControl) ? CacheControl.FORCE_NETWORK : CacheControl.FORCE_CACHE).build();" is 139.,179
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,intercept,Long Statement,The length of the statement "return originalResponse.newBuilder().header("Cache-Control"`"public` only-if-cached` max-stale=" + CACHE_STALE_SEC).removeHeader("Pragma").build();" is 147.,179
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,intercept,Long Statement,The length of the statement "return response.newBuilder().header("Cache-Control"`"public`only-if-cached`max-stale=" + maxStale).removeHeader("Pragma").build();" is 130.,206
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,intercept,Magic Number,The method contains a magic number: 60,206
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,intercept,Magic Number,The method contains a magic number: 60,206
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,intercept,Magic Number,The method contains a magic number: 60,206
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,intercept,Magic Number,The method contains a magic number: 24,206
+LoveDouDou-master,com.barnettwong.lovedoudou.api,Api,intercept,Magic Number,The method contains a magic number: 7,206
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil,ShareUtil,shareMedia,Long Parameter List,The method has 7 parameters. ,119
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil,ShareUtil,shareMedia,Long Parameter List,The method has 7 parameters. ,132
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil,ShareUtil,getShareInstance,Missing default,The following switch statement is missing a default case: switch (platform) {,163
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil,ShareUtil,recycle,Complex Conditional,The conditional expression mShareImageObject != null && mShareImageObject.getBitmap() != null && !mShareImageObject.getBitmap().isRecycled() is complex.,180
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil,ShareUtil,isInstalled,Missing default,The following switch statement is missing a default case: switch (platform) {,199
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil,LoginUtil,action,Missing default,The following switch statement is missing a default case: switch (mPlatform) {,46
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.result,QQUser,parse,Magic Number,The method contains a magic number: 2,18
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.result,WeiboUser,parse,Magic Number,The method contains a magic number: 2,22
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,WxLoginInstance,getToken,Long Statement,The length of the statement "`Emitter.BackpressureMode.DROP).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<WxToken>(){" is 136.,72
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,WxLoginInstance,fetchUserInfo,Long Statement,The length of the statement "`Emitter.BackpressureMode.DROP).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<WxUser>(){" is 135.,107
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,WxLoginInstance,handleResult,Missing default,The following switch statement is missing a default case: switch (resp.errCode) {,139
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,WxLoginInstance,onResp,Missing default,The following switch statement is missing a default case: switch (resp.errCode) {,146
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,WxLoginInstance,buildTokenUrl,Long Statement,The length of the statement "return BASE_URL + "oauth2/access_token?appid=" + ShareManager.CONFIG.getWxId()+ "&secret="+ ShareManager.CONFIG.getWxSecret()+ "&code="+ code+ "&grant_type=authorization_code";" is 176.,186
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,QQLoginInstance,fetchUserInfo,Long Statement,The length of the statement "`Emitter.BackpressureMode.DROP).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<QQUser>(){" is 135.,98
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,QQLoginInstance,buildUserInfoUrl,Long Statement,The length of the statement "return base + "?access_token=" + token.getAccessToken()+ "&oauth_consumer_key="+ ShareManager.CONFIG.getQqId()+ "&openid="+ token.getOpenid();" is 142.,133
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,WeiboLoginInstance,WeiboLoginInstance,Long Statement,The length of the statement "AuthInfo authInfo=new AuthInfo(activity`ShareManager.CONFIG.getWeiboId()`ShareManager.CONFIG.getWeiboRedirectUrl()`ShareManager.CONFIG.getWeiboScope());" is 152.,51
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.login.instance,WeiboLoginInstance,fetchUserInfo,Long Statement,The length of the statement "`Emitter.BackpressureMode.DROP).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<WeiboUser>(){" is 138.,89
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share,ImageDecoder,decode,Magic Number,The method contains a magic number: 100,35
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share,ImageDecoder,copyFile,Magic Number,The method contains a magic number: 4096,87
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share,ImageDecoder,compress2Byte,Magic Number,The method contains a magic number: 2,104
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share,ImageDecoder,compress2Byte,Magic Number,The method contains a magic number: 100,104
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share,ImageDecoder,compress2Byte,Magic Number,The method contains a magic number: 10,104
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share,ShareListener,onResponse,Missing default,The following switch statement is missing a default case: switch (baseResponse.errCode) {,32
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,ShareInstance,shareMedia,Long Parameter List,The method has 7 parameters. ,19
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WxShareInstance,shareMedia,Long Parameter List,The method has 7 parameters. ,65
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WxShareInstance,shareMedia,Long Statement,The length of the statement "`Emitter.BackpressureMode.DROP).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnRequest(new Action1<Long>(){" is 135.,65
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WxShareInstance,shareImage,Long Statement,The length of the statement "emitter.onNext(Pair.create(BitmapFactory.decodeFile(imagePath)`ImageDecoder.compress2Byte(imagePath`TARGET_SIZE`THUMB_SIZE)));" is 126.,111
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WxShareInstance,shareImage,Long Statement,The length of the statement "`Emitter.BackpressureMode.BUFFER).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnRequest(new Action1<Long>(){" is 137.,111
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WxShareInstance,call,Long Statement,The length of the statement "emitter.onNext(Pair.create(BitmapFactory.decodeFile(imagePath)`ImageDecoder.compress2Byte(imagePath`TARGET_SIZE`THUMB_SIZE)));" is 126.,115
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WxShareInstance,handleResult,Missing default,The following switch statement is missing a default case: switch (baseResp.errCode) {,154
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WxShareInstance,onResp,Missing default,The following switch statement is missing a default case: switch (baseResp.errCode) {,161
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WxShareInstance,sendMessage,Long Statement,The length of the statement "req.scene=platform == SharePlatform.WX_TIMELINE ? SendMessageToWX.Req.WXSceneTimeline : SendMessageToWX.Req.WXSceneSession;" is 123.,187
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,QQShareInstance,shareMedia,Long Parameter List,The method has 7 parameters. ,54
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,QQShareInstance,shareMedia,Long Statement,The length of the statement "`Emitter.BackpressureMode.DROP).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnRequest(new Action1<Long>(){" is 135.,54
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,QQShareInstance,shareImage,Long Statement,The length of the statement "`Emitter.BackpressureMode.DROP).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnRequest(new Action1<Long>(){" is 135.,96
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,QQShareInstance,shareToQQForMedia,Long Parameter List,The method has 6 parameters. ,165
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,QQShareInstance,shareToQZoneForMedia,Long Parameter List,The method has 6 parameters. ,191
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,DefaultShareInstance,shareMedia,Long Parameter List,The method has 7 parameters. ,38
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,DefaultShareInstance,shareImage,Long Statement,The length of the statement "`Emitter.BackpressureMode.BUFFER).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnRequest(new Action1<Long>(){" is 137.,49
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WeiboShareInstance,shareMedia,Long Parameter List,The method has 7 parameters. ,58
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WeiboShareInstance,handleResult,Missing default,The following switch statement is missing a default case: switch (baseResponse.errCode) {,72
+LoveDouDou-master,com.barnettwong.lovedoudou.share.shareutil.share.instance,WeiboShareInstance,shareTextOrImage,Long Statement,The length of the statement "`Emitter.BackpressureMode.DROP).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnRequest(new Action1<Long>(){" is 135.,102
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelActivity,onCreate,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 126.,60
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelActivity,onRequestPermissionsResult,Long Statement,The length of the statement "getSupportFragmentManager().beginTransaction().add(R.id.fmImageList`ImgSelFragment.instance(config)`null).commitAllowingStateLoss();" is 132.,193
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,193
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Complex Method,Cyclomatic complexity of the method is 10,84
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Empty catch clause,The method has an empty catch block.,84
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onViewCreated,Magic Number,The method contains a magic number: 3,84
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Complex Method,Cyclomatic complexity of the method is 9,105
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Long Statement,The length of the statement "CursorLoader cursorLoader=new CursorLoader(getActivity()`MediaStore.Images.Media.EXTERNAL_CONTENT_URI`IMAGE_PROJECTION`null`null`IMAGE_PROJECTION[2] + " DESC");" is 160.,152
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Long Statement,The length of the statement "CursorLoader cursorLoader=new CursorLoader(getActivity()`MediaStore.Images.Media.EXTERNAL_CONTENT_URI`IMAGE_PROJECTION`IMAGE_PROJECTION[0] + " like '%" + args.getString("path")+ "%'"`null`IMAGE_PROJECTION[2] + " DESC");" is 219.,152
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Magic Number,The method contains a magic number: 2,152
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onCreateLoader,Magic Number,The method contains a magic number: 2,152
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onLoadFinished,Complex Method,Cyclomatic complexity of the method is 9,168
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onLoadFinished,Magic Number,The method contains a magic number: 2,168
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 3,256
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 2,256
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 3,256
+LoveDouDou-master,com.yuyh.library.imgsel,ImgSelFragment,onClick,Magic Number,The method contains a magic number: 2,256
+LoveDouDou-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1024,207
+LoveDouDou-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1048576,207
+LoveDouDou-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1024,207
+LoveDouDou-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1073741824,207
+LoveDouDou-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1048576,207
+LoveDouDou-master,com.yuyh.library.imgsel.utils,FileUtils,formatFileSizeToString,Magic Number,The method contains a magic number: 1073741824,207
+LoveDouDou-master,com.yuyh.library.imgsel.utils,FileUtils,getFileOutputString,Magic Number,The method contains a magic number: 8192,285
+LoveDouDou-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'e' == level && ('e' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+LoveDouDou-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'w' == level && ('w' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+LoveDouDou-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'd' == level && ('d' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+LoveDouDou-master,com.yuyh.library.imgsel.utils,LogUtils,log,Complex Conditional,The conditional expression 'i' == level && ('d' == LOG_TYPE || 'v' == LOG_TYPE) is complex.,102
+LoveDouDou-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+LoveDouDou-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+LoveDouDou-master,com.example.provider7,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+LoveDouDou-master,com.example.provider7,ProviderSevenUriUtils,getUriForFile,Magic Number,The method contains a magic number: 24,18
+LoveDouDou-master,com.example.provider7,ProviderSevenUriUtils,getUriForFile24,Long Statement,The length of the statement "Uri fileUri=android.support.v4.content.FileProvider.getUriForFile(context`"com.barnettwong.lovedoudou.fileprovider"`file);" is 122.,28
+LoveDouDou-master,com.example.provider7,ProviderSevenUriUtils,setIntentDataAndType,Long Parameter List,The method has 5 parameters. ,36
+LoveDouDou-master,com.example.provider7,ProviderSevenUriUtils,setIntentDataAndType,Magic Number,The method contains a magic number: 24,36
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeChanged,Magic Number,The method contains a magic number: 2,38
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeChanged,Magic Number,The method contains a magic number: 2,43
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeInserted,Magic Number,The method contains a magic number: 2,48
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,onItemRangeRemoved,Magic Number,The method contains a magic number: 2,53
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,WrapperAdapter,Long Parameter List,The method has 5 parameters. ,64
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,getItemCount,Magic Number,The method contains a magic number: 4,114
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,119
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,getItemViewType,Magic Number,The method contains a magic number: 3,119
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,151
+LoveDouDou-master,com.aspsine.irecyclerview,WrapperAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,151
+LoveDouDou-master,com.aspsine.irecyclerview,IViewHolder,getIPosition,Magic Number,The method contains a magic number: 2,15
+LoveDouDou-master,com.aspsine.irecyclerview,IViewHolder,getILayoutPosition,Magic Number,The method contains a magic number: 2,20
+LoveDouDou-master,com.aspsine.irecyclerview,IViewHolder,getIAdapterPosition,Magic Number,The method contains a magic number: 2,24
+LoveDouDou-master,com.aspsine.irecyclerview,IViewHolder,getIOldPosition,Magic Number,The method contains a magic number: 2,28
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,setRefreshHeaderView,Long Statement,The length of the statement "final View refreshHeader=LayoutInflater.from(getContext()).inflate(refreshHeaderLayoutRes`mRefreshHeaderContainer`false);" is 121.,243
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,setLoadMoreFooterView,Long Statement,The length of the statement "final View loadMoreFooter=LayoutInflater.from(getContext()).inflate(loadMoreFooterLayoutRes`mLoadMoreFooterContainer`false);" is 124.,272
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,removeFooterView,Magic Number,The method contains a magic number: 2,321
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,addFooterView,Magic Number,The method contains a magic number: 2,330
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,setAdapter,Long Statement,The length of the statement "super.setAdapter(new WrapperAdapter(adapter`mRefreshHeaderContainer`mHeaderViewContainer`mFooterViewContainer`mLoadMoreFooterContainer));" is 137.,344
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,ensureLoadMoreFooterContainer,Long Statement,The length of the statement "mLoadMoreFooterContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 132.,360
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,ensureHeaderViewContainer,Long Statement,The length of the statement "mHeaderViewContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 128.,367
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,ensureFooterViewContainer,Long Statement,The length of the statement "mFooterViewContainer.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 128.,375
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onInterceptTouchEvent,Magic Number,The method contains a magic number: 0.5f,403
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 16,437
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Long Statement,The length of the statement "LogUtils.loge(TAG`"Error processing scroll; pointer index for id " + index + " not found. Did any MotionEvents get skipped?");" is 126.,437
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onTouchEvent,Long Statement,The length of the statement "final boolean triggerCondition=isEnabled() && mRefreshEnabled && mRefreshHeaderView != null && isFingerDragging() && canTriggerRefresh();" is 137.,437
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,getMotionEventX,Magic Number,The method contains a magic number: 0.5f,544
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,getMotionEventY,Magic Number,The method contains a magic number: 0.5f,548
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,fingerMove,Magic Number,The method contains a magic number: 0.5f,552
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,fingerMove,Magic Number,The method contains a magic number: 0.5,552
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,startScrollDefaultStatusToRefreshingStatus,Magic Number,The method contains a magic number: 400,583
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,startScrollSwipingToRefreshStatusToDefaultStatus,Magic Number,The method contains a magic number: 300,591
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,startScrollReleaseStatusToRefreshingStatus,Magic Number,The method contains a magic number: 300,597
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,startScrollRefreshingStatusToDefaultStatus,Magic Number,The method contains a magic number: 400,605
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onAnimationEnd,Complex Method,Cyclomatic complexity of the method is 8,659
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,onAnimationEnd,Long Statement,The length of the statement "LogUtils.logi(TAG`"onAnimationEnd " + getStatusLog(lastStatus) + " -> "+ getStatusLog(mStatus)+ " ;refresh view height:"+ mRefreshHeaderContainer.getMeasuredHeight());" is 167.,659
+LoveDouDou-master,com.aspsine.irecyclerview,IRecyclerView,getStatusLog,Missing default,The following switch statement is missing a default case: switch (status) {,787
+LoveDouDou-master,com.aspsine.irecyclerview,RefreshHeaderLayout,onLayout,Long Parameter List,The method has 5 parameters. ,83
+LoveDouDou-master,com.aspsine.irecyclerview,OnLoadMoreScrollListener,onScrollStateChanged,Long Statement,The length of the statement "boolean triggerCondition=visibleItemCount > 0 && newState == RecyclerView.SCROLL_STATE_IDLE && canTriggerLoadMore(recyclerView);" is 128.,15
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 100.0f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 380.0f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 100.0f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 360f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 360f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 0.5f,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,AndroidVsIosHeaderView,Magic Number,The method contains a magic number: 2000,40
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,onMove,Magic Number,The method contains a magic number: 360,90
+LoveDouDou-master,com.aspsine.irecyclerview.widget,AndroidVsIosHeaderView,onMove,Magic Number,The method contains a magic number: 360,90
+LoveDouDou-master,com.aspsine.irecyclerview.universaladapter.recyclerview.support,SectionAdapter,SectionAdapter,Long Parameter List,The method has 5 parameters. ,52
+LoveDouDou-master,com.aspsine.irecyclerview.universaladapter,ViewHolderHelper,get,Long Parameter List,The method has 5 parameters. ,45
+LoveDouDou-master,com.jaydenxiao.common.baserx,RxSubscriber,onError,Complex Conditional,The conditional expression e instanceof JsonParseException || e instanceof ParseException || e instanceof JSONException|| e instanceof JsonIOException is complex.,89
+LoveDouDou-master,com.jaydenxiao.common.baserx,RxSubscriber,onError,Long Statement,The length of the statement "else if (e instanceof JsonParseException || e instanceof ParseException || e instanceof JSONException|| e instanceof JsonIOException) {" is 135.,89
+LoveDouDou-master,com.jaydenxiao.common.baserx,RxSubscriber,convertStatusCode,Magic Number,The method contains a magic number: 500,123
+LoveDouDou-master,com.jaydenxiao.common.baserx,RxSubscriber,convertStatusCode,Magic Number,The method contains a magic number: 404,123
+LoveDouDou-master,com.jaydenxiao.common.baserx,RxSubscriber,convertStatusCode,Magic Number,The method contains a magic number: 403,123
+LoveDouDou-master,com.jaydenxiao.common.baserx,RxSubscriber,convertStatusCode,Magic Number,The method contains a magic number: 307,123
+LoveDouDou-master,com.jaydenxiao.common.baserx,RxManager,on,Long Statement,The length of the statement "mCompositeSubscription.add(mObservable.observeOn(AndroidSchedulers.mainThread()).subscribe(action1`new Action1<Throwable>(){" is 124.,24
+LoveDouDou-master,com.jaydenxiao.common.baserx,RxCache,load,Long Parameter List,The method has 5 parameters. ,43
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,OnDoubleClickListener,onClick,Magic Number,The method contains a magic number: 2,15
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,OnDoubleClickListener,onClick,Magic Number,The method contains a magic number: 1000,15
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,LoadingTip,setLoadingTip,Complex Method,Cyclomatic complexity of the method is 8,82
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,LoadingDialog,showDialogForLoading,Long Statement,The length of the statement "mLoadingDialog.setContentView(view`new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT));" is 145.,21
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,LoadingDialog,showDialogForLoading,Long Statement,The length of the statement "mLoadingDialog.setContentView(view`new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT));" is 145.,40
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,NoScrollListview,onMeasure,Magic Number,The method contains a magic number: 2,19
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,setStatusBarColor,Complex Conditional,The conditional expression mDecorView.getTag() != null && mDecorView.getTag() instanceof Boolean && (Boolean)mDecorView.getTag() is complex.,32
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,translucentStatusBar,Complex Conditional,The conditional expression mDecorView.getTag() != null && mDecorView.getTag() instanceof Boolean && (Boolean)mDecorView.getTag() is complex.,89
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,translucentStatusBar,Complex Method,Cyclomatic complexity of the method is 9,89
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 255f,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 16,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 8,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0.5,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 0xff,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 24,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 16,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,StatusBarCompat,calculateStatusBarColor,Magic Number,The method contains a magic number: 8,153
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,WaveView,WaveView,Magic Number,The method contains a magic number: 80,28
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 0.1f,48
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 2,48
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 20,48
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 8,48
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,WaveView,onDraw,Magic Number,The method contains a magic number: 20,48
+LoveDouDou-master,com.jaydenxiao.common.commonwidget,NoScrollGridView,onMeasure,Magic Number,The method contains a magic number: 2,22
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 6,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0xff,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 0x3f,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 4,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 3,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,encode,Magic Number,The method contains a magic number: 2,40
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,113
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 3,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 4,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 2,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,decode,Magic Number,The method contains a magic number: 6,175
+LoveDouDou-master,com.jaydenxiao.common.security,Base64,isValidBase64Byte,Magic Number,The method contains a magic number: 128,274
+LoveDouDou-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+LoveDouDou-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+LoveDouDou-master,com.jaydenxiao.common.security,Md5Security,getMD5,Magic Number,The method contains a magic number: 0xff,11
+LoveDouDou-master,com.jaydenxiao.common.security,AESUtil,Encrypt,Magic Number,The method contains a magic number: 16,22
+LoveDouDou-master,com.jaydenxiao.common.security,AESUtil,Decrypt,Magic Number,The method contains a magic number: 16,43
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,init,Complex Method,Cyclomatic complexity of the method is 13,80
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,onCreateView,Complex Method,Cyclomatic complexity of the method is 13,88
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,getAttr,Complex Conditional,The conditional expression attrName == null || attrName.trim().equals("") || draw == null is complex.,139
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeNight,Complex Conditional,The conditional expression mBackGroundDrawableViews == null || mOneTextColorViews == null || mBackGroundViews == null is complex.,183
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeDay,Complex Conditional,The conditional expression mBackGroundDrawableViews == null || mOneTextColorViews == null || mTwoTextColorViews == null || mThreeTextColorViews == null || mBackGroundViews == null is complex.,198
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,changeDay,Long Statement,The length of the statement "if (mBackGroundDrawableViews == null || mOneTextColorViews == null || mTwoTextColorViews == null || mThreeTextColorViews == null || mBackGroundViews == null) {" is 159.,198
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,refreshStatusBar,Magic Number,The method contains a magic number: 21,265
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,showAnimation,Long Statement,The length of the statement "ViewGroup.LayoutParams layoutParam=new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT);" is 135.,277
+LoveDouDou-master,com.jaydenxiao.common.daynightmodeutils,ChangeModeController,showAnimation,Magic Number,The method contains a magic number: 500,277
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,Compressor,compressToFile,Long Statement,The length of the statement "return ImageUtil.compressImage(context`Uri.fromFile(file)`maxWidth`maxHeight`compressFormat`quality`destinationDirectoryPath);" is 126.,74
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 16,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 1024,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2.0f,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2.0f,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 2,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 6,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 90,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 3,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 180,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 8,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,getScaledBitmap,Magic Number,The method contains a magic number: 270,26
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,compressImage,Empty catch clause,The method has an empty catch block.,124
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,compressImage,Long Parameter List,The method has 7 parameters. ,124
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,generateFilePath,Long Statement,The length of the statement "return file.getAbsolutePath() + File.separator + FileUtil.splitFileName(FileUtil.getFileName(context`uri))[0]+ "."+ extension;" is 126.,158
+LoveDouDou-master,com.jaydenxiao.common.compressorutils,ImageUtil,calculateInSampleSize,Magic Number,The method contains a magic number: 2,166
+LoveDouDou-master,com.jaydenxiao.common.baseapp,AppManager,preActivity,Magic Number,The method contains a magic number: 2,59
+LoveDouDou-master,com.jaydenxiao.common.baseapp,AppManager,AppExit,Empty catch clause,The method has an empty catch block.,159
+LoveDouDou-master,com.jaydenxiao.common.commonutils,NetWorkUtils,isNetConnected,Long Statement,The length of the statement "NetworkInfo localNetworkInfo=((ConnectivityManager)paramContext.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();" is 135.,17
+LoveDouDou-master,com.jaydenxiao.common.commonutils,NetWorkUtils,isLinkAvailable,Long Statement,The length of the statement "Pattern pattern=Pattern.compile("^(http://|https://)?((?:[A-Za-z0-9]+-[A-Za-z0-9]+|[A-Za-z0-9]+)\\.)+([A-Za-z]+)[/\\?\\:]?.*$"`Pattern.CASE_INSENSITIVE);" is 153.,59
+LoveDouDou-master,com.jaydenxiao.common.commonutils,IpUtils,GetHostIp,Empty catch clause,The method has an empty catch block.,15
+LoveDouDou-master,com.jaydenxiao.common.commonutils,IpUtils,GetHostIp,Empty catch clause,The method has an empty catch block.,15
+LoveDouDou-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2,27
+LoveDouDou-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2,27
+LoveDouDou-master,com.jaydenxiao.common.commonutils,GlideCircleTransfromUtil,circleCrop,Magic Number,The method contains a magic number: 2f,27
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Parameter List,The method has 5 parameters. ,18
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,26
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,38
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displaySmallPhoto,Long Statement,The length of the statement "Glide.with(context).load(url).asBitmap().diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).thumbnail(0.5f).into(imageView);" is 190.,49
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displaySmallPhoto,Magic Number,The method contains a magic number: 0.5f,49
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayBigPhoto,Long Statement,The length of the statement "Glide.with(context).load(url).asBitmap().format(DecodeFormat.PREFER_ARGB_8888).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).into(imageView);" is 212.,60
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,display,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop().placeholder(R.drawable.ic_image_loading).error(R.drawable.ic_empty_picture).crossFade().into(imageView);" is 188.,71
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayRound,Long Statement,The length of the statement "Glide.with(context).load(url).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.toux2).centerCrop().transform(new GlideRoundTransformUtil(context)).into(imageView);" is 172.,82
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ImageLoaderUtils,displayRound,Long Statement,The length of the statement "Glide.with(context).load(resId).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.toux2).centerCrop().transform(new GlideRoundTransformUtil(context)).into(imageView);" is 174.,91
+LoveDouDou-master,com.jaydenxiao.common.commonutils,DisplayUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,27
+LoveDouDou-master,com.jaydenxiao.common.commonutils,DisplayUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,39
+LoveDouDou-master,com.jaydenxiao.common.commonutils,DisplayUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,51
+LoveDouDou-master,com.jaydenxiao.common.commonutils,DisplayUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,63
+LoveDouDou-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,PermissionDialog,Long Statement,The length of the statement "Dialog deleteDialog=new AlertDialog.Builder(activity).setTitle("提示").setMessage(content).setPositiveButton("去设置"`new DialogInterface.OnClickListener(){" is 151.,19
+LoveDouDou-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,startSettingIntent,Magic Number,The method contains a magic number: 9,32
+LoveDouDou-master,com.jaydenxiao.common.commonutils,DialogPermissionUtil,startSettingIntent,Magic Number,The method contains a magic number: 8,32
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TUtil,getT,Empty catch clause,The method has an empty catch block.,9
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,put,Magic Number,The method contains a magic number: 1024,96
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,put,Empty catch clause,The method has an empty catch block.,375
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,isDue,Magic Number,The method contains a magic number: 2,718
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,isDue,Magic Number,The method contains a magic number: 1000,718
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 15,769
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 13,769
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,hasDateInfo,Magic Number,The method contains a magic number: 14,769
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,774
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,774
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,createDateInfo,Magic Number,The method contains a magic number: 13,805
+LoveDouDou-master,com.jaydenxiao.common.commonutils,ACache,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,816
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,isDue,Magic Number,The method contains a magic number: 2,718
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,isDue,Magic Number,The method contains a magic number: 1000,718
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 15,769
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 13,769
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,hasDateInfo,Magic Number,The method contains a magic number: 14,769
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,774
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,774
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,createDateInfo,Magic Number,The method contains a magic number: 13,805
+LoveDouDou-master,com.jaydenxiao.common.commonutils,Utils,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,816
+LoveDouDou-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2,26
+LoveDouDou-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2,26
+LoveDouDou-master,com.jaydenxiao.common.commonutils,GlideRoundTransformUtil,circleCrop,Magic Number,The method contains a magic number: 2f,26
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,AdViewpagerUtil,Long Parameter List,The method has 6 parameters. ,116
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initAdimgs,Long Statement,The length of the statement "LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`LinearLayout.LayoutParams.MATCH_PARENT);" is 142.,161
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initAdimgs,Magic Number,The method contains a magic number: 2,161
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,setImg,Magic Number,The method contains a magic number: 2,179
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Complex Method,Cyclomatic complexity of the method is 24,210
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 0.01,210
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Magic Number,The method contains a magic number: 2,210
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,initVps,Missing default,The following switch statement is missing a default case: switch (action) {,210
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onTouch,Missing default,The following switch statement is missing a default case: switch (action) {,222
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrollStateChanged,Magic Number,The method contains a magic number: 2,244
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrolled,Magic Number,The method contains a magic number: 0.01,262
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageScrolled,Magic Number,The method contains a magic number: 2,262
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageSelected,Complex Method,Cyclomatic complexity of the method is 10,279
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,onPageSelected,Magic Number,The method contains a magic number: 2,279
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,startLoopViewPager,Complex Conditional,The conditional expression !isLoop && viewPager != null && handler != null is complex.,361
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,stopLoopViewPager,Complex Conditional,The conditional expression isLoop && viewPager != null && handler != null is complex.,372
+LoveDouDou-master,com.jaydenxiao.common.commonutils,AdViewpagerUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,394
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,formatData,Magic Number,The method contains a magic number: 1000,119
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getOffectHour,Magic Number,The method contains a magic number: 24,428
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getOffectMinutes,Magic Number,The method contains a magic number: 60,448
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getDayOfWeek,Magic Number,The method contains a magic number: 7,488
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFirstTimeOfDay,Empty catch clause,The method has an empty catch block.,559
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getLastTimeOfDay,Empty catch clause,The method has an empty catch block.,575
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Complex Conditional,The conditional expression (year % 4 == 0 && year % 400 != 0) || year % 400 == 0 is complex.,591
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 4,591
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 400,591
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,isLeapYear,Magic Number,The method contains a magic number: 400,591
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Complex Method,Cyclomatic complexity of the method is 14,606
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Empty catch clause,The method has an empty catch block.,606
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Magic Number,The method contains a magic number: 2,606
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,formatDateStr2Desc,Magic Number,The method contains a magic number: 2,606
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Complex Method,Cyclomatic complexity of the method is 8,663
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 2,663
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 3,663
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 4,663
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 5,663
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getWeekNumber,Magic Number,The method contains a magic number: 6,663
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Complex Method,Cyclomatic complexity of the method is 12,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 3600000,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 86400000,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 86400000,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 3600000,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 60000,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 2,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 2,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 10,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getfriendlyTime,Magic Number,The method contains a magic number: 10,720
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 24,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 60,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendTimeOffer,Magic Number,The method contains a magic number: 1000,914
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,936
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 10,936
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,936
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,936
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 60,936
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration,Magic Number,The method contains a magic number: 10,936
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,951
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,951
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 60,951
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyDuration2,Magic Number,The method contains a magic number: 10,951
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 1000,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 3600,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 60,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getFriendlyMusicDuration,Magic Number,The method contains a magic number: 10,967
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 3 && day >= 21) || (mouth == 4 && day <= 19) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 4 && day >= 20) || (mouth == 5 && day <= 20) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 5 && day >= 21) || (mouth == 6 && day <= 21) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 6 && day >= 22) || (mouth == 7 && day <= 22) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 7 && day >= 23) || (mouth == 8 && day <= 22) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 8 && day >= 23) || (mouth == 9 && day <= 22) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 9 && day >= 23) || (mouth == 10 && day <= 23) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 10 && day >= 24) || (mouth == 11 && day <= 22) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 11 && day >= 23) || (mouth == 12 && day <= 21) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 12 && day >= 22) || (mouth == 1 && day <= 19) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Conditional,The conditional expression (mouth == 1 && day >= 20) || (mouth == 2 && day <= 18) is complex.,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Complex Method,Cyclomatic complexity of the method is 12,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 3,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 4,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 19,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 4,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 5,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 5,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 6,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 6,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 7,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 7,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 8,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 8,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 9,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 9,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 10,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 10,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 24,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 11,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 11,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 23,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 12,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 21,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 12,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 22,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 19,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 20,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 2,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,TimeUtil,getStarSeat,Magic Number,The method contains a magic number: 18,979
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,isEmail,Long Statement,The length of the statement "String str="^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1`3}\\.[0-9]{1`3}\\.[0-9]{1`3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2`4}|[0-9]{1`3})(\\]?)$";" is 140.,29
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,isChinese,Complex Conditional,The conditional expression ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A || ub == Character.UnicodeBlock.GENERAL_PUNCTUATION || ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION || ub == Character.UnicodeBlock.HALFWIDTH_AND_FULLWIDTH_FORMS is complex.,70
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,isChinese,Long Statement,The length of the statement "if (ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS || ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A || ub == Character.UnicodeBlock.GENERAL_PUNCTUATION || ub == Character.UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION || ub == Character.UnicodeBlock.HALFWIDTH_AND_FULLWIDTH_FORMS) {" is 360.,70
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Complex Conditional,The conditional expression nonCheckCodeCardId == null || nonCheckCodeCardId.trim().length() == 0 || !nonCheckCodeCardId.matches("\\d+") is complex.,122
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 2,122
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 2,122
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,getBankCardCheckCode,Magic Number,The method contains a magic number: 10,122
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Complex Method,Cyclomatic complexity of the method is 13,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Long Statement,The length of the statement "if ((gc.get(Calendar.YEAR) - Integer.parseInt(strYear)) > 150 || (gc.getTime().getTime() - s.parse(strYear + "-" + strMonth+ "-"+ strDay).getTime()) < 0) {" is 155.,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 17,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 15,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 6,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 10,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 10,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 14,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 150,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 12,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 31,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 2,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 17,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 11,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,IDCardValidate,Magic Number,The method contains a magic number: 18,142
+LoveDouDou-master,com.jaydenxiao.common.commonutils,FormatUtil,isDataFormat,Long Statement,The length of the statement "String regxStr="^((\\d{2}(([02468][048])|([13579][26]))[\\-\\/\\s]?((((0?[13578])|(1[02]))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(3[01])))|(((0?[469])|(11))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(30)))|(0?2[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])))))|(\\d{2}(([02468][1235679])|([13579][01345789]))[\\-\\/\\s]?((((0?[13578])|(1[02]))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(3[01])))|(((0?[469])|(11))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(30)))|(0?2[\\-\\/\\s]?((0?[1-9])|(1[0-9])|(2[0-8]))))))(\\s(((0?[0-9])|([1-2][0-3]))\\:([0-5]?[0-9])((\\s)|(\\:([0-5]?[0-9])))))?$";" is 554.,298
+LoveDouDou-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 2,14
+LoveDouDou-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 3,14
+LoveDouDou-master,com.jaydenxiao.common.commonutils,LogUtils,logInit,Magic Number,The method contains a magic number: 2,14
+LoveDouDou-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,addGuideView,Long Statement,The length of the statement "LinearLayout.LayoutParams layoutParams=new LinearLayout.LayoutParams(getResources().getDimensionPixelSize(R.dimen.gudieview_width)`getResources().getDimensionPixelSize(R.dimen.gudieview_heigh));" is 194.,117
+LoveDouDou-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,addGuideView,Magic Number,The method contains a magic number: 10,117
+LoveDouDou-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "FrameLayout.LayoutParams loadingLayoutParams=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 147.,157
+LoveDouDou-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "Glide.with(context).load(imgurl).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.ic_empty_picture).thumbnail(0.1f).listener(new RequestListener<String`GlideDrawable>(){" is 178.,157
+LoveDouDou-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Long Statement,The length of the statement "@Override public boolean onResourceReady( GlideDrawable resource` String model` Target<GlideDrawable> target` boolean isFromMemoryCache` boolean isFirstResource){" is 162.,157
+LoveDouDou-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,instantiateItem,Magic Number,The method contains a magic number: 0.1f,157
+LoveDouDou-master,com.jaydenxiao.common.imagePager,BigImagePagerActivity,onResourceReady,Long Parameter List,The method has 5 parameters. ,195
+LoveDouDou-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "FrameLayout.LayoutParams loadingLayoutParams=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 147.,157
+LoveDouDou-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "Glide.with(context).load(imgurl).diskCacheStrategy(DiskCacheStrategy.ALL).error(R.drawable.ic_empty_picture).thumbnail(0.1f).listener(new RequestListener<String`GlideDrawable>(){" is 178.,157
+LoveDouDou-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Long Statement,The length of the statement "@Override public boolean onResourceReady( GlideDrawable resource` String model` Target<GlideDrawable> target` boolean isFromMemoryCache` boolean isFirstResource){" is 162.,157
+LoveDouDou-master,com.jaydenxiao.common.imagePager,ImageAdapter,instantiateItem,Magic Number,The method contains a magic number: 0.1f,157
+LoveDouDou-master,com.jaydenxiao.common.imagePager,ImageAdapter,onResourceReady,Long Parameter List,The method has 5 parameters. ,195
+LoveDouDou-master,com.wevey.selector.dialog,NormalSelectionDialog,loadItem,Complex Method,Cyclomatic complexity of the method is 9,71
+LoveDouDou-master,com.wevey.selector.dialog,NormalSelectionDialog,loadItem,Long Statement,The length of the statement "LinearLayout.LayoutParams btnlp=new LinearLayout.LayoutParams(AbsListView.LayoutParams.MATCH_PARENT`mBuilder.getItemHeight());" is 126.,71
+LoveDouDou-master,com.wevey.selector.dialog,NormalSelectionDialog,loadItem,Magic Number,The method contains a magic number: 10,71
+LoveDouDou-master,com.wevey.selector.dialog,NormalSelectionDialog,Builder,Magic Number,The method contains a magic number: 65,208
+LoveDouDou-master,com.wevey.selector.dialog,NormalSelectionDialog,Builder,Magic Number,The method contains a magic number: 13,208
+LoveDouDou-master,com.wevey.selector.dialog,NormalSelectionDialog,Builder,Magic Number,The method contains a magic number: 45,208
+LoveDouDou-master,com.wevey.selector.dialog,NormalSelectionDialog,Builder,Magic Number,The method contains a magic number: 0.92f,208
+LoveDouDou-master,com.wevey.selector.dialog,NormalSelectionDialog,Builder,Magic Number,The method contains a magic number: 14,208
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 65,208
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 13,208
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 45,208
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 0.92f,208
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 14,208
+LoveDouDou-master,com.wevey.selector.dialog,MDAlertDialog,Builder,Magic Number,The method contains a magic number: 0.21f,129
+LoveDouDou-master,com.wevey.selector.dialog,MDAlertDialog,Builder,Magic Number,The method contains a magic number: 0.73f,129
+LoveDouDou-master,com.wevey.selector.dialog,MDAlertDialog,Builder,Magic Number,The method contains a magic number: 16,129
+LoveDouDou-master,com.wevey.selector.dialog,MDAlertDialog,Builder,Magic Number,The method contains a magic number: 14,129
+LoveDouDou-master,com.wevey.selector.dialog,MDAlertDialog,Builder,Magic Number,The method contains a magic number: 14,129
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 0.21f,129
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 0.73f,129
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 16,129
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 14,129
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 14,129
+LoveDouDou-master,com.wevey.selector.dialog,MDSelectionDialog,getButton,Long Statement,The length of the statement "LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT`mBuilder.getItemHeight());" is 124.,84
+LoveDouDou-master,com.wevey.selector.dialog,MDSelectionDialog,getButton,Magic Number,The method contains a magic number: 10,84
+LoveDouDou-master,com.wevey.selector.dialog,MDSelectionDialog,getButton,Magic Number,The method contains a magic number: 10,84
+LoveDouDou-master,com.wevey.selector.dialog,MDSelectionDialog,Builder,Magic Number,The method contains a magic number: 45,142
+LoveDouDou-master,com.wevey.selector.dialog,MDSelectionDialog,Builder,Magic Number,The method contains a magic number: 0.75f,142
+LoveDouDou-master,com.wevey.selector.dialog,MDSelectionDialog,Builder,Magic Number,The method contains a magic number: 14,142
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 45,142
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 0.75f,142
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 14,142
+LoveDouDou-master,com.wevey.selector.dialog,NormalAlertDialog,Builder,Magic Number,The method contains a magic number: 0.23f,156
+LoveDouDou-master,com.wevey.selector.dialog,NormalAlertDialog,Builder,Magic Number,The method contains a magic number: 0.65f,156
+LoveDouDou-master,com.wevey.selector.dialog,NormalAlertDialog,Builder,Magic Number,The method contains a magic number: 16,156
+LoveDouDou-master,com.wevey.selector.dialog,NormalAlertDialog,Builder,Magic Number,The method contains a magic number: 14,156
+LoveDouDou-master,com.wevey.selector.dialog,NormalAlertDialog,Builder,Magic Number,The method contains a magic number: 14,156
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 0.23f,156
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 0.65f,156
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 16,156
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 14,156
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 14,156
+LoveDouDou-master,com.wevey.selector.dialog,MDEditDialog,Builder,Magic Number,The method contains a magic number: 0.28f,165
+LoveDouDou-master,com.wevey.selector.dialog,MDEditDialog,Builder,Magic Number,The method contains a magic number: 0.8f,165
+LoveDouDou-master,com.wevey.selector.dialog,MDEditDialog,Builder,Magic Number,The method contains a magic number: 20,165
+LoveDouDou-master,com.wevey.selector.dialog,MDEditDialog,Builder,Magic Number,The method contains a magic number: 18,165
+LoveDouDou-master,com.wevey.selector.dialog,MDEditDialog,Builder,Magic Number,The method contains a magic number: 16,165
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 0.28f,165
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 0.8f,165
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 20,165
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 18,165
+LoveDouDou-master,com.wevey.selector.dialog,Builder,Builder,Magic Number,The method contains a magic number: 16,165
+LoveDouDou-master,com.weavey.utils,UiUtils,dp2px,Magic Number,The method contains a magic number: 0.5f,14
+LoveDouDou-master,com.weavey.utils,UiUtils,px2dip,Magic Number,The method contains a magic number: 0.5f,22
+LoveDouDou-master,com.weavey.utils,UiUtils,px2sp,Magic Number,The method contains a magic number: 0.5f,31
+LoveDouDou-master,com.weavey.utils,UiUtils,sp2px,Magic Number,The method contains a magic number: 0.5f,40
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCResizeTextureView,onMeasure,Complex Method,Cyclomatic complexity of the method is 14,45
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCMediaManager,onVideoSizeChanged,Long Parameter List,The method has 5 parameters. ,213
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onClick,Complex Conditional,The conditional expression !url.startsWith("file") && !JCUtils.isWifiConnected(getContext()) && !WIFI_TIP_DIALOG_SHOWED is complex.,174
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onClick,Complex Method,Cyclomatic complexity of the method is 12,174
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,prepareVideo,Long Statement,The length of the statement "mAudioManager.requestAudioFocus(onAudioFocusChangeListener`AudioManager.STREAM_MUSIC`AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);" is 125.,220
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onTouch,Complex Method,Cyclomatic complexity of the method is 15,241
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onTouch,Magic Number,The method contains a magic number: 3,241
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onTouch,Magic Number,The method contains a magic number: 100,241
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onTouch,Magic Number,The method contains a magic number: 3,241
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onTouch,Magic Number,The method contains a magic number: 100,241
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onTouch,Magic Number,The method contains a magic number: 100,241
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,addTextureView,Long Statement,The length of the statement "RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT);" is 146.,325
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,setUiWitStateAndScreen,Complex Method,Cyclomatic complexity of the method is 10,341
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,setUiWitStateAndScreen,Long Identifier,The length of the field CURRENT_STATE_PLAYING_BUFFERING_START is 37.,341
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,setUiWitStateAndScreen,Magic Number,The method contains a magic number: 100,341
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startProgressTimer,Magic Number,The method contains a magic number: 300,371
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,goToOtherListener,Long Statement,The length of the statement "if (currentScreen == JCVideoPlayerStandard.SCREEN_WINDOW_FULLSCREEN || currentScreen == JCVideoPlayerStandard.SCREEN_WINDOW_TINY) {" is 131.,447
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,goToOtherListener,Long Statement,The length of the statement "onEvent(currentScreen == JCVideoPlayerStandard.SCREEN_WINDOW_FULLSCREEN ? JCBuriedPoint.ON_QUIT_FULLSCREEN : JCBuriedPoint.ON_QUIT_TINYSCREEN);" is 143.,447
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,autoFullscreenLeft,Complex Conditional,The conditional expression (System.currentTimeMillis() - lastAutoFullscreenTime) > 2000 && isCurrentMediaListener() && currentState == CURRENT_STATE_PLAYING && currentScreen != SCREEN_WINDOW_FULLSCREEN && currentScreen != SCREEN_WINDOW_TINY is complex.,479
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,autoFullscreenLeft,Long Statement,The length of the statement "if ((System.currentTimeMillis() - lastAutoFullscreenTime) > 2000 && isCurrentMediaListener() && currentState == CURRENT_STATE_PLAYING && currentScreen != SCREEN_WINDOW_FULLSCREEN && currentScreen != SCREEN_WINDOW_TINY) {" is 220.,479
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,autoFullscreenLeft,Magic Number,The method contains a magic number: 2000,479
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,autoQuitFullscreen,Complex Conditional,The conditional expression (System.currentTimeMillis() - lastAutoFullscreenTime) > 2000 && isCurrentMediaListener() && currentState == CURRENT_STATE_PLAYING && currentScreen == SCREEN_WINDOW_FULLSCREEN is complex.,496
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,autoQuitFullscreen,Long Statement,The length of the statement "if ((System.currentTimeMillis() - lastAutoFullscreenTime) > 2000 && isCurrentMediaListener() && currentState == CURRENT_STATE_PLAYING && currentScreen == SCREEN_WINDOW_FULLSCREEN) {" is 181.,496
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,autoQuitFullscreen,Magic Number,The method contains a magic number: 2000,496
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onError,Magic Number,The method contains a magic number: 38,520
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onError,Magic Number,The method contains a magic number: 38,520
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onInfo,Long Identifier,The length of the field CURRENT_STATE_PLAYING_BUFFERING_START is 37.,528
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onStopTrackingTouch,Magic Number,The method contains a magic number: 100,608
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startWindowFullscreen,Long Statement,The length of the statement "Constructor<JCVideoPlayer> constructor=(Constructor<JCVideoPlayer>)JCVideoPlayer.this.getClass().getConstructor(Context.class);" is 127.,633
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startWindowFullscreen,Magic Number,The method contains a magic number: 2,633
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startWindowFullscreen,Magic Number,The method contains a magic number: 2,633
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startWindowFullscreen,Magic Number,The method contains a magic number: 90,633
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startWindowTiny,Long Statement,The length of the statement "Constructor<JCVideoPlayer> constructor=(Constructor<JCVideoPlayer>)JCVideoPlayer.this.getClass().getConstructor(Context.class);" is 127.,675
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startWindowTiny,Magic Number,The method contains a magic number: 400,675
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startWindowTiny,Magic Number,The method contains a magic number: 400,675
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,run,Complex Conditional,The conditional expression currentState == CURRENT_STATE_PLAYING || currentState == CURRENT_STATE_PAUSE || currentState == CURRENT_STATE_PLAYING_BUFFERING_START is complex.,709
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,run,Long Identifier,The length of the field CURRENT_STATE_PLAYING_BUFFERING_START is 37.,709
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,run,Long Statement,The length of the statement "if (currentState == CURRENT_STATE_PLAYING || currentState == CURRENT_STATE_PAUSE || currentState == CURRENT_STATE_PLAYING_BUFFERING_START) {" is 140.,709
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,getCurrentPositionWhenPlaying,Complex Conditional,The conditional expression currentState == CURRENT_STATE_PLAYING || currentState == CURRENT_STATE_PAUSE || currentState == CURRENT_STATE_PLAYING_BUFFERING_START is complex.,725
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,getCurrentPositionWhenPlaying,Long Identifier,The length of the field CURRENT_STATE_PLAYING_BUFFERING_START is 37.,725
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,getCurrentPositionWhenPlaying,Long Statement,The length of the statement "if (currentState == CURRENT_STATE_PLAYING || currentState == CURRENT_STATE_PAUSE || currentState == CURRENT_STATE_PLAYING_BUFFERING_START) {" is 140.,725
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,setTextAndProgress,Magic Number,The method contains a magic number: 100,749
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,setProgressAndTime,Magic Number,The method contains a magic number: 95,756
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,setProgressAndTime,Magic Number,The method contains a magic number: 100,756
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startFullscreen,Magic Number,The method contains a magic number: 2,829
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startFullscreen,Magic Number,The method contains a magic number: 2,829
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,startFullscreen,Magic Number,The method contains a magic number: 90,829
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,hideSupportActionBar,Long Statement,The length of the statement "JCUtils.getAppCompActivity(context).getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN`WindowManager.LayoutParams.FLAG_FULLSCREEN);" is 144.,864
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onSensorChanged,Magic Number,The method contains a magic number: 10,892
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onSensorChanged,Magic Number,The method contains a magic number: 10,892
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,onSensorChanged,Magic Number,The method contains a magic number: 9.5,892
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayer,showProgressDialog,Long Parameter List,The method has 5 parameters. ,920
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,ProgressTimerTask,run,Complex Conditional,The conditional expression currentState == CURRENT_STATE_PLAYING || currentState == CURRENT_STATE_PAUSE || currentState == CURRENT_STATE_PLAYING_BUFFERING_START is complex.,709
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,ProgressTimerTask,run,Long Statement,The length of the statement "if (currentState == CURRENT_STATE_PLAYING || currentState == CURRENT_STATE_PAUSE || currentState == CURRENT_STATE_PLAYING_BUFFERING_START) {" is 140.,709
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCAutoFullscreenListener,onSensorChanged,Magic Number,The method contains a magic number: 10,892
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCAutoFullscreenListener,onSensorChanged,Magic Number,The method contains a magic number: 10,892
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCAutoFullscreenListener,onSensorChanged,Magic Number,The method contains a magic number: 9.5,892
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 24,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 60,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 60,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 1000,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 1000,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 60,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 60,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 60,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCUtils,stringForTime,Magic Number,The method contains a magic number: 3600,20
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,setUp,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE);" is 128.,73
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,setUiWitStateAndScreen,Complex Method,Cyclomatic complexity of the method is 8,104
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,setUiWitStateAndScreen,Magic Number,The method contains a magic number: 100,104
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,onTouch,Complex Method,Cyclomatic complexity of the method is 10,137
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,onTouch,Magic Number,The method contains a magic number: 100,137
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,onClick,Complex Conditional,The conditional expression !url.startsWith("file") && !JCUtils.isWifiConnected(getContext()) && !WIFI_TIP_DIALOG_SHOWED is complex.,178
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,onClick,Complex Method,Cyclomatic complexity of the method is 11,178
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showWifiDialog,Long Statement,The length of the statement "builder.setPositiveButton(getResources().getString(R.string.tips_not_wifi_confirm)`new DialogInterface.OnClickListener(){" is 121.,254
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,onClickUiToggle,Complex Method,Cyclomatic complexity of the method is 11,297
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPreparingClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE);" is 124.,379
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPreparingClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE);" is 124.,379
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPlayingShow,Long Statement,The length of the statement "setAllControlsVisible(View.VISIBLE`View.VISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE);" is 122.,395
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPlayingShow,Long Statement,The length of the statement "setAllControlsVisible(View.VISIBLE`View.VISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE);" is 122.,395
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPlayingClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE);" is 126.,413
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPlayingClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE);" is 126.,413
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPauseShow,Long Statement,The length of the statement "setAllControlsVisible(View.VISIBLE`View.VISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`coverImageView.getVisibility()`View.INVISIBLE);" is 138.,429
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPauseShow,Long Statement,The length of the statement "setAllControlsVisible(View.VISIBLE`View.VISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`coverImageView.getVisibility()`View.INVISIBLE);" is 138.,429
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPauseClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`coverImageView.getVisibility()`View.INVISIBLE);" is 144.,447
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPauseClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`coverImageView.getVisibility()`View.INVISIBLE);" is 144.,447
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPlayingBufferingShow,Long Statement,The length of the statement "setAllControlsVisible(View.VISIBLE`View.VISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE);" is 122.,463
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPlayingBufferingShow,Long Statement,The length of the statement "setAllControlsVisible(View.VISIBLE`View.VISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`View.INVISIBLE);" is 122.,463
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPlayingBufferingClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE);" is 124.,479
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToPlayingBufferingClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE);" is 124.,479
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToCompleteClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.VISIBLE);" is 122.,515
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToCompleteClear,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.VISIBLE);" is 122.,515
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToError,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE);" is 124.,533
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,changeUiToError,Long Statement,The length of the statement "setAllControlsVisible(View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE`View.INVISIBLE`View.VISIBLE`View.INVISIBLE);" is 124.,533
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,setAllControlsVisible,Long Parameter List,The method has 7 parameters. ,551
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Long Parameter List,The method has 5 parameters. ,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Long Statement,The length of the statement "localLayoutParams.x=getResources().getDimensionPixelOffset(fm.jiecao.jcvideoplayer_lib.R.dimen.jc_progress_dialog_margin_top) / 2;" is 130.,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Magic Number,The method contains a magic number: 90,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Magic Number,The method contains a magic number: 32,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Magic Number,The method contains a magic number: 16,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Magic Number,The method contains a magic number: 2,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Magic Number,The method contains a magic number: 2,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Magic Number,The method contains a magic number: 2,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showProgressDialog,Magic Number,The method contains a magic number: 100,578
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showVolumeDialog,Magic Number,The method contains a magic number: 90,627
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showVolumeDialog,Magic Number,The method contains a magic number: 8,627
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showVolumeDialog,Magic Number,The method contains a magic number: 32,627
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showVolumeDialog,Magic Number,The method contains a magic number: 16,627
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showVolumeDialog,Magic Number,The method contains a magic number: 2,627
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,showVolumeDialog,Magic Number,The method contains a magic number: 2,627
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,startDismissControlViewTimer,Magic Number,The method contains a magic number: 2500,661
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,run,Complex Conditional,The conditional expression currentState != CURRENT_STATE_NORMAL && currentState != CURRENT_STATE_ERROR && currentState != CURRENT_STATE_AUTO_COMPLETE is complex.,680
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,JCVideoPlayerStandard,run,Long Statement,The length of the statement "if (currentState != CURRENT_STATE_NORMAL && currentState != CURRENT_STATE_ERROR && currentState != CURRENT_STATE_AUTO_COMPLETE) {" is 129.,680
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,DismissControlViewTimerTask,run,Complex Conditional,The conditional expression currentState != CURRENT_STATE_NORMAL && currentState != CURRENT_STATE_ERROR && currentState != CURRENT_STATE_AUTO_COMPLETE is complex.,680
+LoveDouDou-master,fm.jiecao.jcvideoplayer_lib,DismissControlViewTimerTask,run,Long Statement,The length of the statement "if (currentState != CURRENT_STATE_NORMAL && currentState != CURRENT_STATE_ERROR && currentState != CURRENT_STATE_AUTO_COMPLETE) {" is 129.,680

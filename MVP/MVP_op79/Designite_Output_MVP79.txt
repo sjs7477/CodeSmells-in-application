@@ -1,0 +1,35 @@
+C:\Users\ranja>java -jar DesigniteJava.jar -i C:\Users\ranja\Downloads\New_6_May_RA\MVP\79_SwiftPlayerDemo-master -o C:\Users\ranja\Downloads\New_6_May_RA\MVVM_op79
+Searching classpath folders ...
+Could not find any classpath folder.
+Parsing the source code ...
+Resolving symbols...
+Computing metrics...
+Detecting code smells...
+Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+        Total LOC analyzed: 13157       Number of packages: 30
+        Number of classes: 211  Number of methods: 1625
+-Total architecture smell instances detected-
+        Cyclic dependency: 13   God component: 0
+        Ambiguous interface: 0  Feature concentration: 12
+        Unstable dependency: 6  Scattered functionality: 0
+        Dense structure: 1
+-Total design smell instances detected-
+        Imperative abstraction: 0       Multifaceted abstraction: 1
+        Unnecessary abstraction: 7      Unutilized abstraction: 67
+        Feature envy: 0 Deficient encapsulation: 19
+        Unexploited encapsulation: 0    Broken modularization: 5
+        Cyclically-dependent modularization: 6  Hub-like modularization: 0
+        Insufficient modularization: 12 Broken hierarchy: 9
+        Cyclic hierarchy: 0     Deep hierarchy: 0
+        Missing hierarchy: 3    Multipath hierarchy: 0
+        Rebellious hierarchy: 0 Wide hierarchy: 0
+-Total implementation smell instances detected-
+        Abstract function call from constructor: 0      Complex conditional: 17
+        Complex method: 16      Empty catch clause: 9
+        Long identifier: 5      Long method: 1
+        Long parameter list: 6  Long statement: 119
+        Magic number: 213       Missing default: 7
+----
+Done.

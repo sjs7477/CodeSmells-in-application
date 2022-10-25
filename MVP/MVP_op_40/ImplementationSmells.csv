@@ -1,0 +1,308 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+MemoryCleaner-master,net.tsz.afinal.core,AsyncTask,postResult,Long Statement,The length of the statement "@SuppressWarnings("unchecked") Message message=sHandler.obtainMessage(MESSAGE_POST_RESULT`new AsyncTaskResult<Result>(this`result));" is 132.,173
+MemoryCleaner-master,net.tsz.afinal.core,AsyncTask,executeOnExecutor,Long Statement,The length of the statement "throw new IllegalStateException("Cannot execute task:" + " the task has already been executed " + "(a task can be executed only once)");" is 136.,392
+MemoryCleaner-master,net.tsz.afinal.core,AbstractCollection,toString,Magic Number,The method contains a magic number: 16,365
+MemoryCleaner-master,net.tsz.afinal.core,ArrayDeque,allocateElements,Magic Number,The method contains a magic number: 2,94
+MemoryCleaner-master,net.tsz.afinal.core,ArrayDeque,allocateElements,Magic Number,The method contains a magic number: 4,94
+MemoryCleaner-master,net.tsz.afinal.core,ArrayDeque,allocateElements,Magic Number,The method contains a magic number: 8,94
+MemoryCleaner-master,net.tsz.afinal.core,ArrayDeque,allocateElements,Magic Number,The method contains a magic number: 16,94
+MemoryCleaner-master,net.tsz.afinal.core,ArrayDeque,ArrayDeque,Magic Number,The method contains a magic number: 16,158
+MemoryCleaner-master,net.tsz.afinal.core,ArrayDeque,checkInvariants,Long Statement,The length of the statement "assert head == tail ? elements[head] == null : (elements[head] != null && elements[(tail - 1) & (elements.length - 1)] != null);" is 128.,488
+MemoryCleaner-master,net.tsz.afinal.core,FileNameGenerator,bytesToHexString,Magic Number,The method contains a magic number: 0xFF,36
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,binarySearch,Long Parameter List,The method has 5 parameters. ,561
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,730
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 1231,730
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 1237,730
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,758
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,786
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,814
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,842
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,870
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 32,870
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,902
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,933
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 32,933
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,hashCode,Magic Number,The method contains a magic number: 31,966
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,deepHashCode,Magic Number,The method contains a magic number: 31,1004
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,deepHashCodeElement,Complex Method,Cyclomatic complexity of the method is 11,1043
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1085
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1111
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1137
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1163
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1189
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1215
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1244
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1273
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1299
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,deepEquals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length != array2.length is complex.,1326
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,deepEqualsElements,Complex Method,Cyclomatic complexity of the method is 13,1379
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 7,1450
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 6,1480
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 3,1510
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 7,1540
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 7,1570
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 6,1600
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 6,1630
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 6,1660
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,toString,Magic Number,The method contains a magic number: 7,1690
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,deepToString,Magic Number,The method contains a magic number: 9,1720
+MemoryCleaner-master,net.tsz.afinal.core,Arrays,deepToStringImpl,Complex Method,Cyclomatic complexity of the method is 16,1748
+MemoryCleaner-master,net.tsz.afinal,FinalDb,FinalDb,Long Statement,The length of the statement "this.db=new SqliteDbHelper(config.getContext().getApplicationContext()`config.getDbName()`config.getDbVersion()`config.getDbUpdateListener()).getWritableDatabase();" is 164.,55
+MemoryCleaner-master,net.tsz.afinal,FinalDb,create,Long Parameter List,The method has 5 parameters. ,174
+MemoryCleaner-master,net.tsz.afinal,FinalDb,create,Long Parameter List,The method has 6 parameters. ,200
+MemoryCleaner-master,net.tsz.afinal,FinalDb,loadManyToOne,Complex Method,Cyclomatic complexity of the method is 13,470
+MemoryCleaner-master,net.tsz.afinal,FinalDb,loadOneToMany,Complex Method,Cyclomatic complexity of the method is 9,579
+MemoryCleaner-master,net.tsz.afinal.utils,ClassUtils,getPrimaryKeyColumn,Complex Method,Cyclomatic complexity of the method is 10,53
+MemoryCleaner-master,net.tsz.afinal.utils,ClassUtils,getPrimaryKeyField,Complex Method,Cyclomatic complexity of the method is 10,95
+MemoryCleaner-master,net.tsz.afinal.utils,Utils,getDiskCacheDir,Long Statement,The length of the statement "final String cachePath=Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState()) ? getExternalCacheDir(context).getPath() : context.getCacheDir().getPath();" is 170.,33
+MemoryCleaner-master,net.tsz.afinal.utils,Utils,getBytes,Magic Number,The method contains a magic number: 2,86
+MemoryCleaner-master,net.tsz.afinal.utils,Utils,getBytes,Magic Number,The method contains a magic number: 0xFF,86
+MemoryCleaner-master,net.tsz.afinal.utils,Utils,getBytes,Magic Number,The method contains a magic number: 8,86
+MemoryCleaner-master,net.tsz.afinal.utils,Utils,crc64Long,Magic Number,The method contains a magic number: 0xff,150
+MemoryCleaner-master,net.tsz.afinal.utils,Utils,crc64Long,Magic Number,The method contains a magic number: 8,150
+MemoryCleaner-master,net.tsz.afinal.utils,FieldUtils,getBooleanFieldSetMethod,Magic Number,The method contains a magic number: 2,68
+MemoryCleaner-master,net.tsz.afinal.utils,FieldUtils,getBooleanFieldSetMethod,Magic Number,The method contains a magic number: 3,68
+MemoryCleaner-master,net.tsz.afinal.utils,FieldUtils,getBooleanFieldSetMethod,Magic Number,The method contains a magic number: 3,68
+MemoryCleaner-master,net.tsz.afinal.utils,FieldUtils,isISStart,Magic Number,The method contains a magic number: 2,83
+MemoryCleaner-master,net.tsz.afinal.utils,FieldUtils,getFieldByColumnName,Complex Method,Cyclomatic complexity of the method is 9,181
+MemoryCleaner-master,net.tsz.afinal.utils,FieldUtils,getColumnByField,Complex Conditional,The conditional expression oneToMany != null && oneToMany.manyColumn() != null && oneToMany.manyColumn().trim().length() != 0 is complex.,242
+MemoryCleaner-master,net.tsz.afinal.utils,FieldUtils,isBaseDateType,Long Statement,The length of the statement "return clazz.equals(String.class) || clazz.equals(Integer.class) || clazz.equals(Byte.class)|| clazz.equals(Long.class)|| clazz.equals(Double.class)|| clazz.equals(Float.class)|| clazz.equals(Character.class)|| clazz.equals(Short.class)|| clazz.equals(Boolean.class)|| clazz.equals(Date.class)|| clazz.equals(Date.class)|| clazz.equals(java.sql.Date.class)|| clazz.isPrimitive();" is 379.,325
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,CursorUtils,getEntity,Complex Method,Cyclomatic complexity of the method is 10,32
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,SqlBuilder,getUpdateSqlAsSqlInfo,Complex Method,Cyclomatic complexity of the method is 8,216
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,SqlBuilder,getUpdateSqlAsSqlInfo,Complex Method,Cyclomatic complexity of the method is 8,261
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,SqlBuilder,getCreatTableSQL,Complex Conditional,The conditional expression primaryClazz == int.class || primaryClazz == Integer.class || primaryClazz == long.class || primaryClazz == Long.class is complex.,303
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,SqlBuilder,getCreatTableSQL,Complex Conditional,The conditional expression dataType == int.class || dataType == Integer.class || dataType == long.class || dataType == Long.class is complex.,303
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,SqlBuilder,getCreatTableSQL,Complex Conditional,The conditional expression dataType == float.class || dataType == Float.class || dataType == double.class || dataType == Double.class is complex.,303
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,SqlBuilder,getCreatTableSQL,Long Statement,The length of the statement "if (primaryClazz == int.class || primaryClazz == Integer.class || primaryClazz == long.class || primaryClazz == Long.class) {" is 125.,303
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,SqlBuilder,getPropertyStrSql,Complex Conditional,The conditional expression value instanceof String || value instanceof java.util.Date || value instanceof java.sql.Date is complex.,350
+MemoryCleaner-master,net.tsz.afinal.db.sqlite,SqlBuilder,property2KeyValue,Long Statement,The length of the statement "if (property.getDefaultValue() != null && property.getDefaultValue().trim().length() != 0) kv=new KeyValue(pcolumn`property.getDefaultValue());" is 143.,367
+MemoryCleaner-master,net.tsz.afinal.db.table,Property,setValue,Complex Method,Cyclomatic complexity of the method is 9,42
+MemoryCleaner-master,net.tsz.afinal.db.table,TableInfo,get,Complex Method,Cyclomatic complexity of the method is 14,45
+MemoryCleaner-master,net.tsz.afinal.db.table,TableInfo,get,Long Statement,The length of the statement "throw new DbException("the class[" + clazz + "]'s idField is null ` \n you can define _id`id property or use annotation @id to solution this exception");" is 153.,45
+MemoryCleaner-master,edu.wkd.towave.memorycleaner,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+MemoryCleaner-master,edu.wkd.towave.memorycleaner,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+MemoryCleaner-master,edu.wkd.towave.memorycleaner,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,AppManage,initializeDependencyInjector,Long Statement,The length of the statement "mActivityComponent=DaggerActivityComponent.builder().activityModule(new ActivityModule(this)).appComponent(app.getAppComponent()).build();" is 138.,44
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,AutoStartManage,initializeDependencyInjector,Long Statement,The length of the statement "mActivityComponent=DaggerActivityComponent.builder().activityModule(new ActivityModule(this)).appComponent(app.getAppComponent()).build();" is 138.,44
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,SettingActivity,initializeDependencyInjector,Long Statement,The length of the statement "mActivityComponent=DaggerActivityComponent.builder().activityModule(new ActivityModule(this)).appComponent(app.getAppComponent()).build();" is 138.,23
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MainActivity,initializeDependencyInjector,Long Statement,The length of the statement "mActivityComponent=DaggerActivityComponent.builder().activityModule(new ActivityModule(this)).appComponent(app.getAppComponent()).build();" is 138.,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,initializeDependencyInjector,Long Statement,The length of the statement "mActivityComponent=DaggerActivityComponent.builder().activityModule(new ActivityModule(this)).appComponent(app.getAppComponent()).build();" is 138.,73
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,96
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,onCreateOptionsMenu,Magic Number,The method contains a magic number: 3,96
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,96
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,96
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,onCreateOptionsMenu,Magic Number,The method contains a magic number: 4,96
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,onCreateOptionsMenu,Magic Number,The method contains a magic number: 3,96
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,141
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,onScanProgressUpdated,Magic Number,The method contains a magic number: 100,141
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,updateTitle,Long Statement,The length of the statement "mCollapsingToolbarLayout.setTitle(TextFormater.dataSizeFormat(memory) + " " + scanMemoryPercent+ "%-->"+ new BigDecimal(AppUtils.getPercent(context) - scanMemoryPercent).setScale(2`BigDecimal.ROUND_HALF_UP).floatValue()+ "%");" is 226.,209
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,MemoryClean,updateTitle,Magic Number,The method contains a magic number: 2,209
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,RubbishClean,initializeDependencyInjector,Long Statement,The length of the statement "mActivityComponent=DaggerActivityComponent.builder().activityModule(new ActivityModule(this)).appComponent(app.getAppComponent()).build();" is 138.,63
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,RubbishClean,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,111
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,RubbishClean,onScanProgressUpdated,Magic Number,The method contains a magic number: 100,111
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,IgnoreSetting,initializeDependencyInjector,Long Statement,The length of the statement "mActivityComponent=DaggerActivityComponent.builder().activityModule(new ActivityModule(this)).appComponent(app.getAppComponent()).build();" is 138.,68
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,IgnoreSetting,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,91
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,IgnoreSetting,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,91
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,IgnoreSetting,onCreateOptionsMenu,Magic Number,The method contains a magic number: 3,91
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity,IgnoreSetting,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,91
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity.base,BaseActivity,initWindow,Magic Number,The method contains a magic number: 19,70
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.activity.base,BaseActivity,onOptionsItemSelected,Missing default,The following switch statement is missing a default case: switch (id) {,112
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,AppsFragment,setDialogValues,Long Statement,The length of the statement "RelativeLayout dialog_process_detail=(RelativeLayout)getActivity().getLayoutInflater().inflate(R.layout.dialog_process_detail`null);" is 132.,138
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,AppsFragment,onProgressUpdate,Magic Number,The method contains a magic number: 100,160
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,AutoStartFragment,onProgressUpdate,Magic Number,The method contains a magic number: 100,141
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,SettingFragment,initializeDependencyInjector,Long Statement,The length of the statement "DaggerFragmentComponent.builder().fragmentModule(new FragmentModule()).activityComponent(activity.getActivityComponent()).build().inject(this);" is 143.,94
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,SettingFragment,showThemeChooseDialog,Long Statement,The length of the statement "Integer[] res=new Integer[]{R.drawable.deep_purple_round`R.drawable.brown_round`R.drawable.blue_round`R.drawable.blue_grey_round`R.drawable.yellow_round`R.drawable.red_round`R.drawable.pink_round`R.drawable.green_round};" is 220.,138
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,CircularLoader,initViews,Magic Number,The method contains a magic number: 2,65
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,CircularLoader,updateViews,Magic Number,The method contains a magic number: 100,74
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,CircularLoader,onCleanStarted,Magic Number,The method contains a magic number: 0.1f,84
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment,CircularLoader,onCleanCompleted,Magic Number,The method contains a magic number: 0.03f,91
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.ui.fragment.base,BaseFragment,initializeDependencyInjector,Long Statement,The length of the statement "mBuilder=DaggerFragmentComponent.builder().fragmentModule(new FragmentModule()).activityComponent(activity.getActivityComponent()).build();" is 139.,45
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,ThemeUtils,changeTheme,Complex Method,Cyclomatic complexity of the method is 9,11
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,ThemeUtils,changeTheme,Missing default,The following switch statement is missing a default case: switch (theme) {,11
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,StorageUtil,convertStorage,Magic Number,The method contains a magic number: 1024,23
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,StorageUtil,convertStorage,Magic Number,The method contains a magic number: 1024,23
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,StorageUtil,convertStorage,Magic Number,The method contains a magic number: 1024,23
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,StorageUtil,convertStorage,Magic Number,The method contains a magic number: 100,23
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,StorageUtil,convertStorage,Magic Number,The method contains a magic number: 100,23
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,ShellUtils,execCommand,Complex Method,Cyclomatic complexity of the method is 11,55
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,ShellUtils,execCommand,Long Statement,The length of the statement "return new CommandResult(result`successMsg == null ? null : successMsg.toString()`errorMsg == null ? null : errorMsg.toString());" is 129.,55
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,AppUtils,getTotalMemory,Magic Number,The method contains a magic number: 8192,30
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,AppUtils,getTotalMemory,Magic Number,The method contains a magic number: 1024,30
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,AppUtils,getPercent,Magic Number,The method contains a magic number: 100,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,AppUtils,getPercent,Magic Number,The method contains a magic number: 2,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,ViewHelper,clear,Magic Number,The method contains a magic number: 2,10
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,ViewHelper,clear,Magic Number,The method contains a magic number: 2,10
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,DialogUtils,makeDialogBuilderByTheme,Complex Method,Cyclomatic complexity of the method is 8,11
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,DialogUtils,makeDialogBuilderByTheme,Missing default,The following switch statement is missing a default case: switch (theme) {,11
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,TextFormater,dataSizeFormat,Magic Number,The method contains a magic number: 1024,4
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,TextFormater,dataSizeFormat,Magic Number,The method contains a magic number: 1024,4
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,TextFormater,dataSizeFormat,Magic Number,The method contains a magic number: 1024,4
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,TextFormater,dataSizeFormat,Magic Number,The method contains a magic number: 100,4
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,TextFormater,dataSizeFormat,Magic Number,The method contains a magic number: 100,4
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,ObservableUtils,getApplicationInfo,Long Statement,The length of the statement "List<ApplicationInfo> appList=mContext.getPackageManager().getInstalledApplications(PackageManager.GET_UNINSTALLED_PACKAGES);" is 125.,140
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.tools,getIgnoreAppsFun,getApplicationInfo,Long Statement,The length of the statement "List<ApplicationInfo> appList=mContext.getPackageManager().getInstalledApplications(PackageManager.GET_UNINSTALLED_PACKAGES);" is 125.,140
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,loadData,Long Statement,The length of the statement "mSubscription=mObservableUtils.getIgnoreApps(mFinalDb`mContext).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe((v) -> {" is 153.,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,initViews,Long Statement,The length of the statement "recyclerAdapter.setOnInViewClickListener(R.id.card_item_root`new BaseRecyclerViewAdapter.onInternalClickListenerImpl<Ignore>(){" is 127.,78
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,initViews,Long Statement,The length of the statement "@Override public boolean onMove( RecyclerView recyclerView` RecyclerView.ViewHolder viewHolder` RecyclerView.ViewHolder target){" is 128.,78
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,initViews,Long Statement,The length of the statement "@Override public void onChildDraw( Canvas c` RecyclerView recyclerView` RecyclerView.ViewHolder viewHolder` float dX` float dY` int actionState` boolean isCurrentlyActive){" is 172.,78
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,initViews,Magic Number,The method contains a magic number: 300,78
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,onChildDraw,Long Parameter List,The method has 7 parameters. ,114
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,onOptionsItemSelected,Complex Method,Cyclomatic complexity of the method is 20,167
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,onOptionsItemSelected,Magic Number,The method contains a magic number: 2,167
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,IgnoreSettingPresenter,onOptionsItemSelected,Magic Number,The method contains a magic number: 3,167
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,AutoStartManagePresenter,initViews,Magic Number,The method contains a magic number: 2,37
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,initViews,Long Statement,The length of the statement "@Override public boolean onMove( RecyclerView recyclerView` RecyclerView.ViewHolder viewHolder` RecyclerView.ViewHolder target){" is 128.,81
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,initViews,Long Statement,The length of the statement "@Override public void onChildDraw( Canvas c` RecyclerView recyclerView` RecyclerView.ViewHolder viewHolder` float dX` float dY` int actionState` boolean isCurrentlyActive){" is 172.,81
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,initViews,Long Statement,The length of the statement "recyclerAdapter.setOnInViewClickListener(R.id.card_item_root`new BaseRecyclerViewAdapter.onInternalClickListenerImpl<CacheListItem>(){" is 134.,81
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,initViews,Long Statement,The length of the statement "@Override public void OnClickListener( android.view.View parentV` android.view.View v` Integer position` CacheListItem values){" is 127.,81
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,initViews,Magic Number,The method contains a magic number: 300,81
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,onChildDraw,Long Parameter List,The method has 7 parameters. ,106
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,205
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,cleanCache,Complex Conditional,The conditional expression mCleanerService != null && !mCleanerService.isScanning() && !mCleanerService.isCleaning() && mCleanerService.getCacheSize() > 0 is complex.,250
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,RubbishCleanPresenter,cleanCache,Long Statement,The length of the statement "if (mCleanerService != null && !mCleanerService.isScanning() && !mCleanerService.isCleaning() && mCleanerService.getCacheSize() > 0) {" is 134.,250
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,AppManagePresenter,initViews,Magic Number,The method contains a magic number: 2,35
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,initViews,Long Statement,The length of the statement "recyclerAdapter.setOnInViewClickListener(R.id.card_item_root`new BaseRecyclerViewAdapter.onInternalClickListenerImpl<AppProcessInfo>(){" is 135.,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,initViews,Long Statement,The length of the statement "@Override public void OnClickListener( android.view.View parentV` android.view.View v` Integer position` AppProcessInfo values){" is 128.,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,initViews,Long Statement,The length of the statement "AlertDialog.Builder builder=new AlertDialog.Builder(mContext).setTitle(values.appName).setIcon(values.icon).setNegativeButton("取消"`(dialogInterface`i) -> {" is 155.,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,initViews,Long Statement,The length of the statement "recyclerAdapter.setOnInViewClickListener(R.id.is_clean`new BaseRecyclerViewAdapter.onInternalClickListenerImpl<AppProcessInfo>(){" is 129.,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,initViews,Long Statement,The length of the statement "@Override public void OnClickListener( android.view.View parentV` android.view.View v` Integer position` AppProcessInfo values){" is 128.,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,initViews,Long Statement,The length of the statement "@Override public boolean onMove( RecyclerView recyclerView` RecyclerView.ViewHolder viewHolder` RecyclerView.ViewHolder target){" is 128.,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,initViews,Long Statement,The length of the statement "@Override public void onChildDraw( Canvas c` RecyclerView recyclerView` RecyclerView.ViewHolder viewHolder` float dX` float dY` int actionState` boolean isCurrentlyActive){" is 172.,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,initViews,Magic Number,The method contains a magic number: 300,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,OnClickListener,Long Statement,The length of the statement "AlertDialog.Builder builder=new AlertDialog.Builder(mContext).setTitle(values.appName).setIcon(values.icon).setNegativeButton("取消"`(dialogInterface`i) -> {" is 155.,89
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,onChildDraw,Long Parameter List,The method has 7 parameters. ,191
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,onOptionsItemSelected,Complex Method,Cyclomatic complexity of the method is 24,245
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,onOptionsItemSelected,Magic Number,The method contains a magic number: 2,245
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,onOptionsItemSelected,Magic Number,The method contains a magic number: 3,245
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,onOptionsItemSelected,Magic Number,The method contains a magic number: 4,245
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,365
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.activity,MemoryCleanPresenter,cleanMemory,Long Statement,The length of the statement "mMemoryClean.showSnackBar(count > 0 ? "共清理" + count + "个进程`共占内存"+ TextFormater.dataSizeFormat(killAppmemory)+ "内存" : "未选中要清理的进程");" is 130.,396
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,disableApps,Long Statement,The length of the statement "mObservableUtils.disableApps(mContext`noSystemAuto).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe((v) -> {" is 141.,70
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,initView,Long Statement,The length of the statement "recyclerAdapter.setOnInViewClickListener(R.id.is_clean`new BaseRecyclerViewAdapter.onInternalClickListenerImpl<AutoStartInfo>(){" is 128.,106
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,initView,Long Statement,The length of the statement "@Override public void OnClickListener( android.view.View parentV` android.view.View v` Integer position` AutoStartInfo values){" is 127.,106
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,initView,Magic Number,The method contains a magic number: 300,106
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,enableApp,Long Statement,The length of the statement "mObservableUtils.enableApp(mContext`autoStartInfo).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe((v) -> {" is 140.,165
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,doInBackground,Complex Method,Cyclomatic complexity of the method is 8,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,doInBackground,Long Statement,The length of the statement "ComponentName mComponentName1=new ComponentName(resolveInfoList.get(0).activityInfo.packageName`resolveInfoList.get(0).activityInfo.name);" is 138.,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,doInBackground,Long Statement,The length of the statement "packageReceiver=packageReceiver + ";" + resolveInfoList.get(i).activityInfo.packageName+ "/"+ resolveInfoList.get(i).activityInfo.name;" is 135.,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,doInBackground,Long Statement,The length of the statement "ComponentName mComponentName2=new ComponentName(resolveInfoList.get(i).activityInfo.packageName`resolveInfoList.get(i).activityInfo.name);" is 138.,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,doInBackground,Magic Number,The method contains a magic number: 2,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,doInBackground,Magic Number,The method contains a magic number: 2,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,onProgressUpdate,Empty catch clause,The method has an empty catch block.,312
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,onProgressUpdate,Magic Number,The method contains a magic number: 3,312
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,onPreExecute,Empty catch clause,The method has an empty catch block.,323
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AutoStartPresenter,onPostExecute,Empty catch clause,The method has an empty catch block.,339
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,doInBackground,Complex Method,Cyclomatic complexity of the method is 8,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,doInBackground,Long Statement,The length of the statement "ComponentName mComponentName1=new ComponentName(resolveInfoList.get(0).activityInfo.packageName`resolveInfoList.get(0).activityInfo.name);" is 138.,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,doInBackground,Long Statement,The length of the statement "packageReceiver=packageReceiver + ";" + resolveInfoList.get(i).activityInfo.packageName+ "/"+ resolveInfoList.get(i).activityInfo.name;" is 135.,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,doInBackground,Long Statement,The length of the statement "ComponentName mComponentName2=new ComponentName(resolveInfoList.get(i).activityInfo.packageName`resolveInfoList.get(i).activityInfo.name);" is 138.,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,doInBackground,Magic Number,The method contains a magic number: 2,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,doInBackground,Magic Number,The method contains a magic number: 2,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onProgressUpdate,Empty catch clause,The method has an empty catch block.,312
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onProgressUpdate,Magic Number,The method contains a magic number: 3,312
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onPreExecute,Empty catch clause,The method has an empty catch block.,323
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onPostExecute,Empty catch clause,The method has an empty catch block.,339
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,LineChartPresenter,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,51
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,LineChartPresenter,updateViews,Long Statement,The length of the statement "Axis axisX=new Axis(mAxisValues).setTextColor(color).setHasLines(true).setLineColor(color).setTextSize(9).setName("时间(HH:mm:ss)").setMaxLabelChars(5);" is 150.,72
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,LineChartPresenter,updateViews,Magic Number,The method contains a magic number: 9,72
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,LineChartPresenter,updateViews,Magic Number,The method contains a magic number: 5,72
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,LineChartPresenter,updateViews,Magic Number,The method contains a magic number: 5,72
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,LineChartPresenter,setTimeTask,Magic Number,The method contains a magic number: 3,130
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,LineChartPresenter,setTimeTask,Magic Number,The method contains a magic number: 1000,130
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,LineChartPresenter,run,Magic Number,The method contains a magic number: 3,133
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,initViews,Long Statement,The length of the statement "recyclerAdapter.setOnInViewClickListener(R.id.card_item_root`new BaseRecyclerViewAdapter.onInternalClickListenerImpl<Menu>(){" is 125.,90
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,initViews,Magic Number,The method contains a magic number: 300,90
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,onRecyclerViewItemClick,Magic Number,The method contains a magic number: 2,127
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,onRecyclerViewItemClick,Magic Number,The method contains a magic number: 3,127
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,onRecyclerViewItemClick,Missing default,The following switch statement is missing a default case: switch (position) {,127
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,156
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,setTimeTask,Magic Number,The method contains a magic number: 3,170
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,setTimeTask,Magic Number,The method contains a magic number: 1000,170
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,run,Magic Number,The method contains a magic number: 3,173
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,CircularLoaderPresenter,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,221
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,onCreate,Long Statement,The length of the statement "mGetPackageSizeInfoMethod=mContext.getPackageManager().getClass().getMethod("getPackageSizeInfo"`String.class`IPackageStatsObserver.class);" is 139.,68
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,initView,Long Statement,The length of the statement "recyclerAdapter.setOnInViewClickListener(R.id.card_item_root`new BaseRecyclerViewAdapter.onInternalClickListenerImpl<AppInfo>(){" is 128.,109
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,initView,Long Statement,The length of the statement "@Override public void OnClickListener( android.view.View parentV` android.view.View v` Integer position` AppInfo values){" is 121.,109
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,initView,Long Statement,The length of the statement "AlertDialog.Builder builder=new AlertDialog.Builder(mContext).setTitle(values.getAppName()).setIcon(values.getAppIcon()).setNegativeButton("取消"`(dialogInterface`i) -> {" is 168.,109
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,initView,Magic Number,The method contains a magic number: 300,109
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,OnClickListener,Long Statement,The length of the statement "AlertDialog.Builder builder=new AlertDialog.Builder(mContext).setTitle(values.getAppName()).setIcon(values.getAppIcon()).setNegativeButton("取消"`(dialogInterface`i) -> {" is 168.,119
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,doInBackground,Empty catch clause,The method has an empty catch block.,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,onProgressUpdate,Empty catch clause,The method has an empty catch block.,292
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,onProgressUpdate,Long Statement,The length of the statement "mAppsView.onProgressUpdate(Integer.parseInt(values[0] + "")`Integer.parseInt(values[1] + "")`Long.parseLong(values[2] + "")`values[3] + "");" is 140.,292
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,onProgressUpdate,Magic Number,The method contains a magic number: 2,292
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,onProgressUpdate,Magic Number,The method contains a magic number: 3,292
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,onPreExecute,Empty catch clause,The method has an empty catch block.,306
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,AppsPresenter,onPostExecute,Empty catch clause,The method has an empty catch block.,321
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,doInBackground,Empty catch clause,The method has an empty catch block.,214
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onProgressUpdate,Empty catch clause,The method has an empty catch block.,292
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onProgressUpdate,Long Statement,The length of the statement "mAppsView.onProgressUpdate(Integer.parseInt(values[0] + "")`Integer.parseInt(values[1] + "")`Long.parseLong(values[2] + "")`values[3] + "");" is 140.,292
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onProgressUpdate,Magic Number,The method contains a magic number: 2,292
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onProgressUpdate,Magic Number,The method contains a magic number: 3,292
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onPreExecute,Empty catch clause,The method has an empty catch block.,306
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.presenters.impl.fragment,TaskScanApps,onPostExecute,Empty catch clause,The method has an empty catch block.,321
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.views.impl.activity,RubbishCleanView,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,16
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.mvp.views.impl.activity,MemoryCleanView,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,17
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AppsListAdapter,getAnimators,Long Statement,The length of the statement "return new Animator[]{ObjectAnimator.ofFloat(view`"scaleX"`1.05f`1.0f)`ObjectAnimator.ofFloat(view`"scaleY"`1.05f`1.0f)};" is 121.,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AppsListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AppsListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AppsListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AppsListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,CacheListAdapter,getAnimators,Long Statement,The length of the statement "return new Animator[]{ObjectAnimator.ofFloat(view`"scaleX"`1.05f`1.0f)`ObjectAnimator.ofFloat(view`"scaleY"`1.05f`1.0f)};" is 121.,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,CacheListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,CacheListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,CacheListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,CacheListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,ProcessListAdapter,getAnimators,Long Statement,The length of the statement "return new Animator[]{ObjectAnimator.ofFloat(view`"scaleX"`1.05f`1.0f)`ObjectAnimator.ofFloat(view`"scaleY"`1.05f`1.0f)};" is 121.,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,ProcessListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,ProcessListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,ProcessListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,ProcessListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,59
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,MenuListAdapter,getAnimators,Long Statement,The length of the statement "return new Animator[]{ObjectAnimator.ofFloat(view`"scaleX"`1.05f`1.0f)`ObjectAnimator.ofFloat(view`"scaleY"`1.05f`1.0f)};" is 121.,53
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,MenuListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,53
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,MenuListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,53
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,MenuListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,53
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,MenuListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,53
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,IgnoreListAdapter,getAnimators,Long Statement,The length of the statement "return new Animator[]{ObjectAnimator.ofFloat(view`"scaleX"`1.05f`1.0f)`ObjectAnimator.ofFloat(view`"scaleY"`1.05f`1.0f)};" is 121.,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,IgnoreListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,IgnoreListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,IgnoreListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,IgnoreListAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AutoStartAdapter,getAnimators,Long Statement,The length of the statement "return new Animator[]{ObjectAnimator.ofFloat(view`"scaleX"`1.05f`1.0f)`ObjectAnimator.ofFloat(view`"scaleY"`1.05f`1.0f)};" is 121.,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AutoStartAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AutoStartAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AutoStartAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.adapter,AutoStartAdapter,getAnimators,Magic Number,The method contains a magic number: 1.05f,57
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,46
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,doInBackground,Long Statement,The length of the statement "apps.add(new CacheListItem(pStats.packageName`getPackageManager().getApplicationLabel(getPackageManager().getApplicationInfo(pStats.packageName`PackageManager.GET_META_DATA)).toString()`getPackageManager().getApplicationIcon(pStats.packageName)`pStats.cacheSize));" is 264.,77
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onGetStatsCompleted,Long Statement,The length of the statement "apps.add(new CacheListItem(pStats.packageName`getPackageManager().getApplicationLabel(getPackageManager().getApplicationInfo(pStats.packageName`PackageManager.GET_META_DATA)).toString()`getPackageManager().getApplicationIcon(pStats.packageName)`pStats.cacheSize));" is 264.,97
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onProgressUpdate,Long Statement,The length of the statement "mOnActionListener.onScanProgressUpdated(CleanerService.this`Integer.parseInt(values[0] + "")`Integer.parseInt(values[1] + "")`Long.parseLong(values[2] + "")`values[3] + "");" is 173.,145
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onProgressUpdate,Magic Number,The method contains a magic number: 2,145
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onProgressUpdate,Magic Number,The method contains a magic number: 3,145
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,doInBackground,Long Statement,The length of the statement "mFreeStorageAndNotifyMethod.invoke(getPackageManager()`(long)stat.getBlockCount() * (long)stat.getBlockSize()`new IPackageDataObserver.Stub(){" is 142.,173
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onCreate,Long Statement,The length of the statement "mGetPackageSizeInfoMethod=getPackageManager().getClass().getMethod("getPackageSizeInfo"`String.class`IPackageStatsObserver.class);" is 130.,217
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onCreate,Long Statement,The length of the statement "mFreeStorageAndNotifyMethod=getPackageManager().getClass().getMethod("freeStorageAndNotify"`long.class`IPackageDataObserver.class);" is 131.,217
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onCreate,Long Statement,The length of the statement "mDeleteApplicationCacheFiles=getPackageManager().getClass().getMethod("deleteApplicationCacheFiles"`String.class`IPackageDataObserver.class);" is 141.,217
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onStartCommand,Magic Number,The method contains a magic number: 5000,241
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,252
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CleanerService,onCleanCompleted,Magic Number,The method contains a magic number: 5000,271
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,OnActionListener,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,46
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,doInBackground,Long Statement,The length of the statement "apps.add(new CacheListItem(pStats.packageName`getPackageManager().getApplicationLabel(getPackageManager().getApplicationInfo(pStats.packageName`PackageManager.GET_META_DATA)).toString()`getPackageManager().getApplicationIcon(pStats.packageName)`pStats.cacheSize));" is 264.,77
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,onGetStatsCompleted,Long Statement,The length of the statement "apps.add(new CacheListItem(pStats.packageName`getPackageManager().getApplicationLabel(getPackageManager().getApplicationInfo(pStats.packageName`PackageManager.GET_META_DATA)).toString()`getPackageManager().getApplicationIcon(pStats.packageName)`pStats.cacheSize));" is 264.,97
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,onProgressUpdate,Long Statement,The length of the statement "mOnActionListener.onScanProgressUpdated(CleanerService.this`Integer.parseInt(values[0] + "")`Integer.parseInt(values[1] + "")`Long.parseLong(values[2] + "")`values[3] + "");" is 173.,145
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,onProgressUpdate,Magic Number,The method contains a magic number: 2,145
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,onProgressUpdate,Magic Number,The method contains a magic number: 3,145
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskClean,doInBackground,Long Statement,The length of the statement "mFreeStorageAndNotifyMethod.invoke(getPackageManager()`(long)stat.getBlockCount() * (long)stat.getBlockSize()`new IPackageDataObserver.Stub(){" is 142.,173
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,48
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,onCreate,Empty catch clause,The method has an empty catch block.,72
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,onStartCommand,Magic Number,The method contains a magic number: 5000,85
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,96
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,onCleanCompleted,Magic Number,The method contains a magic number: 5000,115
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,doInBackground,Magic Number,The method contains a magic number: 1024,162
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,onProgressUpdate,Long Statement,The length of the statement "mOnActionListener.onScanProgressUpdated(CoreService.this`Integer.parseInt(values[0] + "")`Integer.parseInt(values[1] + "")`Long.parseLong(values[2] + "")`values[3] + "");" is 170.,229
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,onProgressUpdate,Magic Number,The method contains a magic number: 2,229
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,CoreService,onProgressUpdate,Magic Number,The method contains a magic number: 3,229
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,OnProcessActionListener,onScanProgressUpdated,Long Parameter List,The method has 5 parameters. ,48
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,doInBackground,Magic Number,The method contains a magic number: 1024,162
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,onProgressUpdate,Long Statement,The length of the statement "mOnActionListener.onScanProgressUpdated(CoreService.this`Integer.parseInt(values[0] + "")`Integer.parseInt(values[1] + "")`Long.parseLong(values[2] + "")`values[3] + "");" is 170.,229
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,onProgressUpdate,Magic Number,The method contains a magic number: 2,229
+MemoryCleaner-master,edu.wkd.towave.memorycleaner.service,TaskScan,onProgressUpdate,Magic Number,The method contains a magic number: 3,229

@@ -1,0 +1,146 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+86_parkd-mvp-master,com.java.user.parkd.test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+86_parkd-mvp-master,com.java.user.parkd.test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+86_parkd-mvp-master,com.java.user.parkd.test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+86_parkd-mvp-master,com.java.user.parkd,ActiveBookingsData,ActiveBookingsData,Long Parameter List,The method has 8 parameters. ,73
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 13,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Long Method,The method has 125 lines of code.,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Long Statement,The length of the statement "builder.setMessage("This card has already been added to this account. Please choose another.").setNegativeButton("Retry"`null).create().show();" is 143.,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Long Statement,The length of the statement "builder.setMessage("Unable to add card at this time. Please try again.").setNegativeButton("Retry"`null).create().show();" is 121.,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Long Statement,The length of the statement "AddPaymentRequest addPaymentRequest=new AddPaymentRequest(card_number`expire_date`cvv`email`card_type`digits`manual`responseListener);" is 134.,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Magic Number,The method contains a magic number: 2,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Magic Number,The method contains a magic number: 19,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Magic Number,The method contains a magic number: 16,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,onCreate,Magic Number,The method contains a magic number: 5,57
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,afterTextChanged,Magic Number,The method contains a magic number: 2,75
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,checkCardFormat,Magic Number,The method contains a magic number: 19,224
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,checkExpire,Magic Number,The method contains a magic number: 5,240
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,checkCvv,Magic Number,The method contains a magic number: 3,256
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,checkCardNumber,Magic Number,The method contains a magic number: 19,272
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Complex Method,Cyclomatic complexity of the method is 11,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 4,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 2,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 2,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 34,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 37,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 51,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 52,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 53,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 54,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,camImg,Magic Number,The method contains a magic number: 55,364
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentActivity,buildCorrecntString,Complex Conditional,The conditional expression (i > 0) && (i < (digits.length - 1)) && (((i + 1) % dividerPosition) == 0) is complex.,426
+86_parkd-mvp-master,com.java.user.parkd,AddPaymentRequest,AddPaymentRequest,Long Parameter List,The method has 8 parameters. ,16
+86_parkd-mvp-master,com.java.user.parkd,AddPrivateSpaceActivity,checkData,Complex Method,Cyclomatic complexity of the method is 8,125
+86_parkd-mvp-master,com.java.user.parkd,AddPrivateSpaceActivity,checkData,Long Statement,The length of the statement "builder.setMessage("Please enter the price you wish to charge per hour.").setNegativeButton("Retry"`null).create().show();" is 122.,125
+86_parkd-mvp-master,com.java.user.parkd,AddPrivateSpaceActivity,checkData,Long Statement,The length of the statement "builder.setMessage("Please enter the address of the space you wish to rent.").setNegativeButton("Retry"`null).create().show();" is 126.,125
+86_parkd-mvp-master,com.java.user.parkd,AddPrivateSpaceActivity,checkCard,Long Statement,The length of the statement "builder.setMessage("No payment methods have been added to your account yet. Would you like to add one now?").setNegativeButton(android.R.string.cancel`null).setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 233.,212
+86_parkd-mvp-master,com.java.user.parkd,AddPrivateSpaceActivity,onResponse,Long Statement,The length of the statement "builder.setMessage("No payment methods have been added to your account yet. Would you like to add one now?").setNegativeButton(android.R.string.cancel`null).setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 233.,216
+86_parkd-mvp-master,com.java.user.parkd,AddPrivateSpaceActivity,onCreateDialog,Long Statement,The length of the statement "builder.setTitle("Which payment method would you like to use for us to send transactions to?").setSingleChoiceItems(payments`0`new DialogInterface.OnClickListener(){" is 165.,271
+86_parkd-mvp-master,com.java.user.parkd,AddPrivateSpaceActivity,spaceRequest,Long Statement,The length of the statement "builder.setMessage("Space has been added. You will shortly receive email confrimation. If you have any issues feel free to contact info@parkd.com.").setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 225.,290
+86_parkd-mvp-master,com.java.user.parkd,AddPrivateSpaceActivity,onResponse,Long Statement,The length of the statement "builder.setMessage("Space has been added. You will shortly receive email confrimation. If you have any issues feel free to contact info@parkd.com.").setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 225.,297
+86_parkd-mvp-master,com.java.user.parkd,BookingsTabPagerAdapter,getCount,Magic Number,The method contains a magic number: 2,20
+86_parkd-mvp-master,com.java.user.parkd,CarParkData,CarParkData,Long Parameter List,The method has 13 parameters. ,14
+86_parkd-mvp-master,com.java.user.parkd,Fragment1Activity,onCreateView,Long Statement,The length of the statement "ArrayAdapter<String> adapter=new ArrayAdapter<String>(getActivity()`android.R.layout.simple_spinner_dropdown_item`cities);" is 122.,25
+86_parkd-mvp-master,com.java.user.parkd,Fragment1Activity,onCreateView,Long Statement,The length of the statement "mAdapter=new FirebaseRecyclerAdapter<CarParkData`Fragment1Holder>(CarParkData.class`R.layout.fragment1_cardview`Fragment1Holder.class`ref){" is 139.,25
+86_parkd-mvp-master,com.java.user.parkd,Fragment1Activity,onCreateView,Magic Number,The method contains a magic number: 10,25
+86_parkd-mvp-master,com.java.user.parkd,Fragment1Activity,onCreateView,Magic Number,The method contains a magic number: 10,25
+86_parkd-mvp-master,com.java.user.parkd,Fragment1Activity,onCreateView,Magic Number,The method contains a magic number: 20,25
+86_parkd-mvp-master,com.java.user.parkd,Fragment1Activity,populateViewHolder,Magic Number,The method contains a magic number: 10,60
+86_parkd-mvp-master,com.java.user.parkd,Fragment1Activity,populateViewHolder,Magic Number,The method contains a magic number: 10,60
+86_parkd-mvp-master,com.java.user.parkd,Fragment1Activity,populateViewHolder,Magic Number,The method contains a magic number: 20,60
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onCreateView,Long Statement,The length of the statement "PlaceAutocompleteFragment autocompleteFragment=(PlaceAutocompleteFragment)getActivity().getFragmentManager().findFragmentById(R.id.place_autocomplete_fragment);" is 160.,145
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onCreateView,Long Statement,The length of the statement "@Override public void onPanelStateChanged( View panel` SlidingUpPanelLayout.PanelState previousState` SlidingUpPanelLayout.PanelState newState){" is 144.,145
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onCreateView,Magic Number,The method contains a magic number: 15,145
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onPlaceSelected,Magic Number,The method contains a magic number: 15,164
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onMapReady,Magic Number,The method contains a magic number: 54.597263,224
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onMapReady,Magic Number,The method contains a magic number: 5.930134,224
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onMapReady,Magic Number,The method contains a magic number: 14,224
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,generateMarkers,Magic Number,The method contains a magic number: 2.00,304
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,generateMarkers,Magic Number,The method contains a magic number: 2.00,304
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,generateMarkers,Magic Number,The method contains a magic number: 4.00,304
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onPostExecute,Long Statement,The length of the statement "mArrivalText.setOnClickListener(v -> new SlideDateTimePicker.Builder(getActivity().getSupportFragmentManager()).setListener(listener).setIs24HourTime(true).setInitialDate(new Date()).setMinDate(new Date()).setMaxDate(returnMaxDate()).build().show());" is 250.,361
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onPostExecute,Long Statement,The length of the statement "mDepartureText.setOnClickListener(v -> new SlideDateTimePicker.Builder(getActivity().getSupportFragmentManager()).setListener(listener2).setIs24HourTime(true).setInitialDate(new Date()).setMinDate(new Date()).setMaxDate(returnMaxDate()).build().show());" is 253.,361
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,returnMaxDate,Magic Number,The method contains a magic number: 3,437
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,calculateBookingCost,Magic Number,The method contains a magic number: 1000,450
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,calculateBookingCost,Magic Number,The method contains a magic number: 60,450
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,calculateBookingCost,Magic Number,The method contains a magic number: 60,450
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,checkCard,Long Statement,The length of the statement "builder.setMessage("No payment methods have been added to your account yet. Would you like to add one now?").setNegativeButton(android.R.string.cancel`null).setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 233.,475
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onResponse,Long Statement,The length of the statement "builder.setMessage("No payment methods have been added to your account yet. Would you like to add one now?").setNegativeButton(android.R.string.cancel`null).setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 233.,479
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onCreateDialog,Long Statement,The length of the statement "builder.setTitle("Which payment method would you like to use?").setSingleChoiceItems(payments`0`new DialogInterface.OnClickListener(){" is 134.,533
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,bookRequest,Long Statement,The length of the statement "builder.setMessage("Space has been booked. You will shortly receive an email to confrim details").setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 174.,560
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,bookRequest,Long Statement,The length of the statement "builder.setMessage("Unfortunately there is already a booking during this time. Please select a different time or location.").setNegativeButton("Retry"`null).create().show();" is 173.,560
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,bookRequest,Long Statement,The length of the statement "SendBookingConfirmation Request=new SendBookingConfirmation(email`fFormatter.format(ArrDate)`fFormatter.format(DeptDate)`m_spaceId`String.format("%.2f"`bookingCost)`payment_option`dFormatter.format(ArrDate)`responseListener);" is 225.,560
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onResponse,Long Statement,The length of the statement "builder.setMessage("Space has been booked. You will shortly receive an email to confrim details").setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 174.,567
+86_parkd-mvp-master,com.java.user.parkd,Fragment2Activity,onResponse,Long Statement,The length of the statement "builder.setMessage("Unfortunately there is already a booking during this time. Please select a different time or location.").setNegativeButton("Retry"`null).create().show();" is 173.,567
+86_parkd-mvp-master,com.java.user.parkd,JSONParse,onPostExecute,Long Statement,The length of the statement "mArrivalText.setOnClickListener(v -> new SlideDateTimePicker.Builder(getActivity().getSupportFragmentManager()).setListener(listener).setIs24HourTime(true).setInitialDate(new Date()).setMinDate(new Date()).setMaxDate(returnMaxDate()).build().show());" is 250.,361
+86_parkd-mvp-master,com.java.user.parkd,JSONParse,onPostExecute,Long Statement,The length of the statement "mDepartureText.setOnClickListener(v -> new SlideDateTimePicker.Builder(getActivity().getSupportFragmentManager()).setListener(listener2).setIs24HourTime(true).setInitialDate(new Date()).setMinDate(new Date()).setMaxDate(returnMaxDate()).build().show());" is 253.,361
+86_parkd-mvp-master,com.java.user.parkd,FragmentBookings1Activity,doInBackground,Magic Number,The method contains a magic number: 200,64
+86_parkd-mvp-master,com.java.user.parkd,FragmentBookings1Activity,parseResult,Long Statement,The length of the statement "ActiveBookingsData data=new ActiveBookingsData(object.getString("bookingdate")`object.getString("image")`object.getString("address")`object.getString("postcode")`object.getDouble("price")`object.getString("starttime")`object.getString("endtime")`object.getString("type"));" is 272.,121
+86_parkd-mvp-master,com.java.user.parkd,AsyncHTTPTask,doInBackground,Magic Number,The method contains a magic number: 200,64
+86_parkd-mvp-master,com.java.user.parkd,FragmentBookings2Activity,doInBackground,Magic Number,The method contains a magic number: 200,63
+86_parkd-mvp-master,com.java.user.parkd,FragmentBookings2Activity,parseResult,Long Statement,The length of the statement "InActiveBookingsData data=new InActiveBookingsData(object.getString("bookingdate")`object.getString("image")`object.getString("address")`object.getString("postcode")`object.getDouble("price")`object.getString("starttime")`object.getString("endtime")`object.getString("type"));" is 276.,118
+86_parkd-mvp-master,com.java.user.parkd,AsyncHTTPTask,doInBackground,Magic Number,The method contains a magic number: 200,63
+86_parkd-mvp-master,com.java.user.parkd,InActiveBookingsData,InActiveBookingsData,Long Parameter List,The method has 8 parameters. ,81
+86_parkd-mvp-master,com.java.user.parkd,JSONParser,getJSONFromUrl,Magic Number,The method contains a magic number: 8,32
+86_parkd-mvp-master,com.java.user.parkd,MainActivity,onCreate,Magic Number,The method contains a magic number: 2,11
+86_parkd-mvp-master,com.java.user.parkd,MainActivity,onTabSelected,Magic Number,The method contains a magic number: 2,29
+86_parkd-mvp-master,com.java.user.parkd,NewSpaceRequest,NewSpaceRequest,Long Parameter List,The method has 9 parameters. ,16
+86_parkd-mvp-master,com.java.user.parkd,PaymentActivity,doInBackground,Magic Number,The method contains a magic number: 200,85
+86_parkd-mvp-master,com.java.user.parkd,AsyncHTTPTask,doInBackground,Magic Number,The method contains a magic number: 200,85
+86_parkd-mvp-master,com.java.user.parkd,PopTermsCon,onCreate,Empty catch clause,The method has an empty catch block.,22
+86_parkd-mvp-master,com.java.user.parkd,PopTermsCon,onCreate,Magic Number,The method contains a magic number: .85,22
+86_parkd-mvp-master,com.java.user.parkd,PopTermsCon,onCreate,Magic Number,The method contains a magic number: .7,22
+86_parkd-mvp-master,com.java.user.parkd,RegisterActivity,onCreate,Long Statement,The length of the statement "builder.setMessage("Email is not valid. Please enter a valid email address.").setNegativeButton("Retry"`null).create().show();" is 126.,41
+86_parkd-mvp-master,com.java.user.parkd,RegisterActivity,onCreate,Long Statement,The length of the statement "builder.setMessage("Password is not valid. Make sure it contains 6 to 20 characters with at least one digit` one upper case letter` one lower case letter. ").setNegativeButton("Retry"`null).create().show();" is 206.,41
+86_parkd-mvp-master,com.java.user.parkd,RegisterActivity,onCreate,Long Statement,The length of the statement "builder.setMessage("Email has already been registered. Please choose another.").setNegativeButton("Retry"`null).create().show();" is 128.,41
+86_parkd-mvp-master,com.java.user.parkd,RegisterRequest,RegisterRequest,Long Parameter List,The method has 5 parameters. ,18
+86_parkd-mvp-master,com.java.user.parkd,RentActivity,doInBackground,Magic Number,The method contains a magic number: 200,88
+86_parkd-mvp-master,com.java.user.parkd,RentActivity,parseResult,Long Statement,The length of the statement "RentData data=new RentData(object.getString("image")`object.getString("address")`object.getString("postcode")`object.getDouble("price")`object.getString("desc")`object.getString("show")`object.getString("type"));" is 212.,145
+86_parkd-mvp-master,com.java.user.parkd,AsyncHTTPTask,doInBackground,Magic Number,The method contains a magic number: 200,88
+86_parkd-mvp-master,com.java.user.parkd,RentData,RentData,Long Parameter List,The method has 7 parameters. ,77
+86_parkd-mvp-master,com.java.user.parkd,SendBookingConfirmation,SendBookingConfirmation,Long Parameter List,The method has 8 parameters. ,19
+86_parkd-mvp-master,com.java.user.parkd,TabPagerAdapter,getCount,Magic Number,The method contains a magic number: 3,20
+86_parkd-mvp-master,com.java.user.parkd,TabPagerAdapter,getItem,Magic Number,The method contains a magic number: 2,25
+86_parkd-mvp-master,com.java.user.parkd,UserEditRequest,UserEditRequest,Long Parameter List,The method has 6 parameters. ,19
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,CustomViewPager,dispatchTouchEvent,Complex Method,Cyclomatic complexity of the method is 8,76
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,DateFragment,newInstance,Long Parameter List,The method has 6 parameters. ,62
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,DateFragment,onCreateView,Long Statement,The length of the statement "Context contextThemeWrapper=new ContextThemeWrapper(getActivity()`theme == SlideDateTimePicker.HOLO_DARK ? android.R.style.Theme_Holo : android.R.style.Theme_Holo_Light);" is 170.,92
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,newInstance,Long Parameter List,The method has 8 parameters. ,68
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,onCreate,Missing default,The following switch statement is missing a default case: switch (mTheme) {,116
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,customizeViews,Long Statement,The length of the statement "int lineColor=mTheme == SlideDateTimePicker.HOLO_DARK ? getResources().getColor(R.color.gray_holo_dark) : getResources().getColor(R.color.gray_holo_light);" is 155.,192
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,customizeViews,Missing default,The following switch statement is missing a default case: switch (mTheme) {,192
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,getItem,Long Statement,The length of the statement "DateFragment dateFragment=DateFragment.newInstance(mTheme`mCalendar.get(Calendar.YEAR)`mCalendar.get(Calendar.MONTH)`mCalendar.get(Calendar.DAY_OF_MONTH)`mMinDate`mMaxDate);" is 173.,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,getItem,Long Statement,The length of the statement "TimeFragment timeFragment=TimeFragment.newInstance(mTheme`mCalendar.get(Calendar.HOUR_OF_DAY)`mCalendar.get(Calendar.MINUTE)`mIsClientSpecified24HourTime`mIs24HourTime);" is 169.,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,getItem,Magic Number,The method contains a magic number: 100,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,getItem,Magic Number,The method contains a magic number: 200,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,getItem,Missing default,The following switch statement is missing a default case: switch (position) {,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimeDialogFragment,getCount,Magic Number,The method contains a magic number: 2,398
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,ViewPagerAdapter,getItem,Long Statement,The length of the statement "DateFragment dateFragment=DateFragment.newInstance(mTheme`mCalendar.get(Calendar.YEAR)`mCalendar.get(Calendar.MONTH)`mCalendar.get(Calendar.DAY_OF_MONTH)`mMinDate`mMaxDate);" is 173.,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,ViewPagerAdapter,getItem,Long Statement,The length of the statement "TimeFragment timeFragment=TimeFragment.newInstance(mTheme`mCalendar.get(Calendar.HOUR_OF_DAY)`mCalendar.get(Calendar.MINUTE)`mIsClientSpecified24HourTime`mIs24HourTime);" is 169.,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,ViewPagerAdapter,getItem,Magic Number,The method contains a magic number: 100,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,ViewPagerAdapter,getItem,Magic Number,The method contains a magic number: 200,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,ViewPagerAdapter,getItem,Missing default,The following switch statement is missing a default case: switch (position) {,369
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,ViewPagerAdapter,getCount,Magic Number,The method contains a magic number: 2,398
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlideDateTimePicker,show,Long Statement,The length of the statement "SlideDateTimeDialogFragment dialogFragment=SlideDateTimeDialogFragment.newInstance(mListener`mInitialDate`mMinDate`mMaxDate`mIsClientSpecified24HourTime`mIs24HourTime`mTheme`mIndicatorColor);" is 191.,156
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabLayout,scrollToTab,Complex Conditional,The conditional expression tabStripChildCount == 0 || tabIndex < 0 || tabIndex >= tabStripChildCount is complex.,265
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabLayout,onPageScrolled,Complex Conditional,The conditional expression (tabStripChildCount == 0) || (position < 0) || (position >= tabStripChildCount) is complex.,287
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,InternalViewPagerListener,onPageScrolled,Complex Conditional,The conditional expression (tabStripChildCount == 0) || (position < 0) || (position >= tabStripChildCount) is complex.,287
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabStrip,SlidingTabStrip,Long Identifier,The length of the field DEFAULT_BOTTOM_BORDER_COLOR_ALPHA is 33.,63
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabStrip,SlidingTabStrip,Long Identifier,The length of the field DEFAULT_SELECTED_INDICATOR_COLOR is 32.,63
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabStrip,SlidingTabStrip,Long Identifier,The length of the field DEFAULT_BOTTOM_BORDER_THICKNESS_DIPS is 36.,63
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabStrip,SlidingTabStrip,Long Identifier,The length of the field SELECTED_INDICATOR_THICKNESS_DIPS is 33.,63
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabStrip,SlidingTabStrip,Long Identifier,The length of the field DEFAULT_DIVIDER_THICKNESS_DIPS is 30.,63
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabStrip,onDraw,Long Statement,The length of the statement "final SlidingTabLayout.TabColorizer tabColorizer=mCustomTabColorizer != null ? mCustomTabColorizer : mDefaultTabColorizer;" is 122.,118
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,SlidingTabStrip,onDraw,Magic Number,The method contains a magic number: 2,118
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,newInstance,Long Parameter List,The method has 5 parameters. ,64
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,onCreateView,Long Statement,The length of the statement "Context contextThemeWrapper=new ContextThemeWrapper(getActivity()`theme == SlideDateTimePicker.HOLO_DARK ? android.R.style.Theme_Holo : android.R.style.Theme_Holo_Light);" is 170.,92
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,onCreateView,Long Statement,The length of the statement "if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH && Build.VERSION.SDK_INT <= Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1) {" is 141.,92
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,fixTimePickerBug18982,Magic Number,The method contains a magic number: 3,161
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,fixTimePickerBug18982,Magic Number,The method contains a magic number: 12,161
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,fixTimePickerBug18982,Magic Number,The method contains a magic number: 12,161
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,fixTimePickerBug18982,Magic Number,The method contains a magic number: 12,161
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,fixTimePickerBug18982,Magic Number,The method contains a magic number: 12,161
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,onValueChange,Magic Number,The method contains a magic number: 12,179
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,onValueChange,Magic Number,The method contains a magic number: 12,179
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,onValueChange,Magic Number,The method contains a magic number: 12,179
+86_parkd-mvp-master,com.github.jjobes.slidedatetimepicker,TimeFragment,onValueChange,Magic Number,The method contains a magic number: 12,179

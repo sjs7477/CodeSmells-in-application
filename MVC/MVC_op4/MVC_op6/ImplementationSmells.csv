@@ -1,0 +1,948 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeQueryActivity,onCreate,Empty catch clause,The method has an empty catch block.,25
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeQueryActivity,onClick,Empty catch clause,The method has an empty catch block.,50
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressListActivity,onCreate,Long Statement,The length of the statement "startActivityForResult(new Intent(ReceiveAddressListActivity.this`ReceiveAddressAddActivity.class)`ActivityUtils.ADD_CODE);" is 123.,50
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressListActivity,onClick,Long Statement,The length of the statement "startActivityForResult(new Intent(ReceiveAddressListActivity.this`ReceiveAddressAddActivity.class)`ActivityUtils.ADD_CODE);" is 123.,70
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressListActivity,setViews,Long Statement,The length of the statement "adapter=new ReceiveAddressAdapter(ReceiveAddressListActivity.this`list`R.layout.receiveadress_list_item`new String[]{"receiveAddressName"`"receiveName"`"receivePhone"}`new int[]{R.id.receiveAddressName`R.id.receiveName`R.id.receivePhone}`lv);" is 242.,102
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressListActivity,run,Long Statement,The length of the statement "adapter=new ReceiveAddressAdapter(ReceiveAddressListActivity.this`list`R.layout.receiveadress_list_item`new String[]{"receiveAddressName"`"receiveName"`"receivePhone"}`new int[]{R.id.receiveAddressName`R.id.receiveName`R.id.receivePhone}`lv);" is 242.,106
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressListActivity,run,Long Statement,The length of the statement "adapter=new ReceiveAddressAdapter(ReceiveAddressListActivity.this`list`R.layout.receiveadress_list_item`new String[]{"receiveAddressName"`"receiveName"`"receivePhone"}`new int[]{R.id.receiveAddressName`R.id.receiveName`R.id.receivePhone}`lv);" is 242.,112
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressListActivity,getDatas,Empty catch clause,The method has an empty catch block.,204
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,setViews,Long Statement,The length of the statement "adapter=new ImageSimpleAdapter(this`getDatas()`R.layout.message_list`new String[]{"icon"`"title"`"shortContent"}`new int[]{R.id.ml_icon`R.id.ml_title`R.id.ml_short_content});" is 174.,48
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,computeSampleSize,Magic Number,The method contains a magic number: 8,96
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,computeSampleSize,Magic Number,The method contains a magic number: 7,96
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,computeSampleSize,Magic Number,The method contains a magic number: 8,96
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,computeSampleSize,Magic Number,The method contains a magic number: 8,96
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,computeInitialSampleSize,Magic Number,The method contains a magic number: 128,113
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,getDatas,Complex Conditional,The conditional expression ".gif".equals(lastType) || ".jpg".equals(lastType) || ".bmp".equals(lastType)|| ".png".equals(lastType) is complex.,139
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,getDatas,Empty catch clause,The method has an empty catch block.,139
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,getDatas,Magic Number,The method contains a magic number: 128,139
+-SpringMVC-Android--APP-master,com.mobileclient.activity,photoListActivity,getDatas,Magic Number,The method contains a magic number: 128,139
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 27,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Long Method,The method has 263 lines of code.,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 0x122,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 4,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 1001,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 0x122,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 3,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 2,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 3,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 4,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 9,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 3,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 4,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onCreate,Magic Number,The method contains a magic number: 9,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,finishPwd,Magic Number,The method contains a magic number: 0x122,182
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,finishPwd,Magic Number,The method contains a magic number: 4,182
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,finishPwd,Magic Number,The method contains a magic number: 1001,182
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,finishPwd,Magic Number,The method contains a magic number: 0x122,182
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,handleMessage,Magic Number,The method contains a magic number: 0x122,195
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,handleMessage,Magic Number,The method contains a magic number: 4,195
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,handleMessage,Magic Number,The method contains a magic number: 1001,195
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,run,Magic Number,The method contains a magic number: 0x122,208
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onClick,Magic Number,The method contains a magic number: 9,411
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,update,Magic Number,The method contains a magic number: 0x120,462
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,update,Magic Number,The method contains a magic number: 4,462
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,update,Magic Number,The method contains a magic number: 0x120,462
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,handleMessage,Magic Number,The method contains a magic number: 0x120,464
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,run,Magic Number,The method contains a magic number: 4,474
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,run,Magic Number,The method contains a magic number: 0x120,474
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,showDialog,Complex Method,Cyclomatic complexity of the method is 8,499
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,showDialog,Magic Number,The method contains a magic number: 0x123,499
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,showDialog,Magic Number,The method contains a magic number: 2,499
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,showDialog,Magic Number,The method contains a magic number: 0x123,499
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,showDialog,Magic Number,The method contains a magic number: 2,499
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,showDialog,Magic Number,The method contains a magic number: 3,499
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,showDialog,Magic Number,The method contains a magic number: 4,499
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onClick,Complex Method,Cyclomatic complexity of the method is 8,505
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onClick,Magic Number,The method contains a magic number: 0x123,505
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onClick,Magic Number,The method contains a magic number: 2,505
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onClick,Magic Number,The method contains a magic number: 0x123,505
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onClick,Magic Number,The method contains a magic number: 2,505
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onClick,Magic Number,The method contains a magic number: 3,505
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onClick,Magic Number,The method contains a magic number: 4,505
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,514
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,handleMessage,Magic Number,The method contains a magic number: 2,514
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,run,Magic Number,The method contains a magic number: 0x123,547
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onActivityResult,Magic Number,The method contains a magic number: 1001,607
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,onActivityResult,Magic Number,The method contains a magic number: 4,607
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,run,Magic Number,The method contains a magic number: 1000,659
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderDetailActivity,run,Magic Number,The method contains a magic number: 0x122,659
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MessageThread,run,Magic Number,The method contains a magic number: 1000,659
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MessageThread,run,Magic Number,The method contains a magic number: 0x122,659
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 13,70
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onCreate,Empty catch clause,The method has an empty catch block.,70
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onCreate,Long Identifier,The length of the field REQ_CODE_SELECT_IMAGE_userPhoto is 31.,70
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onCreate,Long Method,The method has 162 lines of code.,70
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onCreate,Magic Number,The method contains a magic number: 1900,70
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onClick,Long Identifier,The length of the field REQ_CODE_SELECT_IMAGE_userPhoto is 31.,99
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onClick,Complex Method,Cyclomatic complexity of the method is 13,135
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onClick,Empty catch clause,The method has an empty catch block.,135
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onClick,Long Method,The method has 101 lines of code.,135
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onClick,Magic Number,The method contains a magic number: 1900,135
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onActivityResult,Empty catch clause,The method has an empty catch block.,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onActivityResult,Empty catch clause,The method has an empty catch block.,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onActivityResult,Long Identifier,The length of the field REQ_CODE_SELECT_IMAGE_userPhoto is 31.,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onActivityResult,Magic Number,The method contains a magic number: 300,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onActivityResult,Magic Number,The method contains a magic number: 300,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onActivityResult,Magic Number,The method contains a magic number: 30,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onActivityResult,Magic Number,The method contains a magic number: 128,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoAddActivity,onActivityResult,Magic Number,The method contains a magic number: 128,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 8,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onCreate,Long Method,The method has 157 lines of code.,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onCreate,Long Statement,The length of the statement "if (userEmail.getText().toString().equals("") || !android.util.Patterns.EMAIL_ADDRESS.matcher(userEmail.getText().toString()).matches()) {" is 138.,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onCreate,Magic Number,The method contains a magic number: 0x120,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onCreate,Magic Number,The method contains a magic number: 11,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onCreate,Magic Number,The method contains a magic number: 0x123,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onCreate,Magic Number,The method contains a magic number: 0x125,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,run,Magic Number,The method contains a magic number: 0x120,140
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onClick,Long Statement,The length of the statement "if (userEmail.getText().toString().equals("") || !android.util.Patterns.EMAIL_ADDRESS.matcher(userEmail.getText().toString()).matches()) {" is 138.,172
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onClick,Magic Number,The method contains a magic number: 11,172
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onClick,Magic Number,The method contains a magic number: 0x123,172
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onClick,Magic Number,The method contains a magic number: 0x125,172
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,run,Magic Number,The method contains a magic number: 0x123,211
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,run,Magic Number,The method contains a magic number: 0x125,211
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,275
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,handleMessage,Magic Number,The method contains a magic number: 0x125,275
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,handleMessage,Magic Number,The method contains a magic number: 0x120,275
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,take_photo,Magic Number,The method contains a magic number: 24,366
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,select_photo,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 126.,407
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onActivityResult,Magic Number,The method contains a magic number: 19,504
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onActivityResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,504
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,536
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,compressImage,Magic Number,The method contains a magic number: 100,565
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,compressImage,Magic Number,The method contains a magic number: 100,565
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,compressImage,Magic Number,The method contains a magic number: 1024,565
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,compressImage,Magic Number,The method contains a magic number: 100,565
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,compressImage,Magic Number,The method contains a magic number: 10,565
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,comp,Magic Number,The method contains a magic number: 100,591
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,comp,Magic Number,The method contains a magic number: 1024,591
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,comp,Magic Number,The method contains a magic number: 1024,591
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,comp,Magic Number,The method contains a magic number: 50,591
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,comp,Magic Number,The method contains a magic number: 800f,591
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,comp,Magic Number,The method contains a magic number: 480f,591
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 90,628
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 180,628
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 270,628
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoEditActivity,ImgUpdateDirection,Missing default,The following switch statement is missing a default case: switch (ori) {,628
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Complex Method,Cyclomatic complexity of the method is 8,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Long Method,The method has 112 lines of code.,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Magic Number,The method contains a magic number: 0x123,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Magic Number,The method contains a magic number: 2,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Magic Number,The method contains a magic number: 0x123,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Magic Number,The method contains a magic number: 0x124,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Magic Number,The method contains a magic number: 3,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Magic Number,The method contains a magic number: 4,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Magic Number,The method contains a magic number: 5,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onItemClick,Missing default,The following switch statement is missing a default case: switch (position) {,248
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,run,Magic Number,The method contains a magic number: 0x123,255
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,run,Magic Number,The method contains a magic number: 0x123,289
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,run,Magic Number,The method contains a magic number: 0x124,289
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,371
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,handleMessage,Magic Number,The method contains a magic number: 0x120,392
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,392
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,handleMessage,Magic Number,The method contains a magic number: 0x124,392
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,setViews,Magic Number,The method contains a magic number: 0x120,450
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,run,Magic Number,The method contains a magic number: 0x120,456
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,take_photo,Magic Number,The method contains a magic number: 24,518
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,select_photo,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 126.,559
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onActivityResult,Magic Number,The method contains a magic number: 19,656
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onActivityResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,656
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,688
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,compressImage,Magic Number,The method contains a magic number: 100,717
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,compressImage,Magic Number,The method contains a magic number: 100,717
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,compressImage,Magic Number,The method contains a magic number: 1024,717
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,compressImage,Magic Number,The method contains a magic number: 100,717
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,compressImage,Magic Number,The method contains a magic number: 10,717
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,comp,Magic Number,The method contains a magic number: 100,743
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,comp,Magic Number,The method contains a magic number: 1024,743
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,comp,Magic Number,The method contains a magic number: 1024,743
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,comp,Magic Number,The method contains a magic number: 50,743
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,comp,Magic Number,The method contains a magic number: 800f,743
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,comp,Magic Number,The method contains a magic number: 480f,743
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 90,780
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 180,780
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 270,780
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoDetailActivity,ImgUpdateDirection,Missing default,The following switch statement is missing a default case: switch (ori) {,780
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainUserActivity,onCreate,Long Statement,The length of the statement "TabSpec firstSpec=tabHost.newTabSpec(FIRST_TAB).setIndicator(FIRST_TAB).setContent(new Intent(this`ExpressOrderListActivity.class));" is 132.,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainUserActivity,onCreate,Long Statement,The length of the statement "final TabSpec secondSpec=tabHost.newTabSpec(SECOND_TAB).setIndicator(SECOND_TAB).setContent(new Intent(this`TakeOrderListActivity.class));" is 138.,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainUserActivity,onCreate,Long Statement,The length of the statement "TabSpec thirdSpec=tabHost.newTabSpec(THIRD_TAB).setIndicator(THIRD_TAB).setContent(new Intent(this`ExpressTakeMyListActivity.class));" is 133.,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainUserActivity,onCreate,Long Statement,The length of the statement "TabSpec fourthSpec=tabHost.newTabSpec(FOURTH_TAB).setIndicator(FOURTH_TAB).setContent(new Intent(this`MyInfoActivtiy.class));" is 125.,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainUserActivity,onCreate,Missing default,The following switch statement is missing a default case: switch (checkedId) {,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainUserActivity,onCheckedChanged,Missing default,The following switch statement is missing a default case: switch (checkedId) {,79
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeEditActivity,onCreate,Empty catch clause,The method has an empty catch block.,44
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeEditActivity,onClick,Empty catch clause,The method has an empty catch block.,77
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainActivity,onCreate,Long Statement,The length of the statement "TabSpec firstSpec=tabHost.newTabSpec(FIRST_TAB).setIndicator(FIRST_TAB).setContent(new Intent(this`UserInfoListActivity.class));" is 128.,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainActivity,onCreate,Long Statement,The length of the statement "TabSpec secondSpec=tabHost.newTabSpec(SECOND_TAB).setIndicator(SECOND_TAB).setContent(new Intent(this`NoticeListActivity.class));" is 129.,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainActivity,onCreate,Missing default,The following switch statement is missing a default case: switch (checkedId) {,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainActivity,onCheckedChanged,Missing default,The following switch statement is missing a default case: switch (checkedId) {,65
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAddressListActivity,onCreate,Long Statement,The length of the statement "startActivityForResult(new Intent(SecondAddressListActivity.this`ReceiveAddressAddActivity.class)`ActivityUtils.ADD_CODE);" is 122.,46
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAddressListActivity,onClick,Long Statement,The length of the statement "startActivityForResult(new Intent(SecondAddressListActivity.this`ReceiveAddressAddActivity.class)`ActivityUtils.ADD_CODE);" is 122.,63
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAddressListActivity,setViews,Long Statement,The length of the statement "adapter=new AddressAdapter(SecondAddressListActivity.this`list`R.layout.query`new String[]{"receiveAddressName"`"receiveName"`"receivePhone"}`new int[]{R.id.receiveAddressName`R.id.receiveName`R.id.receivePhone}`lv);" is 216.,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAddressListActivity,run,Long Statement,The length of the statement "adapter=new AddressAdapter(SecondAddressListActivity.this`list`R.layout.query`new String[]{"receiveAddressName"`"receiveName"`"receivePhone"}`new int[]{R.id.receiveAddressName`R.id.receiveName`R.id.receivePhone}`lv);" is 216.,100
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAddressListActivity,run,Long Statement,The length of the statement "adapter=new AddressAdapter(SecondAddressListActivity.this`list`R.layout.query`new String[]{"receiveAddressName"`"receiveName"`"receivePhone"}`new int[]{R.id.receiveAddressName`R.id.receiveName`R.id.receivePhone}`lv);" is 216.,106
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAddressListActivity,getDatas,Empty catch clause,The method has an empty catch block.,212
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,onCreate,Long Statement,The length of the statement "if (ActivityCompat.checkSelfPermission(ExpressRouteActivity.this`Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {" is 136.,118
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,onCreate,Magic Number,The method contains a magic number: 7,118
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,onCreate,Magic Number,The method contains a magic number: 11,118
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,onClick,Long Statement,The length of the statement "if (ActivityCompat.checkSelfPermission(ExpressRouteActivity.this`Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {" is 136.,163
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,setfromandtoMarker,Long Statement,The length of the statement "aMap.addMarker(new MarkerOptions().position(AMapUtil.convertToLatLng(mStartPoint)).icon(BitmapDescriptorFactory.fromResource(R.drawable.start)));" is 145.,202
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,setfromandtoMarker,Long Statement,The length of the statement "aMap.addMarker(new MarkerOptions().position(AMapUtil.convertToLatLng(mEndPoint)).icon(BitmapDescriptorFactory.fromResource(R.drawable.end)));" is 141.,202
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,init,Long Statement,The length of the statement "geoMarker=aMap.addMarker(new MarkerOptions().anchor(0.5f`0.5f).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));" is 142.,211
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,init,Magic Number,The method contains a magic number: 0.5f,211
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,init,Magic Number,The method contains a magic number: 0.5f,211
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,onWalkRouteSearched,Long Statement,The length of the statement "WalkRouteOverlay walkRouteOverlay=new WalkRouteOverlay(this`aMap`walkPath`mWalkRouteResult.getStartPos()`mWalkRouteResult.getTargetPos());" is 138.,443
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,onGeocodeSearched,Complex Conditional,The conditional expression result != null && result.getGeocodeAddressList() != null && result.getGeocodeAddressList().size() > 0 is complex.,697
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressRouteActivity,onGeocodeSearched,Magic Number,The method contains a magic number: 15,697
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeAddActivity,onCreate,Empty catch clause,The method has an empty catch block.,38
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeAddActivity,onClick,Empty catch clause,The method has an empty catch block.,64
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 8,89
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onCreate,Long Statement,The length of the statement "if (userEmail.getText().toString().equals("") || !android.util.Patterns.EMAIL_ADDRESS.matcher(userEmail.getText().toString()).matches()) {" is 138.,89
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onCreate,Magic Number,The method contains a magic number: 6,89
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onCreate,Magic Number,The method contains a magic number: 12,89
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onCreate,Magic Number,The method contains a magic number: 11,89
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onClick,Long Statement,The length of the statement "if (userEmail.getText().toString().equals("") || !android.util.Patterns.EMAIL_ADDRESS.matcher(userEmail.getText().toString()).matches()) {" is 138.,142
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onClick,Magic Number,The method contains a magic number: 6,142
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onClick,Magic Number,The method contains a magic number: 12,142
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onClick,Magic Number,The method contains a magic number: 11,142
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,192
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,192
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onOptionsItemSelected,Magic Number,The method contains a magic number: 2,200
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,register,Magic Number,The method contains a magic number: 0x123,220
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,register,Magic Number,The method contains a magic number: 0x122,220
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,register,Magic Number,The method contains a magic number: 0x124,220
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,register,Magic Number,The method contains a magic number: 100,220
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,register,Magic Number,The method contains a magic number: 0x123,220
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,register,Magic Number,The method contains a magic number: 0x124,220
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,register,Magic Number,The method contains a magic number: 0x122,220
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,225
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,handleMessage,Magic Number,The method contains a magic number: 0x122,225
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,handleMessage,Magic Number,The method contains a magic number: 0x124,225
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,run,Magic Number,The method contains a magic number: 100,249
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,run,Magic Number,The method contains a magic number: 0x123,249
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,run,Magic Number,The method contains a magic number: 0x124,249
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,run,Magic Number,The method contains a magic number: 0x122,249
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,take_photo,Magic Number,The method contains a magic number: 24,348
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,select_photo,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 126.,389
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onActivityResult,Magic Number,The method contains a magic number: 19,482
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onActivityResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,482
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,514
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,compressImage,Magic Number,The method contains a magic number: 100,543
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,compressImage,Magic Number,The method contains a magic number: 100,543
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,compressImage,Magic Number,The method contains a magic number: 1024,543
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,compressImage,Magic Number,The method contains a magic number: 100,543
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,compressImage,Magic Number,The method contains a magic number: 10,543
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,comp,Magic Number,The method contains a magic number: 100,569
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,comp,Magic Number,The method contains a magic number: 1024,569
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,comp,Magic Number,The method contains a magic number: 1024,569
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,comp,Magic Number,The method contains a magic number: 50,569
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,comp,Magic Number,The method contains a magic number: 800f,569
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,comp,Magic Number,The method contains a magic number: 480f,569
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 90,606
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 180,606
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 270,606
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RegisterActivity,ImgUpdateDirection,Missing default,The following switch statement is missing a default case: switch (ori) {,606
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 500,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 13,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 10,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 50,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 300,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 30,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 10,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 300,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 5,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 2,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreate,Magic Number,The method contains a magic number: 300,30
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,getView,Magic Number,The method contains a magic number: 2,96
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,getView,Missing default,The following switch statement is missing a default case: switch (position) {,96
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,195
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onCreateOptionsMenu,Magic Number,The method contains a magic number: 2,195
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MainMenuActivity,onOptionsItemSelected,Magic Number,The method contains a magic number: 2,203
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ImageAdapter,getView,Magic Number,The method contains a magic number: 2,96
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ImageAdapter,getView,Missing default,The following switch statement is missing a default case: switch (position) {,96
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,login,Magic Number,The method contains a magic number: 2,131
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,run,Magic Number,The method contains a magic number: 2,143
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,handleMessage,Magic Number,The method contains a magic number: 2,208
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,handleMessage,Magic Number,The method contains a magic number: 3,208
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,handleMessage,Magic Number,The method contains a magic number: 4,208
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,208
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,validate,Complex Conditional,The conditional expression password.isEmpty() || password.length() < 4 || password.length() > 10 is complex.,261
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,validate,Magic Number,The method contains a magic number: 4,261
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,validate,Magic Number,The method contains a magic number: 10,261
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,checkPermissions,Long Statement,The length of the statement "ActivityCompat.requestPermissions(this`needRequestPermissonList.toArray(new String[needRequestPermissonList.size()])`PERMISSON_REQUESTCODE);" is 140.,295
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,findDeniedPermissions,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`perm) != PackageManager.PERMISSION_GRANTED || ActivityCompat.shouldShowRequestPermissionRationale(this`perm)) {" is 154.,314
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,run,Empty catch clause,The method has an empty catch block.,427
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,run,Magic Number,The method contains a magic number: 3,427
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserLoginActivity,run,Magic Number,The method contains a magic number: 4,427
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MessageThread,run,Empty catch clause,The method has an empty catch block.,427
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MessageThread,run,Magic Number,The method contains a magic number: 3,427
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MessageThread,run,Magic Number,The method contains a magic number: 4,427
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,onCreate,Empty catch clause,The method has an empty catch block.,101
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,onCreate,Long Method,The method has 101 lines of code.,101
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,onCreate,Magic Number,The method contains a magic number: 2,101
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,onClick,Empty catch clause,The method has an empty catch block.,135
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,onClick,Magic Number,The method contains a magic number: 2,135
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,run,Magic Number,The method contains a magic number: 2,170
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,handleMessage,Magic Number,The method contains a magic number: 2,227
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,227
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,onClick,Magic Number,The method contains a magic number: 500,256
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,checkPermissions,Long Statement,The length of the statement "ActivityCompat.requestPermissions(this`needRequestPermissonList.toArray(new String[needRequestPermissonList.size()])`PERMISSON_REQUESTCODE);" is 140.,291
+-SpringMVC-Android--APP-master,com.mobileclient.activity,LoginActivity,findDeniedPermissions,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`perm) != PackageManager.PERMISSION_GRANTED || ActivityCompat.shouldShowRequestPermissionRationale(this`perm)) {" is 154.,310
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressEditActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 11,40
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressEditActivity,onCreate,Long Method,The method has 134 lines of code.,40
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressEditActivity,onCreate,Magic Number,The method contains a magic number: 11,40
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressEditActivity,onClick,Complex Method,Cyclomatic complexity of the method is 9,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressEditActivity,onClick,Magic Number,The method contains a magic number: 11,111
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoQueryActivity,onCreate,Empty catch clause,The method has an empty catch block.,38
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoQueryActivity,onCreate,Magic Number,The method contains a magic number: 1900,38
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoQueryActivity,onClick,Empty catch clause,The method has an empty catch block.,68
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserInfoQueryActivity,onClick,Magic Number,The method contains a magic number: 1900,68
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondUserDetailActivity,onItemClick,Magic Number,The method contains a magic number: 0x123,245
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondUserDetailActivity,onItemClick,Magic Number,The method contains a magic number: 2,245
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondUserDetailActivity,onItemClick,Magic Number,The method contains a magic number: 3,245
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondUserDetailActivity,onItemClick,Missing default,The following switch statement is missing a default case: switch (position) {,245
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondUserDetailActivity,run,Magic Number,The method contains a magic number: 0x123,252
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondUserDetailActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,297
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondUserDetailActivity,handleMessage,Magic Number,The method contains a magic number: 0x120,316
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAuthActivity,onCreate,Magic Number,The method contains a magic number: 0x123,55
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAuthActivity,run,Magic Number,The method contains a magic number: 0x123,80
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SecondAuthActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,108
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 16,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Long Method,The method has 190 lines of code.,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 6,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 0.33f,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 20,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 6,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 0.33f,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 20,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 6,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 0.33f,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 20,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 0x122,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 0x123,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onCreate,Magic Number,The method contains a magic number: 0x122,34
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onClick,Complex Method,Cyclomatic complexity of the method is 10,122
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onClick,Long Method,The method has 104 lines of code.,122
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onClick,Magic Number,The method contains a magic number: 0x122,122
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onClick,Magic Number,The method contains a magic number: 0x123,122
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,onClick,Magic Number,The method contains a magic number: 0x122,122
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,handleMessage,Magic Number,The method contains a magic number: 0x122,127
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,run,Magic Number,The method contains a magic number: 0x123,169
+-SpringMVC-Android--APP-master,com.mobileclient.activity,PayPwdActivity,run,Magic Number,The method contains a magic number: 0x122,213
+-SpringMVC-Android--APP-master,com.mobileclient.activity,BaseActivity,run,Long Statement,The length of the statement "builder.setTitle("温馨提示").setCancelable(false).setMessage("当前登录已失效，请重新登录").setPositiveButton("确定"`new DialogInterface.OnClickListener(){" is 135.,43
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressAddActivity,onCreate,Magic Number,The method contains a magic number: 11,41
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ReceiveAddressAddActivity,onClick,Magic Number,The method contains a magic number: 11,71
+-SpringMVC-Android--APP-master,com.mobileclient.activity,OrderStateQueryActivity,onCreate,Empty catch clause,The method has an empty catch block.,20
+-SpringMVC-Android--APP-master,com.mobileclient.activity,OrderStateQueryActivity,onClick,Empty catch clause,The method has an empty catch block.,43
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderListActivity,onCreate,Magic Number,The method contains a magic number: 4,47
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderListActivity,onCreate,Magic Number,The method contains a magic number: 2,47
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderListActivity,onClick,Magic Number,The method contains a magic number: 2,62
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderListActivity,onClick,Magic Number,The method contains a magic number: 2,177
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderListActivity,changeTextColor,Magic Number,The method contains a magic number: 2,223
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderListActivity,changeTextColor,Magic Number,The method contains a magic number: 3,223
+-SpringMVC-Android--APP-master,com.mobileclient.activity,IndexActivity,onCreate,Empty catch clause,The method has an empty catch block.,71
+-SpringMVC-Android--APP-master,com.mobileclient.activity,IndexActivity,onCreate,Long Method,The method has 120 lines of code.,71
+-SpringMVC-Android--APP-master,com.mobileclient.activity,IndexActivity,onCreate,Magic Number,The method contains a magic number: 8470388,71
+-SpringMVC-Android--APP-master,com.mobileclient.activity,IndexActivity,onClick,Magic Number,The method contains a magic number: 8470388,159
+-SpringMVC-Android--APP-master,com.mobileclient.activity,IndexActivity,onClick,Empty catch clause,The method has an empty catch block.,175
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminUserAuthActivity,onCreate,Magic Number,The method contains a magic number: 0x123,55
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminUserAuthActivity,run,Magic Number,The method contains a magic number: 0x123,80
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminUserAuthActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,108
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MyInfoActivtiy,onClick,Complex Method,Cyclomatic complexity of the method is 12,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MyInfoActivtiy,onClick,Magic Number,The method contains a magic number: 10086,95
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MyInfoActivtiy,handleMessage,Magic Number,The method contains a magic number: 0x123,157
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MyInfoActivtiy,handleMessage,Magic Number,The method contains a magic number: 0x122,157
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MyInfoActivtiy,init,Magic Number,The method contains a magic number: 0x123,173
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MyInfoActivtiy,run,Magic Number,The method contains a magic number: 0x123,203
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MyInfoActivtiy,run,Magic Number,The method contains a magic number: 1000,277
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MyInfoActivtiy,run,Magic Number,The method contains a magic number: 0x122,277
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MessageThread,run,Magic Number,The method contains a magic number: 1000,277
+-SpringMVC-Android--APP-master,com.mobileclient.activity,MessageThread,run,Magic Number,The method contains a magic number: 0x122,277
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 9,110
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onCreate,Empty catch clause,The method has an empty catch block.,110
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onCreate,Long Method,The method has 131 lines of code.,110
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onCreate,Long Statement,The length of the statement "user.setUserMoney(String.valueOf(Double.parseDouble(declare.getUserMoney()) - Double.parseDouble(ET_orderPay.getText().toString())));" is 133.,110
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onClick,Complex Method,Cyclomatic complexity of the method is 9,162
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onClick,Empty catch clause,The method has an empty catch block.,162
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onClick,Long Statement,The length of the statement "user.setUserMoney(String.valueOf(Double.parseDouble(declare.getUserMoney()) - Double.parseDouble(ET_orderPay.getText().toString())));" is 133.,162
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,init,Magic Number,The method contains a magic number: 0x123,274
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,init,Magic Number,The method contains a magic number: 0x122,274
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,init,Magic Number,The method contains a magic number: 0x123,274
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,init,Magic Number,The method contains a magic number: 0x123,274
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,init,Magic Number,The method contains a magic number: 0x122,274
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,276
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,handleMessage,Magic Number,The method contains a magic number: 0x122,276
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,run,Magic Number,The method contains a magic number: 0x123,297
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,run,Magic Number,The method contains a magic number: 0x123,297
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,run,Magic Number,The method contains a magic number: 0x122,297
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,initAdd,Long Statement,The length of the statement "declare.setUserMoney(String.valueOf(Double.parseDouble(declare.getUserMoney()) - Double.parseDouble(ET_orderPay.getText().toString())));" is 136.,349
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,initAdd,Long Statement,The length of the statement "declare.setUserMoney(String.valueOf(Double.parseDouble(declare.getUserMoney()) - Double.parseDouble(ET_orderPay.getText().toString())));" is 136.,349
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,initAdd,Magic Number,The method contains a magic number: 0x123,349
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,initAdd,Magic Number,The method contains a magic number: 0x124,349
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,initAdd,Magic Number,The method contains a magic number: 0x123,349
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,initAdd,Magic Number,The method contains a magic number: 0x124,349
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,handleMessage,Long Statement,The length of the statement "declare.setUserMoney(String.valueOf(Double.parseDouble(declare.getUserMoney()) - Double.parseDouble(ET_orderPay.getText().toString())));" is 136.,351
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,handleMessage,Long Statement,The length of the statement "declare.setUserMoney(String.valueOf(Double.parseDouble(declare.getUserMoney()) - Double.parseDouble(ET_orderPay.getText().toString())));" is 136.,351
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,351
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,handleMessage,Magic Number,The method contains a magic number: 0x124,351
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,run,Magic Number,The method contains a magic number: 0x123,378
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,run,Magic Number,The method contains a magic number: 0x124,378
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,take_photo,Magic Number,The method contains a magic number: 24,442
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,select_photo,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 126.,483
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onActivityResult,Complex Method,Cyclomatic complexity of the method is 8,576
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onActivityResult,Magic Number,The method contains a magic number: 19,576
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onActivityResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,576
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,619
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,compressImage,Magic Number,The method contains a magic number: 100,648
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,compressImage,Magic Number,The method contains a magic number: 100,648
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,compressImage,Magic Number,The method contains a magic number: 1024,648
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,compressImage,Magic Number,The method contains a magic number: 100,648
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,compressImage,Magic Number,The method contains a magic number: 10,648
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,comp,Magic Number,The method contains a magic number: 100,674
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,comp,Magic Number,The method contains a magic number: 1024,674
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,comp,Magic Number,The method contains a magic number: 1024,674
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,comp,Magic Number,The method contains a magic number: 50,674
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,comp,Magic Number,The method contains a magic number: 800f,674
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,comp,Magic Number,The method contains a magic number: 480f,674
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 90,711
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 180,711
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 270,711
+-SpringMVC-Android--APP-master,com.mobileclient.activity,ExpressOrderAddActivity,ImgUpdateDirection,Missing default,The following switch statement is missing a default case: switch (ori) {,711
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,onCreate,Magic Number,The method contains a magic number: 0x123,93
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,onCreate,Magic Number,The method contains a magic number: 0x122,93
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,onClick,Magic Number,The method contains a magic number: 0x123,132
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,onClick,Magic Number,The method contains a magic number: 0x122,132
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,run,Magic Number,The method contains a magic number: 0x123,152
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,run,Magic Number,The method contains a magic number: 0x122,152
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,handleMessage,Magic Number,The method contains a magic number: 0x123,198
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,handleMessage,Magic Number,The method contains a magic number: 0x122,198
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,take_photo,Magic Number,The method contains a magic number: 24,260
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,select_photo,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 126.,301
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,onActivityResult,Magic Number,The method contains a magic number: 19,398
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,onActivityResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,398
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,430
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,compressImage,Magic Number,The method contains a magic number: 100,459
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,compressImage,Magic Number,The method contains a magic number: 100,459
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,compressImage,Magic Number,The method contains a magic number: 1024,459
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,compressImage,Magic Number,The method contains a magic number: 100,459
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,compressImage,Magic Number,The method contains a magic number: 10,459
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,comp,Magic Number,The method contains a magic number: 100,485
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,comp,Magic Number,The method contains a magic number: 1024,485
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,comp,Magic Number,The method contains a magic number: 1024,485
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,comp,Magic Number,The method contains a magic number: 50,485
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,comp,Magic Number,The method contains a magic number: 800f,485
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,comp,Magic Number,The method contains a magic number: 480f,485
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 90,522
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 180,522
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,ImgUpdateDirection,Magic Number,The method contains a magic number: 270,522
+-SpringMVC-Android--APP-master,com.mobileclient.activity,UserAuthActivity,ImgUpdateDirection,Missing default,The following switch statement is missing a default case: switch (ori) {,522
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminExpressDetailActivity,showDialog,Magic Number,The method contains a magic number: 0x120,241
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminExpressDetailActivity,showDialog,Magic Number,The method contains a magic number: 0x120,241
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminExpressDetailActivity,onClick,Magic Number,The method contains a magic number: 0x120,247
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminExpressDetailActivity,onClick,Magic Number,The method contains a magic number: 0x120,247
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminExpressDetailActivity,handleMessage,Magic Number,The method contains a magic number: 0x120,250
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminExpressDetailActivity,run,Magic Number,The method contains a magic number: 0x120,261
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminExpressDetailActivity,onActivityResult,Magic Number,The method contains a magic number: 1001,287
+-SpringMVC-Android--APP-master,com.mobileclient.activity,AdminExpressDetailActivity,onActivityResult,Magic Number,The method contains a magic number: 4,287
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeListActivity,setViews,Long Statement,The length of the statement "adapter=new NoticeSimpleAdapter(NoticeListActivity.this`list`R.layout.notice_list_item`new String[]{"noticeTitle"`"publishDate"}`new int[]{R.id.tv_noticeTitle`R.id.tv_publishDate}`lv);" is 184.,107
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeListActivity,run,Long Statement,The length of the statement "adapter=new NoticeSimpleAdapter(NoticeListActivity.this`list`R.layout.notice_list_item`new String[]{"noticeTitle"`"publishDate"}`new int[]{R.id.tv_noticeTitle`R.id.tv_publishDate}`lv);" is 184.,112
+-SpringMVC-Android--APP-master,com.mobileclient.activity,NoticeListActivity,run,Long Statement,The length of the statement "adapter=new NoticeSimpleAdapter(NoticeListActivity.this`list`R.layout.notice_list_item`new String[]{"noticeTitle"`"publishDate"}`new int[]{R.id.tv_noticeTitle`R.id.tv_publishDate}`lv);" is 184.,118
+-SpringMVC-Android--APP-master,com.mobileclient.activity,TjpuActivity,onCreate,Long Statement,The length of the statement "textView.setText("天津工业大学简介\n" + "\n" + "天津工业大学是教育部与天津市共建、天津市重点建设的全日制普通高等学校。学校办学历史悠久，最早的学科始建于1912年，1958年开始独立办学，原名河北纺织工学院，1968年更名为天津纺织工学院，2000年更名为天津工业大学，2017年入选国家“双一流”世界一流学科建设高校，是我国最早开展纺织高等教育的学府之一，现已发展成为一所以工为主，工、理、文、管、经、法、艺协调发展的多科性工业大学。\n"+ "\n"+ "天津工业大学总占地面积约195万平方米，总建筑面积86万平方米。学校下设16个学院，现有全日制在校生28000余名，其中本科生24000余名，研究生3000余名，在校留学生1700余人次。\n"+ "\n"+ "天津工业大学现有61个本科专业，涵盖工学、理学、文学、管理学、经济学、法学、艺术学等学科，其中包括6个国家级特色专业、15个天津市品牌专业、6个天津市战略性新兴产业相关专业、天津市优势特色专业8个、应用型专业12个，获得工程教育专业认证专业1个。学校拥有1个国家重点学科、1个学科入选国家“双一流”建设学科、5个学科入选天津市“双一流”建设学科、5个学科入选天津市“双一流”建设特色学科（群）、12个天津市重点学科；拥有3个博士后流动站、3个一级学科博士点，25个一级学科硕士点和7个专业硕士学位授权点；纺织科学与工程学科在全国第四轮学科评估中获得A+，数学、化学、材料科学和工程学四个学科进入ESI全球前1%。学校拥有天津市属高校中第一个国家重点实验室——分离膜与膜过程省部共建国家重点实验室，建有国家级国际联合研究中心1个、国家地方联合工程研究中心1个、教育部重点实验室2个、天津市重点实验室6个，教育部工程研究中心2个和天津市工程中心7个、天津市技术推广中心1 个，天津市人文社会科学重点研究基地2个。建有天津市膜分离技术协同创新中心、天津市科技成果转化中心。建有国家级实验教学示范中心及虚拟仿真实验教学示范中心4个、国家级工程实践教育中心9个，市级实验教学示范中心3个、市级虚拟仿真实践教学中心3个、市级实验教学示范中心建设单位11个，拥有国家大学生文化素质教育基地1个、国家级大学生校外实践教育基地2个、全国示范性工程专业学位研究生联合培养基地2个，天津市大学生科技创业实习基地1个。\n"+ "\n"+ "天津工业大学始终坚持中国特色社会主义办学方向，落实立德树人根本任务，坚持以德为先、能力为重、全面发展和个性发展相结合的原则，着力培养胸怀经纬、求真务实、品高学优、工勤业精，具有创新精神的应用型高级专门人才，努力追求本科教学质量国内同类院校一流水平。学校积极推行“分层次、个性化、重基础、强能力、开放式”的人才培养模式，大力实施特色人才培养计划，多个专业入选教育部“卓越工程师教育培养计划”，并与数十家知名企业开展“第二校园”合作。学校关心支持学生成长成才，设有十多项奖助学金。近年来，学生每年在学科竞赛中获得省部级以上奖励均超过800项，培养出了以全国道德模范徐伟为代表的一批优秀大学生和先进集体，是教育部“深化创新创业教育改革示范高校”。毕业生就业率连年位居天津市属高校前列。近年先后获得“全国毕业生就业典型经验高校”、“全国高等学校创业教育研究与实践先进单位”、“天津市普通高校创新创业教育与就业工作示范校”等称号。学校“创客空间”先后被认定为首批天津市众创空间和首批国家级众创空间，并被纳入国家级科技企业孵化器的管理服务体系。\n"+ "\n"+ "天津工业大学高度重视加强师资队伍建设。现有专任教师1600余名，其中具有高级职称人员800余名。拥有中国工程院院士1名、教育部“长江学者奖励计划”特聘（讲座）教授4名、“国家杰出青年科学基金”获得者2名、全国杰出专业技术人才2名、“百千万人才工程”国家级人选8名，拥有“何梁何利基金科学技术奖”和“光华工程科技奖”获得者、国务院学位委员会学科评议组专家（召集人）、国家批准有突出贡献的中青年专家、科技部“科技创新推进计划”入选者、享受国务院政府特殊津贴专家以及天津市“千人计划”入选者、天津市特聘（讲座）教授、教育部新世纪优秀人才等高层次人才200余名，特聘两院院士和国外兼职教授50余名。入选国家级“创新人才培养示范基地”。\n"+ "\n"+ "天津工业大学鼓励自主创新，彰显现代纺织和产学研结合的特色，具有较强的科研实力和科技成果转化能力。近年来，学校承担了“973”计划、“863”计划、国家重点研发计划项目（课题）、国家社会科学基金项目、国家自然科学基金项目以及有关省部级各类科研课题近千项，并取得多项标志性和突破性成果，累计获得国家科技奖13项， 2007-2015年连续九年蝉联11项，获授权专利1000余项。形成了“先进纺织复合材料”、“膜分离技术”、“特种纤维与产业用纺织品”、“纤维界面处理技术”、“工程电磁场与磁技术”、“电机系统及其智能控制”、“机电设备集成制造”、“半导体照明与材料”等八大特色科研优势，构建了以能源材料、数字化纺织、功能服装、纳米材料与技术等为重点的支撑领域，确立了物联网技术、循环经济、纺织经济、工业工程与管理、公共危机管理、应用法学等新兴发展领域。多项科研成果打破国际垄断、应用于国家战略性新兴产业和国防高科技产业。\n"+ "\n"+ "天津工业大学是“中国政府奖学金来华留学生接受院校”，与德国、英国、瑞士、芬兰、澳大利亚、美国、韩国等50多个国家及港澳台地区的80多所大学或机构建立了长期友好合作交流关系。主动对接“一带一路”国家战略，与巴基斯坦旁遮普省共建“旁遮普天津技术大学”。与国外院校广泛开展本科“2+2”“3+1”和研究生交流学习、双学位等多种形式的学生交流项目，每年大力选派本科生、研究生到国外留学，同时接收国外及港澳台地区学生来校学习。\n"+ "\n"+ "天津工业大学积极推进文化传承创新，重视加强校园文化建设，充分发挥文化育人作用，被评为“全国文明单位”、天津市首批“文明校园”、“全国高校后勤十年社会化改革先进院校”，入选文化部首批中国非物质文化遗产传承人群培训基地，建有中华传统文化国际传播中心。\n"+ "\n"+ "天津工业大学将秉承“教研相长、学能并进”的办学理念，光大“严谨、严格、求实、求是”的学校品格，弘扬“爱校尚德、励学笃行、求实创新”的学校精神，坚持育人为本，以改革创新为动力，大力实施质量立校、特色兴校、人才强校、依法治校发展战略，为建设具有世界一流学科的高水平工业大学而努力奋斗！\n"+ "\n");" is 2739.,14
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onCreate,Empty catch clause,The method has an empty catch block.,66
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onClick,Empty catch clause,The method has an empty catch block.,90
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 2,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 2,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 2,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 100,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 2,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 2,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 2,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 2,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 0.8f,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 500,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 300,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 500,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performEnterAnimation,Magic Number,The method contains a magic number: 500,144
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 2,162
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 2,162
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 2,162
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 2,162
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 2,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 2,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 2,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 2,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 2,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 0.8f,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 500,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 500,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 500,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,performExitAnimation,Magic Number,The method contains a magic number: 500,216
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 2,227
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 2,227
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 2,227
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onAnimationUpdate,Magic Number,The method contains a magic number: 2,227
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,297
+-SpringMVC-Android--APP-master,com.mobileclient.activity,SearchActivity,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,345
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,setfromandtoMarker,Long Statement,The length of the statement "aMap.addMarker(new MarkerOptions().position(AMapUtil.convertToLatLng(mStartPoint)).icon(BitmapDescriptorFactory.fromResource(R.drawable.start)));" is 145.,123
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,setfromandtoMarker,Long Statement,The length of the statement "aMap.addMarker(new MarkerOptions().position(AMapUtil.convertToLatLng(mEndPoint)).icon(BitmapDescriptorFactory.fromResource(R.drawable.end)));" is 141.,123
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,init,Long Statement,The length of the statement "geoMarker=aMap.addMarker(new MarkerOptions().anchor(0.5f`0.5f).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));" is 142.,132
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,init,Magic Number,The method contains a magic number: 0.5f,132
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,init,Magic Number,The method contains a magic number: 0.5f,132
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,onWalkRouteSearched,Long Statement,The length of the statement "WalkRouteOverlay walkRouteOverlay=new WalkRouteOverlay(this`aMap`walkPath`mWalkRouteResult.getStartPos()`mWalkRouteResult.getTargetPos());" is 138.,364
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,onGeocodeSearched,Complex Conditional,The conditional expression result != null && result.getGeocodeAddressList() != null && result.getGeocodeAddressList().size() > 0 is complex.,617
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,onGeocodeSearched,Magic Number,The method contains a magic number: 15,617
+-SpringMVC-Android--APP-master,com.mobileclient.activity,RouteActivity,onClick,Missing default,The following switch statement is missing a default case: switch (v.getId()) {,663
+-SpringMVC-Android--APP-master,me.wcy.express.widget,ScrollGridView,onMeasure,Magic Number,The method contains a magic number: 2,29
+-SpringMVC-Android--APP-master,me.wcy.express.widget,RoundImageView,onDraw,Magic Number,The method contains a magic number: 2,134
+-SpringMVC-Android--APP-master,me.wcy.express.widget,RoundImageView,initRadii,Magic Number,The method contains a magic number: 2,174
+-SpringMVC-Android--APP-master,me.wcy.express.widget,RoundImageView,initRadii,Magic Number,The method contains a magic number: 3,174
+-SpringMVC-Android--APP-master,me.wcy.express.widget,RoundImageView,initRadii,Magic Number,The method contains a magic number: 4,174
+-SpringMVC-Android--APP-master,me.wcy.express.widget,RoundImageView,initRadii,Magic Number,The method contains a magic number: 5,174
+-SpringMVC-Android--APP-master,me.wcy.express.widget,RoundImageView,initRadii,Magic Number,The method contains a magic number: 6,174
+-SpringMVC-Android--APP-master,me.wcy.express.widget,RoundImageView,initRadii,Magic Number,The method contains a magic number: 7,174
+-SpringMVC-Android--APP-master,me.wcy.express.widget,ClearableEditText,onTouchEvent,Complex Conditional,The conditional expression drawable != null && event.getX() <= (getWidth() - getPaddingRight()) && event.getX() >= (getWidth() - getPaddingRight() - drawable.getBounds().width()) is complex.,55
+-SpringMVC-Android--APP-master,me.wcy.express.widget,ClearableEditText,onTouchEvent,Long Statement,The length of the statement "if (drawable != null && event.getX() <= (getWidth() - getPaddingRight()) && event.getX() >= (getWidth() - getPaddingRight() - drawable.getBounds().width())) {" is 158.,55
+-SpringMVC-Android--APP-master,me.wcy.express.widget,ClearableEditText,setClearIconVisible,Long Statement,The length of the statement "setCompoundDrawablesWithIntrinsicBounds(getCompoundDrawables()[DRAWABLE_LEFT]`getCompoundDrawables()[DRAWABLE_TOP]`visible ? mClearDrawable : null`getCompoundDrawables()[DRAWABLE_BOTTOM]);" is 188.,69
+-SpringMVC-Android--APP-master,me.wcy.express.widget,ScrollListView,onMeasure,Magic Number,The method contains a magic number: 2,30
+-SpringMVC-Android--APP-master,me.wcy.express.widget,IndexBar,init,Magic Number,The method contains a magic number: 12,45
+-SpringMVC-Android--APP-master,me.wcy.express.widget,IndexBar,init,Magic Number,The method contains a magic number: 0xFF616161,45
+-SpringMVC-Android--APP-master,me.wcy.express.activity,AboutActivity,onPreferenceClick,Complex Conditional,The conditional expression preference == mWeibo || preference == mJianshu || preference == mGithub is complex.,53
+-SpringMVC-Android--APP-master,me.wcy.express.activity,AboutFragment,onPreferenceClick,Complex Conditional,The conditional expression preference == mWeibo || preference == mJianshu || preference == mGithub is complex.,53
+-SpringMVC-Android--APP-master,me.wcy.express.activity,ResultActivity,onCreate,Long Statement,The length of the statement "Glide.with(this).load(HttpClient.urlForLogo(searchInfo.getLogo())).dontAnimate().placeholder(R.drawable.ic_default_logo).into(ivLogo);" is 134.,68
+-SpringMVC-Android--APP-master,me.wcy.express.activity,DeliverActivity,onCreate,Long Statement,The length of the statement "agentWeb=AgentWeb.with(this).setAgentWebParent(frameLayout`new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT)).useDefaultIndicator().defaultProgressBarColor().createAgentWeb().ready().go(URL);" is 243.,15
+-SpringMVC-Android--APP-master,me.wcy.express.activity,SearchActivity,afterTextChanged,Magic Number,The method contains a magic number: 8,114
+-SpringMVC-Android--APP-master,me.wcy.express.activity,SearchActivity,onSuggestion,Complex Conditional,The conditional expression response != null && response.getAuto() != null && !response.getAuto().isEmpty() is complex.,151
+-SpringMVC-Android--APP-master,me.wcy.express.activity,SearchActivity,onSuggestion,Magic Number,The method contains a magic number: 0xFFFFFF,151
+-SpringMVC-Android--APP-master,me.wcy.express.activity,SearchActivity,onSuggestion,Magic Number,The method contains a magic number: 0xFFFFFF,151
+-SpringMVC-Android--APP-master,me.wcy.express.utils,Utils,isNetworkAvailable,Long Statement,The length of the statement "ConnectivityManager localConnectivityManager=(ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);" is 121.,18
+-SpringMVC-Android--APP-master,me.wcy.express.utils,Utils,dp2px,Magic Number,The method contains a magic number: 0.5f,37
+-SpringMVC-Android--APP-master,me.wcy.express.utils,Utils,px2dp,Magic Number,The method contains a magic number: 0.5f,42
+-SpringMVC-Android--APP-master,me.wcy.express.utils,Utils,sp2px,Magic Number,The method contains a magic number: 0.5f,47
+-SpringMVC-Android--APP-master,me.wcy.express.http,GsonRequest,GsonRequest,Long Parameter List,The method has 5 parameters. ,20
+-SpringMVC-Android--APP-master,me.wcy.express.http,HttpClient,query,Long Statement,The length of the statement "GsonRequest<SearchResult> request=new GsonRequest<SearchResult>(url`SearchResult.class`new Response.Listener<SearchResult>(){" is 125.,40
+-SpringMVC-Android--APP-master,me.wcy.express.http,HttpClient,query,Magic Number,The method contains a magic number: 2,40
+-SpringMVC-Android--APP-master,me.wcy.express.http,HttpClient,getSuggestion,Long Statement,The length of the statement "GsonRequest<SuggestionResult> request=new GsonRequest<SuggestionResult>(Request.Method.POST`url`SuggestionResult.class`new Response.Listener<SuggestionResult>(){" is 161.,71
+-SpringMVC-Android--APP-master,me.wcy.express.viewholder,ResultViewHolder,refresh,Magic Number,The method contains a magic number: 12,34
+-SpringMVC-Android--APP-master,me.wcy.express.viewholder,CompanyNameViewHolder,refresh,Long Statement,The length of the statement "Glide.with(context).load(HttpClient.urlForLogo(data.getLogo())).dontAnimate().placeholder(R.drawable.ic_default_logo).into(ivLogo);" is 131.,36
+-SpringMVC-Android--APP-master,overlay,PoiOverlay,zoomToSpan,Long Statement,The length of the statement "mAMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(mPois.get(0).getLatLonPoint().getLatitude()`mPois.get(0).getLatLonPoint().getLongitude())`18f));" is 158.,57
+-SpringMVC-Android--APP-master,overlay,PoiOverlay,zoomToSpan,Magic Number,The method contains a magic number: 18f,57
+-SpringMVC-Android--APP-master,overlay,PoiOverlay,zoomToSpan,Magic Number,The method contains a magic number: 5,57
+-SpringMVC-Android--APP-master,overlay,PoiOverlay,getMarkerOptions,Long Statement,The length of the statement "return new MarkerOptions().position(new LatLng(mPois.get(index).getLatLonPoint().getLatitude()`mPois.get(index).getLatLonPoint().getLongitude())).title(getTitle(index)).snippet(getSnippet(index)).icon(getBitmapDescriptor(index));" is 229.,88
+-SpringMVC-Android--APP-master,overlay,RouteOverlay,addStartAndEndMarker,Long Statement,The length of the statement "startMarker=mAMap.addMarker((new MarkerOptions()).position(startPoint).icon(getStartBitmapDescriptor()).title("\u8D77\u70B9"));" is 127.,119
+-SpringMVC-Android--APP-master,overlay,RouteOverlay,addStartAndEndMarker,Long Statement,The length of the statement "endMarker=mAMap.addMarker((new MarkerOptions()).position(endPoint).icon(getEndBitmapDescriptor()).title("\u7EC8\u70B9"));" is 121.,119
+-SpringMVC-Android--APP-master,overlay,RouteOverlay,zoomToSpan,Magic Number,The method contains a magic number: 100,130
+-SpringMVC-Android--APP-master,overlay,RouteOverlay,getRouteWidth,Magic Number,The method contains a magic number: 18f,194
+-SpringMVC-Android--APP-master,overlay,WalkRouteOverlay,WalkRouteOverlay,Long Parameter List,The method has 5 parameters. ,27
+-SpringMVC-Android--APP-master,overlay,WalkRouteOverlay,addWalkStationMarkers,Long Statement,The length of the statement "addStationMarker(new MarkerOptions().position(position).title("\u65B9\u5411:" + walkStep.getAction() + "\n\u9053\u8DEF:"+ walkStep.getRoad()).snippet(walkStep.getInstruction()).visible(nodeIconVisible).anchor(0.5f`0.5f).icon(walkStationDescriptor));" is 249.,116
+-SpringMVC-Android--APP-master,overlay,WalkRouteOverlay,addWalkStationMarkers,Magic Number,The method contains a magic number: 0.5f,116
+-SpringMVC-Android--APP-master,overlay,WalkRouteOverlay,addWalkStationMarkers,Magic Number,The method contains a magic number: 0.5f,116
+-SpringMVC-Android--APP-master,overlay,TraceOverlay,setProperCamera,Magic Number,The method contains a magic number: 20,59
+-SpringMVC-Android--APP-master,overlay,TraceOverlay,options,Magic Number,The method contains a magic number: 40,80
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Long Statement,The length of the statement "reverseAnimation=new RotateAnimation(-180`0`RotateAnimation.RELATIVE_TO_SELF`0.5f`RotateAnimation.RELATIVE_TO_SELF`0.5f);" is 121.,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Magic Number,The method contains a magic number: 180,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Magic Number,The method contains a magic number: 0.5f,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Magic Number,The method contains a magic number: 0.5f,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Magic Number,The method contains a magic number: 250,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Magic Number,The method contains a magic number: 180,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Magic Number,The method contains a magic number: 0.5f,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Magic Number,The method contains a magic number: 0.5f,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,init,Magic Number,The method contains a magic number: 250,129
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,onTouchEvent,Complex Conditional,The conditional expression state != REFRESHING && isRecored && state != LOADING is complex.,197
+-SpringMVC-Android--APP-master,com.mobileclient.app,RefreshListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 22,197
+-SpringMVC-Android--APP-master,com.mobileclient.app,PsdEditText,initStyle,Long Parameter List,The method has 6 parameters. ,42
+-SpringMVC-Android--APP-master,com.mobileclient.app,PsdEditText,initTextview,Long Parameter List,The method has 6 parameters. ,98
+-SpringMVC-Android--APP-master,com.mobileclient.app,PsdEditText,initTextview,Long Statement,The length of the statement "LinearLayout.LayoutParams params2=new LinearLayout.LayoutParams(dip2px(context`slpilinewidth)`LayoutParams.MATCH_PARENT);" is 121.,98
+-SpringMVC-Android--APP-master,com.mobileclient.app,PsdEditText,dip2px,Magic Number,The method contains a magic number: 0.5f,147
+-SpringMVC-Android--APP-master,com.mobileclient.app,CrashHandler,uncaughtException,Magic Number,The method contains a magic number: 3000,69
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onMeasure,Magic Number,The method contains a magic number: 2,66
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onMeasure,Magic Number,The method contains a magic number: 200,66
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onMeasure,Magic Number,The method contains a magic number: 2,66
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onMeasure,Magic Number,The method contains a magic number: 200,66
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onMeasure,Magic Number,The method contains a magic number: 2,66
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onMeasure,Missing default,The following switch statement is missing a default case: switch (viewWidthMode) {,66
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,drawBorder,Magic Number,The method contains a magic number: 2,109
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,drawBorder,Magic Number,The method contains a magic number: 2,109
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,drawBorder,Magic Number,The method contains a magic number: 2,109
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,drawProgress,Long Statement,The length of the statement "RectF rectf=new RectF(smallRadius + borderWidth / 2`smallRadius + borderWidth / 2`getWidth() - smallRadius - borderWidth / 2`getHeight() - smallRadius - borderWidth / 2);" is 170.,119
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,drawProgress,Magic Number,The method contains a magic number: 2,119
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,drawProgress,Magic Number,The method contains a magic number: 2,119
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,drawProgress,Magic Number,The method contains a magic number: 2,119
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,drawProgress,Magic Number,The method contains a magic number: 2,119
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Long Parameter List,The method has 5 parameters. ,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Long Statement,The length of the statement "bigImageView.layout(smallRadius + borderWidth / 2`smallRadius + borderWidth / 2`totalwidth - smallRadius - borderWidth / 2`totalwidth - smallRadius - borderWidth / 2);" is 167.,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 180,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 180,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 2,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 2,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 2,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 2,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 2,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 2,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 2,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,onLayout,Magic Number,The method contains a magic number: 2,153
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,initAttrs,Magic Number,The method contains a magic number: 45,202
+-SpringMVC-Android--APP-master,com.mobileclient.app,IdentityImageView,initAttrs,Magic Number,The method contains a magic number: 0.28f,202
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,checkEditText,Complex Conditional,The conditional expression editText != null && editText.getText() != null && !(editText.getText().toString().trim().equals("")) is complex.,26
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 10000,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 1000,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 1000,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 1000,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 100,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 50,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 50,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 10,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 10,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyLength,Magic Number,The method contains a magic number: 10,63
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyTime,Magic Number,The method contains a magic number: 3600,132
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyTime,Magic Number,The method contains a magic number: 3600,132
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyTime,Magic Number,The method contains a magic number: 3600,132
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyTime,Magic Number,The method contains a magic number: 60,132
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyTime,Magic Number,The method contains a magic number: 60,132
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getFriendlyTime,Magic Number,The method contains a magic number: 60,132
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getDriveActionID,Complex Method,Cyclomatic complexity of the method is 10,146
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getWalkActionID,Complex Conditional,The conditional expression "向左前方".equals(actionName) || "靠左".equals(actionName) || actionName.contains("向左前方") is complex.,177
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getWalkActionID,Complex Conditional,The conditional expression "向右前方".equals(actionName) || "靠右".equals(actionName) || actionName.contains("向右前方") is complex.,177
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getWalkActionID,Complex Method,Cyclomatic complexity of the method is 12,177
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getBusPathTitle,Complex Method,Cyclomatic complexity of the method is 8,215
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getBusPathTitle,Long Statement,The length of the statement "sb.append(railway.getTrip() + "(" + railway.getDeparturestop().getName()+ " - "+ railway.getArrivalstop().getName()+ ")");" is 122.,215
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getBusPathTitle,Magic Number,The method contains a magic number: 3,215
+-SpringMVC-Android--APP-master,com.mobileclient.util,AMapUtil,getBusPathTitle,Magic Number,The method contains a magic number: 3,215
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Complex Method,Cyclomatic complexity of the method is 49,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Long Method,The method has 110 lines of code.,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1001,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1002,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1003,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1004,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1005,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1006,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1007,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1008,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1009,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1010,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1011,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1012,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1013,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1100,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1101,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1102,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1103,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1200,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1201,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1202,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1203,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1800,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1801,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1802,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1803,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1804,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1806,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1900,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1901,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1902,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 1903,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2000,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2001,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2002,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2003,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2100,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2101,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2200,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2201,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2202,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2203,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 2204,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 3000,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 3001,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 3002,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 3003,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 4000,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Magic Number,The method contains a magic number: 4001,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,showerror,Missing default,The following switch statement is missing a default case: switch (rCode) {,22
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,printLog,Magic Number,The method contains a magic number: 2,166
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,printLog,Magic Number,The method contains a magic number: 2,166
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,printLog,Magic Number,The method contains a magic number: 2,166
+-SpringMVC-Android--APP-master,com.mobileclient.util,ToastUtil,printLog,Magic Number,The method contains a magic number: 2,166
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,queryStringForPost,Magic Number,The method contains a magic number: 200,71
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,queryStringForPost,Magic Number,The method contains a magic number: 200,97
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,queryStringForGet,Magic Number,The method contains a magic number: 200,121
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendXML,Magic Number,The method contains a magic number: 5,146
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendXML,Magic Number,The method contains a magic number: 1000,146
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendXML,Magic Number,The method contains a magic number: 200,146
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendGetRequest,Magic Number,The method contains a magic number: 5,165
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendGetRequest,Magic Number,The method contains a magic number: 1000,165
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendGetRequest,Magic Number,The method contains a magic number: 200,165
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendPostRequest,Magic Number,The method contains a magic number: 5,188
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendPostRequest,Magic Number,The method contains a magic number: 1000,188
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendPostRequest,Magic Number,The method contains a magic number: 200,188
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,SendPostRequest,Magic Number,The method contains a magic number: 5,223
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,SendPostRequest,Magic Number,The method contains a magic number: 1000,223
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,SendPostRequest,Magic Number,The method contains a magic number: 200,223
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,sendRequestFromHttpClient,Magic Number,The method contains a magic number: 200,258
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,readStream,Magic Number,The method contains a magic number: 1024,279
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,uploadFile,Magic Number,The method contains a magic number: 1024,299
+-SpringMVC-Android--APP-master,com.mobileclient.util,HttpUtil,downloadFile,Magic Number,The method contains a magic number: 1024,435
+-SpringMVC-Android--APP-master,com.mobileclient.util,Utils,checkDeviceHasNavigationBar,Empty catch clause,The method has an empty catch block.,66
+-SpringMVC-Android--APP-master,com.mobileclient.util,Utils,setStatusBar,Long Statement,The length of the statement "activity.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);" is 136.,89
+-SpringMVC-Android--APP-master,com.mobileclient.util,Utils,reMeasure,Magic Number,The method contains a magic number: 17,114
+-SpringMVC-Android--APP-master,com.mobileclient.util,Utils,isMIUI,Long Statement,The length of the statement "return prop.getProperty(KEY_MIUI_VERSION_CODE`null) != null || prop.getProperty(KEY_MIUI_VERSION_NAME`null) != null || prop.getProperty(KEY_MIUI_INTERNAL_STORAGE`null) != null;" is 176.,170
+-SpringMVC-Android--APP-master,com.mobileclient.util,Utils,setStatusTextColor,Long Statement,The length of the statement "activity.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);" is 136.,199
+-SpringMVC-Android--APP-master,com.mobileclient.util,Utils,setStatusTextColor,Long Statement,The length of the statement "activity.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);" is 133.,199
+-SpringMVC-Android--APP-master,com.mobileclient.util,MD5Util,byteToHex,Magic Number,The method contains a magic number: 0xf0,103
+-SpringMVC-Android--APP-master,com.mobileclient.util,MD5Util,byteToHex,Magic Number,The method contains a magic number: 4,103
+-SpringMVC-Android--APP-master,com.mobileclient.util,MD5Util,byteToHex,Magic Number,The method contains a magic number: 0xf,103
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,getRotateAngle,Magic Number,The method contains a magic number: 90,26
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,getRotateAngle,Magic Number,The method contains a magic number: 180,26
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,getRotateAngle,Magic Number,The method contains a magic number: 270,26
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,createCircleImage,Magic Number,The method contains a magic number: 2,75
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,createCircleImage,Magic Number,The method contains a magic number: 2,75
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,createCircleImage,Magic Number,The method contains a magic number: 2,75
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 50,88
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,getSmallBitmap,Magic Number,The method contains a magic number: 480,128
+-SpringMVC-Android--APP-master,com.mobileclient.util,BitmapUtil,getSmallBitmap,Magic Number,The method contains a magic number: 800,128
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageSimpleAdapter,ImageSimpleAdapter,Long Parameter List,The method has 5 parameters. ,24
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageSimpleAdapter,bindView,Complex Method,Cyclomatic complexity of the method is 14,53
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageSimpleAdapter,bindView,Long Statement,The length of the statement "throw new IllegalStateException(v.getClass().getName() + " should be bound to a Boolean` not a " + (data == null ? "<unknown type>" : data.getClass()));" is 152.,53
+-SpringMVC-Android--APP-master,com.mobileclient.util,ActivityUtils,dip2px,Magic Number,The method contains a magic number: 0.5f,45
+-SpringMVC-Android--APP-master,com.mobileclient.util,ActivityUtils,px2dip,Magic Number,The method contains a magic number: 0.5f,50
+-SpringMVC-Android--APP-master,com.mobileclient.util,ActivityUtils,exitClient,Magic Number,The method contains a magic number: 10,55
+-SpringMVC-Android--APP-master,com.mobileclient.util,ActivityUtils,setBrightness,Magic Number,The method contains a magic number: 0.045f,152
+-SpringMVC-Android--APP-master,com.mobileclient.util,ActivityUtils,validateFileSize,Magic Number,The method contains a magic number: 1048576,180
+-SpringMVC-Android--APP-master,com.mobileclient.util,ActivityUtils,validateFileSize,Magic Number,The method contains a magic number: 2,180
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageService,getImage,Magic Number,The method contains a magic number: 5000,13
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageService,getImage,Magic Number,The method contains a magic number: 200,13
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageService,computeSampleSize,Magic Number,The method contains a magic number: 8,39
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageService,computeSampleSize,Magic Number,The method contains a magic number: 7,39
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageService,computeSampleSize,Magic Number,The method contains a magic number: 8,39
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageService,computeSampleSize,Magic Number,The method contains a magic number: 8,39
+-SpringMVC-Android--APP-master,com.mobileclient.util,ImageService,computeInitialSampleSize,Magic Number,The method contains a magic number: 128,56
+-SpringMVC-Android--APP-master,com.mobileclient.util,StreamTool,read,Magic Number,The method contains a magic number: 1024,8
+-SpringMVC-Android--APP-master,com.mobileclient.activity.takeOrder,TakeOrderListActivity,onCreate,Magic Number,The method contains a magic number: 4,51
+-SpringMVC-Android--APP-master,com.mobileclient.activity.takeOrder,TakeOrderListActivity,onClick,Magic Number,The method contains a magic number: 2,126
+-SpringMVC-Android--APP-master,com.mobileclient.activity.takeOrder,TakeOrderListActivity,onClick,Magic Number,The method contains a magic number: 3,126
+-SpringMVC-Android--APP-master,com.mobileclient.activity.takeOrder,TakeOrderListActivity,changeTextColor,Magic Number,The method contains a magic number: 2,172
+-SpringMVC-Android--APP-master,com.mobileclient.activity.takeOrder,TakeOrderListActivity,changeTextColor,Magic Number,The method contains a magic number: 3,172
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,MyNotificationManager,showNotificationWrong,Magic Number,The method contains a magic number: 0x1234,41
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,MyNotificationManager,showChannel1Notification,Magic Number,The method contains a magic number: 0x1234,55
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,MyNotificationManager,showChannel2Notification,Long Statement,The length of the statement "builder.setSmallIcon(android.R.drawable.stat_notify_chat).setContentText("您的快递已被接单！").setNumber(3).setContentTitle("Title");" is 124.,68
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,MyNotificationManager,showChannel2Notification,Magic Number,The method contains a magic number: 0x1235,68
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,MyNotificationManager,showChannel2Notification,Magic Number,The method contains a magic number: 3,68
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,ExpressTakeMyListActivity,onCreate,Magic Number,The method contains a magic number: 4,50
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,ExpressTakeMyListActivity,onClick,Magic Number,The method contains a magic number: 2,140
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,ExpressTakeMyListActivity,onClick,Magic Number,The method contains a magic number: 3,140
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,ExpressTakeMyListActivity,changeTextColor,Magic Number,The method contains a magic number: 2,186
+-SpringMVC-Android--APP-master,com.mobileclient.activity.myorder,ExpressTakeMyListActivity,changeTextColor,Magic Number,The method contains a magic number: 3,186
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,setViews,Long Method,The method has 122 lines of code.,125
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,setViews,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(RewardActivity.this`list`R.layout.order_list_item`new String[]{"userPhoto"`"userName"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.userName`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.addTime`R.id.orderState}`lv);" is 358.,125
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,setViews,Magic Number,The method contains a magic number: 2,125
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,setViews,Magic Number,The method contains a magic number: 3,125
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,setViews,Magic Number,The method contains a magic number: 2,125
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,setViews,Magic Number,The method contains a magic number: 2,125
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,setViews,Magic Number,The method contains a magic number: 2,125
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,setViews,Magic Number,The method contains a magic number: 1000,125
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(RewardActivity.this`list`R.layout.order_list_item`new String[]{"userPhoto"`"userName"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.userName`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.addTime`R.id.orderState}`lv);" is 358.,130
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 2,130
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 3,130
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 2,130
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 2,130
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 2,130
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(RewardActivity.this`list`R.layout.order_list_item`new String[]{"userPhoto"`"userName"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.userName`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.addTime`R.id.orderState}`lv);" is 358.,136
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 2,136
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 3,136
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 2,136
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 2,136
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 2,136
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,onRefresh,Magic Number,The method contains a magic number: 1000,199
+-SpringMVC-Android--APP-master,com.mobileclient.activity.rewardOrder,RewardActivity,run,Magic Number,The method contains a magic number: 1000,203
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,initListener,Magic Number,The method contains a magic number: 11,58
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,initListener,Magic Number,The method contains a magic number: 10,58
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,initListener,Magic Number,The method contains a magic number: 9,58
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,onItemClick,Magic Number,The method contains a magic number: 11,76
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,onItemClick,Magic Number,The method contains a magic number: 10,76
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,onItemClick,Magic Number,The method contains a magic number: 9,76
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,getCount,Magic Number,The method contains a magic number: 12,113
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,getView,Magic Number,The method contains a magic number: 9,128
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,getView,Magic Number,The method contains a magic number: 10,128
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView,getView,Magic Number,The method contains a magic number: 11,128
+-SpringMVC-Android--APP-master,com.mobileclient.pay,MAdapter,getCount,Magic Number,The method contains a magic number: 12,113
+-SpringMVC-Android--APP-master,com.mobileclient.pay,MAdapter,getView,Magic Number,The method contains a magic number: 9,128
+-SpringMVC-Android--APP-master,com.mobileclient.pay,MAdapter,getView,Magic Number,The method contains a magic number: 10,128
+-SpringMVC-Android--APP-master,com.mobileclient.pay,MAdapter,getView,Magic Number,The method contains a magic number: 11,128
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView_Pwd,onDraw,Long Statement,The length of the statement "RectF rectContent=new RectF(rect.left + defaultContentMargin`rect.top + defaultContentMargin`rect.right - defaultContentMargin`rect.bottom - defaultContentMargin);" is 163.,57
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView_Pwd,onDraw,Magic Number,The method contains a magic number: 2,57
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView_Pwd,onDraw,Magic Number,The method contains a magic number: 2,57
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView_Pwd,addPwd,Magic Number,The method contains a magic number: 6,90
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView_Pwd,addPwd,Magic Number,The method contains a magic number: 6,90
+-SpringMVC-Android--APP-master,com.mobileclient.pay,InputPwdView_Pwd,deletePwd,Magic Number,The method contains a magic number: 7,114
+-SpringMVC-Android--APP-master,com.mobileclient.imgCache,SyncImageLoader,loadImage,Complex Conditional,The conditional expression mAllowLoad && mt <= mStopLoadLimit && mt >= mStartLoadLimit is complex.,80
+-SpringMVC-Android--APP-master,com.mobileclient.imgCache,SyncImageLoader,run,Complex Conditional,The conditional expression mAllowLoad && mt <= mStopLoadLimit && mt >= mStartLoadLimit is complex.,86
+-SpringMVC-Android--APP-master,com.mobileclient.imgCache,SyncImageLoader,loadImageFromUrl,Magic Number,The method contains a magic number: 20,156
+-SpringMVC-Android--APP-master,com.mobileclient.imgCache,ListViewOnScrollListener,onScrollStateChanged,Missing default,The following switch statement is missing a default case: switch (scrollState) {,30
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,NoticeSimpleAdapter,NoticeSimpleAdapter,Long Parameter List,The method has 6 parameters. ,32
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,onDraw,Magic Number,The method contains a magic number: 2,106
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,onDraw,Magic Number,The method contains a magic number: 2,106
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,onDraw,Magic Number,The method contains a magic number: 2,106
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,onDraw,Magic Number,The method contains a magic number: 2,106
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,setup,Magic Number,The method contains a magic number: 2,210
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,setup,Magic Number,The method contains a magic number: 2,210
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,setup,Magic Number,The method contains a magic number: 2,210
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,setup,Magic Number,The method contains a magic number: 2,210
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,247
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,247
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,247
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,247
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,ReceiveAddressAdapter,ReceiveAddressAdapter,Long Parameter List,The method has 6 parameters. ,43
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,ExpressTakeSimpleAdapter,ExpressTakeSimpleAdapter,Long Parameter List,The method has 6 parameters. ,39
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,ExpressOrderAdapter,ExpressOrderAdapter,Long Parameter List,The method has 6 parameters. ,40
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,ExpressOrderAdapter,getView,Complex Method,Cyclomatic complexity of the method is 13,53
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,SearchAdapter,performFiltering,Complex Conditional,The conditional expression valueText1.startsWith(prefixString) || valueText1.indexOf(prefixString.toString()) != -1 || valueText2.startsWith(prefixString) || valueText2.indexOf(prefixString.toString()) != -1 || valueText3.startsWith(prefixString) || valueText3.indexOf(prefixString.toString()) != -1 || valueText4.startsWith(prefixString) || valueText4.indexOf(prefixString.toString()) != -1 || valueText5.startsWith(prefixString) || valueText5.indexOf(prefixString.toString()) != -1 || valueText6.startsWith(prefixString) || valueText6.indexOf(prefixString.toString()) != -1 || valueText7.startsWith(prefixString) || valueText7.indexOf(prefixString.toString()) != -1 || valueText8.startsWith(prefixString) || valueText8.indexOf(prefixString.toString()) != -1 || valueText9.startsWith(prefixString) || valueText9.indexOf(prefixString.toString()) != -1 is complex.,147
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,SearchAdapter,performFiltering,Long Statement,The length of the statement "if (valueText1.startsWith(prefixString) || valueText1.indexOf(prefixString.toString()) != -1 || valueText2.startsWith(prefixString) || valueText2.indexOf(prefixString.toString()) != -1 || valueText3.startsWith(prefixString) || valueText3.indexOf(prefixString.toString()) != -1 || valueText4.startsWith(prefixString) || valueText4.indexOf(prefixString.toString()) != -1 || valueText5.startsWith(prefixString) || valueText5.indexOf(prefixString.toString()) != -1 || valueText6.startsWith(prefixString) || valueText6.indexOf(prefixString.toString()) != -1 || valueText7.startsWith(prefixString) || valueText7.indexOf(prefixString.toString()) != -1 || valueText8.startsWith(prefixString) || valueText8.indexOf(prefixString.toString()) != -1 || valueText9.startsWith(prefixString) || valueText9.indexOf(prefixString.toString()) != -1) {" is 831.,147
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,ArrayFilter,performFiltering,Complex Conditional,The conditional expression valueText1.startsWith(prefixString) || valueText1.indexOf(prefixString.toString()) != -1 || valueText2.startsWith(prefixString) || valueText2.indexOf(prefixString.toString()) != -1 || valueText3.startsWith(prefixString) || valueText3.indexOf(prefixString.toString()) != -1 || valueText4.startsWith(prefixString) || valueText4.indexOf(prefixString.toString()) != -1 || valueText5.startsWith(prefixString) || valueText5.indexOf(prefixString.toString()) != -1 || valueText6.startsWith(prefixString) || valueText6.indexOf(prefixString.toString()) != -1 || valueText7.startsWith(prefixString) || valueText7.indexOf(prefixString.toString()) != -1 || valueText8.startsWith(prefixString) || valueText8.indexOf(prefixString.toString()) != -1 || valueText9.startsWith(prefixString) || valueText9.indexOf(prefixString.toString()) != -1 is complex.,147
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,ArrayFilter,performFiltering,Long Statement,The length of the statement "if (valueText1.startsWith(prefixString) || valueText1.indexOf(prefixString.toString()) != -1 || valueText2.startsWith(prefixString) || valueText2.indexOf(prefixString.toString()) != -1 || valueText3.startsWith(prefixString) || valueText3.indexOf(prefixString.toString()) != -1 || valueText4.startsWith(prefixString) || valueText4.indexOf(prefixString.toString()) != -1 || valueText5.startsWith(prefixString) || valueText5.indexOf(prefixString.toString()) != -1 || valueText6.startsWith(prefixString) || valueText6.indexOf(prefixString.toString()) != -1 || valueText7.startsWith(prefixString) || valueText7.indexOf(prefixString.toString()) != -1 || valueText8.startsWith(prefixString) || valueText8.indexOf(prefixString.toString()) != -1 || valueText9.startsWith(prefixString) || valueText9.indexOf(prefixString.toString()) != -1) {" is 831.,147
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,UserInfoSimpleAdapter,UserInfoSimpleAdapter,Long Parameter List,The method has 6 parameters. ,35
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,MyOrderAdapter,MyOrderAdapter,Long Parameter List,The method has 6 parameters. ,44
+-SpringMVC-Android--APP-master,com.mobileclient.adapter,MyOrderAdapter,getView,Long Statement,The length of the statement "else if (mData.get(position).get("orderState").toString().equals("交易结束") && mData.get(position).get("evaluate").toString().equals("-+-")) {" is 139.,57
+-SpringMVC-Android--APP-master,com.mobileclient.dialog,TitlePopup,show,Magic Number,The method contains a magic number: 2,109
+-SpringMVC-Android--APP-master,com.mobileclient.dialog,TitlePopup,populateActions,Magic Number,The method contains a magic number: 16,130
+-SpringMVC-Android--APP-master,com.mobileclient.dialog,TitlePopup,populateActions,Magic Number,The method contains a magic number: 10,130
+-SpringMVC-Android--APP-master,com.mobileclient.dialog,TitlePopup,getView,Magic Number,The method contains a magic number: 16,138
+-SpringMVC-Android--APP-master,com.mobileclient.dialog,TitlePopup,getView,Magic Number,The method contains a magic number: 10,138
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,onCreateView,Magic Number,The method contains a magic number: 0x122,79
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,onCreateView,Magic Number,The method contains a magic number: 0x122,79
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,finishPwd,Magic Number,The method contains a magic number: 0x122,114
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,finishPwd,Magic Number,The method contains a magic number: 0x122,114
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,handleMessage,Magic Number,The method contains a magic number: 0x122,129
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Magic Number,The method contains a magic number: 0x122,143
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,setViews,Complex Method,Cyclomatic complexity of the method is 8,187
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,setViews,Long Method,The method has 190 lines of code.,187
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,setViews,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,187
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,187
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,setViews,Magic Number,The method contains a magic number: 2,187
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,setViews,Magic Number,The method contains a magic number: 3,187
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Long Method,The method has 124 lines of code.,191
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,191
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Magic Number,The method contains a magic number: 2,191
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Magic Number,The method contains a magic number: 3,191
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Long Method,The method has 118 lines of code.,197
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,197
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Magic Number,The method contains a magic number: 2,197
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,run,Magic Number,The method contains a magic number: 3,197
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,onDeleteClick,Long Method,The method has 110 lines of code.,207
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,onDeleteClick,Magic Number,The method contains a magic number: 2,207
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,onDeleteClick,Magic Number,The method contains a magic number: 3,207
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,348
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderOneFragment,showDialog,Magic Number,The method contains a magic number: 2,538
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderFourFragment,setViews,Long Method,The method has 118 lines of code.,97
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderFourFragment,setViews,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,97
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderFourFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,97
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderFourFragment,run,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,101
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderFourFragment,run,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,107
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderFourFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,181
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderFourFragment,getDatas,Long Statement,The length of the statement "if (expressOrderList.get(i).getOrderState().equals("交易结束") && expressOrderList.get(i).getOrderEvaluate().equals("-+-")) {" is 121.,284
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderFourFragment,setViews,Long Method,The method has 106 lines of code.,98
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderFourFragment,setViews,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,98
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderFourFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,98
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderFourFragment,run,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,102
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderFourFragment,run,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,108
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderFourFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,180
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderFourFragment,getDatas,Long Statement,The length of the statement "if (expressOrderList.get(i).getOrderState().equals("交易结束") && expressOrderList.get(i).getOrderEvaluate().equals("-+-")) {" is 121.,272
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderTwoFragment,setViews,Long Method,The method has 119 lines of code.,100
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderTwoFragment,setViews,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,100
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderTwoFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,100
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderTwoFragment,run,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,104
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderTwoFragment,run,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,110
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderTwoFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,182
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderTwoFragment,handleMessage,Long Statement,The length of the statement "declare.setUserMoney(String.valueOf(Double.parseDouble(declare.getUserMoney()) + Double.parseDouble(order.getOrderPay())));" is 123.,351
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,setViews,Long Method,The method has 174 lines of code.,105
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,setViews,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,105
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,105
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,setViews,Magic Number,The method contains a magic number: 2,105
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,setViews,Magic Number,The method contains a magic number: 3,105
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,run,Long Method,The method has 117 lines of code.,109
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,run,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,109
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,run,Magic Number,The method contains a magic number: 2,109
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,run,Magic Number,The method contains a magic number: 3,109
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,run,Long Method,The method has 111 lines of code.,115
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,run,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,115
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,run,Magic Number,The method contains a magic number: 2,115
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,run,Magic Number,The method contains a magic number: 3,115
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,onDeleteClick,Magic Number,The method contains a magic number: 2,136
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,onDeleteClick,Magic Number,The method contains a magic number: 3,136
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,258
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderOneFragment,showDialog,Magic Number,The method contains a magic number: 2,428
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderTwoFragment,setViews,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"userPhoto"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 351.,98
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderTwoFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,98
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderTwoFragment,run,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"userPhoto"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 351.,102
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderTwoFragment,run,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"userPhoto"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 351.,108
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderTwoFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,173
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderTwoFragment,onCreateContextMenu,Magic Number,The method contains a magic number: 2,217
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderTwoFragment,onContextItemSelected,Magic Number,The method contains a magic number: 2,231
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderTwoFragment,getDatas,Magic Number,The method contains a magic number: 10,297
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderTwoFragment,setViews,Long Method,The method has 104 lines of code.,103
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderTwoFragment,setViews,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,103
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderTwoFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,103
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderTwoFragment,run,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,107
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderTwoFragment,run,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,113
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderTwoFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,180
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderOneFragment,setViews,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"userPhoto"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 351.,98
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderOneFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,98
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderOneFragment,run,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"userPhoto"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 351.,102
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderOneFragment,run,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"userPhoto"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 351.,108
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderOneFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,172
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderOneFragment,onCreateContextMenu,Magic Number,The method contains a magic number: 2,217
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderOneFragment,onContextItemSelected,Magic Number,The method contains a magic number: 2,232
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderOneFragment,getDatas,Magic Number,The method contains a magic number: 10,280
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderThreeFragment,setViews,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,99
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderThreeFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,99
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderThreeFragment,run,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,103
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderThreeFragment,run,Long Statement,The length of the statement "adapter=new TakeOrderAdapter(getActivity()`list`R.layout.takeorder_list_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 256.,109
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,TakeOrderThreeFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,138
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderThreeFragment,setViews,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"orderPic"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 350.,94
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderThreeFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,94
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderThreeFragment,run,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"orderPic"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 350.,98
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderThreeFragment,run,Long Statement,The length of the statement "adapter=new ExpressOrderAdapter(getActivity()`list`R.layout.order_list_item`new String[]{"orderPic"`"orderName"`"expressCompanyName"`"expressCompanyAddress"`"receiveAddressName"`"addTime"`"orderState"}`new int[]{R.id.userPhoto`R.id.orderName`R.id.expressCompanyName`R.id.expressCompanyAdress`R.id.receiveAddressName`R.id.addTime`R.id.orderState}`lv);" is 350.,104
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderThreeFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,170
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,OrderThreeFragment,getDatas,Magic Number,The method contains a magic number: 10,261
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,onCreateView,Magic Number,The method contains a magic number: 0x122,75
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,onCreateView,Magic Number,The method contains a magic number: 0x122,75
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,finishPwd,Magic Number,The method contains a magic number: 0x122,104
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,finishPwd,Magic Number,The method contains a magic number: 0x122,104
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,handleMessage,Magic Number,The method contains a magic number: 0x122,117
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,run,Magic Number,The method contains a magic number: 0x122,130
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,setViews,Long Method,The method has 103 lines of code.,170
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,setViews,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,170
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,setViews,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,170
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,run,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,174
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,run,Long Statement,The length of the statement "adapter=new MyOrderAdapter(getActivity()`list`R.layout.my_order_two_item`new String[]{"orderPic"`"orderName"`"orderPay"`"orderState"`"addTime"}`new int[]{R.id.img_takeUserPhoto`R.id.tv_orderName`R.id.tv_orderPay`R.id.tv_orderState`R.id.tv_addTime}`lv);" is 252.,180
+-SpringMVC-Android--APP-master,com.mobileclient.fragment,MyOrderThreeFragment,onItemClick,Long Statement,The length of the statement "if (list.get(arg2).get("evaluate").toString().equals("-+-") || list.get(arg2).get("evaluate").toString().equals("请评价")) {" is 121.,238
+-SpringMVC-Android--APP-master,com.mobileclient.service,UserService,AddUserInfo,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("userId"`String.valueOf(user.getUserId())).add("userName"`user.getUserName()).add("userPassword"`user.getUserPassword()).add("userPhoto"`user.getUserPhoto()).add("userType"`user.getUserType()).add("userPhone"`user.getUserPhone()).add("userGender"`user.getUserGender()).add("userEmail"`user.getUserEmail()).add("userReputation"`String.valueOf(user.getUserReputation())).add("userMoney"`user.getUserMoney()).add("userAuthFile"`user.getUserAuthFile()).add("regTime"`user.getRegTime()).add("nickName"`user.getNickName()).add("studentId"`String.valueOf(user.getStudentId())).add("userAuthState"`user.getUserAuthState()).add("payPwd"`user.getPayPwd()).add("action"`"add").build();" is 718.,28
+-SpringMVC-Android--APP-master,com.mobileclient.service,UserService,UpdateUserInfo,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("userId"`String.valueOf(user.getUserId())).add("userName"`user.getUserName()).add("userPassword"`user.getUserPassword()).add("userPhoto"`user.getUserPhoto()).add("userType"`user.getUserType()).add("userPhone"`user.getUserPhone()).add("userGender"`user.getUserGender()).add("userEmail"`user.getUserEmail()).add("userReputation"`String.valueOf(user.getUserReputation())).add("userMoney"`user.getUserMoney()).add("userAuthFile"`user.getUserAuthFile()).add("regTime"`user.getRegTime()).add("action"`"update").add("studentId"`String.valueOf(user.getStudentId())).add("nickName"`user.getNickName()).add("userAuthState"`user.getUserAuthState()).add("payPwd"`user.getPayPwd()).build();" is 721.,112
+-SpringMVC-Android--APP-master,com.mobileclient.service,UserService,GetUserInfo,Long Statement,The length of the statement "Request request=new Request.Builder().url(HttpUtil.BASE_URL + "user?" + "userId="+ userId+ "&action=updateQuery").build();" is 122.,183
+-SpringMVC-Android--APP-master,com.mobileclient.service,UserService,GetUserInfo,Long Statement,The length of the statement "Request request=new Request.Builder().url(HttpUtil.BASE_URL + "user/nickName?" + "nickName="+ nickName+ "&action=updateQuery").build();" is 135.,229
+-SpringMVC-Android--APP-master,com.mobileclient.service,ReceiveAddressService,AddReceiveAdress,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("receiveId"`receiveAdress.getReceiveId() + "").add("userId"`receiveAdress.getUserId() + "").add("receiveName"`receiveAdress.getReceiveName() + "").add("receivePhone"`receiveAdress.getReceivePhone()).add("receiveState"`receiveAdress.getReceiveState()).add("receiveAddressName"`receiveAdress.getReceiveAddressName()).add("action"`"add").build();" is 387.,26
+-SpringMVC-Android--APP-master,com.mobileclient.service,ReceiveAddressService,UpdateReceiveAddress,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("receiveId"`receiveAddress.getReceiveId() + "").add("userId"`receiveAddress.getUserId() + "").add("receiveName"`receiveAddress.getReceiveName() + "").add("receivePhone"`receiveAddress.getReceivePhone()).add("receiveState"`receiveAddress.getReceiveState()).add("receiveAddressName"`receiveAddress.getReceiveAddressName()).add("action"`"update").build();" is 396.,115
+-SpringMVC-Android--APP-master,com.mobileclient.service,OrderService,AddOrder,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("orderId"`order.getOrderId() + "").add("orderName"`order.getOrderName()).add("userId"`String.valueOf(order.getUserId())).add("expressCompanyName"`"" + order.getExpressCompanyName()).add("expressCompanyAddress"`order.getExpressCompanyAddress()).add("receiveAddressId"`String.valueOf(order.getReceiveAddressId())).add("addTime"`order.getAddTime()).add("orderState"`order.getOrderState()).add("orderPay"`order.getOrderPay()).add("remark"`order.getRemark()).add("receiveCode"`String.valueOf(order.getReceiveCode())).add("userPhone"`order.getUserPhone()).add("orderEvaluate"`order.getOrderEvaluate()).add("takeUserId"`String.valueOf(order.getTakeUserId())).add("score"`order.getScore()).add("orderType"`order.getOrderType()).add("orderPic"`order.getOrderPic()).add("receiveName"`order.getReceiveName()).add("receivePhone"`order.getReceivePhone()).add("receiveState"`order.getReceiveState()).add("receiveAddressName"`order.getReceiveAddressName()).add("action"`"add").build();" is 1014.,27
+-SpringMVC-Android--APP-master,com.mobileclient.service,OrderService,QueryOrder,Long Statement,The length of the statement "urlString+="&expressCompanyAddress=" + URLEncoder.encode(queryConditionTakeOrder.getExpressCompanyAddress()`"UTF-8") + "";" is 122.,69
+-SpringMVC-Android--APP-master,com.mobileclient.service,OrderService,QueryOrder,Long Statement,The length of the statement "urlString+="&receiveAddressId=" + URLEncoder.encode(String.valueOf(queryConditionTakeOrder.getReceiveAddressId())`"UTF-8") + "";" is 128.,69
+-SpringMVC-Android--APP-master,com.mobileclient.service,OrderService,UpdateOrder,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("orderId"`order.getOrderId() + "").add("orderName"`order.getOrderName()).add("userId"`String.valueOf(order.getUserId())).add("expressCompanyName"`"" + order.getExpressCompanyName()).add("expressCompanyAddress"`order.getExpressCompanyAddress()).add("receiveAddressId"`String.valueOf(order.getReceiveAddressId())).add("addTime"`order.getAddTime()).add("orderState"`order.getOrderState()).add("orderPay"`order.getOrderPay()).add("remark"`order.getRemark()).add("receiveCode"`String.valueOf(order.getReceiveCode())).add("orderEvaluate"`order.getOrderEvaluate()).add("takeUserId"`String.valueOf(order.getTakeUserId())).add("score"`order.getScore()).add("receiveName"`order.getReceiveName()).add("receivePhone"`order.getReceivePhone()).add("receiveState"`order.getReceiveState()).add("receiveAddressName"`order.getReceiveAddressName()).add("action"`"update").build();" is 905.,266
+-SpringMVC-Android--APP-master,com.mobileclient.service,TakeOrderService,AddTakeOrder,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("orderId"`takeOrder.getOrderId() + "").add("expressTakeObj"`takeOrder.getExpressTakeObj() + "").add("userObj"`takeOrder.getUserObj()).add("takeTime"`takeOrder.getTakeTime()).add("orderStateObj"`takeOrder.getOrderStateObj() + "").add("ssdt"`takeOrder.getSsdt()).add("evaluate"`takeOrder.getEvaluate()).add("action"`"add").build();" is 373.,23
+-SpringMVC-Android--APP-master,com.mobileclient.service,TakeOrderService,UpdateTakeOrder,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("orderId"`takeOrder.getOrderId() + "").add("expressTakeObj"`takeOrder.getExpressTakeObj() + "").add("userObj"`takeOrder.getUserObj()).add("takeTime"`takeOrder.getTakeTime()).add("orderStateObj"`takeOrder.getOrderStateObj() + "").add("ssdt"`takeOrder.getSsdt()).add("evaluate"`takeOrder.getEvaluate()).add("action"`"update").build();" is 376.,83
+-SpringMVC-Android--APP-master,com.mobileclient.service,NoticeService,AddNotice,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("noticeTitle"`notice.getNoticeTitle()).add("noticeContent"`notice.getNoticeContent()).add("publishDate"`notice.getPublishDate()).add("noticeFile"`notice.getNoticeFile()).add("action"`"add").build();" is 242.,23
+-SpringMVC-Android--APP-master,com.mobileclient.service,NoticeService,UpdateNotice,Long Statement,The length of the statement "RequestBody body=new FormBody.Builder().add("noticeId"`notice.getNoticeId() + "").add("noticeTitle"`notice.getNoticeTitle()).add("noticeContent"`notice.getNoticeContent()).add("publishDate"`notice.getPublishDate()).add("action"`"update").build();" is 246.,77
+-SpringMVC-Android--APP-master,com.cc.testdemo,FouthFragment,initData,Magic Number,The method contains a magic number: 20,69
+-SpringMVC-Android--APP-master,com.cc.testdemo,FouthFragment,setViews,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,86
+-SpringMVC-Android--APP-master,com.cc.testdemo,FouthFragment,run,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,91
+-SpringMVC-Android--APP-master,com.cc.testdemo,FouthFragment,run,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,97
+-SpringMVC-Android--APP-master,com.cc.testdemo,FouthFragment,getDatas,Empty catch clause,The method has an empty catch block.,280
+-SpringMVC-Android--APP-master,com.cc.testdemo,TwoFragment,initData,Magic Number,The method contains a magic number: 20,73
+-SpringMVC-Android--APP-master,com.cc.testdemo,TwoFragment,setViews,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,90
+-SpringMVC-Android--APP-master,com.cc.testdemo,TwoFragment,run,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,95
+-SpringMVC-Android--APP-master,com.cc.testdemo,TwoFragment,run,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,101
+-SpringMVC-Android--APP-master,com.cc.testdemo,TwoFragment,getDatas,Empty catch clause,The method has an empty catch block.,284
+-SpringMVC-Android--APP-master,com.cc.testdemo,UserInfoListActivity,onCreate,Magic Number,The method contains a magic number: 4,32
+-SpringMVC-Android--APP-master,com.cc.testdemo,UserInfoListActivity,onClick,Magic Number,The method contains a magic number: 2,99
+-SpringMVC-Android--APP-master,com.cc.testdemo,UserInfoListActivity,changeTextColor,Magic Number,The method contains a magic number: 2,146
+-SpringMVC-Android--APP-master,com.cc.testdemo,UserInfoListActivity,changeTextColor,Magic Number,The method contains a magic number: 3,146
+-SpringMVC-Android--APP-master,com.cc.testdemo,ThreeFragment,initData,Magic Number,The method contains a magic number: 20,69
+-SpringMVC-Android--APP-master,com.cc.testdemo,ThreeFragment,setViews,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,86
+-SpringMVC-Android--APP-master,com.cc.testdemo,ThreeFragment,run,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,91
+-SpringMVC-Android--APP-master,com.cc.testdemo,ThreeFragment,run,Long Statement,The length of the statement "adapter=new UserInfoSimpleAdapter(getContext()`list`R.layout.userinfo_list_item`new String[]{"userPhoto"`"userType"`"nickName"}`new int[]{R.id.iv_userPhoto`R.id.userType`R.id.nickName}`lv);" is 189.,97
+-SpringMVC-Android--APP-master,com.cc.testdemo,ThreeFragment,getDatas,Empty catch clause,The method has an empty catch block.,275

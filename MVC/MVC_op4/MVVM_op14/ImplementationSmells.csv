@@ -1,0 +1,254 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+androiddemo-master,com.china.bosh.demo,ExampleInstrumentedTest,testParseColor,Magic Number,The method contains a magic number: 10000,29
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,16
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,16
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,16
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,init,Magic Number,The method contains a magic number: 2,23
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,init,Magic Number,The method contains a magic number: 10000,23
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,init,Magic Number,The method contains a magic number: 10000,23
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,test,Magic Number,The method contains a magic number: 9,39
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,test,Magic Number,The method contains a magic number: 10,39
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,test,Magic Number,The method contains a magic number: 10,39
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,test,Magic Number,The method contains a magic number: 9,39
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,test2,Magic Number,The method contains a magic number: 5,63
+androiddemo-master,com.china.bosh.demo,ExampleUnitTest,test2,Magic Number,The method contains a magic number: 5,63
+androiddemo-master,com.china.bosh.demo,MainActivity,onCreate,Magic Number,The method contains a magic number: 2,19
+androiddemo-master,com.china.bosh.demo,MainActivity,onCreate,Missing default,The following switch statement is missing a default case: switch (type) {,19
+androiddemo-master,com.china.bosh.demo,MyApplication,initShortCuts,Long Statement,The length of the statement "ShortcutInfo info=new ShortcutInfo.Builder(context`"id" + i).setShortLabel(labels.get(i)).setLongLabel("跳转模块：" + labels.get(i)).setIntent(intent).setIcon(icons.get(i)).build();" is 176.,86
+androiddemo-master,com.china.bosh.demo,MyApplication,initShortCuts,Magic Number,The method contains a magic number: 4,86
+androiddemo-master,com.bosh.module_demo.ui.activity,MusicService,onAudioFocusChange,Missing default,The following switch statement is missing a default case: switch (focusChange) {,30
+androiddemo-master,com.bosh.module_demo.ui.activity,MusicService,onStartCommand,Long Statement,The length of the statement "builder.setContentTitle("前台服务").setContentText("保活？").setAutoCancel(true).setShowWhen(true).setLargeIcon(BitmapFactory.decodeResource(getResources()`R.drawable.demo_huaji)).setSmallIcon(icon);" is 192.,73
+androiddemo-master,com.bosh.module_demo.ui.activity,MusicService,onStartCommand,Magic Number,The method contains a magic number: 20,73
+androiddemo-master,com.bosh.module_demo.ui.activity,NotificationActivity,showNotificationNormal,Long Statement,The length of the statement "builder.setContentTitle("通知测试").setContentText("android 8.0以上通知").setAutoCancel(true).setShowWhen(true).setLargeIcon(BitmapFactory.decodeResource(getResources()`R.drawable.demo_huaji)).setSmallIcon(icon);" is 204.,57
+androiddemo-master,com.bosh.module_demo.ui.activity,NotificationActivity,showNotificationNormal,Long Statement,The length of the statement "builder.setContentTitle("通知测试").setContentText("android 8.0以下通知").setAutoCancel(true).setShowWhen(true).setLargeIcon(BitmapFactory.decodeResource(getResources()`R.drawable.demo_huaji)).setSmallIcon(icon);" is 204.,57
+androiddemo-master,com.bosh.module_demo.ui.activity,NotificationActivity,showNotificationAction,Long Statement,The length of the statement "Notification.Action yesAction=new Notification.Action.Builder(Icon.createWithResource(this`icon)`"yes"`yesPendingIntent).build();" is 129.,88
+androiddemo-master,com.bosh.module_demo.ui.activity,NotificationActivity,showNotificationAction,Long Statement,The length of the statement "Notification.Action noAction=new Notification.Action.Builder(Icon.createWithResource(this`icon)`"no"`noPendingIntent).build();" is 126.,88
+androiddemo-master,com.bosh.module_demo.ui.activity,NotificationActivity,showNotificationAction,Magic Number,The method contains a magic number: 23,88
+androiddemo-master,com.bosh.module_demo.ui.activity,NotificationActivity,showNotificationCritical,Long Statement,The length of the statement "builder.setContentTitle("重要通知").setAutoCancel(true).setTicker("123").setContentText("你的钱被偷了").setVisibility(NotificationCompat.VISIBILITY_PUBLIC);" is 146.,134
+androiddemo-master,com.bosh.module_demo.ui.activity,NotificationActivity,showNotificationCritical,Magic Number,The method contains a magic number: 3,134
+androiddemo-master,com.bosh.module_demo.ui.activity,MainActivity,onClick,Complex Method,Cyclomatic complexity of the method is 14,69
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setForegroundColor,Magic Number,The method contains a magic number: 2,98
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setForegroundColor,Magic Number,The method contains a magic number: 5,98
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setBackGroundColor,Magic Number,The method contains a magic number: 2,105
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setBackGroundColor,Magic Number,The method contains a magic number: 5,105
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setRelativeText,Magic Number,The method contains a magic number: 2f,112
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setRelativeText,Magic Number,The method contains a magic number: 0.5f,112
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setRelativeText,Magic Number,The method contains a magic number: 2,112
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setRelativeText,Magic Number,The method contains a magic number: 4,112
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setRelativeText,Magic Number,The method contains a magic number: 8,112
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setStrikeThrough,Magic Number,The method contains a magic number: 2,121
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setStrikeThrough,Magic Number,The method contains a magic number: 5,121
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setUnderline,Magic Number,The method contains a magic number: 2,129
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setUnderline,Magic Number,The method contains a magic number: 5,129
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setSuperscript,Magic Number,The method contains a magic number: 2,137
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setSuperscript,Magic Number,The method contains a magic number: 4,137
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setSubscript,Magic Number,The method contains a magic number: 2,144
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setSubscript,Magic Number,The method contains a magic number: 4,144
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setClickable,Magic Number,The method contains a magic number: 2,151
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setClickable,Magic Number,The method contains a magic number: 4,151
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,getHuaji,Magic Number,The method contains a magic number: 4,168
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,getHuaji,Magic Number,The method contains a magic number: 6,168
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setStyle,Magic Number,The method contains a magic number: 2,178
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setStyle,Magic Number,The method contains a magic number: 4,178
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setStyle,Magic Number,The method contains a magic number: 5,178
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setStyle,Magic Number,The method contains a magic number: 7,178
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setStyle,Magic Number,The method contains a magic number: 8,178
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setStyle,Magic Number,The method contains a magic number: 10,178
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setUrl,Magic Number,The method contains a magic number: 2,189
+androiddemo-master,com.bosh.module_demo.ui.activity,SpannableActivity,setUrl,Magic Number,The method contains a magic number: 6,189
+androiddemo-master,com.bosh.module_demo.ui.activity,SmsActivity,getSmsInPhone,Complex Method,Cyclomatic complexity of the method is 11,45
+androiddemo-master,com.bosh.module_demo.ui.activity,SmsActivity,getSmsInPhone,Magic Number,The method contains a magic number: 2,45
+androiddemo-master,com.bosh.module_demo.ui.activity,SmsActivity,getSmsInPhone,Magic Number,The method contains a magic number: 3,45
+androiddemo-master,com.bosh.module_demo.ui.activity,SmsActivity,getSmsInPhone,Magic Number,The method contains a magic number: 4,45
+androiddemo-master,com.bosh.module_demo.ui.activity,SmsActivity,getSmsInPhone,Magic Number,The method contains a magic number: 5,45
+androiddemo-master,com.bosh.module_demo.ui.activity,SmsActivity,getSmsInPhone,Magic Number,The method contains a magic number: 6,45
+androiddemo-master,com.bosh.module_demo.ui.activity.sms,SmsBroadcastReceive,onReceive,Long Statement,The length of the statement "ClipData data=new ClipData(new ClipDescription("验证码"`new String[]{ClipDescription.MIMETYPE_TEXT_PLAIN})`new ClipData.Item(verificationCode));" is 141.,26
+androiddemo-master,com.bosh.module_demo.ui.activity.recyclerview.stickyheader,StickyHeaderActivity,initListData,Magic Number,The method contains a magic number: 100,52
+androiddemo-master,com.bosh.module_demo.ui.activity.recyclerview.stickyheader,StickyHeaderActivity,initListData,Magic Number,The method contains a magic number: 10,52
+androiddemo-master,com.bosh.module_demo.ui.activity.recyclerview.stickyheader,StickyHeaderActivity,initListData,Magic Number,The method contains a magic number: 10,52
+androiddemo-master,com.bosh.module_demo.ui,NewAppWidget,updateAppWidget,Long Parameter List,The method has 6 parameters. ,43
+androiddemo-master,com.bosh.module_demo.ui,NewAppWidget,onUpdate,Long Statement,The length of the statement "disposable=Observable.interval(500`TimeUnit.MILLISECONDS).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(aLong -> {" is 149.,56
+androiddemo-master,com.bosh.module_demo.ui,NewAppWidget,onUpdate,Magic Number,The method contains a magic number: 500,56
+androiddemo-master,com.bosh.module_demo.ui,NewAppWidget,onUpdate,Magic Number,The method contains a magic number: 2,56
+androiddemo-master,com.bosh.module_demo.receiver,NotificationReceiver,onReceive,Missing default,The following switch statement is missing a default case: switch (intent.getAction()) {,18
+androiddemo-master,com.bosh.module_demo.service,InstallAccessibilityService,onAccessibilityEvent,Long Statement,The length of the statement "if (eventType == AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED || eventType == AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) {" is 127.,21
+androiddemo-master,com.bosh.module_demo.service,InstallAccessibilityService,iterateNodesAndHandle,Complex Conditional,The conditional expression "安装".equals(nodeContent) || "确定".equals(nodeContent) || "确认".equals(nodeContent)|| "打开".equals(nodeContent) is complex.,39
+androiddemo-master,com.china.bosh.mylibrary.utils,StringUtilsTest,getCharacterPosition,Magic Number,The method contains a magic number: 2,24
+androiddemo-master,com.china.bosh.mylibrary.utils,StringUtilsTest,getCharacterPosition,Magic Number,The method contains a magic number: 5,24
+androiddemo-master,com.china.bosh.mylibrary.utils,StringUtilsTest,getCharacterPosition,Magic Number,The method contains a magic number: 4,24
+androiddemo-master,com.china.bosh.mylibrary.utils,StringUtilsTest,replaceString,Magic Number,The method contains a magic number: 2,34
+androiddemo-master,com.china.bosh.mylibrary.utils,StringUtilsTest,replaceString,Magic Number,The method contains a magic number: 4,34
+androiddemo-master,com.china.bosh.mylibrary.utils,StringUtilsTest,replaceString,Magic Number,The method contains a magic number: 12,34
+androiddemo-master,com.china.bosh.mylibrary.utils,PermissionUtil,notifyPermissionsChange,Long Statement,The length of the statement "new AlertDialog.Builder(activity).setMessage("需要在系统设置里开启权限才能正常使用此功能").setPositiveButton("去设置"`new DialogInterface.OnClickListener(){" is 132.,80
+androiddemo-master,com.china.bosh.mylibrary.utils,PermissionUtil,notifyPermissionsChange,Long Statement,The length of the statement "new AlertDialog.Builder(fragment.getContext()).setMessage("需要在系统设置里开启权限才能使用此功能").setPositiveButton("去设置"`new DialogInterface.OnClickListener(){" is 143.,116
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,getNetWorkType,Long Statement,The length of the statement "ConnectivityManager manager=(ConnectivityManager)ContextProvider.get().getContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 131.,34
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,isFastMobileNetwork,Complex Method,Cyclomatic complexity of the method is 18,63
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,isFastMobileNetwork,Long Statement,The length of the statement "TelephonyManager telephonyManager=(TelephonyManager)ContextProvider.get().getContext().getSystemService(Context.TELEPHONY_SERVICE);" is 131.,63
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,isFastMobileNetwork,Missing default,The following switch statement is missing a default case: switch (telephonyManager.getNetworkType()) {,63
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,isNetworkAvailable,Long Statement,The length of the statement "ConnectivityManager mgr=(ConnectivityManager)ContextProvider.get().getContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 127.,99
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,isNetworkAvailable,Long Statement,The length of the statement "ConnectivityManager connMgr=(ConnectivityManager)ContextProvider.get().getContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 131.,99
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,isNetworkAvailable,Magic Number,The method contains a magic number: 23,99
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,checkNetworkConfig,Complex Conditional,The conditional expression (mobile == NetworkInfo.State.CONNECTED || mobile == NetworkInfo.State.CONNECTING) || (wifi == NetworkInfo.State.DISCONNECTED) is complex.,137
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,checkNetworkConfig,Long Statement,The length of the statement "ConnectivityManager conMan=(ConnectivityManager)ContextProvider.get().getContext().getSystemService(Context.CONNECTIVITY_SERVICE);" is 130.,137
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,checkNetworkConfig,Long Statement,The length of the statement "if ((mobile == NetworkInfo.State.CONNECTED || mobile == NetworkInfo.State.CONNECTING) || (wifi == NetworkInfo.State.DISCONNECTED)) {" is 132.,137
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,checkNetworkConfig,Magic Number,The method contains a magic number: 10,137
+androiddemo-master,com.china.bosh.mylibrary.utils,NetWorkUtil,checkNetworkConfig,Magic Number,The method contains a magic number: 10,137
+androiddemo-master,com.china.bosh.mylibrary.utils,NetworkCallbackImpl,NetworkCallbackImpl,Long Statement,The length of the statement "publishSubject.delay(2`TimeUnit.SECONDS).filter(aLong -> !isAvailable).observeOn(AndroidSchedulers.mainThread()).subscribe(aLong -> {" is 133.,35
+androiddemo-master,com.china.bosh.mylibrary.utils,NetworkCallbackImpl,NetworkCallbackImpl,Magic Number,The method contains a magic number: 2,35
+androiddemo-master,com.china.bosh.mylibrary.utils,NewsLifecycleHandler,onActivityStopped,Magic Number,The method contains a magic number: 500,109
+androiddemo-master,com.china.bosh.mylibrary.utils,NewsLifecycleHandler,run,Magic Number,The method contains a magic number: 500,115
+androiddemo-master,com.china.bosh.mylibrary.utils,PermissionsManager,hasPermission,Long Statement,The length of the statement "return context != null && (ActivityCompat.checkSelfPermission(context`permission) == PackageManager.PERMISSION_GRANTED || !mPermissions.contains(permission));" is 158.,136
+androiddemo-master,com.china.bosh.mylibrary.utils,FileUtils,getStoragePath,Magic Number,The method contains a magic number: 8,45
+androiddemo-master,com.china.bosh.mylibrary.utils,FileUtils,zipFiles,Magic Number,The method contains a magic number: 4096,102
+androiddemo-master,com.china.bosh.mylibrary.utils,FileUtils,zipLogs,Magic Number,The method contains a magic number: 10,130
+androiddemo-master,com.china.bosh.mylibrary.utils,ToMd5Util,md5,Magic Number,The method contains a magic number: 0xff,17
+androiddemo-master,com.china.bosh.mylibrary.utils,Utils,generateViewId,Magic Number,The method contains a magic number: 0x00FFFFFF,13
+androiddemo-master,com.china.bosh.mylibrary.utils,ImageUtil,getBmFromIv,Long Statement,The length of the statement "Bitmap bitmap=Bitmap.createBitmap(drawable.getIntrinsicWidth()`drawable.getIntrinsicHeight()`drawable.getOpacity() != PixelFormat.OPAQUE ? Bitmap.Config.ARGB_8888 : Bitmap.Config.RGB_565);" is 188.,21
+androiddemo-master,com.china.bosh.mylibrary.utils,DateUtils,getDateDaysAgo,Magic Number,The method contains a magic number: 24,14
+androiddemo-master,com.china.bosh.mylibrary.utils,DateUtils,getDateDaysAgo,Magic Number,The method contains a magic number: 60,14
+androiddemo-master,com.china.bosh.mylibrary.utils,DateUtils,getDateDaysAgo,Magic Number,The method contains a magic number: 60,14
+androiddemo-master,com.china.bosh.mylibrary.utils,DateUtils,getDateDaysAgo,Magic Number,The method contains a magic number: 1000,14
+androiddemo-master,com.china.bosh.mylibrary.utils,CrashHandler,init,Long Identifier,The length of the field mDefaultCaughtExceptionHandler is 30.,26
+androiddemo-master,com.china.bosh.mylibrary.utils,CrashHandler,uncaughtException,Long Identifier,The length of the field mDefaultCaughtExceptionHandler is 30.,32
+androiddemo-master,com.china.bosh.mylibrary.utils,NotificationChannels,createAllNotificationChannels,Long Statement,The length of the statement "nm.createNotificationChannels(Arrays.asList(new NotificationChannel(CRITICAL`CRITICAL`NotificationManager.IMPORTANCE_HIGH)`new NotificationChannel(IMPORTANCE`IMPORTANCE`NotificationManager.IMPORTANCE_DEFAULT)`new NotificationChannel(DEFAULT`DEFAULT`NotificationManager.IMPORTANCE_LOW)`new NotificationChannel(LOW`LOW`NotificationManager.IMPORTANCE_MIN)`mediaChannel));" is 368.,21
+androiddemo-master,com.china.bosh.mylibrary.utils,Base64Util,encodeFile,Magic Number,The method contains a magic number: 3,48
+androiddemo-master,com.china.bosh.mylibrary.utils,Base64Util,encodeFile,Magic Number,The method contains a magic number: 1024,48
+androiddemo-master,com.china.bosh.mylibrary.utils,Base64Util,encodeFile,Magic Number,The method contains a magic number: 1024,48
+androiddemo-master,com.china.bosh.mylibrary.utils,LocationUtil,getLocation,Long Statement,The length of the statement "if (ActivityCompat.checkSelfPermission(mContext`Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(mContext`Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {" is 257.,89
+androiddemo-master,com.china.bosh.mylibrary.utils,LocationUtil,getLocation,Magic Number,The method contains a magic number: 5000,89
+androiddemo-master,com.china.bosh.mylibrary.utils,LocationUtil,getLocation,Magic Number,The method contains a magic number: 10,89
+androiddemo-master,com.china.bosh.mylibrary.utils,LocationUtil,getLngAndLatWithNetwork,Long Statement,The length of the statement "if (ActivityCompat.checkSelfPermission(mContext`Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(mContext`Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {" is 257.,217
+androiddemo-master,com.china.bosh.mylibrary.utils,LocationUtil,getLngAndLatWithNetwork,Magic Number,The method contains a magic number: 5000,217
+androiddemo-master,com.china.bosh.mylibrary.utils,LocationUtil,getLngAndLatWithNetwork,Magic Number,The method contains a magic number: 10,217
+androiddemo-master,com.china.bosh.mylibrary.utils,LogUtils,log,Missing default,The following switch statement is missing a default case: switch (level) {,263
+androiddemo-master,com.china.bosh.mylibrary,ExampleUnitTest,test31,Magic Number,The method contains a magic number: 2,82
+androiddemo-master,com.china.bosh.mylibrary,ExampleUnitTest,test31,Magic Number,The method contains a magic number: 2,82
+androiddemo-master,com.china.bosh.mylibrary,ExampleUnitTest,test31,Magic Number,The method contains a magic number: 3,82
+androiddemo-master,com.china.bosh.mylibrary.ui.widget,ExpandedLinearLayoutManager,onMeasure,Complex Method,Cyclomatic complexity of the method is 9,36
+androiddemo-master,com.china.bosh.mylibrary.ui.widget,ExpandedLinearLayoutManager,onMeasure,Magic Number,The method contains a magic number: 2,36
+androiddemo-master,com.china.bosh.mylibrary.ui.widget,ExpandedLinearLayoutManager,measureScrapChild,Long Parameter List,The method has 5 parameters. ,96
+androiddemo-master,com.china.bosh.mylibrary.ui.widget,ExpandedLinearLayoutManager,getChildDimension,Magic Number,The method contains a magic number: 2,122
+androiddemo-master,com.china.bosh.mylibrary.ui.widget,ExpandedLinearLayoutManager,measureChildInSelf,Long Statement,The length of the statement "int newWidthSpec=getChildMeasureSpec(widthSize`widthMode`getPaddingLeft() + getPaddingRight()`lp.width`getOrientation() == HORIZONTAL);" is 135.,143
+androiddemo-master,com.china.bosh.mylibrary.ui.widget,ExpandedLinearLayoutManager,measureChildInSelf,Long Statement,The length of the statement "int newHeightSpec=getChildMeasureSpec(heightSize`heightMode`getPaddingBottom() + getPaddingTop()`lp.width`getOrientation() == VERTICAL);" is 136.,143
+androiddemo-master,com.china.bosh.mylibrary.ui.widget,ExpandedGridLayoutManager,onMeasure,Complex Method,Cyclomatic complexity of the method is 10,25
+androiddemo-master,com.china.bosh.mylibrary.ui.widget,ExpandedGridLayoutManager,getChildDimension,Magic Number,The method contains a magic number: 2,74
+androiddemo-master,com.china.bosh.mylibrary.ui.activity,BaseActivity,setCustomDensity,Magic Number,The method contains a magic number: 360,183
+androiddemo-master,com.china.bosh.mylibrary.ui.activity,BaseActivity,setCustomDensity,Magic Number,The method contains a magic number: 160,183
+androiddemo-master,com.china.bosh.mylibrary.entity,DataEvent,toString,Long Statement,The length of the statement "return "eventCode:" + eventCode + "`result:"+ result.toString()+ "`isSuccess:"+ isSuccess+ "`errorMessage:"+ errorMessage+ "`errorCode:"+ errorCode;" is 148.,56
+androiddemo-master,com.china.bosh.mylibrary.provider,ApplicationContextProvider,query,Long Parameter List,The method has 5 parameters. ,29
+androiddemo-master,com.china.bosh.mylibrary.retrofit.gson,MyGsonConverterFactory,responseBodyConverter,Long Statement,The length of the statement "return new Type[]{converterType.entity()`converterType.map()`converterType.qvo()`converterType.vo()`converterType.rows()};" is 122.,47
+androiddemo-master,com.china.bosh.mylibrary.retrofit.gson,MyGsonConverterFactory,getActualTypeArguments,Long Statement,The length of the statement "return new Type[]{converterType.entity()`converterType.map()`converterType.qvo()`converterType.vo()`converterType.rows()};" is 122.,54
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,changeBaseUrl,Long Statement,The length of the statement "Log.i("http请求回应" + "[" + t1 + "]"`String.format("(%.1fms)Received response for %s"`(t2 - t1) / 1e6d`response.request().url()));" is 127.,50
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,changeBaseUrl,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(TextUtils.isEmpty(url) ? Url.BASE_URL : url).client(builder.build()).addConverterFactory(JacksonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).build();" is 237.,50
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,changeBaseUrl,Magic Number,The method contains a magic number: 1e6d,50
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,intercept,Long Statement,The length of the statement "Log.i("http请求回应" + "[" + t1 + "]"`String.format("(%.1fms)Received response for %s"`(t2 - t1) / 1e6d`response.request().url()));" is 127.,54
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,intercept,Magic Number,The method contains a magic number: 1e6d,54
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,setSSLOptions,Complex Method,Cyclomatic complexity of the method is 8,98
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,setSSLOptions,Long Statement,The length of the statement "public static final String PUB_KEY="3082010a0282010100d52ff5dd432b3a05113ec1a7065fa5a80308810e4e181cf14f7598c8d553cccb7d5111fdcdb55f6ee84fc92cd594adc1245a9c4cd41cbe407a919c5b4d4a37a012f8834df8cfe947c490464602fc05c18960374198336ba1c2e56d2e984bdfb8683610520e417a1a9a5053a10457355cf45878612f04bb134e3d670cf96c6e598fd0c693308fe3d084a0a91692bbd9722f05852f507d910b782db4ab13a92a7df814ee4304dccdad1b766bb671b6f8de578b7f27e76a2000d8d9e6b429d4fef8ffaa4e8037e167a2ce48752f1435f08923ed7e2dafef52ff30fef9ab66fdb556a82b257443ba30a93fda7a0af20418aa0b45403a2f829ea6e4b8ddbb9987f1bf0203010001";" is 578.,98
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,setSSLOptions,Magic Number,The method contains a magic number: 16,98
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RetrofitUtil,checkServerTrusted,Magic Number,The method contains a magic number: 16,128
+androiddemo-master,com.china.bosh.mylibrary.retrofit,RequestEncryptInterceptor,intercept,Complex Method,Cyclomatic complexity of the method is 9,32
+androiddemo-master,com.china.bosh.mylibrary.db,tableTestDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"TABLE_TEST\" ("+ "\"ID\" INTEGER PRIMARY KEY NOT NULL `"+ "\"PROPERTY\" TEXT);");" is 126.,40
+androiddemo-master,com.china.bosh.mylibrary.db,tableTestDao,bindValues,Magic Number,The method contains a magic number: 2,54
+androiddemo-master,com.china.bosh.mylibrary.db,tableTestDao,bindValues,Magic Number,The method contains a magic number: 2,65
+androiddemo-master,com.china.bosh.mylibrary.db,tableTestDao,readEntity,Long Statement,The length of the statement "tableTest entity=new tableTest(cursor.getInt(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1));" is 122.,81
+androiddemo-master,com.china.bosh.mylibrary.db,MigrationHelper,restoreData,Long Statement,The length of the statement "addColumnBuilder.append("ALTER TABLE ").append(tempTableName).append(" ADD COLUMN ").append(columnName).append(getTableType(daoConfig.properties[j].type));" is 155.,98
+androiddemo-master,com.china.bosh.mylibrary.db,MigrationHelper,getTypeByClass,Complex Conditional,The conditional expression type.equals(Long.class) || type.equals(Integer.class) || type.equals(long.class)|| type.equals(int.class) is complex.,159
+androiddemo-master,com.china.bosh.mylibrary.db,MigrationHelper,getTypeByClass,Long Identifier,The length of the field CONVERSION_CLASS_NOT_FOUND_EXCEPTION is 36.,159
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"PRICE_ENTITY\" ("+ "\"_id\" INTEGER PRIMARY KEY `"+ "\"ITEM_TYPE\" TEXT`"+ "\"ITEM_TYPE_NAME\" TEXT`"+ "\"ITEM_CODE\" TEXT UNIQUE `"+ "\"ITEM_NAME\" TEXT`"+ "\"UNIT_PRICE\" REAL NOT NULL `"+ "\"UNIT\" TEXT`"+ "\"UNIT_NAME\" TEXT`"+ "\"QUANTITY\" REAL NOT NULL `"+ "\"AMOUNT\" REAL NOT NULL );");" is 340.,48
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Complex Method,Cyclomatic complexity of the method is 8,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 2,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 3,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 4,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 5,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 6,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 7,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 8,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 9,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 10,70
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Complex Method,Cyclomatic complexity of the method is 8,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 2,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 3,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 4,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 5,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 6,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 7,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 8,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 9,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,bindValues,Magic Number,The method contains a magic number: 10,113
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Long Statement,The length of the statement "PriceEntity entity=new PriceEntity(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3)`cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4)`cursor.getDouble(offset + 5)`cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6)`cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7)`cursor.getDouble(offset + 8)`cursor.getDouble(offset + 9));" is 569.,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 2,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 2,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 3,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 3,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 4,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 4,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 5,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 6,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 6,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 7,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 7,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 8,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 9,161
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 2,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 2,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 3,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 3,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 4,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 4,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 5,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 6,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 6,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 7,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 7,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 8,178
+androiddemo-master,com.china.bosh.mylibrary.db,PriceEntityDao,readEntity,Magic Number,The method contains a magic number: 9,178
+androiddemo-master,com.china.bosh.mylibrary.db,DaoHelper,getPriceEntityListLike,Long Statement,The length of the statement "return daoSession.getPriceEntityDao().queryBuilder().where(PriceEntityDao.Properties.ItemName.like("%" + itemName + "%")).rx().list();" is 134.,48
+androiddemo-master,com.china.bosh.mylibrary.db.table,tableTest,tableTest,Magic Number,The method contains a magic number: 1804822643,19
+androiddemo-master,com.china.bosh.mylibrary.db.table,tableTest,tableTest,Magic Number,The method contains a magic number: 988962298,24
+androiddemo-master,com.china.bosh.mylibrary.db.table,PriceEntity,PriceEntity,Long Parameter List,The method has 10 parameters. ,27
+androiddemo-master,com.china.bosh.mylibrary.db.table,PriceEntity,PriceEntity,Magic Number,The method contains a magic number: 481354360,27
+androiddemo-master,com.china.bosh.mylibrary.db.table,PriceEntity,PriceEntity,Magic Number,The method contains a magic number: 1519330722,42
+androiddemo-master,com.china.bosh.mylibrary.designpattern.chainofresponsibility,InterceptorLast,intercept,Magic Number,The method contains a magic number: 400,13
+androiddemo-master,com.china.bosh.mylibrary.designpattern.flyweight,FlyweightPatternDemo,main,Magic Number,The method contains a magic number: 20,10
+androiddemo-master,com.china.bosh.mylibrary.designpattern.flyweight,FlyweightPatternDemo,main,Magic Number,The method contains a magic number: 100,10
+androiddemo-master,com.china.bosh.mylibrary.designpattern.flyweight,FlyweightPatternDemo,getRandomX,Magic Number,The method contains a magic number: 100,24
+androiddemo-master,com.china.bosh.mylibrary.designpattern.flyweight,FlyweightPatternDemo,getRandomY,Magic Number,The method contains a magic number: 100,27
+androiddemo-master,com.china.bosh.mylibrary.application,BaseApplication,onCreate,Long Statement,The length of the statement "registerActivityLifecycleCallbacks(new NewsLifecycleHandler("应用切换至后台").setUnnoticeActivity("SplashActivity").setDestroyedActivity("LoginActivity"`"mainActivity"));" is 163.,19
+androiddemo-master,com.bosh.module_demo_test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+androiddemo-master,com.bosh.module_demo_test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.module_demo_test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.mvvm_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+androiddemo-master,com.bosh.mvvm_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.mvvm_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.module_mvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+androiddemo-master,com.bosh.module_mvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.module_mvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.kotlin_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+androiddemo-master,com.bosh.kotlin_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.kotlin_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.lib_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+androiddemo-master,com.bosh.lib_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.lib_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.mvp_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+androiddemo-master,com.bosh.mvp_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.mvp_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.module_mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+androiddemo-master,com.bosh.module_mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.module_mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.module_mvp.ui.login,LoginActivity,initData,Magic Number,The method contains a magic number: 2,47
+androiddemo-master,com.bosh.module_mvp.ui.base,BaseActivity,setRequestedOrientation,Magic Number,The method contains a magic number: 26,204
+androiddemo-master,com.bosh.module_mvp.ui.base,BaseActivity,isTranslucentOrFloating,Long Statement,The length of the statement "int[] styleableRes=(int[])((int[])Class.forName("com.android.internal.R$styleable").getField("Window").get((Object)null));" is 122.,211
+androiddemo-master,com.bosh.module_mvp.ui.base,BaseActivity,setCustomDensity,Magic Number,The method contains a magic number: 1e-6f,243
+androiddemo-master,com.bosh.module_mvp.ui.base,BaseActivity,setCustomDensity,Magic Number,The method contains a magic number: 360,243
+androiddemo-master,com.bosh.module_mvp.ui.base,BaseActivity,setCustomDensity,Magic Number,The method contains a magic number: 160.0F,243
+androiddemo-master,com.bosh.module_mvp.network,RetrofitUtil,changeUrl,Long Statement,The length of the statement "Log.i("http请求回应" + "[" + t1 + "]"`String.format("(%.1fms)Received response for %s"`(t2 - t1) / 1e6d`response.request().url()));" is 127.,46
+androiddemo-master,com.bosh.module_mvp.network,RetrofitUtil,changeUrl,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().baseUrl(TextUtils.isEmpty(url) ? Url.BASE_URL : url).client(builder.build()).addConverterFactory(JacksonConverterFactory.create()).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).build();" is 229.,46
+androiddemo-master,com.bosh.module_mvp.network,RetrofitUtil,changeUrl,Magic Number,The method contains a magic number: 10000000,46
+androiddemo-master,com.bosh.module_mvp.network,RetrofitUtil,changeUrl,Magic Number,The method contains a magic number: 1e6d,46
+androiddemo-master,com.bosh.module_mvp.network,RetrofitUtil,changeUrl,Magic Number,The method contains a magic number: 60,46
+androiddemo-master,com.bosh.module_mvp.network,RetrofitUtil,changeUrl,Magic Number,The method contains a magic number: 60,46
+androiddemo-master,com.bosh.module_mvp.network,RetrofitUtil,login,Magic Number,The method contains a magic number: 4,92
+androiddemo-master,com.bosh.opencv_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+androiddemo-master,com.bosh.opencv_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+androiddemo-master,com.bosh.opencv_module,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13

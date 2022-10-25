@@ -1,0 +1,197 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+acgn-community-master,com.taozi.twodimension,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+acgn-community-master,com.taozi.twodimension,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+acgn-community-master,com.taozi.twodimension,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Complex Method,Cyclomatic complexity of the method is 9,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Magic Number,The method contains a magic number: 4,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Magic Number,The method contains a magic number: 2,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Magic Number,The method contains a magic number: 3,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Magic Number,The method contains a magic number: 4,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Magic Number,The method contains a magic number: 4,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Magic Number,The method contains a magic number: 2,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Magic Number,The method contains a magic number: 3,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,initEvent,Missing default,The following switch statement is missing a default case: switch (position % 4) {,58
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getItem,Magic Number,The method contains a magic number: 4,65
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getItem,Magic Number,The method contains a magic number: 2,65
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getItem,Magic Number,The method contains a magic number: 3,65
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getItem,Missing default,The following switch statement is missing a default case: switch (position % 4) {,65
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getCount,Magic Number,The method contains a magic number: 4,81
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getPageTitle,Magic Number,The method contains a magic number: 4,86
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getPageTitle,Magic Number,The method contains a magic number: 2,86
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getPageTitle,Magic Number,The method contains a magic number: 3,86
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,loadData,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(Constants.BASEURL).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).build();" is 184.,166
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,updateHeader,Magic Number,The method contains a magic number: 2,199
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,updateHeader,Magic Number,The method contains a magic number: 3,199
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getHeaderDesign,Magic Number,The method contains a magic number: 2,201
+acgn-community-master,com.taozi.twodimension.activity,MainActivity,getHeaderDesign,Magic Number,The method contains a magic number: 3,201
+acgn-community-master,com.taozi.twodimension.adapter,TestRecyclerViewAdapter,getItemViewType,Missing default,The following switch statement is missing a default case: switch (position) {,26
+acgn-community-master,com.taozi.twodimension.fragment,RecyclerViewFragment,onViewCreated,Magic Number,The method contains a magic number: 2,40
+acgn-community-master,com.taozi.twodimension.modules.animation.activity,AnimationDetailActivity,init,Long Statement,The length of the statement "Glide.with(this).load(imageUrl).bitmapTransform(new BlurTransformation(this`25)`new CenterCrop(this)).into(backGroundImageView);" is 128.,72
+acgn-community-master,com.taozi.twodimension.modules.animation.activity,AnimationDetailActivity,init,Magic Number,The method contains a magic number: 25,72
+acgn-community-master,com.taozi.twodimension.modules.animation.activity,AnimationDetailActivity,init,Magic Number,The method contains a magic number: 5,72
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Method,The method has 182 lines of code.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean000.setBigImageUrl("http://i0.hdslb.com/bfs/bangumi/16e078e66b41da3dbe26addf4d8f20801ef90398.jpg_620x300.jpg");" is 124.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean111.setBigImageUrl("http://i0.hdslb.com/bfs/bangumi/71bdd818272db6e866c260abb8de58aad1fef59a.jpg_620x300.jpg");" is 124.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean222.setBigImageUrl("http://i0.hdslb.com/bfs/bangumi/133306c8313323d568b6267037798cbb6c55a3c7.jpg_620x300.jpg");" is 124.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean333.setBigImageUrl("http://i0.hdslb.com/bfs/bangumi/18ba9c7bc5a578c1e00f30d83d5297ce297abbe8.jpg_620x300.jpg");" is 124.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean2.setImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488194071897&di" + "=4d744c406c8ee6d5391393127ebd5bcf&imgtype=0&src=http%3A%2F%2Fi-3.pp8"+ ".com%2F2017%2F2%2F16%2F3ea04b8f-5cff-408f-a4a6-43623c3e40cd.jpg");" is 260.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean3.setImageUrl("https://ss3.bdstatic" + ".com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4053859121`3912068912&fm=11&gp=0.jpg");" is 130.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean4.setImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488194191209&di" + "=eaa302027c0d13325f826564360b4ea6&imgtype=0&src=http%3A%2F%2Fwww.520885"+ ".com%2Fpic%2Fuploadimg%2F2017-1%2F20171811275079780.png");" is 255.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean5.setImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488194243456&di" + "=261852f9c4b7bfad6b9609c077e3f782&imgtype=0&src=http%3A%2F%2Fimgwx2.2345"+ ".com%2Fdypcimg%2Fdongman%2Fimg%2Fe%2F24%2Fsup74634.jpg");" is 255.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean6.setImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488194418137&di" + "=29030d2f3f8f310d0d1f26cfc0e6ea6d&imgtype=0&src=http%3A%2F%2Fimg2.gyjlm"+ ".com%2Fimages%2Fimg201509%2F20171613185486700.jpg");" is 249.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean10.setSummary("从小便能看见妖怪的少年夏目贵志。自从他从祖母玲子那里继承了与妖怪成为主从并将其名字书写在上的契约书“友人帐”以来，便于自称为保镖的妖怪猫咪老师一同，开始了将名字返还给妖怪的每一天。夏目与各种各样的妖怪与善良人们相遇，在构筑问年的场所同时，也反复寄托着想要守护重要之物的想法。");" is 168.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean13.setImageUrl("https://ss0.bdstatic" + ".com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2995206238`1927495932&fm=23&gp=0.jpg");" is 131.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean13.setBigImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488875698&di" + "=c27d16b7a2e0cd9757f1b08107767f4e&imgtype=jpg&er=1&src=http%3A%2F%2Fatt.bbs"+ ".duowan.com%2Fforum%2F201603%2F29%2F224442zttx8mfb2lestedt.png");" is 267.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean14.setImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488281187954&di" + "=0eed3c1a2f5211153ee25f92c5744851&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu"+ ".com%2Fforum%2Fw%253D580%2Fsign%3D9c9f1b9c369b033b2c88fcd225cf3620"+ "%2F7cd98d1001e93901698a8ba679ec54e737d19699.jpg");" is 320.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean14.setBigImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488281157412&di" + "=59b17430ed210a7fafb89e41ef288dbe&imgtype=0&src=http%3A%2F%2Fi1.hdslb"+ ".com%2Fu_user%2F048d5efb0ba4378d090152f5430d410e.jpg");" is 254.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean15.setImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488281505633&di" + "=cf28863a0b2a8a78db56fc105b2e1c39&imgtype=0&src=http%3A%2F%2Fi.gtimg"+ ".cn%2Fqqlive%2Fimg%2Fjpgcache%2Ffiles%2Fqqvideo%2Fl%2Fltcwfv0pz5ygxtv.jpg");" is 271.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean15.setBigImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488281420448&di" + "=ab6a86f31c3e118cd2da7f2203471b5a&imgtype=0&src=http%3A%2F%2Fqn.18touch"+ ".com%2Fuploads%2Facg201501%2F1430541961238249.jpg");" is 253.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean16.setImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488281853795&di" + "=aed9a403787ede6ea2d325d591df9257&imgtype=0&src=http%3A%2F%2Fimg5.duitang"+ ".com%2Fuploads%2Fitem%2F201503%2F11%2F20150311210235_h2Lvn.thumb.700_0.jpeg");" is 278.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean16.setBigImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488281815487&di" + "=667c58cbf01917cd66626a0c628c0d8d&imgtype=0&src=http%3A%2F%2Feasyread.ph.126"+ ".net%2FyynjK3o2UFcjbf6BE1OilA%3D%3D%2F7916702522803010389.jpg");" is 270.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean17.setImageUrl("https://timgsa.baidu" + ".com/timg?image&quality=80&size=b9999_10000&sec=1488282678093&di" + "=55f162ff8b529cbfce56204051cb0e17&imgtype=0&src=http%3A%2F%2Fwww.magicomic"+ ".com%2Fshop%2Fimages%2F201504%2Fgoods_img%2F7094_G_1430290399351.jpg");" is 272.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Long Statement,The length of the statement "animationBean17.setBigImageUrl("https://ss3.bdstatic" + ".com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2968466152`1715208633&fm=23&gp=0.jpg");" is 134.,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 111,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 222,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 333,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 7,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 20,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 24,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 19,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 3,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 18,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 20,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 26,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 8,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 5,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 24,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 10,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 8,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 11,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 11,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 11,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 11,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 24,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 24,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,loadData,Magic Number,The method contains a magic number: 12,119
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,updateData,Long Parameter List,The method has 6 parameters. ,360
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,updateData,Long Statement,The length of the statement "ActivityOptions transitionActivityOptions=ActivityOptions.makeSceneTransitionAnimation(getActivity()`Pair.create((View)(imageList.get(finalI))`"share_image")`Pair.create((View)(cardList.get(finalI))`"share_card"));" is 214.,360
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,onClick,Long Statement,The length of the statement "ActivityOptions transitionActivityOptions=ActivityOptions.makeSceneTransitionAnimation(getActivity()`Pair.create((View)(imageList.get(finalI))`"share_image")`Pair.create((View)(cardList.get(finalI))`"share_card"));" is 214.,370
+acgn-community-master,com.taozi.twodimension.modules.animation.fragment,AnimationFragment,updateTuijian,Long Parameter List,The method has 5 parameters. ,395
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,init,Long Statement,The length of the statement "Glide.with(SonglistDetailActivity.this).load("http://img2.imgtn.bdimg.com/it/u=2337698855`2476434391&fm=23&gp=0.jpg").asBitmap().centerCrop().into(new BitmapImageViewTarget(holder.imageView){" is 191.,49
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,init,Long Statement,The length of the statement "RoundedBitmapDrawable circularBitmapDrawable=RoundedBitmapDrawableFactory.create(SonglistDetailActivity.this.getResources()`resource);" is 134.,49
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,headInit,Long Statement,The length of the statement "Glide.with(SonglistDetailActivity.this).load("http://img2.imgtn.bdimg.com/it/u=2337698855`2476434391&fm=23&gp=0.jpg").asBitmap().centerCrop().into(new BitmapImageViewTarget(holder.imageView){" is 191.,60
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,headInit,Long Statement,The length of the statement "RoundedBitmapDrawable circularBitmapDrawable=RoundedBitmapDrawableFactory.create(SonglistDetailActivity.this.getResources()`resource);" is 134.,60
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,setResource,Long Statement,The length of the statement "RoundedBitmapDrawable circularBitmapDrawable=RoundedBitmapDrawableFactory.create(SonglistDetailActivity.this.getResources()`resource);" is 134.,64
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Long Statement,The length of the statement "songBean1.setImageUrl("https://ss0.baidu.com/73x1bjeh1BF3odCf/it/u=448365208`189006674&fm=85&s=A00462B4C04220EE90346921030070D2");" is 130.,78
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Long Statement,The length of the statement "songBean2.setImageUrl("https://ss0.baidu.com/73x1bjeh1BF3odCf/it/u=3826210306`3979386383&fm=85&s=9812EA17324277ED452D65F50300E022");" is 132.,78
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Long Statement,The length of the statement "songBean3.setImageUrl("https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2174054708`1549044257&fm=85&s=9184BC5D6C135C4D3E3D7C0903003012");" is 132.,78
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Long Statement,The length of the statement "songBean4.setImageUrl("https://ss0.baidu.com/73x1bjeh1BF3odCf/it/u=3655071154`599553380&fm=85&s=C080FD1C578276E64858D1DB0300C0B1");" is 131.,78
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Long Statement,The length of the statement "songBean5.setImageUrl("https://ss0.baidu.com/73x1bjeh1BF3odCf/it/u=1846965556`1676544866&fm=85&s=A4E86EB65FA3EECC56271A740300507C");" is 132.,78
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Magic Number,The method contains a magic number: 2,78
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Magic Number,The method contains a magic number: 3,78
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Magic Number,The method contains a magic number: 4,78
+acgn-community-master,com.taozi.twodimension.modules.music.activity,SonglistDetailActivity,loadData,Magic Number,The method contains a magic number: 5,78
+acgn-community-master,com.taozi.twodimension.modules.music.adatper,SonglistRecyclerViewAdapter,onCreateViewHolder,Missing default,The following switch statement is missing a default case: switch (viewType) {,35
+acgn-community-master,com.taozi.twodimension.modules.music.adatper,SonglistRecyclerViewAdapter,onBindViewHolder,Missing default,The following switch statement is missing a default case: switch (position) {,55
+acgn-community-master,com.taozi.twodimension.modules.music.fragment,MusicFragment,loadData,Magic Number,The method contains a magic number: 2,79
+acgn-community-master,com.taozi.twodimension.modules.music.fragment,MusicFragment,loadData,Magic Number,The method contains a magic number: 3,79
+acgn-community-master,com.taozi.twodimension.modules.music.fragment,MusicFragment,loadData,Magic Number,The method contains a magic number: 4,79
+acgn-community-master,com.taozi.twodimension.modules.music.fragment,MusicFragment,loadData,Magic Number,The method contains a magic number: 5,79
+acgn-community-master,com.taozi.twodimension.modules.music.fragment,MusicFragment,loadData,Magic Number,The method contains a magic number: 6,79
+acgn-community-master,com.taozi.twodimension.modules.music.fragment,MusicFragment,loadData,Magic Number,The method contains a magic number: 7,79
+acgn-community-master,com.taozi.twodimension.modules.music.fragment,MusicFragment,loadData,Magic Number,The method contains a magic number: 8,79
+acgn-community-master,com.taozi.twodimension.modules.news.adatper,NewsRecyclerViewAdapter,onCreateViewHolder,Missing default,The following switch statement is missing a default case: switch (viewType) {,39
+acgn-community-master,com.taozi.twodimension.modules.news.adatper,NewsRecyclerViewAdapter,onBindViewHolder,Missing default,The following switch statement is missing a default case: switch (newsBean.getType()) {,68
+acgn-community-master,com.taozi.twodimension.modules.news.fragment,NewsFragment,initEvent,Long Statement,The length of the statement "transitionActivityOptions=ActivityOptions.makeSceneTransitionAnimation(getActivity()`Pair.create((View)(viewHolder.imageView)`"share_image1"));" is 143.,53
+acgn-community-master,com.taozi.twodimension.modules.news.fragment,NewsFragment,initEvent,Long Statement,The length of the statement "transitionActivityOptions=ActivityOptions.makeSceneTransitionAnimation(getActivity()`Pair.create((View)(viewHolder.viewList.get(0))`"share_image1")`Pair.create((View)(viewHolder.viewList.get(1))`"share_image2")`Pair.create((View)(viewHolder.viewList.get(2))`"share_image3"));" is 275.,53
+acgn-community-master,com.taozi.twodimension.modules.news.fragment,NewsFragment,initEvent,Magic Number,The method contains a magic number: 2,53
+acgn-community-master,com.taozi.twodimension.modules.news.fragment,NewsFragment,onItemClick,Long Statement,The length of the statement "transitionActivityOptions=ActivityOptions.makeSceneTransitionAnimation(getActivity()`Pair.create((View)(viewHolder.imageView)`"share_image1"));" is 143.,62
+acgn-community-master,com.taozi.twodimension.modules.news.fragment,NewsFragment,onItemClick,Long Statement,The length of the statement "transitionActivityOptions=ActivityOptions.makeSceneTransitionAnimation(getActivity()`Pair.create((View)(viewHolder.viewList.get(0))`"share_image1")`Pair.create((View)(viewHolder.viewList.get(1))`"share_image2")`Pair.create((View)(viewHolder.viewList.get(2))`"share_image3"));" is 275.,62
+acgn-community-master,com.taozi.twodimension.modules.news.fragment,NewsFragment,onItemClick,Magic Number,The method contains a magic number: 2,62
+acgn-community-master,com.taozi.twodimension.modules.news.fragment,NewsFragment,loadData,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().baseUrl(Constants.BASEURL).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).build();" is 184.,106
+acgn-community-master,com.taozi.twodimension.modules.news.fragment,NewsFragment,loadData,Long Statement,The length of the statement "observable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<List<NewsBean>>(){" is 123.,106
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Long Statement,The length of the statement "Glide.with(this).load(imageUrl).bitmapTransform(new BlurTransformation(this`25)`new CenterCrop(this)).into(backGroundImageView);" is 128.,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Long Statement,The length of the statement "int[] colors=new int[]{R.color.newsSummaryText`R.color.colorNovel`R.color.newsSummaryText`R.color.colorNovel`R.color.newsSummaryText`R.color.colorNovel`R.color.newsSummaryText`R.color.colorNovel};" is 196.,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 25,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 8,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 2,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 3,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 4,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 5,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 6,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 7,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,init,Magic Number,The method contains a magic number: 5,75
+acgn-community-master,com.taozi.twodimension.modules.novel.activity,NovelDetailActivity,setTextDifferent,Long Statement,The length of the statement "style.setSpan(new ForegroundColorSpan(context.getResources().getColor(colors[i]))`startIndex`endIndex`Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);" is 138.,119
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Method,The method has 108 lines of code.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean1.setImageUrl("https://image.iqing.in/cover/387316bc-6bbe-4b42-99a5-bb4a259da163.jpg?imageView2/1/w/180/h/240/format/jpg/interlace/1/q/86");" is 149.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean2.setImageUrl("https://image.iqing.in/cover/aec22113-8557-4995-a0be-1bb30d8ea607.jpg?imageView2/1/w/180/h/240/format/jpg/interlace/1/q/86");" is 149.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean2.setSummary("芸芸众生皆有不等造化，因离死尚早，故惹下善与非善的种种因果。而后随业力流转，红颜化作白骨，次次轮回分作六个去处：天道、阿修罗道、人道、畜生道、饿鬼道、地狱道。 倘若此世道瞬间失了太平，阴阳沦落了虚妄。平安京内频频的异象疑云，人妖鬼神的命运却遵循着不知名的力量交织于一起。");" is 161.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean3.setImageUrl("https://image.iqing.in/cover/09dacfd4-3afc-4f1f-8d19-0a9a1924f5d2.jpg?imageView2/1/w/180/h/240/format/jpg/interlace/1/q/86");" is 149.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean4.setImageUrl("https://imgsa.baidu.com/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=b9dc7887bc389b502cf2e800e45c8eb8/43a7d933c895d143224686ba76f082025aaf0772.jpg");" is 170.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean6.setImageUrl("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3022818594`2957573905&fm=23&gp=0.jpg");" is 121.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean7.setImageUrl("https://image.iqing.in/cover/9b3daf24-404d-4d49-aa6f-6ca49d047ea8.jpg?imageView2/1/w/180/h/240/format/jpg/interlace/1/q/86");" is 149.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean8.setImageUrl("https://image.iqing.in/cover/a0d19177-c42f-4fc5-9377-5b52a40dfd5f.jpg?imageView2/1/w/180/h/240/format/jpg/interlace/1/q/86");" is 149.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Long Statement,The length of the statement "novelBean9.setImageUrl("https://image.iqing.in/cover/fbf30538-06b1-45cf-9b17-d1b8e6cdc6a5.png?imageView2/1/w/180/h/240/format/jpg/interlace/1/q/86");" is 149.,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 10,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 2,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 10,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 3,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 12,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 4,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 15,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 5,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 14,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 6,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 12,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 7,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 12,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 8,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 12,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 9,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,loadData,Magic Number,The method contains a magic number: 12,89
+acgn-community-master,com.taozi.twodimension.modules.novel.fragment,NovelFragment,updateData,Long Parameter List,The method has 5 parameters. ,214
+acgn-community-master,com.taozi.twodimension.util,GlideModuleConfig,applyOptions,Magic Number,The method contains a magic number: 100,21
+acgn-community-master,com.taozi.twodimension.util,GlideModuleConfig,applyOptions,Magic Number,The method contains a magic number: 1024,21
+acgn-community-master,com.taozi.twodimension.util,GlideModuleConfig,applyOptions,Magic Number,The method contains a magic number: 1024,21
+acgn-community-master,com.taozi.twodimension.util,GlideModuleConfig,build,Magic Number,The method contains a magic number: 100,37
+acgn-community-master,com.taozi.twodimension.util,GlideModuleConfig,build,Magic Number,The method contains a magic number: 1024,37
+acgn-community-master,com.taozi.twodimension.util,GlideModuleConfig,build,Magic Number,The method contains a magic number: 1024,37
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,run,Magic Number,The method contains a magic number: 4000,56
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Long Statement,The length of the statement "LayoutParams linearLayoutParams=new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 122.,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 6,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 0.5f,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 0xffffffff,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 2,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 2,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 2,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 2,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 3000,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,BannerLayout,Magic Number,The method contains a magic number: 3000,71
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,startScroll,Magic Number,The method contains a magic number: 3000,96
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,startScroll,Long Parameter List,The method has 5 parameters. ,101
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,startScroll,Magic Number,The method contains a magic number: 3000,101
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,setPlaying,Complex Conditional,The conditional expression !isPlaying && playing && viewPager.getAdapter() != null && viewPager.getAdapter().getCount() > 2 is complex.,140
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,setPlaying,Magic Number,The method contains a magic number: 2,140
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,setPlaying,Magic Number,The method contains a magic number: 5000,140
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,setDatas,Long Statement,The length of the statement "LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 132.,150
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,setDatas,Magic Number,The method contains a magic number: 5000,150
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,setDatas,Magic Number,The method contains a magic number: 2,150
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,setDatas,Magic Number,The method contains a magic number: 2,150
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,dispatchTouchEvent,Magic Number,The method contains a magic number: 2,173
+acgn-community-master,com.taozi.twodimension.widget,BannerLayout,getCount,Magic Number,The method contains a magic number: 2,224
+acgn-community-master,com.taozi.twodimension.widget,BannerAdapter,getCount,Magic Number,The method contains a magic number: 2,224
+acgn-community-master,com.taozi.twodimension.widget,ExtendMaterialViewPager,onPageScrolled,Magic Number,The method contains a magic number: 0.5,32
+acgn-community-master,com.taozi.twodimension.widget,ExtendMaterialViewPager,onPageScrolled,Magic Number,The method contains a magic number: 0.5,32
+acgn-community-master,com.taozi.twodimension.widget,GradientTextView,changeText,Magic Number,The method contains a magic number: 100,35
+acgn-community-master,com.taozi.twodimension.widget,GradientTextView,changeText,Magic Number,The method contains a magic number: 0.5,35
+acgn-community-master,com.taozi.twodimension.widget,GradientTextView,onAnimationUpdate,Magic Number,The method contains a magic number: 0.5,43

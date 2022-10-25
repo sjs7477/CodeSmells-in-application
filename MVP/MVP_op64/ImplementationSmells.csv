@@ -1,0 +1,302 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+49_MVPDemo-master,com.booway.mvpdemo,TmpApplication,onCreate,Complex Conditional,The conditional expression Build.VERSION.SDK_INT < Build.VERSION_CODES.M || (permissionCheck == 0 && permissionCheck2 == 0) is complex.,104
+49_MVPDemo-master,com.booway.mvpdemo,TmpApplication,onCreate,Long Statement,The length of the statement "@Override public void onComponentChange( BaseProduct.ComponentKey componentKey` BaseComponent oldComponent` BaseComponent newComponent){" is 136.,104
+49_MVPDemo-master,com.booway.mvpdemo,TmpApplication,onCreate,Long Statement,The length of the statement "Log.d("TAG"`String.format("onComponentChange key:%s` oldComponent:%s` newComponent:%s"`componentKey`oldComponent`newComponent));" is 128.,104
+49_MVPDemo-master,com.booway.mvpdemo,TmpApplication,onCreate,Long Statement,The length of the statement "int permissionCheck=ContextCompat.checkSelfPermission(getApplicationContext()`android.Manifest.permission.WRITE_EXTERNAL_STORAGE);" is 130.,104
+49_MVPDemo-master,com.booway.mvpdemo,TmpApplication,onCreate,Long Statement,The length of the statement "int permissionCheck2=ContextCompat.checkSelfPermission(getApplicationContext()`android.Manifest.permission.READ_PHONE_STATE);" is 125.,104
+49_MVPDemo-master,com.booway.mvpdemo,TmpApplication,onComponentChange,Long Statement,The length of the statement "Log.d("TAG"`String.format("onComponentChange key:%s` oldComponent:%s` newComponent:%s"`componentKey`oldComponent`newComponent));" is 128.,159
+49_MVPDemo-master,com.booway.mvpdemo,TmpApplication,notifyStatusChange,Magic Number,The method contains a magic number: 500,195
+49_MVPDemo-master,com.booway.mvpdemo.component,LoadView,getInstance,Magic Number,The method contains a magic number: 255,42
+49_MVPDemo-master,com.booway.mvpdemo.component,LoadView,getInstance,Magic Number,The method contains a magic number: 99,42
+49_MVPDemo-master,com.booway.mvpdemo.component,LoadView,getInstance,Magic Number,The method contains a magic number: 99,42
+49_MVPDemo-master,com.booway.mvpdemo.component,LoadView,getInstance,Magic Number,The method contains a magic number: 255,42
+49_MVPDemo-master,com.booway.mvpdemo.component,LoadView,show,Magic Number,The method contains a magic number: 100,69
+49_MVPDemo-master,com.booway.mvpdemo.component,LoadView,show,Magic Number,The method contains a magic number: 100,69
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onMeasure,Magic Number,The method contains a magic number: 30f,58
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 9,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 2.f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 45f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 180f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 2.f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 45f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 180f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 2.f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 2.f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 2.f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 2.f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 2.f,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,onDraw,Magic Number,The method contains a magic number: 6,71
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,initPaint,Long Statement,The length of the statement "mProgerssRotateAnim=new RotateAnimation(0f`360f`android.view.animation.Animation.RELATIVE_TO_SELF`0.5f`android.view.animation.Animation.RELATIVE_TO_SELF`0.5f);" is 159.,87
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,initPaint,Magic Number,The method contains a magic number: 360f,87
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,initPaint,Magic Number,The method contains a magic number: 0.5f,87
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,initPaint,Magic Number,The method contains a magic number: 0.5f,87
+49_MVPDemo-master,com.booway.mvpdemo.component,LVCircular,startAnim,Magic Number,The method contains a magic number: 3500,118
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,onClick,Complex Method,Cyclomatic complexity of the method is 10,295
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,onClickLBAndExtBtn,Magic Number,The method contains a magic number: 0.5f,345
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,onClickHDMIAndAVBtn,Magic Number,The method contains a magic number: 0.5f,357
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,onClickLeftAndFpvBtn,Magic Number,The method contains a magic number: 0.8f,361
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,onClickRightAndFpvBtn,Magic Number,The method contains a magic number: 0.8f,366
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,onClickLeftAndRightBtn,Magic Number,The method contains a magic number: 0.5f,371
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,isM210TwoCameraConnected,Complex Method,Cyclomatic complexity of the method is 8,376
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,isM210TwoCameraConnected,Long Statement,The length of the statement "cameraListStr+="Camera " + i + " is "+ camera.getDisplayName()+ " is connected "+ camera.isConnected()+ " camera component index is "+ +camera.getIndex()+ "\n";" is 160.,376
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,isM210TwoCameraConnected,Long Statement,The length of the statement "return (cameraList != null && cameraList.size() == 2 && cameraList.get(0).isConnected() && cameraList.get(1).isConnected());" is 124.,376
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,isM210TwoCameraConnected,Magic Number,The method contains a magic number: 2,376
+49_MVPDemo-master,com.booway.mvpdemo.component,VideoFeederView,isMultiStreamPlatform,Long Statement,The length of the statement "return model != null && (model == Model.INSPIRE_2 || model == Model.MATRICE_200 || model == Model.MATRICE_210 || model == Model.MATRICE_210_RTK || model == Model.MATRICE_600 || model == Model.MATRICE_600_PRO || model == Model.A3 || model == Model.N3);" is 251.,417
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,isMultiStreamPlatform,Long Statement,The length of the statement "return model != null && (model == Model.INSPIRE_2 || model == Model.MATRICE_200 || model == Model.MATRICE_210 || model == Model.MATRICE_210_RTK || model == Model.MATRICE_600 || model == Model.MATRICE_600_PRO || model == Model.A3 || model == Model.N3);" is 251.,135
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,isM210TwoCameraConnected,Long Statement,The length of the statement "return (cameraList != null && cameraList.size() == 2 && cameraList.get(0).isConnected() && cameraList.get(1).isConnected());" is 124.,150
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,isM210TwoCameraConnected,Magic Number,The method contains a magic number: 2,150
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,Register,Long Statement,The length of the statement "return Flowable.create(( FlowableEmitter<DjiSdkResponse> e) -> mDJISDKManager.registerApp(context`new DJISDKManager.SDKManagerCallback(){" is 137.,212
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,Register,Long Statement,The length of the statement "@Override public void onComponentChange( BaseProduct.ComponentKey componentKey` BaseComponent oldComponent` BaseComponent newComponent){" is 136.,212
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,Register,Long Statement,The length of the statement "response.setConnectionInfo("设备连接状�?改�?�，当�?状�?：" + (isConnected == true ? "已连接" : "已断开"));" is 125.,212
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,Register,Long Statement,The length of the statement "response.setConnectionInfo(String.format("设备已切�?� key:%s` 之�?设备:%s` 当�?设备:%s"`componentKey`oldComponent`newComponent));" is 141.,212
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,onComponentChange,Long Statement,The length of the statement "response.setConnectionInfo("设备连接状�?改�?�，当�?状�?：" + (isConnected == true ? "已连接" : "已断开"));" is 125.,257
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,onComponentChange,Long Statement,The length of the statement "response.setConnectionInfo(String.format("设备已切�?� key:%s` 之�?设备:%s` 当�?设备:%s"`componentKey`oldComponent`newComponent));" is 141.,257
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,shootPhoto,Long Statement,The length of the statement "return Observable.create(e -> KeyManager.getInstance().performAction(CameraKey.create(CameraKey.START_SHOOT_PHOTO`cameraIdx)`new ActionCallback(){" is 146.,313
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,showLeftCameraVideoSource,Magic Number,The method contains a magic number: 0.8f,364
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,showRightCameraVideoSource,Magic Number,The method contains a magic number: 0.8f,374
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,setMediaDownloadMode,Long Statement,The length of the statement "if ((mediaManager.getSDCardFileListState() == MediaManager.FileListState.SYNCING) || (mediaManager.getSDCardFileListState() == MediaManager.FileListState.DELETING)) {" is 166.,384
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,initMediaManager,Long Statement,The length of the statement "if ((mMediaManager.getSDCardFileListState() == MediaManager.FileListState.SYNCING) || (mMediaManager.getSDCardFileListState() == MediaManager.FileListState.DELETING)) {" is 168.,414
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,getFocusMode,Long Statement,The length of the statement "return Observable.create(e -> getCameraInstance().getFocusMode(new CompletionCallbackWith<SettingsDefinitions.FocusMode>(){" is 123.,882
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,getOpticalFocalSpec,Long Statement,The length of the statement "e.onNext("min:" + opticalZoomSpec.getMinFocalLength() + "`"+ opticalZoomSpec.getMaxFocalLength()+ "`"+ opticalZoomSpec.getFocalLengthStep());" is 141.,995
+49_MVPDemo-master,com.booway.mvpdemo.component.djisdk,DjiSdkComponent,onSuccess,Long Statement,The length of the statement "e.onNext("min:" + opticalZoomSpec.getMinFocalLength() + "`"+ opticalZoomSpec.getMaxFocalLength()+ "`"+ opticalZoomSpec.getFocalLengthStep());" is 141.,1001
+49_MVPDemo-master,com.booway.mvpdemo.data,MVPRespositoryModule,provideDb,Long Statement,The length of the statement "return Room.databaseBuilder(context.getApplicationContext()`MVPDatabase.class`dbpath).addMigrations(MIGRATION_1_2`MIGRATION_2_3).addMigrations(MIGRATION_3_4`MIGRATION_4_5).addMigrations(MIGRATION_4_5`MIGRATION_5_6).addMigrations(MIGRATION_5_6`MIGRATION_6_7).addMigrations(MIGRATION_6_7`MIGRATION_7_8).build();" is 309.,58
+49_MVPDemo-master,com.booway.mvpdemo.data,MVPRespositoryModule,migrate,Long Statement,The length of the statement "database.execSQL("CREATE TABLE Book(" + "id TEXT PRIMARY KEY NOT NULL`" + "demo_id TEXT`"+ "name TEXT`"+ "FOREIGN KEY(demo_id)"+ "REFERENCES Demo(id));");" is 154.,120
+49_MVPDemo-master,com.booway.mvpdemo.data,MVPRespositoryModule,provideAppExecutors,Long Statement,The length of the statement "return new AppExecutors(new DiskIOThreadExecutor()`Executors.newFixedThreadPool(THREAD_COUNT)`new AppExecutors.MainThreadExecutor());" is 133.,151
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,Save,Long Statement,The length of the statement "com.booway.mvpdemo.data.entities.Demo demo=new com.booway.mvpdemo.data.entities.Demo(_idTxt.getText().toString()`_nameTxt.getText().toString()`18);" is 147.,238
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,Save,Magic Number,The method contains a magic number: 18,238
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,batchInsert,Magic Number,The method contains a magic number: 18,259
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,batchInsert,Magic Number,The method contains a magic number: 18,259
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,batchInsert,Magic Number,The method contains a magic number: 18,259
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,TestSerializeWrite,Magic Number,The method contains a magic number: 10002,295
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,TestLogin,Long Statement,The length of the statement "service.login(user).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<JsonObject>(){" is 128.,317
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,TestGetHttpMethod,Long Statement,The length of the statement "service.getDemoList().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribeWith(new Observer<List<String>>(){" is 136.,346
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,TestPostMethod,Magic Number,The method contains a magic number: 10002,374
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,TestDownloadFile,Long Statement,The length of the statement "service.download(downInfo).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).map(ResponseBody::byteStream).observeOn(Schedulers.computation()).doOnNext(( InputStream inputStream) -> {" is 193.,414
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,TestUploadFile,Long Statement,The length of the statement "ProgressRequestBody body=new ProgressRequestBody(requestFile`(current`total) -> ToastUtils.showToast("已上传：" + current + "`总共："+ total));" is 150.,484
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListFragment,TestUploadFile,Long Statement,The length of the statement "service.uploadFile(body).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<String>(){" is 129.,484
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListPresenter,getDemoList,Long Statement,The length of the statement "mCompositeDisposable.add(mDemoRespository.getDemos().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(lst -> {" is 142.,85
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListPresenter,getDemo,Long Statement,The length of the statement "mCompositeDisposable.add(mDemoRespository.getDemo(id).subscribeOn(Schedulers.computation()).observeOn(AndroidSchedulers.mainThread()).subscribe(demo -> {" is 153.,103
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListPresenter,getUnionList,Long Statement,The length of the statement "mDemoRespository.getRelationFromDemo().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(result -> {" is 131.,141
+49_MVPDemo-master,com.booway.mvpdemo.DemoList,DemoListPresenter,getRxjavaUnionList,Long Statement,The length of the statement "mCompositeDisposable.add(mDemoRespository.getInnerResult().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(result -> {" is 151.,155
+49_MVPDemo-master,com.booway.mvpdemo.dji,DjiActivity,zoomIn,Long Statement,The length of the statement "mDjiSdkComponent.setOpticalZoomMultiplier(3).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(msg -> {" is 134.,72
+49_MVPDemo-master,com.booway.mvpdemo.dji,DjiActivity,zoomIn,Magic Number,The method contains a magic number: 3,72
+49_MVPDemo-master,com.booway.mvpdemo.dji,DjiActivity,zoomOut,Long Statement,The length of the statement "mDjiSdkComponent.setFocusMode(SettingsDefinitions.FocusMode.MANUAL).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(e -> {" is 155.,112
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,DemoListService,createDemoListService,Long Statement,The length of the statement "Retrofit.Builder builder=new Retrofit.Builder().addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).baseUrl("http://192.168.31.204:9900");" is 195.,31
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,DemoListService,createDemoListPostService,Long Statement,The length of the statement "Retrofit.Builder builder=new Retrofit.Builder().addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).baseUrl("http://192.168.2.136:8080");" is 194.,56
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,DownloadFileService,createDownloadFileService,Long Statement,The length of the statement "Retrofit.Builder builder=new Retrofit.Builder().addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(new NullOnEmptyConverterFactory()).addConverterFactory(GsonConverterFactory.create()).baseUrl("http://192.168.2.136:8080");" is 249.,25
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,DownloadFileService,createDownloadFileService,Long Statement,The length of the statement "OkHttpClient client=new OkHttpClient().newBuilder().addInterceptor(downloadInterceptor).retryOnConnectionFailure(true).connectTimeout(DEFAULT_TIMEOUT`TimeUnit.SECONDS).build();" is 176.,25
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,DownloadInterceptor,intercept,Long Statement,The length of the statement "return response.newBuilder().addHeader("Authorization"`mToken).body(new DownloadResponseBody(response.body()`mProgressListener)).build();" is 137.,28
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,DownloadResponseBody,source,Magic Number,The method contains a magic number: 100,47
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,DownloadResponseBody,read,Magic Number,The method contains a magic number: 100,51
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,LoginService,createLoginService,Long Statement,The length of the statement "Retrofit.Builder builder=new Retrofit.Builder().addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(new NullOnEmptyConverterFactory()).addConverterFactory(GsonConverterFactory.create()).baseUrl("http://192.168.2.136:8080");" is 249.,32
+49_MVPDemo-master,com.booway.mvpdemo.retrofit,UploadFileService,createUploadFileService,Long Statement,The length of the statement "Retrofit.Builder builder=new Retrofit.Builder().addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(new NullOnEmptyConverterFactory()).addConverterFactory(GsonConverterFactory.create()).baseUrl("http://192.168.2.136:8080");" is 249.,25
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoActivity,onCreate,Magic Number,The method contains a magic number: 3,106
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoActivity,onCreate,Magic Number,The method contains a magic number: 2,106
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoActivity,checkAndRequestPermissions,Long Statement,The length of the statement "ActivityCompat.requestPermissions(this`missingPermission.toArray(new String[missingPermission.size()])`REQUEST_PERMISSION_CODE);" is 128.,216
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoActivity,startSDKRegistration,Long Statement,The length of the statement "Flowable.just(getApplicationContext()).flatMap(context -> mDjiSdkComponent.Register(context)).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(response -> {" is 188.,263
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,openDialog,Magic Number,The method contains a magic number: 2,122
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,openDialog,Magic Number,The method contains a magic number: 18,122
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,openDialog,Magic Number,The method contains a magic number: 18,122
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,openDialog,Magic Number,The method contains a magic number: 18,122
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,openDialog,Magic Number,The method contains a magic number: 100,122
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,openDialog,Magic Number,The method contains a magic number: 200,122
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,openDialog,Magic Number,The method contains a magic number: 300,122
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showTumbView,Long Statement,The length of the statement "mDjiSdkComponent.getMediaFileList(false).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnNext(response -> {" is 134.,212
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showTumbView,Long Statement,The length of the statement ").flatMap(response -> mDjiSdkComponent.getTheThumBitmap(response.getMediaFiles().get(response.getMediaFiles().size() - 1))).observeOn(AndroidSchedulers.mainThread()).doFinally(() -> mDjiSdkComponent.setCameraMode(CameraMode.SHOOT_PHOTO).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(response -> {" is 331.,212
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showTumbView,Magic Number,The method contains a magic number: 2000,212
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showPreview,Long Statement,The length of the statement "mDjiSdkComponent.getMediaFileList(false).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnNext(response -> {" is 134.,250
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showPreview,Long Statement,The length of the statement ").flatMap(response -> mDjiSdkComponent.getThePreviewBitmap(response.getMediaFiles().get(response.getMediaFiles().size() - 1))).observeOn(AndroidSchedulers.mainThread()).doFinally(() -> mDjiSdkComponent.setCameraMode(CameraMode.SHOOT_PHOTO).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(response -> {" is 334.,250
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showPreview,Magic Number,The method contains a magic number: 2000,250
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,shootPhoto,Long Statement,The length of the statement "mDjiSdkComponent.startShootPhoto().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(response -> {" is 129.,288
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,shootPhoto,Magic Number,The method contains a magic number: 2000,288
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showsingleSelectDialog,Long Statement,The length of the statement "AlertDialog dialog=new AlertDialog.Builder(getActivity()).setTitle("�?�选对�?框").setIcon(R.mipmap.ic_launcher).setItems(showValues`(dialog1`which) -> {" is 156.,306
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,syncRxjava,Magic Number,The method contains a magic number: 8,362
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,syncRxjava,Magic Number,The method contains a magic number: 5,362
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onNext,Magic Number,The method contains a magic number: 5,381
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,multObserver,Long Statement,The length of the statement ").subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).doOnNext(integer -> LogUtils.d(TAG`integer + "`first`" + Thread.currentThread().getName())).observeOn(Schedulers.newThread()).doOnNext(integer -> LogUtils.d(TAG`integer + "`second`" + Thread.currentThread().getName())).subscribe());" is 305.,416
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,multObserver,Magic Number,The method contains a magic number: 2,416
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,multObserver,Magic Number,The method contains a magic number: 3,416
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,multObserver,Magic Number,The method contains a magic number: 4,416
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,Rxjava_Map,Magic Number,The method contains a magic number: 2,434
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,Rxjava_floatMap,Magic Number,The method contains a magic number: 2,450
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,Rxjava_floatMap,Magic Number,The method contains a magic number: 3,450
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,apply,Magic Number,The method contains a magic number: 2,466
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,subscribe,Magic Number,The method contains a magic number: 2,469
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,accept,Magic Number,The method contains a magic number: 3,479
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,Rxjava_Zip,Long Statement,The length of the statement ").delay(5`TimeUnit.SECONDS).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<String>(){" is 132.,487
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,Rxjava_Zip,Magic Number,The method contains a magic number: 1000,487
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,Rxjava_Zip,Magic Number,The method contains a magic number: 1000,487
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,Rxjava_Zip,Magic Number,The method contains a magic number: 5,487
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onCreate,Magic Number,The method contains a magic number: 10,531
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onCreate,Magic Number,The method contains a magic number: 5,531
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,subscribe,Magic Number,The method contains a magic number: 10,584
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onNext,Magic Number,The method contains a magic number: 5,601
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showLoading,Long Statement,The length of the statement ").delay(5`TimeUnit.SECONDS).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).subscribe((obj) -> {" is 134.,826
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showLoading,Magic Number,The method contains a magic number: 5,826
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onCreateView,Long Statement,The length of the statement "mGirdView.measure(mGirdView.getMeasuredWidth()`View.MeasureSpec.makeMeasureSpec(Integer.MAX_VALUE >> 2`View.MeasureSpec.AT_MOST));" is 130.,858
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onCreateView,Magic Number,The method contains a magic number: 18,858
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onCreateView,Magic Number,The method contains a magic number: 18,858
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onCreateView,Magic Number,The method contains a magic number: 18,858
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,onCreateView,Magic Number,The method contains a magic number: 2,858
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,initData,Long Statement,The length of the statement "int icon[]={R.mipmap.ic_launcher`R.drawable.ic_add`R.mipmap.ic_launcher`R.drawable.ic_add`R.drawable.ic_add`R.drawable.ic_add`R.mipmap.ic_launcher`R.drawable.ic_add`R.mipmap.ic_launcher`R.drawable.ic_add`R.drawable.ic_add`R.mipmap.ic_launcher};" is 244.,930
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showPopupWindow,Magic Number,The method contains a magic number: 255,950
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showPopupWindow,Magic Number,The method contains a magic number: 99,950
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showPopupWindow,Magic Number,The method contains a magic number: 99,950
+49_MVPDemo-master,com.booway.mvpdemo.switchdemo,SwitchDemoFragment,showPopupWindow,Magic Number,The method contains a magic number: 255,950
+49_MVPDemo-master,com.booway.mvpdemo.utils,AlertDialogUtils,showAlertDialog,Long Parameter List,The method has 5 parameters. ,51
+49_MVPDemo-master,com.booway.mvpdemo.utils,AlertDialogUtils,showAlertDialog,Long Parameter List,The method has 7 parameters. ,68
+49_MVPDemo-master,com.booway.mvpdemo.utils,AlertDialogUtils,showAlertDialog,Long Statement,The length of the statement "builder.setTitle(title).setIcon(iconResId).setMessage(msg).setNegativeButton(negativeBtnText`negListener).setPositiveButton(positiveBtnText`posListener).show();" is 160.,68
+49_MVPDemo-master,com.booway.mvpdemo.utils,AlertDialogUtils,showAlertDialog,Long Parameter List,The method has 9 parameters. ,89
+49_MVPDemo-master,com.booway.mvpdemo.utils,AlertDialogUtils,showAlertDialog,Long Statement,The length of the statement "builder.setTitle(title).setIcon(iconResId).setMessage(msg).setNegativeButton(negativeBtnText`negListener).setPositiveButton(positiveBtnText`posListener).setNeutralButton(neutralBtnText`neuListener).show();" is 205.,89
+49_MVPDemo-master,com.booway.mvpdemo.utils,AlertDialogUtils,showMutliSelectedDialog,Long Parameter List,The method has 8 parameters. ,137
+49_MVPDemo-master,com.booway.mvpdemo.utils,AlertDialogUtils,showMutliSelectedDialog,Long Statement,The length of the statement "builder.setTitle(title).setIcon(iconResId).setNegativeButton(negativeBtnText`negListener).setPositiveButton(positiveBtnText`posListener).setMultiChoiceItems(showTexts`isCheckeds`multiChoiceListener).show();" is 206.,137
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,bitmapToByte,Magic Number,The method contains a magic number: 100,57
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertViewToBitmap,Long Statement,The length of the statement "view.measure(View.MeasureSpec.makeMeasureSpec(width`(width == UNSPECIFIED) ? View.MeasureSpec.UNSPECIFIED : View.MeasureSpec.EXACTLY)`View.MeasureSpec.makeMeasureSpec(height`(height == UNSPECIFIED) ? View.MeasureSpec.UNSPECIFIED : View.MeasureSpec.EXACTLY));" is 258.,122
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,isToByte,Magic Number,The method contains a magic number: 1024,225
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,screenshot,Empty catch clause,The method has an empty catch block.,244
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,screenshot,Magic Number,The method contains a magic number: 100,244
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createRoundedCornerBitmap,Magic Number,The method contains a magic number: 0xff424242,359
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createReflectionBitmap,Long Statement,The length of the statement "LinearGradient shader=new LinearGradient(0`bitmap.getHeight()`0`bitmapWithReflection.getHeight() + reflectionGap`0x70ffffff`0x00ffffff`Shader.TileMode.CLAMP);" is 158.,388
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createReflectionBitmap,Magic Number,The method contains a magic number: 4,388
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createReflectionBitmap,Magic Number,The method contains a magic number: 2,388
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createReflectionBitmap,Magic Number,The method contains a magic number: 2,388
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createReflectionBitmap,Magic Number,The method contains a magic number: 2,388
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createReflectionBitmap,Magic Number,The method contains a magic number: 0x70ffffff,388
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createReflectionBitmap,Magic Number,The method contains a magic number: 0x00ffffff,388
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,compressBitmap,Magic Number,The method contains a magic number: 100,429
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,compressBitmap,Magic Number,The method contains a magic number: 100,429
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,compressBitmap,Magic Number,The method contains a magic number: 1024,429
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,compressBitmap,Magic Number,The method contains a magic number: 100,429
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,compressBitmap,Magic Number,The method contains a magic number: 10,429
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 0xFF,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 24,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 0x00FF0000,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 16,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 0x0000FF00,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 8,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 0x000000FF,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 0.3,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 0.59,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 0.11,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 16,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertGreyImg,Magic Number,The method contains a magic number: 8,450
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createRoundBitmap,Magic Number,The method contains a magic number: 2,482
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createRoundBitmap,Magic Number,The method contains a magic number: 2,482
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createRoundBitmap,Magic Number,The method contains a magic number: 2,482
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createRoundBitmap,Magic Number,The method contains a magic number: 0xff424242,482
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createThumbnailBitmap,Magic Number,The method contains a magic number: 2,540
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createThumbnailBitmap,Magic Number,The method contains a magic number: 2,540
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createThumbnailBitmap,Magic Number,The method contains a magic number: 2,540
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createThumbnailBitmap,Magic Number,The method contains a magic number: 2,540
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createWatermarkBitmap,Magic Number,The method contains a magic number: 5,610
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,createWatermarkBitmap,Magic Number,The method contains a magic number: 5,610
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,compressBitmap,Magic Number,The method contains a magic number: 70,656
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,compressBitmap,Magic Number,The method contains a magic number: 1024,656
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,adjustTone,Magic Number,The method contains a magic number: 24,783
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,adjustTone,Magic Number,The method contains a magic number: 255,783
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,adjustTone,Magic Number,The method contains a magic number: 255,783
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,adjustTone,Magic Number,The method contains a magic number: 255,783
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,adjustTone,Magic Number,The method contains a magic number: 255,783
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 0xFF,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 24,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 0x00FF0000,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 16,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 0x0000FF00,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 8,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 0x000000FF,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 0.3,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 0.59,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 0.11,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 16,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,convertToBlackWhite,Magic Number,The method contains a magic number: 8,843
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,getImageDegree,Magic Number,The method contains a magic number: 90,874
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,getImageDegree,Magic Number,The method contains a magic number: 180,874
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,getImageDegree,Magic Number,The method contains a magic number: 270,874
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,saturation,Magic Number,The method contains a magic number: 127,905
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,lum,Magic Number,The method contains a magic number: 127,931
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,hue,Magic Number,The method contains a magic number: 127,957
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,hue,Magic Number,The method contains a magic number: 127,957
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,hue,Magic Number,The method contains a magic number: 180,957
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,hue,Magic Number,The method contains a magic number: 2,957
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,lumAndHueAndSaturation,Magic Number,The method contains a magic number: 127,987
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,lumAndHueAndSaturation,Magic Number,The method contains a magic number: 127,987
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,lumAndHueAndSaturation,Magic Number,The method contains a magic number: 127,987
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,lumAndHueAndSaturation,Magic Number,The method contains a magic number: 127,987
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,lumAndHueAndSaturation,Magic Number,The method contains a magic number: 180,987
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,lumAndHueAndSaturation,Magic Number,The method contains a magic number: 2,987
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.393,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.769,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.189,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.349,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.686,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.168,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.272,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.534,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 0.131,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 255,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 255,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 255,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 255,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 255,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 255,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,nostalgic,Magic Number,The method contains a magic number: 255,1031
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,soften,Magic Number,The method contains a magic number: 16,1069
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,soften,Magic Number,The method contains a magic number: 255,1069
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,soften,Magic Number,The method contains a magic number: 255,1069
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,soften,Magic Number,The method contains a magic number: 255,1069
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,soften,Magic Number,The method contains a magic number: 255,1069
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sunshine,Magic Number,The method contains a magic number: 150F,1136
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sunshine,Magic Number,The method contains a magic number: 2,1136
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sunshine,Magic Number,The method contains a magic number: 2,1136
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sunshine,Magic Number,The method contains a magic number: 255,1136
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sunshine,Magic Number,The method contains a magic number: 255,1136
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sunshine,Magic Number,The method contains a magic number: 255,1136
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sunshine,Magic Number,The method contains a magic number: 255,1136
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,film,Magic Number,The method contains a magic number: 255,1202
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sharpen,Magic Number,The method contains a magic number: 0.3F,1254
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sharpen,Magic Number,The method contains a magic number: 255,1254
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sharpen,Magic Number,The method contains a magic number: 255,1254
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sharpen,Magic Number,The method contains a magic number: 255,1254
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,sharpen,Magic Number,The method contains a magic number: 255,1254
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,emboss,Magic Number,The method contains a magic number: 127,1315
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,emboss,Magic Number,The method contains a magic number: 127,1315
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,emboss,Magic Number,The method contains a magic number: 127,1315
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,emboss,Magic Number,The method contains a magic number: 255,1315
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,emboss,Magic Number,The method contains a magic number: 255,1315
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,emboss,Magic Number,The method contains a magic number: 255,1315
+49_MVPDemo-master,com.booway.mvpdemo.utils,BitmapUtils,emboss,Magic Number,The method contains a magic number: 255,1315
+49_MVPDemo-master,com.booway.mvpdemo.utils,ClickUtils,isClick,Magic Number,The method contains a magic number: 500,12
+49_MVPDemo-master,com.booway.mvpdemo.utils,ClickUtils,isClick,Magic Number,The method contains a magic number: 500,12
+49_MVPDemo-master,com.booway.mvpdemo.utils,DisplayUtils,dip2px,Magic Number,The method contains a magic number: 0.5f,142
+49_MVPDemo-master,com.booway.mvpdemo.utils,DisplayUtils,px2dip,Magic Number,The method contains a magic number: 0.5f,171
+49_MVPDemo-master,com.booway.mvpdemo.utils,DisplayUtils,px2sp,Magic Number,The method contains a magic number: 0.5f,200
+49_MVPDemo-master,com.booway.mvpdemo.utils,DisplayUtils,sp2px,Magic Number,The method contains a magic number: 0.5f,223
+49_MVPDemo-master,com.booway.mvpdemo.utils,FileLog,log,Complex Conditional,The conditional expression 'e' == level && ('e' == MYLOG_TYPE || 'v' == MYLOG_TYPE) is complex.,83
+49_MVPDemo-master,com.booway.mvpdemo.utils,FileLog,log,Complex Conditional,The conditional expression 'w' == level && ('w' == MYLOG_TYPE || 'v' == MYLOG_TYPE) is complex.,83
+49_MVPDemo-master,com.booway.mvpdemo.utils,FileLog,log,Complex Conditional,The conditional expression 'd' == level && ('d' == MYLOG_TYPE || 'v' == MYLOG_TYPE) is complex.,83
+49_MVPDemo-master,com.booway.mvpdemo.utils,FileLog,log,Complex Conditional,The conditional expression 'i' == level && ('d' == MYLOG_TYPE || 'v' == MYLOG_TYPE) is complex.,83
+49_MVPDemo-master,com.booway.mvpdemo.utils,FileUtils,writeFile,Magic Number,The method contains a magic number: 1024,131
+49_MVPDemo-master,com.booway.mvpdemo.utils,FileUtils,deleteFile,Complex Method,Cyclomatic complexity of the method is 9,334
+49_MVPDemo-master,com.booway.mvpdemo.utils,MD5Utils,string2MD5,Magic Number,The method contains a magic number: 0xff,10
+49_MVPDemo-master,com.booway.mvpdemo.utils,MD5Utils,string2MD5,Magic Number,The method contains a magic number: 16,10
+49_MVPDemo-master,com.booway.mvpdemo.utils,ModuleVerificationUtil,isRemoteControllerAvailable,Long Statement,The length of the statement "return isProductModuleAvailable() && isAircraft() && (null != TmpApplication.getAircraftInstance().getRemoteController());" is 122.,46
+49_MVPDemo-master,com.booway.mvpdemo.utils,ModuleVerificationUtil,isFlightControllerAvailable,Long Statement,The length of the statement "return isProductModuleAvailable() && isAircraft() && (null != TmpApplication.getAircraftInstance().getFlightController());" is 122.,51
+49_MVPDemo-master,com.booway.mvpdemo.utils,ModuleVerificationUtil,isCompassAvailable,Long Statement,The length of the statement "return isFlightControllerAvailable() && isAircraft() && (null != TmpApplication.getAircraftInstance().getFlightController().getCompass());" is 138.,56
+49_MVPDemo-master,com.booway.mvpdemo.utils,StringUtils,isEmpty,Complex Conditional,The conditional expression str == null || (strLen=str.length()) == 0 || str.equalsIgnoreCase("null") is complex.,18
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,getIntervalTime,Magic Number,The method contains a magic number: 1000,313
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,getIntervalTime,Magic Number,The method contains a magic number: 3600,313
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,getIntervalTime,Magic Number,The method contains a magic number: 24,313
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,isLeapYear,Magic Number,The method contains a magic number: 4,366
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,isLeapYear,Magic Number,The method contains a magic number: 100,366
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,isLeapYear,Magic Number,The method contains a magic number: 400,366
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,getWeekOfNextDate,Magic Number,The method contains a magic number: 6,410
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,getDeskClockTime,Magic Number,The method contains a magic number: 2,429
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,getDeskClockTime,Magic Number,The method contains a magic number: 2,429
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,getCurMonth,Magic Number,The method contains a magic number: 10,446
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,getDistanceOfTwoMonth,Magic Number,The method contains a magic number: 12,471
+49_MVPDemo-master,com.booway.mvpdemo.utils,TimeUtils,compareDates,Long Parameter List,The method has 6 parameters. ,491
+49_MVPDemo-master,com.booway.mvpdemo.utils,VideoFeedView,init,Long Statement,The length of the statement "codecManager.sendDataToDecoder(videoBuffer`size`isPrimaryVideoFeed ? UsbAccessoryService.VideoStreamSource.Camera.getIndex() : UsbAccessoryService.VideoStreamSource.Fpv.getIndex());" is 181.,58
+49_MVPDemo-master,com.booway.mvpdemo.utils,VideoFeedView,onReceive,Long Statement,The length of the statement "codecManager.sendDataToDecoder(videoBuffer`size`isPrimaryVideoFeed ? UsbAccessoryService.VideoStreamSource.Camera.getIndex() : UsbAccessoryService.VideoStreamSource.Fpv.getIndex());" is 181.,67
+49_MVPDemo-master,com.booway.mvpdemo.utils,VideoFeedView,onSurfaceTextureAvailable,Long Statement,The length of the statement "codecManager=new DJICodecManager(this.getContext()`surface`width`height`isPrimaryVideoFeed ? UsbAccessoryService.VideoStreamSource.Camera : UsbAccessoryService.VideoStreamSource.Fpv);" is 183.,102
+49_MVPDemo-master,com.booway.mvpdemo.utils,VideoFeedView,adjustAspectRatio,Magic Number,The method contains a magic number: 2,158
+49_MVPDemo-master,com.booway.mvpdemo.utils,VideoFeedView,adjustAspectRatio,Magic Number,The method contains a magic number: 2,158

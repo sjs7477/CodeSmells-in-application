@@ -1,0 +1,34 @@
+C:\Users\ranja>java -jar DesigniteJava.jar -i C:\Users\ranja\Downloads\New_6_May_RA\MVP\82_Share-Food-master -o C:\Users\ranja\Downloads\New_6_May_RA\MVVM_op82
+Searching classpath folders ...
+Parsing the source code ...
+Resolving symbols...
+Computing metrics...
+Detecting code smells...
+Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+        Total LOC analyzed: 30252       Number of packages: 37
+        Number of classes: 311  Number of methods: 729
+-Total architecture smell instances detected-
+        Cyclic dependency: 0    God component: 1
+        Ambiguous interface: 0  Feature concentration: 22
+        Unstable dependency: 0  Scattered functionality: 0
+        Dense structure: 0
+-Total design smell instances detected-
+        Imperative abstraction: 0       Multifaceted abstraction: 21
+        Unnecessary abstraction: 10     Unutilized abstraction: 290
+        Feature envy: 0 Deficient encapsulation: 276
+        Unexploited encapsulation: 0    Broken modularization: 13
+        Cyclically-dependent modularization: 0  Hub-like modularization: 0
+        Insufficient modularization: 0  Broken hierarchy: 0
+        Cyclic hierarchy: 0     Deep hierarchy: 0
+        Missing hierarchy: 0    Multipath hierarchy: 0
+        Rebellious hierarchy: 0 Wide hierarchy: 0
+-Total implementation smell instances detected-
+        Abstract function call from constructor: 0      Complex conditional: 0
+        Complex method: 1       Empty catch clause: 0
+        Long identifier: 0      Long method: 1
+        Long parameter list: 14 Long statement: 48
+        Magic number: 131       Missing default: 0
+----
+Done.

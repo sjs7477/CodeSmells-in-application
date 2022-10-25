@@ -1,0 +1,551 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+20_PRONET-master,control,AdminAuthenticationFilter,doFilter,Complex Conditional,The conditional expression session == null || session.getAttribute("ProfID") == null || session.getAttribute("isAdmin") == null is complex.,26
+20_PRONET-master,control,AdminServlet,doGet,Complex Method,Cyclomatic complexity of the method is 10,30
+20_PRONET-master,control,AJAXServlet,doPost,Complex Conditional,The conditional expression decision == null || askerIDstr == null || receiverIDstr == null is complex.,49
+20_PRONET-master,control,AJAXServlet,doPost,Complex Conditional,The conditional expression text == null || sentByProfStr == null || sentToProfStr == null is complex.,49
+20_PRONET-master,control,AJAXServlet,doPost,Complex Conditional,The conditional expression latestGot == null || homeprof == null || awayprof == null is complex.,49
+20_PRONET-master,control,AJAXServlet,doPost,Complex Conditional,The conditional expression commentText == null || articleIDstr == null || authorIDstr == null is complex.,49
+20_PRONET-master,control,AJAXServlet,doPost,Complex Conditional,The conditional expression type == null || commentORapplicationIDstr == null || interestBystr == null || articleIdstr == null is complex.,49
+20_PRONET-master,control,AJAXServlet,doPost,Complex Method,Cyclomatic complexity of the method is 49,49
+20_PRONET-master,control,AJAXServlet,doPost,Long Method,The method has 332 lines of code.,49
+20_PRONET-master,control,AJAXServlet,doPost,Magic Number,The method contains a magic number: 255,49
+20_PRONET-master,control,AJAXServlet,doPost,Magic Number,The method contains a magic number: 65530,49
+20_PRONET-master,control,AJAXServlet,doPost,Magic Number,The method contains a magic number: 16777210,49
+20_PRONET-master,control,AJAXServlet,doPost,Magic Number,The method contains a magic number: 2,49
+20_PRONET-master,control,AJAXServlet,doPost,Magic Number,The method contains a magic number: 1000000,49
+20_PRONET-master,control,AJAXServlet,doPost,Magic Number,The method contains a magic number: 65530,49
+20_PRONET-master,control,AJAXServlet,doPost,Missing default,The following switch statement is missing a default case: switch (action) {,49
+20_PRONET-master,control,AJAXServlet,doPost,Missing default,The following switch statement is missing a default case: switch (fileVerdict) {,49
+20_PRONET-master,control,AJAXServlet,checkFilePartAcceptable,Complex Conditional,The conditional expression !contentType.substring(0`j).equals("image") && !contentType.substring(0`j).equals("video") && !contentType.substring(0`j).equals("audio") is complex.,349
+20_PRONET-master,control,AJAXServlet,checkFilePartAcceptable,Long Statement,The length of the statement "if (!contentType.substring(0`j).equals("image") && !contentType.substring(0`j).equals("video") && !contentType.substring(0`j).equals("audio")) {" is 144.,349
+20_PRONET-master,control,AJAXServlet,checkFilePartAcceptable,Magic Number,The method contains a magic number: 2,349
+20_PRONET-master,control,ChangeServlet,doGet,Complex Conditional,The conditional expression password == null || password.isEmpty() || newEmail == null || newEmail.isEmpty() is complex.,43
+20_PRONET-master,control,ChangeServlet,doGet,Complex Conditional,The conditional expression currentPassword == null || currentPassword.isEmpty() || newPassword == null || newPassword.isEmpty() || reNewPassword == null || reNewPassword.isEmpty() is complex.,43
+20_PRONET-master,control,ChangeServlet,doGet,Complex Conditional,The conditional expression !SiteFunctionality.checkInputText(tempProf.getEmploymentStatus()`true`255) || !SiteFunctionality.checkInputText(tempProf.getEmploymentInstitution()`true`255) || !SiteFunctionality.checkInputText(tempProf.getDescription()`false`1024)|| !SiteFunctionality.checkInputNumber(tempProf.getPhone()`32`false)|| !SiteFunctionality.checkInputText(tempProf.getProfessionalExperience()`false`0)|| !SiteFunctionality.checkInputText(tempProf.getEducationBackground()`false`0)|| !SiteFunctionality.checkInputText(tempProf.getSkills()`false`0) is complex.,43
+20_PRONET-master,control,ChangeServlet,doGet,Complex Method,Cyclomatic complexity of the method is 32,43
+20_PRONET-master,control,ChangeServlet,doGet,Long Method,The method has 214 lines of code.,43
+20_PRONET-master,control,ChangeServlet,doGet,Long Statement,The length of the statement "if (currentPassword == null || currentPassword.isEmpty() || newPassword == null || newPassword.isEmpty() || reNewPassword == null || reNewPassword.isEmpty()) {" is 159.,43
+20_PRONET-master,control,ChangeServlet,doGet,Long Statement,The length of the statement "if (!SiteFunctionality.checkInputText(tempProf.getEmploymentStatus()`true`255) || !SiteFunctionality.checkInputText(tempProf.getEmploymentInstitution()`true`255) || !SiteFunctionality.checkInputText(tempProf.getDescription()`false`1024)|| !SiteFunctionality.checkInputNumber(tempProf.getPhone()`32`false)|| !SiteFunctionality.checkInputText(tempProf.getProfessionalExperience()`false`0)|| !SiteFunctionality.checkInputText(tempProf.getEducationBackground()`false`0)|| !SiteFunctionality.checkInputText(tempProf.getSkills()`false`0)) {" is 534.,43
+20_PRONET-master,control,ChangeServlet,doGet,Long Statement,The length of the statement "System.out.println("Form to change profile submitted but one or more fields have illegal (or too big) input characters.");" is 122.,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 2,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 3,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 32,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 503,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 2,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 255,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 255,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 1024,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 32,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 503,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 503,43
+20_PRONET-master,control,ChangeServlet,doGet,Magic Number,The method contains a magic number: 2,43
+20_PRONET-master,control,ChangeServlet,doGet,Missing default,The following switch statement is missing a default case: switch (attr) {,43
+20_PRONET-master,control,ChangeServlet,doGet,Missing default,The following switch statement is missing a default case: switch (result) {,43
+20_PRONET-master,control,ChangeServlet,doGet,Missing default,The following switch statement is missing a default case: switch (result) {,43
+20_PRONET-master,control,ChangeServlet,doGet,Missing default,The following switch statement is missing a default case: switch (result) {,43
+20_PRONET-master,control,ChangeServlet,doGet,Missing default,The following switch statement is missing a default case: switch (result) {,43
+20_PRONET-master,control,ConnectionServlet,doGet,Complex Conditional,The conditional expression action == null || profIDstr == null || request.getSession(false) == null || request.getSession(false).getAttribute("ProfID") == null is complex.,22
+20_PRONET-master,control,ConnectionServlet,doGet,Complex Method,Cyclomatic complexity of the method is 9,22
+20_PRONET-master,control,ConnectionServlet,doGet,Long Statement,The length of the statement "if (action == null || profIDstr == null || request.getSession(false) == null || request.getSession(false).getAttribute("ProfID") == null) {" is 139.,22
+20_PRONET-master,control,ConnectionServlet,doGet,Missing default,The following switch statement is missing a default case: switch (action) {,22
+20_PRONET-master,control,ConnectionServlet,doGet,Missing default,The following switch statement is missing a default case: switch (result) {,22
+20_PRONET-master,control,EditArticleServlet,doGet,Complex Conditional,The conditional expression articleIDstr == null || request.getSession(false) == null || request.getSession(false).getAttribute("ProfID") == null is complex.,22
+20_PRONET-master,control,EditArticleServlet,doGet,Complex Method,Cyclomatic complexity of the method is 9,22
+20_PRONET-master,control,EditArticleServlet,doGet,Long Statement,The length of the statement "if (articleIDstr == null || request.getSession(false) == null || request.getSession(false).getAttribute("ProfID") == null) {" is 124.,22
+20_PRONET-master,control,EditArticleServlet,doGet,Magic Number,The method contains a magic number: 2,22
+20_PRONET-master,control,EditArticleServlet,doGet,Magic Number,The method contains a magic number: 503,22
+20_PRONET-master,control,EditArticleServlet,doGet,Magic Number,The method contains a magic number: 2,22
+20_PRONET-master,control,EditArticleServlet,doGet,Magic Number,The method contains a magic number: 3,22
+20_PRONET-master,control,EditArticleServlet,doGet,Magic Number,The method contains a magic number: 4,22
+20_PRONET-master,control,EditArticleServlet,doGet,Missing default,The following switch statement is missing a default case: switch (result) {,22
+20_PRONET-master,control,FileServlet,doGet,Complex Method,Cyclomatic complexity of the method is 8,31
+20_PRONET-master,control,FileServlet,doGet,Missing default,The following switch statement is missing a default case: switch (type) {,31
+20_PRONET-master,control,FileServlet,serveErrorFile,Magic Number,The method contains a magic number: 1024,77
+20_PRONET-master,control,FileServlet,serveFile,Magic Number,The method contains a magic number: 1024,125
+20_PRONET-master,control,NavigationServlet,doGet,Complex Conditional,The conditional expression attr != null && (attr.equals("email") || attr.equals("password") || attr.equals("deleteAccount")) is complex.,26
+20_PRONET-master,control,NavigationServlet,doGet,Complex Method,Cyclomatic complexity of the method is 18,26
+20_PRONET-master,control,ProfAuthenticationFilter,doFilter,Complex Conditional,The conditional expression session == null || session.getAttribute("ProfID") == null || session.getAttribute("isAdmin") == null is complex.,26
+20_PRONET-master,control,WelcomeServlet,doPost,Complex Conditional,The conditional expression email.isEmpty() || password.isEmpty() || re_password.isEmpty()|| firstName.isEmpty()|| lastName.isEmpty()|| phone.isEmpty() is complex.,51
+20_PRONET-master,control,WelcomeServlet,doPost,Complex Conditional,The conditional expression !SiteFunctionality.checkInputText(email`true`255) || !SiteFunctionality.checkInputText(password`true`32) || !SiteFunctionality.checkInputText(re_password`true`32)|| !SiteFunctionality.checkInputText(firstName`true`45)|| !SiteFunctionality.checkInputText(lastName`true`45)|| !SiteFunctionality.checkInputNumber(phone`32`false) is complex.,51
+20_PRONET-master,control,WelcomeServlet,doPost,Complex Method,Cyclomatic complexity of the method is 21,51
+20_PRONET-master,control,WelcomeServlet,doPost,Long Method,The method has 145 lines of code.,51
+20_PRONET-master,control,WelcomeServlet,doPost,Long Statement,The length of the statement "if (email.isEmpty() || password.isEmpty() || re_password.isEmpty()|| firstName.isEmpty()|| lastName.isEmpty()|| phone.isEmpty()) {" is 130.,51
+20_PRONET-master,control,WelcomeServlet,doPost,Long Statement,The length of the statement "else if (!SiteFunctionality.checkInputText(email`true`255) || !SiteFunctionality.checkInputText(password`true`32) || !SiteFunctionality.checkInputText(re_password`true`32)|| !SiteFunctionality.checkInputText(firstName`true`45)|| !SiteFunctionality.checkInputText(lastName`true`45)|| !SiteFunctionality.checkInputNumber(phone`32`false)) {" is 337.,51
+20_PRONET-master,control,WelcomeServlet,doPost,Long Statement,The length of the statement "String projectURL=PropertiesManager.getProperty("protocol") + "://" + PropertiesManager.getProperty("hostname")+ ':'+ PropertiesManager.getProperty("port")+ "/TEDProject";" is 171.,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 255,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 32,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 32,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 45,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 45,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 32,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 999999,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 2,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 3,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 2,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 3,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 4,51
+20_PRONET-master,control,WelcomeServlet,doPost,Magic Number,The method contains a magic number: 5,51
+20_PRONET-master,control,WelcomeServlet,doPost,Missing default,The following switch statement is missing a default case: switch (result) {,51
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Complex Conditional,The conditional expression action == null || (workdAdIDstr == null && !action.equals("create")) || request.getSession(false) == null || request.getSession(false).getAttribute("ProfID") == null is complex.,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Complex Method,Cyclomatic complexity of the method is 23,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Long Method,The method has 113 lines of code.,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Long Statement,The length of the statement "if (action == null || (workdAdIDstr == null && !action.equals("create")) || request.getSession(false) == null || request.getSession(false).getAttribute("ProfID") == null) {" is 172.,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 2,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 127,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 3,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 2,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 2,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 503,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 2,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 3,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Magic Number,The method contains a magic number: 4,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Missing default,The following switch statement is missing a default case: switch (action) {,22
+20_PRONET-master,control,WorkAdManagementServlet,doGet,Missing default,The following switch statement is missing a default case: switch (result) {,22
+20_PRONET-master,model,DataBaseBridge,registerNewProfessional,Long Parameter List,The method has 6 parameters. ,63
+20_PRONET-master,model,DataBaseBridge,registerNewProfessional,Long Statement,The length of the statement "String registerInsert="INSERT INTO Professionals (idProfessional` email` password` firstName` lastName` phoneNumber` profilePictureURI` employmentStatus` employmentInstitution`professionalExperience` educationBackground` skills` professionalExperienceVisibility` educationBackgroundVisibility` skillsVisibility` registrationDate) " + " VALUES (default` ?` ?` ?` ?` ?` ?` NULL` NULL` NULL` NULL` NULL` default` default` default` ?); ";" is 434.,63
+20_PRONET-master,model,DataBaseBridge,registerNewProfessional,Magic Number,The method contains a magic number: 2,63
+20_PRONET-master,model,DataBaseBridge,registerNewProfessional,Magic Number,The method contains a magic number: 3,63
+20_PRONET-master,model,DataBaseBridge,registerNewProfessional,Magic Number,The method contains a magic number: 4,63
+20_PRONET-master,model,DataBaseBridge,registerNewProfessional,Magic Number,The method contains a magic number: 5,63
+20_PRONET-master,model,DataBaseBridge,registerNewProfessional,Magic Number,The method contains a magic number: 6,63
+20_PRONET-master,model,DataBaseBridge,registerNewProfessional,Magic Number,The method contains a magic number: 7,63
+20_PRONET-master,model,DataBaseBridge,recoverProfessionalRecord,Long Statement,The length of the statement "String Query="SELECT idProfessional` email` password` firstName` lastName` phoneNumber` profilePictureURI FROM Professionals WHERE email = ?;";" is 143.,84
+20_PRONET-master,model,DataBaseBridge,getNumberOfRegisteredProfessionals,Magic Number,The method contains a magic number: 3,197
+20_PRONET-master,model,DataBaseBridge,getNumberOfRegisteredProfessionals,Magic Number,The method contains a magic number: 2,197
+20_PRONET-master,model,DataBaseBridge,getBasicProfessionalInfo,Long Statement,The length of the statement "String Query="SELECT idProfessional` firstName` lastName` profilePictureURI FROM Professionals WHERE idProfessional = ?;";" is 122.,248
+20_PRONET-master,model,DataBaseBridge,getConnectedProfessionalsFor,Long Statement,The length of the statement "String Query="SELECT p.idProfessional` p.firstName` p.lastName` p.profilePictureURI` p.employmentStatus` p.employmentInstitution " + "FROM Professionals p` ConnectedProfessionals cp " + "WHERE ( p.idProfessional = cp.idProfessional1 and cp.idProfessional2 = ?) "+ "or ( p.idProfessional = cp.idProfessional2 and cp.idProfessional1 = ?);";" is 338.,273
+20_PRONET-master,model,DataBaseBridge,getConnectedProfessionalsFor,Magic Number,The method contains a magic number: 2,273
+20_PRONET-master,model,DataBaseBridge,getConnectionRequestsFor,Long Statement,The length of the statement "String Query="SELECT p.idProfessional` p.firstName` p.lastName` p.profilePictureURI` p.employmentStatus` p.employmentInstitution " + "FROM Professionals p` ConnectionRequests cr " + "WHERE p.idProfessional = cr.idAsker and cr.idReceiver = ?;";" is 243.,304
+20_PRONET-master,model,DataBaseBridge,updateProfessionalEmail,Magic Number,The method contains a magic number: 2,353
+20_PRONET-master,model,DataBaseBridge,updateProfessionalPassword,Magic Number,The method contains a magic number: 2,368
+20_PRONET-master,model,DataBaseBridge,getSearchResultsFor,Long Statement,The length of the statement "String Query="SELECT idProfessional` firstName` lastName` profilePictureURI` employmentStatus` employmentInstitution " + "FROM Professionals " + "WHERE (firstName LIKE ?) or (lastName LIKE ?);";" is 194.,383
+20_PRONET-master,model,DataBaseBridge,getSearchResultsFor,Magic Number,The method contains a magic number: 2,383
+20_PRONET-master,model,DataBaseBridge,removeConnectionRequest,Magic Number,The method contains a magic number: 2,415
+20_PRONET-master,model,DataBaseBridge,addConnectedProfessionals,Long Statement,The length of the statement "String insertString="INSERT INTO ConnectedProfessionals (idProfessional1` idProfessional2` connectionDate) VALUES (?` ?` ?)";" is 125.,430
+20_PRONET-master,model,DataBaseBridge,addConnectedProfessionals,Magic Number,The method contains a magic number: 2,430
+20_PRONET-master,model,DataBaseBridge,addConnectedProfessionals,Magic Number,The method contains a magic number: 3,430
+20_PRONET-master,model,DataBaseBridge,areProfessionalsConnected,Long Statement,The length of the statement "String Query="SELECT * FROM ConnectedProfessionals WHERE (idProfessional1 = ? AND idProfessional2 = ?) " + "OR (idProfessional1 = ? AND idProfessional2 = ?);";" is 159.,449
+20_PRONET-master,model,DataBaseBridge,areProfessionalsConnected,Magic Number,The method contains a magic number: 2,449
+20_PRONET-master,model,DataBaseBridge,areProfessionalsConnected,Magic Number,The method contains a magic number: 3,449
+20_PRONET-master,model,DataBaseBridge,areProfessionalsConnected,Magic Number,The method contains a magic number: 4,449
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Long Statement,The length of the statement "String updateString="UPDATE Professionals SET phoneNumber = ?` employmentStatus = ?` employmentInstitution = ?` description = ?` " + "professionalExperience = ?` educationBackground = ?` skills = ?` professionalExperienceVisibility = ?` " + "educationBackgroundVisibility = ?` skillsVisibility = ?` profilePictureURI = ? WHERE idProfessional = ?;";" is 348.,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 2,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 3,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 4,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 5,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 6,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 7,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 8,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 9,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 10,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 11,469
+20_PRONET-master,model,DataBaseBridge,updateProfessionalProfile,Magic Number,The method contains a magic number: 12,469
+20_PRONET-master,model,DataBaseBridge,createConnectionRequest,Magic Number,The method contains a magic number: 2,496
+20_PRONET-master,model,DataBaseBridge,createConnectionRequest,Magic Number,The method contains a magic number: 3,496
+20_PRONET-master,model,DataBaseBridge,isThereAConnectionRequestBetween,Long Statement,The length of the statement "String Query="SELECT * FROM ConnectionRequests WHERE (idAsker = ? AND idReceiver = ?) OR (idAsker = ? AND idReceiver = ?)";" is 123.,515
+20_PRONET-master,model,DataBaseBridge,isThereAConnectionRequestBetween,Magic Number,The method contains a magic number: 2,515
+20_PRONET-master,model,DataBaseBridge,isThereAConnectionRequestBetween,Magic Number,The method contains a magic number: 3,515
+20_PRONET-master,model,DataBaseBridge,isThereAConnectionRequestBetween,Magic Number,The method contains a magic number: 4,515
+20_PRONET-master,model,DataBaseBridge,deleteConnection,Long Statement,The length of the statement "String deleteString="DELETE FROM ConnectedProfessionals WHERE (idProfessional1 = ? AND idProfessional2 = ?) " + "OR (idProfessional1 = ? AND idProfessional2 = ?);";" is 164.,532
+20_PRONET-master,model,DataBaseBridge,deleteConnection,Magic Number,The method contains a magic number: 2,532
+20_PRONET-master,model,DataBaseBridge,deleteConnection,Magic Number,The method contains a magic number: 3,532
+20_PRONET-master,model,DataBaseBridge,deleteConnection,Magic Number,The method contains a magic number: 4,532
+20_PRONET-master,model,DataBaseBridge,pendingConnectionRequest,Magic Number,The method contains a magic number: 2,550
+20_PRONET-master,model,DataBaseBridge,getConnectionRequestDate,Magic Number,The method contains a magic number: 2,565
+20_PRONET-master,model,DataBaseBridge,getConnectionDate,Long Statement,The length of the statement "String Query="SELECT connectionDate FROM ConnectedProfessionals WHERE (idProfessional1 = ? AND idProfessional2 = ?) " + "OR (idProfessional1 = ? AND idProfessional2 = ?)";" is 171.,584
+20_PRONET-master,model,DataBaseBridge,getConnectionDate,Magic Number,The method contains a magic number: 2,584
+20_PRONET-master,model,DataBaseBridge,getConnectionDate,Magic Number,The method contains a magic number: 3,584
+20_PRONET-master,model,DataBaseBridge,getConnectionDate,Magic Number,The method contains a magic number: 4,584
+20_PRONET-master,model,DataBaseBridge,getProfsMessagingWith,Long Statement,The length of the statement "String Query="SELECT p.idProfessional` p.firstName` p.lastName` p.profilePictureURI " + "FROM Professionals p` Conversations c " + "WHERE (p.idProfessional = c.idProfessional1 AND c.idProfessional2 = ?) OR "+ "(p.idProfessional = c.idProfessional2 AND c.idProfessional1 = ?) "+ "ORDER BY c.lastMessageSent DESC;";" is 313.,606
+20_PRONET-master,model,DataBaseBridge,getProfsMessagingWith,Magic Number,The method contains a magic number: 2,606
+20_PRONET-master,model,DataBaseBridge,getWorkAdsIDs,Complex Conditional,The conditional expression !connected || mode < 0 || mode > 1 is complex.,655
+20_PRONET-master,model,DataBaseBridge,getWorkAdsIDs,Long Statement,The length of the statement "Query="SELECT a.idAd FROM Ads a` ConnectedProfessionals cp " + "WHERE a.idPublishedBy != ? AND " + "((cp.idProfessional1 = a.idPublishedBy AND cp.idProfessional2 = ?) OR "+ "(cp.idProfessional1 = ? AND cp.idProfessional2 = a.idPublishedBy)) AND "+ "a.idAD NOT IN (SELECT ap.idAd FROM Applications ap WHERE ap.idApplicant = ?) "+ "ORDER BY postedDate DESC "+ "LIMIT ?;";" is 369.,655
+20_PRONET-master,model,DataBaseBridge,getWorkAdsIDs,Long Statement,The length of the statement "Query="SELECT idAd FROM Ads WHERE idPublishedBy != ? AND idAd NOT IN " + "(SELECT a.idAd FROM Ads a` ConnectedProfessionals cp WHERE " + "((cp.idProfessional1 = a.idPublishedBy AND cp.idProfessional2 = ?) OR "+ "(cp.idProfessional1 = ? AND cp.idProfessional2 = a.idPublishedBy))) AND "+ "idAD NOT IN (SELECT ap.idAd FROM Applications ap WHERE ap.idApplicant = ?) "+ "ORDER BY postedDate DESC "+ "LIMIT ?;";" is 406.,655
+20_PRONET-master,model,DataBaseBridge,getWorkAdsIDs,Magic Number,The method contains a magic number: 2,655
+20_PRONET-master,model,DataBaseBridge,getWorkAdsIDs,Magic Number,The method contains a magic number: 3,655
+20_PRONET-master,model,DataBaseBridge,getWorkAdsIDs,Magic Number,The method contains a magic number: 4,655
+20_PRONET-master,model,DataBaseBridge,getWorkAdsIDs,Magic Number,The method contains a magic number: 5,655
+20_PRONET-master,model,DataBaseBridge,getNumberOfWorkAdsAppliedToBy,Long Statement,The length of the statement "String Query="SELECT COUNT(*) AS 'count' FROM Ads WHERE idAd IN " + "(SELECT idAd FROM Applications WHERE idApplicant = ?);";" is 125.,727
+20_PRONET-master,model,DataBaseBridge,getNumberOfWorkAdsAppliedToBy,Magic Number,The method contains a magic number: 3,727
+20_PRONET-master,model,DataBaseBridge,getNumberOfWorkAdsAppliedToBy,Magic Number,The method contains a magic number: 2,727
+20_PRONET-master,model,DataBaseBridge,createWorkAd,Long Statement,The length of the statement "String insertString="INSERT INTO Ads (idAd` idPublishedBy` title` postedDate` description) VALUES (default` ?` ?` ?` ?)";" is 121.,815
+20_PRONET-master,model,DataBaseBridge,createWorkAd,Magic Number,The method contains a magic number: 2,815
+20_PRONET-master,model,DataBaseBridge,createWorkAd,Magic Number,The method contains a magic number: 3,815
+20_PRONET-master,model,DataBaseBridge,createWorkAd,Magic Number,The method contains a magic number: 4,815
+20_PRONET-master,model,DataBaseBridge,createWorkAd,Magic Number,The method contains a magic number: 3,815
+20_PRONET-master,model,DataBaseBridge,createWorkAd,Magic Number,The method contains a magic number: 2,815
+20_PRONET-master,model,DataBaseBridge,updateWorkAd,Magic Number,The method contains a magic number: 2,837
+20_PRONET-master,model,DataBaseBridge,updateWorkAd,Magic Number,The method contains a magic number: 3,837
+20_PRONET-master,model,DataBaseBridge,createApplication,Long Statement,The length of the statement "String insertString="INSERT INTO Applications (idApplication` idAd` idApplicant` applyDate` note) VALUES (default` ?` ?` ?` ?)";" is 128.,867
+20_PRONET-master,model,DataBaseBridge,createApplication,Magic Number,The method contains a magic number: 2,867
+20_PRONET-master,model,DataBaseBridge,createApplication,Magic Number,The method contains a magic number: 3,867
+20_PRONET-master,model,DataBaseBridge,createApplication,Magic Number,The method contains a magic number: 4,867
+20_PRONET-master,model,DataBaseBridge,getMessagesForConvo,Long Statement,The length of the statement "String Query="SELECT text` timeSent` idSentByProf " + "FROM Messages " + "WHERE (idProfessional1 = ? AND idProfessional2 = ?) OR "+ "(idProfessional1 = ? AND idProfessional2 = ?) "+ "ORDER BY timeSent;";" is 203.,884
+20_PRONET-master,model,DataBaseBridge,getMessagesForConvo,Magic Number,The method contains a magic number: 2,884
+20_PRONET-master,model,DataBaseBridge,getMessagesForConvo,Magic Number,The method contains a magic number: 3,884
+20_PRONET-master,model,DataBaseBridge,getMessagesForConvo,Magic Number,The method contains a magic number: 4,884
+20_PRONET-master,model,DataBaseBridge,getNewAwayMessagesAfter,Long Statement,The length of the statement "String Query="SELECT text` timeSent " + "FROM Messages " + "WHERE ((idProfessional1 = ? AND idProfessional2 = ?) OR (idProfessional1 = ? AND idProfessional2 = ?)) "+ "AND idSentByProf = ? " + ((latestGot != null) ? "AND timeSent > ? " : "") + "ORDER BY timeSent;";" is 264.,914
+20_PRONET-master,model,DataBaseBridge,getNewAwayMessagesAfter,Magic Number,The method contains a magic number: 2,914
+20_PRONET-master,model,DataBaseBridge,getNewAwayMessagesAfter,Magic Number,The method contains a magic number: 3,914
+20_PRONET-master,model,DataBaseBridge,getNewAwayMessagesAfter,Magic Number,The method contains a magic number: 4,914
+20_PRONET-master,model,DataBaseBridge,getNewAwayMessagesAfter,Magic Number,The method contains a magic number: 5,914
+20_PRONET-master,model,DataBaseBridge,getNewAwayMessagesAfter,Magic Number,The method contains a magic number: 6,914
+20_PRONET-master,model,DataBaseBridge,existsConversationBetween,Magic Number,The method contains a magic number: 2,947
+20_PRONET-master,model,DataBaseBridge,existsConversationBetween,Magic Number,The method contains a magic number: 2,947
+20_PRONET-master,model,DataBaseBridge,existsConversationBetween,Magic Number,The method contains a magic number: 2,947
+20_PRONET-master,model,DataBaseBridge,existsConversationBetween,Magic Number,The method contains a magic number: 2,947
+20_PRONET-master,model,DataBaseBridge,createConversationInOrder,Long Statement,The length of the statement "String Insert="INSERT INTO Conversations (`idProfessional1`` `idProfessional2`` `lastMessageSent`) " + "VALUES (?` ?` ?);";" is 123.,974
+20_PRONET-master,model,DataBaseBridge,createConversationInOrder,Magic Number,The method contains a magic number: 2,974
+20_PRONET-master,model,DataBaseBridge,createConversationInOrder,Magic Number,The method contains a magic number: 3,974
+20_PRONET-master,model,DataBaseBridge,addMessageToConversationInOrder,Long Statement,The length of the statement "String Insert="INSERT INTO Messages (`idMessage`` `idProfessional1`` `idProfessional2`` `idSentByProf`` `text`` `timeSent`) " + "VALUES (default` ?` ?` ?` ?` ?);";" is 163.,991
+20_PRONET-master,model,DataBaseBridge,addMessageToConversationInOrder,Magic Number,The method contains a magic number: 2,991
+20_PRONET-master,model,DataBaseBridge,addMessageToConversationInOrder,Magic Number,The method contains a magic number: 3,991
+20_PRONET-master,model,DataBaseBridge,addMessageToConversationInOrder,Magic Number,The method contains a magic number: 4,991
+20_PRONET-master,model,DataBaseBridge,addMessageToConversationInOrder,Magic Number,The method contains a magic number: 5,991
+20_PRONET-master,model,DataBaseBridge,updateLastSentToConversation,Long Statement,The length of the statement "String Update="UPDATE Conversations SET lastMessageSent = ? " + "WHERE (idProfessional1 = ? and idProfessional2 = ?) OR (idProfessional1 = ? and idProfessional2 = ?);";" is 168.,1010
+20_PRONET-master,model,DataBaseBridge,updateLastSentToConversation,Magic Number,The method contains a magic number: 2,1010
+20_PRONET-master,model,DataBaseBridge,updateLastSentToConversation,Magic Number,The method contains a magic number: 3,1010
+20_PRONET-master,model,DataBaseBridge,updateLastSentToConversation,Magic Number,The method contains a magic number: 4,1010
+20_PRONET-master,model,DataBaseBridge,updateLastSentToConversation,Magic Number,The method contains a magic number: 5,1010
+20_PRONET-master,model,DataBaseBridge,pendingWorkAdApplication,Magic Number,The method contains a magic number: 2,1029
+20_PRONET-master,model,DataBaseBridge,deleteApplication,Magic Number,The method contains a magic number: 2,1044
+20_PRONET-master,model,DataBaseBridge,addArticle,Long Statement,The length of the statement "String Insert="INSERT INTO Articles (`idArticle`` `idAuthor`` `postedDate`` `content`` `containsFiles`) " + "VALUES (default` ?` ?` ?` ?);";" is 140.,1240
+20_PRONET-master,model,DataBaseBridge,addArticle,Magic Number,The method contains a magic number: 2,1240
+20_PRONET-master,model,DataBaseBridge,addArticle,Magic Number,The method contains a magic number: 3,1240
+20_PRONET-master,model,DataBaseBridge,addArticle,Magic Number,The method contains a magic number: 4,1240
+20_PRONET-master,model,DataBaseBridge,addArticle,Magic Number,The method contains a magic number: 3,1240
+20_PRONET-master,model,DataBaseBridge,addArticle,Magic Number,The method contains a magic number: 2,1240
+20_PRONET-master,model,DataBaseBridge,addArticleFile,Magic Number,The method contains a magic number: 2,1263
+20_PRONET-master,model,DataBaseBridge,updateArticle,Magic Number,The method contains a magic number: 2,1279
+20_PRONET-master,model,DataBaseBridge,updateArticle,Magic Number,The method contains a magic number: 3,1279
+20_PRONET-master,model,DataBaseBridge,getWallArticlesIDsFor,Long Statement,The length of the statement "String Query="SELECT a.idArticle FROM Articles a WHERE a.idAuthor = ? OR " + "a.idAuthor IN (SELECT c.idProfessional1 FROM ConnectedProfessionals c WHERE c.idProfessional2 = ?) OR a.idAuthor IN (SELECT c.idProfessional2 FROM ConnectedProfessionals c WHERE c.idProfessional1 = ?) OR " + "EXISTS (SELECT * FROM ArticleInterests ai` ConnectedProfessionals cp "+ "WHERE a.idArticle = ai.idArticle AND "+ "(( ai.idInterestShownBy = cp.idProfessional1 AND cp.idProfessional2 = ? ) OR ( ai.idInterestShownBy = cp.idProfessional2 AND cp.idProfessional1 = ? ))) "+ "ORDER BY a.postedDate DESC "+ "LIMIT ?;";" is 598.,1331
+20_PRONET-master,model,DataBaseBridge,getWallArticlesIDsFor,Magic Number,The method contains a magic number: 2,1331
+20_PRONET-master,model,DataBaseBridge,getWallArticlesIDsFor,Magic Number,The method contains a magic number: 3,1331
+20_PRONET-master,model,DataBaseBridge,getWallArticlesIDsFor,Magic Number,The method contains a magic number: 4,1331
+20_PRONET-master,model,DataBaseBridge,getWallArticlesIDsFor,Magic Number,The method contains a magic number: 5,1331
+20_PRONET-master,model,DataBaseBridge,getWallArticlesIDsFor,Magic Number,The method contains a magic number: 6,1331
+20_PRONET-master,model,DataBaseBridge,getArticlesInvolvingProfID,Long Statement,The length of the statement "String Query="SELECT a.idArticle FROM Articles a " + "WHERE a.idAuthor = ? OR " + "EXISTS (SELECT * FROM ArticleInterests ai "+ "WHERE a.idArticle = ai.idArticle AND ai.idInterestShownBy = ?);";" is 194.,1366
+20_PRONET-master,model,DataBaseBridge,getArticlesInvolvingProfID,Magic Number,The method contains a magic number: 2,1366
+20_PRONET-master,model,DataBaseBridge,getNumberOfComments,Magic Number,The method contains a magic number: 2,1389
+20_PRONET-master,model,DataBaseBridge,getNumberOfComments,Magic Number,The method contains a magic number: 3,1389
+20_PRONET-master,model,DataBaseBridge,getNumberOfComments,Magic Number,The method contains a magic number: 2,1389
+20_PRONET-master,model,DataBaseBridge,createComment,Long Statement,The length of the statement "String insertString="INSERT INTO ArticleComments (idComment` idArticle` idWrittenBy` comment` dateWritten) VALUES (default` ?` ?` ?` ?)";" is 137.,1439
+20_PRONET-master,model,DataBaseBridge,createComment,Magic Number,The method contains a magic number: 2,1439
+20_PRONET-master,model,DataBaseBridge,createComment,Magic Number,The method contains a magic number: 3,1439
+20_PRONET-master,model,DataBaseBridge,createComment,Magic Number,The method contains a magic number: 4,1439
+20_PRONET-master,model,DataBaseBridge,createComment,Magic Number,The method contains a magic number: 3,1439
+20_PRONET-master,model,DataBaseBridge,createComment,Magic Number,The method contains a magic number: 2,1439
+20_PRONET-master,model,DataBaseBridge,getNotificationsFor,Long Statement,The length of the statement "String Query="((SELECT 'interest' AS Type` a.idArticle AS postID` i.idInterestShownBy AS ByProf` i.dateShown AS Timestamp` null AS Text` -1 AS notificationID " + " FROM Articles a` ArticleInterests i " + " WHERE a.idAuthor = ? AND a.idArticle = i.idArticle AND i.seen = false AND i.idInterestShownBy != ? "+ ") UNION ALL ("+ " SELECT 'comment' AS Type` a.idArticle AS postID` c.idWrittenBy AS ByProf` c.dateWritten AS Timestamp` c.comment AS Text` c.idComment AS notificationID "+ " FROM Articles a` ArticleComments c "+ " WHERE a.idAuthor = ? AND a.idArticle = c.idArticle AND c.seen = false AND c.idWrittenBy != ? "+ ") UNION ALL ("+ " SELECT 'application' AS Type` ad.idAd AS postID` ap.idApplicant AS ByProf` ap.applyDate AS Timestamp` ap.note AS Text` ap.idApplication AS notificationID "+ " FROM Applications ap` Ads ad "+ " WHERE ap.idAd = ad.idAd AND ad.idPublishedBy = ? AND ap.seen = false AND ap.idApplicant != ? )) "+ "ORDER BY Timestamp DESC;";" is 957.,1475
+20_PRONET-master,model,DataBaseBridge,getNotificationsFor,Magic Number,The method contains a magic number: 2,1475
+20_PRONET-master,model,DataBaseBridge,getNotificationsFor,Magic Number,The method contains a magic number: 3,1475
+20_PRONET-master,model,DataBaseBridge,getNotificationsFor,Magic Number,The method contains a magic number: 4,1475
+20_PRONET-master,model,DataBaseBridge,getNotificationsFor,Magic Number,The method contains a magic number: 5,1475
+20_PRONET-master,model,DataBaseBridge,getNotificationsFor,Magic Number,The method contains a magic number: 6,1475
+20_PRONET-master,model,DataBaseBridge,markInterestAsSeen,Magic Number,The method contains a magic number: 2,1545
+20_PRONET-master,model,DataBaseBridge,addInterest,Magic Number,The method contains a magic number: 2,1560
+20_PRONET-master,model,DataBaseBridge,addInterest,Magic Number,The method contains a magic number: 3,1560
+20_PRONET-master,model,DataBaseBridge,removeInterest,Magic Number,The method contains a magic number: 2,1577
+20_PRONET-master,model,DataBaseBridge,getInterest,Magic Number,The method contains a magic number: 2,1592
+20_PRONET-master,model,DataBaseBridge,getNumberOfInterestedProfessionals,Long Statement,The length of the statement "String Query="SELECT COUNT(p.idProfessional) AS 'count' " + "FROM Professionals p` ArticleInterests ai " + "WHERE ai.idInterestShownBy = p.idProfessional AND ai.idArticle = ?;";" is 177.,1607
+20_PRONET-master,model,DataBaseBridge,getNumberOfInterestedProfessionals,Magic Number,The method contains a magic number: 3,1607
+20_PRONET-master,model,DataBaseBridge,getNumberOfInterestedProfessionals,Magic Number,The method contains a magic number: 2,1607
+20_PRONET-master,model,DataBaseBridge,getInterestedProfessionals,Long Statement,The length of the statement "String Query="SELECT p.idProfessional` p.firstName` p.lastName` p.profilePictureURI " + "FROM Professionals p` ArticleInterests ai " + "WHERE ai.idInterestShownBy = p.idProfessional AND ai.idArticle = ? "+ "ORDER BY ai.dateShown DESC;";" is 236.,1625
+20_PRONET-master,model,DataBaseBridge,getNetworkProfIDs,Long Statement,The length of the statement "String Query="(SELECT idProfessional1 AS idConnectedProfessional` connectionDate FROM ConnectedProfessionals WHERE idProfessional2 = ?)" + "UNION" + "(SELECT idProfessional2 AS idConnectedProfessional` connectionDate FROM ConnectedProfessionals WHERE idProfessional1 = ?)"+ "ORDER BY connectionDate ASC;";" is 305.,1672
+20_PRONET-master,model,DataBaseBridge,getNetworkProfIDs,Magic Number,The method contains a magic number: 2,1672
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Long Statement,The length of the statement "String Query="SELECT SUM(Notifications) AS Total " + "FROM ( " + " ( SELECT COUNT(*) AS Notifications FROM ConnectionRequests WHERE idReceiver = ? ) "+ "UNION ALL"+ " ( SELECT COUNT(*) AS Notifications FROM ArticleInterests i` Articles a "+ " WHERE a.idAuthor = ? AND a.idArticle = i.idArticle AND i.seen = false AND i.idInterestShownBy != ? ) "+ "UNION ALL"+ " ( SELECT COUNT(*) AS Notifications FROM Articles a` ArticleComments c "+ " WHERE a.idAuthor = ? AND a.idArticle = c.idArticle AND c.seen = false AND c.idWrittenBy != ? ) "+ "UNION ALL"+ " ( SELECT COUNT(*) AS Notifications FROM Applications ap` Ads ad "+ " WHERE ap.idAd = ad.idAd AND ad.idPublishedBy = ? AND ap.seen = false AND ap.idApplicant != ? ) "+ " ) AS SubQueryName;";" is 739.,1758
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Magic Number,The method contains a magic number: 2,1758
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Magic Number,The method contains a magic number: 3,1758
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Magic Number,The method contains a magic number: 4,1758
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Magic Number,The method contains a magic number: 5,1758
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Magic Number,The method contains a magic number: 6,1758
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Magic Number,The method contains a magic number: 7,1758
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Magic Number,The method contains a magic number: 3,1758
+20_PRONET-master,model,DataBaseBridge,getNumberOfNotifications,Magic Number,The method contains a magic number: 2,1758
+20_PRONET-master,model,FileManager,editProfilePicture,Complex Conditional,The conditional expression prof.getProfilePicURI() == null || !(new File(saveLocation + "/profile/" + prof.getProfile_pic_name())).exists() || prof.getProfilePicURI().equals(projectURL + "/images/defaultProfilePic.png") is complex.,20
+20_PRONET-master,model,FileManager,editProfilePicture,Long Parameter List,The method has 5 parameters. ,20
+20_PRONET-master,model,FileManager,editProfilePicture,Long Statement,The length of the statement "if (prof.getProfilePicURI() == null || !(new File(saveLocation + "/profile/" + prof.getProfile_pic_name())).exists() || prof.getProfilePicURI().equals(projectURL + "/images/defaultProfilePic.png")) {" is 199.,20
+20_PRONET-master,model,FileManager,editProfilePicture,Magic Number,The method contains a magic number: 999999,20
+20_PRONET-master,model,FileManager,deleteProfilePicture,Complex Conditional,The conditional expression prof.getProfilePicURI() != null && !prof.getProfilePicURI().equals(projectURL + "/images/defaultProfilePic.png") && (new File(saveLocation + "/profile/" + prof.getProfile_pic_name())).exists() is complex.,72
+20_PRONET-master,model,FileManager,deleteProfilePicture,Long Statement,The length of the statement "if (prof.getProfilePicURI() != null && !prof.getProfilePicURI().equals(projectURL + "/images/defaultProfilePic.png") && (new File(saveLocation + "/profile/" + prof.getProfile_pic_name())).exists()) {" is 199.,72
+20_PRONET-master,model,FileManager,saveArticleFiles,Magic Number,The method contains a magic number: 999999,89
+20_PRONET-master,model,KNNArticles,KNNArticles,Magic Number,The method contains a magic number: 3,26
+20_PRONET-master,model,KNNArticles,fit,Complex Method,Cyclomatic complexity of the method is 9,41
+20_PRONET-master,model,KNNArticles,fit,Long Statement,The length of the statement "connected_prof_vectors[k][i]=((db.getInterest(ArticleIDs[i]`connected_prof.getID())) ? 3 : 0) + db.getNumberOfComments(ArticleIDs[i]`connected_prof.getID());" is 157.,41
+20_PRONET-master,model,KNNArticles,fit,Long Statement,The length of the statement "loggedprof_vector[i]=((db.getInterest(ArticleIDs[i]`loggedprofID)) ? 3 : 0) + db.getNumberOfComments(ArticleIDs[i]`loggedprofID);" is 129.,41
+20_PRONET-master,model,KNNArticles,fit,Magic Number,The method contains a magic number: 2,41
+20_PRONET-master,model,KNNArticles,fit,Magic Number,The method contains a magic number: 3,41
+20_PRONET-master,model,KNNArticles,fit,Magic Number,The method contains a magic number: 3,41
+20_PRONET-master,model,KNNArticles,fit,Magic Number,The method contains a magic number: 3,41
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Complex Conditional,The conditional expression ArticleIDs == null || loggedprof_vector == null || connected_prof_vectors == null || connected_prof_IDs == null is complex.,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Complex Conditional,The conditional expression giveNotLikedArticlesBonus || giveRecentArticlesBonus || givePopularArticlesBonus is complex.,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Complex Conditional,The conditional expression giveNotLikedArticlesBonus && !db.getInterest(ArticleIDs[i]`loggedInProfID) && !(loggedInProfID == db.getArticleAuthorID(ArticleIDs[i])) is complex.,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Complex Method,Cyclomatic complexity of the method is 29,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Long Method,The method has 116 lines of code.,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Long Parameter List,The method has 5 parameters. ,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Long Statement,The length of the statement "if (giveNotLikedArticlesBonus && !db.getInterest(ArticleIDs[i]`loggedInProfID) && !(loggedInProfID == db.getArticleAuthorID(ArticleIDs[i]))) {" is 142.,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 2,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 0.25,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 0.5,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 0.75,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 12,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 0.25,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 24,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 0.12,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 1.25,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 12,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 0.75,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 24,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 0.25,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 48,82
+20_PRONET-master,model,KNNArticles,reorderArticleIDs,Magic Number,The method contains a magic number: 0.12,82
+20_PRONET-master,model,KNNArticles,findKNearestNeighbours,Complex Method,Cyclomatic complexity of the method is 10,210
+20_PRONET-master,model,KNNArticles,findKNearestNeighbours,Magic Number,The method contains a magic number: 2,210
+20_PRONET-master,model,KNNArticles,similarity,Complex Conditional,The conditional expression v1 == null || v2 == null || v1.length != ArticleIDs.length || v2.length != ArticleIDs.length is complex.,259
+20_PRONET-master,model,KNNArticles,getTopKProfessionals,Long Statement,The length of the statement "if (connected_prof_IDs == null) System.err.println("KNN Error: Tried to get KNN's ids without first running KNN to find them");" is 127.,272
+20_PRONET-master,model,KNNWorkAds,KNNWorkAds,Magic Number,The method contains a magic number: 3,28
+20_PRONET-master,model,KNNWorkAds,fit_applied_ads,Long Statement,The length of the statement "System.err.println("Warning: KNN's K is " + K + " which is larger than the number of applied ads` which is "+ appliedAds.size()+ ". Resetting to match their count.");" is 166.,41
+20_PRONET-master,model,KNNWorkAds,fit_applied_ads,Long Statement,The length of the statement "List<String> stemmedWords=SkillRelevanceEvaluator.getStemmedList(String.join(" "`Collections.nCopies(TitleWeight`ad.getTitle())) + " " + ad.getDescription());" is 158.,41
+20_PRONET-master,model,KNNWorkAds,fit_applied_ads,Magic Number,The method contains a magic number: 2,41
+20_PRONET-master,model,KNNWorkAds,fit_applied_ads,Magic Number,The method contains a magic number: 3,41
+20_PRONET-master,model,KNNWorkAds,fit_candidates_ads,Long Statement,The length of the statement "List<String> stemmedWords=SkillRelevanceEvaluator.getStemmedList(String.join(" "`Collections.nCopies(TitleWeight`ad.getTitle())) + " " + ad.getDescription());" is 158.,72
+20_PRONET-master,model,KNNWorkAds,fit_candidates_ads,Magic Number,The method contains a magic number: 2,72
+20_PRONET-master,model,KNNWorkAds,fit_candidates_ads,Magic Number,The method contains a magic number: 3,72
+20_PRONET-master,model,KNNWorkAds,reorderAdIDs,Complex Conditional,The conditional expression candidate_ads_IDs == null || (firstBonus != null && firstBonus.length != candidate_ads_IDs.length) is complex.,102
+20_PRONET-master,model,KNNWorkAds,reorderAdIDs,Complex Conditional,The conditional expression applied_ads_IDs == null || applied_ads_vectors == null || candidate_ads_vectors == null is complex.,102
+20_PRONET-master,model,KNNWorkAds,reorderAdIDs,Complex Method,Cyclomatic complexity of the method is 17,102
+20_PRONET-master,model,KNNWorkAds,reorderAdIDs,Magic Number,The method contains a magic number: 2,102
+20_PRONET-master,model,KNNWorkAds,findKNearestNeighbours,Complex Method,Cyclomatic complexity of the method is 10,184
+20_PRONET-master,model,KNNWorkAds,cosineSimilarity,Magic Number,The method contains a magic number: 2,239
+20_PRONET-master,model,KNNWorkAds,cosineSimilarity,Magic Number,The method contains a magic number: 2,239
+20_PRONET-master,model,KNNWorkAds,cosineSimilarity,Magic Number,The method contains a magic number: 2,239
+20_PRONET-master,model,MyUtil,printDate,Magic Number,The method contains a magic number: 60,24
+20_PRONET-master,model,MyUtil,getLocalDateTimeFromString,Magic Number,The method contains a magic number: 60,39
+20_PRONET-master,model,MyUtil,getTimeAgo,Complex Method,Cyclomatic complexity of the method is 8,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 2,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 2,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 30,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 2,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 12,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 30,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 30,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 30,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 2,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 12,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 30,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 12,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 30,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 24,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 60,55
+20_PRONET-master,model,MyUtil,getTimeAgo,Magic Number,The method contains a magic number: 2,55
+20_PRONET-master,model,MyUtil,forceDownloadFile,Magic Number,The method contains a magic number: 4096,78
+20_PRONET-master,model,MyUtil,getFileType,Complex Conditional,The conditional expression c1 == 'f' && c2 == 'i' && c3 == 'l' && c4 == 'e' && c5 == '=' is complex.,107
+20_PRONET-master,model,MyUtil,getFileType,Complex Method,Cyclomatic complexity of the method is 9,107
+20_PRONET-master,model,MyUtil,getFileType,Long Statement,The length of the statement "char c1=fileURI.charAt(i)` c2=fileURI.charAt(i + 1)` c3=fileURI.charAt(i + 2)` c4=fileURI.charAt(i + 3)` c5=fileURI.charAt(i + 4);" is 130.,107
+20_PRONET-master,model,MyUtil,getFileType,Long Statement,The length of the statement "for (; i < fileURI.length() && fileURI.charAt(i) != '&' && !(fileURI.charAt(i) >= '0' && fileURI.charAt(i) <= '9'); i++) ;" is 122.,107
+20_PRONET-master,model,MyUtil,getFileType,Magic Number,The method contains a magic number: 4,107
+20_PRONET-master,model,MyUtil,getFileType,Magic Number,The method contains a magic number: 2,107
+20_PRONET-master,model,MyUtil,getFileType,Magic Number,The method contains a magic number: 3,107
+20_PRONET-master,model,MyUtil,getFileType,Magic Number,The method contains a magic number: 4,107
+20_PRONET-master,model,MyUtil,getFileType,Magic Number,The method contains a magic number: 5,107
+20_PRONET-master,model,MyUtil,getFileType,Magic Number,The method contains a magic number: 2,107
+20_PRONET-master,model,MyUtil,getFileType,Magic Number,The method contains a magic number: 3,107
+20_PRONET-master,model,MyUtil,getFileName,Complex Conditional,The conditional expression c1 == 'f' && c2 == 'i' && c3 == 'l' && c4 == 'e' && c5 == '=' is complex.,140
+20_PRONET-master,model,MyUtil,getFileName,Long Statement,The length of the statement "char c1=fileURI.charAt(i)` c2=fileURI.charAt(i + 1)` c3=fileURI.charAt(i + 2)` c4=fileURI.charAt(i + 3)` c5=fileURI.charAt(i + 4);" is 130.,140
+20_PRONET-master,model,MyUtil,getFileName,Magic Number,The method contains a magic number: 4,140
+20_PRONET-master,model,MyUtil,getFileName,Magic Number,The method contains a magic number: 2,140
+20_PRONET-master,model,MyUtil,getFileName,Magic Number,The method contains a magic number: 3,140
+20_PRONET-master,model,MyUtil,getFileName,Magic Number,The method contains a magic number: 4,140
+20_PRONET-master,model,MyUtil,getFileName,Magic Number,The method contains a magic number: 5,140
+20_PRONET-master,model,MyUtil,bytesToHex,Magic Number,The method contains a magic number: 0xff,164
+20_PRONET-master,model,MyUtil,bytesToHex,Magic Number,The method contains a magic number: 0x100,164
+20_PRONET-master,model,MyUtil,bytesToHex,Magic Number,The method contains a magic number: 16,164
+20_PRONET-master,model,Professional,getProfile_pic_name,Complex Conditional,The conditional expression c1 == 'f' && c2 == 'i' && c3 == 'l' && c4 == 'e' && c5 == '=' is complex.,91
+20_PRONET-master,model,Professional,getProfile_pic_name,Long Statement,The length of the statement "char c1=profilePicUrlPath.charAt(i)` c2=profilePicUrlPath.charAt(i + 1)` c3=profilePicUrlPath.charAt(i + 2)` c4=profilePicUrlPath.charAt(i + 3)` c5=profilePicUrlPath.charAt(i + 4);" is 180.,91
+20_PRONET-master,model,Professional,getProfile_pic_name,Long Statement,The length of the statement "while (i < profilePicUrlPath.length() && profilePicUrlPath.charAt(i) != '&' && (profilePicUrlPath.charAt(i) != '/' || i < profilePicUrlPath.length() - 1)) i++;" is 159.,91
+20_PRONET-master,model,Professional,getProfile_pic_name,Magic Number,The method contains a magic number: 4,91
+20_PRONET-master,model,Professional,getProfile_pic_name,Magic Number,The method contains a magic number: 2,91
+20_PRONET-master,model,Professional,getProfile_pic_name,Magic Number,The method contains a magic number: 3,91
+20_PRONET-master,model,Professional,getProfile_pic_name,Magic Number,The method contains a magic number: 4,91
+20_PRONET-master,model,Professional,getProfile_pic_name,Magic Number,The method contains a magic number: 5,91
+20_PRONET-master,model,SiteFunctionality,LogIn,Magic Number,The method contains a magic number: 503,13
+20_PRONET-master,model,SiteFunctionality,LogIn,Magic Number,The method contains a magic number: 2,13
+20_PRONET-master,model,SiteFunctionality,LogIn,Magic Number,The method contains a magic number: 3,13
+20_PRONET-master,model,SiteFunctionality,LogIn,Magic Number,The method contains a magic number: 4,13
+20_PRONET-master,model,SiteFunctionality,Register,Long Parameter List,The method has 7 parameters. ,46
+20_PRONET-master,model,SiteFunctionality,Register,Magic Number,The method contains a magic number: 503,46
+20_PRONET-master,model,SiteFunctionality,Register,Magic Number,The method contains a magic number: 2,46
+20_PRONET-master,model,SiteFunctionality,Register,Magic Number,The method contains a magic number: 3,46
+20_PRONET-master,model,SiteFunctionality,checkInputText,Complex Conditional,The conditional expression c == '<' || (oneLiner && (c == '\r' || c == '\n')) is complex.,74
+20_PRONET-master,model,SiteFunctionality,checkInputNumber,Complex Conditional,The conditional expression allowNegative && i == 0 && c == '-' is complex.,90
+20_PRONET-master,model,SiteFunctionality,ChangeEmail,Magic Number,The method contains a magic number: 503,132
+20_PRONET-master,model,SiteFunctionality,ChangeEmail,Magic Number,The method contains a magic number: 2,132
+20_PRONET-master,model,SiteFunctionality,ChangeEmail,Magic Number,The method contains a magic number: 3,132
+20_PRONET-master,model,SiteFunctionality,ChangePassword,Magic Number,The method contains a magic number: 503,160
+20_PRONET-master,model,SiteFunctionality,ChangePassword,Magic Number,The method contains a magic number: 2,160
+20_PRONET-master,model,SiteFunctionality,DeleteAccount,Magic Number,The method contains a magic number: 503,185
+20_PRONET-master,model,SiteFunctionality,DeleteAccount,Magic Number,The method contains a magic number: 2,185
+20_PRONET-master,model,SiteFunctionality,DeleteAccount,Magic Number,The method contains a magic number: 2,185
+20_PRONET-master,model,SiteFunctionality,updateConnectionRequest,Magic Number,The method contains a magic number: 503,214
+20_PRONET-master,model,SiteFunctionality,EditProfile,Magic Number,The method contains a magic number: 503,232
+20_PRONET-master,model,SiteFunctionality,sendConnectionRequest,Magic Number,The method contains a magic number: 503,247
+20_PRONET-master,model,SiteFunctionality,removeConnection,Magic Number,The method contains a magic number: 503,262
+20_PRONET-master,model,SiteFunctionality,createWorkAd,Magic Number,The method contains a magic number: 503,277
+20_PRONET-master,model,SiteFunctionality,updateWorkAd,Magic Number,The method contains a magic number: 503,286
+20_PRONET-master,model,SiteFunctionality,updateWorkAd,Magic Number,The method contains a magic number: 4,286
+20_PRONET-master,model,SiteFunctionality,removeWorkAd,Magic Number,The method contains a magic number: 503,305
+20_PRONET-master,model,SiteFunctionality,removeWorkAd,Magic Number,The method contains a magic number: 4,305
+20_PRONET-master,model,SiteFunctionality,applyToWorkAd,Magic Number,The method contains a magic number: 503,324
+20_PRONET-master,model,SiteFunctionality,applyToWorkAd,Magic Number,The method contains a magic number: 4,324
+20_PRONET-master,model,SiteFunctionality,addMessage,Magic Number,The method contains a magic number: 503,343
+20_PRONET-master,model,SiteFunctionality,addMessage,Magic Number,The method contains a magic number: 2,343
+20_PRONET-master,model,SiteFunctionality,addMessage,Missing default,The following switch statement is missing a default case: switch (result) {,343
+20_PRONET-master,model,SiteFunctionality,removeApplication,Magic Number,The method contains a magic number: 503,370
+20_PRONET-master,model,SiteFunctionality,addArticle,Magic Number,The method contains a magic number: 503,385
+20_PRONET-master,model,SiteFunctionality,updateArticle,Magic Number,The method contains a magic number: 503,394
+20_PRONET-master,model,SiteFunctionality,updateArticle,Magic Number,The method contains a magic number: 4,394
+20_PRONET-master,model,SiteFunctionality,deleteArticle,Magic Number,The method contains a magic number: 503,413
+20_PRONET-master,model,SiteFunctionality,deleteArticle,Magic Number,The method contains a magic number: 2,413
+20_PRONET-master,model,SiteFunctionality,addComment,Magic Number,The method contains a magic number: 503,432
+20_PRONET-master,model,SiteFunctionality,deleteComment,Magic Number,The method contains a magic number: 503,443
+20_PRONET-master,model,SiteFunctionality,deleteComment,Magic Number,The method contains a magic number: 2,443
+20_PRONET-master,model,SiteFunctionality,toggleInterest,Magic Number,The method contains a magic number: 503,462
+20_PRONET-master,model,SiteFunctionality,toggleInterest,Magic Number,The method contains a magic number: 2,462
+20_PRONET-master,model,SkillRelevanceEvaluator,loadStopWords,Long Statement,The length of the statement "String stopwordsFilePath=SkillRelevanceEvaluator.class.getResource(PropertiesManager.getProperty("stopwordsFile")).getPath();" is 125.,24
+20_PRONET-master,snowball,Among,Among,Long Parameter List,The method has 5 parameters. ,6
+20_PRONET-master,snowball,englishStemmer,r_prelude,Complex Method,Cyclomatic complexity of the method is 13,176
+20_PRONET-master,snowball,englishStemmer,r_prelude,Magic Number,The method contains a magic number: 97,176
+20_PRONET-master,snowball,englishStemmer,r_prelude,Magic Number,The method contains a magic number: 121,176
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Complex Method,Cyclomatic complexity of the method is 21,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 3,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 97,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 121,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 97,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 121,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 97,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 121,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 97,273
+20_PRONET-master,snowball,englishStemmer,r_mark_regions,Magic Number,The method contains a magic number: 121,273
+20_PRONET-master,snowball,englishStemmer,r_shortv,Complex Method,Cyclomatic complexity of the method is 9,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 89,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 121,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 97,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 121,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 97,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 121,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 97,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 121,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 97,370
+20_PRONET-master,snowball,englishStemmer,r_shortv,Magic Number,The method contains a magic number: 121,370
+20_PRONET-master,snowball,englishStemmer,r_Step_1a,Complex Method,Cyclomatic complexity of the method is 18,427
+20_PRONET-master,snowball,englishStemmer,r_Step_1a,Magic Number,The method contains a magic number: 3,427
+20_PRONET-master,snowball,englishStemmer,r_Step_1a,Magic Number,The method contains a magic number: 6,427
+20_PRONET-master,snowball,englishStemmer,r_Step_1a,Magic Number,The method contains a magic number: 2,427
+20_PRONET-master,snowball,englishStemmer,r_Step_1a,Magic Number,The method contains a magic number: 2,427
+20_PRONET-master,snowball,englishStemmer,r_Step_1a,Magic Number,The method contains a magic number: 3,427
+20_PRONET-master,snowball,englishStemmer,r_Step_1a,Magic Number,The method contains a magic number: 97,427
+20_PRONET-master,snowball,englishStemmer,r_Step_1a,Magic Number,The method contains a magic number: 121,427
+20_PRONET-master,snowball,englishStemmer,r_Step_1b,Complex Method,Cyclomatic complexity of the method is 18,532
+20_PRONET-master,snowball,englishStemmer,r_Step_1b,Magic Number,The method contains a magic number: 6,532
+20_PRONET-master,snowball,englishStemmer,r_Step_1b,Magic Number,The method contains a magic number: 2,532
+20_PRONET-master,snowball,englishStemmer,r_Step_1b,Magic Number,The method contains a magic number: 97,532
+20_PRONET-master,snowball,englishStemmer,r_Step_1b,Magic Number,The method contains a magic number: 121,532
+20_PRONET-master,snowball,englishStemmer,r_Step_1b,Magic Number,The method contains a magic number: 13,532
+20_PRONET-master,snowball,englishStemmer,r_Step_1b,Magic Number,The method contains a magic number: 2,532
+20_PRONET-master,snowball,englishStemmer,r_Step_1b,Magic Number,The method contains a magic number: 3,532
+20_PRONET-master,snowball,englishStemmer,r_Step_1c,Complex Method,Cyclomatic complexity of the method is 8,648
+20_PRONET-master,snowball,englishStemmer,r_Step_1c,Magic Number,The method contains a magic number: 97,648
+20_PRONET-master,snowball,englishStemmer,r_Step_1c,Magic Number,The method contains a magic number: 121,648
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Complex Method,Cyclomatic complexity of the method is 22,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 24,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 2,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 3,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 4,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 5,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 6,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 7,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 8,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 9,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 10,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 11,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 12,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 13,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 14,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 15,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 16,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 99,696
+20_PRONET-master,snowball,englishStemmer,r_Step_2,Magic Number,The method contains a magic number: 116,696
+20_PRONET-master,snowball,englishStemmer,r_Step_3,Complex Method,Cyclomatic complexity of the method is 11,810
+20_PRONET-master,snowball,englishStemmer,r_Step_3,Magic Number,The method contains a magic number: 9,810
+20_PRONET-master,snowball,englishStemmer,r_Step_3,Magic Number,The method contains a magic number: 2,810
+20_PRONET-master,snowball,englishStemmer,r_Step_3,Magic Number,The method contains a magic number: 3,810
+20_PRONET-master,snowball,englishStemmer,r_Step_3,Magic Number,The method contains a magic number: 4,810
+20_PRONET-master,snowball,englishStemmer,r_Step_3,Magic Number,The method contains a magic number: 5,810
+20_PRONET-master,snowball,englishStemmer,r_Step_3,Magic Number,The method contains a magic number: 6,810
+20_PRONET-master,snowball,englishStemmer,r_Step_4,Complex Method,Cyclomatic complexity of the method is 10,870
+20_PRONET-master,snowball,englishStemmer,r_Step_4,Magic Number,The method contains a magic number: 18,870
+20_PRONET-master,snowball,englishStemmer,r_Step_4,Magic Number,The method contains a magic number: 2,870
+20_PRONET-master,snowball,englishStemmer,r_Step_5,Complex Method,Cyclomatic complexity of the method is 13,924
+20_PRONET-master,snowball,englishStemmer,r_Step_5,Magic Number,The method contains a magic number: 2,924
+20_PRONET-master,snowball,englishStemmer,r_Step_5,Magic Number,The method contains a magic number: 2,924
+20_PRONET-master,snowball,englishStemmer,r_exception2,Magic Number,The method contains a magic number: 8,998
+20_PRONET-master,snowball,englishStemmer,r_exception1,Complex Method,Cyclomatic complexity of the method is 15,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 18,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 2,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 3,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 4,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 5,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 6,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 7,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 8,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 9,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 10,1017
+20_PRONET-master,snowball,englishStemmer,r_exception1,Magic Number,The method contains a magic number: 11,1017
+20_PRONET-master,snowball,englishStemmer,r_postlude,Complex Method,Cyclomatic complexity of the method is 8,1097
+20_PRONET-master,snowball,englishStemmer,stem,Complex Method,Cyclomatic complexity of the method is 30,1147
+20_PRONET-master,snowball,englishStemmer,stem,Long Method,The method has 143 lines of code.,1147
+20_PRONET-master,snowball,englishStemmer,stem,Magic Number,The method contains a magic number: 3,1147
+20_PRONET-master,snowball,SnowballProgram,in_grouping,Magic Number,The method contains a magic number: 3,60
+20_PRONET-master,snowball,SnowballProgram,in_grouping,Magic Number,The method contains a magic number: 0X7,60
+20_PRONET-master,snowball,SnowballProgram,in_grouping_b,Magic Number,The method contains a magic number: 3,71
+20_PRONET-master,snowball,SnowballProgram,in_grouping_b,Magic Number,The method contains a magic number: 0X7,71
+20_PRONET-master,snowball,SnowballProgram,out_grouping,Magic Number,The method contains a magic number: 3,82
+20_PRONET-master,snowball,SnowballProgram,out_grouping,Magic Number,The method contains a magic number: 0X7,82
+20_PRONET-master,snowball,SnowballProgram,out_grouping_b,Magic Number,The method contains a magic number: 3,98
+20_PRONET-master,snowball,SnowballProgram,out_grouping_b,Magic Number,The method contains a magic number: 0X7,98
+20_PRONET-master,snowball,SnowballProgram,find_among,Complex Method,Cyclomatic complexity of the method is 15,181
+20_PRONET-master,snowball,SnowballProgram,find_among_b,Complex Method,Cyclomatic complexity of the method is 15,254
+20_PRONET-master,snowball,SnowballProgram,slice_check,Complex Conditional,The conditional expression bra < 0 || bra > ket || ket > limit || limit > current.length() is complex.,335

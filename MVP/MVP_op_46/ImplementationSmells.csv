@@ -1,0 +1,149 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Long Statement,The length of the statement "Spans.ShapeSpan lloStrokeShape=new Spans.ShapeSpan(new RoundRectShape(outerR`null`null)`Paint.Style.STROKE`8`Color.YELLOW`false`lloText);" is 137.,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Long Statement,The length of the statement "Spans.ShapeSpan woFillShape=new Spans.ShapeSpan(new RoundRectShape(outerR`null`null)`Paint.Style.FILL_AND_STROKE`18`Color.LTGRAY`false`woTextSpan);" is 147.,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Long Statement,The length of the statement "Spans.ShapeSpan swoFillShape=new Spans.ShapeSpan(new RoundRectShape(outerR`null`null)`Paint.Style.FILL_AND_STROKE`18`Color.LTGRAY`false);" is 137.,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Magic Number,The method contains a magic number: 4,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Magic Number,The method contains a magic number: 8,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Magic Number,The method contains a magic number: 4,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Magic Number,The method contains a magic number: 18,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Magic Number,The method contains a magic number: 18,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashActivity,showStyledText,Magic Number,The method contains a magic number: 4,93
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashPresenter,showStatus,Long Statement,The length of the statement "getView().showStatus(String.format("(%d)\n%s\n%s"`counter`task == null ? "null" : Texts.filledStr((int)task.countSeconds()`'.')`status));" is 137.,153
+Pioneer-master,com.github.baoti.pioneer.ui.splash,SplashPresenter,countSeconds,Magic Number,The method contains a magic number: 1000,210
+Pioneer-master,com.github.baoti.pioneer.ui.splash,InitializeTask,countSeconds,Magic Number,The method contains a magic number: 1000,210
+Pioneer-master,com.github.baoti.pioneer.misc.util,TextsTest,testFilledStr,Magic Number,The method contains a magic number: 3,36
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,getSize,Long Parameter List,The method has 5 parameters. ,54
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,draw,Long Parameter List,The method has 9 parameters. ,73
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,drawDebugLines,Long Parameter List,The method has 6 parameters. ,80
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,getSize,Long Parameter List,The method has 5 parameters. ,138
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,draw,Long Parameter List,The method has 9 parameters. ,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,draw,Magic Number,The method contains a magic number: 2,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,draw,Magic Number,The method contains a magic number: 2,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,draw,Magic Number,The method contains a magic number: 0.8f,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,draw,Magic Number,The method contains a magic number: 0.2f,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,draw,Magic Number,The method contains a magic number: 2,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,getSize,Long Parameter List,The method has 5 parameters. ,192
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpansV1,draw,Long Parameter List,The method has 9 parameters. ,219
+Pioneer-master,com.github.baoti.pioneer.misc.util,DebugSpan,getSize,Long Parameter List,The method has 5 parameters. ,54
+Pioneer-master,com.github.baoti.pioneer.misc.util,DebugSpan,draw,Long Parameter List,The method has 9 parameters. ,73
+Pioneer-master,com.github.baoti.pioneer.misc.util,DebugSpan,drawDebugLines,Long Parameter List,The method has 6 parameters. ,80
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,getSize,Long Parameter List,The method has 5 parameters. ,138
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Long Parameter List,The method has 9 parameters. ,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 2,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 2,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 0.8f,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 0.2f,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 2,146
+Pioneer-master,com.github.baoti.pioneer.misc.util,HollowSpan,getSize,Long Parameter List,The method has 5 parameters. ,192
+Pioneer-master,com.github.baoti.pioneer.misc.util,HollowSpan,draw,Long Parameter List,The method has 9 parameters. ,219
+Pioneer-master,com.github.baoti.pioneer.misc.util,IoUtils,saveBitmap,Long Parameter List,The method has 5 parameters. ,106
+Pioneer-master,com.github.baoti.pioneer.misc.util,IoUtils,copyStream,Magic Number,The method contains a magic number: 1024,201
+Pioneer-master,com.github.baoti.pioneer.misc.util,IoUtils,toByteArray,Magic Number,The method contains a magic number: 1024,255
+Pioneer-master,com.github.baoti.pioneer.misc.util,IoUtils,toByteArray,Magic Number,The method contains a magic number: 4,255
+Pioneer-master,com.github.baoti.pioneer.misc.util,IoUtils,generateDatedFile,Magic Number,The method contains a magic number: 6,494
+Pioneer-master,com.github.baoti.pioneer.misc.util,Texts,bytesToHexString,Magic Number,The method contains a magic number: 2,250
+Pioneer-master,com.github.baoti.pioneer.misc.util,Texts,bytesToHexString,Magic Number,The method contains a magic number: 4,250
+Pioneer-master,com.github.baoti.pioneer.misc.util,Texts,bytesToHexString,Magic Number,The method contains a magic number: 0xf,250
+Pioneer-master,com.github.baoti.pioneer.misc.util,Texts,bytesToHexString,Magic Number,The method contains a magic number: 0xf,250
+Pioneer-master,com.github.baoti.pioneer.misc.util,ActivityRequestState,onSave,Magic Number,The method contains a magic number: 3,71
+Pioneer-master,com.github.baoti.pioneer.misc.util,ImageActions,actionCrop,Long Parameter List,The method has 6 parameters. ,97
+Pioneer-master,com.github.baoti.pioneer.misc.util,ImageActions,actionCropImage,Long Parameter List,The method has 6 parameters. ,118
+Pioneer-master,com.github.baoti.pioneer.misc.util,ImageActions,getCroppedImage,Magic Number,The method contains a magic number: 80,149
+Pioneer-master,com.github.baoti.pioneer.misc.util,Crop,actionCropImage,Long Parameter List,The method has 6 parameters. ,118
+Pioneer-master,com.github.baoti.pioneer.misc.util,Crop,getCroppedImage,Magic Number,The method contains a magic number: 80,149
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,getSize,Long Parameter List,The method has 5 parameters. ,61
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Long Parameter List,The method has 9 parameters. ,66
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,getSize,Long Parameter List,The method has 6 parameters. ,71
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,getMinSize,Long Parameter List,The method has 6 parameters. ,75
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Long Parameter List,The method has 10 parameters. ,87
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,getSize,Long Parameter List,The method has 6 parameters. ,110
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Long Parameter List,The method has 10 parameters. ,130
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Long Parameter List,The method has 10 parameters. ,168
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Magic Number,The method contains a magic number: 2,168
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Missing default,The following switch statement is missing a default case: switch (paint.getTextAlign()) {,168
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,getSize,Long Parameter List,The method has 6 parameters. ,229
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Long Parameter List,The method has 10 parameters. ,236
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Long Parameter List,The method has 10 parameters. ,262
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,drawDebugLines,Long Parameter List,The method has 7 parameters. ,269
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,ShapeSpan,Long Parameter List,The method has 6 parameters. ,311
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,getSize,Long Parameter List,The method has 6 parameters. ,320
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Long Parameter List,The method has 10 parameters. ,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Magic Number,The method contains a magic number: 2,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Magic Number,The method contains a magic number: 2,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Magic Number,The method contains a magic number: 2,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Magic Number,The method contains a magic number: 2,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,Spans,draw,Magic Number,The method contains a magic number: 0.8f,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,SupportSpan,getSize,Long Parameter List,The method has 5 parameters. ,61
+Pioneer-master,com.github.baoti.pioneer.misc.util,SupportSpan,draw,Long Parameter List,The method has 9 parameters. ,66
+Pioneer-master,com.github.baoti.pioneer.misc.util,SupportSpan,getSize,Long Parameter List,The method has 6 parameters. ,71
+Pioneer-master,com.github.baoti.pioneer.misc.util,SupportSpan,getMinSize,Long Parameter List,The method has 6 parameters. ,75
+Pioneer-master,com.github.baoti.pioneer.misc.util,SupportSpan,draw,Long Parameter List,The method has 10 parameters. ,87
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpanGroup,getSize,Long Parameter List,The method has 6 parameters. ,110
+Pioneer-master,com.github.baoti.pioneer.misc.util,SpanGroup,draw,Long Parameter List,The method has 10 parameters. ,130
+Pioneer-master,com.github.baoti.pioneer.misc.util,TextSpan,draw,Long Parameter List,The method has 10 parameters. ,168
+Pioneer-master,com.github.baoti.pioneer.misc.util,TextSpan,draw,Magic Number,The method contains a magic number: 2,168
+Pioneer-master,com.github.baoti.pioneer.misc.util,TextSpan,draw,Missing default,The following switch statement is missing a default case: switch (paint.getTextAlign()) {,168
+Pioneer-master,com.github.baoti.pioneer.misc.util,HollowSpan,getSize,Long Parameter List,The method has 6 parameters. ,229
+Pioneer-master,com.github.baoti.pioneer.misc.util,HollowSpan,draw,Long Parameter List,The method has 10 parameters. ,236
+Pioneer-master,com.github.baoti.pioneer.misc.util,DebugSpan,draw,Long Parameter List,The method has 10 parameters. ,262
+Pioneer-master,com.github.baoti.pioneer.misc.util,DebugSpan,drawDebugLines,Long Parameter List,The method has 7 parameters. ,269
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,ShapeSpan,Long Parameter List,The method has 6 parameters. ,311
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,getSize,Long Parameter List,The method has 6 parameters. ,320
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Long Parameter List,The method has 10 parameters. ,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 2,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 2,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 2,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 2,331
+Pioneer-master,com.github.baoti.pioneer.misc.util,ShapeSpan,draw,Magic Number,The method contains a magic number: 0.8f,331
+Pioneer-master,com.github.baoti.pioneer.ui.common.image.chooser,ImageChooserFragment,onImageChose,Missing default,The following switch statement is missing a default case: switch (requestCode) {,115
+Pioneer-master,com.github.baoti.pioneer.ui.common.image.chooser,ImageChooserFragment,onActivityResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,185
+Pioneer-master,com.github.baoti.pioneer.ui.common.image.chooser,ImageChooserFragment,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,224
+Pioneer-master,com.github.baoti.pioneer.ui.common.image.chooser,ImageChooserFragment,alert,Long Statement,The length of the statement "new AlertDialog.Builder(getActivity()).setIcon(android.R.drawable.ic_dialog_alert).setMessage(msg).setPositiveButton(android.R.string.ok`null).show();" is 150.,238
+Pioneer-master,com.github.baoti.pioneer.ui.common.image.chooser,ImageChooserFragment,onCaptureImageClicked,Long Statement,The length of the statement "new AlertDialog.Builder(getActivity()).setIcon(android.R.drawable.ic_dialog_info).setMessage(R.string.camera_permission_needed).setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 204.,246
+Pioneer-master,com.github.baoti.pioneer.ui.common.image.chooser,ImageChooserFragment,cropImage,Magic Number,The method contains a magic number: 200,287
+Pioneer-master,com.github.baoti.pioneer.ui.common.search,BaseSearchActivity,openSearchFragment,Long Statement,The length of the statement "getSupportFragmentManager().beginTransaction().replace(getSearchFragmentContainerId()`searchFragment`TAG_FRAG_SEARCH).addToBackStack(null).commit();" is 148.,83
+Pioneer-master,com.github.baoti.pioneer.ui.common.base,BaseContainerActivity,initContentFragment,Long Statement,The length of the statement "fragmentManager.beginTransaction().setTransition(TRANSITION_INIT_FRAGMENT).add(fragmentContainerId()`contentFragment`TAG_CONTENT_FRAGMENT).commit();" is 148.,48
+Pioneer-master,com.github.baoti.pioneer.ui.common.base,BaseContainerActivity,replaceContentFragment,Long Statement,The length of the statement "FragmentTransaction transaction=fragmentManager.beginTransaction().setTransition(TRANSITION_INIT_FRAGMENT).replace(fragmentContainerId()`contentFragment`TAG_CONTENT_FRAGMENT);" is 175.,66
+Pioneer-master,com.github.baoti.pioneer.ui.news,NewsActivity,addContentFragment,Long Statement,The length of the statement "getSupportFragmentManager().beginTransaction().setTransition(BaseContainerActivity.TRANSITION_INIT_FRAGMENT).add(getSearchFragmentContainerId()`fragment`tag).commit();" is 167.,162
+Pioneer-master,com.github.baoti.pioneer.ui.news,NewsActivity,navigateToDetail,Long Statement,The length of the statement "getSupportFragmentManager().beginTransaction().replace(getSearchFragmentContainerId()`fragment`TAG_FRAG_DETAIL).addToBackStack(null).commit();" is 142.,197
+Pioneer-master,com.github.baoti.pioneer.ui.news,NewsActivity,navigateToDetail,Magic Number,The method contains a magic number: 2,197
+Pioneer-master,com.github.baoti.pioneer.ui.news.detail,NewsDetailFragment,navigateToEdit,Long Statement,The length of the statement "getFragmentManager().beginTransaction().replace(getId()`NewsEditFragment.newInstance(getArguments())`tag).addToBackStack(null).commit();" is 136.,90
+Pioneer-master,com.github.baoti.pioneer.ui.news.list,NewsListFragment,showSnackBar,Long Statement,The length of the statement "Snackbar.make(getView()`text`Snackbar.LENGTH_LONG).setActionTextColor(Color.YELLOW).setAction(actionLabel`actionListener).show();" is 129.,93
+Pioneer-master,com.github.baoti.pioneer.ui.me,MeFragment,showAvatar,Long Statement,The length of the statement "PicassoHelper.load(Picasso.with(getActivity())`avatar).placeholder(R.drawable.avatar).error(R.drawable.avatar).into(this.avatar);" is 129.,153
+Pioneer-master,com.github.baoti.pioneer.ui.main,MainPresenter,fetchPioneerAccount,Long Statement,The length of the statement "accountManager.getAuthTokenByFeatures(ACCOUNT_TYPE`AUTH_TOKEN_TYPE`null`getView().getActivity()`null`null`new AccountManagerCallback<Bundle>(){" is 143.,82
+Pioneer-master,com.github.baoti.pioneer.ui.main,MainFragment,navigateToLogin,Long Statement,The length of the statement "getFragmentManager().beginTransaction().replace(getId()`LoginDialogFragment.newInstance()).addToBackStack("login").commit();" is 124.,116
+Pioneer-master,com.github.baoti.pioneer.ui.main,MainFragment,navigateToOneNews,Magic Number,The method contains a magic number: 1000,150
+Pioneer-master,com.github.baoti.pioneer.ui.main,MainFragment,navigateToMe,Long Statement,The length of the statement "getFragmentManager().beginTransaction().setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).replace(getId()`fragment).addToBackStack(null).commit();" is 153.,154
+Pioneer-master,com.github.baoti.pioneer.ui.login,LoginPresenter,showValidationException,Missing default,The following switch statement is missing a default case: switch (e.kind) {,118
+Pioneer-master,com.github.baoti.pioneer.app.widget,ViewUtils,debounceOnClick,Magic Number,The method contains a magic number: 500,120
+Pioneer-master,com.github.baoti.pioneer.app.widget,ViewUtils,onClick,Magic Number,The method contains a magic number: 500,130
+Pioneer-master,com.github.baoti.pioneer.app.task.compat,AsyncTask,postResult,Long Statement,The length of the statement "@SuppressWarnings("unchecked") Message message=sHandler.obtainMessage(MESSAGE_POST_RESULT`new AsyncTaskResult<Result>(this`result));" is 132.,314
+Pioneer-master,com.github.baoti.pioneer.app.task.compat,AsyncTask,executeOnExecutor,Long Statement,The length of the statement "throw new IllegalStateException("Cannot execute task:" + " the task has already been executed " + "(a task can be executed only once)");" is 136.,536
+Pioneer-master,com.github.baoti.pioneer.app.task,ReportTask,doTask,Magic Number,The method contains a magic number: 3000,38
+Pioneer-master,com.github.baoti.pioneer.app.task,PageTask,loadNextPage,Complex Method,Cyclomatic complexity of the method is 8,107
+Pioneer-master,com.github.baoti.pioneer.app.task,PageTask,storeResources,Magic Number,The method contains a magic number: 2,181
+Pioneer-master,com.github.baoti.pioneer.biz.interactor,AppInteractorImpl,initialize,Magic Number,The method contains a magic number: 3,42
+Pioneer-master,com.github.baoti.pioneer.biz.interactor,AppInteractorImpl,initialize,Magic Number,The method contains a magic number: 5,42
+Pioneer-master,com.github.baoti.pioneer.biz.interactor,AppInteractorImpl,initialize,Magic Number,The method contains a magic number: 7,42
+Pioneer-master,com.github.baoti.pioneer.biz.interactor,AppInteractorImpl,work,Magic Number,The method contains a magic number: 500,57
+Pioneer-master,com.github.baoti.pioneer.biz.interactor,AccountInteractorImpl,changeAvatar,Long Statement,The length of the statement "cachedAccount=new Account(cachedAccount.getAccountId()`cachedAccount.getName()`cachedAccount.getFollowing()`cachedAccount.getFollowers()`imageBean);" is 148.,98
+Pioneer-master,com.github.baoti.pioneer.biz.interactor,ResourcePager,next,Complex Method,Cyclomatic complexity of the method is 8,130
+Pioneer-master,com.github.baoti.pioneer.entity,Account,Account,Long Parameter List,The method has 5 parameters. ,29
+Pioneer-master,com.github.baoti.pioneer.data,DataInitializer,onAppInitializeRequest,Magic Number,The method contains a magic number: 2000,59
+Pioneer-master,com.github.baoti.pioneer.data.api.internal,FakeNewsApiImpl,pageNews,Complex Method,Cyclomatic complexity of the method is 9,47
+Pioneer-master,com.github.baoti.pioneer.data.api.internal,FakeNewsApiImpl,pageNews,Magic Number,The method contains a magic number: 1000,47
+Pioneer-master,com.github.baoti.pioneer.data.api.internal,FakeNewsApiImpl,pageNews,Magic Number,The method contains a magic number: 1000,47
+Pioneer-master,com.github.baoti.authprovider,InfoActivity,auth,Long Statement,The length of the statement "accountManager.getAuthTokenByFeatures(ACCOUNT_TYPE`AUTH_TOKEN_TYPE_PIONEER`new String[]{FEATURE_READ_NEWS}`this`null`null`new AccountManagerCallback<Bundle>(){" is 159.,75
+Pioneer-master,com.github.baoti.authprovider,InfoActivity,auth,Long Statement,The length of the statement "accountManager.addAccount(ACCOUNT_TYPE`AUTH_TOKEN_TYPE_PIONEER`new String[]{FEATURE_READ_NEWS}`null`this`new AccountManagerCallback<Bundle>(){" is 142.,75
+Pioneer-master,com.github.baoti.authprovider,LoginActivity,actionAuthenticate,Long Statement,The length of the statement "return new Intent(context`LoginActivity.class).putExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE`response).putExtra(AuthenticatorActivity.KEY_AUTH_TOKEN_TYPE`authTokenType);" is 182.,64
+Pioneer-master,com.github.baoti.authprovider,LoginActivity,populateAutoComplete,Magic Number,The method contains a magic number: 14,125
+Pioneer-master,com.github.baoti.authprovider,LoginActivity,populateAutoComplete,Magic Number,The method contains a magic number: 8,125
+Pioneer-master,com.github.baoti.authprovider,LoginActivity,isPasswordValid,Magic Number,The method contains a magic number: 4,209
+Pioneer-master,com.github.baoti.authprovider,LoginActivity,onCreateLoader,Long Statement,The length of the statement "return new CursorLoader(this`Uri.withAppendedPath(ContactsContract.Profile.CONTENT_URI`ContactsContract.Contacts.Data.CONTENT_DIRECTORY)`ProfileQuery.PROJECTION`ContactsContract.Contacts.Data.MIMETYPE + " = ?"`new String[]{ContactsContract.CommonDataKinds.Email.CONTENT_ITEM_TYPE}`ContactsContract.Contacts.Data.IS_PRIMARY + " DESC");" is 334.,251
+Pioneer-master,com.github.baoti.authprovider,LoginActivity,addEmailsToAutoComplete,Long Statement,The length of the statement "ArrayAdapter<String> adapter=new ArrayAdapter<String>(LoginActivity.this`android.R.layout.simple_dropdown_item_1line`emailAddressCollection);" is 141.,325
+Pioneer-master,com.github.baoti.authprovider,LoginActivity,getAuthToken,Magic Number,The method contains a magic number: 2,372
+Pioneer-master,com.github.baoti.authprovider,LoginActivity,doInBackground,Magic Number,The method contains a magic number: 2000,390
+Pioneer-master,com.github.baoti.authprovider,UserLoginTask,doInBackground,Magic Number,The method contains a magic number: 2000,390
+Pioneer-master,com.github.baoti.authprovider.accounts,AuthenticatorActivity,actionAuthenticate,Long Statement,The length of the statement "return new Intent(context`AuthenticatorActivity.class).putExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE`response).putExtra(KEY_AUTH_TOKEN_TYPE`authTokenType);" is 168.,39
+Pioneer-master,com.github.baoti.authprovider.accounts,AccountAuthenticator,addAccount,Long Parameter List,The method has 5 parameters. ,53
+Pioneer-master,com.github.baoti.authprovider.accounts,AccountAuthenticator,getOrCreateAuthorization,Magic Number,The method contains a magic number: 2,97

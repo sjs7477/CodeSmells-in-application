@@ -1,0 +1,122 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+38_WGU-Capstone-Project-master,c868.Controllers,AppointmentsByDayOfWeekReportController,populateTable,Long Statement,The length of the statement "appointments.stream().map((appointment) -> appointment.getStart().getDayOfWeek().getDisplayName(TextStyle.FULL`Locale.ENGLISH)).forEachOrdered((type) -> {" is 154.,80
+38_WGU-Capstone-Project-master,c868.Controllers,AppointmentsByDescriptionReportController,AppointmentsByDescriptionReportController,Magic Number,The method contains a magic number: 12,50
+38_WGU-Capstone-Project-master,c868.Controllers,ChangeUserPasswordController,showMainScreen,Empty catch clause,The method has an empty catch block.,108
+38_WGU-Capstone-Project-master,c868.Controllers,DailyAppointmentsReportController,initialize,Long Statement,The length of the statement "ReportStartTimeCol.setCellValueFactory(cellData -> new SimpleObjectProperty(cellData.getValue().getStart().toLocalTime()));" is 123.,51
+38_WGU-Capstone-Project-master,c868.Controllers,DailyAppointmentsReportController,populateTable,Long Statement,The length of the statement "ObservableList<Appointment> appointments=SQLappointment.getAppointmentsInRange(LocalDateTime.of(today`LocalTime.MIDNIGHT)`(LocalDateTime.of(today`LocalTime.MAX)));" is 163.,84
+38_WGU-Capstone-Project-master,c868.Controllers,ManageAppointmentController,ManageAppointmentController,Magic Number,The method contains a magic number: 9,61
+38_WGU-Capstone-Project-master,c868.Controllers,ManageAppointmentController,ManageAppointmentController,Magic Number,The method contains a magic number: 17,61
+38_WGU-Capstone-Project-master,c868.Controllers,ManageAppointmentController,ManageAppointmentController,Magic Number,The method contains a magic number: 30,61
+38_WGU-Capstone-Project-master,c868.Controllers,ManageAppointmentController,handleSave,Complex Conditional,The conditional expression appointmentDate == null || appointmentStart == null || appointmentEnd == null is complex.,119
+38_WGU-Capstone-Project-master,c868.Controllers,ManageAppointmentController,showCalendarScreen,Empty catch clause,The method has an empty catch block.,182
+38_WGU-Capstone-Project-master,c868.Controllers,ManagePatientController,handleAddAddress,Long Parameter List,The method has 5 parameters. ,70
+38_WGU-Capstone-Project-master,c868.Controllers,ManagePatientController,handleEditAddress,Long Parameter List,The method has 6 parameters. ,133
+38_WGU-Capstone-Project-master,c868.Controllers,ManagePatientController,showPatientScreen,Empty catch clause,The method has an empty catch block.,244
+38_WGU-Capstone-Project-master,c868.Controllers,MonthlyCalendarController,getDatePane,Long Statement,The length of the statement "ObservableList<Appointment> filteredAppointments=appointments.stream().filter(a -> a.getStart().toLocalDate().equals(currentDate)).collect(Collectors.toCollection(FXCollections::observableArrayList));" is 200.,42
+38_WGU-Capstone-Project-master,c868.Controllers,MonthlyCalendarController,getDatePane,Long Statement,The length of the statement "listView.getSelectionModel().selectedItemProperty().addListener(( ObservableValue<? extends Appointment> obs` Appointment oldValue` Appointment newValue) -> {" is 158.,42
+38_WGU-Capstone-Project-master,c868.Controllers,MonthlyCalendarController,getMonthOffset,Magic Number,The method contains a magic number: 7,62
+38_WGU-Capstone-Project-master,c868.Controllers,MonthlyCalendarController,setCalendarView,Magic Number,The method contains a magic number: 7,89
+38_WGU-Capstone-Project-master,c868.Controllers,MonthlyCalendarController,setCalendarView,Magic Number,The method contains a magic number: 7,89
+38_WGU-Capstone-Project-master,c868.Controllers,PatientController,initialize,Long Statement,The length of the statement "PatientAddress1Col.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getAddress().getAddress1()));" is 125.,71
+38_WGU-Capstone-Project-master,c868.Controllers,PatientController,initialize,Long Statement,The length of the statement "PatientAddress2Col.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getAddress().getAddress2()));" is 125.,71
+38_WGU-Capstone-Project-master,c868.Controllers,PatientController,initialize,Long Statement,The length of the statement "PatientPostalCodeCol.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getAddress().getPostalCode()));" is 129.,71
+38_WGU-Capstone-Project-master,c868.Controllers,PatientController,initialize,Long Statement,The length of the statement "PatientCityCol.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getAddress().getCity().getCityName()));" is 131.,71
+38_WGU-Capstone-Project-master,c868.Controllers,PatientController,initialize,Long Statement,The length of the statement "PatientStateCol.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getAddress().getCity().getState().getStateName()));" is 144.,71
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,addAddress,Long Statement,The length of the statement "String addAddressQuery=String.join(" "`"INSERT INTO address (addressId` address` address2` cityId` postalCode` phone` createDate` createdBy` lastUpdate` lastUpdateBy)"`"VALUES (?` ?` ?` ?` ?` ?` NOW()` ?` NOW()` ?)");" is 217.,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,addAddress,Magic Number,The method contains a magic number: 2,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,addAddress,Magic Number,The method contains a magic number: 3,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,addAddress,Magic Number,The method contains a magic number: 4,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,addAddress,Magic Number,The method contains a magic number: 5,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,addAddress,Magic Number,The method contains a magic number: 6,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,addAddress,Magic Number,The method contains a magic number: 7,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,addAddress,Magic Number,The method contains a magic number: 8,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,updateAddress,Long Statement,The length of the statement "String updateAddressQuery=String.join(" "`"UPDATE address"`"SET address=?` address2=?` cityId=?` postalCode=?` phone=?` lastUpdate=NOW()` lastUpdateBy=?"`"WHERE addressId = ?");" is 177.,99
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,updateAddress,Magic Number,The method contains a magic number: 2,99
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,updateAddress,Magic Number,The method contains a magic number: 3,99
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,updateAddress,Magic Number,The method contains a magic number: 4,99
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,updateAddress,Magic Number,The method contains a magic number: 5,99
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,updateAddress,Magic Number,The method contains a magic number: 6,99
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddress,updateAddress,Magic Number,The method contains a magic number: 7,99
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Long Statement,The length of the statement "addAppointmentQuery=String.join(" "`"INSERT INTO appointment (appointmentId` patientId` userId` title` description` location` phone` email` start` end` createDate` createdBy` lastUpdate` lastUpdateBy)"`"VALUES (?` ?` ?` ?` ?` ?` ?` ?` ?` ?` ?` ?` ?` ?)");" is 255.,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 2,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 3,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 4,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 5,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 6,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 7,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 8,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 9,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 10,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 11,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 12,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 13,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,addAppointment,Magic Number,The method contains a magic number: 14,47
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getAllAppointments,Long Statement,The length of the statement "String getAppointmentQuery=String.join(" "`"SELECT * FROM appointment AS a"`"JOIN patient AS c"`"ON a.patientId = c.patientId"`"WHERE c.active = 1");" is 149.,88
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getAppointmentsInRange,Long Statement,The length of the statement "String getAppointmentQuery=String.join(" "`"SELECT * FROM appointment AS a"`"JOIN patient AS c"`"ON a.patientId = c.patientId"`"WHERE a.start >= ? AND a.end <= ?"`"AND c.active = 1");" is 183.,131
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getAppointmentsInRange,Magic Number,The method contains a magic number: 2,131
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getOverlappingAppointments,Long Statement,The length of the statement "String getAppointmentQuery=String.join(" "`"SELECT * FROM appointment AS a"`"JOIN patient AS c"`"ON a.patientId = c.patientId"`"WHERE (a.start >= ? AND a.end <= ?)"`"OR (a.start <= ? AND a.end >= ?)"`"OR (a.start BETWEEN ? AND ? OR a.end BETWEEN ? AND ?)"`"AND c.active = 1");" is 276.,182
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getOverlappingAppointments,Magic Number,The method contains a magic number: 2,182
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getOverlappingAppointments,Magic Number,The method contains a magic number: 3,182
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getOverlappingAppointments,Magic Number,The method contains a magic number: 4,182
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getOverlappingAppointments,Magic Number,The method contains a magic number: 5,182
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getOverlappingAppointments,Magic Number,The method contains a magic number: 6,182
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getOverlappingAppointments,Magic Number,The method contains a magic number: 7,182
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,getOverlappingAppointments,Magic Number,The method contains a magic number: 8,182
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Long Statement,The length of the statement "String updateAppointmentQuery=String.join(" "`"UPDATE appointment"`"SET patientId=?` title=?` description=?` location=?` phone=?` email=?` start=?` end=?` lastUpdate=NOW()` lastUpdateBy=?"`"WHERE appointmentId = ?");" is 216.,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 2,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 3,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 4,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 5,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 6,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 7,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 8,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 9,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointment,updateAppointment,Magic Number,The method contains a magic number: 10,256
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,addCity,Long Statement,The length of the statement "String addCityQuery=String.join(" "`"INSERT INTO city (cityId` city` stateId` createDate` createdBy` lastUpdate` lastUpdateBy)"`"VALUES (?` ?` ?` NOW()` ?` NOW()` ?)");" is 168.,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,addCity,Magic Number,The method contains a magic number: 2,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,addCity,Magic Number,The method contains a magic number: 3,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,addCity,Magic Number,The method contains a magic number: 4,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,addCity,Magic Number,The method contains a magic number: 5,41
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,updateCity,Long Statement,The length of the statement "String updateCityQuery=String.join(" "`"UPDATE city SET city=?` stateId=?` lastUpdate=NOW()` lastUpdateBy=?"`"WHERE cityId = ?");" is 129.,94
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,updateCity,Magic Number,The method contains a magic number: 2,94
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,updateCity,Magic Number,The method contains a magic number: 3,94
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCity,updateCity,Magic Number,The method contains a magic number: 4,94
+38_WGU-Capstone-Project-master,c868.DAOs,SQLLogin,login,Magic Number,The method contains a magic number: 2,50
+38_WGU-Capstone-Project-master,c868.DAOs,SQLLogin,updateUser,Magic Number,The method contains a magic number: 2,79
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,addPatient,Long Statement,The length of the statement "String addPatientQuery=String.join(" "`"INSERT INTO patient (patientId` patientName` addressId` active` createDate` createdBy` lastUpdate` lastUpdateBy)"`"VALUES (?` ?` ?` 1` NOW()` ?` NOW()` ?)");" is 197.,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,addPatient,Magic Number,The method contains a magic number: 2,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,addPatient,Magic Number,The method contains a magic number: 3,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,addPatient,Magic Number,The method contains a magic number: 4,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,addPatient,Magic Number,The method contains a magic number: 5,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,updatePatient,Long Statement,The length of the statement "String updatePatientQuery=String.join(" "`"UPDATE patient"`"SET patientName=?` addressId=?` lastUpdate=NOW()` lastUpdateBy=?"`"WHERE patientId = ?");" is 149.,145
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,updatePatient,Magic Number,The method contains a magic number: 2,145
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,updatePatient,Magic Number,The method contains a magic number: 3,145
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatient,updatePatient,Magic Number,The method contains a magic number: 4,145
+38_WGU-Capstone-Project-master,c868.DAOs,SQLState,addState,Long Statement,The length of the statement "String addStateQuery=String.join(" "`"INSERT INTO state (stateId` state` createDate` createdBy` lastUpdate` lastUpdateBy)"`"VALUES (?` ?` NOW()` ?` NOW()` ?)");" is 160.,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLState,addState,Magic Number,The method contains a magic number: 2,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLState,addState,Magic Number,The method contains a magic number: 3,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLState,addState,Magic Number,The method contains a magic number: 4,46
+38_WGU-Capstone-Project-master,c868.DAOs,SQLState,updateState,Long Statement,The length of the statement "String updateStateQuery=String.join(" "`"UPDATE state SET state=?` lastUpdate=NOW()` lastUpdateBy=?"`"WHERE stateId = ?");" is 122.,96
+38_WGU-Capstone-Project-master,c868.DAOs,SQLState,updateState,Magic Number,The method contains a magic number: 2,96
+38_WGU-Capstone-Project-master,c868.DAOs,SQLState,updateState,Magic Number,The method contains a magic number: 3,96
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAddressTest,setUp,Empty catch clause,The method has an empty catch block.,30
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,setUp,Empty catch clause,The method has an empty catch block.,33
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,testGetAppointmentsInRange,Magic Number,The method contains a magic number: 2020,84
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,testGetAppointmentsInRange,Magic Number,The method contains a magic number: 2020,84
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,testGetAppointmentsInRange,Magic Number,The method contains a magic number: 12,84
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,testGetAppointmentsInRange,Magic Number,The method contains a magic number: 31,84
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,testGetOverlappingAppointments,Magic Number,The method contains a magic number: 2020,100
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,testGetOverlappingAppointments,Magic Number,The method contains a magic number: 2020,100
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,testGetOverlappingAppointments,Magic Number,The method contains a magic number: 12,100
+38_WGU-Capstone-Project-master,c868.DAOs,SQLAppointmentTest,testGetOverlappingAppointments,Magic Number,The method contains a magic number: 31,100
+38_WGU-Capstone-Project-master,c868.DAOs,SQLCityTest,setUp,Empty catch clause,The method has an empty catch block.,29
+38_WGU-Capstone-Project-master,c868.DAOs,SQLLoginTest,setUp,Empty catch clause,The method has an empty catch block.,34
+38_WGU-Capstone-Project-master,c868.DAOs,SQLLoginTest,testGetAllUsers,Magic Number,The method contains a magic number: 2,44
+38_WGU-Capstone-Project-master,c868.DAOs,SQLLoginTest,testUpdateUser,Magic Number,The method contains a magic number: 2,73
+38_WGU-Capstone-Project-master,c868.DAOs,SQLPatientTest,setUp,Empty catch clause,The method has an empty catch block.,29
+38_WGU-Capstone-Project-master,c868.DAOs,SQLStateTest,setUp,Empty catch clause,The method has an empty catch block.,29
+38_WGU-Capstone-Project-master,c868.Models,Appointment,seedAppointment,Magic Number,The method contains a magic number: 30,110
+38_WGU-Capstone-Project-master,c868.Models,Appointment,validateTime,Magic Number,The method contains a magic number: 9,128
+38_WGU-Capstone-Project-master,c868.Models,Appointment,validateTime,Magic Number,The method contains a magic number: 17,128
+38_WGU-Capstone-Project-master,c868.Models,Appointment,validate,Magic Number,The method contains a magic number: 30,144
+38_WGU-Capstone-Project-master,c868.Models,Patient,lookupPatient,Long Statement,The length of the statement "if (p.getPatientName().equals(name) || (Integer.toString(p.getPatientId()) == null ? name == null : Integer.toString(p.getPatientId()).equals(name))) {" is 151.,72

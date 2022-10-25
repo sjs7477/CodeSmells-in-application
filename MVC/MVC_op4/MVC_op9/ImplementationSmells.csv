@@ -1,0 +1,132 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getNumColumnsCompatible,Long Statement,The length of the statement "throw new RuntimeException("Can not determine the mNumColumns for this API platform` please call setNumColumns to set it.");" is 124.,263
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getNumColumnsCompatible,Magic Number,The method contains a magic number: 11,263
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getNumColumnsCompatible,Magic Number,The method contains a magic number: 11,263
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getColumnWidthCompatible,Magic Number,The method contains a magic number: 16,281
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getColumnWidthCompatible,Magic Number,The method contains a magic number: 16,281
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getVerticalSpacing,Empty catch clause,The method has an empty catch block.,316
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getHorizontalSpacing,Empty catch clause,The method has an empty catch block.,336
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getRowHeight,Magic Number,The method contains a magic number: 2,356
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,tryToScrollToBottomSmoothly,Magic Number,The method contains a magic number: 11,384
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,tryToScrollToBottomSmoothly,Magic Number,The method contains a magic number: 11,384
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,tryToScrollToBottomSmoothly,Magic Number,The method contains a magic number: 11,394
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,tryToScrollToBottomSmoothly,Magic Number,The method contains a magic number: 11,394
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,onLayout,Long Parameter List,The method has 5 parameters. ,438
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,onMeasure,Long Statement,The length of the statement "int targetWidth=GridViewWithHeaderAndFooter.this.getMeasuredWidth() - GridViewWithHeaderAndFooter.this.getPaddingLeft() - GridViewWithHeaderAndFooter.this.getPaddingRight();" is 173.,448
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getView,Complex Method,Cyclomatic complexity of the method is 12,680
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getItemViewType,Complex Conditional,The conditional expression footerPosition >= 0 && footerPosition < getCount() && (footerPosition % mNumColumns) != 0 is complex.,742
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getItemViewType,Complex Method,Cyclomatic complexity of the method is 13,742
+MVCHelper-master,in.srain.cube.views,GridViewWithHeaderAndFooter,getItemViewType,Long Statement,The length of the statement "Log.d(LOG_TAG`String.format("getItemViewType: pos: %s` result: %s"`position`type`mCachePlaceHoldView`mCacheFirstHeaderView));" is 125.,742
+MVCHelper-master,in.srain.cube.views,FullWidthFixedViewLayout,onLayout,Long Parameter List,The method has 5 parameters. ,438
+MVCHelper-master,in.srain.cube.views,FullWidthFixedViewLayout,onMeasure,Long Statement,The length of the statement "int targetWidth=GridViewWithHeaderAndFooter.this.getMeasuredWidth() - GridViewWithHeaderAndFooter.this.getPaddingLeft() - GridViewWithHeaderAndFooter.this.getPaddingRight();" is 173.,448
+MVCHelper-master,in.srain.cube.views,HeaderViewGridAdapter,getView,Complex Method,Cyclomatic complexity of the method is 12,680
+MVCHelper-master,in.srain.cube.views,HeaderViewGridAdapter,getItemViewType,Complex Conditional,The conditional expression footerPosition >= 0 && footerPosition < getCount() && (footerPosition % mNumColumns) != 0 is complex.,742
+MVCHelper-master,in.srain.cube.views,HeaderViewGridAdapter,getItemViewType,Complex Method,Cyclomatic complexity of the method is 13,742
+MVCHelper-master,in.srain.cube.views,HeaderViewGridAdapter,getItemViewType,Long Statement,The length of the statement "Log.d(LOG_TAG`String.format("getItemViewType: pos: %s` result: %s"`position`type`mCachePlaceHoldView`mCacheFirstHeaderView));" is 125.,742
+MVCHelper-master,com.shizhefei.test.models.datasource,SearchBookDataSource,loadBooks,Magic Number,The method contains a magic number: 1000,46
+MVCHelper-master,com.shizhefei.test.models.datasource,SearchBookDataSource,loadBooks,Magic Number,The method contains a magic number: 20,46
+MVCHelper-master,com.shizhefei.test.models.datasource,SearchBookDataSource,loadBooks,Magic Number,The method contains a magic number: 108.00d,46
+MVCHelper-master,com.shizhefei.test.models.datasource,BookDetailDataSource,refresh,Long Statement,The length of the statement "String description="如果说“四人帮”的《设计模式》是设计模式领域的“圣经”，那么之后出版的各种关于设计模式的书都可称之为“圣经”的“注释版”或“圣经的故事”。《设计模式之禅》是得道者对“圣经”的“禅悟”，它既不像“圣经”那样因为惜字如金、字字珠玑而深奥、晦涩和难懂，又比“圣经”的“注释版”更深刻和全面、更通俗和生动、更接近开发者遇到的实践场景，更具指导性";" is 190.,24
+MVCHelper-master,com.shizhefei.test.models.datasource,BookDetailDataSource,refresh,Magic Number,The method contains a magic number: 300,24
+MVCHelper-master,com.shizhefei.test.models.datasource,BookDetailDataSource,refresh,Magic Number,The method contains a magic number: 12.00,24
+MVCHelper-master,com.shizhefei.test.models.datasource,BooksDataSource,loadCache,Magic Number,The method contains a magic number: 10,30
+MVCHelper-master,com.shizhefei.test.models.datasource,BooksDataSource,loadCache,Magic Number,The method contains a magic number: 108.00d,30
+MVCHelper-master,com.shizhefei.test.models.datasource,BooksDataSource,loadBooks,Magic Number,The method contains a magic number: 1000,62
+MVCHelper-master,com.shizhefei.test.models.datasource,BooksDataSource,loadBooks,Magic Number,The method contains a magic number: 20,62
+MVCHelper-master,com.shizhefei.test.models.datasource,BooksDataSource,loadBooks,Magic Number,The method contains a magic number: 108.00d,62
+MVCHelper-master,com.shizhefei.test.models.datasource,MoviesDataSource,hasMore,Magic Number,The method contains a magic number: 5,27
+MVCHelper-master,com.shizhefei.test.models.datasource,MoviesDataSource,load,Magic Number,The method contains a magic number: 300,32
+MVCHelper-master,com.shizhefei.test.models.datasource,MoviesDataSource,load,Magic Number,The method contains a magic number: 20,32
+MVCHelper-master,com.shizhefei.test.models.datasource,MoviesDataSource,load,Magic Number,The method contains a magic number: 20,32
+MVCHelper-master,com.shizhefei.test.models.datasource,MyDataSource,refresh,Magic Number,The method contains a magic number: 1000,13
+MVCHelper-master,com.shizhefei.test.models.datasource,MyDataSource,loadMore,Magic Number,The method contains a magic number: 20,35
+MVCHelper-master,com.shizhefei.test.models.datasource,MyDataSource,loadMore,Magic Number,The method contains a magic number: 100,35
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttpNormal_DataSource,loadBooks,Magic Number,The method contains a magic number: 15,46
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttpNormal_DataSource,loadBooks,Magic Number,The method contains a magic number: 108.00d,46
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttpNormal_DataSource,onResponse,Magic Number,The method contains a magic number: 15,62
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttpNormal_DataSource,onResponse,Magic Number,The method contains a magic number: 108.00d,62
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_AsyncDataSource,loadBooks,Magic Number,The method contains a magic number: 2000,37
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_AsyncDataSource,loadBooks,Magic Number,The method contains a magic number: 15,37
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_AsyncDataSource,loadBooks,Magic Number,The method contains a magic number: 108.00d,37
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_AsyncDataSource,parse,Magic Number,The method contains a magic number: 2000,42
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_AsyncDataSource,parse,Magic Number,The method contains a magic number: 15,42
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_AsyncDataSource,parse,Magic Number,The method contains a magic number: 108.00d,42
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_SyncDataSource,loadBooks,Magic Number,The method contains a magic number: 1000,35
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_SyncDataSource,loadBooks,Magic Number,The method contains a magic number: 15,35
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_SyncDataSource,loadBooks,Magic Number,The method contains a magic number: 108.00d,35
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_SyncDataSource,parse,Magic Number,The method contains a magic number: 1000,40
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_SyncDataSource,parse,Magic Number,The method contains a magic number: 15,40
+MVCHelper-master,com.shizhefei.test.models.datasource.okhttp,BooksOkHttp_SyncDataSource,parse,Magic Number,The method contains a magic number: 108.00d,40
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask2,execute,Magic Number,The method contains a magic number: 2000,26
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask2,execute,Magic Number,The method contains a magic number: 100,26
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask2,execute,Magic Number,The method contains a magic number: 1000,26
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask2,execute,Magic Number,The method contains a magic number: 10,26
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask2,doInBackground,Magic Number,The method contains a magic number: 2000,30
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask2,doInBackground,Magic Number,The method contains a magic number: 100,30
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask2,doInBackground,Magic Number,The method contains a magic number: 1000,30
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask2,doInBackground,Magic Number,The method contains a magic number: 10,30
+MVCHelper-master,com.shizhefei.test.models.task,LoginTask,execute,Magic Number,The method contains a magic number: 300,21
+MVCHelper-master,com.shizhefei.test.models.task,LoginTask,execute,Magic Number,The method contains a magic number: 23,21
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask,execute,Magic Number,The method contains a magic number: 2000,22
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask,execute,Magic Number,The method contains a magic number: 100,22
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask,execute,Magic Number,The method contains a magic number: 1000,22
+MVCHelper-master,com.shizhefei.test.models.task,MovieAmountTask,execute,Magic Number,The method contains a magic number: 10,22
+MVCHelper-master,com.shizhefei.test.models.enties,Shop,Shop,Long Parameter List,The method has 6 parameters. ,17
+MVCHelper-master,com.shizhefei.test.models.enties,Book,Book,Long Parameter List,The method has 5 parameters. ,35
+MVCHelper-master,com.shizhefei.test.view.adapters,MovieDetailAdapter,onCreateViewHolder,Missing default,The following switch statement is missing a default case: switch (viewType) {,47
+MVCHelper-master,com.shizhefei.test.view.adapters,MovieDetailAdapter,onBindViewHolder,Missing default,The following switch statement is missing a default case: switch (getItemViewType(position)) {,65
+MVCHelper-master,com.shizhefei.test.view.adapters,MoviesAdapter,setData,Long Statement,The length of the statement "@Override public boolean isUsefulCacheData( Object taskOrDataSource` long requestTime` long saveTime` MovieAmount movieAmount){" is 127.,50
+MVCHelper-master,com.shizhefei.test.view.adapters,MoviesAdapter,setData,Magic Number,The method contains a magic number: 10000,50
+MVCHelper-master,com.shizhefei.test.view.adapters,ItemViewHolder,setData,Long Statement,The length of the statement "@Override public boolean isUsefulCacheData( Object taskOrDataSource` long requestTime` long saveTime` MovieAmount movieAmount){" is 127.,50
+MVCHelper-master,com.shizhefei.test.view.adapters,ItemViewHolder,setData,Magic Number,The method contains a magic number: 10000,50
+MVCHelper-master,com.shizhefei.test.view.callback,CallbackTextView,onProgress,Long Parameter List,The method has 5 parameters. ,34
+MVCHelper-master,com.shizhefei.test.view.callback,UploadCallback,onProgress,Long Parameter List,The method has 5 parameters. ,52
+MVCHelper-master,com.shizhefei.test.view.callback,UploadCallback,onPostExecute,Missing default,The following switch statement is missing a default case: switch (code) {,57
+MVCHelper-master,com.shizhefei.test.controllers.other,MultiTypeActivity,onCreate,Long Statement,The length of the statement "factory.registerProvider(Message.class`new ItemViewProviderSet<Message>(new MessageProvider(MessageProvider.ALIGN_LEFT)`new MessageProvider(MessageProvider.ALIGN_RIGHT)){" is 170.,35
+MVCHelper-master,com.shizhefei.test.controllers,ProxyActivity,onCreate,Long Statement,The length of the statement "@SuppressWarnings("unchecked") Class<Fragment> fragmentClass=(Class<Fragment>)Class.forName(getIntent().getStringExtra(INTENT_STRING_FRAGMENT_NAME));" is 149.,26
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers,CoolActivity,onCreate,Long Statement,The length of the statement "Class[] fragments={StateHeaderFragment.class`JellyHeaderFragment.class`MaterialHeaderFragment.class`PinContentMaterialHeaderFragment.class};" is 140.,28
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers,CoolActivity,onCreate,Magic Number,The method contains a magic number: 3,28
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers,CoolActivity,onCreate,Magic Number,The method contains a magic number: 2,28
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers,UltraActivity,onCreate,Magic Number,The method contains a magic number: 2,46
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers,UltraActivity,onCreate,Magic Number,The method contains a magic number: 15,46
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers,UltraActivity,onCreate,Magic Number,The method contains a magic number: 10,46
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers,UltraActivity,onCreate,Magic Number,The method contains a magic number: 800,46
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers,UltraActivity,onCreate,Magic Number,The method contains a magic number: 800,46
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers.cool,StateHeaderFragment,onCreateViewLazy,Magic Number,The method contains a magic number: 5,30
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers.cool,StateHeaderFragment,onCreateViewLazy,Magic Number,The method contains a magic number: 5,30
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers.cool,StateHeaderFragment,notifyDataChanged,Magic Number,The method contains a magic number: 5,45
+MVCHelper-master,com.shizhefei.test.controllers.mvchelpers.cool,StateHeaderFragment,notifyDataChanged,Magic Number,The method contains a magic number: 5,45
+MVCHelper-master,com.shizhefei.test.controllers.task,ListTaskActivity,onCreate,Magic Number,The method contains a magic number: 200,54
+MVCHelper-master,com.shizhefei.test.controllers.task,ListTaskActivity,onProgress,Long Parameter List,The method has 5 parameters. ,72
+MVCHelper-master,com.shizhefei.utils,HttpUtils,executeGet,Magic Number,The method contains a magic number: 1024,27
+MVCHelper-master,com.shizhefei.utils,HttpUtils,executeGet,Magic Number,The method contains a magic number: 4,27
+MVCHelper-master,com.shizhefei.utils,HttpUtils,executeGet,Magic Number,The method contains a magic number: 1024,27
+MVCHelper-master,com.shizhefei.utils,HttpUtils,executeGetInputStream,Magic Number,The method contains a magic number: 200,49
+MVCHelper-master,com.shizhefei.utils,HttpUtils,executeGetInputStream,Magic Number,The method contains a magic number: 299,49
+MVCHelper-master,com.shizhefei.utils,HttpUtils,executeGetInputStream,Magic Number,The method contains a magic number: 302,49
+MVCHelper-master,com.shizhefei.utils,NetworkUtils,hasNetwork,Long Statement,The length of the statement "ConnectivityManager localConnectivityManager=(ConnectivityManager)paramContext.getSystemService(Context.CONNECTIVITY_SERVICE);" is 126.,23
+MVCHelper-master,com.shizhefei.mvc,MVCUltraHelper,showRefreshing,Magic Number,The method contains a magic number: 150,63
+MVCHelper-master,com.shizhefei.mvc,MVCUltraHelper,canChildScrollUp,Long Statement,The length of the statement "return absListView.getChildCount() > 0 && (absListView.getFirstVisiblePosition() > 0 || absListView.getChildAt(0).getTop() < absListView.getPaddingTop());" is 154.,91
+MVCHelper-master,com.shizhefei.mvc,MVCUltraHelper,canChildScrollUp,Magic Number,The method contains a magic number: 14,91
+MVCHelper-master,com.shizhefei.mvc,RefreshView,showRefreshing,Magic Number,The method contains a magic number: 150,63
+MVCHelper-master,com.shizhefei.mvc,MVCHelper,loadMore,Complex Method,Cyclomatic complexity of the method is 8,266
+MVCHelper-master,com.shizhefei.mvc,MVCHelper,onPostExecute,Complex Method,Cyclomatic complexity of the method is 10,356
+MVCHelper-master,com.shizhefei.mvc,MVCHelper,onPostExecute,Complex Method,Cyclomatic complexity of the method is 10,412
+MVCHelper-master,com.shizhefei.mvc,MVCHelper,onScorllBootom,Complex Conditional,The conditional expression autoLoadMore && hasMoreData && !isLoading() is complex.,592
+MVCHelper-master,com.shizhefei.mvc.imp,DefaultLoadViewFactory,init,Magic Number,The method contains a magic number: 16,51
+MVCHelper-master,com.shizhefei.mvc.imp,DefaultLoadViewFactory,init,Magic Number,The method contains a magic number: 16,51
+MVCHelper-master,com.shizhefei.mvc.imp,DefaultLoadViewFactory,showLoading,Magic Number,The method contains a magic number: 12,110
+MVCHelper-master,com.shizhefei.mvc.imp,DefaultLoadViewFactory,showFail,Magic Number,The method contains a magic number: 12,137
+MVCHelper-master,com.shizhefei.mvc.imp,DefaultLoadViewFactory,showEmpty,Magic Number,The method contains a magic number: 12,161
+MVCHelper-master,com.shizhefei.mvc.imp,DefaultLoadViewFactory,dip2px,Magic Number,The method contains a magic number: 0.5f,187
+MVCHelper-master,com.shizhefei.mvc.imp,LoadMoreHelper,init,Magic Number,The method contains a magic number: 16,51
+MVCHelper-master,com.shizhefei.mvc.imp,LoadMoreHelper,init,Magic Number,The method contains a magic number: 16,51
+MVCHelper-master,com.shizhefei.mvc.imp,LoadViewHelper,showLoading,Magic Number,The method contains a magic number: 12,110
+MVCHelper-master,com.shizhefei.mvc.imp,LoadViewHelper,showFail,Magic Number,The method contains a magic number: 12,137
+MVCHelper-master,com.shizhefei.mvc.imp,LoadViewHelper,showEmpty,Magic Number,The method contains a magic number: 12,161
+MVCHelper-master,com.shizhefei.mvc.viewhandler,RecyclerViewHandler,onScrollStateChanged,Complex Conditional,The conditional expression (endY >= 0 && endY < startY) && isScollBottom(recyclerView) is complex.,58
+MVCHelper-master,com.shizhefei.mvc.viewhandler,RecyclerViewHandler,isCanScollVertically,Magic Number,The method contains a magic number: 14,75
+MVCHelper-master,com.shizhefei.mvc.viewhandler,RecyclerViewOnScrollListener,onScrollStateChanged,Complex Conditional,The conditional expression (endY >= 0 && endY < startY) && isScollBottom(recyclerView) is complex.,58
+MVCHelper-master,com.shizhefei.mvc.viewhandler,RecyclerViewOnScrollListener,isCanScollVertically,Magic Number,The method contains a magic number: 14,75
+MVCHelper-master,com.shizhefei.recyclerview,HFAdapter,onCreateViewHolder,Long Statement,The length of the statement "frameLayout.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 129.,95
+MVCHelper-master,com.shizhefei.recyclerview,HFAdapter,prepareHeaderFooter,Long Statement,The length of the statement "StaggeredGridLayoutManager.LayoutParams layoutParams=new StaggeredGridLayoutManager.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 170.,157

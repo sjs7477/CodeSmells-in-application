@@ -1,0 +1,21 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+24_BeatBox1-master,com.test.beans,SubscriptionPlan,SubscriptionPlan,Long Parameter List,The method has 5 parameters. ,10
+24_BeatBox1-master,com.test.beans,TrackDetails,TrackDetails,Magic Number,The method contains a magic number: 3,17
+24_BeatBox1-master,com.test.beans,User,User,Long Parameter List,The method has 8 parameters. ,13
+24_BeatBox1-master,com.test.dao,ApplicationDao,registerUser,Long Statement,The length of the statement "String insertQuery="insert into users ( Email` Password` firstname ` lastname` dob` gender` about`user_img) values(?`?`?`?`?`?`?`?)";" is 133.,108
+24_BeatBox1-master,com.test.dao,ApplicationDao,registerUser,Magic Number,The method contains a magic number: 2,108
+24_BeatBox1-master,com.test.dao,ApplicationDao,registerUser,Magic Number,The method contains a magic number: 3,108
+24_BeatBox1-master,com.test.dao,ApplicationDao,registerUser,Magic Number,The method contains a magic number: 4,108
+24_BeatBox1-master,com.test.dao,ApplicationDao,registerUser,Magic Number,The method contains a magic number: 5,108
+24_BeatBox1-master,com.test.dao,ApplicationDao,registerUser,Magic Number,The method contains a magic number: 6,108
+24_BeatBox1-master,com.test.dao,ApplicationDao,registerUser,Magic Number,The method contains a magic number: 7,108
+24_BeatBox1-master,com.test.dao,ApplicationDao,registerUser,Magic Number,The method contains a magic number: 8,108
+24_BeatBox1-master,com.test.dao,ApplicationDao,validateUser,Magic Number,The method contains a magic number: 2,140
+24_BeatBox1-master,com.test.dao,ApplicationDao,getTrackDetails,Complex Method,Cyclomatic complexity of the method is 8,163
+24_BeatBox1-master,com.test.dao,ApplicationDao,getTrackDetails,Magic Number,The method contains a magic number: 2,163
+24_BeatBox1-master,com.test.dao,ApplicationDao,getTracksByCategory,Long Statement,The length of the statement "String sql="select * from Tracks where album_id in ( select album_id from albums where category1 like '%" + category + "%' or category2 = '%"+ category+ "%')";" is 159.,410
+24_BeatBox1-master,com.test.dao,ApplicationDao,createPlaylist,Long Statement,The length of the statement "String query="insert into playlist ( playlist_name` user_id) values ('" + playlistName + "'` (select User_ID from users where email ='"+ email+ "'))";" is 150.,487
+24_BeatBox1-master,com.test.dao,ApplicationDao,viewPlaylists,Long Statement,The length of the statement "String query="Select playlist_id` playlist_name from playlist`users where playlist.User_Id=users.user_id and users.email='" + email + "'";" is 138.,503
+24_BeatBox1-master,com.test.dao,ApplicationDao,viewPlaylistTracks,Long Statement,The length of the statement "String query="select * From tracks where track_id in ( select track_id from playlisttracks where Playlist_Id=" + PlaylistId + ")";" is 130.,561
+24_BeatBox1-master,com.test.dao,ApplicationDao,validateDownloadPermission,Long Statement,The length of the statement "String query="select downloadCount` songs_offered from users` subscriptionplan where users.email='" + email + "' and users.Subscription_Id=subscriptionplan.subscription_id";" is 173.,587
+24_BeatBox1-master,com.test.servlets,UploadServlet,getFileName,Magic Number,The method contains a magic number: 2,59

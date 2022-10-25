@@ -1,0 +1,744 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+mvp44_MvpApp-master,com.dl7.mvp,AndroidApplication,AndroidApplication,Long Parameter List,The method has 6 parameters. ,57
+mvp44_MvpApp-master,com.dl7.mvp,AndroidApplication,AndroidApplication,Long Statement,The length of the statement "super(application`tinkerFlags`tinkerLoadVerifyFlag`applicationStartElapsedTime`applicationStartMillisTime`tinkerResultIntent);" is 126.,57
+mvp44_MvpApp-master,com.dl7.mvp,AndroidApplication,_initInjector,Long Statement,The length of the statement "sAppComponent=DaggerApplicationComponent.builder().applicationModule(new ApplicationModule(this`mDaoSession`mRxBus)).build();" is 125.,114
+mvp44_MvpApp-master,com.dl7.mvp,AndroidApplication,_initConfig,Long Statement,The length of the statement "DownloadConfig config=new DownloadConfig.Builder().setDownloadDir(PreferencesUtils.getSavePath(getApplication()) + File.separator + "video/").build();" is 150.,135
+mvp44_MvpApp-master,com.dl7.mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+mvp44_MvpApp-master,com.dl7.mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+mvp44_MvpApp-master,com.dl7.mvp,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+mvp44_MvpApp-master,com.dl7.mvp.adapter,BeautyPhotosAdapter,BeautyPhotosAdapter,Magic Number,The method contains a magic number: 2,37
+mvp44_MvpApp-master,com.dl7.mvp.adapter,NewsMultiListAdapter,_handleNewsNormal,Long Statement,The length of the statement "holder.setText(R.id.tv_title`item.getTitle()).setText(R.id.tv_source`StringUtils.clipNewsSource(item.getSource())).setText(R.id.tv_time`item.getPtime());" is 153.,57
+mvp44_MvpApp-master,com.dl7.mvp.adapter,NewsMultiListAdapter,_handleNewsPhotoSet,Long Statement,The length of the statement "ImageLoader.loadCenterCrop(mContext`item.getImgextra().get(i).getImgsrc()`newsPhoto[i + 1]`DefIconFactory.provideIcon());" is 121.,93
+mvp44_MvpApp-master,com.dl7.mvp.adapter,NewsMultiListAdapter,_handleNewsPhotoSet,Long Statement,The length of the statement "holder.setText(R.id.tv_title`item.getTitle()).setText(R.id.tv_source`StringUtils.clipNewsSource(item.getSource())).setText(R.id.tv_time`item.getPtime());" is 153.,93
+mvp44_MvpApp-master,com.dl7.mvp.adapter,NewsMultiListAdapter,_handleNewsPhotoSet,Magic Number,The method contains a magic number: 3,93
+mvp44_MvpApp-master,com.dl7.mvp.adapter,NewsMultiListAdapter,_handleNewsPhotoSet,Magic Number,The method contains a magic number: 2,93
+mvp44_MvpApp-master,com.dl7.mvp.adapter,NewsMultiListAdapter,_handleNewsPhotoSet,Magic Number,The method contains a magic number: 2,93
+mvp44_MvpApp-master,com.dl7.mvp.adapter,PhotoListAdapter,convert,Magic Number,The method contains a magic number: 2,39
+mvp44_MvpApp-master,com.dl7.mvp.adapter,PhotoPagerAdapter,instantiateItem,Long Statement,The length of the statement "@Override public boolean onResourceReady( GlideDrawable resource` String model` Target<GlideDrawable> target` boolean isFromMemoryCache` boolean isFirstResource){" is 162.,70
+mvp44_MvpApp-master,com.dl7.mvp.adapter,PhotoPagerAdapter,onResourceReady,Long Parameter List,The method has 5 parameters. ,92
+mvp44_MvpApp-master,com.dl7.mvp.adapter,PhotoSetAdapter,instantiateItem,Long Statement,The length of the statement "@Override public boolean onResourceReady( GlideDrawable resource` String model` Target<GlideDrawable> target` boolean isFromMemoryCache` boolean isFirstResource){" is 162.,49
+mvp44_MvpApp-master,com.dl7.mvp.adapter,PhotoSetAdapter,onResourceReady,Long Parameter List,The method has 5 parameters. ,64
+mvp44_MvpApp-master,com.dl7.mvp.adapter,RelatedNewsAdapter,convert,Long Statement,The length of the statement "holder.setText(R.id.tv_title`item.getTitle()).setText(R.id.tv_source`StringUtils.clipNewsSource(item.getSource())).setText(R.id.tv_time`item.getPtime());" is 153.,37
+mvp44_MvpApp-master,com.dl7.mvp.adapter,SlideInBottomAdapter,onViewAttachedToWindow,Complex Conditional,The conditional expression type == EMPTY_VIEW || type == HEADER_VIEW || type == FOOTER_VIEW || type == LOADING_VIEW is complex.,32
+mvp44_MvpApp-master,com.dl7.mvp.adapter,SlideInBottomAdapter,_setFullSpan,Long Statement,The length of the statement "StaggeredGridLayoutManager.LayoutParams params=(StaggeredGridLayoutManager.LayoutParams)holder.itemView.getLayoutParams();" is 122.,48
+mvp44_MvpApp-master,com.dl7.mvp.adapter,SlideInBottomAdapter,onAttachedToRecyclerView,Long Statement,The length of the statement "return (type == EMPTY_VIEW || type == HEADER_VIEW || type == FOOTER_VIEW || type == LOADING_VIEW) ? gridManager.getSpanCount() : 1;" is 131.,63
+mvp44_MvpApp-master,com.dl7.mvp.adapter,SlideInBottomAdapter,getSpanSize,Long Statement,The length of the statement "return (type == EMPTY_VIEW || type == HEADER_VIEW || type == FOOTER_VIEW || type == LOADING_VIEW) ? gridManager.getSpanCount() : 1;" is 131.,70
+mvp44_MvpApp-master,com.dl7.mvp.adapter,SpecialAdapter,convert,Long Statement,The length of the statement "holder.setText(R.id.tv_title`item.t.getTitle()).setText(R.id.tv_source`StringUtils.clipNewsSource(item.t.getSource())).setText(R.id.tv_time`item.t.getPtime());" is 159.,53
+mvp44_MvpApp-master,com.dl7.mvp.adapter,VideoCacheAdapter,_switchViews,Complex Method,Cyclomatic complexity of the method is 8,80
+mvp44_MvpApp-master,com.dl7.mvp.adapter,VideoCacheAdapter,_switchViews,Long Statement,The length of the statement "holder.setVisible(R.id.pb_download`true).setSelected(R.id.btn_download`true).setText(R.id.tv_total_size`StringUtils.convertStorageNoB(item.getTotalSize())).setTextColor(R.id.tv_speed`ContextCompat.getColor(mContext`R.color.download_normal));" is 241.,80
+mvp44_MvpApp-master,com.dl7.mvp.adapter,VideoCacheAdapter,_switchViews,Long Statement,The length of the statement "holder.setText(R.id.tv_load_size`StringUtils.convertStorageNoB(item.getLoadedSize()) + "/").setText(R.id.tv_speed`StringUtils.convertStorageNoB(item.getDownloadSpeed()) + "/s");" is 177.,80
+mvp44_MvpApp-master,com.dl7.mvp.adapter,VideoCacheAdapter,_switchViews,Long Statement,The length of the statement "holder.setVisible(R.id.pb_download`false).setSelected(R.id.btn_download`false).setText(R.id.tv_speed`"ä¸‹è½½æš‚å?œ").setTextColor(R.id.tv_speed`ContextCompat.getColor(mContext`R.color.download_stop));" is 200.,80
+mvp44_MvpApp-master,com.dl7.mvp.adapter,VideoCacheAdapter,_switchViews,Long Statement,The length of the statement "holder.setText(R.id.tv_speed`"å¼‚å¸¸å‡ºé”™ï¼Œè¯·é‡?æ–°ä¸‹è½½").setVisible(R.id.pb_download`false).setSelected(R.id.btn_download`false).setTextColor(R.id.tv_speed`ContextCompat.getColor(mContext`R.color.download_error));" is 219.,80
+mvp44_MvpApp-master,com.dl7.mvp.adapter,VideoCacheAdapter,_handleClick,Long Statement,The length of the statement "holder.setText(R.id.tv_speed`"å¤„ç?†ä¸­...").setTextColor(R.id.tv_speed`ContextCompat.getColor(mContext`R.color.download_normal));" is 130.,123
+mvp44_MvpApp-master,com.dl7.mvp.adapter,VideoCacheAdapter,_handleClick,Long Statement,The length of the statement "holder.setText(R.id.tv_speed`"å?³å°†æš‚å?œ").setTextColor(R.id.tv_speed`ContextCompat.getColor(mContext`R.color.download_normal));" is 130.,123
+mvp44_MvpApp-master,com.dl7.mvp.adapter,VideoCacheAdapter,_handleClick,Missing default,The following switch statement is missing a default case: switch (item.getDownloadStatus()) {,123
+mvp44_MvpApp-master,com.dl7.mvp.adapter,WelfarePhotoAdapter,WelfarePhotoAdapter,Magic Number,The method contains a magic number: 2,29
+mvp44_MvpApp-master,com.dl7.mvp.api.bean,NewsInfo,toString,Long Statement,The length of the statement "return "NewsBean{" + "postid='" + postid + '\''+ "` hasCover="+ hasCover+ "` hasHead="+ hasHead+ "` replyCount="+ replyCount+ "` hasImg="+ hasImg+ "` digest='"+ digest+ '\''+ "` hasIcon="+ hasIcon+ "` docid='"+ docid+ '\''+ "` title='"+ title+ '\''+ "` order="+ order+ "` priority="+ priority+ "` lmodify='"+ lmodify+ '\''+ "` boardid='"+ boardid+ '\''+ "` photosetID='"+ photosetID+ '\''+ "` template='"+ template+ '\''+ "` votecount="+ votecount+ "` skipID='"+ skipID+ '\''+ "` alias='"+ alias+ '\''+ "` skipType='"+ skipType+ '\''+ "` cid='"+ cid+ '\''+ "` hasAD="+ hasAD+ "` source='"+ source+ '\''+ "` ename='"+ ename+ '\''+ "` imgsrc='"+ imgsrc+ '\''+ "` tname='"+ tname+ '\''+ "` ptime='"+ ptime+ '\''+ "` specialID='"+ specialID+ '\''+ "` ads="+ ads+ "` imgextra="+ imgextra+ '}';" is 788.,418
+mvp44_MvpApp-master,com.dl7.mvp.api.bean,SpecialInfo,toString,Long Statement,The length of the statement "return "TopicsEntity{" + "index=" + index + "` tname='"+ tname+ '\''+ "` shortname='"+ shortname+ '\''+ "` type='"+ type+ '\''+ "` docs="+ docs+ '}';" is 149.,257
+mvp44_MvpApp-master,com.dl7.mvp.api.bean,SpecialInfo,toString,Long Statement,The length of the statement "return "SpecialBean{" + "sid='" + sid + '\''+ "` shownav='"+ shownav+ '\''+ "` tag='"+ tag+ '\''+ "` photoset='"+ photoset+ '\''+ "` digest='"+ digest+ '\''+ "` webviews="+ webviews+ "` type='"+ type+ '\''+ "` sname='"+ sname+ '\''+ "` ec='"+ ec+ '\''+ "` lmodify='"+ lmodify+ '\''+ "` imgsrc='"+ imgsrc+ '\''+ "` del="+ del+ "` ptime='"+ ptime+ '\''+ "` sdocid='"+ sdocid+ '\''+ "` banner='"+ banner+ '\''+ "` topicslatest="+ topicslatest+ "` topicspatch="+ topicspatch+ "` headpics="+ headpics+ "` topicsplus="+ topicsplus+ "` topics="+ topics+ '}';" is 551.,269
+mvp44_MvpApp-master,com.dl7.mvp.api.bean,TopicsEntity,toString,Long Statement,The length of the statement "return "TopicsEntity{" + "index=" + index + "` tname='"+ tname+ '\''+ "` shortname='"+ shortname+ '\''+ "` type='"+ type+ '\''+ "` docs="+ docs+ '}';" is 149.,257
+mvp44_MvpApp-master,com.dl7.mvp.api.bean,WelfarePhotoInfo,toString,Long Statement,The length of the statement "return "WelfarePhotoBean{" + "id='" + id + '\''+ "` createdAt='"+ createdAt+ '\''+ "` desc='"+ desc+ '\''+ "` publishedAt='"+ publishedAt+ '\''+ "` source='"+ source+ '\''+ "` type='"+ type+ '\''+ "` url='"+ url+ '\''+ "` used="+ used+ "` who='"+ who+ '\''+ "` pixel='"+ pixel+ '\''+ '}';" is 288.,115
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,init,Long Identifier,The length of the field sRewriteCacheControlInterceptor is 31.,75
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,init,Long Statement,The length of the statement "OkHttpClient okHttpClient=new OkHttpClient.Builder().cache(cache).retryOnConnectionFailure(true).addInterceptor(sLoggingInterceptor).addInterceptor(sRewriteCacheControlInterceptor).addNetworkInterceptor(sRewriteCacheControlInterceptor).connectTimeout(10`TimeUnit.SECONDS).build();" is 280.,75
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,init,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().client(okHttpClient).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).baseUrl(NEWS_HOST).build();" is 197.,75
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,init,Long Statement,The length of the statement "retrofit=new Retrofit.Builder().client(okHttpClient).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).baseUrl(WELFARE_HOST).build();" is 191.,75
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,init,Magic Number,The method contains a magic number: 1024,75
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,init,Magic Number,The method contains a magic number: 1024,75
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,init,Magic Number,The method contains a magic number: 100,75
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,init,Magic Number,The method contains a magic number: 10,75
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,intercept,Long Statement,The length of the statement "return originalResponse.newBuilder().header("Cache-Control"`"public` " + CACHE_CONTROL_CACHE).removeHeader("Pragma").build();" is 125.,113
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getNewsList,Long Statement,The length of the statement "return sNewsService.getNewsList(type`newsId`page * INCREASE_PAGE).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).flatMap(_flatMapNews(newsId));" is 242.,170
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getSpecial,Long Statement,The length of the statement "return sNewsService.getSpecial(specialId).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).flatMap(_flatMapSpecial(specialId));" is 224.,189
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getNewsDetail,Long Statement,The length of the statement "return sNewsService.getNewsDetail(newsId).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).flatMap(new Func1<Map<String`NewsDetailInfo>`Observable<NewsDetailInfo>>(){" is 263.,203
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getPhotoSet,Long Statement,The length of the statement "return sNewsService.getPhotoSet(StringUtils.clipPhotoSetId(photoId)).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread());" is 215.,222
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getPhotoList,Long Statement,The length of the statement "return sNewsService.getPhotoList().subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread());" is 181.,235
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getPhotoMoreList,Long Statement,The length of the statement "return sNewsService.getPhotoMoreList(setId).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread());" is 190.,247
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getBeautyPhoto,Long Statement,The length of the statement "return sNewsService.getBeautyPhoto(page * INCREASE_PAGE).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).flatMap(_flatMapPhotos());" is 229.,259
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getWelfarePhoto,Long Statement,The length of the statement "return sWelfareService.getWelfarePhoto(page).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).flatMap(_flatMapWelfarePhotos());" is 224.,273
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getVideoList,Long Statement,The length of the statement "return sNewsService.getVideoList(videoId`page * INCREASE_PAGE / 2).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread()).flatMap(_flatMapVideo(videoId));" is 245.,286
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,getVideoList,Magic Number,The method contains a magic number: 2,286
+mvp44_MvpApp-master,com.dl7.mvp.api,RetrofitService,call,Long Statement,The length of the statement ").subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread());" is 148.,315
+mvp44_MvpApp-master,com.dl7.mvp.api,FlatMapTransformer,call,Long Statement,The length of the statement ").subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread());" is 148.,315
+mvp44_MvpApp-master,com.dl7.mvp.engine.danmaku,DanmakuInfoTypeAdapter,read,Complex Method,Cyclomatic complexity of the method is 9,37
+mvp44_MvpApp-master,com.dl7.mvp.engine,DownloaderWrapper,cancel,Long Statement,The length of the statement "sRxBus.post(new FileInfo(DownloadStatus.CANCEL`info.getVideoUrl()`StringUtils.clipFileName(info.getVideoUrl())`(int)info.getTotalSize()));" is 138.,69
+mvp44_MvpApp-master,com.dl7.mvp.local.dao,NewsTypeDao,updateLocalData,Magic Number,The method contains a magic number: 3,26
+mvp44_MvpApp-master,com.dl7.mvp.local.table,BeautyPhotoInfo,BeautyPhotoInfo,Long Parameter List,The method has 7 parameters. ,174
+mvp44_MvpApp-master,com.dl7.mvp.local.table,BeautyPhotoInfo,BeautyPhotoInfo,Magic Number,The method contains a magic number: 215652306,174
+mvp44_MvpApp-master,com.dl7.mvp.local.table,DanmakuInfo,DanmakuInfo,Long Parameter List,The method has 7 parameters. ,26
+mvp44_MvpApp-master,com.dl7.mvp.local.table,DanmakuInfo,DanmakuInfo,Magic Number,The method contains a magic number: 297831740,26
+mvp44_MvpApp-master,com.dl7.mvp.local.table,DanmakuInfo,DanmakuInfo,Magic Number,The method contains a magic number: 2104047588,38
+mvp44_MvpApp-master,com.dl7.mvp.local.table,DanmakuInfo,toString,Long Statement,The length of the statement "return "DanmakuInfo{" + "type=" + type + "` content='"+ content+ '\''+ "` time="+ time+ "` textSize="+ textSize+ "` textColor="+ textColor+ "` userName='"+ userName+ '\''+ "` vid='"+ vid+ '\''+ '}';" is 198.,98
+mvp44_MvpApp-master,com.dl7.mvp.local.table,NewsTypeInfo,NewsTypeInfo,Magic Number,The method contains a magic number: 1707873593,20
+mvp44_MvpApp-master,com.dl7.mvp.local.table,NewsTypeInfo,NewsTypeInfo,Magic Number,The method contains a magic number: 215923915,27
+mvp44_MvpApp-master,com.dl7.mvp.local.table,VideoInfo,toString,Long Statement,The length of the statement "return "VideoBean{" + "vid='" + vid + '\''+ "` mp4Hd_url='"+ mp4Hd_url+ '\''+ "` cover='"+ cover+ '\''+ "` title='"+ title+ '\''+ "` sectiontitle='"+ sectiontitle+ '\''+ "` mp4_url='"+ mp4_url+ '\''+ "` length="+ length+ "` m3u8Hd_url='"+ m3u8Hd_url+ '\''+ "` ptime='"+ ptime+ '\''+ "` m3u8_url='"+ m3u8_url+ '\''+ "` videoUrl='"+ videoUrl+ '\''+ "` totalSize="+ totalSize+ "` loadedSize="+ loadedSize+ "` downloadStatus="+ downloadStatus+ "` downloadSpeed="+ downloadSpeed+ "` isCollect="+ isCollect+ '}';" is 506.,204
+mvp44_MvpApp-master,com.dl7.mvp.local.table,VideoInfo,VideoInfo,Long Parameter List,The method has 16 parameters. ,273
+mvp44_MvpApp-master,com.dl7.mvp.local.table,VideoInfo,VideoInfo,Magic Number,The method contains a magic number: 1048022349,273
+mvp44_MvpApp-master,com.dl7.mvp.module.base,BaseFragment,onActivityCreated,Complex Conditional,The conditional expression getUserVisibleHint() && mRootView != null && !mIsMulti is complex.,72
+mvp44_MvpApp-master,com.dl7.mvp.module.base,BaseFragment,setUserVisibleHint,Complex Conditional,The conditional expression isVisibleToUser && isVisible() && mRootView != null && !mIsMulti is complex.,81
+mvp44_MvpApp-master,com.dl7.mvp.module.base,BaseSwipeBackActivity,onPostCreate,Magic Number,The method contains a magic number: 2,24
+mvp44_MvpApp-master,com.dl7.mvp.module.home,HomeActivity,onBackPressed,Magic Number,The method contains a magic number: 2,107
+mvp44_MvpApp-master,com.dl7.mvp.module.home,HomeActivity,_getPermission,Long Statement,The length of the statement "new RxPermissions(this).request(Manifest.permission.WRITE_EXTERNAL_STORAGE`Manifest.permission.READ_EXTERNAL_STORAGE).subscribe(new Action1<Boolean>(){" is 151.,158
+mvp44_MvpApp-master,com.dl7.mvp.module.home,HomeActivity,_exit,Magic Number,The method contains a magic number: 2000,177
+mvp44_MvpApp-master,com.dl7.mvp.module.home,SplashActivity,updateViews,Magic Number,The method contains a magic number: 5,37
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.download.cache,VideoCacheFragment,initInjector,Long Statement,The length of the statement "DaggerVideoCacheComponent.builder().applicationComponent(getAppComponent()).videoCacheModule(new VideoCacheModule(this)).build().inject(this);" is 142.,38
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.download.complete,VideoCompleteFragment,initInjector,Long Statement,The length of the statement "DaggerVideoCompleteComponent.builder().applicationComponent(getAppComponent()).videoCompleteModule(new VideoCompleteModule(this)).build().inject(this);" is 151.,37
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.download.complete,VideoCompletePresenter,getData,Long Statement,The length of the statement "mDbDao.queryBuilder().where(VideoInfoDao.Properties.DownloadStatus.eq(DownloadStatus.COMPLETE)).rx().list().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<List<VideoInfo>>(){" is 191.,34
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.download,DownloadActivity,initInjector,Long Statement,The length of the statement "DaggerDownloadComponent.builder().applicationComponent(getAppComponent()).downloadModule(new DownloadModule(this)).build().inject(this);" is 136.,76
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.download,DownloadActivity,onClick,Complex Method,Cyclomatic complexity of the method is 9,167
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.download,DownloadActivity,onOptionsItemSelected,Complex Conditional,The conditional expression item.getItemId() == android.R.id.home && mCompleteFragment.exitEditMode() || mCacheFragment.exitEditMode() is complex.,194
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.love.photo,LovePhotoFragment,initInjector,Long Statement,The length of the statement "DaggerLovePhotoComponent.builder().applicationComponent(getAppComponent()).lovePhotoModule(new LovePhotoModule(this)).build().inject(this);" is 139.,52
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.love.photo,LovePhotoFragment,initViews,Magic Number,The method contains a magic number: 2,61
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.love.photo,LovePhotoFragment,onActivityResult,Magic Number,The method contains a magic number: 500,99
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.love.photo,LovePhotoPresenter,getData,Long Statement,The length of the statement "mDbDao.queryBuilder().where(BeautyPhotoInfoDao.Properties.IsLove.eq(true)).rx().list().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<List<BeautyPhotoInfo>>(){" is 176.,31
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.love.photo,LovePhotoPresenter,delete,Complex Conditional,The conditional expression !data.isLove() && !data.isDownload() && !data.isPraise() is complex.,57
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.love.video,LoveVideoFragment,initInjector,Long Statement,The length of the statement "DaggerLoveVideoComponent.builder().applicationComponent(getAppComponent()).loveVideoModule(new LoveVideoModule(this)).build().inject(this);" is 139.,56
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.love.video,LoveVideoFragment,onActivityResult,Magic Number,The method contains a magic number: 500,110
+mvp44_MvpApp-master,com.dl7.mvp.module.manage.love.video,LoveVideoPresenter,getData,Long Statement,The length of the statement "mDbDao.queryBuilder().where(VideoInfoDao.Properties.IsCollect.eq(true)).rx().list().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<List<VideoInfo>>(){" is 167.,33
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,initViews,Complex Method,Cyclomatic complexity of the method is 10,112
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,initViews,Magic Number,The method contains a magic number: 300,112
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,initViews,Magic Number,The method contains a magic number: 300,112
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,onScrollChange,Long Parameter List,The method has 5 parameters. ,119
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,onScrollChange,Magic Number,The method contains a magic number: 300,119
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,onScrollChange,Magic Number,The method contains a magic number: 300,119
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,_showPopup,Long Statement,The length of the statement "DialogHelper.createPopup(this`R.layout.layout_popup).anchorView(mTvTitle2).gravity(Gravity.BOTTOM).showAnim(new SlideBottomEnter()).dismissAnim(new SlideTopExit()).autoDismiss(true).autoDismissDelay(3500).show();" is 212.,232
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,_showPopup,Long Statement,The length of the statement "DialogHelper.createPopup(this`R.layout.layout_popup_bottom).anchorView(mLlFootView).gravity(Gravity.TOP).showAnim(new SlideLeftEnter()).dismissAnim(new SlideRightExit()).autoDismiss(true).autoDismissDelay(3500).show();" is 218.,232
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,_showPopup,Magic Number,The method contains a magic number: 3500,232
+mvp44_MvpApp-master,com.dl7.mvp.module.news.article,NewsArticleActivity,_showPopup,Magic Number,The method contains a magic number: 3500,232
+mvp44_MvpApp-master,com.dl7.mvp.module.news.channel,ChannelActivity,initInjector,Long Statement,The length of the statement "DaggerManageComponent.builder().applicationComponent(getAppComponent()).channelModule(new ChannelModule(this)).build().inject(this);" is 132.,59
+mvp44_MvpApp-master,com.dl7.mvp.module.news.channel,ChannelActivity,initViews,Magic Number,The method contains a magic number: 4,68
+mvp44_MvpApp-master,com.dl7.mvp.module.news.channel,ChannelActivity,initViews,Magic Number,The method contains a magic number: 4,68
+mvp44_MvpApp-master,com.dl7.mvp.module.news.channel,ChannelActivity,initViews,Magic Number,The method contains a magic number: 3,68
+mvp44_MvpApp-master,com.dl7.mvp.module.news.channel,ChannelPresenter,getData,Long Statement,The length of the statement "Observable.from(NewsTypeDao.getAllChannels()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).filter(new Func1<NewsTypeInfo`Boolean>(){" is 158.,37
+mvp44_MvpApp-master,com.dl7.mvp.module.news.main,NewsMainFragment,initInjector,Long Statement,The length of the statement "DaggerNewsMainComponent.builder().applicationComponent(getAppComponent()).newsMainModule(new NewsMainModule(this)).build().inject(this);" is 136.,51
+mvp44_MvpApp-master,com.dl7.mvp.module.news.newslist,NewsListFragment,initInjector,Long Statement,The length of the statement "DaggerNewsListComponent.builder().applicationComponent(getAppComponent()).newsListModule(new NewsListModule(this`mNewsId)).build().inject(this);" is 144.,85
+mvp44_MvpApp-master,com.dl7.mvp.module.news.photoset,PhotoSetActivity,loadData,Magic Number,The method contains a magic number: 300,81
+mvp44_MvpApp-master,com.dl7.mvp.module.news.photoset,PhotoSetActivity,loadData,Magic Number,The method contains a magic number: 300,81
+mvp44_MvpApp-master,com.dl7.mvp.module.news.photoset,PhotoSetActivity,loadData,Magic Number,The method contains a magic number: 300,81
+mvp44_MvpApp-master,com.dl7.mvp.module.news.photoset,PhotoSetActivity,loadData,Magic Number,The method contains a magic number: 300,81
+mvp44_MvpApp-master,com.dl7.mvp.module.news.photoset,PhotoSetActivity,onPhotoClick,Magic Number,The method contains a magic number: 300,105
+mvp44_MvpApp-master,com.dl7.mvp.module.news.photoset,PhotoSetActivity,onPhotoClick,Magic Number,The method contains a magic number: 300,105
+mvp44_MvpApp-master,com.dl7.mvp.module.news.photoset,PhotoSetActivity,onPhotoClick,Magic Number,The method contains a magic number: 300,105
+mvp44_MvpApp-master,com.dl7.mvp.module.news.photoset,PhotoSetActivity,onPhotoClick,Magic Number,The method contains a magic number: 300,105
+mvp44_MvpApp-master,com.dl7.mvp.module.news.special,SpecialActivity,_handleTagLayout,Long Statement,The length of the statement "Observable.from(specialItems).compose(this.<SpecialItem>bindToLifecycle()).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).filter(new Func1<SpecialItem`Boolean>(){" is 186.,129
+mvp44_MvpApp-master,com.dl7.mvp.module.news.special,SpecialPresenter,_convertSpecialBeanToItem,Long Statement,The length of the statement "specialItems[topicsEntity.getIndex() - 1]=new SpecialItem(true`topicsEntity.getIndex() + "/" + specialItems.length+ " "+ topicsEntity.getTname());" is 146.,76
+mvp44_MvpApp-master,com.dl7.mvp.module.news.special,SpecialPresenter,call,Long Statement,The length of the statement "specialItems[topicsEntity.getIndex() - 1]=new SpecialItem(true`topicsEntity.getIndex() + "/" + specialItems.length+ " "+ topicsEntity.getTname());" is 146.,87
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.beauty,BeautyListFragment,initInjector,Long Statement,The length of the statement "DaggerBeautyListComponent.builder().applicationComponent(getAppComponent()).beautyListModule(new BeautyListModule(this)).build().inject(this);" is 142.,43
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.beauty,BeautyListFragment,initViews,Magic Number,The method contains a magic number: 2,52
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.beauty,BeautyListPresenter,getMoreData,Long Statement,The length of the statement "RetrofitService.getBeautyPhoto(mPage).compose(mView.<List<BeautyPhotoInfo>>bindToLife()).subscribe(new Subscriber<List<BeautyPhotoInfo>>(){" is 139.,59
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,initInjector,Long Statement,The length of the statement "DaggerBigPhotoComponent.builder().applicationComponent(getAppComponent()).bigPhotoModule(new BigPhotoModule(this`mPhotoList)).build().inject(this);" is 147.,106
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,initViews,Long Statement,The length of the statement "RxView.clicks(mIvDownload).compose(mRxPermissions.ensure(Manifest.permission.WRITE_EXTERNAL_STORAGE`Manifest.permission.READ_EXTERNAL_STORAGE)).subscribe(new Action1<Boolean>(){" is 177.,118
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,initViews,Long Statement,The length of the statement "DownloadUtils.downloadOrDeletePhoto(BigPhotoActivity.this`mAdapter.getData(mCurPosition).getImgsrc()`mAdapter.getData(mCurPosition).getDocid()`new DownloadUtils.OnCompletedListener(){" is 183.,118
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,initViews,Magic Number,The method contains a magic number: 300,118
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,initViews,Magic Number,The method contains a magic number: 300,118
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,onPhotoClick,Magic Number,The method contains a magic number: 300,131
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,onPhotoClick,Magic Number,The method contains a magic number: 300,131
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,call,Long Statement,The length of the statement "DownloadUtils.downloadOrDeletePhoto(BigPhotoActivity.this`mAdapter.getData(mCurPosition).getImgsrc()`mAdapter.getData(mCurPosition).getDocid()`new DownloadUtils.OnCompletedListener(){" is 183.,168
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,onClick,Magic Number,The method contains a magic number: 500,221
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoActivity,onOptionsItemSelected,Complex Method,Cyclomatic complexity of the method is 11,257
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.bigphoto,BigPhotoPresenter,delete,Complex Conditional,The conditional expression !data.isLove() && !data.isDownload() && !data.isPraise() is complex.,109
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.main,PhotoMainFragment,initInjector,Long Statement,The length of the statement "DaggerPhotoMainComponent.builder().applicationComponent(getAppComponent()).photoMainModule(new PhotoMainModule(this)).build().inject(this);" is 139.,55
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.main,PhotoMainFragment,onResume,Magic Number,The method contains a magic number: 2,92
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.main,PhotoMainFragment,onResume,Magic Number,The method contains a magic number: 3,92
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.main,PhotoMainFragment,onResume,Magic Number,The method contains a magic number: 3000,92
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.main,PhotoMainFragment,run,Magic Number,The method contains a magic number: 2,97
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.main,PhotoMainFragment,run,Magic Number,The method contains a magic number: 3,97
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.main,PhotoMainFragment,run,Magic Number,The method contains a magic number: 3000,97
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.news,PhotoNewsFragment,initInjector,Long Statement,The length of the statement "DaggerPhotoNewsComponent.builder().applicationComponent(getAppComponent()).photoNewsModule(new PhotoNewsModule(this)).build().inject(this);" is 139.,40
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.news,PhotoNewsPresenter,getMoreData,Long Statement,The length of the statement "RetrofitService.getPhotoMoreList(mNextSetId).compose(mView.<List<PhotoInfo>>bindToLife()).subscribe(new Subscriber<List<PhotoInfo>>(){" is 134.,59
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.welfare,WelfareListFragment,initInjector,Long Statement,The length of the statement "DaggerWelfarePhotoComponent.builder().applicationComponent(getAppComponent()).welfarePhotoModule(new WelfarePhotoModule(this)).build().inject(this);" is 148.,41
+mvp44_MvpApp-master,com.dl7.mvp.module.photo.welfare,WelfareListFragment,initViews,Magic Number,The method contains a magic number: 2,50
+mvp44_MvpApp-master,com.dl7.mvp.module.video.fullscreen,VideoFullscreenActivity,onCreate,Long Statement,The length of the statement "mPlayerView.init().alwaysFullScreen().enableOrientation().setVideoPath(FileDownloader.getFilePathByUrl(mVideoData.getVideoUrl())).setTitle(mVideoData.getTitle()).start();" is 170.,32
+mvp44_MvpApp-master,com.dl7.mvp.module.video.list,VideoListFragment,initInjector,Long Statement,The length of the statement "DaggerVideoListComponent.builder().applicationComponent(getAppComponent()).videoListModule(new VideoListModule(this`mVideoId)).build().inject(this);" is 148.,61
+mvp44_MvpApp-master,com.dl7.mvp.module.video.list,VideoListPresenter,getMoreData,Long Statement,The length of the statement "RetrofitService.getVideoList(mVideoId`mPage).compose(mView.<List<VideoInfo>>bindToLife()).subscribe(new Subscriber<List<VideoInfo>>(){" is 134.,63
+mvp44_MvpApp-master,com.dl7.mvp.module.video.main,VideoMainFragment,initInjector,Long Statement,The length of the statement "DaggerVideoMainComponent.builder().applicationComponent(getAppComponent()).videoMainModule(new VideoMainModule(this)).build().inject(this);" is 139.,66
+mvp44_MvpApp-master,com.dl7.mvp.module.video.main,VideoMainPresenter,getData,Long Statement,The length of the statement "mView.updateDownloadCount((int)mDbDao.queryBuilder().where(VideoInfoDao.Properties.DownloadStatus.notIn(DownloadStatus.NORMAL`DownloadStatus.COMPLETE)).count());" is 161.,28
+mvp44_MvpApp-master,com.dl7.mvp.module.video.player,VideoPlayerActivity,initInjector,Long Statement,The length of the statement "DaggerVideoPlayerComponent.builder().applicationComponent(getAppComponent()).videoPlayerModule(new VideoPlayerModule(this`mVideoData)).build().inject(this);" is 156.,89
+mvp44_MvpApp-master,com.dl7.mvp.module.video.player,VideoPlayerActivity,initViews,Long Statement,The length of the statement "mPlayerView.init().setTitle(mVideoData.getTitle()).setVideoSource(null`mVideoData.getMp4_url()`mVideoData.getMp4Hd_url()`null`null).enableDanmaku().setDanmakuCustomParser(new DanmakuParser()`DanmakuLoader.instance()`DanmakuConverter.instance()).setDanmakuListener(new OnDanmakuListener<DanmakuInfo>(){" is 301.,99
+mvp44_MvpApp-master,com.dl7.mvp.module.video.player,VideoPlayerActivity,_isHideSoftInput,Complex Conditional,The conditional expression view == null || !(view instanceof EditText) || !mEtContent.isFocused() is complex.,258
+mvp44_MvpApp-master,com.dl7.mvp.module.video.player,VideoPlayerActivity,_isHideSoftInput,Long Statement,The length of the statement "return x < mLlEditLayout.getLeft() || x > mLlEditLayout.getRight() || y > mLlEditLayout.getBottom() || y < mLlEditLayout.getTop();" is 130.,258
+mvp44_MvpApp-master,com.dl7.mvp.module.video.player,VideoPlayerPresenter,VideoPlayerPresenter,Long Parameter List,The method has 5 parameters. ,34
+mvp44_MvpApp-master,com.dl7.mvp.module.video.player,VideoPlayerPresenter,getData,Long Statement,The length of the statement "mDanmakuDao.queryBuilder().where(DanmakuInfoDao.Properties.Vid.eq(mVideoData.getVid())).rx().list().map(new Func1<List<DanmakuInfo>`InputStream>(){" is 147.,43
+mvp44_MvpApp-master,com.dl7.mvp.module.video.player,VideoPlayerPresenter,cleanDanmaku,Long Statement,The length of the statement "mDanmakuDao.queryBuilder().where(DanmakuInfoDao.Properties.Vid.eq(mVideoData.getVid())).rx().list().compose(mView.<List<DanmakuInfo>>bindToLife()).subscribe(new Action1<List<DanmakuInfo>>(){" is 190.,120
+mvp44_MvpApp-master,com.dl7.mvp.rxbus,RxBus,doSubscribe,Long Statement,The length of the statement "return toObservable(type).onBackpressureBuffer().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(next`error);" is 142.,74
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHeartBeat,Long Statement,The length of the statement "set.playTogether(ObjectAnimator.ofFloat(view`"scaleX"`1.0f`1.4f`0.9f`1.0f)`ObjectAnimator.ofFloat(view`"scaleY"`1.0f`1.4f`0.9f`1.0f));" is 134.,24
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHeartBeat,Magic Number,The method contains a magic number: 1.4f,24
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHeartBeat,Magic Number,The method contains a magic number: 0.9f,24
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHeartBeat,Magic Number,The method contains a magic number: 1.4f,24
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHeartBeat,Magic Number,The method contains a magic number: 0.9f,24
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Long Statement,The length of the statement "PropertyValuesHolder scaleXHolder=PropertyValuesHolder.ofKeyframe("scaleX"`scaleXFrame1`scaleXFrame2`scaleXFrame3`scaleXFrame4`scaleXFrame5`scaleXFrame6`scaleXFrame7`scaleXFrame8);" is 180.,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Long Statement,The length of the statement "PropertyValuesHolder scaleYHolder=PropertyValuesHolder.ofKeyframe("scaleY"`scaleYFrame1`scaleYFrame2`scaleYFrame3`scaleYFrame4`scaleYFrame5`scaleYFrame6`scaleYFrame7`scaleYFrame8);" is 180.,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Long Statement,The length of the statement "PropertyValuesHolder translationYHolder=PropertyValuesHolder.ofKeyframe("translationY"`translationY1`translationY2`translationY3`translationY4`translationY5`translationY6`translationY7`translationY8`translationY9`translationY10);" is 229.,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Long Statement,The length of the statement "ValueAnimator valueAnimator=ObjectAnimator.ofPropertyValuesHolder(view`scaleXHolder`scaleYHolder`translationYHolder`rotationYHolder`rotationXHolder);" is 149.,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.05f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 1.5f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.1f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.8f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.15f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.5f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.55f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 1.5f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.6f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.8f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.65f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.05f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.5f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.1f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 1.15f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.15f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.5f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.55f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.5f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.6f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 1.15f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.65f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.085f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.2f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.25f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.375f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.5f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.585f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.7f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.75f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.875f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.125f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.3f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 360f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 3,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.625f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 0.8f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 360f,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,AnimateHelper,doHappyJump,Magic Number,The method contains a magic number: 3,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,CrashHandler,uncaughtException,Magic Number,The method contains a magic number: 3000,54
+mvp44_MvpApp-master,com.dl7.mvp.utils,DialogHelper,downloadDialog,Long Statement,The length of the statement "builder.setTitle(title).setMessage("ä¸‹è½½éœ€è¦?å¤§é‡?æµ?é‡?ï¼Œåœ¨é?žwifiä¸‹è¯·æ…Žé‡?ï¼Œæ˜¯å?¦ä¸‹è½½?").setNegativeButton("å?–æ¶ˆ"`null).setPositiveButton("ç¡®å®š"`new DialogInterface.OnClickListener(){" is 202.,24
+mvp44_MvpApp-master,com.dl7.mvp.utils,DialogHelper,downloadDialog,Long Statement,The length of the statement "builder.setTitle(title).setMessage("ä¸‹è½½éœ€è¦?å¤§é‡?æµ?é‡?ï¼Œåœ¨é?žwifiä¸‹è¯·æ…Žé‡?ï¼Œæ˜¯å?¦ä¸‹è½½?").setNegativeButton("å?–æ¶ˆ"`null).setPositiveButton("ç¡®å®š"`listener);" is 174.,44
+mvp44_MvpApp-master,com.dl7.mvp.utils,DialogHelper,checkDialog,Long Statement,The length of the statement "builder.setTitle("æ??ç¤º").setMessage(msg).setNegativeButton("å?–æ¶ˆ"`null).setPositiveButton("æŸ¥çœ‹ä»»åŠ¡"`new DialogInterface.OnClickListener(){" is 147.,59
+mvp44_MvpApp-master,com.dl7.mvp.utils,DownloadUtils,init,Long Statement,The length of the statement "dbDao.queryBuilder().rx().list().subscribeOn(Schedulers.io()).flatMap(new Func1<List<BeautyPhotoInfo>`Observable<BeautyPhotoInfo>>(){" is 133.,39
+mvp44_MvpApp-master,com.dl7.mvp.utils,DownloadUtils,downloadOrDeletePhoto,Long Statement,The length of the statement "return FileUtils.copyFile(file.getPath()`PreferencesUtils.getSavePath(context) + File.separator + "picture"+ File.separator+ id+ ".jpg");" is 137.,66
+mvp44_MvpApp-master,com.dl7.mvp.utils,DownloadUtils,call,Long Statement,The length of the statement "return FileUtils.copyFile(file.getPath()`PreferencesUtils.getSavePath(context) + File.separator + "picture"+ File.separator+ id+ ".jpg");" is 137.,92
+mvp44_MvpApp-master,com.dl7.mvp.utils,FileUtils,writeFile,Magic Number,The method contains a magic number: 1024,211
+mvp44_MvpApp-master,com.dl7.mvp.utils,FileUtils,deleteFile,Complex Method,Cyclomatic complexity of the method is 8,520
+mvp44_MvpApp-master,com.dl7.mvp.utils,ImageLoader,loadFitOverride,Long Parameter List,The method has 6 parameters. ,68
+mvp44_MvpApp-master,com.dl7.mvp.utils,IOUtils,closeQuietly,Empty catch clause,The method has an empty catch block.,33
+mvp44_MvpApp-master,com.dl7.mvp.utils,MeasureUtils,getViewLocation,Magic Number,The method contains a magic number: 2,43
+mvp44_MvpApp-master,com.dl7.mvp.utils,NavUtils,checkDeviceHasNavigationBar,Empty catch clause,The method has an empty catch block.,35
+mvp44_MvpApp-master,com.dl7.mvp.utils,NetUtil,getNetworkTypeName,Long Statement,The length of the statement "type=TextUtils.isEmpty(proxyHost) ? (isFastMobileNetwork(context) ? NETWORK_TYPE_3G : NETWORK_TYPE_2G) : NETWORK_TYPE_WAP;" is 122.,40
+mvp44_MvpApp-master,com.dl7.mvp.utils,NetUtil,isFastMobileNetwork,Complex Method,Cyclomatic complexity of the method is 18,69
+mvp44_MvpApp-master,com.dl7.mvp.utils,NetUtil,isFastMobileNetwork,Missing default,The following switch statement is missing a default case: switch (telephonyManager.getNetworkType()) {,69
+mvp44_MvpApp-master,com.dl7.mvp.utils,RxHelper,countdown,Long Statement,The length of the statement ").take(countTime + 1).subscribeOn(Schedulers.io()).unsubscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).observeOn(AndroidSchedulers.mainThread());" is 168.,20
+mvp44_MvpApp-master,com.dl7.mvp.utils,SliderHelper,initAdSlider,Long Statement,The length of the statement "textSliderView.description(adData.getTitle()).image(adData.getImgsrc()).empty(DefIconFactory.provideIcon()).setScaleType(BaseSliderView.ScaleType.CenterCrop).setOnSliderClickListener(new BaseSliderView.OnSliderClickListener(){" is 226.,28
+mvp44_MvpApp-master,com.dl7.mvp.utils,SliderHelper,initAdSlider,Magic Number,The method contains a magic number: 4000,28
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,clipPhotoSetId,Magic Number,The method contains a magic number: 4,66
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,clipPhotoSetId,Magic Number,The method contains a magic number: 4,66
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,capitalizeFirstLetter,Long Statement,The length of the statement "return (!Character.isLetter(c) || Character.isUpperCase(c)) ? str : new StringBuilder(str.length()).append(Character.toUpperCase(c)).append(str.substring(1)).toString();" is 169.,178
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,htmlEscapeCharsToString,Long Statement,The length of the statement "return StringUtils.isEmpty(source) ? source : source.replaceAll("&lt;"`"<").replaceAll("&gt;"`">").replaceAll("&amp;"`"&").replaceAll("&quot;"`"\"");" is 149.,285
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,fullWidthToHalfWidth,Magic Number,The method contains a magic number: 12288,307
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,fullWidthToHalfWidth,Magic Number,The method contains a magic number: 65281,307
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,fullWidthToHalfWidth,Magic Number,The method contains a magic number: 65374,307
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,fullWidthToHalfWidth,Magic Number,The method contains a magic number: 65248,307
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,halfWidthToFullWidth,Magic Number,The method contains a magic number: 12288,340
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,halfWidthToFullWidth,Magic Number,The method contains a magic number: 33,340
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,halfWidthToFullWidth,Magic Number,The method contains a magic number: 126,340
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,halfWidthToFullWidth,Magic Number,The method contains a magic number: 65248,340
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertHotCount,Magic Number,The method contains a magic number: 10000,384
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertHotCount,Magic Number,The method contains a magic number: 10000,384
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertHotCount,Magic Number,The method contains a magic number: 10000,384
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertHotCount,Magic Number,The method contains a magic number: 100,384
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertSpeed,Magic Number,The method contains a magic number: 1024,404
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertSpeed,Magic Number,The method contains a magic number: 1024,404
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertSpeed,Magic Number,The method contains a magic number: 1024,404
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertSpeed,Magic Number,The method contains a magic number: 100,404
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertSpeed,Magic Number,The method contains a magic number: 100,404
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertStorageNoB,Magic Number,The method contains a magic number: 1024,421
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertStorageNoB,Magic Number,The method contains a magic number: 1024,421
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertStorageNoB,Magic Number,The method contains a magic number: 1024,421
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertStorageNoB,Magic Number,The method contains a magic number: 100,421
+mvp44_MvpApp-master,com.dl7.mvp.utils,StringUtils,convertStorageNoB,Magic Number,The method contains a magic number: 100,421
+mvp44_MvpApp-master,com.dl7.mvp.utils,SwipeRefreshHelper,init,Long Statement,The length of the statement "refreshLayout.setColorSchemeResources(android.R.color.holo_blue_bright`android.R.color.holo_green_light`android.R.color.holo_orange_light`android.R.color.holo_red_light);" is 170.,16
+mvp44_MvpApp-master,com.dl7.mvp.utils,SwipeRefreshHelper,init,Long Statement,The length of the statement "refreshLayout.setColorSchemeResources(android.R.color.holo_blue_bright`android.R.color.holo_green_light`android.R.color.holo_orange_light`android.R.color.holo_red_light);" is 170.,40
+mvp44_MvpApp-master,com.dl7.mvp.widget.behavior,ScrollAwareFABBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,26
+mvp44_MvpApp-master,com.dl7.mvp.widget.behavior,ScrollAwareFABBehavior,onStartNestedScroll,Long Statement,The length of the statement "return nestedScrollAxes == ViewCompat.SCROLL_AXIS_VERTICAL || super.onStartNestedScroll(coordinatorLayout`child`directTargetChild`target`nestedScrollAxes);" is 155.,26
+mvp44_MvpApp-master,com.dl7.mvp.widget.behavior,ScrollAwareFABBehavior,onNestedScroll,Complex Conditional,The conditional expression dyConsumed > 0 && !mIsAnimatingOut && child.getVisibility() == View.VISIBLE is complex.,35
+mvp44_MvpApp-master,com.dl7.mvp.widget.behavior,ScrollAwareFABBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,35
+mvp44_MvpApp-master,com.dl7.mvp.widget.behavior,ScrollAwareFABBehavior,animateOut,Long Statement,The length of the statement "ViewCompat.animate(button).translationY(button.getHeight() + getMarginBottom(button)).setInterpolator(new FastOutSlowInInterpolator()).withLayer().setListener(new ViewPropertyAnimatorListener(){" is 194.,50
+mvp44_MvpApp-master,com.dl7.mvp.widget.behavior,ScrollAwareFABBehavior,animateOut,Magic Number,The method contains a magic number: 14,50
+mvp44_MvpApp-master,com.dl7.mvp.widget.behavior,ScrollAwareFABBehavior,animateIn,Long Statement,The length of the statement "ViewCompat.animate(button).translationY(0).setInterpolator(new FastOutSlowInInterpolator()).withLayer().setListener(null).start();" is 130.,73
+mvp44_MvpApp-master,com.dl7.mvp.widget.behavior,ScrollAwareFABBehavior,animateIn,Magic Number,The method contains a magic number: 14,73
+mvp44_MvpApp-master,com.dl7.mvp.widget,CustomWebView,init,Magic Number,The method contains a magic number: 7,40
+mvp44_MvpApp-master,com.dl7.mvp.widget,CustomWebView,onProgressChanged,Magic Number,The method contains a magic number: 100,121
+mvp44_MvpApp-master,com.dl7.mvp.widget,CustomWebView,onDownloadStart,Long Parameter List,The method has 5 parameters. ,154
+mvp44_MvpApp-master,com.dl7.mvp.widget,WebChromeClientBase,onProgressChanged,Magic Number,The method contains a magic number: 100,121
+mvp44_MvpApp-master,com.dl7.mvp.widget,DownloadListener,onDownloadStart,Long Parameter List,The method has 5 parameters. ,154
+mvp44_MvpApp-master,com.dl7.mvp.widget,PullScrollView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 11,59
+mvp44_MvpApp-master,com.dl7.mvp.widget,PullScrollView,onTouchEvent,Long Statement,The length of the statement "if (getScrollY() >= (getChildAt(0).getMeasuredHeight() - getHeight()) || getChildAt(0).getMeasuredHeight() < getHeight()) {" is 123.,59
+mvp44_MvpApp-master,com.dl7.mvp.widget,PullScrollView,onTouchEvent,Magic Number,The method contains a magic number: 200,59
+mvp44_MvpApp-master,com.dl7.mvp.widget,PullScrollView,onTouchEvent,Magic Number,The method contains a magic number: 200,59
+mvp44_MvpApp-master,com.dl7.mvp.widget,PullScrollView,_pullFootView,Magic Number,The method contains a magic number: 2,104
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,init,Magic Number,The method contains a magic number: 1.03f,127
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,init,Magic Number,The method contains a magic number: 200,127
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,draw,Complex Conditional,The conditional expression isListMode && (rippleStatus == RIPPLE_SINGLE || rippleStatus == RIPPLE_ACTION_MOVE || rippleStatus == RIPPLE_ACTION_UP) is complex.,185
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,draw,Long Statement,The length of the statement "if (isListMode && (rippleStatus == RIPPLE_SINGLE || rippleStatus == RIPPLE_ACTION_MOVE || rippleStatus == RIPPLE_ACTION_UP)) {" is 126.,185
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,doRippleWork,Complex Conditional,The conditional expression onCompletionListener != null && rippleStatus != RIPPLE_ACTION_MOVE && rippleStatus != RIPPLE_LONG_PRESS is complex.,198
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,doRippleWork,Complex Conditional,The conditional expression rippleType == 1 && originBitmap != null && (((float)timer * frameRate) / rippleDuration) > 0.4f is complex.,198
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,doRippleWork,Complex Method,Cyclomatic complexity of the method is 11,198
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,doRippleWork,Long Statement,The length of the statement "if ((((float)timer * frameRate) / rippleDuration) > 0.6f) paint.setAlpha((int)(rippleAlpha - ((rippleAlpha) * (((float)timerEmpty * frameRate) / (durationEmpty)))));" is 165.,198
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,doRippleWork,Magic Number,The method contains a magic number: 23,198
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,doRippleWork,Magic Number,The method contains a magic number: 0.4f,198
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,doRippleWork,Magic Number,The method contains a magic number: 0.6f,198
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,onSizeChanged,Magic Number,The method contains a magic number: 2,253
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,onSizeChanged,Magic Number,The method contains a magic number: 2,253
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,createAnimation,Magic Number,The method contains a magic number: 2,284
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,createAnimation,Magic Number,The method contains a magic number: 2,284
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,createAnimation,Magic Number,The method contains a magic number: 2,284
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,createAnimation,Magic Number,The method contains a magic number: 2,284
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,sendClickEvent,Long Statement,The length of the statement "if (adapterView.getOnItemLongClickListener() != null) adapterView.getOnItemLongClickListener().onItemLongClick(adapterView`this`position`id);" is 141.,344
+mvp44_MvpApp-master,com.dl7.mvp.widget,RippleView,sendClickEvent,Long Statement,The length of the statement "if (adapterView.getOnItemClickListener() != null) adapterView.getOnItemClickListener().onItemClick(adapterView`this`position`id);" is 129.,344
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_init,Complex Conditional,The conditional expression mTagMode == MODE_CHECK || mTagMode == MODE_ICON_CHECK_INVISIBLE || mTagMode == MODE_ICON_CHECK_CHANGE is complex.,109
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_init,Magic Number,The method contains a magic number: 0.5f,109
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_init,Magic Number,The method contains a magic number: 5f,109
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_init,Magic Number,The method contains a magic number: 5f,109
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_init,Magic Number,The method contains a magic number: 5f,109
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_init,Magic Number,The method contains a magic number: 3f,109
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_init,Magic Number,The method contains a magic number: 14f,109
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_adjustText,Complex Conditional,The conditional expression (mDecorateIcon != null || mDecorateIconChange != null) && mIconSize != mFontH is complex.,162
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_adjustText,Complex Method,Cyclomatic complexity of the method is 10,162
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_adjustText,Magic Number,The method contains a magic number: 2,162
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_adjustText,Magic Number,The method contains a magic number: 2,162
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_adjustText,Magic Number,The method contains a magic number: 2,162
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_adjustText,Magic Number,The method contains a magic number: 2,162
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_adjustText,Magic Number,The method contains a magic number: 3,162
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,_adjustText,Magic Number,The method contains a magic number: 3,162
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onMeasure,Complex Conditional,The conditional expression mTagMode == MODE_ICON_CHECK_CHANGE && mIsChecked && mDecorateIconChange != null is complex.,218
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onMeasure,Long Statement,The length of the statement "int width=(MeasureSpec.getMode(widthMeasureSpec) == MeasureSpec.EXACTLY) ? MeasureSpec.getSize(widthMeasureSpec) : allPadding + fontLen;" is 136.,218
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onMeasure,Long Statement,The length of the statement "int height=(MeasureSpec.getMode(heightMeasureSpec) == MeasureSpec.EXACTLY) ? MeasureSpec.getSize(heightMeasureSpec) : mVerticalPadding * 2 + mFontH;" is 148.,218
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onMeasure,Magic Number,The method contains a magic number: 2,218
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onMeasure,Magic Number,The method contains a magic number: 2,218
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onMeasure,Magic Number,The method contains a magic number: 2,218
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onMeasure,Magic Number,The method contains a magic number: 2,218
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Complex Conditional,The conditional expression mTagMode == MODE_ICON_CHECK_CHANGE && mIsChecked && mDecorateIconChange != null is complex.,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Complex Method,Cyclomatic complexity of the method is 10,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Long Statement,The length of the statement "canvas.drawText(mShowText`mIconGravity == Gravity.RIGHT ? (getWidth() - mFontLenChecked - padding) / 2 : (getWidth() - mFontLenChecked - padding) / 2 + padding`getHeight() / 2 + mBaseLineDistance`mPaint);" is 204.,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Long Statement,The length of the statement "canvas.drawText(mShowText`mIconGravity == Gravity.RIGHT ? (getWidth() - mFontLen - padding) / 2 : (getWidth() - mFontLen - padding) / 2 + padding`getHeight() / 2 + mBaseLineDistance`mPaint);" is 190.,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Magic Number,The method contains a magic number: 2,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Magic Number,The method contains a magic number: 2,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Magic Number,The method contains a magic number: 2,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Magic Number,The method contains a magic number: 2,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Magic Number,The method contains a magic number: 2,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Magic Number,The method contains a magic number: 2,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onDraw,Magic Number,The method contains a magic number: 2,255
+mvp44_MvpApp-master,com.dl7.mvp.widget,SimpleButton,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 8,315
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,onLayout,Long Parameter List,The method has 5 parameters. ,107
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,onLayout,Long Statement,The length of the statement "mContentView.layout(mContentLeft`mContentTop`mContentLeft + mContentView.getMeasuredWidth()`mContentTop + mContentView.getMeasuredHeight());" is 140.,107
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,drawChild,Complex Conditional,The conditional expression mScrimOpacity > 0 && drawContent && mDragHelper.getViewDragState() != ViewDragHelper.STATE_IDLE is complex.,125
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,_drawScrim,Magic Number,The method contains a magic number: 0xff000000,139
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,_drawScrim,Magic Number,The method contains a magic number: 24,139
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,_drawScrim,Magic Number,The method contains a magic number: 24,139
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,_drawScrim,Magic Number,The method contains a magic number: 0xffffff,139
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,_drawShadow,Long Statement,The length of the statement "mShadowLeft.setBounds(mContentRect.left - mShadowLeft.getIntrinsicWidth()`mContentRect.top`mContentRect.left`mContentRect.bottom);" is 130.,163
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,_drawShadow,Long Statement,The length of the statement "mShadowRight.setBounds(mContentRect.right`mContentRect.top`mContentRect.right + mShadowRight.getIntrinsicWidth()`mContentRect.bottom);" is 134.,163
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,_drawShadow,Long Statement,The length of the statement "mShadowBottom.setBounds(mContentRect.left`mContentRect.bottom`mContentRect.right`mContentRect.bottom + mShadowBottom.getIntrinsicHeight());" is 139.,163
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,tryCaptureView,Complex Method,Cyclomatic complexity of the method is 8,226
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,293
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,onViewReleased,Long Statement,The length of the statement "left=xvel > 0 || xvel == 0 && mScrollPercent > mScrollThreshold ? childWidth + mShadowLeft.getIntrinsicWidth() + OVER_SCROLL_DISTANCE : 0;" is 138.,318
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,onViewReleased,Long Statement,The length of the statement "left=xvel < 0 || xvel == 0 && mScrollPercent > mScrollThreshold ? -(childWidth + mShadowLeft.getIntrinsicWidth() + OVER_SCROLL_DISTANCE) : 0;" is 141.,318
+mvp44_MvpApp-master,com.dl7.mvp.widget,SwipeBackLayout,onViewReleased,Long Statement,The length of the statement "top=yvel < 0 || yvel == 0 && mScrollPercent > mScrollThreshold ? -(childHeight + mShadowBottom.getIntrinsicHeight() + OVER_SCROLL_DISTANCE) : 0;" is 144.,318
+mvp44_MvpApp-master,com.dl7.mvp.widget,ViewDragCallback,tryCaptureView,Complex Method,Cyclomatic complexity of the method is 8,226
+mvp44_MvpApp-master,com.dl7.mvp.widget,ViewDragCallback,onViewPositionChanged,Long Parameter List,The method has 5 parameters. ,293
+mvp44_MvpApp-master,com.dl7.mvp.widget,ViewDragCallback,onViewReleased,Long Statement,The length of the statement "left=xvel > 0 || xvel == 0 && mScrollPercent > mScrollThreshold ? childWidth + mShadowLeft.getIntrinsicWidth() + OVER_SCROLL_DISTANCE : 0;" is 138.,318
+mvp44_MvpApp-master,com.dl7.mvp.widget,ViewDragCallback,onViewReleased,Long Statement,The length of the statement "left=xvel < 0 || xvel == 0 && mScrollPercent > mScrollThreshold ? -(childWidth + mShadowLeft.getIntrinsicWidth() + OVER_SCROLL_DISTANCE) : 0;" is 141.,318
+mvp44_MvpApp-master,com.dl7.mvp.widget,ViewDragCallback,onViewReleased,Long Statement,The length of the statement "top=yvel < 0 || yvel == 0 && mScrollPercent > mScrollThreshold ? -(childHeight + mShadowBottom.getIntrinsicHeight() + OVER_SCROLL_DISTANCE) : 0;" is 144.,318
+mvp44_MvpApp-master,com.dl7.mvp.widget.dialog,DownloadDialog,onCreateView,Magic Number,The method contains a magic number: 5,39
+mvp44_MvpApp-master,com.dl7.downloaderlib,DownloadConfig,DownloadConfig,Magic Number,The method contains a magic number: 10,21
+mvp44_MvpApp-master,com.dl7.downloaderlib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+mvp44_MvpApp-master,com.dl7.downloaderlib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+mvp44_MvpApp-master,com.dl7.downloaderlib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+mvp44_MvpApp-master,com.dl7.downloaderlib.db,FileDAOImpl,FileDAOImpl,Magic Number,The method contains a magic number: 2,19
+mvp44_MvpApp-master,com.dl7.downloaderlib.entity,FileInfo,toString,Long Statement,The length of the statement "return "FileInfo{" + "url='" + url + '\''+ "` name='"+ name+ '\''+ "` totalBytes="+ totalBytes+ "` loadBytes="+ loadBytes+ "` speed="+ speed+ "` status="+ status+ "` path='"+ path+ '\''+ '}';" is 191.,140
+mvp44_MvpApp-master,com.dl7.downloaderlib.model,FileUtils,getRandomAccessFile,Complex Method,Cyclomatic complexity of the method is 8,22
+mvp44_MvpApp-master,com.dl7.downloaderlib.model,FileUtils,getRandomAccessFile,Long Statement,The length of the statement "throw new RuntimeException(formatString("found invalid internal destination path[%s]`" + " & path is directory[%B]"`path`file.isDirectory()));" is 142.,22
+mvp44_MvpApp-master,com.dl7.downloaderlib.model,FileUtils,getRandomAccessFile,Long Statement,The length of the statement "throw new RuntimeException(formatString("The file is too large to store` breakpoint in bytes: " + " %d` required space in bytes: %d` but free space in bytes: " + "%d"`breakpointBytes`requiredSpaceBytes`freeSpaceBytes));" is 219.,22
+mvp44_MvpApp-master,com.dl7.downloaderlib.service,DownloadTask,run,Complex Method,Cyclomatic complexity of the method is 10,64
+mvp44_MvpApp-master,com.dl7.downloaderlib.service,DownloadTask,_onDownload,Complex Method,Cyclomatic complexity of the method is 10,154
+mvp44_MvpApp-master,com.dl7.downloaderlib.service,DownloadTask,_onDownload,Long Statement,The length of the statement "final RandomAccessFile accessFile=FileUtils.getRandomAccessFile(mFileInfo.getPath() + mFileInfo.getName() + ".tmp"`mFileInfo.getLoadBytes()`mFileInfo.getTotalBytes());" is 167.,154
+mvp44_MvpApp-master,com.dl7.downloaderlib.service,DownloadTask,_onDownload,Long Statement,The length of the statement "throw new RuntimeException(FileUtils.formatString("the file was changed by others when" + " downloading. %d %d"`accessFile.length()`loadBytes));" is 144.,154
+mvp44_MvpApp-master,com.dl7.downloaderlib.service,DownloadTask,_onDownload,Long Statement,The length of the statement "throw new DownloadException(FileUtils.formatString("Unfinished: load[%d] is not equal total[%d]!"`mFileInfo.getLoadBytes()`mFileInfo.getTotalBytes()));" is 151.,154
+mvp44_MvpApp-master,com.dl7.downloaderlib.service,DownloadTask,_onProcess,Magic Number,The method contains a magic number: 1000,243
+mvp44_MvpApp-master,com.dl7.player,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+mvp44_MvpApp-master,com.dl7.player,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvp44_MvpApp-master,com.dl7.player,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvp44_MvpApp-master,com.dl7.player.danmaku,AcFunDanmakuParser,_parse,Empty catch clause,The method has an empty catch block.,53
+mvp44_MvpApp-master,com.dl7.player.danmaku,AcFunDanmakuParser,_parse,Empty catch clause,The method has an empty catch block.,53
+mvp44_MvpApp-master,com.dl7.player.danmaku,AcFunDanmakuParser,_parse,Magic Number,The method contains a magic number: 2,53
+mvp44_MvpApp-master,com.dl7.player.danmaku,AcFunDanmakuParser,_parse,Magic Number,The method contains a magic number: 7,53
+mvp44_MvpApp-master,com.dl7.player.danmaku,AcFunDanmakuParser,_parse,Magic Number,The method contains a magic number: 1000,53
+mvp44_MvpApp-master,com.dl7.player.danmaku,AcFunDanmakuParser,_parse,Magic Number,The method contains a magic number: 0xFF000000,53
+mvp44_MvpApp-master,com.dl7.player.danmaku,AcFunDanmakuParser,_parse,Magic Number,The method contains a magic number: 3,53
+mvp44_MvpApp-master,com.dl7.player.danmaku,AcFunDanmakuParser,_parse,Magic Number,The method contains a magic number: 0.6f,53
+mvp44_MvpApp-master,com.dl7.player.danmaku,BaseDanmakuData,toString,Long Statement,The length of the statement "return "BaseDanmakuData{" + "type=" + type + "` content='"+ content+ '\''+ "` time="+ time+ "` textSize="+ textSize+ "` textColor="+ textColor+ '}';" is 148.,57
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,startElement,Magic Number,The method contains a magic number: 1000,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,startElement,Magic Number,The method contains a magic number: 2,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,startElement,Magic Number,The method contains a magic number: 0x00000000ff000000,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,startElement,Magic Number,The method contains a magic number: 3,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,startElement,Magic Number,The method contains a magic number: 0x00000000ffffffff,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,startElement,Magic Number,The method contains a magic number: 0.6f,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Complex Conditional,The conditional expression item.getType() == BaseDanmaku.TYPE_SPECIAL && text.startsWith("[") && text.endsWith("]") is complex.,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Complex Method,Cyclomatic complexity of the method is 22,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Long Statement,The length of the statement "mContext.mDanmakuFactory.fillTranslationData(item`beginX`beginY`endX`endY`translationDuration`translationStartDelay`mDispScaleX`mDispScaleY);" is 141.,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 5,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 4,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 2,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 3,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 1000,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 7,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 5,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 6,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 11,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 7,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 8,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 9,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 9,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 10,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 10,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 12,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 11,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 11,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 13,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 14,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 15,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 14,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 14,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,BiliDanmukuParser,characters,Magic Number,The method contains a magic number: 2,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,startElement,Magic Number,The method contains a magic number: 1000,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,startElement,Magic Number,The method contains a magic number: 2,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,startElement,Magic Number,The method contains a magic number: 0x00000000ff000000,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,startElement,Magic Number,The method contains a magic number: 3,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,startElement,Magic Number,The method contains a magic number: 0x00000000ffffffff,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,startElement,Magic Number,The method contains a magic number: 0.6f,89
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Complex Conditional,The conditional expression item.getType() == BaseDanmaku.TYPE_SPECIAL && text.startsWith("[") && text.endsWith("]") is complex.,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Complex Method,Cyclomatic complexity of the method is 22,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Long Statement,The length of the statement "mContext.mDanmakuFactory.fillTranslationData(item`beginX`beginY`endX`endY`translationDuration`translationStartDelay`mDispScaleX`mDispScaleY);" is 141.,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 5,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 4,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 2,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 3,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 1000,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 7,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 5,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 6,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 11,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 7,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 8,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 9,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 9,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 10,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 10,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 12,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 11,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 11,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 13,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 14,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 15,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 14,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 14,138
+mvp44_MvpApp-master,com.dl7.player.danmaku,XmlContentHandler,characters,Magic Number,The method contains a magic number: 2,138
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,handleMessage,Complex Conditional,The conditional expression !mIsSeeking && mIsShowBar && mVideoView.isPlaying() is complex.,170
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,handleMessage,Magic Number,The method contains a magic number: 1000,170
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,handleMessage,Magic Number,The method contains a magic number: 1000,170
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,handleMessage,Magic Number,The method contains a magic number: 3000,170
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initView,Magic Number,The method contains a magic number: 4,257
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initView,Magic Number,The method contains a magic number: 150,257
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onCheckedChanged,Magic Number,The method contains a magic number: 150,293
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initMediaPlayer,Magic Number,The method contains a magic number: 255.0F,322
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onLayout,Long Parameter List,The method has 5 parameters. ,364
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onStartTrackingTouch,Magic Number,The method contains a magic number: 3600000,695
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onProgressChanged,Magic Number,The method contains a magic number: 1000,703
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setControlBarVisible,Complex Method,Cyclomatic complexity of the method is 9,768
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_showAspectRatioOptions,Magic Number,The method contains a magic number: 150,905
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onClick,Complex Method,Cyclomatic complexity of the method is 21,919
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_handleOrientation,Complex Conditional,The conditional expression orientation >= 0 && orientation <= 30 || orientation >= 330 is complex.,1037
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_handleOrientation,Magic Number,The method contains a magic number: 30,1037
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_handleOrientation,Magic Number,The method contains a magic number: 330,1037
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_handleOrientation,Magic Number,The method contains a magic number: 60,1037
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_handleOrientation,Magic Number,The method contains a magic number: 120,1037
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_handleOrientation,Magic Number,The method contains a magic number: 240,1037
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_handleOrientation,Magic Number,The method contains a magic number: 300,1037
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_refreshOrientationEnable,Magic Number,The method contains a magic number: 3000,1062
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setUiLayoutFullscreen,Long Statement,The length of the statement "decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN| View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);" is 259.,1109
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setUiLayoutFullscreen,Magic Number,The method contains a magic number: 14,1109
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,configurationChanged,Long Statement,The length of the statement "decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN| View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_HIDE_NAVIGATION| View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);" is 259.,1128
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,configurationChanged,Magic Number,The method contains a magic number: 14,1128
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_exit,Magic Number,The method contains a magic number: 2000,1169
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onScroll,Magic Number,The method contains a magic number: 0.5f,1203
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onTouch,Complex Method,Cyclomatic complexity of the method is 12,1290
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onTouch,Magic Number,The method contains a magic number: 3,1290
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setProgress,Magic Number,The method contains a magic number: 10,1354
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setProgress,Magic Number,The method contains a magic number: 10,1354
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onProgressSlide,Magic Number,The method contains a magic number: 100,1415
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onProgressSlide,Magic Number,The method contains a magic number: 1000,1415
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onProgressSlide,Magic Number,The method contains a magic number: 2,1415
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onProgressSlide,Magic Number,The method contains a magic number: 1000,1415
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setVolumeInfo,Magic Number,The method contains a magic number: 100,1445
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setVolume,Magic Number,The method contains a magic number: 15,1485
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setVolume,Magic Number,The method contains a magic number: 15,1485
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setVolume,Magic Number,The method contains a magic number: 1000,1485
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_setBrightnessInfo,Magic Number,The method contains a magic number: 100,1510
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onBrightnessSlide,Magic Number,The method contains a magic number: 0.5f,1525
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onBrightnessSlide,Magic Number,The method contains a magic number: 0.01f,1525
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onBrightnessSlide,Magic Number,The method contains a magic number: 0.01f,1525
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onBrightnessSlide,Magic Number,The method contains a magic number: 0.01f,1525
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_onBrightnessSlide,Magic Number,The method contains a magic number: 0.01f,1525
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_switchStatus,Complex Conditional,The conditional expression mIsRenderingStart && !mIsBufferingStart && mVideoView.getCurrentPosition() > 0 is complex.,1591
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_switchStatus,Complex Method,Cyclomatic complexity of the method is 17,1591
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,switchVideoSource,Long Parameter List,The method has 5 parameters. ,1801
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,setVideoSource,Complex Method,Cyclomatic complexity of the method is 10,1816
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,setVideoSource,Long Parameter List,The method has 5 parameters. ,1816
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,setVideoSource,Long Statement,The length of the statement "mIvMediaQuality.setCompoundDrawablesWithIntrinsicBounds(null`ContextCompat.getDrawable(mAttachActivity`QUALITY_DRAWABLE_RES[mCurSelectQuality])`null`null);" is 155.,1816
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,setMediaQuality,Long Statement,The length of the statement "mIvMediaQuality.setCompoundDrawablesWithIntrinsicBounds(null`ContextCompat.getDrawable(mAttachActivity`QUALITY_DRAWABLE_RES[quality])`null`null);" is 145.,1873
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_showSkipTip,Magic Number,The method contains a magic number: 800,1944
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_showSkipTip,Magic Number,The method contains a magic number: 3,1944
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_hideSkipTip,Long Statement,The length of the statement "ViewCompat.animate(mLlSkipLayout).translationX(-mLlSkipLayout.getWidth()).alpha(0).setDuration(500).setListener(new ViewPropertyAnimatorListenerAdapter(){" is 154.,1956
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_hideSkipTip,Magic Number,The method contains a magic number: 500,1956
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initDanmaku,Magic Number,The method contains a magic number: 12,2070
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initDanmaku,Magic Number,The method contains a magic number: 25f,2070
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initDanmaku,Magic Number,The method contains a magic number: 0.6f,2070
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initDanmaku,Magic Number,The method contains a magic number: 0.7f,2070
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initDanmaku,Magic Number,The method contains a magic number: 25f,2070
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_initDanmaku,Magic Number,The method contains a magic number: 0.6f,2070
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onCheckedChanged,Magic Number,The method contains a magic number: 25f,2113
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onCheckedChanged,Magic Number,The method contains a magic number: 0.6f,2113
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onCheckedChanged,Magic Number,The method contains a magic number: 0.7f,2113
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onCheckedChanged,Magic Number,The method contains a magic number: 25f,2113
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onCheckedChanged,Magic Number,The method contains a magic number: 0.6f,2113
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,sendDanmaku,Complex Method,Cyclomatic complexity of the method is 8,2311
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,sendDanmaku,Magic Number,The method contains a magic number: 25f,2311
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,sendDanmaku,Magic Number,The method contains a magic number: 0.6f,2311
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,sendDanmaku,Magic Number,The method contains a magic number: 5,2311
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,sendDanmaku,Magic Number,The method contains a magic number: 500,2311
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_resumeDanmaku,Complex Conditional,The conditional expression mDanmakuView != null && mDanmakuView.isPrepared() && mDanmakuView.isPaused() is complex.,2388
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 300,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 300,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 180,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 150,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 250,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 300,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 300,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 150,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,_toggleMoreColorOptions,Magic Number,The method contains a magic number: 250,2462
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onShare,Magic Number,The method contains a magic number: 100,2503
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onReceive,Magic Number,The method contains a magic number: 100,2624
+mvp44_MvpApp-master,com.dl7.player.media,IjkPlayerView,onReceive,Magic Number,The method contains a magic number: 100,2624
+mvp44_MvpApp-master,com.dl7.player.media,BatteryBroadcastReceiver,onReceive,Magic Number,The method contains a magic number: 100,2624
+mvp44_MvpApp-master,com.dl7.player.media,BatteryBroadcastReceiver,onReceive,Magic Number,The method contains a magic number: 100,2624
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Complex Method,Cyclomatic complexity of the method is 9,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 360,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 360,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 315,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 45,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 45,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 135,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 90,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 135,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 225,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 180,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 225,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 315,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 270,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 2,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 2,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 2,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 2,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 2,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,adjustVideoView,Magic Number,The method contains a magic number: 300,239
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,setRender,Missing default,The following switch statement is missing a default case: switch (render) {,327
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,openVideo,Complex Conditional,The conditional expression Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && mIsUsingMediaDataSource && (TextUtils.isEmpty(scheme) || scheme.equalsIgnoreCase("file")) is complex.,430
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,openVideo,Long Statement,The length of the statement "if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && mIsUsingMediaDataSource && (TextUtils.isEmpty(scheme) || scheme.equalsIgnoreCase("file"))) {" is 146.,430
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,openVideo,Magic Number,The method contains a magic number: 2,430
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onVideoSizeChanged,Long Parameter List,The method has 5 parameters. ,518
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onPrepared,Complex Conditional,The conditional expression !mRenderView.shouldWaitForResize() || mSurfaceWidth == mVideoWidth && mSurfaceHeight == mVideoHeight is complex.,535
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onPrepared,Complex Conditional,The conditional expression !isPlaying() && (seekToPosition != 0 || getCurrentPosition() > 0) is complex.,535
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onPrepared,Complex Method,Cyclomatic complexity of the method is 12,535
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onInfo,Complex Method,Cyclomatic complexity of the method is 15,622
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onSurfaceChanged,Complex Conditional,The conditional expression mMediaPlayer != null && isValidState && hasValidSize is complex.,794
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onKeyDown,Complex Conditional,The conditional expression isInPlaybackState() && isKeyCodeSupported && mMediaController != null is complex.,886
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onKeyDown,Complex Method,Cyclomatic complexity of the method is 8,886
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,onKeyDown,Long Statement,The length of the statement "boolean isKeyCodeSupported=keyCode != KeyEvent.KEYCODE_BACK && keyCode != KeyEvent.KEYCODE_VOLUME_UP && keyCode != KeyEvent.KEYCODE_VOLUME_DOWN && keyCode != KeyEvent.KEYCODE_VOLUME_MUTE && keyCode != KeyEvent.KEYCODE_MENU && keyCode != KeyEvent.KEYCODE_CALL && keyCode != KeyEvent.KEYCODE_ENDCALL;" is 298.,886
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,isInPlaybackState,Long Statement,The length of the statement "return (mMediaPlayer != null && mCurrentState != MediaPlayerParams.STATE_ERROR && mCurrentState != MediaPlayerParams.STATE_IDLE && mCurrentState != MediaPlayerParams.STATE_PREPARING);" is 183.,1029
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,createPlayer,Complex Method,Cyclomatic complexity of the method is 9,1102
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,createPlayer,Long Identifier,The length of the field mIsMediaCodecHandleResolutionChange is 35.,1102
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,createPlayer,Magic Number,The method contains a magic number: 2,1102
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,createPlayer,Magic Number,The method contains a magic number: 48,1102
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,createPlayer,Missing default,The following switch statement is missing a default case: switch (playerType) {,1102
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,buildTimeMilli,Magic Number,The method contains a magic number: 1000,1197
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,buildTimeMilli,Magic Number,The method contains a magic number: 3600,1197
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,buildTimeMilli,Magic Number,The method contains a magic number: 3600,1197
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,buildTimeMilli,Magic Number,The method contains a magic number: 60,1197
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,buildTimeMilli,Magic Number,The method contains a magic number: 60,1197
+mvp44_MvpApp-master,com.dl7.player.media,IjkVideoView,buildTimeMilli,Magic Number,The method contains a magic number: 100,1197
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Complex Method,Cyclomatic complexity of the method is 30,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Long Method,The method has 116 lines of code.,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 90,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 270,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 16.0f,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 9.0f,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 90,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 270,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 4.0f,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 3.0f,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 90,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 270,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Missing default,The following switch statement is missing a default case: switch (mCurrentAspectRatio) {,68
+mvp44_MvpApp-master,com.dl7.player.media,MeasureHelper,doMeasure,Missing default,The following switch statement is missing a default case: switch (mCurrentAspectRatio) {,68
+mvp44_MvpApp-master,com.dl7.player.media,TextureRenderView,releaseSurfaceTexture,Complex Method,Cyclomatic complexity of the method is 10,322
+mvp44_MvpApp-master,com.dl7.player.media,SurfaceCallback,releaseSurfaceTexture,Complex Method,Cyclomatic complexity of the method is 10,322
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcSpacing,Magic Number,The method contains a magic number: 2,30
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,midPoint,Magic Number,The method contains a magic number: 2,54
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,midPoint,Magic Number,The method contains a magic number: 2,54
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,midPoint,Magic Number,The method contains a magic number: 3,54
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,midPoint,Magic Number,The method contains a magic number: 3,54
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcFingerFlag,Magic Number,The method contains a magic number: 2,63
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,calcFingerFlag,Magic Number,The method contains a magic number: 2,63
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,MotionEventUtils,rotation,Magic Number,The method contains a magic number: 2,84
+mvp44_MvpApp-master,com.dl7.player.utils,NavUtils,checkDeviceHasNavigationBar,Empty catch clause,The method has an empty catch block.,35
+mvp44_MvpApp-master,com.dl7.player.utils,NetWorkUtils,getNetworkTypeName,Long Statement,The length of the statement "type=TextUtils.isEmpty(proxyHost) ? (isFastMobileNetwork(context) ? NETWORK_TYPE_3G : NETWORK_TYPE_2G) : NETWORK_TYPE_WAP;" is 122.,40
+mvp44_MvpApp-master,com.dl7.player.utils,NetWorkUtils,isFastMobileNetwork,Complex Method,Cyclomatic complexity of the method is 18,69
+mvp44_MvpApp-master,com.dl7.player.utils,NetWorkUtils,isFastMobileNetwork,Missing default,The following switch statement is missing a default case: switch (telephonyManager.getNetworkType()) {,69
+mvp44_MvpApp-master,com.dl7.player.utils,SoftInputUtils,closeSoftInput,Long Statement,The length of the statement "inputMethodManager.hideSoftInputFromWindow(((Activity)context).getCurrentFocus().getWindowToken()`InputMethodManager.HIDE_NOT_ALWAYS);" is 134.,20
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,generateTime,Magic Number,The method contains a magic number: 1000,17
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,generateTime,Magic Number,The method contains a magic number: 60,17
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,generateTime,Magic Number,The method contains a magic number: 60,17
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,generateTime,Magic Number,The method contains a magic number: 99,17
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,StringUtils,getFormatSize,Magic Number,The method contains a magic number: 1024,29
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getDisplayRotation,Magic Number,The method contains a magic number: 90,41
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getDisplayRotation,Magic Number,The method contains a magic number: 180,41
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getDisplayRotation,Magic Number,The method contains a magic number: 270,41
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getDisplayRotation,Missing default,The following switch statement is missing a default case: switch (activity.getWindowManager().getDefaultDisplay().getRotation()) {,41
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,dimBackground,Magic Number,The method contains a magic number: 500,82
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getScreenOrientation,Complex Conditional,The conditional expression (rotation == Surface.ROTATION_0 || rotation == Surface.ROTATION_180) && height > width || (rotation == Surface.ROTATION_90 || rotation == Surface.ROTATION_270) && width > height is complex.,106
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getScreenOrientation,Complex Method,Cyclomatic complexity of the method is 10,106
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getScreenOrientation,Long Statement,The length of the statement "if ((rotation == Surface.ROTATION_0 || rotation == Surface.ROTATION_180) && height > width || (rotation == Surface.ROTATION_90 || rotation == Surface.ROTATION_270) && width > height) {" is 184.,106
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getScreenOrientation,Missing default,The following switch statement is missing a default case: switch (rotation) {,106
+mvp44_MvpApp-master,com.dl7.player.utils,WindowUtils,getScreenOrientation,Missing default,The following switch statement is missing a default case: switch (rotation) {,106
+mvp44_MvpApp-master,com.dl7.player.widgets,ShareDialog,onCreateView,Magic Number,The method contains a magic number: 7,32
+mvp44_MvpApp-master,com.dl7.player.widgets,ShareDialog,onCreateView,Magic Number,The method contains a magic number: 10,32
+mvp44_MvpApp-master,com.dl7.player.widgets,ShareDialog,onCreateView,Magic Number,The method contains a magic number: 7,32
+mvp44_MvpApp-master,com.dl7.player.widgets,ShareDialog,onCreateView,Magic Number,The method contains a magic number: 10,32
+mvp44_MvpApp-master,com.dl7.recycler,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+mvp44_MvpApp-master,com.dl7.recycler,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+mvp44_MvpApp-master,com.dl7.recycler,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseMultiItemQuickAdapter,BaseMultiItemQuickAdapter,Abstract Function Call From Constructor,The constructor BaseMultiItemQuickAdapter calls a virtual method attachItemType.,23
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseMultiItemQuickAdapter,BaseMultiItemQuickAdapter,Long Statement,The length of the statement "throw new IllegalAccessError("Please add item use 'addItemType(int type` int layoutResId)' " + "in the 'attachItemType()' method");" is 131.,23
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,BaseQuickAdapter,Abstract Function Call From Constructor,The constructor BaseQuickAdapter calls a virtual method attachLayoutRes.,85
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,132
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,onViewAttachedToWindow,Complex Conditional,The conditional expression type == EMPTY_VIEW || type == HEADER_VIEW || type == FOOTER_VIEW || type == LOADING_VIEW || type == FULL_VIEW || type == FULL_VIEW_2 || type == FULL_VIEW_3 is complex.,159
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,onViewAttachedToWindow,Long Statement,The length of the statement "if (type == EMPTY_VIEW || type == HEADER_VIEW || type == FOOTER_VIEW || type == LOADING_VIEW || type == FULL_VIEW || type == FULL_VIEW_2 || type == FULL_VIEW_3) {" is 162.,159
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,_setFullSpan,Long Statement,The length of the statement "StaggeredGridLayoutManager.LayoutParams params=(StaggeredGridLayoutManager.LayoutParams)holder.itemView.getLayoutParams();" is 122.,176
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,onAttachedToRecyclerView,Long Statement,The length of the statement "return (type == EMPTY_VIEW || type == HEADER_VIEW || type == FOOTER_VIEW || type == LOADING_VIEW || type == FULL_VIEW || type == FULL_VIEW_2 || type == FULL_VIEW_3) ? gridManager.getSpanCount() : 1;" is 198.,191
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,getSpanSize,Long Statement,The length of the statement "return (type == EMPTY_VIEW || type == HEADER_VIEW || type == FOOTER_VIEW || type == LOADING_VIEW || type == FULL_VIEW || type == FULL_VIEW_2 || type == FULL_VIEW_3) ? gridManager.getSpanCount() : 1;" is 198.,198
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,onCreateViewHolder,Missing default,The following switch statement is missing a default case: switch (viewType) {,208
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,onBindViewHolder,Missing default,The following switch statement is missing a default case: switch (holder.getItemViewType()) {,252
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,_initLoadingView,Long Statement,The length of the statement "mLoadingView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 130.,329
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,_loadMore,Complex Conditional,The conditional expression !mIsLoadingNow && onRequestDataListener != null && !mIsNoMoreData is complex.,348
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,addHeaderView,Long Statement,The length of the statement "headerView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 128.,365
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseQuickAdapter,addFooterView,Long Statement,The length of the statement "footerView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 128.,376
+mvp44_MvpApp-master,com.dl7.recycler.adapter,BaseSectionQuickAdapter,convert,Missing default,The following switch statement is missing a default case: switch (holder.getItemViewType()) {,39
+mvp44_MvpApp-master,com.dl7.recycler.helper,RecyclerViewHelper,initRecyclerViewV,Long Parameter List,The method has 5 parameters. ,51
+mvp44_MvpApp-master,com.dl7.recycler.helper,RecyclerViewHelper,initRecyclerViewG,Long Parameter List,The method has 5 parameters. ,82
+mvp44_MvpApp-master,com.dl7.recycler.helper,RecyclerViewHelper,initRecyclerViewSV,Long Parameter List,The method has 5 parameters. ,102
+mvp44_MvpApp-master,com.dl7.recycler.helper,SimpleItemTouchHelperCallback,getMovementFlags,Long Statement,The length of the statement "if (recyclerView.getLayoutManager() instanceof GridLayoutManager || recyclerView.getLayoutManager() instanceof StaggeredGridLayoutManager) {" is 140.,86
+mvp44_MvpApp-master,com.dl7.recycler.helper,SimpleItemTouchHelperCallback,onChildDraw,Long Parameter List,The method has 7 parameters. ,135
+mvp44_MvpApp-master,com.dl7.tinkerlib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+mvp44_MvpApp-master,com.dl7.tinkerlib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvp44_MvpApp-master,com.dl7.tinkerlib,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+mvp44_MvpApp-master,com.dl7.tinkerlib.crash,SampleUncaughtExceptionHandler,tinkerPreVerifiedCrashHandler,Complex Method,Cyclomatic complexity of the method is 8,61
+mvp44_MvpApp-master,com.dl7.tinkerlib.crash,SampleUncaughtExceptionHandler,tinkerFastCrashProtect,Long Statement,The length of the statement "SharedPreferences sp=applicationLike.getApplication().getSharedPreferences(ShareConstants.TINKER_SHARE_PREFERENCE_CONFIG`Context.MODE_MULTI_PROCESS);" is 149.,107
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleLoadReporter,onLoadFileNotFound,Long Statement,The length of the statement "TinkerLog.i(TAG`"patch loadReporter onLoadFileNotFound: patch file not found: %s` fileType:%d` isDirectory:%b"`file.getAbsolutePath()`fileType`isDirectory);" is 156.,91
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SamplePatchListener,patchCheck,Complex Method,Cyclomatic complexity of the method is 11,57
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SamplePatchListener,patchCheck,Long Identifier,The length of the field NEW_PATCH_RESTRICTION_SPACE_SIZE_MIN is 36.,57
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SamplePatchListener,patchCheck,Long Statement,The length of the statement "SharedPreferences sp=context.getSharedPreferences(ShareConstants.TINKER_SHARE_PREFERENCE_CONFIG`Context.MODE_MULTI_PROCESS);" is 124.,57
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SamplePatchListener,patchCheck,Long Statement,The length of the statement "returnCode=UpgradePatchRetry.getInstance(context).onPatchListenerCheck(patchMd5) ? ShareConstants.ERROR_PATCH_OK : Utils.ERROR_PATCH_RETRY_COUNT_LIMIT;" is 151.,57
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SamplePatchReporter,onPatchDexOptFail,Long Parameter List,The method has 5 parameters. ,45
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onTryApplyFail,Complex Method,Cyclomatic complexity of the method is 12,160
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onTryApplyFail,Long Identifier,The length of the field KEY_TRY_APPLY_CONDITION_NOT_SATISFIED is 37.,160
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Complex Method,Cyclomatic complexity of the method is 11,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_SIGNATURE is 34.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_DEX_META is 33.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_LIB_META is 33.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_PATCH_TINKER_ID_NOT_FOUND is 50.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_APK_TINKER_ID_NOT_FOUND is 48.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_TINKER_ID_NOT_EQUAL is 44.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_PACKAGE_META_NOT_FOUND is 47.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_RES_META is 33.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadPackageCheckFail,Long Identifier,The length of the field KEY_LOADED_PACKAGE_CHECK_TINKERFLAG_NOT_SUPPORT is 47.,198
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoaded,Long Identifier,The length of the field KEY_LOADED_SUCC_COST_1000_LESS is 30.,234
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoaded,Long Identifier,The length of the field KEY_LOADED_SUCC_COST_3000_LESS is 30.,234
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoaded,Long Identifier,The length of the field KEY_LOADED_SUCC_COST_5000_LESS is 30.,234
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoaded,Magic Number,The method contains a magic number: 500,234
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoaded,Magic Number,The method contains a magic number: 1000,234
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoaded,Magic Number,The method contains a magic number: 3000,234
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoaded,Magic Number,The method contains a magic number: 5000,234
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadFileNotFound,Complex Method,Cyclomatic complexity of the method is 8,265
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadException,Complex Method,Cyclomatic complexity of the method is 9,308
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadException,Long Identifier,The length of the field KEY_LOADED_EXCEPTION_DEX_CHECK is 30.,308
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onLoadException,Long Identifier,The length of the field KEY_LOADED_EXCEPTION_RESOURCE_CHECK is 35.,308
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyExtractFail,Long Identifier,The length of the field KEY_APPLIED_PATCH_FILE_EXTRACT is 30.,376
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Complex Method,Cyclomatic complexity of the method is 14,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Long Identifier,The length of the field KEY_APPLIED_SUCC_COST_10S_LESS is 30.,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Long Identifier,The length of the field KEY_APPLIED_FAIL_COST_10S_LESS is 30.,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Long Identifier,The length of the field KEY_APPLIED_SUCC_COST_30S_LESS is 30.,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Long Identifier,The length of the field KEY_APPLIED_FAIL_COST_30S_LESS is 30.,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Long Identifier,The length of the field KEY_APPLIED_SUCC_COST_60S_LESS is 30.,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Long Identifier,The length of the field KEY_APPLIED_FAIL_COST_60S_LESS is 30.,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Magic Number,The method contains a magic number: 5000,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Magic Number,The method contains a magic number: 10,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Magic Number,The method contains a magic number: 1000,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Magic Number,The method contains a magic number: 30,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Magic Number,The method contains a magic number: 1000,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Magic Number,The method contains a magic number: 60,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplied,Magic Number,The method contains a magic number: 1000,396
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Complex Method,Cyclomatic complexity of the method is 11,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_SIGNATURE is 35.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_DEX_META is 34.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_LIB_META is 34.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_PATCH_TINKER_ID_NOT_FOUND is 51.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_APK_TINKER_ID_NOT_FOUND is 49.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_TINKER_ID_NOT_EQUAL is 45.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_META_NOT_FOUND is 40.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_RES_META is 34.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.reporter,SampleTinkerReport,onApplyPackageCheckFail,Long Identifier,The length of the field KEY_APPLIED_PACKAGE_CHECK_TINKERFLAG_NOT_SUPPORT is 48.,450
+mvp44_MvpApp-master,com.dl7.tinkerlib.util,TinkerManager,installTinker,Long Statement,The length of the statement "TinkerInstaller.install(appLike`loadReporter`patchReporter`patchListener`SampleResultService.class`upgradePatchProcessor);" is 122.,77
+mvp44_MvpApp-master,com.dl7.tinkerlib.util,UpgradePatchRetry,onPatchServiceStart,Complex Conditional,The conditional expression retryInfo.md5 == null || retryInfo.times == null || !patchMd5.equals(retryInfo.md5) is complex.,112
+mvp44_MvpApp-master,com.dl7.tinkerlib.util,UpgradePatchRetry,onPatchServiceStart,Complex Method,Cyclomatic complexity of the method is 8,112
+mvp44_MvpApp-master,com.dl7.tinkerlib.util,Utils,checkForPatchRecover,Long Identifier,The length of the field ERROR_PATCH_GOOGLEPLAY_CHANNEL is 30.,64
+mvp44_MvpApp-master,com.dl7.tinkerlib.util,Utils,toVisualString,Magic Number,The method contains a magic number: 127,130

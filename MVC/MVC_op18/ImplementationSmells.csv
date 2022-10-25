@@ -1,0 +1,1271 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+3_cms-master,foo.cms.action.admin.assist,CmsAcquisitionAct,save,Long Parameter List,The method has 5 parameters. ,85
+3_cms-master,foo.cms.action.admin.assist,CmsAcquisitionAct,update,Long Parameter List,The method has 5 parameters. ,101
+3_cms-master,foo.cms.action.admin.assist,CmsAcquisitionAct,cancel,Long Parameter List,The method has 6 parameters. ,179
+3_cms-master,foo.cms.action.admin.assist,CmsAcquisitionAct,history,Long Parameter List,The method has 5 parameters. ,229
+3_cms-master,foo.cms.action.admin.assist,CmsAcquisitionAct,deleteHistory,Long Parameter List,The method has 5 parameters. ,242
+3_cms-master,foo.cms.action.admin.assist,CmsAdvertisingAct,list,Long Parameter List,The method has 5 parameters. ,46
+3_cms-master,foo.cms.action.admin.assist,CmsAdvertisingAct,list,Long Statement,The length of the statement "Pagination pagination=manager.getPage(site.getId()`queryAdspaceId`queryEnabled`cpn(pageNo)`CookieUtils.getPageSize(request));" is 125.,46
+3_cms-master,foo.cms.action.admin.assist,CmsAdvertisingAct,update,Long Parameter List,The method has 7 parameters. ,117
+3_cms-master,foo.cms.action.admin.assist,CmsAdvertisingAct,delete,Long Parameter List,The method has 6 parameters. ,143
+3_cms-master,foo.cms.action.admin.assist,CmsCommentAct,list,Long Parameter List,The method has 6 parameters. ,32
+3_cms-master,foo.cms.action.admin.assist,CmsCommentAct,list,Long Statement,The length of the statement "Pagination pagination=manager.getPage(site.getId()`queryContentId`null`queryChecked`queryRecommend`true`cpn(pageNo)`CookieUtils.getPageSize(request));" is 150.,32
+3_cms-master,foo.cms.action.admin.assist,CmsCommentAct,update,Long Parameter List,The method has 9 parameters. ,62
+3_cms-master,foo.cms.action.admin.assist,CmsCommentAct,delete,Long Parameter List,The method has 7 parameters. ,82
+3_cms-master,foo.cms.action.admin.assist,CmsFriendlinkAct,update,Long Parameter List,The method has 5 parameters. ,89
+3_cms-master,foo.cms.action.admin.assist,CmsFriendlinkAct,priority,Long Parameter List,The method has 5 parameters. ,103
+3_cms-master,foo.cms.action.admin.assist,CmsFriendlinkCtgAct,update,Long Parameter List,The method has 5 parameters. ,49
+3_cms-master,foo.cms.action.admin.assist,CmsGuestbookAct,list,Long Parameter List,The method has 6 parameters. ,36
+3_cms-master,foo.cms.action.admin.assist,CmsGuestbookAct,list,Long Statement,The length of the statement "Pagination pagination=manager.getPage(site.getId()`queryCtgId`null`queryRecommend`queryChecked`true`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 152.,36
+3_cms-master,foo.cms.action.admin.assist,CmsGuestbookAct,save,Long Parameter List,The method has 5 parameters. ,76
+3_cms-master,foo.cms.action.admin.assist,CmsGuestbookAct,update,Long Parameter List,The method has 10 parameters. ,91
+3_cms-master,foo.cms.action.admin.assist,CmsGuestbookAct,delete,Long Parameter List,The method has 7 parameters. ,119
+3_cms-master,foo.cms.action.admin.assist,CmsKeywordAct,update,Long Parameter List,The method has 6 parameters. ,50
+3_cms-master,foo.cms.action.admin.assist,CmsKeywordAct,validateUpdate,Long Parameter List,The method has 5 parameters. ,87
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,list,Long Parameter List,The method has 9 parameters. ,43
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,list,Long Statement,The length of the statement "pagination=receiverMessageMng.getPage(site.getId()`null`user.getId()`title`sendBeginTime`sendEndTime`status`box`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 164.,43
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,list,Long Statement,The length of the statement "pagination=messageMng.getPage(site.getId()`user.getId()`null`title`sendBeginTime`sendEndTime`status`box`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 156.,43
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,list,Long Statement,The length of the statement "pagination=messageMng.getPage(site.getId()`user.getId()`null`title`sendBeginTime`sendEndTime`status`box`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 156.,43
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,list,Long Statement,The length of the statement "pagination=receiverMessageMng.getPage(site.getId()`user.getId()`user.getId()`title`sendBeginTime`sendEndTime`status`box`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 172.,43
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,list,Magic Number,The method contains a magic number: 2,43
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,list,Magic Number,The method contains a magic number: 3,43
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,send,Complex Method,Cyclomatic complexity of the method is 12,99
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,send,Long Parameter List,The method has 12 parameters. ,99
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,messageInfoSet,Long Parameter List,The method has 7 parameters. ,169
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,save,Long Parameter List,The method has 11 parameters. ,198
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,save,Magic Number,The method contains a magic number: 2,198
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,save,Magic Number,The method contains a magic number: 2,198
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,save,Magic Number,The method contains a magic number: 2,198
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,message_tosend,Long Parameter List,The method has 10 parameters. ,227
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,update,Long Parameter List,The method has 10 parameters. ,266
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,trash,Long Statement,The length of the statement "cmsLogMng.operating(request`"cmsMessage.log.trash"`"id=" + receiverMessage.getId() + ";title="+ receiverMessage.getMsgTitle());" is 127.,340
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,trash,Magic Number,The method contains a magic number: 3,340
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,trash,Magic Number,The method contains a magic number: 3,340
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,revert,Long Statement,The length of the statement "cmsLogMng.operating(request`"cmsMessage.log.revert"`"id=" + receiverMessage.getId() + ";title="+ receiverMessage.getMsgTitle());" is 128.,401
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,empty,Magic Number,The method contains a magic number: 3,428
+3_cms-master,foo.cms.action.admin.assist,CmsMessageAct,findUnreadMessagesByUser,Long Statement,The length of the statement "@SuppressWarnings("unchecked") List<CmsReceiverMessage> receiverMessages=receiverMessageMng.getList(site.getId()`null`user.getId()`null`null`null`false`0`false);" is 161.,492
+3_cms-master,foo.cms.action.admin.assist,CmsSensitivityAct,update,Long Parameter List,The method has 5 parameters. ,46
+3_cms-master,foo.cms.action.admin.assist,CmsVoteTopicAct,save,Long Parameter List,The method has 6 parameters. ,61
+3_cms-master,foo.cms.action.admin.assist,CmsVoteTopicAct,update,Long Parameter List,The method has 8 parameters. ,78
+3_cms-master,foo.cms.action.admin.assist,ResourceAct,save,Long Parameter List,The method has 5 parameters. ,127
+3_cms-master,foo.cms.action.admin.assist,ResourceAct,update,Long Parameter List,The method has 6 parameters. ,143
+3_cms-master,foo.cms.action.admin.assist,ResourceAct,renameSubmit,Long Parameter List,The method has 5 parameters. ,200
+3_cms-master,foo.cms.action.admin.assist,ResourceAct,swfUpload,Long Parameter List,The method has 5 parameters. ,226
+3_cms-master,foo.cms.action.admin.assist,TemplateAct,save,Long Parameter List,The method has 5 parameters. ,136
+3_cms-master,foo.cms.action.admin.assist,TemplateAct,ajaxUpdate,Long Parameter List,The method has 6 parameters. ,153
+3_cms-master,foo.cms.action.admin.assist,TemplateAct,update,Long Parameter List,The method has 6 parameters. ,169
+3_cms-master,foo.cms.action.admin.assist,TemplateAct,renameSubmit,Long Parameter List,The method has 5 parameters. ,231
+3_cms-master,foo.cms.action.admin.assist,TemplateAct,swfUpload,Long Parameter List,The method has 5 parameters. ,243
+3_cms-master,foo.cms.action.admin,CmsLoginAct,submit,Long Parameter List,The method has 9 parameters. ,82
+3_cms-master,foo.cms.action.admin,CmsLoginAct,validateSubmit,Complex Conditional,The conditional expression !StringUtils.isBlank(captcha) || (errorRemaining != null && errorRemaining < 0) is complex.,159
+3_cms-master,foo.cms.action.admin,CmsLoginAct,validateSubmit,Long Parameter List,The method has 6 parameters. ,159
+3_cms-master,foo.cms.action.admin,CmsLoginAct,validateSubmit,Magic Number,The method contains a magic number: 100,159
+3_cms-master,foo.cms.action.admin,CmsLoginAct,validateSubmit,Magic Number,The method contains a magic number: 32,159
+3_cms-master,foo.cms.action.admin,CmsLoginAct,validateSubmit,Magic Number,The method contains a magic number: 100,159
+3_cms-master,foo.cms.action.admin,CmsLoginAct,writeCookieErrorRemaining,Complex Conditional,The conditional expression userErrorRemaining != null && (errorRemaining == null || userErrorRemaining < errorRemaining) is complex.,217
+3_cms-master,foo.cms.action.admin,CmsLoginAct,writeCookieErrorRemaining,Magic Number,The method contains a magic number: 60,217
+3_cms-master,foo.cms.action.admin,FckAct,upload,Long Parameter List,The method has 6 parameters. ,58
+3_cms-master,foo.cms.action.admin,FckAct,doUpload,Complex Method,Cyclomatic complexity of the method is 9,92
+3_cms-master,foo.cms.action.admin,FckAct,mark,Long Statement,The length of the statement "imageScale.imageMark(tempFile`tempFile`conf.getMinWidth()`conf.getMinHeight()`conf.getPos()`conf.getOffsetX()`conf.getOffsetY()`markImg);" is 137.,186
+3_cms-master,foo.cms.action.admin,FckAct,mark,Long Statement,The length of the statement "imageScale.imageMark(tempFile`tempFile`conf.getMinWidth()`conf.getMinHeight()`conf.getPos()`conf.getOffsetX()`conf.getOffsetY()`conf.getContent()`Color.decode(conf.getColor())`conf.getSize()`conf.getAlpha());" is 208.,186
+3_cms-master,foo.cms.action.admin,ImageCutAct,imageAreaSelect,Long Parameter List,The method has 7 parameters. ,38
+3_cms-master,foo.cms.action.admin,ImageCutAct,imageCut,Long Parameter List,The method has 11 parameters. ,50
+3_cms-master,foo.cms.action.admin,ImageCutAct,imageCut,Long Statement,The length of the statement "imageScale.resizeFix(file`file`reMinWidth`reMinHeight`getLen(imgTop`imgScale)`getLen(imgLeft`imgScale)`getLen(imgWidth`imgScale)`getLen(imgHeight`imgScale));" is 157.,50
+3_cms-master,foo.cms.action.admin,ImageCutAct,imageCut,Long Statement,The length of the statement "imageScale.resizeFix(file`file`reMinWidth`reMinHeight`getLen(imgTop`imgScale)`getLen(imgLeft`imgScale)`getLen(imgWidth`imgScale)`getLen(imgHeight`imgScale));" is 157.,50
+3_cms-master,foo.cms.action.admin,ImageCutAct,imageCut,Long Statement,The length of the statement "imageScale.resizeFix(file`file`reMinWidth`reMinHeight`getLen(imgTop`imgScale)`getLen(imgLeft`imgScale)`getLen(imgWidth`imgScale)`getLen(imgHeight`imgScale));" is 157.,50
+3_cms-master,foo.cms.action.admin,ImageUploadAct,execute,Complex Method,Cyclomatic complexity of the method is 14,46
+3_cms-master,foo.cms.action.admin,ImageUploadAct,execute,Long Method,The method has 108 lines of code.,46
+3_cms-master,foo.cms.action.admin,ImageUploadAct,execute,Long Parameter List,The method has 6 parameters. ,46
+3_cms-master,foo.cms.action.admin,ImageUploadAct,mark,Long Statement,The length of the statement "imageScale.imageMark(tempFile`tempFile`conf.getMinWidth()`conf.getMinHeight()`conf.getPos()`conf.getOffsetX()`conf.getOffsetY()`markImg);" is 137.,192
+3_cms-master,foo.cms.action.admin,ImageUploadAct,mark,Long Statement,The length of the statement "imageScale.imageMark(tempFile`tempFile`conf.getMinWidth()`conf.getMinHeight()`conf.getPos()`conf.getOffsetX()`conf.getOffsetY()`conf.getContent()`Color.decode(conf.getColor())`conf.getSize()`conf.getAlpha());" is 208.,192
+3_cms-master,foo.cms.action.admin,PersonalAct,profileUpdate,Long Parameter List,The method has 6 parameters. ,28
+3_cms-master,foo.cms.action.admin,PersonalAct,validatePasswordSubmit,Long Parameter List,The method has 6 parameters. ,64
+3_cms-master,foo.cms.action.admin,PersonalAct,validatePasswordSubmit,Magic Number,The method contains a magic number: 32,64
+3_cms-master,foo.cms.action.admin,PersonalAct,validatePasswordSubmit,Magic Number,The method contains a magic number: 32,64
+3_cms-master,foo.cms.action.admin,PersonalAct,validatePasswordSubmit,Magic Number,The method contains a magic number: 100,64
+3_cms-master,foo.cms.action.admin,PersonalAct,validatePasswordSubmit,Magic Number,The method contains a magic number: 100,64
+3_cms-master,foo.cms.action.admin.main,ChannelAct,save,Long Parameter List,The method has 10 parameters. ,223
+3_cms-master,foo.cms.action.admin.main,ChannelAct,update,Long Parameter List,The method has 10 parameters. ,251
+3_cms-master,foo.cms.action.admin.main,ChannelAct,priority,Long Parameter List,The method has 5 parameters. ,294
+3_cms-master,foo.cms.action.admin.main,CmsAdminAbstract,channelsEditJson,Long Parameter List,The method has 5 parameters. ,33
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,list,Long Parameter List,The method has 7 parameters. ,38
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,list,Long Statement,The length of the statement "Pagination pagination=manager.getPage(queryUsername`queryEmail`null`queryGroupId`queryDisabled`true`currUser.getRank()`cpn(pageNo)`CookieUtils.getPageSize(request));" is 165.,38
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,edit,Long Parameter List,The method has 5 parameters. ,69
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,save,Long Parameter List,The method has 16 parameters. ,101
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,save,Long Statement,The length of the statement "bean=manager.saveAdmin(username`email`password`ip`viewonlyAdmin`selfAdmin`rank`groupId`roleIds`channelIds`siteIds`steps`allChannels`ext);" is 137.,101
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,update,Long Parameter List,The method has 16 parameters. ,123
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,delete,Long Parameter List,The method has 6 parameters. ,143
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,channelsEdit,Long Parameter List,The method has 5 parameters. ,170
+3_cms-master,foo.cms.action.admin.main,CmsAdminGlobalAct,validateSave,Long Parameter List,The method has 5 parameters. ,187
+3_cms-master,foo.cms.action.admin.main,CmsAdminLocalAct,list,Long Parameter List,The method has 7 parameters. ,39
+3_cms-master,foo.cms.action.admin.main,CmsAdminLocalAct,list,Long Statement,The length of the statement "Pagination pagination=manager.getPage(queryUsername`queryEmail`site.getId()`queryGroupId`queryDisabled`true`currUser.getRank()`cpn(pageNo)`CookieUtils.getPageSize(request));" is 173.,39
+3_cms-master,foo.cms.action.admin.main,CmsAdminLocalAct,edit,Long Parameter List,The method has 5 parameters. ,72
+3_cms-master,foo.cms.action.admin.main,CmsAdminLocalAct,save,Long Parameter List,The method has 15 parameters. ,105
+3_cms-master,foo.cms.action.admin.main,CmsAdminLocalAct,save,Long Statement,The length of the statement "bean=manager.saveAdmin(username`email`password`ip`viewonlyAdmin`selfAdmin`rank`groupId`roleIds`channelIds`siteIds`steps`allChannels`ext);" is 137.,105
+3_cms-master,foo.cms.action.admin.main,CmsAdminLocalAct,update,Long Parameter List,The method has 15 parameters. ,127
+3_cms-master,foo.cms.action.admin.main,CmsAdminLocalAct,delete,Long Parameter List,The method has 6 parameters. ,147
+3_cms-master,foo.cms.action.admin.main,CmsAdminLocalAct,channelsEdit,Long Parameter List,The method has 5 parameters. ,174
+3_cms-master,foo.cms.action.admin.main,CmsConfigAct,memberUpdate,Long Parameter List,The method has 6 parameters. ,74
+3_cms-master,foo.cms.action.admin.main,CmsConfigAct,loginUpdate,Long Parameter List,The method has 5 parameters. ,98
+3_cms-master,foo.cms.action.admin.main,CmsGroupAct,priority,Long Parameter List,The method has 5 parameters. ,89
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,listOperating,Long Parameter List,The method has 6 parameters. ,26
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,listOperating,Long Statement,The length of the statement "Pagination pagination=manager.getPage(CmsLog.OPERATING`site.getId()`queryUsername`queryTitle`queryIp`cpn(pageNo)`CookieUtils.getPageSize(request));" is 147.,26
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,listLoginSuccess,Long Parameter List,The method has 6 parameters. ,42
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,listLoginSuccess,Long Statement,The length of the statement "Pagination pagination=manager.getPage(CmsLog.LOGIN_SUCCESS`null`queryUsername`queryTitle`queryIp`cpn(pageNo)`CookieUtils.getPageSize(request));" is 143.,42
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,listLoginFailure,Long Parameter List,The method has 5 parameters. ,57
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,listLoginFailure,Long Statement,The length of the statement "Pagination pagination=manager.getPage(CmsLog.LOGIN_FAILURE`null`null`queryTitle`queryIp`cpn(pageNo)`CookieUtils.getPageSize(request));" is 134.,57
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,deleteOperating,Long Parameter List,The method has 7 parameters. ,70
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,deleteLoginSuccess,Long Parameter List,The method has 7 parameters. ,95
+3_cms-master,foo.cms.action.admin.main,CmsLogAct,deleteLoginFailure,Long Parameter List,The method has 6 parameters. ,122
+3_cms-master,foo.cms.action.admin.main,CmsMemberAct,list,Long Parameter List,The method has 7 parameters. ,35
+3_cms-master,foo.cms.action.admin.main,CmsMemberAct,list,Long Statement,The length of the statement "Pagination pagination=manager.getPage(queryUsername`queryEmail`null`queryGroupId`queryDisabled`false`null`cpn(pageNo)`CookieUtils.getPageSize(request));" is 152.,35
+3_cms-master,foo.cms.action.admin.main,CmsMemberAct,edit,Long Parameter List,The method has 5 parameters. ,59
+3_cms-master,foo.cms.action.admin.main,CmsMemberAct,save,Long Parameter List,The method has 8 parameters. ,79
+3_cms-master,foo.cms.action.admin.main,CmsMemberAct,update,Long Parameter List,The method has 13 parameters. ,96
+3_cms-master,foo.cms.action.admin.main,CmsMemberAct,delete,Long Parameter List,The method has 6 parameters. ,116
+3_cms-master,foo.cms.action.admin.main,CmsModelAct,priority,Long Parameter List,The method has 6 parameters. ,89
+3_cms-master,foo.cms.action.admin.main,CmsModelAct,validatePriority,Complex Method,Cyclomatic complexity of the method is 9,133
+3_cms-master,foo.cms.action.admin.main,CmsModelAct,validatePriority,Long Parameter List,The method has 5 parameters. ,133
+3_cms-master,foo.cms.action.admin.main,CmsModelItemAct,priority,Long Parameter List,The method has 9 parameters. ,67
+3_cms-master,foo.cms.action.admin.main,CmsModelItemAct,saveList,Long Parameter List,The method has 10 parameters. ,78
+3_cms-master,foo.cms.action.admin.main,CmsModelItemAct,save,Long Parameter List,The method has 5 parameters. ,93
+3_cms-master,foo.cms.action.admin.main,CmsModelItemAct,delete,Long Parameter List,The method has 5 parameters. ,121
+3_cms-master,foo.cms.action.admin.main,CmsModelItemAct,getItems,Long Parameter List,The method has 8 parameters. ,145
+3_cms-master,foo.cms.action.admin.main,CmsSiteAct,update,Long Parameter List,The method has 5 parameters. ,75
+3_cms-master,foo.cms.action.admin.main,CmsTopicAct,update,Long Parameter List,The method has 5 parameters. ,112
+3_cms-master,foo.cms.action.admin.main,CmsTopicAct,priority,Long Parameter List,The method has 5 parameters. ,146
+3_cms-master,foo.cms.action.admin.main,ContentAct,list,Long Parameter List,The method has 9 parameters. ,133
+3_cms-master,foo.cms.action.admin.main,ContentAct,list,Long Statement,The length of the statement "Pagination p=manager.getPageByRight(queryTitle`queryTypeId`queryInputUserId`queryTopLevel`queryRecommend`status`user.getCheckStep(siteId)`siteId`cid`userId`queryOrderBy`cpn(pageNo)`CookieUtils.getPageSize(request));" is 215.,133
+3_cms-master,foo.cms.action.admin.main,ContentAct,list,Long Statement,The length of the statement "addAttibuteForQuery(model`queryTitle`queryInputUsername`queryStatus`queryTypeId`queryTopLevel`queryRecommend`queryOrderBy`pageNo);" is 130.,133
+3_cms-master,foo.cms.action.admin.main,ContentAct,add,Complex Method,Cyclomatic complexity of the method is 10,190
+3_cms-master,foo.cms.action.admin.main,ContentAct,view,Long Parameter List,The method has 10 parameters. ,268
+3_cms-master,foo.cms.action.admin.main,ContentAct,view,Long Statement,The length of the statement "addAttibuteForQuery(model`queryTitle`queryInputUsername`queryStatus`queryTypeId`queryTopLevel`queryRecommend`queryOrderBy`pageNo);" is 130.,268
+3_cms-master,foo.cms.action.admin.main,ContentAct,edit,Long Parameter List,The method has 10 parameters. ,297
+3_cms-master,foo.cms.action.admin.main,ContentAct,edit,Long Statement,The length of the statement "addAttibuteForQuery(model`queryTitle`queryInputUsername`queryStatus`queryTypeId`queryTopLevel`queryRecommend`queryOrderBy`pageNo);" is 130.,297
+3_cms-master,foo.cms.action.admin.main,ContentAct,save,Long Parameter List,The method has 18 parameters. ,381
+3_cms-master,foo.cms.action.admin.main,ContentAct,save,Long Statement,The length of the statement "bean=manager.save(bean`ext`txt`channelIds`topicIds`viewGroupIds`tagArr`attachmentPaths`attachmentNames`attachmentFilenames`picPaths`picDescs`channelId`typeId`draft`user`false);" is 176.,381
+3_cms-master,foo.cms.action.admin.main,ContentAct,update,Long Parameter List,The method has 24 parameters. ,415
+3_cms-master,foo.cms.action.admin.main,ContentAct,update,Long Statement,The length of the statement "bean=manager.update(bean`ext`txt`tagArr`channelIds`topicIds`viewGroupIds`attachmentPaths`attachmentNames`attachmentFilenames`picPaths`picDescs`attr`channelId`typeId`draft`user`false);" is 183.,415
+3_cms-master,foo.cms.action.admin.main,ContentAct,delete,Long Parameter List,The method has 10 parameters. ,450
+3_cms-master,foo.cms.action.admin.main,ContentAct,check,Long Parameter List,The method has 10 parameters. ,479
+3_cms-master,foo.cms.action.admin.main,ContentAct,contentStatic,Long Parameter List,The method has 10 parameters. ,497
+3_cms-master,foo.cms.action.admin.main,ContentAct,reject,Long Parameter List,The method has 12 parameters. ,533
+3_cms-master,foo.cms.action.admin.main,ContentAct,cycleList,Long Parameter List,The method has 8 parameters. ,669
+3_cms-master,foo.cms.action.admin.main,ContentAct,cycleRecycle,Long Parameter List,The method has 10 parameters. ,678
+3_cms-master,foo.cms.action.admin.main,ContentAct,cycleDelete,Long Parameter List,The method has 10 parameters. ,695
+3_cms-master,foo.cms.action.admin.main,ContentAct,addAttibuteForQuery,Complex Method,Cyclomatic complexity of the method is 9,712
+3_cms-master,foo.cms.action.admin.main,ContentAct,addAttibuteForQuery,Long Parameter List,The method has 9 parameters. ,712
+3_cms-master,foo.cms.action.admin.main,UnifiedUserAct,save,Long Parameter List,The method has 5 parameters. ,52
+3_cms-master,foo.cms.action.admin.main,UnifiedUserAct,update,Long Parameter List,The method has 6 parameters. ,66
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getChannelIdsOrPaths,Complex Method,Cyclomatic complexity of the method is 9,182
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getChannelOption,Complex Conditional,The conditional expression option == null || option < 0 || option > 2 is complex.,227
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getChannelOption,Magic Number,The method contains a magic number: 2,227
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getData,Complex Method,Cyclomatic complexity of the method is 16,288
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getData,Long Statement,The length of the statement "return contentMng.getPageByTagIdsForTag(tagIds`siteIds`channelIds`typeIds`excludeId`titleImg`recommend`title`orderBy`pageNo`count);" is 131.,288
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getData,Long Statement,The length of the statement "return contentMng.getListByTagIdsForTag(tagIds`siteIds`channelIds`typeIds`excludeId`titleImg`recommend`title`orderBy`first`count);" is 130.,288
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getData,Long Statement,The length of the statement "return contentMng.getPageByTopicIdForTag(topicId`siteIds`channelIds`typeIds`titleImg`recommend`title`orderBy`pageNo`count);" is 123.,288
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getData,Long Statement,The length of the statement "return contentMng.getListByTopicIdForTag(topicId`siteIds`channelIds`typeIds`titleImg`recommend`title`orderBy`first`count);" is 122.,288
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getData,Long Statement,The length of the statement "return contentMng.getPageByChannelPathsForTag(channelPaths`siteIds`typeIds`titleImg`recommend`title`orderBy`pageNo`count);" is 122.,288
+3_cms-master,foo.cms.action.directive.abs,AbstractContentDirective,getData,Long Statement,The length of the statement "return contentMng.getListByChannelPathsForTag(channelPaths`siteIds`typeIds`titleImg`recommend`title`orderBy`first`count);" is 121.,288
+3_cms-master,foo.cms.action.directive,ChannelListDirective,execute,Complex Method,Cyclomatic complexity of the method is 9,42
+3_cms-master,foo.cms.action.directive,ChannelPageDirective,execute,Complex Method,Cyclomatic complexity of the method is 9,41
+3_cms-master,foo.cms.action.directive,CmsCommentListDirective,execute,Long Statement,The length of the statement "List<CmsComment> list=cmsCommentMng.getListForTag(getSiteId(params)`getContentId(params)`getGreaterThen(params)`getChecked(params)`getRecommend(params)`getDesc(params)`FrontUtils.getCount(params));" is 197.,47
+3_cms-master,foo.cms.action.directive,CmsCommentPageDirective,execute,Long Statement,The length of the statement "Pagination page=cmsCommentMng.getPageForTag(null`getContentId(params)`getGreaterThen(params)`getChecked(params)`getRecommend(params)`getDesc(params)`FrontUtils.getPageNo(env)`FrontUtils.getCount(params));" is 204.,42
+3_cms-master,foo.cms.action.directive,CmsGuestbookListDirective,execute,Long Statement,The length of the statement "List<CmsGuestbook> list=cmsGuestbookMng.getList(getSiteId(params)`getCtgId(params)`getRecommend(params)`getChecked(params)`getDesc(params)`true`first`max);" is 155.,47
+3_cms-master,foo.cms.action.directive,CmsGuestbookPageDirective,execute,Long Statement,The length of the statement "Pagination page=cmsGuestbookMng.getPage(getSiteId(params)`getCtgId(params)`null`getRecommend(params)`getChecked(params)`getDesc(params)`true`pageNo`count);" is 155.,42
+3_cms-master,foo.cms.action.directive,CmsTopicPageDirective,execute,Long Statement,The length of the statement "Pagination page=cmsTopicMng.getPageForTag(getChannelId(params)`getRecommend(params)`FrontUtils.getPageNo(env)`FrontUtils.getCount(params));" is 139.,52
+3_cms-master,foo.cms.action.directive,ContentPageDirective,execute,Complex Method,Cyclomatic complexity of the method is 8,42
+3_cms-master,foo.cms.action.front,AttachmentAct,attachment,Long Parameter List,The method has 7 parameters. ,32
+3_cms-master,foo.cms.action.front,AttachmentAct,attachment,Magic Number,The method contains a magic number: 60,32
+3_cms-master,foo.cms.action.front,AttachmentAct,attachment,Magic Number,The method contains a magic number: 60,32
+3_cms-master,foo.cms.action.front,AttachmentAct,attachment,Magic Number,The method contains a magic number: 1000,32
+3_cms-master,foo.cms.action.front,AttachmentAct,url,Long Parameter List,The method has 5 parameters. ,65
+3_cms-master,foo.cms.action.front,CommentAct,page,Long Parameter List,The method has 5 parameters. ,45
+3_cms-master,foo.cms.action.front,CommentAct,list,Complex Conditional,The conditional expression count == null || count <= 0 || count > 200 is complex.,67
+3_cms-master,foo.cms.action.front,CommentAct,list,Long Parameter List,The method has 10 parameters. ,67
+3_cms-master,foo.cms.action.front,CommentAct,list,Magic Number,The method contains a magic number: 200,67
+3_cms-master,foo.cms.action.front,CommentAct,list,Magic Number,The method contains a magic number: 200,67
+3_cms-master,foo.cms.action.front,CommentAct,submit,Complex Method,Cyclomatic complexity of the method is 9,103
+3_cms-master,foo.cms.action.front,CommentAct,submit,Long Parameter List,The method has 6 parameters. ,103
+3_cms-master,foo.cms.action.front,CommentAct,submit,Magic Number,The method contains a magic number: 100,103
+3_cms-master,foo.cms.action.front,CommentAct,submit,Magic Number,The method contains a magic number: 101,103
+3_cms-master,foo.cms.action.front,CommentAct,submit,Magic Number,The method contains a magic number: 2,103
+3_cms-master,foo.cms.action.front,CommentAct,submit,Magic Number,The method contains a magic number: 3,103
+3_cms-master,foo.cms.action.front,CommentAct,submit,Magic Number,The method contains a magic number: 4,103
+3_cms-master,foo.cms.action.front,DynamicPageAct,dynamic,Magic Number,The method contains a magic number: 2,71
+3_cms-master,foo.cms.action.front,DynamicPageAct,channel,Long Parameter List,The method has 7 parameters. ,111
+3_cms-master,foo.cms.action.front,DynamicPageAct,content,Long Parameter List,The method has 7 parameters. ,127
+3_cms-master,foo.cms.action.front,GuestbookAct,submit,Long Parameter List,The method has 11 parameters. ,90
+3_cms-master,foo.cms.action.front,TopicAct,index,Long Parameter List,The method has 5 parameters. ,31
+3_cms-master,foo.cms.action.front,VoteAct,submit,Long Parameter List,The method has 5 parameters. ,65
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Complex Method,Cyclomatic complexity of the method is 20,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Long Parameter List,The method has 6 parameters. ,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 2,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 100,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 101,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 501,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 200,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 201,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 202,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 203,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 60,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 60,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 1000,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 204,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 60,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 60,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 1000,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 205,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 60,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 60,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 1000,102
+3_cms-master,foo.cms.action.front,VoteAct,validateSubmit,Magic Number,The method contains a magic number: 206,102
+3_cms-master,foo.cms.action.member,CasLoginAct,submit,Long Parameter List,The method has 9 parameters. ,90
+3_cms-master,foo.cms.action.member,CasLoginAct,validateSubmit,Complex Conditional,The conditional expression !StringUtils.isBlank(captcha) || (errorRemaining != null && errorRemaining < 0) is complex.,164
+3_cms-master,foo.cms.action.member,CasLoginAct,validateSubmit,Long Parameter List,The method has 6 parameters. ,164
+3_cms-master,foo.cms.action.member,CasLoginAct,validateSubmit,Magic Number,The method contains a magic number: 100,164
+3_cms-master,foo.cms.action.member,CasLoginAct,validateSubmit,Magic Number,The method contains a magic number: 32,164
+3_cms-master,foo.cms.action.member,CasLoginAct,validateSubmit,Magic Number,The method contains a magic number: 100,164
+3_cms-master,foo.cms.action.member,CasLoginAct,writeCookieErrorRemaining,Complex Conditional,The conditional expression userErrorRemaining != null && (errorRemaining == null || userErrorRemaining < errorRemaining) is complex.,222
+3_cms-master,foo.cms.action.member,CasLoginAct,writeCookieErrorRemaining,Magic Number,The method contains a magic number: 60,222
+3_cms-master,foo.cms.action.member,CollectionMemberAct,collection_list,Long Parameter List,The method has 6 parameters. ,39
+3_cms-master,foo.cms.action.member,CollectionMemberAct,collect,Long Parameter List,The method has 5 parameters. ,77
+3_cms-master,foo.cms.action.member,CommentMemberAct,mycomments,Long Statement,The length of the statement "Pagination pagination=commentMng.getPageForMember(site.getId()`null`user.getId()`null`null`null`null`true`cpn(pageNo)`CookieUtils.getPageSize(request));" is 152.,44
+3_cms-master,foo.cms.action.member,CommentMemberAct,guestbook_replay,Long Parameter List,The method has 5 parameters. ,75
+3_cms-master,foo.cms.action.member,CommentMemberAct,news_comments,Long Statement,The length of the statement "Pagination pagination=commentMng.getPageForMember(site.getId()`null`null`user.getId()`null`null`null`true`cpn(pageNo)`CookieUtils.getPageSize(request));" is 152.,103
+3_cms-master,foo.cms.action.member,CommentMemberAct,delete,Long Parameter List,The method has 8 parameters. ,135
+3_cms-master,foo.cms.action.member,ContributeAct,list,Long Parameter List,The method has 5 parameters. ,56
+3_cms-master,foo.cms.action.member,ContributeAct,list,Magic Number,The method contains a magic number: 20,56
+3_cms-master,foo.cms.action.member,ContributeAct,save,Long Parameter List,The method has 11 parameters. ,126
+3_cms-master,foo.cms.action.member,ContributeAct,update,Long Parameter List,The method has 11 parameters. ,232
+3_cms-master,foo.cms.action.member,ContributeAct,delete,Long Parameter List,The method has 5 parameters. ,293
+3_cms-master,foo.cms.action.member,ContributeAct,validateSave,Complex Method,Cyclomatic complexity of the method is 9,329
+3_cms-master,foo.cms.action.member,ContributeAct,validateSave,Long Parameter List,The method has 11 parameters. ,329
+3_cms-master,foo.cms.action.member,ContributeAct,validateSave,Magic Number,The method contains a magic number: 150,329
+3_cms-master,foo.cms.action.member,ContributeAct,validateSave,Magic Number,The method contains a magic number: 100,329
+3_cms-master,foo.cms.action.member,ContributeAct,validateSave,Magic Number,The method contains a magic number: 255,329
+3_cms-master,foo.cms.action.member,ContributeAct,validateSave,Magic Number,The method contains a magic number: 1048575,329
+3_cms-master,foo.cms.action.member,ContributeAct,validateSave,Magic Number,The method contains a magic number: 255,329
+3_cms-master,foo.cms.action.member,ContributeAct,validateUpdate,Long Parameter List,The method has 5 parameters. ,379
+3_cms-master,foo.cms.action.member,FckAct,upload,Long Parameter List,The method has 6 parameters. ,54
+3_cms-master,foo.cms.action.member,FckAct,doUpload,Complex Method,Cyclomatic complexity of the method is 12,88
+3_cms-master,foo.cms.action.member,FckAct,doUpload,Magic Number,The method contains a magic number: 1024,88
+3_cms-master,foo.cms.action.member,FckAct,mark,Long Statement,The length of the statement "imageScale.imageMark(tempFile`tempFile`conf.getMinWidth()`conf.getMinHeight()`conf.getPos()`conf.getOffsetX()`conf.getOffsetY()`markImg);" is 137.,209
+3_cms-master,foo.cms.action.member,FckAct,mark,Long Statement,The length of the statement "imageScale.imageMark(tempFile`tempFile`conf.getMinWidth()`conf.getMinHeight()`conf.getPos()`conf.getOffsetX()`conf.getOffsetY()`conf.getContent()`Color.decode(conf.getColor())`conf.getSize()`conf.getAlpha());" is 208.,209
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,forgotPasswordSubmit,Long Parameter List,The method has 6 parameters. ,67
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,forgotPasswordSubmit,Magic Number,The method contains a magic number: 2,67
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,forgotPasswordSubmit,Magic Number,The method contains a magic number: 3,67
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,forgotPasswordSubmit,Magic Number,The method contains a magic number: 4,67
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,forgotPasswordSubmit,Magic Number,The method contains a magic number: 5,67
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,forgotPasswordSubmit,Magic Number,The method contains a magic number: 100,67
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,passwordReset,Long Parameter List,The method has 5 parameters. ,122
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,passwordReset,Magic Number,The method contains a magic number: 2,122
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,passwordReset,Magic Number,The method contains a magic number: 3,122
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,validateForgotPasswordSubmit,Long Parameter List,The method has 5 parameters. ,150
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,validateForgotPasswordSubmit,Magic Number,The method contains a magic number: 100,150
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,validateForgotPasswordSubmit,Magic Number,The method contains a magic number: 100,150
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,validateForgotPasswordSubmit,Magic Number,The method contains a magic number: 20,150
+3_cms-master,foo.cms.action.member,ForgotPasswordAct,validatePasswordReset,Magic Number,The method contains a magic number: 50,177
+3_cms-master,foo.cms.action.member,GuestbookMemberAct,myguestbook,Long Parameter List,The method has 5 parameters. ,38
+3_cms-master,foo.cms.action.member,GuestbookMemberAct,myguestbook,Long Statement,The length of the statement "Pagination pagination=guestbookMng.getPage(site.getId()`ctgId`user.getId()`null`null`true`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 142.,38
+3_cms-master,foo.cms.action.member,GuestbookMemberAct,guestbook_replay,Long Parameter List,The method has 5 parameters. ,95
+3_cms-master,foo.cms.action.member,ImageCutAct,imageAreaSelect,Long Parameter List,The method has 7 parameters. ,43
+3_cms-master,foo.cms.action.member,ImageCutAct,imageCut,Long Parameter List,The method has 11 parameters. ,66
+3_cms-master,foo.cms.action.member,ImageCutAct,imageCut,Long Statement,The length of the statement "imageScale.resizeFix(file`file`reMinWidth`reMinHeight`getLen(imgTop`imgScale)`getLen(imgLeft`imgScale)`getLen(imgWidth`imgScale)`getLen(imgHeight`imgScale));" is 157.,66
+3_cms-master,foo.cms.action.member,ImageCutAct,imageCut,Long Statement,The length of the statement "imageScale.resizeFix(file`file`reMinWidth`reMinHeight`getLen(imgTop`imgScale)`getLen(imgLeft`imgScale)`getLen(imgWidth`imgScale)`getLen(imgHeight`imgScale));" is 157.,66
+3_cms-master,foo.cms.action.member,ImageCutAct,imageCut,Long Statement,The length of the statement "imageScale.resizeFix(file`file`reMinWidth`reMinHeight`getLen(imgTop`imgScale)`getLen(imgLeft`imgScale)`getLen(imgWidth`imgScale)`getLen(imgHeight`imgScale));" is 157.,66
+3_cms-master,foo.cms.action.member,ImageUploadAct,execute,Complex Method,Cyclomatic complexity of the method is 16,55
+3_cms-master,foo.cms.action.member,ImageUploadAct,execute,Long Method,The method has 117 lines of code.,55
+3_cms-master,foo.cms.action.member,ImageUploadAct,execute,Long Parameter List,The method has 6 parameters. ,55
+3_cms-master,foo.cms.action.member,ImageUploadAct,mark,Long Statement,The length of the statement "imageScale.imageMark(tempFile`tempFile`conf.getMinWidth()`conf.getMinHeight()`conf.getPos()`conf.getOffsetX()`conf.getOffsetY()`markImg);" is 137.,210
+3_cms-master,foo.cms.action.member,ImageUploadAct,mark,Long Statement,The length of the statement "imageScale.imageMark(tempFile`tempFile`conf.getMinWidth()`conf.getMinHeight()`conf.getPos()`conf.getOffsetX()`conf.getOffsetY()`conf.getContent()`Color.decode(conf.getColor())`conf.getSize()`conf.getAlpha());" is 208.,210
+3_cms-master,foo.cms.action.member,MemberAct,profileSubmit,Long Parameter List,The method has 5 parameters. ,122
+3_cms-master,foo.cms.action.member,MemberAct,passwordSubmit,Long Parameter List,The method has 7 parameters. ,178
+3_cms-master,foo.cms.action.member,MemberAct,validatePasswordSubmit,Long Parameter List,The method has 5 parameters. ,235
+3_cms-master,foo.cms.action.member,MemberAct,validatePasswordSubmit,Magic Number,The method contains a magic number: 100,235
+3_cms-master,foo.cms.action.member,MemberAct,validatePasswordSubmit,Magic Number,The method contains a magic number: 100,235
+3_cms-master,foo.cms.action.member,MemberAct,validatePasswordSubmit,Magic Number,The method contains a magic number: 100,235
+3_cms-master,foo.cms.action.member,MessageAct,message_mng,Long Parameter List,The method has 5 parameters. ,62
+3_cms-master,foo.cms.action.member,MessageAct,message_inbox,Long Parameter List,The method has 9 parameters. ,97
+3_cms-master,foo.cms.action.member,MessageAct,message_inbox,Long Statement,The length of the statement "pagination=receiverMessageMng.getPage(site.getId()`null`user.getId()`title`sendBeginTime`sendEndTime`status`box`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 164.,97
+3_cms-master,foo.cms.action.member,MessageAct,message_inbox,Long Statement,The length of the statement "pagination=messageMng.getPage(site.getId()`user.getId()`null`title`sendBeginTime`sendEndTime`status`box`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 156.,97
+3_cms-master,foo.cms.action.member,MessageAct,message_inbox,Long Statement,The length of the statement "pagination=messageMng.getPage(site.getId()`user.getId()`null`title`sendBeginTime`sendEndTime`status`box`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 156.,97
+3_cms-master,foo.cms.action.member,MessageAct,message_inbox,Long Statement,The length of the statement "pagination=receiverMessageMng.getPage(site.getId()`user.getId()`user.getId()`title`sendBeginTime`sendEndTime`status`box`false`cpn(pageNo)`CookieUtils.getPageSize(request));" is 172.,97
+3_cms-master,foo.cms.action.member,MessageAct,message_inbox,Magic Number,The method contains a magic number: 2,97
+3_cms-master,foo.cms.action.member,MessageAct,message_inbox,Magic Number,The method contains a magic number: 3,97
+3_cms-master,foo.cms.action.member,MessageAct,message_send,Long Parameter List,The method has 7 parameters. ,213
+3_cms-master,foo.cms.action.member,MessageAct,message_save,Long Parameter List,The method has 7 parameters. ,252
+3_cms-master,foo.cms.action.member,MessageAct,message_save,Magic Number,The method contains a magic number: 2,252
+3_cms-master,foo.cms.action.member,MessageAct,message_save,Magic Number,The method contains a magic number: 2,252
+3_cms-master,foo.cms.action.member,MessageAct,message_tosend,Long Parameter List,The method has 6 parameters. ,290
+3_cms-master,foo.cms.action.member,MessageAct,message_update,Long Parameter List,The method has 6 parameters. ,355
+3_cms-master,foo.cms.action.member,MessageAct,message_read,Long Parameter List,The method has 5 parameters. ,393
+3_cms-master,foo.cms.action.member,MessageAct,message_trash,Magic Number,The method contains a magic number: 3,466
+3_cms-master,foo.cms.action.member,MessageAct,message_trash,Magic Number,The method contains a magic number: 3,466
+3_cms-master,foo.cms.action.member,MessageAct,message_trash,Magic Number,The method contains a magic number: 3,466
+3_cms-master,foo.cms.action.member,MessageAct,message_empty,Magic Number,The method contains a magic number: 3,548
+3_cms-master,foo.cms.action.member,MessageAct,findUnreadMessagesByUser,Long Statement,The length of the statement "List<CmsReceiverMessage> receiverMessages=receiverMessageMng.getList(site.getId()`null`user.getId()`null`null`null`false`0`false);" is 130.,608
+3_cms-master,foo.cms.action.member,MessageAct,message_delete,Complex Method,Cyclomatic complexity of the method is 8,632
+3_cms-master,foo.cms.action.member,MessageAct,message_delete,Long Parameter List,The method has 5 parameters. ,632
+3_cms-master,foo.cms.action.member,RegisterAct,submit,Long Parameter List,The method has 9 parameters. ,75
+3_cms-master,foo.cms.action.member,RegisterAct,submit,Magic Number,The method contains a magic number: 4,75
+3_cms-master,foo.cms.action.member,RegisterAct,submit,Magic Number,The method contains a magic number: 5,75
+3_cms-master,foo.cms.action.member,RegisterAct,submit,Magic Number,The method contains a magic number: 100,75
+3_cms-master,foo.cms.action.member,RegisterAct,active,Long Parameter List,The method has 5 parameters. ,118
+3_cms-master,foo.cms.action.member,RegisterAct,validateSubmit,Long Parameter List,The method has 7 parameters. ,175
+3_cms-master,foo.cms.action.member,RegisterAct,validateSubmit,Magic Number,The method contains a magic number: 100,175
+3_cms-master,foo.cms.action.member,RegisterAct,validateSubmit,Magic Number,The method contains a magic number: 100,175
+3_cms-master,foo.cms.action.member,RegisterAct,validateSubmit,Magic Number,The method contains a magic number: 100,175
+3_cms-master,foo.cms,Install,dbXml,Long Parameter List,The method has 6 parameters. ,25
+3_cms-master,foo.cms,Install,getConn,Long Parameter List,The method has 5 parameters. ,36
+3_cms-master,foo.cms,Install,getConn,Long Statement,The length of the statement "String connStr="jdbc:mysql://" + dbHost + ":"+ dbPort+ "/"+ dbName+ "?user="+ dbUser+ "&password="+ dbPassword+ "&characterEncoding=utf8";" is 138.,36
+3_cms-master,foo.cms,Install,createDb,Long Parameter List,The method has 5 parameters. ,51
+3_cms-master,foo.cms,Install,createDb,Long Statement,The length of the statement "String connStr="jdbc:mysql://" + dbHost + ":"+ dbPort+ "?user="+ dbUser+ "&password="+ dbPassword+ "&characterEncoding=UTF8";" is 125.,51
+3_cms-master,foo.cms,Install,changeDbCharset,Long Parameter List,The method has 5 parameters. ,78
+3_cms-master,foo.cms,Install,createTable,Long Parameter List,The method has 6 parameters. ,88
+3_cms-master,foo.cms,Install,updateConfig,Long Parameter List,The method has 8 parameters. ,112
+3_cms-master,foo.cms,Install,readSql,Complex Conditional,The conditional expression s.startsWith("/*") || s.startsWith("#") || StringUtils.isBlank(s) is complex.,139
+3_cms-master,foo.cms.dao.assist,CmsAdvertisingDao,getPage,Long Parameter List,The method has 5 parameters. ,10
+3_cms-master,foo.cms.dao.assist,CmsCommentDao,getPage,Long Parameter List,The method has 9 parameters. ,10
+3_cms-master,foo.cms.dao.assist,CmsCommentDao,getList,Long Parameter List,The method has 8 parameters. ,14
+3_cms-master,foo.cms.dao.assist,CmsCommentDao,getPageForMember,Long Parameter List,The method has 11 parameters. ,28
+3_cms-master,foo.cms.dao.assist,CmsGuestbookDao,getPage,Long Parameter List,The method has 9 parameters. ,10
+3_cms-master,foo.cms.dao.assist,CmsGuestbookDao,getList,Long Parameter List,The method has 8 parameters. ,14
+3_cms-master,foo.cms.dao.assist,CmsMessageDao,getPage,Long Parameter List,The method has 11 parameters. ,14
+3_cms-master,foo.cms.dao.assist,CmsReceiverMessageDao,getPage,Long Parameter List,The method has 11 parameters. ,14
+3_cms-master,foo.cms.dao.assist,CmsReceiverMessageDao,getList,Long Parameter List,The method has 9 parameters. ,19
+3_cms-master,foo.cms.dao.assist.impl,CmsAcquisitionDaoImpl,getStarted,Long Statement,The length of the statement "Criteria crit=createCriteria(Restrictions.eq("status"`CmsAcquisition.START)`Restrictions.eq("site.id"`siteId)).setMaxResults(1);" is 128.,55
+3_cms-master,foo.cms.dao.assist.impl,CmsAcquisitionDaoImpl,getLargerQueues,Long Statement,The length of the statement "Finder f=Finder.create("from CmsAcquisition bean where bean.queue>:queueNum and bean.site.id=:siteId").setParam("queueNum"`queueNum).setParam("siteId"`siteId);" is 159.,67
+3_cms-master,foo.cms.dao.assist.impl,CmsAcquisitionDaoImpl,popAcquFromQueue,Long Statement,The length of the statement "Query query=getSession().createQuery("from CmsAcquisition bean where bean.queue>0 and bean.site.id=:siteId order by bean.queue").setParameter("siteId"`siteId).setMaxResults(1);" is 176.,75
+3_cms-master,foo.cms.dao.assist.impl,CmsAcquisitionTempDaoImpl,getPercent,Long Statement,The length of the statement "Query query=getSession().createQuery("select max(percent) from CmsAcquisitionTemp where site.id=:siteId").setParameter("siteId"`siteId);" is 136.,50
+3_cms-master,foo.cms.dao.assist.impl,CmsAcquisitionTempDaoImpl,clear,Magic Number,The method contains a magic number: 100,59
+3_cms-master,foo.cms.dao.assist.impl,CmsAdvertisingDaoImpl,getPage,Long Parameter List,The method has 5 parameters. ,16
+3_cms-master,foo.cms.dao.assist.impl,CmsCommentDaoImpl,getPage,Long Parameter List,The method has 9 parameters. ,16
+3_cms-master,foo.cms.dao.assist.impl,CmsCommentDaoImpl,getList,Long Parameter List,The method has 8 parameters. ,24
+3_cms-master,foo.cms.dao.assist.impl,CmsCommentDaoImpl,getPageForMember,Long Parameter List,The method has 11 parameters. ,33
+3_cms-master,foo.cms.dao.assist.impl,CmsCommentDaoImpl,getFinder,Complex Method,Cyclomatic complexity of the method is 10,59
+3_cms-master,foo.cms.dao.assist.impl,CmsCommentDaoImpl,getFinder,Long Parameter List,The method has 9 parameters. ,59
+3_cms-master,foo.cms.dao.assist.impl,CmsCommentExtDaoImpl,deleteByContentId,Long Statement,The length of the statement "String hql="delete from CmsCommentExt bean where bean.id in" + " (select c.id from CmsComment c where c.content.id=:contentId)";" is 128.,30
+3_cms-master,foo.cms.dao.assist.impl,CmsGuestbookDaoImpl,getPage,Long Parameter List,The method has 9 parameters. ,16
+3_cms-master,foo.cms.dao.assist.impl,CmsGuestbookDaoImpl,getList,Long Parameter List,The method has 8 parameters. ,24
+3_cms-master,foo.cms.dao.assist.impl,CmsGuestbookDaoImpl,createFinder,Long Parameter List,The method has 7 parameters. ,35
+3_cms-master,foo.cms.dao.assist.impl,CmsMessageDaoImpl,getPage,Complex Method,Cyclomatic complexity of the method is 11,22
+3_cms-master,foo.cms.dao.assist.impl,CmsMessageDaoImpl,getPage,Long Parameter List,The method has 11 parameters. ,22
+3_cms-master,foo.cms.dao.assist.impl,CmsMessageDaoImpl,getPage,Long Statement,The length of the statement "finder.append(" and (msg.msgSendUser.id=:sendUserId or msg.msgReceiverUser.id=:receiverUserId)").setParam("sendUserId"`sendUserId).setParam("receiverUserId"`receiverUserId);" is 173.,22
+3_cms-master,foo.cms.dao.assist.impl,CmsReceiverMessageDaoImpl,getPage,Complex Method,Cyclomatic complexity of the method is 11,22
+3_cms-master,foo.cms.dao.assist.impl,CmsReceiverMessageDaoImpl,getPage,Long Parameter List,The method has 11 parameters. ,22
+3_cms-master,foo.cms.dao.assist.impl,CmsReceiverMessageDaoImpl,getPage,Long Statement,The length of the statement "finder.append(" and ((msg.msgReceiverUser.id=:receiverUserId and msg.msgBox =:box) or (msg.msgSendUser.id=:sendUserId and msg.msgBox =:box) )").setParam("sendUserId"`sendUserId).setParam("receiverUserId"`receiverUserId).setParam("box"`box);" is 240.,22
+3_cms-master,foo.cms.dao.assist.impl,CmsReceiverMessageDaoImpl,getList,Complex Method,Cyclomatic complexity of the method is 11,77
+3_cms-master,foo.cms.dao.assist.impl,CmsReceiverMessageDaoImpl,getList,Long Parameter List,The method has 9 parameters. ,77
+3_cms-master,foo.cms.dao.assist.impl,CmsReceiverMessageDaoImpl,getList,Long Statement,The length of the statement "finder.append(" and ((msg.msgReceiverUser.id=:receiverUserId and msg.msgBox =:box) or (msg.msgSendUser.id=:sendUserId and msg.msgBox =:box) )").setParam("sendUserId"`sendUserId).setParam("receiverUserId"`receiverUserId).setParam("box"`box);" is 240.,77
+3_cms-master,foo.cms.dao.assist.impl,CmsSiteFlowDaoImpl,findUniqueByProperties,Long Statement,The length of the statement "String hql="from CmsSiteFlow bean where bean.site.id=:siteId and bean.accessDate=:accessDate and bean.sessionId=:sessionId and bean.accessPage=:accessPage";" is 156.,18
+3_cms-master,foo.cms.dao.assist.impl,CmsVoteRecordDaoImpl,findByUserId,Long Statement,The length of the statement "List<CmsVoteRecord> list=getSession().createQuery(hql).setParameter("userId"`userId).setParameter("topicId"`topicId).setMaxResults(1).list();" is 141.,27
+3_cms-master,foo.cms.dao.assist.impl,CmsVoteRecordDaoImpl,findByIp,Long Statement,The length of the statement "List<CmsVoteRecord> list=getSession().createQuery(hql).setParameter("ip"`ip).setParameter("topicId"`topicId).setMaxResults(1).list();" is 133.,37
+3_cms-master,foo.cms.dao.assist.impl,CmsVoteRecordDaoImpl,findByCookie,Long Statement,The length of the statement "List<CmsVoteRecord> list=getSession().createQuery(hql).setParameter("cookie"`cookie).setParameter("topicId"`topicId).setMaxResults(1).list();" is 141.,47
+3_cms-master,foo.cms.dao.main,ChannelDao,getTopPage,Long Parameter List,The method has 6 parameters. ,13
+3_cms-master,foo.cms.dao.main,ChannelDao,getChildPage,Long Parameter List,The method has 6 parameters. ,22
+3_cms-master,foo.cms.dao.main,CmsLogDao,getPage,Long Parameter List,The method has 7 parameters. ,9
+3_cms-master,foo.cms.dao.main,CmsTopicDao,getPage,Long Parameter List,The method has 5 parameters. ,13
+3_cms-master,foo.cms.dao.main,CmsUserDao,getPage,Long Parameter List,The method has 9 parameters. ,16
+3_cms-master,foo.cms.dao.main,CmsUserDao,getList,Long Parameter List,The method has 7 parameters. ,20
+3_cms-master,foo.cms.dao.main,ContentDao,getPage,Long Parameter List,The method has 12 parameters. ,44
+3_cms-master,foo.cms.dao.main,ContentDao,getPageBySelf,Long Parameter List,The method has 13 parameters. ,76
+3_cms-master,foo.cms.dao.main,ContentDao,getPageByRight,Long Parameter List,The method has 14 parameters. ,111
+3_cms-master,foo.cms.dao.main,ContentDao,getSide,Long Parameter List,The method has 5 parameters. ,148
+3_cms-master,foo.cms.dao.main,ContentDao,getPageBySiteIdsForTag,Long Parameter List,The method has 8 parameters. ,175
+3_cms-master,foo.cms.dao.main,ContentDao,getListBySiteIdsForTag,Long Parameter List,The method has 8 parameters. ,179
+3_cms-master,foo.cms.dao.main,ContentDao,getPageByChannelIdsForTag,Long Parameter List,The method has 9 parameters. ,183
+3_cms-master,foo.cms.dao.main,ContentDao,getListByChannelIdsForTag,Long Parameter List,The method has 9 parameters. ,187
+3_cms-master,foo.cms.dao.main,ContentDao,getPageByChannelPathsForTag,Long Parameter List,The method has 9 parameters. ,191
+3_cms-master,foo.cms.dao.main,ContentDao,getListByChannelPathsForTag,Long Parameter List,The method has 9 parameters. ,196
+3_cms-master,foo.cms.dao.main,ContentDao,getPageByTopicIdForTag,Long Parameter List,The method has 10 parameters. ,201
+3_cms-master,foo.cms.dao.main,ContentDao,getListByTopicIdForTag,Long Parameter List,The method has 10 parameters. ,206
+3_cms-master,foo.cms.dao.main,ContentDao,getPageByTagIdsForTag,Long Parameter List,The method has 11 parameters. ,211
+3_cms-master,foo.cms.dao.main,ContentDao,getListByTagIdsForTag,Long Parameter List,The method has 11 parameters. ,216
+3_cms-master,foo.cms.dao.main.impl,ChannelDaoImpl,getTopPage,Long Parameter List,The method has 6 parameters. ,24
+3_cms-master,foo.cms.dao.main.impl,ChannelDaoImpl,getChildPage,Long Parameter List,The method has 6 parameters. ,69
+3_cms-master,foo.cms.dao.main.impl,CmsLogDaoImpl,getPage,Long Parameter List,The method has 7 parameters. ,18
+3_cms-master,foo.cms.dao.main.impl,CmsTopicDaoImpl,getPage,Long Parameter List,The method has 5 parameters. ,36
+3_cms-master,foo.cms.dao.main.impl,CmsTopicDaoImpl,getListByChannelId,Long Statement,The length of the statement "String hql="select bean from CmsTopic bean inner join bean.channel as node`Channel parent" + " where node.lft between parent.lft and parent.rgt" + " and parent.id=?"+ " order by bean.priority asc`bean.id desc";" is 210.,57
+3_cms-master,foo.cms.dao.main.impl,CmsUserDaoImpl,getPage,Complex Method,Cyclomatic complexity of the method is 8,18
+3_cms-master,foo.cms.dao.main.impl,CmsUserDaoImpl,getPage,Long Parameter List,The method has 9 parameters. ,18
+3_cms-master,foo.cms.dao.main.impl,CmsUserDaoImpl,getList,Complex Method,Cyclomatic complexity of the method is 8,57
+3_cms-master,foo.cms.dao.main.impl,CmsUserDaoImpl,getList,Long Parameter List,The method has 7 parameters. ,57
+3_cms-master,foo.cms.dao.main.impl,ContentCountDaoImpl,freshCacheToDB,Long Statement,The length of the statement "String hql="update ContentCount bean" + " set bean.views=bean.views+:views" + "`bean.viewsMonth=bean.viewsMonth+:views"+ "`bean.viewsWeek=bean.viewsWeek+:views"+ "`bean.viewsDay=bean.viewsDay+:views"+ " where bean.id=:id";" is 222.,18
+3_cms-master,foo.cms.dao.main.impl,ContentCountDaoImpl,copyCount,Long Statement,The length of the statement "String hql="update Content a set" + " a.viewsDay=(select b.viewsDay from ContentCount b where a.id=b.id)" + "`a.commentsDay=(select b.commentsDay from ContentCount b where a.id=b.id)"+ "`a.downloadsDay=(select b.downloadsDay from ContentCount b where a.id=b.id)"+ "`a.upsDay=(select b.upsDay from ContentCount b where a.id=b.id)";" is 330.,59
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPage,Complex Conditional,The conditional expression prepared == status || passed == status || rejected == status is complex.,29
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPage,Complex Method,Cyclomatic complexity of the method is 8,29
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPage,Long Parameter List,The method has 12 parameters. ,29
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageForCollection,Long Statement,The length of the statement "Finder f=Finder.create("select bean from Content bean join bean.collectUsers user where user.id=:userId").setParam("userId"`memberId);" is 134.,71
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageBySelf,Complex Conditional,The conditional expression prepared == status || passed == status || rejected == status is complex.,82
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageBySelf,Complex Method,Cyclomatic complexity of the method is 8,82
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageBySelf,Long Parameter List,The method has 13 parameters. ,82
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageByRight,Complex Conditional,The conditional expression prepared == status || passed == status || rejected == status is complex.,127
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageByRight,Complex Method,Cyclomatic complexity of the method is 9,127
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageByRight,Long Parameter List,The method has 14 parameters. ,127
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendQuery,Complex Method,Cyclomatic complexity of the method is 12,180
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendQuery,Long Parameter List,The method has 7 parameters. ,180
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getSide,Long Parameter List,The method has 5 parameters. ,225
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageBySiteIdsForTag,Long Parameter List,The method has 8 parameters. ,260
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getListBySiteIdsForTag,Long Parameter List,The method has 8 parameters. ,269
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageByChannelIdsForTag,Long Parameter List,The method has 9 parameters. ,285
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getListByChannelIdsForTag,Long Parameter List,The method has 9 parameters. ,294
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageByChannelPathsForTag,Long Parameter List,The method has 9 parameters. ,310
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getListByChannelPathsForTag,Long Parameter List,The method has 9 parameters. ,320
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageByTopicIdForTag,Long Parameter List,The method has 10 parameters. ,337
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getListByTopicIdForTag,Long Parameter List,The method has 10 parameters. ,347
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getPageByTagIdsForTag,Long Parameter List,The method has 11 parameters. ,364
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,getListByTagIdsForTag,Long Parameter List,The method has 11 parameters. ,374
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,bySiteIds,Long Parameter List,The method has 6 parameters. ,391
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,byChannelIds,Complex Method,Cyclomatic complexity of the method is 8,415
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,byChannelIds,Long Parameter List,The method has 7 parameters. ,415
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,byChannelIds,Magic Number,The method contains a magic number: 2,415
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,byChannelPaths,Complex Method,Cyclomatic complexity of the method is 8,469
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,byChannelPaths,Long Parameter List,The method has 7 parameters. ,469
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,byTopicId,Long Parameter List,The method has 8 parameters. ,511
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,byTagIds,Long Parameter List,The method has 9 parameters. ,539
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Complex Method,Cyclomatic complexity of the method is 22,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 2,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 3,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 4,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 5,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 6,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 7,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 8,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 9,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 10,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 11,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 12,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 13,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 14,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 15,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 16,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 17,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 18,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 19,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 20,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Magic Number,The method contains a magic number: 21,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,appendOrder,Missing default,The following switch statement is missing a default case: switch (orderBy) {,627
+3_cms-master,foo.cms.dao.main.impl,ContentDaoImpl,countByChannelId,Long Statement,The length of the statement "String hql="select count(*) from Content bean" + " join bean.channel channel`Channel parent" + " where channel.lft between parent.lft and parent.rgt"+ " and channel.site.id=parent.site.id"+ " and parent.id=:parentId";" is 217.,730
+3_cms-master,foo.cms.entity.assist,CmsAcquisition,isPuase,Magic Number,The method contains a magic number: 2,47
+3_cms-master,foo.cms.entity.assist,CmsAcquisition,isBreak,Magic Number,The method contains a magic number: 2,57
+3_cms-master,foo.cms.entity.assist,CmsAcquisition,getAllPlans,Complex Conditional,The conditional expression !StringUtils.isBlank(getDynamicAddr()) && start != null && end != null && start >= 0 && end >= start is complex.,76
+3_cms-master,foo.cms.entity.assist,CmsAcquisition,getTotalNum,Complex Conditional,The conditional expression !StringUtils.isBlank(getDynamicAddr()) && start != null && end != null is complex.,100
+3_cms-master,foo.cms.entity.assist,CmsAcquisition,CmsAcquisition,Long Parameter List,The method has 13 parameters. ,149
+3_cms-master,foo.cms.entity.assist,CmsAcquisitionTemp,CmsAcquisitionTemp,Long Parameter List,The method has 6 parameters. ,22
+3_cms-master,foo.cms.entity.assist,CmsAdvertising,getPercent,Magic Number,The method contains a magic number: 100,14
+3_cms-master,foo.cms.entity.assist,CmsAdvertising,CmsAdvertising,Long Parameter List,The method has 9 parameters. ,72
+3_cms-master,foo.cms.entity.assist,CmsComment,CmsComment,Long Parameter List,The method has 8 parameters. ,63
+3_cms-master,foo.cms.entity.assist,CmsFriendlink,init,Magic Number,The method contains a magic number: 10,14
+3_cms-master,foo.cms.entity.assist,CmsFriendlink,CmsFriendlink,Long Parameter List,The method has 8 parameters. ,45
+3_cms-master,foo.cms.entity.assist,CmsGuestbook,CmsGuestbook,Long Parameter List,The method has 7 parameters. ,102
+3_cms-master,foo.cms.entity.assist,CmsMessage,CmsMessage,Long Parameter List,The method has 7 parameters. ,26
+3_cms-master,foo.cms.entity.assist,CmsReceiverMessage,CmsReceiverMessage,Long Parameter List,The method has 9 parameters. ,25
+3_cms-master,foo.cms.entity.assist,CmsReceiverMessage,CmsReceiverMessage,Long Statement,The length of the statement "this(message.getId()`message.getMsgReceiverUser()`message.getMsgSendUser()`message.getSite()`message.getMsgTitle()`message.getMsgContent()`message.getSendTime()`message.getMsgStatus()`message.getMsgBox());" is 205.,45
+3_cms-master,foo.cms.entity.assist,CmsSiteFlow,CmsSiteFlow,Long Parameter List,The method has 6 parameters. ,23
+3_cms-master,foo.cms.entity.assist,CmsVoteItem,getPercent,Magic Number,The method contains a magic number: 100,16
+3_cms-master,foo.cms.entity.assist,CmsVoteItem,init,Magic Number,The method contains a magic number: 10,25
+3_cms-master,foo.cms.entity.assist,CmsVoteItem,CmsVoteItem,Long Parameter List,The method has 5 parameters. ,45
+3_cms-master,foo.cms.entity.assist,CmsVoteRecord,CmsVoteRecord,Long Parameter List,The method has 5 parameters. ,21
+3_cms-master,foo.cms.entity.assist,CmsVoteTopic,init,Complex Method,Cyclomatic complexity of the method is 8,10
+3_cms-master,foo.cms.entity.assist,CmsVoteTopic,CmsVoteTopic,Long Parameter List,The method has 10 parameters. ,45
+3_cms-master,foo.cms.entity.main,Channel,getUrlStatic,Complex Method,Cyclomatic complexity of the method is 8,79
+3_cms-master,foo.cms.entity.main,Channel,getStaticFilename,Complex Method,Cyclomatic complexity of the method is 8,121
+3_cms-master,foo.cms.entity.main,Channel,getAfterCheckEnum,Magic Number,The method contains a magic number: 2,263
+3_cms-master,foo.cms.entity.main,Channel,getAfterCheckEnum,Magic Number,The method contains a magic number: 3,263
+3_cms-master,foo.cms.entity.main,Channel,getListForSelect,Magic Number,The method contains a magic number: 2,300
+3_cms-master,foo.cms.entity.main,Channel,addChildToList,Complex Conditional,The conditional expression (rights != null && !rights.contains(channel)) || (exclude != null && exclude.equals(channel)) is complex.,326
+3_cms-master,foo.cms.entity.main,Channel,addChildToList,Long Parameter List,The method has 5 parameters. ,326
+3_cms-master,foo.cms.entity.main,Channel,init,Magic Number,The method contains a magic number: 10,406
+3_cms-master,foo.cms.entity.main,Channel,Channel,Long Parameter List,The method has 8 parameters. ,775
+3_cms-master,foo.cms.entity.main,ChannelExt,init,Complex Method,Cyclomatic complexity of the method is 15,26
+3_cms-master,foo.cms.entity.main,ChannelExt,init,Magic Number,The method contains a magic number: 139,26
+3_cms-master,foo.cms.entity.main,ChannelExt,init,Magic Number,The method contains a magic number: 139,26
+3_cms-master,foo.cms.entity.main,ChannelExt,init,Magic Number,The method contains a magic number: 310,26
+3_cms-master,foo.cms.entity.main,ChannelExt,init,Magic Number,The method contains a magic number: 310,26
+3_cms-master,foo.cms.entity.main,ChannelExt,init,Magic Number,The method contains a magic number: 20,26
+3_cms-master,foo.cms.entity.main,ChannelExt,blankToNull,Complex Method,Cyclomatic complexity of the method is 11,72
+3_cms-master,foo.cms.entity.main,ChannelExt,ChannelExt,Long Parameter List,The method has 15 parameters. ,116
+3_cms-master,foo.cms.entity.main,ChannelTxt,isAllBlank,Long Statement,The length of the statement "return StringUtils.isBlank(getTxt()) && StringUtils.isBlank(getTxt1()) && StringUtils.isBlank(getTxt2())&& StringUtils.isBlank(getTxt3());" is 138.,29
+3_cms-master,foo.cms.entity.main,CmsConfig,CmsConfig,Long Parameter List,The method has 9 parameters. ,49
+3_cms-master,foo.cms.entity.main,CmsGroup,CmsGroup,Long Parameter List,The method has 8 parameters. ,81
+3_cms-master,foo.cms.entity.main,CmsModel,CmsModel,Long Parameter List,The method has 11 parameters. ,82
+3_cms-master,foo.cms.entity.main,CmsModelItem,init,Magic Number,The method contains a magic number: 10,12
+3_cms-master,foo.cms.entity.main,CmsModelItem,emptyToNull,Complex Method,Cyclomatic complexity of the method is 8,28
+3_cms-master,foo.cms.entity.main,CmsModelItem,CmsModelItem,Long Parameter List,The method has 9 parameters. ,62
+3_cms-master,foo.cms.entity.main,CmsSite,getUrlBuffer,Complex Method,Cyclomatic complexity of the method is 8,50
+3_cms-master,foo.cms.entity.main,CmsSite,init,Magic Number,The method contains a magic number: 2,217
+3_cms-master,foo.cms.entity.main,CmsSite,CmsSite,Long Parameter List,The method has 17 parameters. ,240
+3_cms-master,foo.cms.entity.main,CmsUser,init,Complex Method,Cyclomatic complexity of the method is 9,335
+3_cms-master,foo.cms.entity.main,CmsUser,isToday,Magic Number,The method contains a magic number: 1000,381
+3_cms-master,foo.cms.entity.main,CmsUser,isToday,Magic Number,The method contains a magic number: 60,381
+3_cms-master,foo.cms.entity.main,CmsUser,isToday,Magic Number,The method contains a magic number: 60,381
+3_cms-master,foo.cms.entity.main,CmsUser,isToday,Magic Number,The method contains a magic number: 24,381
+3_cms-master,foo.cms.entity.main,CmsUser,isToday,Magic Number,The method contains a magic number: 1000,381
+3_cms-master,foo.cms.entity.main,CmsUser,isToday,Magic Number,The method contains a magic number: 60,381
+3_cms-master,foo.cms.entity.main,CmsUser,isToday,Magic Number,The method contains a magic number: 60,381
+3_cms-master,foo.cms.entity.main,CmsUser,isToday,Magic Number,The method contains a magic number: 24,381
+3_cms-master,foo.cms.entity.main,CmsUser,CmsUser,Long Parameter List,The method has 13 parameters. ,405
+3_cms-master,foo.cms.entity.main,CmsUserExt,blankToNull,Complex Method,Cyclomatic complexity of the method is 8,10
+3_cms-master,foo.cms.entity.main,CmsUserSite,CmsUserSite,Long Parameter List,The method has 5 parameters. ,18
+3_cms-master,foo.cms.entity.main,Content,getStaticFilenameByRule,Long Statement,The length of the statement "String url=StaticPageUtils.staticUrlRule(rule`model.getId()`model.getPath()`channel.getId()`channel.getPath()`getId()`getReleaseDate());" is 136.,181
+3_cms-master,foo.cms.entity.main,Content,isHasUpdateRight,Complex Conditional,The conditional expression getCheckStep() > userStep || (checked && userStep < channelStep) is complex.,349
+3_cms-master,foo.cms.entity.main,Content,isHasDeleteRight,Complex Conditional,The conditional expression getCheckStep() > userStep || (checked && userStep < channelStep) is complex.,391
+3_cms-master,foo.cms.entity.main,Content,init,Complex Method,Cyclomatic complexity of the method is 15,421
+3_cms-master,foo.cms.entity.main,Content,getPictureByNo,Complex Conditional,The conditional expression pageNo >= 1 && list != null && list.size() >= pageNo is complex.,492
+3_cms-master,foo.cms.entity.main,Content,Content,Long Parameter List,The method has 11 parameters. ,875
+3_cms-master,foo.cms.entity.main,ContentCount,init,Complex Method,Cyclomatic complexity of the method is 18,10
+3_cms-master,foo.cms.entity.main,ContentCount,ContentCount,Long Parameter List,The method has 18 parameters. ,75
+3_cms-master,foo.cms.entity.main,ContentExt,blankToNull,Complex Method,Cyclomatic complexity of the method is 14,37
+3_cms-master,foo.cms.entity.main,ContentExt,ContentExt,Long Parameter List,The method has 5 parameters. ,91
+3_cms-master,foo.cms.entity.main,ContentTxt,isAllBlank,Long Statement,The length of the statement "return StringUtils.isBlank(getTxt()) && StringUtils.isBlank(getTxt1()) && StringUtils.isBlank(getTxt2())&& StringUtils.isBlank(getTxt3());" is 138.,94
+3_cms-master,foo.cms.entity.main,MarkConfig,MarkConfig,Long Parameter List,The method has 10 parameters. ,14
+3_cms-master,foo.cms.entity.main,MemberConfig,getUsernameMinLen,Empty catch clause,The method has an empty catch block.,137
+3_cms-master,foo.cms.entity.main,MemberConfig,getUsernameMinLen,Magic Number,The method contains a magic number: 3,137
+3_cms-master,foo.cms.entity.main,MemberConfig,getPasswordMinLen,Empty catch clause,The method has an empty catch block.,163
+3_cms-master,foo.cms.entity.main,MemberConfig,getPasswordMinLen,Magic Number,The method contains a magic number: 3,163
+3_cms-master,foo.cms.entity.main,MemberConfig,getUserImgWidth,Empty catch clause,The method has an empty catch block.,188
+3_cms-master,foo.cms.entity.main,MemberConfig,getUserImgWidth,Magic Number,The method contains a magic number: 143,188
+3_cms-master,foo.cms.entity.main,MemberConfig,getUserImgHeight,Empty catch clause,The method has an empty catch block.,213
+3_cms-master,foo.cms.entity.main,MemberConfig,getUserImgHeight,Magic Number,The method contains a magic number: 98,213
+3_cms-master,foo.cms.lucene,LuceneContent,createDocument,Long Statement,The length of the statement "doc.add(new Field(RELEASE_DATE`DateTools.dateToString(c.getReleaseDate()`Resolution.DAY)`Field.Store.NO`Field.Index.NOT_ANALYZED));" is 131.,35
+3_cms-master,foo.cms.lucene,LuceneContent,createQuery,Long Parameter List,The method has 6 parameters. ,66
+3_cms-master,foo.cms.lucene,LuceneContent,delete,Long Parameter List,The method has 5 parameters. ,99
+3_cms-master,foo.cms.lucene,LuceneContentAct,create,Long Parameter List,The method has 9 parameters. ,45
+3_cms-master,foo.cms.lucene,LuceneContentDao,index,Long Parameter List,The method has 7 parameters. ,11
+3_cms-master,foo.cms.lucene,LuceneContentDaoImpl,index,Complex Method,Cyclomatic complexity of the method is 10,22
+3_cms-master,foo.cms.lucene,LuceneContentDaoImpl,index,Long Parameter List,The method has 7 parameters. ,22
+3_cms-master,foo.cms.lucene,LuceneContentDaoImpl,index,Magic Number,The method contains a magic number: 20,22
+3_cms-master,foo.cms.lucene,LuceneContentSvc,createIndex,Long Parameter List,The method has 6 parameters. ,15
+3_cms-master,foo.cms.lucene,LuceneContentSvc,createIndex,Long Parameter List,The method has 7 parameters. ,19
+3_cms-master,foo.cms.lucene,LuceneContentSvc,searchPage,Long Parameter List,The method has 8 parameters. ,38
+3_cms-master,foo.cms.lucene,LuceneContentSvc,searchPage,Long Parameter List,The method has 8 parameters. ,43
+3_cms-master,foo.cms.lucene,LuceneContentSvc,searchList,Long Parameter List,The method has 8 parameters. ,48
+3_cms-master,foo.cms.lucene,LuceneContentSvc,searchList,Long Parameter List,The method has 8 parameters. ,53
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,createIndex,Long Parameter List,The method has 6 parameters. ,35
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,createIndex,Long Parameter List,The method has 7 parameters. ,45
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,createIndex,Long Statement,The length of the statement "IndexWriter writer=new IndexWriter(dir`new StandardAnalyzer(Version.LUCENE_30)`!exist`IndexWriter.MaxFieldLength.LIMITED);" is 122.,45
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,createIndex,Long Statement,The length of the statement "IndexWriter writer=new IndexWriter(dir`new StandardAnalyzer(Version.LUCENE_30)`!exist`IndexWriter.MaxFieldLength.LIMITED);" is 122.,73
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,deleteIndex,Long Statement,The length of the statement "IndexWriter writer=new IndexWriter(dir`new StandardAnalyzer(Version.LUCENE_30)`false`IndexWriter.MaxFieldLength.LIMITED);" is 121.,93
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,updateIndex,Long Statement,The length of the statement "IndexWriter writer=new IndexWriter(dir`new StandardAnalyzer(Version.LUCENE_30)`!exist`IndexWriter.MaxFieldLength.LIMITED);" is 122.,115
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,searchPage,Long Parameter List,The method has 8 parameters. ,130
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,searchPage,Long Parameter List,The method has 8 parameters. ,140
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,searchList,Long Parameter List,The method has 8 parameters. ,165
+3_cms-master,foo.cms.lucene,LuceneContentSvcImpl,searchList,Long Parameter List,The method has 8 parameters. ,175
+3_cms-master,foo.cms.manager.assist,CmsAcquisitionMng,save,Long Parameter List,The method has 5 parameters. ,27
+3_cms-master,foo.cms.manager.assist,CmsAcquisitionMng,saveContent,Long Parameter List,The method has 6 parameters. ,37
+3_cms-master,foo.cms.manager.assist,CmsAdvertisingMng,getPage,Long Parameter List,The method has 5 parameters. ,10
+3_cms-master,foo.cms.manager.assist,CmsCommentMng,getPage,Long Parameter List,The method has 8 parameters. ,10
+3_cms-master,foo.cms.manager.assist,CmsCommentMng,getPageForTag,Long Parameter List,The method has 8 parameters. ,14
+3_cms-master,foo.cms.manager.assist,CmsCommentMng,getPageForMember,Long Parameter List,The method has 10 parameters. ,18
+3_cms-master,foo.cms.manager.assist,CmsCommentMng,getListForTag,Long Parameter List,The method has 7 parameters. ,45
+3_cms-master,foo.cms.manager.assist,CmsCommentMng,comment,Long Parameter List,The method has 7 parameters. ,51
+3_cms-master,foo.cms.manager.assist,CmsGuestbookMng,getPage,Long Parameter List,The method has 9 parameters. ,13
+3_cms-master,foo.cms.manager.assist,CmsGuestbookMng,getList,Long Parameter List,The method has 8 parameters. ,17
+3_cms-master,foo.cms.manager.assist,CmsGuestbookMng,save,Long Parameter List,The method has 9 parameters. ,27
+3_cms-master,foo.cms.manager.assist,CmsMessageMng,getPage,Long Parameter List,The method has 11 parameters. ,12
+3_cms-master,foo.cms.manager.assist,CmsReceiverMessageMng,getPage,Long Parameter List,The method has 11 parameters. ,14
+3_cms-master,foo.cms.manager.assist,CmsReceiverMessageMng,getList,Long Parameter List,The method has 9 parameters. ,19
+3_cms-master,foo.cms.manager.assist,CmsVoteTopicMng,vote,Long Parameter List,The method has 5 parameters. ,18
+3_cms-master,foo.cms.manager.assist.impl,CmsAcquisitionMngImpl,save,Long Parameter List,The method has 5 parameters. ,122
+3_cms-master,foo.cms.manager.assist.impl,CmsAcquisitionMngImpl,saveContent,Long Parameter List,The method has 6 parameters. ,155
+3_cms-master,foo.cms.manager.assist.impl,CmsAcquisitionMngImpl,saveContent,Long Statement,The length of the statement "Content content=contentMng.save(c`cext`ctxt`null`null`null`null`null`null`null`null`null`acqu.getChannel().getId()`acqu.getType().getId()`false`acqu.getUser()`false);" is 166.,155
+3_cms-master,foo.cms.manager.assist.impl,CmsAdvertisingMngImpl,getPage,Long Parameter List,The method has 5 parameters. ,20
+3_cms-master,foo.cms.manager.assist.impl,CmsCommentMngImpl,getPage,Long Parameter List,The method has 8 parameters. ,25
+3_cms-master,foo.cms.manager.assist.impl,CmsCommentMngImpl,getPageForTag,Long Parameter List,The method has 8 parameters. ,34
+3_cms-master,foo.cms.manager.assist.impl,CmsCommentMngImpl,getPageForMember,Long Parameter List,The method has 10 parameters. ,42
+3_cms-master,foo.cms.manager.assist.impl,CmsCommentMngImpl,getPageForMember,Long Statement,The length of the statement "Pagination page=dao.getPageForMember(siteId`contentId`toUserId`fromUserId`greaterThen`checked`recommend`desc`pageNo`pageSize`false);" is 132.,42
+3_cms-master,foo.cms.manager.assist.impl,CmsCommentMngImpl,getListForTag,Long Parameter List,The method has 7 parameters. ,55
+3_cms-master,foo.cms.manager.assist.impl,CmsCommentMngImpl,comment,Long Parameter List,The method has 7 parameters. ,69
+3_cms-master,foo.cms.manager.assist.impl,CmsFriendlinkMngImpl,updatePriority,Complex Conditional,The conditional expression ids == null || priorities == null || ids.length <= 0 || ids.length != priorities.length is complex.,61
+3_cms-master,foo.cms.manager.assist.impl,CmsGuestbookMngImpl,getPage,Long Parameter List,The method has 9 parameters. ,24
+3_cms-master,foo.cms.manager.assist.impl,CmsGuestbookMngImpl,getList,Long Parameter List,The method has 8 parameters. ,32
+3_cms-master,foo.cms.manager.assist.impl,CmsGuestbookMngImpl,save,Long Parameter List,The method has 9 parameters. ,57
+3_cms-master,foo.cms.manager.assist.impl,CmsKeywordMngImpl,attachKeyword,Magic Number,The method contains a magic number: 1.2,31
+3_cms-master,foo.cms.manager.assist.impl,CmsMessageMngImpl,getPage,Long Parameter List,The method has 11 parameters. ,22
+3_cms-master,foo.cms.manager.assist.impl,CmsMessageMngImpl,getPage,Long Statement,The length of the statement "return dao.getPage(siteId`sendUserId`receiverUserId`title`sendBeginTime`sendEndTime`status`box`cacheable`pageNo`pageSize);" is 122.,22
+3_cms-master,foo.cms.manager.assist.impl,CmsReceiverMessageMngImpl,getPage,Long Parameter List,The method has 11 parameters. ,23
+3_cms-master,foo.cms.manager.assist.impl,CmsReceiverMessageMngImpl,getPage,Long Statement,The length of the statement "return dao.getPage(siteId`sendUserId`receiverUserId`title`sendBeginTime`sendEndTime`status`box`cacheable`pageNo`pageSize);" is 122.,23
+3_cms-master,foo.cms.manager.assist.impl,CmsReceiverMessageMngImpl,getList,Long Parameter List,The method has 9 parameters. ,32
+3_cms-master,foo.cms.manager.assist.impl,CmsResourceMngImpl,imoport,Complex Method,Cyclomatic complexity of the method is 11,156
+3_cms-master,foo.cms.manager.assist.impl,CmsResourceMngImpl,imoport,Magic Number,The method contains a magic number: 1024,156
+3_cms-master,foo.cms.manager.assist.impl,CmsVoteTopicMngImpl,vote,Complex Conditional,The conditional expression (topic.getRepeateHour() == null || topic.getRepeateHour() > 0) && (topic.getRestrictMember() || topic.getRestrictIp() || topic.getRestrictCookie()) is complex.,70
+3_cms-master,foo.cms.manager.assist.impl,CmsVoteTopicMngImpl,vote,Long Parameter List,The method has 5 parameters. ,70
+3_cms-master,foo.cms.manager.assist.impl,CmsVoteTopicMngImpl,vote,Long Statement,The length of the statement "if ((topic.getRepeateHour() == null || topic.getRepeateHour() > 0) && (topic.getRestrictMember() || topic.getRestrictIp() || topic.getRestrictCookie())) {" is 154.,70
+3_cms-master,foo.cms.manager.main,ChannelMng,save,Long Parameter List,The method has 9 parameters. ,54
+3_cms-master,foo.cms.manager.main,ChannelMng,update,Long Parameter List,The method has 8 parameters. ,58
+3_cms-master,foo.cms.manager.main,CmsLogMng,getPage,Long Parameter List,The method has 7 parameters. ,10
+3_cms-master,foo.cms.manager.main,CmsModelItemMng,updatePriority,Long Parameter List,The method has 5 parameters. ,19
+3_cms-master,foo.cms.manager.main,CmsUserMng,getPage,Long Parameter List,The method has 9 parameters. ,13
+3_cms-master,foo.cms.manager.main,CmsUserMng,getList,Long Parameter List,The method has 7 parameters. ,17
+3_cms-master,foo.cms.manager.main,CmsUserMng,registerMember,Long Parameter List,The method has 6 parameters. ,27
+3_cms-master,foo.cms.manager.main,CmsUserMng,registerMember,Long Parameter List,The method has 9 parameters. ,30
+3_cms-master,foo.cms.manager.main,CmsUserMng,saveAdmin,Long Parameter List,The method has 14 parameters. ,41
+3_cms-master,foo.cms.manager.main,CmsUserMng,updateAdmin,Long Parameter List,The method has 9 parameters. ,47
+3_cms-master,foo.cms.manager.main,CmsUserMng,updateAdmin,Long Parameter List,The method has 9 parameters. ,51
+3_cms-master,foo.cms.manager.main,CmsUserMng,updateMember,Long Parameter List,The method has 6 parameters. ,55
+3_cms-master,foo.cms.manager.main,ContentMng,getPageByRight,Long Parameter List,The method has 13 parameters. ,19
+3_cms-master,foo.cms.manager.main,ContentMng,getPageForMember,Long Parameter List,The method has 6 parameters. ,25
+3_cms-master,foo.cms.manager.main,ContentMng,getPageBySiteIdsForTag,Long Parameter List,The method has 8 parameters. ,57
+3_cms-master,foo.cms.manager.main,ContentMng,getListBySiteIdsForTag,Long Parameter List,The method has 8 parameters. ,61
+3_cms-master,foo.cms.manager.main,ContentMng,getPageByChannelIdsForTag,Long Parameter List,The method has 9 parameters. ,65
+3_cms-master,foo.cms.manager.main,ContentMng,getListByChannelIdsForTag,Long Parameter List,The method has 9 parameters. ,69
+3_cms-master,foo.cms.manager.main,ContentMng,getPageByChannelPathsForTag,Long Parameter List,The method has 9 parameters. ,73
+3_cms-master,foo.cms.manager.main,ContentMng,getListByChannelPathsForTag,Long Parameter List,The method has 9 parameters. ,78
+3_cms-master,foo.cms.manager.main,ContentMng,getPageByTopicIdForTag,Long Parameter List,The method has 10 parameters. ,83
+3_cms-master,foo.cms.manager.main,ContentMng,getListByTopicIdForTag,Long Parameter List,The method has 10 parameters. ,88
+3_cms-master,foo.cms.manager.main,ContentMng,getPageByTagIdsForTag,Long Parameter List,The method has 11 parameters. ,93
+3_cms-master,foo.cms.manager.main,ContentMng,getListByTagIdsForTag,Long Parameter List,The method has 11 parameters. ,98
+3_cms-master,foo.cms.manager.main,ContentMng,save,Long Parameter List,The method has 17 parameters. ,105
+3_cms-master,foo.cms.manager.main,ContentMng,update,Long Parameter List,The method has 18 parameters. ,112
+3_cms-master,foo.cms.manager.main.impl,ChannelMngImpl,save,Complex Method,Cyclomatic complexity of the method is 8,107
+3_cms-master,foo.cms.manager.main.impl,ChannelMngImpl,save,Long Parameter List,The method has 9 parameters. ,107
+3_cms-master,foo.cms.manager.main.impl,ChannelMngImpl,update,Complex Method,Cyclomatic complexity of the method is 11,144
+3_cms-master,foo.cms.manager.main.impl,ChannelMngImpl,update,Long Parameter List,The method has 8 parameters. ,144
+3_cms-master,foo.cms.manager.main.impl,CmsLogMngImpl,getPage,Long Parameter List,The method has 7 parameters. ,29
+3_cms-master,foo.cms.manager.main.impl,CmsLogMngImpl,save,Long Parameter List,The method has 8 parameters. ,54
+3_cms-master,foo.cms.manager.main.impl,CmsModelItemMngImpl,updatePriority,Long Parameter List,The method has 5 parameters. ,47
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,getPage,Long Parameter List,The method has 9 parameters. ,38
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,getList,Long Parameter List,The method has 7 parameters. ,47
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,registerMember,Long Parameter List,The method has 6 parameters. ,73
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,registerMember,Long Parameter List,The method has 9 parameters. ,79
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,saveAdmin,Complex Method,Cyclomatic complexity of the method is 9,140
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,saveAdmin,Long Parameter List,The method has 14 parameters. ,140
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,updateAdmin,Long Parameter List,The method has 9 parameters. ,189
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,updateAdmin,Long Parameter List,The method has 9 parameters. ,199
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,updateAdmin,Long Parameter List,The method has 6 parameters. ,209
+3_cms-master,foo.cms.manager.main.impl,CmsUserMngImpl,updateMember,Long Parameter List,The method has 6 parameters. ,242
+3_cms-master,foo.cms.manager.main.impl,CmsUserSiteMngImpl,updateByUser,Complex Conditional,The conditional expression siteId == null || step == null || allChannel == null is complex.,45
+3_cms-master,foo.cms.manager.main.impl,CmsUserSiteMngImpl,updateByUser,Complex Method,Cyclomatic complexity of the method is 11,60
+3_cms-master,foo.cms.manager.main.impl,ContentCountMngImpl,setInterval,Magic Number,The method contains a magic number: 60,124
+3_cms-master,foo.cms.manager.main.impl,ContentCountMngImpl,setInterval,Magic Number,The method contains a magic number: 1000,124
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageByRight,Long Parameter List,The method has 13 parameters. ,61
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageByRight,Long Statement,The length of the statement "p=dao.getPageBySelf(title`typeId`inputUserId`topLevel`recommend`status`checkStep`siteId`channelId`userId`orderBy`pageNo`pageSize);" is 130.,61
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageByRight,Long Statement,The length of the statement "p=dao.getPageByRight(title`typeId`inputUserId`topLevel`recommend`status`checkStep`siteId`channelId`userId`selfData`orderBy`pageNo`pageSize);" is 140.,61
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageForMember,Long Parameter List,The method has 6 parameters. ,90
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageBySiteIdsForTag,Long Parameter List,The method has 8 parameters. ,121
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getListBySiteIdsForTag,Long Parameter List,The method has 8 parameters. ,129
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageByChannelIdsForTag,Long Parameter List,The method has 9 parameters. ,137
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getListByChannelIdsForTag,Long Parameter List,The method has 9 parameters. ,145
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageByChannelPathsForTag,Long Parameter List,The method has 9 parameters. ,153
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getListByChannelPathsForTag,Long Parameter List,The method has 9 parameters. ,162
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageByTopicIdForTag,Long Parameter List,The method has 10 parameters. ,171
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getListByTopicIdForTag,Long Parameter List,The method has 10 parameters. ,180
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageByTagIdsForTag,Long Parameter List,The method has 11 parameters. ,189
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getPageByTagIdsForTag,Long Statement,The length of the statement "return dao.getPageByTagIdsForTag(tagIds`siteIds`channelIds`typeIds`excludeId`titleImg`recommend`title`orderBy`pageNo`pageSize);" is 127.,189
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getListByTagIdsForTag,Long Parameter List,The method has 11 parameters. ,199
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,getListByTagIdsForTag,Long Statement,The length of the statement "return dao.getListByTagIdsForTag(tagIds`siteIds`channelIds`typeIds`excludeId`titleImg`recommend`title`orderBy`first`count);" is 123.,199
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,save,Complex Method,Cyclomatic complexity of the method is 16,214
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,save,Long Parameter List,The method has 17 parameters. ,214
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,update,Complex Method,Cyclomatic complexity of the method is 23,297
+3_cms-master,foo.cms.manager.main.impl,ContentMngImpl,update,Long Parameter List,The method has 18 parameters. ,297
+3_cms-master,foo.cms.manager.main.impl,ContentTagMngImpl,updateTags,Complex Method,Cyclomatic complexity of the method is 10,100
+3_cms-master,foo.cms.service,AcquisitionSvcImpl,run,Long Statement,The length of the statement "contentList=getContentList(client`handler`url`acqu.getLinksetStart()`acqu.getLinksetEnd()`acqu.getLinkStart()`acqu.getLinkEnd());" is 129.,88
+3_cms-master,foo.cms.service,AcquisitionSvcImpl,run,Long Statement,The length of the statement "saveContent(client`handler`acquId`link`acqu.getTitleStart()`acqu.getTitleEnd()`acqu.getContentStart()`acqu.getContentEnd()`temp`history);" is 137.,88
+3_cms-master,foo.cms.service,AcquisitionSvcImpl,getContentList,Long Parameter List,The method has 7 parameters. ,143
+3_cms-master,foo.cms.service,AcquisitionSvcImpl,getContentList,Magic Number,The method contains a magic number: 2,143
+3_cms-master,foo.cms.service,AcquisitionSvcImpl,saveContent,Long Parameter List,The method has 10 parameters. ,186
+3_cms-master,foo.cms.service,AcquisitionSvcImpl,handerResult,Long Parameter List,The method has 5 parameters. ,243
+3_cms-master,foo.cms.service,AcquisitionSvcImpl,newTemp,Long Parameter List,The method has 6 parameters. ,258
+3_cms-master,foo.cms.service,AcquisitionSvcImpl,handleResponse,Magic Number,The method contains a magic number: 300,288
+3_cms-master,foo.cms.service,AcquisitionThread,run,Long Statement,The length of the statement "contentList=getContentList(client`handler`url`acqu.getLinksetStart()`acqu.getLinksetEnd()`acqu.getLinkStart()`acqu.getLinkEnd());" is 129.,88
+3_cms-master,foo.cms.service,AcquisitionThread,run,Long Statement,The length of the statement "saveContent(client`handler`acquId`link`acqu.getTitleStart()`acqu.getTitleEnd()`acqu.getContentStart()`acqu.getContentEnd()`temp`history);" is 137.,88
+3_cms-master,foo.cms.service,AcquisitionThread,getContentList,Long Parameter List,The method has 7 parameters. ,143
+3_cms-master,foo.cms.service,AcquisitionThread,getContentList,Magic Number,The method contains a magic number: 2,143
+3_cms-master,foo.cms.service,AcquisitionThread,saveContent,Long Parameter List,The method has 10 parameters. ,186
+3_cms-master,foo.cms.service,AcquisitionThread,handerResult,Long Parameter List,The method has 5 parameters. ,243
+3_cms-master,foo.cms.service,CharsetHandler,handleResponse,Magic Number,The method contains a magic number: 300,288
+3_cms-master,foo.cms.service,CmsSiteFlowCache,flow,Long Parameter List,The method has 5 parameters. ,9
+3_cms-master,foo.cms.service,CmsSiteFlowCacheImpl,flow,Long Parameter List,The method has 5 parameters. ,30
+3_cms-master,foo.cms.service,CmsSiteFlowCacheImpl,create,Long Parameter List,The method has 5 parameters. ,50
+3_cms-master,foo.cms.service,CmsSiteFlowCacheImpl,getRefererWebSite,Magic Number,The method contains a magic number: 3,87
+3_cms-master,foo.cms.service,CmsSiteFlowCacheImpl,setInterval,Magic Number,The method contains a magic number: 1000,109
+3_cms-master,foo.cms.service,ContentCountCacheImpl,setInterval,Magic Number,The method contains a magic number: 60,75
+3_cms-master,foo.cms.service,ContentCountCacheImpl,setInterval,Magic Number,The method contains a magic number: 1000,75
+3_cms-master,foo.cms.staticpage,StaticPageDao,channelStatic,Long Parameter List,The method has 5 parameters. ,15
+3_cms-master,foo.cms.staticpage,StaticPageDao,contentStatic,Long Parameter List,The method has 5 parameters. ,22
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,channelStatic,Complex Conditional,The conditional expression !c.getModel().getHasContent() || (!c.getListChild() && childs > 0) is complex.,44
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,channelStatic,Complex Method,Cyclomatic complexity of the method is 14,44
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,channelStatic,Long Parameter List,The method has 5 parameters. ,44
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,channelStatic,Long Statement,The length of the statement "finder.append("`Channel parent where").append(" bean.lft between parent.lft and parent.rgt").append(" and parent.site.id=bean.site.id").append(" and parent.id=:channelId");" is 172.,44
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,channelStatic,Magic Number,The method contains a magic number: 20,44
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,channelStatic,Complex Conditional,The conditional expression firstOnly || !c.getModel().getHasContent() || (!c.getListChild() && childs > 0) is complex.,137
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,channelStatic,Complex Method,Cyclomatic complexity of the method is 9,137
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,contentsOfChannel,Long Statement,The length of the statement "String hql="select count(*) from Content bean" + " join bean.channels as channel" + " where channel.id=:channelId and bean.status="+ ContentCheck.CHECKED;" is 154.,200
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,contentStatic,Complex Method,Cyclomatic complexity of the method is 13,218
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,contentStatic,Long Parameter List,The method has 5 parameters. ,218
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,contentStatic,Magic Number,The method contains a magic number: 20,218
+3_cms-master,foo.cms.staticpage,StaticPageDaoImpl,contentStatic,Complex Method,Cyclomatic complexity of the method is 8,319
+3_cms-master,foo.cms.staticpage,StaticPageSvcImpl,deleteChannel,Complex Conditional,The conditional expression !channel.getModel().getHasContent() || (!channel.getListChild() && childs > 0) is complex.,112
+3_cms-master,foo.cms.staticpage,StaticPageUtils,staticUrlRule,Complex Method,Cyclomatic complexity of the method is 8,21
+3_cms-master,foo.cms.staticpage,StaticPageUtils,staticUrlRule,Long Parameter List,The method has 7 parameters. ,21
+3_cms-master,foo.cms.staticpage,StaticPageUtils,staticUrlRule,Magic Number,The method contains a magic number: 10,21
+3_cms-master,foo.cms.staticpage,StaticPageUtils,staticUrlRule,Magic Number,The method contains a magic number: 10,21
+3_cms-master,foo.cms.statistic,CmsStatisticAct,memberList,Long Parameter List,The method has 5 parameters. ,47
+3_cms-master,foo.cms.statistic,CmsStatisticAct,contentList,Long Parameter List,The method has 7 parameters. ,57
+3_cms-master,foo.cms.statistic,CmsStatisticAct,commentList,Long Parameter List,The method has 7 parameters. ,91
+3_cms-master,foo.cms.statistic,CmsStatisticAct,guestbookList,Long Parameter List,The method has 7 parameters. ,107
+3_cms-master,foo.cms.statistic,CmsStatisticAct,refererWebSite,Long Statement,The length of the statement "Pagination pagination=cmsStatisticSvc.flowAnalysisPage(REFERER_WEBSITE`siteId`cpn(pageNo)`CookieUtils.getPageSize(request));" is 124.,158
+3_cms-master,foo.cms.statistic,CmsStatisticAct,refererPage,Long Statement,The length of the statement "Pagination pagination=cmsStatisticSvc.flowAnalysisPage(REFERER_PAGE`siteId`cpn(pageNo)`CookieUtils.getPageSize(request));" is 121.,172
+3_cms-master,foo.cms.statistic,CmsStatisticAct,refererKeyword,Long Statement,The length of the statement "Pagination pagination=cmsStatisticSvc.flowAnalysisPage(REFERER_KEYWORD`siteId`cpn(pageNo)`CookieUtils.getPageSize(request));" is 124.,211
+3_cms-master,foo.cms.statistic,CmsStatisticAct,flowInit,Long Parameter List,The method has 5 parameters. ,231
+3_cms-master,foo.cms.statistic,CmsStatisticAct,putCommonData,Long Parameter List,The method has 6 parameters. ,247
+3_cms-master,foo.cms.statistic,CmsStatisticDaoImpl,getPvCountByGroup,Long Statement,The length of the statement "Finder f=createCacheableFinder("select count(*)`bean.accessDate from CmsSiteFlow bean where bean.site.id=:siteId group by bean.accessDate");" is 140.,103
+3_cms-master,foo.cms.statistic,CmsStatisticDaoImpl,getUniqueIpCountByGroup,Long Statement,The length of the statement "Finder f=createCacheableFinder("select count(distinct bean.accessIp)`bean.accessDate from CmsSiteFlow bean where bean.site.id=:siteId group by bean.accessDate");" is 161.,119
+3_cms-master,foo.cms.statistic,CmsStatisticDaoImpl,getUniqueVisitorCountByGroup,Long Statement,The length of the statement "Finder f=createCacheableFinder("select count(distinct bean.sessionId)`bean.accessDate from CmsSiteFlow bean where bean.site.id=:siteId group by bean.accessDate");" is 162.,135
+3_cms-master,foo.cms.statistic,CmsStatisticDaoImpl,flowAnalysisPage,Long Statement,The length of the statement "Finder f=createCacheableFinder("select count(*)`bean." + groupCondition + " from CmsSiteFlow bean where bean.site.id=:siteId group by bean."+ groupCondition+ " order by count(*) desc");" is 185.,152
+3_cms-master,foo.cms.statistic,CmsStatisticSvc,statisticByModel,Long Parameter List,The method has 6 parameters. ,11
+3_cms-master,foo.cms.statistic,CmsStatisticSvcImpl,statisticByModel,Long Parameter List,The method has 6 parameters. ,45
+3_cms-master,foo.cms.statistic,CmsStatisticSvcImpl,statisticByDay,Magic Number,The method contains a magic number: 24,85
+3_cms-master,foo.cms.statistic,CmsStatisticSvcImpl,statisticByWeek,Magic Number,The method contains a magic number: 7,105
+3_cms-master,foo.cms.statistic,CmsStatisticSvcImpl,statisticByWeek,Magic Number,The method contains a magic number: 7,105
+3_cms-master,foo.cms.statistic,CmsStatisticSvcImpl,statisticByYear,Magic Number,The method contains a magic number: 12,159
+3_cms-master,foo.cms.statistic,CmsStatisticSvcImpl,getTimeRange,Magic Number,The method contains a magic number: 7,500
+3_cms-master,foo.cms.statistic,FlowBean,hashCode,Magic Number,The method contains a magic number: 31,37
+3_cms-master,foo.cms.statistic,FlowBean,equals,Complex Method,Cyclomatic complexity of the method is 13,49
+3_cms-master,foo.cms.web,AdminContextInterceptor,preHandle,Complex Conditional,The conditional expression auth && !user.isSuper() && !permistionPass(uri`user.getPerms()`viewonly) is complex.,45
+3_cms-master,foo.cms.web,AdminContextInterceptor,preHandle,Complex Method,Cyclomatic complexity of the method is 9,45
+3_cms-master,foo.cms.web,AdminContextInterceptor,postHandle,Complex Conditional,The conditional expression auth && user != null && !user.isSuper() && mav != null && mav.getModelMap() != null && mav.getViewName() != null && !mav.getViewName().startsWith("redirect:") is complex.,115
+3_cms-master,foo.cms.web,AdminContextInterceptor,postHandle,Long Statement,The length of the statement "if (auth && user != null && !user.isSuper() && mav != null && mav.getModelMap() != null && mav.getViewName() != null && !mav.getViewName().startsWith("redirect:")) {" is 165.,115
+3_cms-master,foo.cms.web,AdminContextInterceptor,getURI,Magic Number,The method contains a magic number: 2,281
+3_cms-master,foo.cms.web,FrontContextInterceptor,preHandle,Complex Method,Cyclomatic complexity of the method is 14,30
+3_cms-master,foo.cms.web,FrontUtils,getTplPath,Long Parameter List,The method has 5 parameters. ,159
+3_cms-master,foo.cms.web,FrontUtils,frontData,Long Parameter List,The method has 5 parameters. ,321
+3_cms-master,foo.cms.web,FrontUtils,frontPageData,Long Parameter List,The method has 5 parameters. ,360
+3_cms-master,foo.cms.web,FrontUtils,getCount,Complex Conditional,The conditional expression count == null || count <= 0 || count >= 5000 is complex.,423
+3_cms-master,foo.cms.web,FrontUtils,getCount,Magic Number,The method contains a magic number: 5000,423
+3_cms-master,foo.cms.web,FrontUtils,getCount,Magic Number,The method contains a magic number: 5000,423
+3_cms-master,foo.common.fck,ResourceType,ResourceType,Long Statement,The length of the statement "if (allowedEextensions.isEmpty() && deniedExtensions.isEmpty()) throw new IllegalArgumentException("Both sets are empty` one has always to be filled");" is 151.,74
+3_cms-master,foo.common.fck,ResourceType,ResourceType,Long Statement,The length of the statement "if (!allowedEextensions.isEmpty() && !deniedExtensions.isEmpty()) throw new IllegalArgumentException("Both sets contain extensions` only one can be filled at the same time");" is 174.,74
+3_cms-master,foo.common.fck,UploadResponse,UploadResponse,Long Statement,The length of the statement "if (arguments.length < 1 || arguments.length > 4) throw new IllegalArgumentException("The amount of arguments has to be between 1 and 4");" is 138.,52
+3_cms-master,foo.common.fck,UploadResponse,UploadResponse,Long Statement,The length of the statement "if (!(arguments[0] instanceof Integer)) throw new IllegalArgumentException("The first argument has to be an error number (int)");" is 129.,52
+3_cms-master,foo.common.fck,UploadResponse,UploadResponse,Magic Number,The method contains a magic number: 4,52
+3_cms-master,foo.common.fck,UploadResponse,setCustomMessage,Magic Number,The method contains a magic number: 4,84
+3_cms-master,foo.common.fck,UploadResponse,setCustomMessage,Magic Number,The method contains a magic number: 2,84
+3_cms-master,foo.common.fck,UploadResponse,setCustomMessage,Magic Number,The method contains a magic number: 3,84
+3_cms-master,foo.common.fck,UploadResponse,getFileRenamedWarning,Long Statement,The length of the statement "return new UploadResponse(EN_FILE_RENAMED_WARNING`fileUrl`newFileName`LocalizedMessages.getFileRenamedWarning(request`newFileName));" is 132.,112
+3_cms-master,foo.common.fck,UploadResponse,toString,Long Statement,The length of the statement "sb.append("(function(){var d=document.domain;while (true){try{var A=window.parent.document.domain;break;}catch(e) {};d=d.replace(/.*?(?:\\.|$)/`'');if (d.length==0) break;try{document.domain=d;}catch (e){break;}}})();\n");" is 222.,162
+3_cms-master,foo.common.fck,UploadResponse,toString,Magic Number,The method contains a magic number: 400,162
+3_cms-master,foo.common.file,FileNameUtils,genFileName,Magic Number,The method contains a magic number: 4,38
+3_cms-master,foo.common.file,FileWrap,getSize,Magic Number,The method contains a magic number: 1024,153
+3_cms-master,foo.common.file,FileWrap,getIco,Complex Method,Cyclomatic complexity of the method is 8,162
+3_cms-master,foo.common.hibernate3,Finder,setParamsToQuery,Complex Method,Cyclomatic complexity of the method is 10,203
+3_cms-master,foo.common.hibernate3,HibernateBaseDao,countByProperty,Long Statement,The length of the statement "return ((Number)(createCriteria(Restrictions.eq(property`value)).setProjection(Projections.rowCount()).uniqueResult())).intValue();" is 131.,81
+3_cms-master,foo.common.hibernate3,PriorityComparator,compare,Complex Conditional,The conditional expression id1 != null && id2 != null && id1.equals(id2) is complex.,11
+3_cms-master,foo.common.hibernate3,PriorityComparator,compare,Complex Method,Cyclomatic complexity of the method is 10,11
+3_cms-master,foo.common.hibernate3,SpringEhCacheProvider,start,Long Statement,The length of the statement "String s="Attempt to restart an already started EhCacheProvider. Use sessionFactory.close() " + " between repeated calls to buildSessionFactory. Using previously created EhCacheProvider." + " If this behaviour is required` consider using SingletonEhCacheProvider.";" is 265.,69
+3_cms-master,foo.common.hibernate3,TreeIntercptor,onSave,Complex Method,Cyclomatic complexity of the method is 9,48
+3_cms-master,foo.common.hibernate3,TreeIntercptor,onSave,Long Parameter List,The method has 5 parameters. ,48
+3_cms-master,foo.common.hibernate3,TreeIntercptor,onSave,Long Statement,The length of the statement "String hql1="update " + beanName + " bean set bean."+ tree.getRgtName()+ " = bean."+ tree.getRgtName()+ " + 2 WHERE bean."+ tree.getRgtName()+ " >= :myPosition";" is 161.,48
+3_cms-master,foo.common.hibernate3,TreeIntercptor,onSave,Long Statement,The length of the statement "String hql2="update " + beanName + " bean set bean."+ tree.getLftName()+ " = bean."+ tree.getLftName()+ " + 2 WHERE bean."+ tree.getLftName()+ " >= :myPosition";" is 161.,48
+3_cms-master,foo.common.hibernate3,TreeIntercptor,onFlushDirty,Long Parameter List,The method has 6 parameters. ,111
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Complex Conditional,The conditional expression (preParent == null && currParent == null) || (preParent != null && currParent != null && preParent.getId().equals(currParent.getId())) is complex.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Complex Method,Cyclomatic complexity of the method is 11,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "if ((preParent == null && currParent == null) || (preParent != null && currParent != null && preParent.getId().equals(currParent.getId()))) {" is 141.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "log.debug("update Tree {}` id={}` " + "pre-parent id={}` curr-parent id={}"`new Object[]{beanName`tree.getId()`preParent == null ? null : preParent.getId()`currParent == null ? null : currParent.getId()});" is 205.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "String hql="select bean." + tree.getLftName() + "`bean."+ tree.getRgtName()+ " from "+ beanName+ " bean where bean.id=:id";" is 123.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "String hql1="update " + beanName + " bean set bean."+ tree.getRgtName()+ " = bean."+ tree.getRgtName()+ " + "+ span+ " WHERE bean."+ tree.getRgtName()+ " >= :parentRgt";" is 169.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "String hql2="update " + beanName + " bean set bean."+ tree.getLftName()+ " = bean."+ tree.getLftName()+ " + "+ span+ " WHERE bean."+ tree.getLftName()+ " >= :parentRgt";" is 169.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "String hql="select bean." + tree.getLftName() + "`bean."+ tree.getRgtName()+ " from "+ beanName+ " bean where bean.id=:id";" is 123.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "hql="update " + beanName + " bean set bean."+ tree.getLftName()+ "=bean."+ tree.getLftName()+ "+:offset` bean."+ tree.getRgtName()+ "=bean."+ tree.getRgtName()+ "+:offset WHERE bean."+ tree.getLftName()+ " between :nodeLft and :nodeRgt";" is 237.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "session.createQuery(hql).setParameter("offset"`offset).setParameter("nodeLft"`nodeLft).setParameter("nodeRgt"`nodeRgt).executeUpdate();" is 135.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "String hql1="update " + beanName + " bean set bean."+ tree.getRgtName()+ " = bean."+ tree.getRgtName()+ " - "+ span+ " WHERE bean."+ tree.getRgtName()+ " > :nodeRgt";" is 166.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,updateParent,Long Statement,The length of the statement "String hql2="update " + beanName + " bean set bean."+ tree.getLftName()+ " = bean."+ tree.getLftName()+ " - "+ span+ " WHERE bean."+ tree.getLftName()+ " > :nodeRgt";" is 166.,129
+3_cms-master,foo.common.hibernate3,TreeIntercptor,onDelete,Long Parameter List,The method has 5 parameters. ,256
+3_cms-master,foo.common.hibernate3,TreeIntercptor,onDelete,Long Statement,The length of the statement "String hql1="update " + beanName + " bean set bean."+ tree.getRgtName()+ " = bean."+ tree.getRgtName()+ " - 2 WHERE bean."+ tree.getRgtName()+ " > :myPosition";" is 160.,256
+3_cms-master,foo.common.hibernate3,TreeIntercptor,onDelete,Long Statement,The length of the statement "String hql2="update " + beanName + " bean set bean."+ tree.getLftName()+ " = bean."+ tree.getLftName()+ " - 2 WHERE bean."+ tree.getLftName()+ " > :myPosition";" is 160.,256
+3_cms-master,foo.common.image,AverageImageScale,resizeFix,Long Parameter List,The method has 8 parameters. ,60
+3_cms-master,foo.common.image,AverageImageScale,imageMark,Long Parameter List,The method has 11 parameters. ,116
+3_cms-master,foo.common.image,AverageImageScale,imageMark,Long Parameter List,The method has 8 parameters. ,162
+3_cms-master,foo.common.image,AverageImageScale,imageMark,Long Parameter List,The method has 10 parameters. ,202
+3_cms-master,foo.common.image,AverageImageScale,imageMark,Magic Number,The method contains a magic number: 100,202
+3_cms-master,foo.common.image,AverageImageScale,imageMark,Long Parameter List,The method has 7 parameters. ,242
+3_cms-master,foo.common.image,AverageImageScale,scaleImage,Long Parameter List,The method has 5 parameters. ,254
+3_cms-master,foo.common.image,AverageImageScale,scaleImage,Magic Number,The method contains a magic number: 0.5,254
+3_cms-master,foo.common.image,AverageImageScale,scaleImage,Magic Number,The method contains a magic number: 0.5,254
+3_cms-master,foo.common.image,AverageImageScale,getRedValue,Magic Number,The method contains a magic number: 0x00ff0000,294
+3_cms-master,foo.common.image,AverageImageScale,getRedValue,Magic Number,The method contains a magic number: 16,294
+3_cms-master,foo.common.image,AverageImageScale,getGreenValue,Magic Number,The method contains a magic number: 0x0000ff00,298
+3_cms-master,foo.common.image,AverageImageScale,getGreenValue,Magic Number,The method contains a magic number: 8,298
+3_cms-master,foo.common.image,AverageImageScale,getBlueValue,Magic Number,The method contains a magic number: 0x000000ff,302
+3_cms-master,foo.common.image,AverageImageScale,comRGB,Magic Number,The method contains a magic number: 16,306
+3_cms-master,foo.common.image,AverageImageScale,comRGB,Magic Number,The method contains a magic number: 8,306
+3_cms-master,foo.common.image,AverageImageScale,main,Long Statement,The length of the statement "AverageImageScale.resizeFix(new File("test/foo/common/util/1.bmp")`new File("test/foo/common/util/1-n-2.bmp")`310`310`50`50`320`320);" is 133.,310
+3_cms-master,foo.common.image,AverageImageScale,main,Magic Number,The method contains a magic number: 310,310
+3_cms-master,foo.common.image,AverageImageScale,main,Magic Number,The method contains a magic number: 310,310
+3_cms-master,foo.common.image,AverageImageScale,main,Magic Number,The method contains a magic number: 50,310
+3_cms-master,foo.common.image,AverageImageScale,main,Magic Number,The method contains a magic number: 50,310
+3_cms-master,foo.common.image,AverageImageScale,main,Magic Number,The method contains a magic number: 320,310
+3_cms-master,foo.common.image,AverageImageScale,main,Magic Number,The method contains a magic number: 320,310
+3_cms-master,foo.common.image,ImageInfo,check,Complex Conditional,The conditional expression b1 == 0x50 && b2 >= 0x31 && b2 <= 0x36 is complex.,267
+3_cms-master,foo.common.image,ImageInfo,check,Complex Method,Cyclomatic complexity of the method is 10,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0xff,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0xff,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x47,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x49,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x89,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x50,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0xff,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0xd8,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x42,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x4d,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x0a,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x06,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x46,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x4f,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x59,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0xa6,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x50,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x31,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x36,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x38,267
+3_cms-master,foo.common.image,ImageInfo,check,Magic Number,The method contains a magic number: 0x42,267
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Complex Conditional,The conditional expression bitsPerPixel != 1 && bitsPerPixel != 4 && bitsPerPixel != 8 && bitsPerPixel != 16 && bitsPerPixel != 24 && bitsPerPixel != 32 is complex.,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Long Statement,The length of the statement "if (bitsPerPixel != 1 && bitsPerPixel != 4 && bitsPerPixel != 8 && bitsPerPixel != 16 && bitsPerPixel != 24 && bitsPerPixel != 32) {" is 132.,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 44,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 16,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 20,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 26,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 4,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 8,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 16,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 24,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 32,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 36,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 0.0254,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 40,329
+3_cms-master,foo.common.image,ImageInfo,checkBmp,Magic Number,The method contains a magic number: 0.0254,329
+3_cms-master,foo.common.image,ImageInfo,checkGif,Complex Method,Cyclomatic complexity of the method is 24,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Long Method,The method has 107 lines of code.,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 11,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 11,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 4,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 4,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 4,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 6,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 8,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0xff,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 4,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x07,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x80,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 7,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 3,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x2c,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 9,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 9,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 8,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0xff,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x40,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x07,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x80,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 3,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x21,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0xfe,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x3b,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Magic Number,The method contains a magic number: 0x3b,357
+3_cms-master,foo.common.image,ImageInfo,checkGif,Missing default,The following switch statement is missing a default case: switch (blockType) {,357
+3_cms-master,foo.common.image,ImageInfo,checkIff,Complex Method,Cyclomatic complexity of the method is 9,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 10,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 10,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 10,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 2,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 6,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 0x494c424d,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 0x50424d20,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 8,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 8,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 4,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 0x424d4844,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 9,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 9,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 2,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 8,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 0xff,477
+3_cms-master,foo.common.image,ImageInfo,checkIff,Magic Number,The method contains a magic number: 33,477
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Complex Conditional,The conditional expression collectComments && size > 2 && marker == 0xfffe is complex.,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Complex Conditional,The conditional expression marker >= 0xffc0 && marker <= 0xffcf && marker != 0xffc4 && marker != 0xffc8 is complex.,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Complex Method,Cyclomatic complexity of the method is 14,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 12,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 4,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 4,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 2,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xff00,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xff00,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffe0,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 14,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 2,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 12,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 12,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 5,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 7,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 8,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 10,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 7,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 2,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 8,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 10,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 2.54f,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 2.54f,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 14,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 2,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xfffe,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 2,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffc0,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffcf,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffc4,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffc8,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 6,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 6,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xff,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 5,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xff,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffc2,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffc6,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffca,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 0xffce,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 3,518
+3_cms-master,foo.common.image,ImageInfo,checkJpeg,Magic Number,The method contains a magic number: 2,518
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Complex Conditional,The conditional expression x1 < 0 || x2 < x1 || y1 < 0 || y2 < y1 is complex.,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Complex Conditional,The conditional expression planes == 1 && (bits == 1 || bits == 2 || bits == 4 || bits == 8) is complex.,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 64,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 2,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 4,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 6,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 8,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 63,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 2,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 4,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 8,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 3,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 8,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 24,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 10,584
+3_cms-master,foo.common.image,ImageInfo,checkPcx,Magic Number,The method contains a magic number: 10,584
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 27,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 27,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 6,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 14,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 18,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 22,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 0xff,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 23,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 0xff,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 2,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 6,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 3,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 26,622
+3_cms-master,foo.common.image,ImageInfo,checkPng,Magic Number,The method contains a magic number: 0xff,622
+3_cms-master,foo.common.image,ImageInfo,checkPnm,Complex Method,Cyclomatic complexity of the method is 16,643
+3_cms-master,foo.common.image,ImageInfo,checkPnm,Magic Number,The method contains a magic number: 6,643
+3_cms-master,foo.common.image,ImageInfo,checkPnm,Magic Number,The method contains a magic number: 3,643
+3_cms-master,foo.common.image,ImageInfo,checkPnm,Magic Number,The method contains a magic number: 25,643
+3_cms-master,foo.common.image,ImageInfo,checkPnm,Magic Number,The method contains a magic number: 3,643
+3_cms-master,foo.common.image,ImageInfo,checkPsd,Magic Number,The method contains a magic number: 24,717
+3_cms-master,foo.common.image,ImageInfo,checkPsd,Magic Number,The method contains a magic number: 2,717
+3_cms-master,foo.common.image,ImageInfo,checkPsd,Magic Number,The method contains a magic number: 16,717
+3_cms-master,foo.common.image,ImageInfo,checkPsd,Magic Number,The method contains a magic number: 12,717
+3_cms-master,foo.common.image,ImageInfo,checkPsd,Magic Number,The method contains a magic number: 10,717
+3_cms-master,foo.common.image,ImageInfo,checkPsd,Magic Number,The method contains a magic number: 20,717
+3_cms-master,foo.common.image,ImageInfo,checkPsd,Magic Number,The method contains a magic number: 64,717
+3_cms-master,foo.common.image,ImageInfo,checkRas,Magic Number,The method contains a magic number: 14,735
+3_cms-master,foo.common.image,ImageInfo,checkRas,Magic Number,The method contains a magic number: 0x95,735
+3_cms-master,foo.common.image,ImageInfo,checkRas,Magic Number,The method contains a magic number: 2,735
+3_cms-master,foo.common.image,ImageInfo,checkRas,Magic Number,The method contains a magic number: 2,735
+3_cms-master,foo.common.image,ImageInfo,checkRas,Magic Number,The method contains a magic number: 6,735
+3_cms-master,foo.common.image,ImageInfo,checkRas,Magic Number,The method contains a magic number: 10,735
+3_cms-master,foo.common.image,ImageInfo,checkRas,Magic Number,The method contains a magic number: 24,735
+3_cms-master,foo.common.image,ImageInfo,equals,Long Parameter List,The method has 5 parameters. ,767
+3_cms-master,foo.common.image,ImageInfo,getComment,Complex Conditional,The conditional expression comments == null || index < 0 || index >= comments.size() is complex.,785
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 0xff,831
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 24,831
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 0xff,831
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 16,831
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 2,831
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 0xff,831
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 8,831
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 3,831
+3_cms-master,foo.common.image,ImageInfo,getIntBigEndian,Magic Number,The method contains a magic number: 0xff,831
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 3,839
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 0xff,839
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 24,839
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 2,839
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 0xff,839
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 16,839
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 0xff,839
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 8,839
+3_cms-master,foo.common.image,ImageInfo,getIntLittleEndian,Magic Number,The method contains a magic number: 0xff,839
+3_cms-master,foo.common.image,ImageInfo,getShortBigEndian,Magic Number,The method contains a magic number: 0xff,953
+3_cms-master,foo.common.image,ImageInfo,getShortBigEndian,Magic Number,The method contains a magic number: 8,953
+3_cms-master,foo.common.image,ImageInfo,getShortBigEndian,Magic Number,The method contains a magic number: 0xff,953
+3_cms-master,foo.common.image,ImageInfo,getShortLittleEndian,Magic Number,The method contains a magic number: 0xff,959
+3_cms-master,foo.common.image,ImageInfo,getShortLittleEndian,Magic Number,The method contains a magic number: 0xff,959
+3_cms-master,foo.common.image,ImageInfo,getShortLittleEndian,Magic Number,The method contains a magic number: 8,959
+3_cms-master,foo.common.image,ImageInfo,main,Empty catch clause,The method has an empty catch block.,981
+3_cms-master,foo.common.image,ImageInfo,printCompact,Long Statement,The length of the statement "System.out.println(sourceName + SEP + imageInfo.getFormatName()+ SEP+ imageInfo.getMimeType()+ SEP+ imageInfo.getWidth()+ SEP+ imageInfo.getHeight()+ SEP+ imageInfo.getBitsPerPixel()+ SEP+ imageInfo.getNumberOfImages()+ SEP+ imageInfo.getPhysicalWidthDpi()+ SEP+ imageInfo.getPhysicalHeightDpi()+ SEP+ imageInfo.getPhysicalWidthInch()+ SEP+ imageInfo.getPhysicalHeightInch()+ SEP+ imageInfo.isProgressive());" is 408.,1030
+3_cms-master,foo.common.image,ImageInfo,printVerbose,Magic Number,The method contains a magic number: 2,1075
+3_cms-master,foo.common.image,ImageInfo,readLine,Magic Number,The method contains a magic number: 10,1127
+3_cms-master,foo.common.image,ImageScale,resizeFix,Long Parameter List,The method has 8 parameters. ,30
+3_cms-master,foo.common.image,ImageScale,imageMark,Long Parameter List,The method has 11 parameters. ,55
+3_cms-master,foo.common.image,ImageScale,imageMark,Long Parameter List,The method has 8 parameters. ,59
+3_cms-master,foo.common.image,ImageScaleImpl,resizeFix,Long Parameter List,The method has 8 parameters. ,32
+3_cms-master,foo.common.image,ImageScaleImpl,imageMark,Long Parameter List,The method has 11 parameters. ,44
+3_cms-master,foo.common.image,ImageScaleImpl,imageMark,Long Parameter List,The method has 8 parameters. ,56
+3_cms-master,foo.common.image,ImageUtils,markPosition,Long Parameter List,The method has 5 parameters. ,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Magic Number,The method contains a magic number: 5,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Magic Number,The method contains a magic number: 5,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Magic Number,The method contains a magic number: 2,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Magic Number,The method contains a magic number: 3,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Magic Number,The method contains a magic number: 4,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Magic Number,The method contains a magic number: 5,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Magic Number,The method contains a magic number: 2,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Magic Number,The method contains a magic number: 2,49
+3_cms-master,foo.common.image,ImageUtils,markPosition,Missing default,The following switch statement is missing a default case: switch (p) {,49
+3_cms-master,foo.common.image,MagickImageScale,resizeFix,Long Parameter List,The method has 8 parameters. ,60
+3_cms-master,foo.common.image,MagickImageScale,imageMark,Long Parameter List,The method has 11 parameters. ,111
+3_cms-master,foo.common.image,MagickImageScale,imageMark,Long Parameter List,The method has 8 parameters. ,135
+3_cms-master,foo.common.image,MagickImageScale,imageMark,Long Parameter List,The method has 11 parameters. ,158
+3_cms-master,foo.common.image,MagickImageScale,imageMark,Magic Number,The method contains a magic number: 65535,158
+3_cms-master,foo.common.image,MagickImageScale,imageMark,Magic Number,The method contains a magic number: 65535,158
+3_cms-master,foo.common.image,MagickImageScale,imageMark,Magic Number,The method contains a magic number: 100,158
+3_cms-master,foo.common.image,MagickImageScale,imageMark,Long Parameter List,The method has 8 parameters. ,176
+3_cms-master,foo.common.image,MagickImageScale,main,Long Statement,The length of the statement "MagickImageScale.resizeFix(new File("test/foo/common/util/1.bmp")`new File("test/foo/common/util/1-n-3.bmp")`310`310`50`50`320`320);" is 132.,188
+3_cms-master,foo.common.image,MagickImageScale,main,Magic Number,The method contains a magic number: 310,188
+3_cms-master,foo.common.image,MagickImageScale,main,Magic Number,The method contains a magic number: 310,188
+3_cms-master,foo.common.image,MagickImageScale,main,Magic Number,The method contains a magic number: 50,188
+3_cms-master,foo.common.image,MagickImageScale,main,Magic Number,The method contains a magic number: 50,188
+3_cms-master,foo.common.image,MagickImageScale,main,Magic Number,The method contains a magic number: 320,188
+3_cms-master,foo.common.image,MagickImageScale,main,Magic Number,The method contains a magic number: 320,188
+3_cms-master,foo.common.ipseek,IPSeekerImpl,init,Magic Number,The method contains a magic number: 4,29
+3_cms-master,foo.common.ipseek,IPSeekerImpl,init,Magic Number,The method contains a magic number: 3,29
+3_cms-master,foo.common.ipseek,IPSeekerImpl,init,Magic Number,The method contains a magic number: 4,29
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong4,Magic Number,The method contains a magic number: 0xFF,151
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong4,Magic Number,The method contains a magic number: 8,151
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong4,Magic Number,The method contains a magic number: 0xFF00,151
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong4,Magic Number,The method contains a magic number: 16,151
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong4,Magic Number,The method contains a magic number: 0xFF0000,151
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong4,Magic Number,The method contains a magic number: 24,151
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong4,Magic Number,The method contains a magic number: 0xFF000000,151
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 0xFF,171
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 8,171
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 0xFF00,171
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 2,171
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 16,171
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 0xFF0000,171
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 0xFF,192
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 8,192
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 0xFF00,192
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 2,192
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 16,192
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readLong3,Magic Number,The method contains a magic number: 0xFF0000,192
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readIP,Empty catch clause,The method has an empty catch block.,210
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readIP,Magic Number,The method contains a magic number: 3,210
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readIP,Magic Number,The method contains a magic number: 3,210
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readIP,Magic Number,The method contains a magic number: 2,210
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readIP,Magic Number,The method contains a magic number: 2,210
+3_cms-master,foo.common.ipseek,IPSeekerImpl,compareIP,Magic Number,The method contains a magic number: 4,232
+3_cms-master,foo.common.ipseek,IPSeekerImpl,compareByte,Magic Number,The method contains a magic number: 0xFF,250
+3_cms-master,foo.common.ipseek,IPSeekerImpl,compareByte,Magic Number,The method contains a magic number: 0xFF,250
+3_cms-master,foo.common.ipseek,IPSeekerImpl,locateIP,Complex Method,Cyclomatic complexity of the method is 8,266
+3_cms-master,foo.common.ipseek,IPSeekerImpl,locateIP,Magic Number,The method contains a magic number: 4,266
+3_cms-master,foo.common.ipseek,IPSeekerImpl,locateIP,Magic Number,The method contains a magic number: 4,266
+3_cms-master,foo.common.ipseek,IPSeekerImpl,getIPLocation,Magic Number,The method contains a magic number: 4,326
+3_cms-master,foo.common.ipseek,IPSeekerImpl,getIPLocation,Magic Number,The method contains a magic number: 4,326
+3_cms-master,foo.common.ipseek,IPSeekerImpl,getIPLocation,Magic Number,The method contains a magic number: 8,326
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readString,Empty catch clause,The method has an empty catch block.,387
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readString,Magic Number,The method contains a magic number: 100,387
+3_cms-master,foo.common.ipseek,IPSeekerImpl,readString,Magic Number,The method contains a magic number: 100,387
+3_cms-master,foo.common.ipseek,Util,getIpByteArrayFromString,Empty catch clause,The method has an empty catch block.,13
+3_cms-master,foo.common.ipseek,Util,getIpByteArrayFromString,Magic Number,The method contains a magic number: 4,13
+3_cms-master,foo.common.ipseek,Util,getIpByteArrayFromString,Magic Number,The method contains a magic number: 0xFF,13
+3_cms-master,foo.common.ipseek,Util,getIpByteArrayFromString,Magic Number,The method contains a magic number: 0xFF,13
+3_cms-master,foo.common.ipseek,Util,getIpByteArrayFromString,Magic Number,The method contains a magic number: 2,13
+3_cms-master,foo.common.ipseek,Util,getIpByteArrayFromString,Magic Number,The method contains a magic number: 0xFF,13
+3_cms-master,foo.common.ipseek,Util,getIpByteArrayFromString,Magic Number,The method contains a magic number: 3,13
+3_cms-master,foo.common.ipseek,Util,getIpByteArrayFromString,Magic Number,The method contains a magic number: 0xFF,13
+3_cms-master,foo.common.ipseek,Util,getIpStringFromBytes,Magic Number,The method contains a magic number: 0xFF,34
+3_cms-master,foo.common.ipseek,Util,getIpStringFromBytes,Magic Number,The method contains a magic number: 0xFF,34
+3_cms-master,foo.common.ipseek,Util,getIpStringFromBytes,Magic Number,The method contains a magic number: 2,34
+3_cms-master,foo.common.ipseek,Util,getIpStringFromBytes,Magic Number,The method contains a magic number: 0xFF,34
+3_cms-master,foo.common.ipseek,Util,getIpStringFromBytes,Magic Number,The method contains a magic number: 3,34
+3_cms-master,foo.common.ipseek,Util,getIpStringFromBytes,Magic Number,The method contains a magic number: 0xFF,34
+3_cms-master,foo.common.security.rememberme,AbstractRememberMeServices,rememberMeRequested,Complex Conditional,The conditional expression paramValue.equalsIgnoreCase("true") || paramValue.equalsIgnoreCase("on") || paramValue.equalsIgnoreCase("yes")|| paramValue.equals("1") is complex.,133
+3_cms-master,foo.common.security.rememberme,AbstractRememberMeServices,rememberMeRequested,Long Statement,The length of the statement "if (paramValue.equalsIgnoreCase("true") || paramValue.equalsIgnoreCase("on") || paramValue.equalsIgnoreCase("yes")|| paramValue.equals("1")) {" is 142.,133
+3_cms-master,foo.common.security.rememberme,AbstractRememberMeServices,decodeCookie,Magic Number,The method contains a magic number: 3,213
+3_cms-master,foo.common.security.rememberme,AbstractRememberMeServices,decodeCookie,Magic Number,The method contains a magic number: 4,213
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Long Statement,The length of the statement "throw new InvalidCookieException("Cookie token did not contain " + 4 + " tokens` but contained '"+ Arrays.asList(cookieTokens)+ "'");" is 133.,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Long Statement,The length of the statement "throw new InvalidCookieException("Cookie token[1] did not contain a valid number (contained '" + cookieTokens[1] + "')");" is 121.,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Long Statement,The length of the statement "throw new InvalidCookieException("Cookie token[1] has expired (expired on '" + new Date(tokenExpiryTime) + "'; current time is '"+ new Date()+ "')");" is 149.,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Long Statement,The length of the statement "throw new InvalidCookieException("Cookie token[3] did not contain a valid number (contained '" + cookieTokens[3] + "')");" is 121.,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Long Statement,The length of the statement "throw new InvalidCookieException("Cookie token[2] contained signature '" + cookieTokens[2] + "' but expected '"+ expectedTokenSignature+ "'");" is 142.,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Magic Number,The method contains a magic number: 4,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Magic Number,The method contains a magic number: 4,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Magic Number,The method contains a magic number: 3,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Magic Number,The method contains a magic number: 3,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Magic Number,The method contains a magic number: 2,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,processAutoLoginCookie,Magic Number,The method contains a magic number: 2,76
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,onLoginSuccess,Long Statement,The length of the statement "setCookie(new String[]{username`Long.toString(expiryTime)`signatureValue`user.getId().toString()}`tokenLifetime`request`response);" is 130.,150
+3_cms-master,foo.common.security.rememberme,TokenBasedRememberMeServices,onLoginSuccess,Magic Number,The method contains a magic number: 1000L,150
+3_cms-master,foo.common.upload,UploadUtils,generateFilename,Magic Number,The method contains a magic number: 4,22
+3_cms-master,foo.common.upload,UploadUtils,isValidPath,Long Identifier,The length of the field ILLEGAL_CURRENT_FOLDER_PATTERN is 30.,72
+3_cms-master,foo.common.util,MyBeanUtils,getDeclaredField,Empty catch clause,The method has an empty catch block.,64
+3_cms-master,foo.common.util,ParseURLKeyword,getKeyword,Long Statement,The length of the statement "String keywordReg="(?:yahoo.+?[\\?|&]q=|openfind.+?q=|google.+?q=|lycos.+?query=|onseek.+?keyword=|search\\.tom.+?word=|search\\.qq\\.com.+?word=|zhongsou\\.com.+?word=|search\\.msn\\.com.+?q=|yisou\\.com.+?p=|sina.+?word=|sina.+?query=|sina.+?_searchkey=|sohu.+?word=|sohu.+?key_word=|sohu.+?query=|163.+?q=|baidu.+?wd=|soso.+?w=|3721\\.com.+?p=|Alltheweb.+?q=)([^&]*)";" is 371.,11
+3_cms-master,foo.common.util,ParseURLKeyword,getKeyword,Long Statement,The length of the statement "String encodeReg="^(?:[\\x00-\\x7f]|[\\xfc-\\xff][\\x80-\\xbf]{5}|[\\xf8-\\xfb][\\x80-\\xbf]{4}|[\\xf0-\\xf7][\\x80-\\xbf]{3}|[\\xe0-\\xef][\\x80-\\xbf]{2}|[\\xc0-\\xdf][\\x80-\\xbf])+$";" is 187.,11
+3_cms-master,foo.common.util,ParseURLKeyword,getKeyword,Magic Number,The method contains a magic number: 20,11
+3_cms-master,foo.common.util,ParseURLKeyword,unescape,Magic Number,The method contains a magic number: 2,39
+3_cms-master,foo.common.util,ParseURLKeyword,unescape,Magic Number,The method contains a magic number: 6,39
+3_cms-master,foo.common.util,ParseURLKeyword,unescape,Magic Number,The method contains a magic number: 16,39
+3_cms-master,foo.common.util,ParseURLKeyword,unescape,Magic Number,The method contains a magic number: 6,39
+3_cms-master,foo.common.util,ParseURLKeyword,unescape,Magic Number,The method contains a magic number: 3,39
+3_cms-master,foo.common.util,ParseURLKeyword,unescape,Magic Number,The method contains a magic number: 16,39
+3_cms-master,foo.common.util,ParseURLKeyword,unescape,Magic Number,The method contains a magic number: 3,39
+3_cms-master,foo.common.util,StrUtils,handelUrl,Complex Conditional,The conditional expression url.equals("") || url.startsWith("http://") || url.startsWith("https://") is complex.,24
+3_cms-master,foo.common.util,StrUtils,txt2htm,Complex Method,Cyclomatic complexity of the method is 10,71
+3_cms-master,foo.common.util,StrUtils,txt2htm,Magic Number,The method contains a magic number: 1.2,71
+3_cms-master,foo.common.util,StrUtils,txt2htm,Missing default,The following switch statement is missing a default case: switch (c) {,71
+3_cms-master,foo.common.util,StrUtils,textCut,Complex Method,Cyclomatic complexity of the method is 9,121
+3_cms-master,foo.common.util,StrUtils,textCut,Magic Number,The method contains a magic number: 2,121
+3_cms-master,foo.common.util,StrUtils,textCut,Magic Number,The method contains a magic number: 256,121
+3_cms-master,foo.common.util,StrUtils,textCut,Magic Number,The method contains a magic number: 2,121
+3_cms-master,foo.common.util,StrUtils,textCut,Magic Number,The method contains a magic number: 256,121
+3_cms-master,foo.common.util,StrUtils,textCut,Magic Number,The method contains a magic number: 2,121
+3_cms-master,foo.common.util,StrUtils,htmlCut,Magic Number,The method contains a magic number: 2,168
+3_cms-master,foo.common.web,CookieUtils,addCookie,Long Parameter List,The method has 6 parameters. ,79
+3_cms-master,foo.common.web.cos,BufferedServletInputStream,readLine,Complex Method,Cyclomatic complexity of the method is 8,67
+3_cms-master,foo.common.web.cos,BufferedServletInputStream,read,Magic Number,The method contains a magic number: 0xff,142
+3_cms-master,foo.common.web.cos,CosMultipartHttpServletRequest,transferTo,Long Statement,The length of the statement "logger.debug("Multipart file '" + getName() + "' with original filename ["+ getOriginalFilename()+ "]` stored "+ (this.file != null ? "at [" + this.file.getAbsolutePath() + "]" : "in memory")+ ": "+ (moved ? "moved" : "copied")+ " to ["+ dest.getAbsolutePath()+ "]");" is 267.,171
+3_cms-master,foo.common.web.cos,CosMultipartFile,transferTo,Long Statement,The length of the statement "logger.debug("Multipart file '" + getName() + "' with original filename ["+ getOriginalFilename()+ "]` stored "+ (this.file != null ? "at [" + this.file.getAbsolutePath() + "]" : "in memory")+ ": "+ (moved ? "moved" : "copied")+ " to ["+ dest.getAbsolutePath()+ "]");" is 267.,171
+3_cms-master,foo.common.web.cos,CosMultipartRequest,CosMultipartRequest,Complex Method,Cyclomatic complexity of the method is 14,171
+3_cms-master,foo.common.web.cos,CosMultipartRequest,CosMultipartRequest,Long Parameter List,The method has 5 parameters. ,171
+3_cms-master,foo.common.web.cos,CosMultipartResolver,resolveMultipart,Long Statement,The length of the statement "logger.debug("Found multipart file '" + fileName + "' of size "+ (file != null ? file.length() : 0)+ " bytes with original filename ["+ multipartRequest.getOriginalFileName(fileName)+ "]"+ (file != null ? "stored at [" + file.getAbsolutePath() + "]" : "empty"));" is 262.,156
+3_cms-master,foo.common.web.cos,CosMultipartResolver,cleanupMultipart,Long Statement,The length of the statement "logger.debug("Cleaned up multipart file '" + fileName + "' with original filename ["+ multipartRequest.getOriginalFileName(fileName)+ "]` stored at ["+ file.getAbsolutePath()+ "]");" is 181.,227
+3_cms-master,foo.common.web.cos,CosMultipartResolver,cleanupMultipart,Long Statement,The length of the statement "logger.warn("Could not delete multipart file '" + fileName + "' with original filename ["+ multipartRequest.getOriginalFileName(fileName)+ "]` stored at ["+ file.getAbsolutePath()+ "]");" is 186.,227
+3_cms-master,foo.common.web.cos,CosMultipartResolver,cleanupMultipart,Long Statement,The length of the statement "logger.debug("Multipart file '" + fileName + "' with original filename ["+ multipartRequest.getOriginalFileName(fileName)+ "] has already been moved - no cleanup necessary");" is 174.,227
+3_cms-master,foo.common.web.cos,FilePart,FilePart,Long Parameter List,The method has 6 parameters. ,41
+3_cms-master,foo.common.web.cos,FilePart,write,Magic Number,The method contains a magic number: 8,189
+3_cms-master,foo.common.web.cos,FilePart,write,Magic Number,The method contains a magic number: 1024,189
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 86,21
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 83,21
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 86,21
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 8,21
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 0xff,21
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 128,21
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 128,21
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 128,41
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 128,41
+3_cms-master,foo.common.web.cos,MacBinaryDecoderOutputStream,write,Magic Number,The method contains a magic number: 128,41
+3_cms-master,foo.common.web.cos,MultipartParser,MultipartParser,Complex Method,Cyclomatic complexity of the method is 13,120
+3_cms-master,foo.common.web.cos,MultipartParser,MultipartParser,Long Parameter List,The method has 5 parameters. ,120
+3_cms-master,foo.common.web.cos,MultipartParser,readNextPart,Complex Conditional,The conditional expression nextLine != null && (nextLine.startsWith(" ") || nextLine.startsWith("\t")) is complex.,223
+3_cms-master,foo.common.web.cos,MultipartParser,readNextPart,Complex Method,Cyclomatic complexity of the method is 14,223
+3_cms-master,foo.common.web.cos,MultipartParser,readNextPart,Magic Number,The method contains a magic number: 2,223
+3_cms-master,foo.common.web.cos,MultipartParser,readNextPart,Magic Number,The method contains a magic number: 3,223
+3_cms-master,foo.common.web.cos,MultipartParser,extractBoundary,Magic Number,The method contains a magic number: 9,328
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Complex Method,Cyclomatic complexity of the method is 8,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 4,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 21,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 7,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 6,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 6,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 5,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 2,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 10,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 10,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 2,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractDispositionInfo,Magic Number,The method contains a magic number: 3,353
+3_cms-master,foo.common.web.cos,MultipartParser,extractContentType,Magic Number,The method contains a magic number: 13,424
+3_cms-master,foo.common.web.cos,MultipartParser,readLine,Magic Number,The method contains a magic number: 2,447
+3_cms-master,foo.common.web.cos,MultipartParser,readLine,Magic Number,The method contains a magic number: 2,447
+3_cms-master,foo.common.web.cos,MultipartParser,readLine,Magic Number,The method contains a magic number: 2,447
+3_cms-master,foo.common.web.cos,ParamPart,ParamPart,Magic Number,The method contains a magic number: 512,26
+3_cms-master,foo.common.web.cos,ParamPart,ParamPart,Magic Number,The method contains a magic number: 128,26
+3_cms-master,foo.common.web.cos,PartInputStream,fill,Complex Method,Cyclomatic complexity of the method is 10,56
+3_cms-master,foo.common.web.cos,PartInputStream,fill,Magic Number,The method contains a magic number: 2,56
+3_cms-master,foo.common.web.cos,PartInputStream,fill,Magic Number,The method contains a magic number: 2,56
+3_cms-master,foo.common.web.cos,PartInputStream,read,Magic Number,The method contains a magic number: 2,117
+3_cms-master,foo.common.web.cos,PartInputStream,read,Magic Number,The method contains a magic number: 2,117
+3_cms-master,foo.common.web.cos,PartInputStream,read,Magic Number,The method contains a magic number: 0xff,117
+3_cms-master,foo.common.web.cos,PartInputStream,read,Magic Number,The method contains a magic number: 2,155
+3_cms-master,foo.common.web.cos,PartInputStream,read,Magic Number,The method contains a magic number: 2,155
+3_cms-master,foo.common.web.cos,PartInputStream,read,Magic Number,The method contains a magic number: 2,155
+3_cms-master,foo.common.web.cos,PartInputStream,available,Magic Number,The method contains a magic number: 2,204
+3_cms-master,foo.common.web.freemarker,DirectiveUtils,getContext,Long Statement,The length of the statement "throw new TemplateModelException("RequestContext '" + SPRING_MACRO_REQUEST_CONTEXT_ATTRIBUTE + "' not found in DataModel.");" is 124.,101
+3_cms-master,foo.common.web.freemarker,ProcessTimeDirective,execute,Magic Number,The method contains a magic number: 1000F,34
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,setSession,Magic Number,The method contains a magic number: 60,23
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,setSession,Magic Number,The method contains a magic number: 1000,23
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,setAttribute,Magic Number,The method contains a magic number: 60,34
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,setAttribute,Magic Number,The method contains a magic number: 1000,34
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 5,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 5,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 250,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 1000,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 60,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 60,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 6,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 30,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 3000,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 64,53
+3_cms-master,foo.common.web.session.cache,MemcachedDangaCache,afterPropertiesSet,Magic Number,The method contains a magic number: 1024,53
+3_cms-master,foo.common.web.session.cache,MemcachedSpyCache,setSession,Magic Number,The method contains a magic number: 60,26
+3_cms-master,foo.common.web.session.cache,MemcachedSpyCache,setAttribute,Magic Number,The method contains a magic number: 60,36
+3_cms-master,foo.common.web.session,CacheSessionProvider,setAttribute,Magic Number,The method contains a magic number: 32,58
+3_cms-master,foo.common.web.session,CacheSessionProvider,getSessionId,Complex Conditional,The conditional expression root == null || root.length() != 32 || !sessionCache.exist(root) is complex.,92
+3_cms-master,foo.common.web.session,CacheSessionProvider,getSessionId,Magic Number,The method contains a magic number: 32,92
+3_cms-master,foo.common.web.session.id,JdkUUIDGenerator,main,Magic Number,The method contains a magic number: 100000,12
+3_cms-master,foo.common.web.session.id,JugUUIDGenerator,main,Magic Number,The method contains a magic number: 100000,19
+3_cms-master,foo.common.web.springmvc,SimpleFreeMarkerView,autodetectConfiguration,Long Statement,The length of the statement "return (FreeMarkerConfig)BeanFactoryUtils.beanOfTypeIncludingAncestors(getApplicationContext()`FreeMarkerConfig.class`true`false);" is 130.,43
+3_cms-master,foo.common.web.springmvc,SimpleFreeMarkerView,autodetectConfiguration,Long Statement,The length of the statement "throw new ApplicationContextException("Must define a single FreeMarkerConfig bean in this web application context " + "(may be inherited): FreeMarkerConfigurer is the usual implementation. " + "This bean may be given any name."`ex);" is 232.,43
+3_cms-master,foo.core.action.front,LoginAct,submit,Long Parameter List,The method has 8 parameters. ,100
+3_cms-master,foo.core.action.front,LoginAct,validateSubmit,Magic Number,The method contains a magic number: 3,184
+3_cms-master,foo.core.action.front,LoginAct,validateSubmit,Magic Number,The method contains a magic number: 100,184
+3_cms-master,foo.core.action.front,LoginAct,validateSubmit,Magic Number,The method contains a magic number: 3,184
+3_cms-master,foo.core.action.front,LoginAct,validateSubmit,Magic Number,The method contains a magic number: 32,184
+3_cms-master,foo.core.dao.impl,DbTplDaoImpl,getChild,Long Statement,The length of the statement "String hql="from DbTpl bean" + " where bean.id like ? and bean.id not like ?" + " and bean.directory=? order by bean.id";" is 121.,23
+3_cms-master,foo.core.entity,Authentication,Authentication,Long Parameter List,The method has 6 parameters. ,28
+3_cms-master,foo.core.entity,Config,getErrorInterval,Magic Number,The method contains a magic number: 30,51
+3_cms-master,foo.core.entity,Config,getErrorTimes,Magic Number,The method contains a magic number: 3,69
+3_cms-master,foo.core.entity,Config,create,Complex Conditional,The conditional expression map == null || StringUtils.isBlank(map.get(EMAIL_HOST)) || StringUtils.isBlank(map.get(EMAIL_USERNAME)) is complex.,98
+3_cms-master,foo.core.entity,Config,createForgotPasswordMessageTemplate,Complex Conditional,The conditional expression map == null || StringUtils.isBlank(map.get(MESSAGE_FORGOTPASSWORD_SUBJECT)) || StringUtils.isBlank(map.get(MESSAGE_FORGOTPASSWORD_TEXT)) is complex.,182
+3_cms-master,foo.core.entity,Config,createForgotPasswordMessageTemplate,Long Identifier,The length of the field MESSAGE_FORGOTPASSWORD_SUBJECT is 30.,182
+3_cms-master,foo.core.entity,Config,createForgotPasswordMessageTemplate,Long Statement,The length of the statement "if (map == null || StringUtils.isBlank(map.get(MESSAGE_FORGOTPASSWORD_SUBJECT)) || StringUtils.isBlank(map.get(MESSAGE_FORGOTPASSWORD_TEXT))) {" is 143.,182
+3_cms-master,foo.core.entity,Config,createRegisterMessageTemplate,Complex Conditional,The conditional expression map == null || StringUtils.isBlank(map.get(MESSAGE_REGISTER_SUBJECT)) || StringUtils.isBlank(map.get(MESSAGE_REGISTER_TEXT)) is complex.,193
+3_cms-master,foo.core.entity,Config,createRegisterMessageTemplate,Long Statement,The length of the statement "if (map == null || StringUtils.isBlank(map.get(MESSAGE_REGISTER_SUBJECT)) || StringUtils.isBlank(map.get(MESSAGE_REGISTER_TEXT))) {" is 131.,193
+3_cms-master,foo.core.entity,Config,getForgotPasswordSubject,Long Identifier,The length of the field MESSAGE_FORGOTPASSWORD_SUBJECT is 30.,215
+3_cms-master,foo.core.entity,Config,setForgotPasswordSubject,Long Identifier,The length of the field MESSAGE_FORGOTPASSWORD_SUBJECT is 30.,219
+3_cms-master,foo.core.entity,ConfigLogin,getErrorInterval,Magic Number,The method contains a magic number: 30,51
+3_cms-master,foo.core.entity,ConfigLogin,getErrorTimes,Magic Number,The method contains a magic number: 3,69
+3_cms-master,foo.core.entity,ConfigEmailSender,create,Complex Conditional,The conditional expression map == null || StringUtils.isBlank(map.get(EMAIL_HOST)) || StringUtils.isBlank(map.get(EMAIL_USERNAME)) is complex.,98
+3_cms-master,foo.core.entity,ConfigMessageTemplate,createForgotPasswordMessageTemplate,Complex Conditional,The conditional expression map == null || StringUtils.isBlank(map.get(MESSAGE_FORGOTPASSWORD_SUBJECT)) || StringUtils.isBlank(map.get(MESSAGE_FORGOTPASSWORD_TEXT)) is complex.,182
+3_cms-master,foo.core.entity,ConfigMessageTemplate,createForgotPasswordMessageTemplate,Long Identifier,The length of the field MESSAGE_FORGOTPASSWORD_SUBJECT is 30.,182
+3_cms-master,foo.core.entity,ConfigMessageTemplate,createForgotPasswordMessageTemplate,Long Statement,The length of the statement "if (map == null || StringUtils.isBlank(map.get(MESSAGE_FORGOTPASSWORD_SUBJECT)) || StringUtils.isBlank(map.get(MESSAGE_FORGOTPASSWORD_TEXT))) {" is 143.,182
+3_cms-master,foo.core.entity,ConfigMessageTemplate,createRegisterMessageTemplate,Complex Conditional,The conditional expression map == null || StringUtils.isBlank(map.get(MESSAGE_REGISTER_SUBJECT)) || StringUtils.isBlank(map.get(MESSAGE_REGISTER_TEXT)) is complex.,193
+3_cms-master,foo.core.entity,ConfigMessageTemplate,createRegisterMessageTemplate,Long Statement,The length of the statement "if (map == null || StringUtils.isBlank(map.get(MESSAGE_REGISTER_SUBJECT)) || StringUtils.isBlank(map.get(MESSAGE_REGISTER_TEXT))) {" is 131.,193
+3_cms-master,foo.core.entity,ConfigMessageTemplate,getForgotPasswordSubject,Long Identifier,The length of the field MESSAGE_FORGOTPASSWORD_SUBJECT is 30.,215
+3_cms-master,foo.core.entity,ConfigMessageTemplate,setForgotPasswordSubject,Long Identifier,The length of the field MESSAGE_FORGOTPASSWORD_SUBJECT is 30.,219
+3_cms-master,foo.core.entity,DbTpl,getLength,Magic Number,The method contains a magic number: 128,61
+3_cms-master,foo.core.entity,DbTpl,getLength,Magic Number,The method contains a magic number: 1.5,61
+3_cms-master,foo.core.entity,DbTpl,getSize,Magic Number,The method contains a magic number: 1024,70
+3_cms-master,foo.core.entity,Ftp,store,Magic Number,The method contains a magic number: 3,61
+3_cms-master,foo.core.entity,Ftp,store,Magic Number,The method contains a magic number: 4,61
+3_cms-master,foo.core.entity,Ftp,Ftp,Long Parameter List,The method has 6 parameters. ,131
+3_cms-master,foo.core.entity,UnifiedUser,UnifiedUser,Long Parameter List,The method has 8 parameters. ,21
+3_cms-master,foo.core.manager,AuthenticationMng,login,Long Parameter List,The method has 6 parameters. ,41
+3_cms-master,foo.core.manager,AuthenticationMng,activeLogin,Long Parameter List,The method has 5 parameters. ,61
+3_cms-master,foo.core.manager,UnifiedUserMng,save,Long Parameter List,The method has 7 parameters. ,55
+3_cms-master,foo.core.manager.impl,AuthenticationMngImpl,login,Long Parameter List,The method has 6 parameters. ,32
+3_cms-master,foo.core.manager.impl,AuthenticationMngImpl,activeLogin,Long Parameter List,The method has 5 parameters. ,47
+3_cms-master,foo.core.manager.impl,AuthenticationMngImpl,setTimeout,Magic Number,The method contains a magic number: 60,152
+3_cms-master,foo.core.manager.impl,AuthenticationMngImpl,setTimeout,Magic Number,The method contains a magic number: 1000,152
+3_cms-master,foo.core.manager.impl,AuthenticationMngImpl,setInterval,Magic Number,The method contains a magic number: 60,162
+3_cms-master,foo.core.manager.impl,AuthenticationMngImpl,setInterval,Magic Number,The method contains a magic number: 1000,162
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,passwordForgotten,Magic Number,The method contains a magic number: 10,36
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,senderEmail,Long Parameter List,The method has 7 parameters. ,48
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,senderEmail,Long Parameter List,The method has 5 parameters. ,73
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,errorRemaining,Complex Conditional,The conditional expression errorCount <= 0 || errorTime == null || errorTime.getTime() + maxErrorInterval < now is complex.,105
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,errorRemaining,Magic Number,The method contains a magic number: 60,105
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,errorRemaining,Magic Number,The method contains a magic number: 1000,105
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,updateLoginError,Magic Number,The method contains a magic number: 60,157
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,updateLoginError,Magic Number,The method contains a magic number: 1000,157
+3_cms-master,foo.core.manager.impl,UnifiedUserMngImpl,save,Long Parameter List,The method has 7 parameters. ,208
+3_cms-master,foo.core.tpl,FileTpl,getSize,Magic Number,The method contains a magic number: 1024,64
+3_cms-master,foo.core.web.front,URLHelper,getPageNo,Empty catch clause,The method has an empty catch block.,69
+3_cms-master,foo.core.web.front,URLHelper,getPageInfo,Complex Method,Cyclomatic complexity of the method is 9,177

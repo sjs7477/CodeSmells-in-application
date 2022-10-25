@@ -1,0 +1,264 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+32_frizmworks-master,org.web.boardcommand,BoardReviewListAllCommand,boardReviewCommand,Magic Number,The method contains a magic number: 8,19
+32_frizmworks-master,org.web.boardcommand,BoardReviewListAllCommand,boardReviewCommand,Magic Number,The method contains a magic number: 8,19
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Long Statement,The length of the statement "MultipartRequest multipartRequest=new MultipartRequest(request`directory`maxSize`encoding`new DefaultFileRenamePolicy());" is 121.,20
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Long Statement,The length of the statement "int review=review_dao.modification(review_No`review_Writer`review_Subject`review_Contents`review_fileRealName`review_fileDBName`review_fileRealName2`review_fileDBName2`review_Password);" is 185.,20
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 1024,20
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 1024,20
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 100,20
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 60,20
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 10,20
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 60,20
+32_frizmworks-master,org.web.boardcommand,BoardReviewModificationCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 10,20
+32_frizmworks-master,org.web.boardcommand,ReplyCommand,boardReviewCommand,Complex Conditional,The conditional expression member != null && review_List != null && result == 1 is complex.,18
+32_frizmworks-master,org.web.boardcommand,ReplyCommand,boardReviewCommand,Complex Conditional,The conditional expression member != null && review_List != null && result == 0 is complex.,18
+32_frizmworks-master,org.web.boardcommand,ReplyCommand,boardReviewCommand,Complex Conditional,The conditional expression member == null && review_List != null && result == 1 is complex.,18
+32_frizmworks-master,org.web.boardcommand,ReplyCommand,boardReviewCommand,Complex Conditional,The conditional expression member == null && review_List != null && result == 0 is complex.,18
+32_frizmworks-master,org.web.boardcommand,ReplyModificationCommand,boardReviewCommand,Magic Number,The method contains a magic number: 2,17
+32_frizmworks-master,org.web.boardcommand,ReplyModificationCommand,boardReviewCommand,Magic Number,The method contains a magic number: 2,17
+32_frizmworks-master,org.web.boardcommand,ReReplyCompleteCommand,boardReviewCommand,Complex Conditional,The conditional expression member != null && review_List != null && result == 1 is complex.,18
+32_frizmworks-master,org.web.boardcommand,ReReplyCompleteCommand,boardReviewCommand,Complex Conditional,The conditional expression member != null && review_List != null && result == 0 is complex.,18
+32_frizmworks-master,org.web.boardcommand,ReReplyCompleteCommand,boardReviewCommand,Complex Conditional,The conditional expression member == null && review_List != null && result == 1 is complex.,18
+32_frizmworks-master,org.web.boardcommand,ReReplyCompleteCommand,boardReviewCommand,Complex Conditional,The conditional expression member == null && review_List != null && result == 0 is complex.,18
+32_frizmworks-master,org.web.boardcommand,ReReplyCompleteCommand,boardReviewCommand,Long Statement,The length of the statement "int result=rDao.replysReply(reply_Group`reply_Indent`reply_Step`review_No`reply_Subject`reply_Writer`reply_Contents`reply_Password);" is 132.,18
+32_frizmworks-master,org.web.boardcommand,ReviewListModifyCommand,boardReviewCommand,Magic Number,The method contains a magic number: 60,18
+32_frizmworks-master,org.web.boardcommand,ReviewListModifyCommand,boardReviewCommand,Magic Number,The method contains a magic number: 10,18
+32_frizmworks-master,org.web.boardcommand,ReviewListRemovalCommand,boardReviewCommand,Magic Number,The method contains a magic number: 60,18
+32_frizmworks-master,org.web.boardcommand,ReviewListRemovalCommand,boardReviewCommand,Magic Number,The method contains a magic number: 10,18
+32_frizmworks-master,org.web.boardcommand,ReviewWriteCompleteCommand,boardReviewCommand,Long Statement,The length of the statement "MultipartRequest multipartRequest=new MultipartRequest(request`directory`maxSize`encoding`new DefaultFileRenamePolicy());" is 121.,21
+32_frizmworks-master,org.web.boardcommand,ReviewWriteCompleteCommand,boardReviewCommand,Long Statement,The length of the statement "result=review_dao.review_create(review_Writer`review_Subject`review_fileDBName`review_fileRealName`review_fileDBName2`review_fileRealName2`review_Contents`review_Password);" is 172.,21
+32_frizmworks-master,org.web.boardcommand,ReviewWriteCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 1024,21
+32_frizmworks-master,org.web.boardcommand,ReviewWriteCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 1024,21
+32_frizmworks-master,org.web.boardcommand,ReviewWriteCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 100,21
+32_frizmworks-master,org.web.boardcommand,ReviewWriteCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 60,21
+32_frizmworks-master,org.web.boardcommand,ReviewWriteCompleteCommand,boardReviewCommand,Magic Number,The method contains a magic number: 10,21
+32_frizmworks-master,org.web.boardcommand,SearchReviewListCommand,boardReviewCommand,Magic Number,The method contains a magic number: 8,18
+32_frizmworks-master,org.web.boardcommand,SearchReviewListCommand,boardReviewCommand,Magic Number,The method contains a magic number: 8,18
+32_frizmworks-master,org.web.boardcontroller,ReviewBoardController,doGet,Complex Method,Cyclomatic complexity of the method is 17,40
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 2,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 3,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 4,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 5,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 6,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 7,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 8,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 9,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 10,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 11,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 12,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 13,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,allRetrieve,Magic Number,The method contains a magic number: 14,31
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Long Parameter List,The method has 8 parameters. ,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Long Statement,The length of the statement "query="insert into reviewboard(review_Group` review_Indent` review_Step` review_Hit` review_Subject` review_Writer` review_date` review_fileDBName` review_fileRealName` review_fileDBName2` review_fileRealName2` review_Contents` review_Password) VALUES((SELECT CASE COUNT(*) WHEN 0 THEN 1 ELSE MAX(review_Group) +1 END FROM reviewboard b)`0`0`0` ?`?` now()` ?`?`?`?`?`?)";" is 371.,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Magic Number,The method contains a magic number: 2,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Magic Number,The method contains a magic number: 3,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Magic Number,The method contains a magic number: 4,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Magic Number,The method contains a magic number: 5,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Magic Number,The method contains a magic number: 6,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Magic Number,The method contains a magic number: 7,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,review_create,Magic Number,The method contains a magic number: 8,126
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 2,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 3,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 4,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 5,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 6,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 7,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 8,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 9,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 10,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 11,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 12,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 13,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,selectedListView,Magic Number,The method contains a magic number: 14,170
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Long Statement,The length of the statement "query="SELECT * FROM reviewboard where review_Subject like + '%" + review_Subject + "%'"+ "ORDER BY review_No desc LIMIT "+ StartRow+ "` "+ EndRow;" is 147.,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 2,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 3,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 4,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 5,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 6,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 7,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 8,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 9,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 10,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 11,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 12,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 13,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,searchReviewList,Magic Number,The method contains a magic number: 14,269
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Long Parameter List,The method has 9 parameters. ,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Long Statement,The length of the statement "query="update reviewboard set review_Subject=?` review_fileDBName=?` review_fileRealName=?` review_fileDBName2=?` review_fileRealName2=?` review_Contents=? where review_No = ? and review_Writer = ? and review_Password = ?";" is 223.,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Magic Number,The method contains a magic number: 2,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Magic Number,The method contains a magic number: 3,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Magic Number,The method contains a magic number: 4,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Magic Number,The method contains a magic number: 5,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Magic Number,The method contains a magic number: 6,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Magic Number,The method contains a magic number: 7,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Magic Number,The method contains a magic number: 8,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modification,Magic Number,The method contains a magic number: 9,328
+32_frizmworks-master,org.web.boarddao,ReviewDAO,removalBoardList,Magic Number,The method contains a magic number: 2,374
+32_frizmworks-master,org.web.boarddao,ReviewDAO,removalBoardList,Magic Number,The method contains a magic number: 3,374
+32_frizmworks-master,org.web.boarddao,ReviewDAO,reply,Long Parameter List,The method has 5 parameters. ,411
+32_frizmworks-master,org.web.boarddao,ReviewDAO,reply,Long Statement,The length of the statement "query="insert into reply(review_No` reply_Group` reply_Indent` reply_Step` reply_Subject` reply_Writer` reply_date` reply_Contents` reply_Password) VALUES(?`(SELECT CASE COUNT(*) WHEN 0 THEN 1 ELSE MAX(reply_Group) +1 END FROM reply b)`0`0` ?`?` now()` ?`?)";" is 259.,411
+32_frizmworks-master,org.web.boarddao,ReviewDAO,reply,Magic Number,The method contains a magic number: 2,411
+32_frizmworks-master,org.web.boarddao,ReviewDAO,reply,Magic Number,The method contains a magic number: 3,411
+32_frizmworks-master,org.web.boarddao,ReviewDAO,reply,Magic Number,The method contains a magic number: 4,411
+32_frizmworks-master,org.web.boarddao,ReviewDAO,reply,Magic Number,The method contains a magic number: 5,411
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 2,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 3,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 4,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 5,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 6,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 7,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 8,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 9,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRetrieve,Magic Number,The method contains a magic number: 10,492
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Long Statement,The length of the statement "reply=new ReplyDTO(reply_No2`review_No2`reply_Group`reply_Indent`reply_Step`reply_Subject`reply_Writer`reply_Date`reply_Contents`reply_Password);" is 145.,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 2,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 2,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 3,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 4,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 5,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 6,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 7,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 8,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 9,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyRemovalList,Magic Number,The method contains a magic number: 10,544
+32_frizmworks-master,org.web.boarddao,ReviewDAO,removalReply,Magic Number,The method contains a magic number: 2,597
+32_frizmworks-master,org.web.boarddao,ReviewDAO,removalReply,Magic Number,The method contains a magic number: 3,597
+32_frizmworks-master,org.web.boarddao,ReviewDAO,removalReply,Magic Number,The method contains a magic number: 4,597
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modReply,Long Parameter List,The method has 6 parameters. ,681
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modReply,Long Statement,The length of the statement "query="update reply set reply_Subject = ?` reply_Contents =? where reply_No = ? and review_No = ? and reply_Writer = ? and reply_Password = ?";" is 143.,681
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modReply,Magic Number,The method contains a magic number: 2,681
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modReply,Magic Number,The method contains a magic number: 3,681
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modReply,Magic Number,The method contains a magic number: 4,681
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modReply,Magic Number,The method contains a magic number: 5,681
+32_frizmworks-master,org.web.boarddao,ReviewDAO,modReply,Magic Number,The method contains a magic number: 6,681
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replyShape,Magic Number,The method contains a magic number: 2,725
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Long Parameter List,The method has 8 parameters. ,760
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Long Statement,The length of the statement "query="insert into reply(review_No` reply_Group` reply_Indent` reply_Step` reply_Subject` reply_Writer` reply_date` reply_Contents` reply_Password) VALUES(?`?`?`?` ?`?` now()` ?`?)";" is 182.,760
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Magic Number,The method contains a magic number: 2,760
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Magic Number,The method contains a magic number: 3,760
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Magic Number,The method contains a magic number: 4,760
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Magic Number,The method contains a magic number: 5,760
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Magic Number,The method contains a magic number: 6,760
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Magic Number,The method contains a magic number: 7,760
+32_frizmworks-master,org.web.boarddao,ReviewDAO,replysReply,Magic Number,The method contains a magic number: 8,760
+32_frizmworks-master,org.web.boarddto,BoardReview,BoardReview,Long Parameter List,The method has 14 parameters. ,26
+32_frizmworks-master,org.web.cartdao,CartDAO,cartin,Long Parameter List,The method has 6 parameters. ,28
+32_frizmworks-master,org.web.cartdao,CartDAO,cartin,Magic Number,The method contains a magic number: 2,28
+32_frizmworks-master,org.web.cartdao,CartDAO,cartin,Magic Number,The method contains a magic number: 3,28
+32_frizmworks-master,org.web.cartdao,CartDAO,cartin,Magic Number,The method contains a magic number: 4,28
+32_frizmworks-master,org.web.cartdao,CartDAO,cartin,Magic Number,The method contains a magic number: 5,28
+32_frizmworks-master,org.web.cartdao,CartDAO,cartin,Magic Number,The method contains a magic number: 6,28
+32_frizmworks-master,org.web.cartdao,CartDAO,cartListAll,Magic Number,The method contains a magic number: 2,67
+32_frizmworks-master,org.web.cartdao,CartDAO,cartListAll,Magic Number,The method contains a magic number: 3,67
+32_frizmworks-master,org.web.cartdao,CartDAO,cartListAll,Magic Number,The method contains a magic number: 4,67
+32_frizmworks-master,org.web.cartdao,CartDAO,cartListAll,Magic Number,The method contains a magic number: 5,67
+32_frizmworks-master,org.web.cartdao,CartDAO,cartListAll,Magic Number,The method contains a magic number: 6,67
+32_frizmworks-master,org.web.cartdao,CartDAO,cartListAll,Magic Number,The method contains a magic number: 7,67
+32_frizmworks-master,org.web.cartdao,CartDAO,cartNumbersChange,Long Parameter List,The method has 7 parameters. ,119
+32_frizmworks-master,org.web.cartdao,CartDAO,cartNumbersChange,Long Statement,The length of the statement "query="update cart set numbers=?` totalPrice=? where cart_No=? and memberId=? and product_No=? and product_Name=? and product_Price=?";" is 135.,119
+32_frizmworks-master,org.web.cartdao,CartDAO,cartNumbersChange,Magic Number,The method contains a magic number: 2,119
+32_frizmworks-master,org.web.cartdao,CartDAO,cartNumbersChange,Magic Number,The method contains a magic number: 3,119
+32_frizmworks-master,org.web.cartdao,CartDAO,cartNumbersChange,Magic Number,The method contains a magic number: 4,119
+32_frizmworks-master,org.web.cartdao,CartDAO,cartNumbersChange,Magic Number,The method contains a magic number: 5,119
+32_frizmworks-master,org.web.cartdao,CartDAO,cartNumbersChange,Magic Number,The method contains a magic number: 6,119
+32_frizmworks-master,org.web.cartdao,CartDAO,cartNumbersChange,Magic Number,The method contains a magic number: 7,119
+32_frizmworks-master,org.web.cartdao,CartDAO,cartDelete,Magic Number,The method contains a magic number: 2,159
+32_frizmworks-master,org.web.cartdao,CartDAO,cartDelete,Magic Number,The method contains a magic number: 3,159
+32_frizmworks-master,org.web.cartdto,CartDTO,CartDTO,Long Parameter List,The method has 7 parameters. ,17
+32_frizmworks-master,org.web.memberCommand,MainCommand,memberQuery,Magic Number,The method contains a magic number: 60,16
+32_frizmworks-master,org.web.memberCommand,MainCommand,memberQuery,Magic Number,The method contains a magic number: 10,16
+32_frizmworks-master,org.web.memberCommand,MemberInfoCommand,memberQuery,Magic Number,The method contains a magic number: 60,15
+32_frizmworks-master,org.web.memberCommand,MemberInfoCommand,memberQuery,Magic Number,The method contains a magic number: 10,15
+32_frizmworks-master,org.web.memberCommand,MemberLoginCommand,memberQuery,Magic Number,The method contains a magic number: 60,16
+32_frizmworks-master,org.web.memberCommand,MemberLoginCommand,memberQuery,Magic Number,The method contains a magic number: 10,16
+32_frizmworks-master,org.web.membercontroller,MemberController,doGet,Complex Method,Cyclomatic complexity of the method is 13,40
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 2,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 3,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 4,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 5,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 6,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 7,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 8,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 9,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberSignIn,Magic Number,The method contains a magic number: 10,29
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 2,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 2,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 3,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 4,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 5,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 6,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 7,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 8,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 9,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberLogin,Magic Number,The method contains a magic number: 10,71
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 2,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 3,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 4,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 5,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 6,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 7,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 8,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 9,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,memberId,Magic Number,The method contains a magic number: 10,165
+32_frizmworks-master,org.web.memberdao,MemberDAO,findIdUsingEmail,Magic Number,The method contains a magic number: 2,217
+32_frizmworks-master,org.web.memberdao,MemberDAO,findPwUsingEmail,Magic Number,The method contains a magic number: 2,258
+32_frizmworks-master,org.web.memberdao,MemberDAO,findIdUsingMobile,Magic Number,The method contains a magic number: 2,299
+32_frizmworks-master,org.web.memberdao,MemberDAO,findPwUsingMobile,Magic Number,The method contains a magic number: 2,340
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountRemoval,Magic Number,The method contains a magic number: 2,381
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Long Parameter List,The method has 9 parameters. ,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Long Statement,The length of the statement "query="update memberdb set memberName=?` roadAddr=?` jibunAddr=?` mobile2=?` smsOk=?` memberEmail=?` emailOk=? where memberId=? and memberPw=? ";" is 145.,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Magic Number,The method contains a magic number: 2,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Magic Number,The method contains a magic number: 3,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Magic Number,The method contains a magic number: 4,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Magic Number,The method contains a magic number: 5,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Magic Number,The method contains a magic number: 6,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Magic Number,The method contains a magic number: 7,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Magic Number,The method contains a magic number: 8,414
+32_frizmworks-master,org.web.memberdao,MemberDAO,accountMod,Magic Number,The method contains a magic number: 9,414
+32_frizmworks-master,org.web.memberdto,MemberDTO,MemberDTO,Long Parameter List,The method has 10 parameters. ,27
+32_frizmworks-master,org.web.pagination,Paging,makePagination,Complex Method,Cyclomatic complexity of the method is 9,88
+32_frizmworks-master,org.web.pagination,Paging,makePagination,Magic Number,The method contains a magic number: 5,88
+32_frizmworks-master,org.web.productcommand,ProductListCommand,productCommand,Magic Number,The method contains a magic number: 60,18
+32_frizmworks-master,org.web.productcommand,ProductListCommand,productCommand,Magic Number,The method contains a magic number: 10,18
+32_frizmworks-master,org.web.productcommand,ProductUploadCommand,productCommand,Long Statement,The length of the statement "MultipartRequest multipartRequest=new MultipartRequest(request`directory`maxSize`encoding`new DefaultFileRenamePolicy());" is 121.,17
+32_frizmworks-master,org.web.productcommand,ProductUploadCommand,productCommand,Long Statement,The length of the statement "result=pDao.uploadProduct(memberId`product_Name`product_Categories`product_Explanation`product_Price`product_Inventory`product_fileDBName`product_fileRealName);" is 160.,17
+32_frizmworks-master,org.web.productcommand,ProductUploadCommand,productCommand,Magic Number,The method contains a magic number: 1024,17
+32_frizmworks-master,org.web.productcommand,ProductUploadCommand,productCommand,Magic Number,The method contains a magic number: 1024,17
+32_frizmworks-master,org.web.productcommand,ProductUploadCommand,productCommand,Magic Number,The method contains a magic number: 100,17
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Long Parameter List,The method has 8 parameters. ,28
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Long Statement,The length of the statement "query="insert into product(product_Group` product_Indent` product_Step` product_Hit` memberId ` product_Name` product_Categories` product_Explanation` product_Price` product_Inventory` product_fileDBName` product_fileRealName) values ((select case count(*) when 0 then 1 else max(product_Group) + 1 end from product a)` 0` 0` 0` ? ` ?` ?` ?`?`?`?`? )";" is 352.,28
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Magic Number,The method contains a magic number: 2,28
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Magic Number,The method contains a magic number: 3,28
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Magic Number,The method contains a magic number: 4,28
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Magic Number,The method contains a magic number: 5,28
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Magic Number,The method contains a magic number: 6,28
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Magic Number,The method contains a magic number: 7,28
+32_frizmworks-master,org.web.productdao,ProductDAO,uploadProduct,Magic Number,The method contains a magic number: 8,28
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 2,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 3,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 4,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 5,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 6,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 7,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 8,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 9,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 10,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 11,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 12,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productListRetrieve,Magic Number,The method contains a magic number: 13,71
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Long Statement,The length of the statement "ProductDTO product=new ProductDTO(product_No2`product_Group`product_Indent`product_Step`product_Hit`memberId`product_Name`product_Categories`product_Explanation`product_Price`product_Inventory`product_fileDBName`product_fileRealName);" is 234.,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 2,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 3,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 4,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 5,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 6,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 7,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 8,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 9,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 10,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 11,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 12,128
+32_frizmworks-master,org.web.productdao,ProductDAO,productSelectedList,Magic Number,The method contains a magic number: 13,128
+32_frizmworks-master,org.web.productdto,ProductDTO,ProductDTO,Long Parameter List,The method has 13 parameters. ,23
+32_frizmworks-master,org.web.reply,ReplyDTO,ReplyDTO,Long Parameter List,The method has 10 parameters. ,22

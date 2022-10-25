@@ -1,0 +1,208 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+81_happytoplay-master,com.xiaoguang.happytoplay,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+81_happytoplay-master,com.xiaoguang.happytoplay,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+81_happytoplay-master,com.xiaoguang.happytoplay,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,GratherDetailsActivity,initData,Long Identifier,The length of the field mActGratherDetialsTvGratherTitle is 32.,98
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,GratherDetailsActivity,initData,Long Identifier,The length of the field mActGratherDetialsTvGratherContent is 34.,98
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,GratherDetailsActivity,onClick,Magic Number,The method contains a magic number: 500,183
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,HomeActivity,onClick,Magic Number,The method contains a magic number: 2,104
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,HomeActivity,onClick,Magic Number,The method contains a magic number: 2,104
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,HomeActivity,onClick,Magic Number,The method contains a magic number: 3,104
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,HomeActivity,onClick,Magic Number,The method contains a magic number: 3,104
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,HomeActivity,changBtnSelectedStatus,Magic Number,The method contains a magic number: 4,135
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,LoginActivity,isDataEmpty,Magic Number,The method contains a magic number: 11,122
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,MapActivity,onPoiClick,Magic Number,The method contains a magic number: 5,164
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,MapActivity,onPoiClick,Magic Number,The method contains a magic number: 120,164
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,MapActivity,onClick,Magic Number,The method contains a magic number: 5,184
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,MyPoiOverlay,onPoiClick,Magic Number,The method contains a magic number: 5,164
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,MyPoiOverlay,onPoiClick,Magic Number,The method contains a magic number: 120,164
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,MyPoiOverlay,onClick,Magic Number,The method contains a magic number: 5,184
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,onCreate,Long Statement,The length of the statement "ToastUtils.toastShort(pluginVersion == 0 ? "监测到本机尚未安装支付�?�件`无法进行支付`请先安装�?�件(无�?�?消耗)" : "监测到本机的支付�?�件�?是最新版`最好进行更新`请先更新�?�件(无�?�?消耗)");" is 246.,54
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,initDatas,Magic Number,The method contains a magic number: 0.02,69
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,pay,Long Statement,The length of the statement "ToastUtils.toastShort("监测到你尚未安装支付�?�件`无法进行支付`请先安装�?�件(已打包在本地`无�?�?消耗)`安装结�?��?��?新支付");" is 164.,96
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,pay,Magic Number,The method contains a magic number: 3,96
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,fail,Long Statement,The length of the statement "ToastUtils.toastShort("监测到你尚未安装支付�?�件`无法进行支付`请先安装�?�件(已打包在本地`无�?�?消耗)`安装结�?��?��?新支付");" is 164.,143
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,fail,Magic Number,The method contains a magic number: 3,143
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,getPrice,Empty catch clause,The method has an empty catch block.,164
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,getPrice,Magic Number,The method contains a magic number: 0.02,164
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,showDialog,Empty catch clause,The method has an empty catch block.,183
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,hideDialog,Empty catch clause,The method has an empty catch block.,196
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PayActivity,installBmobPayPlugin,Magic Number,The method contains a magic number: 1024,204
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PersonShowResult,intiData,Magic Number,The method contains a magic number: 3,46
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PersonShowResult,intiData,Magic Number,The method contains a magic number: 4,46
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PersonShowResult,intiData,Missing default,The following switch statement is missing a default case: switch (type) {,46
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,PublishActivity,onActivityResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,209
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,RegisterActivity,getData,Long Statement,The length of the statement "LogUtils.i("myTag"`"获�?�到的信�?�为：phone:" + phone + "````code`"+ code+ "```pwd:"+ pwd+ "````````nickName:"+ nickNmae);" is 128.,62
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,RegisterActivity,onClick,Complex Method,Cyclomatic complexity of the method is 8,116
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,RegisterActivity,onClick,Magic Number,The method contains a magic number: 11,116
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,RegisterActivity,isDataEmpty,Complex Method,Cyclomatic complexity of the method is 8,157
+81_happytoplay-master,com.xiaoguang.happytoplay.activity,RegisterActivity,isDataEmpty,Magic Number,The method contains a magic number: 11,157
+81_happytoplay-master,com.xiaoguang.happytoplay.adapter,PublishGridViewAdapter,getView,Magic Number,The method contains a magic number: 3,54
+81_happytoplay-master,com.xiaoguang.happytoplay.adapter,XListVewAdapter,getView,Complex Method,Cyclomatic complexity of the method is 13,71
+81_happytoplay-master,com.xiaoguang.happytoplay.adapter,XListVewAdapter,getView,Long Method,The method has 154 lines of code.,71
+81_happytoplay-master,com.xiaoguang.happytoplay.adapter,XListVewAdapter,getView,Long Statement,The length of the statement "double distance=DistanceUtils.getDistance(currentLocation.getLongitude()`currentLocation.getLatitude()`gratherLocation.getLongitude()`gratherLocation.getLatitude());" is 165.,71
+81_happytoplay-master,com.xiaoguang.happytoplay.adapter,XListVewAdapter,getView,Long Statement,The length of the statement "LogUtils.i("从�?务器获�?�的点赞为" + grathers.get(position).getLoveUserIds().contains(MyApplitation.user.getObjectId()));" is 130.,71
+81_happytoplay-master,com.xiaoguang.happytoplay.adapter,XListVewAdapter,getView,Magic Number,The method contains a magic number: 1000,71
+81_happytoplay-master,com.xiaoguang.happytoplay.adapter,XListVewAdapter,getView,Magic Number,The method contains a magic number: 1000,71
+81_happytoplay-master,com.xiaoguang.happytoplay.application,MyApplitation,initLocation,Magic Number,The method contains a magic number: 5000,92
+81_happytoplay-master,com.xiaoguang.happytoplay.bean,Grather,toString,Long Statement,The length of the statement "return "Grather{" + "gratherName='" + gratherName + '\''+ "` gratherType='"+ gratherType+ '\''+ "` gratherContent='"+ gratherContent+ '\''+ "` gratherImageFiles="+ gratherImageFiles+ "` graterDataTime='"+ graterDataTime+ '\''+ "` gratherGeoPoint="+ gratherGeoPoint+ "` gratherMoney="+ gratherMoney+ "` gratherOriginator='"+ gratherOriginator+ '\''+ "` flag="+ flag+ "` address='"+ address+ '\''+ "` loveUserIds="+ loveUserIds+ '}';" is 431.,145
+81_happytoplay-master,com.xiaoguang.happytoplay.bean,User,toString,Long Statement,The length of the statement "return "User{" + "nickName='" + nickName + '\''+ "` userHead="+ userHead+ "` sex='"+ sex+ '\''+ "` loveGratherIds="+ loveGratherIds+ '}';" is 137.,136
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,HomeFragment,isExitAPP,Magic Number,The method contains a magic number: 2000,157
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Complex Method,Cyclomatic complexity of the method is 17,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 2,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 3,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,MoreFragment,onClick,Magic Number,The method contains a magic number: 4,132
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,PersonFragment,jumpActivity,Magic Number,The method contains a magic number: 3,146
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,PersonFragment,jumpActivity,Magic Number,The method contains a magic number: 3,146
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,PersonFragment,jumpActivity,Magic Number,The method contains a magic number: 4,146
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,PersonFragment,jumpActivity,Magic Number,The method contains a magic number: 4,146
+81_happytoplay-master,com.xiaoguang.happytoplay.fragment,PersonFragment,onActivityResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,227
+81_happytoplay-master,com.xiaoguang.happytoplay.model,DiscussModel,queryDisscuss,Magic Number,The method contains a magic number: 100,31
+81_happytoplay-master,com.xiaoguang.happytoplay.model,DiscussModel,queryDisscuss,Magic Number,The method contains a magic number: 10,31
+81_happytoplay-master,com.xiaoguang.happytoplay.model,DiscussModel,queryDisscuss,Magic Number,The method contains a magic number: 10,31
+81_happytoplay-master,com.xiaoguang.happytoplay.model,DiscussModel,queryDisscuss,Magic Number,The method contains a magic number: 200,31
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 800,68
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Complex Method,Cyclomatic complexity of the method is 13,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Long Parameter List,The method has 6 parameters. ,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 100,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 200,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 300,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 400,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 500,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 10,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 600,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 700,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 800,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 900,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 600,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Magic Number,The method contains a magic number: 5,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,queryGrather,Missing default,The following switch statement is missing a default case: switch (queryType) {,80
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,done,Magic Number,The method contains a magic number: 600,130
+81_happytoplay-master,com.xiaoguang.happytoplay.model,GratherModelImpl,done,Magic Number,The method contains a magic number: 5,130
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragHomePresenterImpl,loadingData,Magic Number,The method contains a magic number: 100,40
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragHomePresenterImpl,loadingData,Magic Number,The method contains a magic number: 10,40
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragHomePresenterImpl,loadingData,Magic Number,The method contains a magic number: 200,40
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragHomePresenterImpl,loadingData,Magic Number,The method contains a magic number: 10,40
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragHomePresenterImpl,onRefresh,Magic Number,The method contains a magic number: 100,70
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragHomePresenterImpl,onRefresh,Magic Number,The method contains a magic number: 10,70
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragHomePresenterImpl,onLoadMore,Magic Number,The method contains a magic number: 200,99
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragHomePresenterImpl,onLoadMore,Magic Number,The method contains a magic number: 10,99
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragMorePresenterImpl,query,Magic Number,The method contains a magic number: 10,50
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragMorePresenterImpl,query,Magic Number,The method contains a magic number: 700,50
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragMorePresenterImpl,query,Magic Number,The method contains a magic number: 2,50
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragMorePresenterImpl,query,Magic Number,The method contains a magic number: 600,50
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragMorePresenterImpl,query,Magic Number,The method contains a magic number: 3,50
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragMorePresenterImpl,query,Magic Number,The method contains a magic number: 500,50
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragMorePresenterImpl,query,Magic Number,The method contains a magic number: 4,50
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragMorePresenterImpl,query,Magic Number,The method contains a magic number: 400,50
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,loadingData,Complex Method,Cyclomatic complexity of the method is 8,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,loadingData,Magic Number,The method contains a magic number: 2,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,loadingData,Magic Number,The method contains a magic number: 2,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,loadingData,Magic Number,The method contains a magic number: 3,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,loadingData,Magic Number,The method contains a magic number: 3,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,loadingData,Magic Number,The method contains a magic number: 4,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,loadingData,Magic Number,The method contains a magic number: 4,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,loadingData,Magic Number,The method contains a magic number: 5,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,onItemClick,Magic Number,The method contains a magic number: 2,67
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,onItemClick,Magic Number,The method contains a magic number: 2,67
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,onItemClick,Magic Number,The method contains a magic number: 3,67
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,onItemClick,Magic Number,The method contains a magic number: 3,67
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,onItemClick,Magic Number,The method contains a magic number: 4,67
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,onItemClick,Magic Number,The method contains a magic number: 4,67
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,onItemClick,Magic Number,The method contains a magic number: 5,67
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,query,Complex Method,Cyclomatic complexity of the method is 8,246
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,query,Magic Number,The method contains a magic number: 2,246
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,query,Magic Number,The method contains a magic number: 900,246
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,query,Magic Number,The method contains a magic number: 10,246
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,query,Magic Number,The method contains a magic number: 3,246
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,query,Magic Number,The method contains a magic number: 3,246
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,query,Magic Number,The method contains a magic number: 4,246
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,FragPersonPresenterImpl,query,Magic Number,The method contains a magic number: 4,246
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,GratherDetailsPresenterImpl,showDiscuss,Magic Number,The method contains a magic number: 200,58
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,PublishPresenterImpl,start,Long Statement,The length of the statement "ImageLoaderConfiguration config=new ImageLoaderConfiguration.Builder(MyApplitation.context).threadPriority(Thread.NORM_PRIORITY - 2).denyCacheImageMultipleSizesInMemory().diskCacheFileNameGenerator(new Md5FileNameGenerator()).diskCacheSize(100 * 1024 * 1024).diskCacheFileCount(300).tasksProcessingOrder(QueueProcessingType.LIFO).build();" is 338.,226
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,PublishPresenterImpl,start,Long Statement,The length of the statement "imgId=new int[]{R.drawable.sort_select`R.drawable.sort_diy`R.drawable.sort_jiangzuo`R.drawable.sort_jieri`R.drawable.sort_jucan`R.drawable.sort_meishi`R.drawable.sort_shaoer`R.drawable.sort_yanchu`R.drawable.sort_yundong`R.drawable.sort_zhanlan`R.drawable.sort_zhoubian};" is 271.,226
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,PublishPresenterImpl,start,Magic Number,The method contains a magic number: 2,226
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,PublishPresenterImpl,start,Magic Number,The method contains a magic number: 100,226
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,PublishPresenterImpl,start,Magic Number,The method contains a magic number: 1024,226
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,PublishPresenterImpl,start,Magic Number,The method contains a magic number: 1024,226
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,PublishPresenterImpl,start,Magic Number,The method contains a magic number: 300,226
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,RegPresenterImpl,register,Long Statement,The length of the statement "view.showMsg("验�?�?验�?失败，请�?新获�?�，code" + ex.getErrorCode() + "`msg = "+ ex.getLocalizedMessage());" is 121.,34
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,RegPresenterImpl,done,Long Statement,The length of the statement "view.showMsg("验�?�?验�?失败，请�?新获�?�，code" + ex.getErrorCode() + "`msg = "+ ex.getLocalizedMessage());" is 121.,45
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,RegPresenterImpl,startCountdown,Magic Number,The method contains a magic number: 60000,99
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,RegPresenterImpl,startCountdown,Magic Number,The method contains a magic number: 1000,99
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,RegPresenterImpl,startCountdown,Magic Number,The method contains a magic number: 1000,99
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,RegPresenterImpl,startCountdown,Magic Number,The method contains a magic number: 1000,99
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,RegPresenterImpl,onTick,Magic Number,The method contains a magic number: 1000,105
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,RegPresenterImpl,onTick,Magic Number,The method contains a magic number: 1000,105
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,isNetWorkState,Magic Number,The method contains a magic number: 5,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,isNetWorkState,Magic Number,The method contains a magic number: 1000,56
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,doInBackground,Magic Number,The method contains a magic number: 5,66
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,doInBackground,Magic Number,The method contains a magic number: 1000,66
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,getGrathersFromServer,Magic Number,The method contains a magic number: 100,109
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,getGrathersFromServer,Magic Number,The method contains a magic number: 10,109
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,startAnimation,Magic Number,The method contains a magic number: 0.1f,160
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,startAnimation,Magic Number,The method contains a magic number: 0.5f,160
+81_happytoplay-master,com.xiaoguang.happytoplay.presenter,WelPresenterImpl,startAnimation,Magic Number,The method contains a magic number: 5000,160
+81_happytoplay-master,com.xiaoguang.happytoplay.receiver,PushMessageReceiver,onReceive,Long Statement,The length of the statement "builder.setSmallIcon(R.drawable.app_icon).setTicker("您有一�?�新的消�?�").setContentTitle("�?玩旅行").setContentText(msg).setWhen(System.currentTimeMillis()).setDefaults(Notification.DEFAULT_ALL);" is 206.,26
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,getDistance,Long Statement,The length of the statement "double distance=2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2)`2) + Math.cos(Lat1) * Math.cos(Lat2) * Math.pow(Math.sin(b / 2)`2)));" is 134.,14
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,getDistance,Magic Number,The method contains a magic number: 2,14
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,getDistance,Magic Number,The method contains a magic number: 2,14
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,getDistance,Magic Number,The method contains a magic number: 2,14
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,getDistance,Magic Number,The method contains a magic number: 2,14
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,getDistance,Magic Number,The method contains a magic number: 2,14
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,getDistance,Magic Number,The method contains a magic number: 10000,14
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,getDistance,Magic Number,The method contains a magic number: 10000,14
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,DistanceUtils,rad,Magic Number,The method contains a magic number: 180.0,35
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageLoaderutils,getInstance,Magic Number,The method contains a magic number: 100,21
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageLoaderutils,getInstance,Magic Number,The method contains a magic number: 1024,21
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageLoaderutils,getInstance,Magic Number,The method contains a magic number: 1024,21
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageLoaderutils,getInstance,Magic Number,The method contains a magic number: 10,21
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageLoaderutils,getInstance,Magic Number,The method contains a magic number: 10,21
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageUtils,getBitmapBytes,Magic Number,The method contains a magic number: 80,15
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageUtils,getBitmapBytes,Magic Number,The method contains a magic number: 80,15
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageUtils,getBitmapBytes,Magic Number,The method contains a magic number: 80,15
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageUtils,getBitmapBytes,Magic Number,The method contains a magic number: 80,15
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ImageUtils,getBitmapBytes,Magic Number,The method contains a magic number: 100,15
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,PoiOverlay,getOverlayOptions,Long Statement,The length of the statement "markerList.add(new MarkerOptions().icon(BitmapDescriptorFactory.fromAssetWithDpi("Icon_mark" + markerSize + ".png")).extraInfo(bundle).position(mPoiResult.getAllPoi().get(i).location));" is 185.,46
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,QrCodeUtils,createQrCode,Complex Conditional,The conditional expression text == null || "".equals(text) || text.length() < 1 is complex.,22
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,QrCodeUtils,createQrCode,Magic Number,The method contains a magic number: 0xff000000,22
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,QrCodeUtils,createQrCode,Magic Number,The method contains a magic number: 0xffffffff,22
+81_happytoplay-master,com.xiaoguang.happytoplay.utils,ScreenUtils,getScreenWidth,Magic Number,The method contains a magic number: 769,10
+81_happytoplay-master,com.xiaoguang.happytoplay.view,BottomPopView,init,Magic Number,The method contains a magic number: 0.5f,49
+81_happytoplay-master,com.xiaoguang.happytoplay.view,BottomPopView,show,Magic Number,The method contains a magic number: 0.5f,98
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,onDraw,Long Identifier,The length of the field mDisableCircularTransformation is 30.,122
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,isDisableCircularTransformation,Long Identifier,The length of the field mDisableCircularTransformation is 30.,250
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,setDisableCircularTransformation,Long Identifier,The length of the field mDisableCircularTransformation is 30.,254
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,initializeBitmap,Long Identifier,The length of the field mDisableCircularTransformation is 30.,337
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,setup,Magic Number,The method contains a magic number: 2.0f,346
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,setup,Magic Number,The method contains a magic number: 2.0f,346
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,setup,Magic Number,The method contains a magic number: 2.0f,346
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,setup,Magic Number,The method contains a magic number: 2.0f,346
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,calculateBounds,Magic Number,The method contains a magic number: 2f,392
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,calculateBounds,Magic Number,The method contains a magic number: 2f,392
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,404
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,404
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,404
+81_happytoplay-master,com.xiaoguang.happytoplay.view,CircleImageView,updateShaderMatrix,Magic Number,The method contains a magic number: 0.5f,404
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListView,onTouchEvent,Complex Conditional,The conditional expression getFirstVisiblePosition() == 0 && (mHeaderView.getVisiableHeight() > 0 || deltaY > 0) is complex.,282
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListView,onTouchEvent,Complex Conditional,The conditional expression getLastVisiblePosition() == mTotalItemCount - 1 && (mFooterView.getBottomMargin() > 0 || deltaY < 0) is complex.,282
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListView,onTouchEvent,Complex Conditional,The conditional expression mEnablePullLoad && mFooterView.getBottomMargin() > PULL_LOAD_MORE_DELTA && !mPullLoading is complex.,282
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 11,282
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListView,onTouchEvent,Missing default,The following switch statement is missing a default case: switch (ev.getAction()) {,282
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 180.0f,536
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,536
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,536
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 180.0f,536
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,536
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListViewHeader,initView,Magic Number,The method contains a magic number: 0.5f,536
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListViewHeader,setState,Complex Method,Cyclomatic complexity of the method is 9,561
+81_happytoplay-master,com.xiaoguang.happytoplay.view,XListViewHeader,setState,Missing default,The following switch statement is missing a default case: switch (state) {,561

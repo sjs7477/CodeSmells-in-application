@@ -1,0 +1,33 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+AndroidAsyncMVC-master,org.dragonboy.asyncmvcexample.controller,MyController,handleMessage,Magic Number,The method contains a magic number: 10000,25
+AndroidAsyncMVC-master,org.dragonboy.asyncmvcexample.controller,MyController,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,25
+AndroidAsyncMVC-master,org.dragonboy.asyncmvc,Model,notifyChanged,Complex Conditional,The conditional expression (whats != null) && (whats.length > 0) && ArrayUtils.contains(whats`what) is complex.,47
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealByteArraySize,Magic Number,The method contains a magic number: 4,21
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealByteArraySize,Magic Number,The method contains a magic number: 32,21
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealByteArraySize,Magic Number,The method contains a magic number: 12,21
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealByteArraySize,Magic Number,The method contains a magic number: 12,21
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealShortArraySize,Magic Number,The method contains a magic number: 2,33
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealShortArraySize,Magic Number,The method contains a magic number: 2,33
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealCharArraySize,Magic Number,The method contains a magic number: 2,37
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealCharArraySize,Magic Number,The method contains a magic number: 2,37
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealIntArraySize,Magic Number,The method contains a magic number: 4,41
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealIntArraySize,Magic Number,The method contains a magic number: 4,41
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealFloatArraySize,Magic Number,The method contains a magic number: 4,45
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealFloatArraySize,Magic Number,The method contains a magic number: 4,45
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealObjectArraySize,Magic Number,The method contains a magic number: 4,49
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealObjectArraySize,Magic Number,The method contains a magic number: 4,49
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealLongArraySize,Magic Number,The method contains a magic number: 8,53
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,idealLongArraySize,Magic Number,The method contains a magic number: 8,53
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,equals,Complex Conditional,The conditional expression array1 == null || array2 == null || array1.length < length || array2.length < length is complex.,57
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,emptyArray,Magic Number,The method contains a magic number: 8,88
+AndroidAsyncMVC-master,org.dragonboy.util,ArrayUtils,emptyArray,Magic Number,The method contains a magic number: 0x7FFFFFFF,88
+AndroidAsyncMVC-master,org.dragonboy.util,SparseIntList,SparseIntList,Magic Number,The method contains a magic number: 10,10
+AndroidAsyncMVC-master,org.dragonboy.util,SparseIntList,clone,Empty catch clause,The method has an empty catch block.,29
+AndroidAsyncMVC-master,org.dragonboy.util,SparseIntSet,SparseIntSet,Magic Number,The method contains a magic number: 10,10
+AndroidAsyncMVC-master,org.dragonboy.util,SparseIntSet,clone,Empty catch clause,The method has an empty catch block.,29
+AndroidAsyncMVC-master,org.dragonboy.util,SparseIntSet,binarySearch,Magic Number,The method contains a magic number: 2,163
+AndroidAsyncMVC-master,org.dragonboy.util,SparseLongList,SparseLongList,Magic Number,The method contains a magic number: 10,10
+AndroidAsyncMVC-master,org.dragonboy.util,SparseLongList,clone,Empty catch clause,The method has an empty catch block.,29
+AndroidAsyncMVC-master,org.dragonboy.util,SparseLongSet,SparseLongSet,Magic Number,The method contains a magic number: 10,10
+AndroidAsyncMVC-master,org.dragonboy.util,SparseLongSet,clone,Empty catch clause,The method has an empty catch block.,29
+AndroidAsyncMVC-master,org.dragonboy.util,SparseLongSet,binarySearch,Magic Number,The method contains a magic number: 2,163

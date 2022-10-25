@@ -1,0 +1,191 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+traction.mvc-BETA,ni3po42.android.tractiondemo.providers,DemoProvider,query,Long Parameter List,The method has 5 parameters. ,57
+traction.mvc-BETA,ni3po42.android.tractiondemo.providers,DemoProvider,onCreate,Long Statement,The length of the statement "sb.append("CREATE TABLE answers( _id integer primary key autoincrement` name TEXT NOT NULL` quest TEXT NOT NULL` favoritecolor INTEGER DEFAULT -1` otheranswer TEXT DEFAULT NULL);");" is 181.,109
+traction.mvc-BETA,ni3po42.android.tractiondemo.providers,DemoProvider,onCreate,Magic Number,The method contains a magic number: 0xFF0000FF,109
+traction.mvc-BETA,ni3po42.android.tractiondemo.providers,DemoProvider,onCreate,Magic Number,The method contains a magic number: 0xFFFFFF00,109
+traction.mvc-BETA,ni3po42.android.tractiondemo.providers,helper,onCreate,Long Statement,The length of the statement "sb.append("CREATE TABLE answers( _id integer primary key autoincrement` name TEXT NOT NULL` quest TEXT NOT NULL` favoritecolor INTEGER DEFAULT -1` otheranswer TEXT DEFAULT NULL);");" is 181.,109
+traction.mvc-BETA,ni3po42.android.tractiondemo.providers,helper,onCreate,Magic Number,The method contains a magic number: 0xFF0000FF,109
+traction.mvc-BETA,ni3po42.android.tractiondemo.providers,helper,onCreate,Magic Number,The method contains a magic number: 0xFFFFFF00,109
+traction.mvc-BETA,ni3po42.android.tractiondemo.models,DemoFragmentChoice,getFragment,Empty catch clause,The method has an empty catch block.,42
+traction.mvc-BETA,ni3po42.android.tractiondemo.activities,MainActivity,onStart,Long Statement,The length of the statement "getFragmentManager().beginTransaction().setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).replace(R.id.main_view_id`model.getCurrentFragment()).commit();" is 160.,35
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,CalculatorController,doOperation,Complex Method,Cyclomatic complexity of the method is 8,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,CalculatorController,doOperation,Empty catch clause,The method has an empty catch block.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,CalculatorController,updateCurrentNumber,Empty catch clause,The method has an empty catch block.,114
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,CalculatorController,updateCurrentNumber,Magic Number,The method contains a magic number: 10,114
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,CalculatorController,updateCurrentNumber,Magic Number,The method contains a magic number: 10,114
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,EntryController,onStart,Magic Number,The method contains a magic number: 2,35
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,EntryController,onStart,Magic Number,The method contains a magic number: 3,35
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,EntryController,onStart,Magic Number,The method contains a magic number: 4,35
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,EntryController,onStart,Magic Number,The method contains a magic number: 5,35
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,EntryController,onStart,Magic Number,The method contains a magic number: 6,35
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,EntryController,onStart,Magic Number,The method contains a magic number: 7,35
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,RelativeContextFragmentController,onStart,Magic Number,The method contains a magic number: 3141,35
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(SimpleFormController.class`"Simple Form"`"Explore the ease of filling out a user information form"));" is 147.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(UIWiringController.class`"UI Wiring"`"Demonstrates how elements can react to other elements changing without referencing other UI elements!"));" is 189.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(DemoADialogController.class`"Dialog Controller"`"Shows a view model hooking to a dialog."));" is 138.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(MultiSelectController.class`"Multi-selection"`"Gives an example on how multi-selection could work in Traction MVC."));" is 164.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(EntryController.class`"Swipe List"`"A custom view is built that binds data and provides a catchy (ok` at least not boring) UX. Swipe items to the left to activate/de-active."));" is 223.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(CalculatorController.class`"Calculator"`"A simple calculator. Lots of buttons; simple view model."));" is 147.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(BridgeOfDeathController.class`"The Bridge of Death"`"STOP! Who would cross the Bridge of Death must answer me these questions three; Ere the other side he see. Cursors and Generic Bindings!"));" is 239.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(RelativeContextFragmentController.class`"Relative Context"`"Shows how relative context works."));" is 143.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "model.getChoices().add(new DemoFragmentChoice(ScopeExampleController.class`"Scopes"`"Example of using generated scopes."));" is 123.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onStart,Long Statement,The length of the statement "FragmentTransaction trans=getFragmentManager().beginTransaction().setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).replace(R.id.main_view_id`newF);" is 155.,43
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MainController,onChange,Long Statement,The length of the statement "FragmentTransaction trans=getFragmentManager().beginTransaction().setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).replace(R.id.main_view_id`newF);" is 155.,70
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,UIWiringController,onStart,Magic Number,The method contains a magic number: 20,37
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MultiSelectController,onStart,Long Statement,The length of the statement "Toast.makeText(getActivity()`"There are " + model.getSelectedCount() + " item(s) selected. "+ txt`Toast.LENGTH_SHORT).show();" is 125.,39
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MultiSelectController,onStart,Magic Number,The method contains a magic number: 12,39
+traction.mvc-BETA,ni3po42.android.tractiondemo.controllers,MultiSelectController,onExecuted,Long Statement,The length of the statement "Toast.makeText(getActivity()`"There are " + model.getSelectedCount() + " item(s) selected. "+ txt`Toast.LENGTH_SHORT).show();" is 125.,51
+traction.mvc-BETA,ni3po42.android.tractiondemo.views,ColorView,init,Magic Number,The method contains a magic number: 50,51
+traction.mvc-BETA,ni3po42.android.tractiondemo.views,ColorView,init,Magic Number,The method contains a magic number: 50,51
+traction.mvc-BETA,ni3po42.android.tractiondemo.views,SwipeEntryView,init,Magic Number,The method contains a magic number: 0xFFCCCCCC,67
+traction.mvc-BETA,ni3po42.android.tractiondemo.views,SwipeEntryView,onUpdate,Magic Number,The method contains a magic number: 0xFFCCCCCC,70
+traction.mvc-BETA,ni3po42.android.tractiondemo.views,SwipeEntryView,onLeftSwipe,Magic Number,The method contains a magic number: 250,79
+traction.mvc-BETA,ni3po42.android.tractiondemo.views,SwipeEntryView,onAnimationEnd,Magic Number,The method contains a magic number: 250,95
+traction.mvc-BETA,ni3po42.android.tractiondemo.views,SwipeEntryView,onAnimationEnd,Magic Number,The method contains a magic number: 0xFFCCCCCC,95
+traction.mvc-BETA,ni3po42.android.tractiondemo.views,SwipableListView,getSwipedByHitTest,Magic Number,The method contains a magic number: 2,113
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanFireCommand,Magic Number,The method contains a magic number: 3141,79
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanNotFireCommand,Magic Number,The method contains a magic number: 3141,99
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindSimpleObjectTrackerElements,Magic Number,The method contains a magic number: 3141,119
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindSimpleObjectTrackerElements,Magic Number,The method contains a magic number: 3141,119
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_1Deep_NullByDefault,Magic Number,The method contains a magic number: 3141,136
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_1Deep_NullByDefault,Magic Number,The method contains a magic number: 3141,136
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_1Deep_NotNullByDefault,Magic Number,The method contains a magic number: 3141,158
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_1Deep_NotNullByDefault,Magic Number,The method contains a magic number: 3141,158
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_2Deep_NotNullByDefault,Magic Number,The method contains a magic number: 3141,177
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_2Deep_NotNullByDefault,Magic Number,The method contains a magic number: 3141,177
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_multipleProps_NotNullByDefault,Magic Number,The method contains a magic number: 1001,197
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_multipleProps_NotNullByDefault,Magic Number,The method contains a magic number: 2002,197
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_multipleProps_NotNullByDefault,Magic Number,The method contains a magic number: 3003,197
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_multipleProps_NotNullByDefault,Magic Number,The method contains a magic number: 1001,197
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_multipleProps_NotNullByDefault,Magic Number,The method contains a magic number: 2002,197
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanBindObjectTrackerElements_multipleProps_NotNullByDefault,Magic Number,The method contains a magic number: 3003,197
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanMergeBindingInventories,Magic Number,The method contains a magic number: 1001,229
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanMergeBindingInventories,Magic Number,The method contains a magic number: 2002,229
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanMergeBindingInventories,Magic Number,The method contains a magic number: 3003,229
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanMergeBindingInventories,Magic Number,The method contains a magic number: 1001,229
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanMergeBindingInventories,Magic Number,The method contains a magic number: 2002,229
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,testCanMergeBindingInventories,Magic Number,The method contains a magic number: 3003,229
+traction.mvc-BETA,traction.mvc.tests,TestBindingInventory,onExecuted,Empty catch clause,The method has an empty catch block.,320
+traction.mvc-BETA,traction.mvc.tests,biObj,onExecuted,Empty catch clause,The method has an empty catch block.,320
+traction.mvc-BETA,traction.mvc.tests,TestViewFactory,setProps,Empty catch clause,The method has an empty catch block.,294
+traction.mvc-BETA,traction.mvc.tests,TestViewFactory,loadConfigs,Empty catch clause,The method has an empty catch block.,315
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testObservablePropertiesSignalObservableMap,Magic Number,The method contains a magic number: 3141,112
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testObservablePropertiesSignalObservableMap,Magic Number,The method contains a magic number: 2,112
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testObservablePropertiesSignalObservableMapWithCorrectObj,Magic Number,The method contains a magic number: 3141,135
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testObservablePropertiesSignalObservableMapWithCorrectObj,Magic Number,The method contains a magic number: 18,135
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testObservablePropertiesSignalObservableMapWithCorrectObj,Magic Number,The method contains a magic number: 2,135
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testCanClearAll,Magic Number,The method contains a magic number: 3141,155
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testCanClearAll,Magic Number,The method contains a magic number: 18,155
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testCanClearAll,Magic Number,The method contains a magic number: 3,155
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testCanRemoveByKey,Magic Number,The method contains a magic number: 3141,178
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testCanPutAll,Magic Number,The method contains a magic number: 3141,202
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testCanPutAll,Magic Number,The method contains a magic number: 18,202
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testCanPutAll,Magic Number,The method contains a magic number: 2,202
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testPutAllReplacesExistingKeys,Magic Number,The method contains a magic number: 3141,226
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testPutAllReplacesExistingKeys,Magic Number,The method contains a magic number: 18,226
+traction.mvc-BETA,traction.mvc.tests,TestObservableMap,testPutAllReplacesExistingKeys,Magic Number,The method contains a magic number: 2,226
+traction.mvc-BETA,traction.mvc.tests,TestObservableCursor,testCanGetProperty,Magic Number,The method contains a magic number: 10,70
+traction.mvc-BETA,traction.mvc.tests,TestObservableCursor,testCanGetProperty,Magic Number,The method contains a magic number: 10,70
+traction.mvc-BETA,traction.mvc.tests,TestObservableCursor,testCanGetProperty,Magic Number,The method contains a magic number: 10,70
+traction.mvc-BETA,traction.mvc.tests,TestObservableCursor,testCanGetProperty,Magic Number,The method contains a magic number: 654,70
+traction.mvc-BETA,traction.mvc.tests,TestObservableCursor,testCanGetProperty,Magic Number,The method contains a magic number: 654,70
+traction.mvc-BETA,traction.mvc.observables,CursorAdapter,newView,Long Statement,The length of the statement "throw new IllegalStateException("Possible child view not marked 'IsRoot'. Templates of AdapterViews must be marked 'IsRoot' = true.");" is 134.,77
+traction.mvc-BETA,traction.mvc.observables,ObservableCursor,getCursor,Long Statement,The length of the statement "if (internalCursorAdapter != null && internalCursorAdapter.isCursorAdapterValid()) return internalCursorAdapter.getCursor();" is 124.,54
+traction.mvc-BETA,traction.mvc.observables,ObservableCursor,get,Complex Method,Cyclomatic complexity of the method is 10,267
+traction.mvc-BETA,traction.mvc.observables,ObservableCursor,getProperty,Complex Conditional,The conditional expression internalCursorAdapter == null || internalCursorAdapter.getCursor() == null || internalCursorAdapter.getCursor().isClosed() is complex.,312
+traction.mvc-BETA,traction.mvc.observables,ObservableCursor,getProperty,Complex Method,Cyclomatic complexity of the method is 10,312
+traction.mvc-BETA,traction.mvc.observables,ObservableCursor,getProperty,Long Statement,The length of the statement "if (internalCursorAdapter == null || internalCursorAdapter.getCursor() == null || internalCursorAdapter.getCursor().isClosed()) return null;" is 140.,312
+traction.mvc-BETA,traction.mvc.observables,cursorPropAccessor,get,Complex Method,Cyclomatic complexity of the method is 10,267
+traction.mvc-BETA,traction.mvc.observables,internalCursorWrapper,getProperty,Complex Conditional,The conditional expression internalCursorAdapter == null || internalCursorAdapter.getCursor() == null || internalCursorAdapter.getCursor().isClosed() is complex.,312
+traction.mvc-BETA,traction.mvc.observables,internalCursorWrapper,getProperty,Complex Method,Cyclomatic complexity of the method is 10,312
+traction.mvc-BETA,traction.mvc.observables,internalCursorWrapper,getProperty,Long Statement,The length of the statement "if (internalCursorAdapter == null || internalCursorAdapter.getCursor() == null || internalCursorAdapter.getCursor().isClosed()) return null;" is 140.,312
+traction.mvc-BETA,traction.mvc.observables,Command,getProperty,Long Statement,The length of the statement "if (name.equals("CanExecute") && getSource() != null) return (Property<Object`Object>)Property.of(getSource().getClass()`c`name);" is 129.,60
+traction.mvc-BETA,traction.mvc.observables,PropertyStore,find,Complex Conditional,The conditional expression ms[ii].getName().equals("set" + name) && ms[ii].getParameterTypes() != null && ms[ii].getParameterTypes().length == 1 is complex.,59
+traction.mvc-BETA,traction.mvc.observables,PropertyStore,find,Complex Method,Cyclomatic complexity of the method is 8,59
+traction.mvc-BETA,traction.mvc.observables,PropertyStore,find,Empty catch clause,The method has an empty catch block.,59
+traction.mvc-BETA,traction.mvc.observables,PropertyStore,find,Empty catch clause,The method has an empty catch block.,59
+traction.mvc-BETA,traction.mvc.observables,PropertyStore,find,Empty catch clause,The method has an empty catch block.,59
+traction.mvc-BETA,traction.mvc.observables,PropertyStore,find,Long Statement,The length of the statement "if (ms[ii].getName().equals("set" + name) && ms[ii].getParameterTypes() != null && ms[ii].getParameterTypes().length == 1) {" is 124.,59
+traction.mvc-BETA,traction.mvc.observables,ObservableMap,getProperty,Long Statement,The length of the statement "properties.put(name`new internalProperty((Class<Object>)ObservableMap.this.internalMap.get(name).getClass()`name`false));" is 121.,63
+traction.mvc-BETA,traction.mvc.observables,ObservableMap,remove,Long Statement,The length of the statement "((IProxyObservableObject)obj).getProxyObservableObject().getObservable().unregisterListener(String.valueOf(key)`getProxyObservableObject());" is 140.,207
+traction.mvc-BETA,traction.mvc.observables,internalStore,getProperty,Long Statement,The length of the statement "properties.put(name`new internalProperty((Class<Object>)ObservableMap.this.internalMap.get(name).getClass()`name`false));" is 121.,63
+traction.mvc-BETA,traction.mvc.observables,ScopeBuilder,CreateScope,Long Statement,The length of the statement "return Proxy.newProxyInstance(scopeInterface.getClassLoader()`new Class[]{scopeInterface`IProxyObservableObject.class`IPOJO.class}`new internalScope(scopeInterface));" is 166.,18
+traction.mvc-BETA,traction.mvc.observables,ScopeBuilder,invoke,Complex Method,Cyclomatic complexity of the method is 17,38
+traction.mvc-BETA,traction.mvc.observables,ScopeBuilder,invoke,Long Statement,The length of the statement "return proxy.getClass().getName() + "@" + Integer.toHexString(System.identityHashCode(proxy))+ "` with InvocationHandler "+ this;" is 129.,38
+traction.mvc-BETA,traction.mvc.observables,ScopeBuilder,invoke,Long Statement,The length of the statement "if (!name.equals("getProxyObservableObject")) throw new IllegalStateException("only 'getProxyObservableObject' may be called on 'IProxyObservableObject'.");" is 156.,38
+traction.mvc-BETA,traction.mvc.observables,ScopeBuilder,invoke,Long Statement,The length of the statement "if (Collection.class.isAssignableFrom(method.getReturnType()) || Iterable.class.isAssignableFrom(method.getReturnType())) {" is 123.,38
+traction.mvc-BETA,traction.mvc.observables,ScopeBuilder,invoke,Magic Number,The method contains a magic number: 3,38
+traction.mvc-BETA,traction.mvc.observables,ScopeBuilder,invoke,Magic Number,The method contains a magic number: 2,38
+traction.mvc-BETA,traction.mvc.observables,ScopeBuilder,invoke,Magic Number,The method contains a magic number: 3,38
+traction.mvc-BETA,traction.mvc.observables,internalScope,invoke,Complex Method,Cyclomatic complexity of the method is 17,38
+traction.mvc-BETA,traction.mvc.observables,internalScope,invoke,Long Statement,The length of the statement "return proxy.getClass().getName() + "@" + Integer.toHexString(System.identityHashCode(proxy))+ "` with InvocationHandler "+ this;" is 129.,38
+traction.mvc-BETA,traction.mvc.observables,internalScope,invoke,Long Statement,The length of the statement "if (!name.equals("getProxyObservableObject")) throw new IllegalStateException("only 'getProxyObservableObject' may be called on 'IProxyObservableObject'.");" is 156.,38
+traction.mvc-BETA,traction.mvc.observables,internalScope,invoke,Long Statement,The length of the statement "if (Collection.class.isAssignableFrom(method.getReturnType()) || Iterable.class.isAssignableFrom(method.getReturnType())) {" is 123.,38
+traction.mvc-BETA,traction.mvc.observables,internalScope,invoke,Magic Number,The method contains a magic number: 3,38
+traction.mvc-BETA,traction.mvc.observables,internalScope,invoke,Magic Number,The method contains a magic number: 2,38
+traction.mvc-BETA,traction.mvc.observables,internalScope,invoke,Magic Number,The method contains a magic number: 3,38
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,sendUpdate,Complex Conditional,The conditional expression (propertyCurrentValue != null && !propertyCurrentValue.equals(value)) || (propertyCurrentValue == null && value != null) is complex.,232
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,sendUpdate,Complex Method,Cyclomatic complexity of the method is 10,232
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,sendUpdate,Long Statement,The length of the statement "if ((propertyCurrentValue != null && !propertyCurrentValue.equals(value)) || (propertyCurrentValue == null && value != null)) prop.set(currentContext`value);" is 157.,232
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,sendUpdate,Magic Number,The method contains a magic number: 2,232
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,getInventoryByMatchedPattern,Complex Conditional,The conditional expression up != null && up.length() == 1 && up.equals("\\") is complex.,281
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,generalDereferencedValue,Magic Number,The method contains a magic number: 2,297
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,dereferencePropertyType,Complex Method,Cyclomatic complexity of the method is 9,361
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,dereferencePropertyType,Long Statement,The length of the statement "if (path != null && path.equals(".")) return context.getProxyObservableObject().getSource() == null ? null : context.getProxyObservableObject().getSource().getClass();" is 167.,361
+traction.mvc-BETA,traction.mvc.observables,BindingInventory,dereferencePropertyType,Magic Number,The method contains a magic number: 2,361
+traction.mvc-BETA,traction.mvc.observables,ObservableObject,unregisterListener,Complex Conditional,The conditional expression listener == null || !tracableListeners.containsKey(listener) || !tracableListeners.get(listener).contains(sourceName) is complex.,54
+traction.mvc-BETA,traction.mvc.observables,ObservableObject,unregisterListener,Long Statement,The length of the statement "if (listener == null || !tracableListeners.containsKey(listener) || !tracableListeners.get(listener).contains(sourceName)) return;" is 130.,54
+traction.mvc-BETA,traction.mvc.observables,ListAdapter,getView,Long Statement,The length of the statement "throw new IllegalStateException("Possible child view not marked 'IsRoot'. Templates of AdapterViews must be marked 'IsRoot' = true.");" is 134.,63
+traction.mvc-BETA,traction.mvc.implementations.ui.menubinding,MenuBinding,MenuBinding,Empty catch clause,The method has an empty catch block.,47
+traction.mvc-BETA,traction.mvc.implementations.ui.menubinding,MenuBinding,MenuBinding,Empty catch clause,The method has an empty catch block.,47
+traction.mvc-BETA,traction.mvc.implementations.ui.menubinding,MenuBinding,initialise,Empty catch clause,The method has an empty catch block.,71
+traction.mvc-BETA,traction.mvc.implementations.ui.menubinding,MenuInflater,inflate,Complex Method,Cyclomatic complexity of the method is 11,59
+traction.mvc-BETA,traction.mvc.implementations.ui,UIEvent,initialize,Long Statement,The length of the statement "if (parentViewBinding.getPathPrefix() != null) this.paths[i]=parentViewBinding.getPathPrefix() + "." + tempPaths.getString(i);" is 126.,116
+traction.mvc-BETA,traction.mvc.implementations.ui,UIEvent,execute,Long Statement,The length of the statement "if (baseArg == null && parentViewBinding != null) baseArg=new CommandArgument(getPropertyName(i)`parentViewBinding.getTagProperties());" is 135.,194
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,NumberPickerBinding,NumberPickerBinding,Complex Conditional,The conditional expression tempValue != null && tempValue <= getWidget().getMaxValue() && tempValue >= getWidget().getMinValue() && tempValue != getWidget().getValue() is complex.,42
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,NumberPickerBinding,NumberPickerBinding,Complex Conditional,The conditional expression tempValue != null && tempValue <= getWidget().getMaxValue() && tempValue >= getWidget().getMinValue() is complex.,42
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,NumberPickerBinding,NumberPickerBinding,Long Statement,The length of the statement "if (tempValue != null && tempValue <= getWidget().getMaxValue() && tempValue >= getWidget().getMinValue() && tempValue != getWidget().getValue()) {" is 147.,42
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,NumberPickerBinding,onUpdate,Complex Conditional,The conditional expression tempValue != null && tempValue <= getWidget().getMaxValue() && tempValue >= getWidget().getMinValue() && tempValue != getWidget().getValue() is complex.,50
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,NumberPickerBinding,onUpdate,Long Statement,The length of the statement "if (tempValue != null && tempValue <= getWidget().getMaxValue() && tempValue >= getWidget().getMinValue() && tempValue != getWidget().getValue()) {" is 147.,50
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,NumberPickerBinding,onUpdate,Complex Conditional,The conditional expression tempValue != null && tempValue <= getWidget().getMaxValue() && tempValue >= getWidget().getMinValue() is complex.,76
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ProgressBarBinding,ProgressBarBinding,Magic Number,The method contains a magic number: 100,40
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ProgressBarBinding,onUpdate,Magic Number,The method contains a magic number: 100,44
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,TextViewBinding,TextViewBinding,Complex Method,Cyclomatic complexity of the method is 12,48
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,TextViewBinding,onUpdate,Complex Method,Cyclomatic complexity of the method is 11,73
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,TextViewBinding,afterTextChanged,Complex Method,Cyclomatic complexity of the method is 13,141
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,TextViewBinding,afterTextChanged,Empty catch clause,The method has an empty catch block.,141
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,TextViewBinding,afterTextChanged,Empty catch clause,The method has an empty catch block.,141
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,TextViewBinding,afterTextChanged,Empty catch clause,The method has an empty catch block.,141
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,DatePickerBinding,DatePickerBinding,Magic Number,The method contains a magic number: 1970,58
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,DatePickerBinding,onUpdate,Magic Number,The method contains a magic number: 1970,62
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,DatePickerBinding,initialise,Magic Number,The method contains a magic number: 1970,102
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,DatePickerBinding,detachBindings,Magic Number,The method contains a magic number: 1970,110
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,getMetaData,Empty catch clause,The method has an empty catch block.,60
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,GenericUIBindedProperty,Complex Conditional,The conditional expression viewProperty == null || viewProperty.isReadOnly() || getWidget() == null is complex.,99
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,onUpdate,Complex Conditional,The conditional expression viewProperty == null || viewProperty.isReadOnly() || getWidget() == null is complex.,105
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,initialize,Long Statement,The length of the statement "viewProperty=(Property<Object`Object>)PropertyStore.find(getGenericBindingSource().getClass()`this.pathAttribute.trim());" is 121.,118
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,initialize,Complex Method,Cyclomatic complexity of the method is 9,145
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,initialize,Empty catch clause,The method has an empty catch block.,145
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,initialize,Long Statement,The length of the statement "if (parentViewBinding.getPathPrefix() != null) this.paths[i]=parentViewBinding.getPathPrefix() + "." + tempPaths.getString(i);" is 126.,145
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,clearProxyListener,Empty catch clause,The method has an empty catch block.,223
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,initialise,Complex Method,Cyclomatic complexity of the method is 8,241
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ViewBindingHelper,initialise,Empty catch clause,The method has an empty catch block.,241
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,GenericUIBindedProperty,GenericUIBindedProperty,Complex Conditional,The conditional expression viewProperty == null || viewProperty.isReadOnly() || getWidget() == null is complex.,99
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,GenericUIBindedProperty,onUpdate,Complex Conditional,The conditional expression viewProperty == null || viewProperty.isReadOnly() || getWidget() == null is complex.,105
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,GenericUIBindedProperty,initialize,Long Statement,The length of the statement "viewProperty=(Property<Object`Object>)PropertyStore.find(getGenericBindingSource().getClass()`this.pathAttribute.trim());" is 121.,118
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,GenericUIBindedEvent,initialize,Complex Method,Cyclomatic complexity of the method is 9,145
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,GenericUIBindedEvent,initialize,Empty catch clause,The method has an empty catch block.,145
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,GenericUIBindedEvent,initialize,Long Statement,The length of the statement "if (parentViewBinding.getPathPrefix() != null) this.paths[i]=parentViewBinding.getPathPrefix() + "." + tempPaths.getString(i);" is 126.,145
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,GenericUIBindedEvent,clearProxyListener,Empty catch clause,The method has an empty catch block.,223
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ImageViewBinding,ImageViewBinding,Complex Method,Cyclomatic complexity of the method is 8,43
+traction.mvc-BETA,traction.mvc.implementations.ui.viewbinding,ImageViewBinding,onUpdate,Complex Method,Cyclomatic complexity of the method is 8,47
+traction.mvc-BETA,traction.mvc.implementations,ViewFactory,onCreateView,Complex Method,Cyclomatic complexity of the method is 15,99
+traction.mvc-BETA,traction.mvc.implementations,ViewFactory,onCreateView,Empty catch clause,The method has an empty catch block.,99
+traction.mvc-BETA,traction.mvc.implementations,ViewFactory,onCreateView,Long Identifier,The length of the identifier hasParentViewBindingButIgnoreChildrenFlag is 41.,99
+traction.mvc-BETA,traction.mvc.implementations,ViewFactory,onCreateView,Long Statement,The length of the statement "boolean hasParentViewBindingButIgnoreChildrenFlag=(parentViewBinding != null && parentViewBinding.getProxyViewBinding() != null && IViewBinding.Flags.hasFlags(parentViewBinding.getProxyViewBinding().getBindingFlags()`IViewBinding.Flags.IGNORE_CHILDREN));" is 254.,99
+traction.mvc-BETA,traction.mvc.implementations,ViewFactory,onCreateView,Long Statement,The length of the statement "String prefix=(parentViewBinding == null || parentViewBinding.getProxyViewBinding() == null ? null : parentViewBinding.getProxyViewBinding().getPathPrefix());" is 158.,99
+traction.mvc-BETA,traction.mvc.implementations,ViewFactory,onCreateView,Long Statement,The length of the statement "BindingInventory inv=(parentViewBinding == null || parentViewBinding.getProxyViewBinding() == null) ? null : parentViewBinding.getProxyViewBinding().getBindingInventory();" is 171.,99
+traction.mvc-BETA,traction.mvc.implementations,ViewFactory,updateScope,Long Statement,The length of the statement "if (scope instanceof IProxyObservableObject && ((IProxyObservableObject)scope).getProxyObservableObject() != null) ((IProxyObservableObject)scope).getProxyObservableObject().notifyListener();" is 191.,270
+traction.mvc-BETA,traction.mvc.implementations,ViewBindingFactory,createSyntheticFor,Long Statement,The length of the statement "if (viewBinding != null && viewBinding.getProxyViewBinding() != null) viewBinding.getProxyViewBinding().markAsSynthetic(inventory);" is 131.,74
+traction.mvc-BETA,traction.mvc.implementations,ViewBindingFactory,createViewBinding,Complex Method,Cyclomatic complexity of the method is 8,89
+traction.mvc-BETA,traction.mvc.controllers,ControllerHelper,getMetaData,Empty catch clause,The method has an empty catch block.,238

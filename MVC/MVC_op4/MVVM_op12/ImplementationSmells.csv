@@ -1,0 +1,164 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection,DetectorTest,setUp,Long Statement,The length of the statement "detector=TFLiteObjectDetectionAPIModel.create(InstrumentationRegistry.getInstrumentation().getContext()`MODEL_FILE`LABELS_FILE`MODEL_INPUT_SIZE`IS_MODEL_QUANTIZED);" is 164.,62
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection,DetectorTest,setUp,Long Statement,The length of the statement "frameToCropTransform=ImageUtils.getTransformationMatrix(previewWidth`previewHeight`cropSize`cropSize`sensorOrientation`false);" is 126.,62
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection,DetectorTest,detectionResultsShouldNotChange,Complex Conditional,The conditional expression item.getTitle().equals(target.getTitle()) && matchBoundingBoxes(bbox`target.getLocation()) && matchConfidence(item.getConfidence()`target.getConfidence()) is complex.,86
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection,DetectorTest,detectionResultsShouldNotChange,Long Statement,The length of the statement "if (item.getTitle().equals(target.getTitle()) && matchBoundingBoxes(bbox`target.getLocation()) && matchConfidence(item.getConfidence()`target.getConfidence())) {" is 161.,86
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection,DetectorTest,matchConfidence,Magic Number,The method contains a magic number: 0.01,111
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection,DetectorTest,matchBoundingBoxes,Magic Number,The method contains a magic number: 0.9,116
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection,DetectorTest,matchBoundingBoxes,Magic Number,The method contains a magic number: 0.9,116
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,initNavigationBar,Long Statement,The length of the statement "getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);" is 124.,52
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,initNavigationBar,Magic Number,The method contains a magic number: 21,52
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,initNavigationBar,Magic Number,The method contains a magic number: 2,52
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,initNavigationBar,Missing default,The following switch statement is missing a default case: switch (position) {,52
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,onNavigationChanged,Magic Number,The method contains a magic number: 2,71
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,onNavigationChanged,Missing default,The following switch statement is missing a default case: switch (position) {,71
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,initSpeedDialFloatingButton,Long Statement,The length of the statement "speedDialView.addActionItem(new SpeedDialActionItem.Builder(R.id.fab_study`R.drawable.ic_study).setLabel("Study Mode").create());" is 129.,89
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,initSpeedDialFloatingButton,Long Statement,The length of the statement "speedDialView.addActionItem(new SpeedDialActionItem.Builder(R.id.fab_exam`R.drawable.ic_exam).setLabel("Exam Mode").create());" is 126.,89
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords,MainActivity,initSpeedDialFloatingButton,Missing default,The following switch statement is missing a default case: switch (actionItem.getId()) {,89
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords.adapter,IncorrectWordAdapter,setProgressBar,Magic Number,The method contains a magic number: 100,76
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords.adapter,IncorrectWordAdapter,setProgressBar,Magic Number,The method contains a magic number: 100,76
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords.adapter,IncorrectWordViewHolder,setProgressBar,Magic Number,The method contains a magic number: 100,76
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords.adapter,IncorrectWordViewHolder,setProgressBar,Magic Number,The method contains a magic number: 100,76
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords.adapter,CorrectWordAdapter,setProgressBar,Magic Number,The method contains a magic number: 100,74
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords.adapter,CorrectWordAdapter,setProgressBar,Magic Number,The method contains a magic number: 100,74
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords.adapter,CorrectWordViewHolder,setProgressBar,Magic Number,The method contains a magic number: 100,74
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.listwords.adapter,CorrectWordViewHolder,setProgressBar,Magic Number,The method contains a magic number: 100,74
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.utils,BottomBarBehavior,onStartNestedScroll,Long Parameter List,The method has 5 parameters. ,24
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.utils,BottomBarBehavior,onNestedScroll,Long Parameter List,The method has 7 parameters. ,31
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.utils,BottomBarBehavior,slideUp,Magic Number,The method contains a magic number: 200,42
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.frontend.utils,BottomBarBehavior,slideDown,Magic Number,The method contains a magic number: 200,48
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.utils,PopupView,showDefinition,Magic Number,The method contains a magic number: 2,80
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.utils,PopupView,showDefinition,Missing default,The following switch statement is missing a default case: switch (s.get(i)) {,80
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.question,QuestionHandler,generateQuestion,Magic Number,The method contains a magic number: 3,22
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.question,QuestionHandler,generateQuestion,Magic Number,The method contains a magic number: 2,22
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.question,QuestionHandler,generateQuestion,Missing default,The following switch statement is missing a default case: switch (questionType) {,22
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.data.local,AppRoomDatabase,getDatabase,Long Statement,The length of the statement "INSTANCE=Room.databaseBuilder(context.getApplicationContext()`AppRoomDatabase.class`"smartenglish_databasse").fallbackToDestructiveMigration().addCallback(sOnOpenCallback).build();" is 180.,25
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.data.model,Word,Word,Long Parameter List,The method has 5 parameters. ,26
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.data.model,Word,Word,Long Parameter List,The method has 5 parameters. ,33
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.data.model,Word,Word,Magic Number,The method contains a magic number: 2,33
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.data.model,Word,setWordType,Magic Number,The method contains a magic number: 2,84
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,onPreviewSizeChosen,Long Statement,The length of the statement "final float textSizePx=TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`TEXT_SIZE_DIP`getResources().getDisplayMetrics());" is 127.,110
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,onPreviewSizeChosen,Long Statement,The length of the statement "detector=TFLiteObjectDetectionAPIModel.create(this`TF_OD_API_MODEL_FILE`TF_OD_API_LABELS_FILE`TF_OD_API_INPUT_SIZE`TF_OD_API_IS_QUANTIZED);" is 139.,110
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,onPreviewSizeChosen,Long Statement,The length of the statement "frameToCropTransform=ImageUtils.getTransformationMatrix(previewWidth`previewHeight`cropSize`cropSize`sensorOrientation`MAINTAIN_ASPECT);" is 136.,110
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,processImage,Complex Method,Cyclomatic complexity of the method is 9,173
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,processImage,Magic Number,The method contains a magic number: 2.0f,173
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,showAnimation,Magic Number,The method contains a magic number: 1000,317
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,showAnimation,Magic Number,The method contains a magic number: 50,317
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,showAnimation,Magic Number,The method contains a magic number: 1000,317
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,showAnimation,Magic Number,The method contains a magic number: 50,317
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorActivity,showAnimation,Magic Number,The method contains a magic number: 1000,317
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraConnectionFragment,openCamera,Magic Number,The method contains a magic number: 2500,365
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraConnectionFragment,createCameraPreviewSession,Long Statement,The length of the statement "cameraDevice.createCaptureSession(Arrays.asList(surface`previewReader.getSurface())`new CameraCaptureSession.StateCallback(){" is 125.,425
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraConnectionFragment,createCameraPreviewSession,Magic Number,The method contains a magic number: 2,425
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraConnectionFragment,configureTransform,Complex Conditional,The conditional expression null == textureView || null == previewSize || null == activity is complex.,494
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraConnectionFragment,configureTransform,Magic Number,The method contains a magic number: 90,494
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraConnectionFragment,configureTransform,Magic Number,The method contains a magic number: 2,494
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraConnectionFragment,configureTransform,Magic Number,The method contains a magic number: 180,494
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraConnectionFragment,onCreateDialog,Long Statement,The length of the statement "return new AlertDialog.Builder(activity).setMessage(getArguments().getString(ARG_MESSAGE)).setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 167.,558
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,ErrorDialog,onCreateDialog,Long Statement,The length of the statement "return new AlertDialog.Builder(activity).setMessage(getArguments().getString(ARG_MESSAGE)).setPositiveButton(android.R.string.ok`new DialogInterface.OnClickListener(){" is 167.,558
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 9,109
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,onPreviewFrame,Magic Number,The method contains a magic number: 90,218
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,onImageAvailable,Long Statement,The length of the statement "ImageUtils.convertYUV420ToARGB8888(yuvBytes[0]`yuvBytes[1]`yuvBytes[2]`previewWidth`previewHeight`yRowStride`uvRowStride`uvPixelStride`rgbBytes);" is 145.,266
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,onImageAvailable,Magic Number,The method contains a magic number: 2,266
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,run,Long Statement,The length of the statement "ImageUtils.convertYUV420ToARGB8888(yuvBytes[0]`yuvBytes[1]`yuvBytes[2]`previewWidth`previewHeight`yRowStride`uvRowStride`uvPixelStride`rgbBytes);" is 145.,297
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,run,Magic Number,The method contains a magic number: 2,297
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,chooseCamera,Long Statement,The length of the statement "useCamera2API=(facing == CameraCharacteristics.LENS_FACING_EXTERNAL) || isHardwareLevelSupported(characteristics`CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL_FULL);" is 171.,418
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,setFragment,Long Statement,The length of the statement "CameraConnectionFragment camera2Fragment=CameraConnectionFragment.newInstance(new CameraConnectionFragment.ConnectionCallback(){" is 128.,455
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,getScreenOrientation,Magic Number,The method contains a magic number: 270,508
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,getScreenOrientation,Magic Number,The method contains a magic number: 180,508
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,getScreenOrientation,Magic Number,The method contains a magic number: 90,508
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,CameraActivity,getScreenOrientation,Missing default,The following switch statement is missing a default case: switch (getWindowManager().getDefaultDisplay().getRotation()) {,508
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,LegacyCameraConnectionFragment,startCamera,Magic Number,The method contains a magic number: 90,155
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorViewModel,distance,Magic Number,The method contains a magic number: 2,45
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorViewModel,distance,Magic Number,The method contains a magic number: 2,45
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.camera,DetectorViewModel,answerWrong,Magic Number,The method contains a magic number: 3,53
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,Size,getRotatedSize,Magic Number,The method contains a magic number: 180,44
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,Size,parseFromString,Magic Number,The method contains a magic number: 2,59
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,Size,hashCode,Magic Number,The method contains a magic number: 32713,133
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getYUVByteSize,Magic Number,The method contains a magic number: 2,33
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getYUVByteSize,Magic Number,The method contains a magic number: 2,33
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getYUVByteSize,Magic Number,The method contains a magic number: 2,33
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,saveBitmap,Magic Number,The method contains a magic number: 99,57
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,convertYUV420SPToARGB8888,Magic Number,The method contains a magic number: 0xff,87
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,convertYUV420SPToARGB8888,Magic Number,The method contains a magic number: 0xff,87
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,convertYUV420SPToARGB8888,Magic Number,The method contains a magic number: 0xff,87
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 16,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 16,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 128,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 128,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 1192,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 1634,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 833,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 400,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 2066,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 0xff000000,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 6,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 0xff0000,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 2,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 0xff00,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 10,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,YUV2RGB,Magic Number,The method contains a magic number: 0xff,106
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,convertYUV420ToARGB8888,Long Parameter List,The method has 9 parameters. ,130
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,convertYUV420ToARGB8888,Magic Number,The method contains a magic number: 0xff,130
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,convertYUV420ToARGB8888,Magic Number,The method contains a magic number: 0xff,130
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,convertYUV420ToARGB8888,Magic Number,The method contains a magic number: 0xff,130
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getTransformationMatrix,Long Parameter List,The method has 6 parameters. ,153
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getTransformationMatrix,Magic Number,The method contains a magic number: 90,153
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getTransformationMatrix,Magic Number,The method contains a magic number: 2.0f,153
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getTransformationMatrix,Magic Number,The method contains a magic number: 2.0f,153
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getTransformationMatrix,Magic Number,The method contains a magic number: 90,153
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getTransformationMatrix,Magic Number,The method contains a magic number: 180,153
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getTransformationMatrix,Magic Number,The method contains a magic number: 2.0f,153
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,ImageUtils,getTransformationMatrix,Magic Number,The method contains a magic number: 2.0f,153
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,BorderedText,BorderedText,Magic Number,The method contains a magic number: 255,44
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,BorderedText,BorderedText,Magic Number,The method contains a magic number: 8,44
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,BorderedText,BorderedText,Magic Number,The method contains a magic number: 255,44
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,BorderedText,drawText,Long Parameter List,The method has 5 parameters. ,81
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.env,BorderedText,drawText,Magic Number,The method contains a magic number: 160,81
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,MultiBoxTracker,Long Statement,The length of the statement "textSizePx=TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`TEXT_SIZE_DIP`context.getResources().getDisplayMetrics());" is 123.,86
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,MultiBoxTracker,Magic Number,The method contains a magic number: 10.0f,86
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,MultiBoxTracker,Magic Number,The method contains a magic number: 100,86
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,drawDebug,Magic Number,The method contains a magic number: 60.0f,120
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,drawDebug,Magic Number,The method contains a magic number: 200,120
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Long Statement,The length of the statement "final float multiplier=Math.min(canvas.getHeight() / (float)(rotated ? frameWidth : frameHeight)`canvas.getWidth() / (float)(rotated ? frameHeight : frameWidth));" is 162.,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Long Statement,The length of the statement "frameToCanvasMatrix=ImageUtils.getTransformationMatrix(frameWidth`frameHeight`(int)(multiplier * (rotated ? frameHeight : frameWidth))`(int)(multiplier * (rotated ? frameWidth : frameHeight))`sensorOrientation`false);" is 217.,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Long Statement,The length of the statement "String labelString=!TextUtils.isEmpty(recognition.title) ? String.format(Locale.getDefault()`"%s %.2f"`recognition.title`(100 * recognition.detectionConfidence)) : String.format(Locale.getDefault()`"%.2f"`(100 * recognition.detectionConfidence));" is 246.,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Magic Number,The method contains a magic number: 180,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Magic Number,The method contains a magic number: 90,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Magic Number,The method contains a magic number: 8.0f,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Magic Number,The method contains a magic number: 100,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Magic Number,The method contains a magic number: 100,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Magic Number,The method contains a magic number: 2,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,draw,Magic Number,The method contains a magic number: 2,147
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tracking,MultiBoxTracker,updateStorageObject,Long Statement,The length of the statement "Map.Entry<String`Float> lowestObject=Collections.min(storageObject.entrySet()`(t1`t2) -> t1.getValue().compareTo(t2.getValue()));" is 129.,258
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.customview,RecognitionScoreView,RecognitionScoreView,Magic Number,The method contains a magic number: 0xcc4285f4,36
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.customview,RecognitionScoreView,onDraw,Magic Number,The method contains a magic number: 10,55
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.customview,RecognitionScoreView,onDraw,Magic Number,The method contains a magic number: 1.5f,55
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.customview,RecognitionScoreView,onDraw,Magic Number,The method contains a magic number: 1.5f,55
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,Detector,toString,Magic Number,The method contains a magic number: 100.0f,83
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,Recognition,toString,Magic Number,The method contains a magic number: 100.0f,83
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,create,Long Parameter List,The method has 5 parameters. ,104
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,create,Long Statement,The length of the statement "try (BufferedReader br=new BufferedReader(new InputStreamReader(metadata.getAssociatedFile(labelFilename)`Charset.defaultCharset()))){" is 134.,104
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,create,Magic Number,The method contains a magic number: 4,104
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,create,Magic Number,The method contains a magic number: 3,104
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,create,Magic Number,The method contains a magic number: 4,104
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Long Statement,The length of the statement "final RectF detection=new RectF(outputLocations[0][i][1] * inputSize`outputLocations[0][i][0] * inputSize`outputLocations[0][i][3] * inputSize`outputLocations[0][i][2] * inputSize);" is 181.,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 16,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 0xFF,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 8,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 0xFF,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 0xFF,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 16,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 0xFF,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 8,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 0xFF,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 0xFF,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 4,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 2,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 3,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 3,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Magic Number,The method contains a magic number: 2,166
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,Detector,toString,Magic Number,The method contains a magic number: 100.0f,83
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,Recognition,toString,Magic Number,The method contains a magic number: 100.0f,83
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,create,Long Parameter List,The method has 5 parameters. ,63
+CSC13009_Final-master,com.hcmus.csc13009.smartenglish.detection.tflite,TFLiteObjectDetectionAPIModel,recognizeImage,Long Statement,The length of the statement "recognitions.add(new Recognition("" + cnt++`detection.getCategories().get(0).getLabel()`detection.getCategories().get(0).getScore()`detection.getBoundingBox()));" is 161.,91

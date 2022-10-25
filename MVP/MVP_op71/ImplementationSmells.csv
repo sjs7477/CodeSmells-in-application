@@ -1,0 +1,180 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+56_VVideo-master,com.mark.vvideo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+56_VVideo-master,com.mark.vvideo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+56_VVideo-master,com.mark.vvideo,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+56_VVideo-master,com.mark.vvideo.bilibili.adapter,CartoonAdapter,onBindData,Long Statement,The length of the statement "mHolder.setImageUrlToSimpleDraweeView(R.id.id_dv`item.getPic()).setText(R.id.id_tv_title`item.getTitle()).setText(R.id.id_tv_play_num`Utils.parseNumber(item.getPlay())).setText(R.id.id_tv_fav_num`Utils.parseNumber(item.getFavorites()));" is 236.,34
+56_VVideo-master,com.mark.vvideo.bilibili.adapter,CartoonAdapter,onBindData,Magic Number,The method contains a magic number: 5f,34
+56_VVideo-master,com.mark.vvideo.bilibili.adapter,CartoonAdapter,onBindData,Magic Number,The method contains a magic number: 5f,34
+56_VVideo-master,com.mark.vvideo.bilibili.adapter,CommentAdapter,onBindData,Long Statement,The length of the statement "mHolder.setImageUrlToSimpleDraweeView(R.id.id_simpleDraweeView`item.getFace()).setText(R.id.id_tv_name`item.getNick()).setText(R.id.id_tv_float`"#" + item.getLv()).setText(R.id.id_tv_time`TimeUtils.getDateDiff(item.getCreate_at()`new SimpleDateFormat("yyyy-MM-dd HH:mm"))).setText(R.id.id_tv_reply_num`item.getReply_count() + "").setText(R.id.id_tv_support_num`item.getGood() + "").setImageResource(R.id.id_iv_level`lv[item.getLevel_info().getCurrent_level()]).setText(R.id.id_tv_msg`item.getMsg());" is 499.,45
+56_VVideo-master,com.mark.vvideo.bilibili.adapter,HostCommentAdapter,onBindData,Long Statement,The length of the statement "mHolder.setImageUrlToSimpleDraweeView(R.id.id_simpleDraweeView`item.getFace()).setText(R.id.id_tv_name`item.getNick()).setText(R.id.id_tv_float`"#" + item.getLv()).setText(R.id.id_tv_time`TimeUtils.getDateDiff(item.getCreate_at()`new SimpleDateFormat("yyyy-MM-dd HH:mm"))).setText(R.id.id_tv_reply_num`item.getReply_count() + "").setText(R.id.id_tv_support_num`item.getGood() + "").setImageResource(R.id.id_iv_level`lv[item.getLevel_info().getCurrent_level()]).setText(R.id.id_tv_msg`item.getMsg());" is 499.,40
+56_VVideo-master,com.mark.vvideo.bilibili.adapter,ReplyCommentAdapter,onBindData,Long Statement,The length of the statement "mHolder.setText(R.id.id_tv_name`item.getNick()).setText(R.id.id_tv_msg`item.getMsg()).setText(R.id.id_tv_time`TimeUtils.getDateDiff(item.getCreate_at()`new SimpleDateFormat("yyyy-MM-dd HH:mm")));" is 195.,31
+56_VVideo-master,com.mark.vvideo.bilibili.contract,CommentContract,getComments,Long Parameter List,The method has 5 parameters. ,23
+56_VVideo-master,com.mark.vvideo.bilibili.contract,Presenter,getComments,Long Parameter List,The method has 5 parameters. ,23
+56_VVideo-master,com.mark.vvideo.bilibili.model.entry,Introduction,toString,Long Statement,The length of the statement "return "Introduction{" + "ListBean=" + ListBean + "` tid="+ tid+ "` typename='"+ typename+ '\''+ "` arctype='"+ arctype+ '\''+ "` play='"+ play+ '\''+ "` review='"+ review+ '\''+ "` videoReview='"+ videoReview+ '\''+ "` favorites='"+ favorites+ '\''+ "` title='"+ title+ '\''+ "` description='"+ description+ '\''+ "` tag='"+ tag+ '\''+ "` pic='"+ pic+ '\''+ "` author='"+ author+ '\''+ "` mid='"+ mid+ '\''+ "` face='"+ face+ '\''+ "` pages="+ pages+ "` createdAt='"+ createdAt+ '\''+ "` coins='"+ coins+ '\''+ '}';" is 516.,305
+56_VVideo-master,com.mark.vvideo.bilibili.model.iface,IComment,getComments,Long Parameter List,The method has 5 parameters. ,18
+56_VVideo-master,com.mark.vvideo.bilibili.model.iface,IComment,getAllComments,Long Parameter List,The method has 5 parameters. ,20
+56_VVideo-master,com.mark.vvideo.bilibili.model.impl,CommentImpl,getComments,Long Parameter List,The method has 5 parameters. ,26
+56_VVideo-master,com.mark.vvideo.bilibili.model.impl,CommentImpl,getAllComments,Long Parameter List,The method has 5 parameters. ,31
+56_VVideo-master,com.mark.vvideo.bilibili.presenter,AllRankPresenter,setPagerTitle,Long Statement,The length of the statement "Subscription s=mAllRank.getAllRank().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Observer<List<AllRank>>(){" is 148.,37
+56_VVideo-master,com.mark.vvideo.bilibili.presenter,CommentPresenter,getComments,Long Parameter List,The method has 5 parameters. ,48
+56_VVideo-master,com.mark.vvideo.bilibili.presenter,CommentPresenter,getComments,Long Statement,The length of the statement "Subscription s=mIComment.getComments(aid`page`pageSize`ver`order).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Subscriber<Comment>(){" is 173.,48
+56_VVideo-master,com.mark.vvideo.bilibili.presenter,IntroductionPresenter,getIntroduction,Long Statement,The length of the statement "Subscription subscription=mIntroduction.getVideoIntroduction(aid).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).map(new Func1<String`Introduction>(){" is 174.,47
+56_VVideo-master,com.mark.vvideo.bilibili.presenter,IntroductionPresenter,getVideoInfo,Long Statement,The length of the statement "Subscription subscription=mIntroduction.getVideoInfo(cid).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Subscriber<VideoInfo>(){" is 167.,113
+56_VVideo-master,com.mark.vvideo.bilibili.presenter,IntroductionPresenter,getDanmuInfo,Long Statement,The length of the statement "Subscription subscription=mIntroduction.getDanmuInfo(cid).observeOn(AndroidSchedulers.mainThread()).subscribe(new Subscriber<BaseDanmakuParser>(){" is 146.,137
+56_VVideo-master,com.mark.vvideo.bilibili.view,CartoonFragment,initView,Magic Number,The method contains a magic number: 2,71
+56_VVideo-master,com.mark.vvideo.bilibili.view,DetailActivity,onResume,Complex Conditional,The conditional expression mDanmukuView != null && mDanmukuView.isPrepared() && mDanmukuView.isPaused() is complex.,279
+56_VVideo-master,com.mark.vvideo.bilibili.view,DetailActivity,onChangeListener,Long Statement,The length of the statement "CoordinatorLayout.LayoutParams mProtraitLayoutParams=new CoordinatorLayout.LayoutParams(CoordinatorLayout.LayoutParams.MATCH_PARENT`SizeUtils.dp2px(this`200));" is 159.,403
+56_VVideo-master,com.mark.vvideo.bilibili.view,DetailActivity,onChangeListener,Long Statement,The length of the statement "CoordinatorLayout.LayoutParams mProtraitLayoutParams=new CoordinatorLayout.LayoutParams(ScreenUtils.getScreenWidth(this)`ScreenUtils.getScreenHeight(this));" is 156.,403
+56_VVideo-master,com.mark.vvideo.bilibili.view,DetailActivity,onChangeListener,Magic Number,The method contains a magic number: 200,403
+56_VVideo-master,com.mark.vvideo.douyutv.adapter,AllLiveAdapter,onBindData,Long Statement,The length of the statement "mHolder.setImageUrlToSimpleDraweeView(R.id.id_room_img`item.getRoom_src()).setText(R.id.id_tv_room_name`item.getRoom_name()).setText(R.id.id_tv_nickname`item.getNickname()).setText(R.id.id_tv_category`item.getGame_name()).setText(R.id.id_tv_online_num`Utils.parseNumber(item.getOnline()) + "人在观看");" is 306.,33
+56_VVideo-master,com.mark.vvideo.douyutv.model.entry,AllLive,toString,Long Statement,The length of the statement "return "DataBean{" + "room_id='" + room_id + '\''+ "` room_src='"+ room_src+ '\''+ "` vertical_src='"+ vertical_src+ '\''+ "` isVertical="+ isVertical+ "` cate_id='"+ cate_id+ '\''+ "` room_name='"+ room_name+ '\''+ "` show_status='"+ show_status+ '\''+ "` subject='"+ subject+ '\''+ "` show_time='"+ show_time+ '\''+ "` owner_uid='"+ owner_uid+ '\''+ "` specific_catalog='"+ specific_catalog+ '\''+ "` specific_status='"+ specific_status+ '\''+ "` vod_quality='"+ vod_quality+ '\''+ "` nickname='"+ nickname+ '\''+ "` online="+ online+ "` url='"+ url+ '\''+ "` game_url='"+ game_url+ '\''+ "` game_name='"+ game_name+ '\''+ "` child_id='"+ child_id+ '\''+ "` avatar='"+ avatar+ '\''+ "` avatar_mid='"+ avatar_mid+ '\''+ "` avatar_small='"+ avatar_small+ '\''+ "` fans='"+ fans+ '\''+ "` ranktype="+ ranktype+ "` anchor_city='"+ anchor_city+ '\''+ '}';" is 852.,287
+56_VVideo-master,com.mark.vvideo.douyutv.model.entry,Data,toString,Long Statement,The length of the statement "return "DataBean{" + "room_id='" + room_id + '\''+ "` room_src='"+ room_src+ '\''+ "` vertical_src='"+ vertical_src+ '\''+ "` isVertical="+ isVertical+ "` cate_id='"+ cate_id+ '\''+ "` room_name='"+ room_name+ '\''+ "` show_status='"+ show_status+ '\''+ "` subject='"+ subject+ '\''+ "` show_time='"+ show_time+ '\''+ "` owner_uid='"+ owner_uid+ '\''+ "` specific_catalog='"+ specific_catalog+ '\''+ "` specific_status='"+ specific_status+ '\''+ "` vod_quality='"+ vod_quality+ '\''+ "` nickname='"+ nickname+ '\''+ "` online="+ online+ "` url='"+ url+ '\''+ "` game_url='"+ game_url+ '\''+ "` game_name='"+ game_name+ '\''+ "` child_id='"+ child_id+ '\''+ "` avatar='"+ avatar+ '\''+ "` avatar_mid='"+ avatar_mid+ '\''+ "` avatar_small='"+ avatar_small+ '\''+ "` fans='"+ fans+ '\''+ "` ranktype="+ ranktype+ "` anchor_city='"+ anchor_city+ '\''+ '}';" is 852.,287
+56_VVideo-master,com.mark.vvideo.douyutv.presenter,AllLivePresenter,getAllLives,Long Statement,The length of the statement "Subscription subscription=mAllLive.getAllLives(limit`offest).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Subscriber<AllLive>(){" is 168.,47
+56_VVideo-master,com.mark.vvideo.douyutv.view,AllLiveFragment,initRecyclerView,Magic Number,The method contains a magic number: 20,79
+56_VVideo-master,com.mark.vvideo.douyutv.view,AllLiveFragment,onLoadMore,Magic Number,The method contains a magic number: 20,93
+56_VVideo-master,com.mark.vvideo.network.api,BiliApi,getComments,Long Parameter List,The method has 5 parameters. ,32
+56_VVideo-master,com.mark.vvideo.network.api,BiliApi,getAllComments,Long Parameter List,The method has 5 parameters. ,36
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,createOkHttpClient,Long Identifier,The length of the field REWRITE_CACHE_CONTROL_INTERCEPTOR is 33.,55
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,createOkHttpClient,Magic Number,The method contains a magic number: 15,55
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,createOkHttpClient,Magic Number,The method contains a magic number: 20,55
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,createOkHttpClient,Magic Number,The method contains a magic number: 20,55
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,getBiliApi,Long Statement,The length of the statement "mHostBiliApi=new Retrofit.Builder().baseUrl("http://bilibili-service.daoapp.io").addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).client(createOkHttpClient()).build().create(BiliApi.class);" is 248.,74
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,getBiliApiWithNoGson,Long Statement,The length of the statement "mBiliApiWithNoGson=new Retrofit.Builder().baseUrl("http://bilibili-service.daoapp.io").addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(ScalarsConverterFactory.create()).client(createOkHttpClient()).build().create(BiliApi.class);" is 257.,95
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,getBiliApiDanmu,Long Statement,The length of the statement "mBiliApiDanmu=new Retrofit.Builder().baseUrl("http://comment.bilibili.com").addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(ScalarsConverterFactory.create()).client(createOkHttpClient()).build().create(BiliApi.class);" is 246.,116
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,getHostBiliApi,Long Statement,The length of the statement "mBiliApi=new Retrofit.Builder().baseUrl("http://api.bilibili.cn").addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).client(createOkHttpClient()).build().create(BiliApi.class);" is 233.,138
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,getDouyuApi,Long Statement,The length of the statement "mDouyuApi=new Retrofit.Builder().baseUrl("http://capi.douyucdn.cn/").addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).client(createOkHttpClient()).build().create(DouyuApi.class);" is 237.,160
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,intercept,Long Statement,The length of the statement "return originalResponse.newBuilder().removeHeader("Pragma").removeHeader("Cache-Control").header("Cache-Control"`"public` max-age=" + maxAge).build();" is 150.,181
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,intercept,Long Statement,The length of the statement "return originalResponse.newBuilder().removeHeader("Pragma").removeHeader("Cache-Control").header("Cache-Control"`"public` only-if-cached` max-stale=" + maxStale).build();" is 170.,181
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,intercept,Magic Number,The method contains a magic number: 60,181
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,intercept,Magic Number,The method contains a magic number: 60,181
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,intercept,Magic Number,The method contains a magic number: 60,181
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,intercept,Magic Number,The method contains a magic number: 24,181
+56_VVideo-master,com.mark.vvideo.network,RetrofitManager,intercept,Magic Number,The method contains a magic number: 28,181
+56_VVideo-master,com.mark.vvideo.util,Utils,parseNumber,Magic Number,The method contains a magic number: 1000,23
+56_VVideo-master,com.mark.vvideo.util,Utils,parseNumber,Magic Number,The method contains a magic number: 10000,23
+56_VVideo-master,com.mark.vvideo.util,Utils,parseNumber,Magic Number,The method contains a magic number: 10000,23
+56_VVideo-master,com.mark.vvideo.util,Utils,parseNumber,Magic Number,The method contains a magic number: 1000,23
+56_VVideo-master,com.mark.vvideo.util,Utils,getUrl,Long Statement,The length of the statement "mBuilder.append(mBaseUrl).append("room/").append(str).append(URL_PARAM).append(time).append("&auth=").append(getMD5String(time`str));" is 133.,50
+56_VVideo-master,com.mark.vvideo.util,Utils,getUrl,Magic Number,The method contains a magic number: 1000,50
+56_VVideo-master,com.mark.vvideo.util,Utils,decompressXML,Magic Number,The method contains a magic number: 2,65
+56_VVideo-master,com.mark.vvideo.util,Utils,decompressXML,Magic Number,The method contains a magic number: 2,65
+56_VVideo-master,com.mark.vvideo.util,Utils,decompressXML,Magic Number,The method contains a magic number: 0x78,65
+56_VVideo-master,com.mark.vvideo.util,Utils,decompressXML,Magic Number,The method contains a magic number: 1024,65
+56_VVideo-master,com.mark.vvideo.util,Utils,decompressXML,Magic Number,The method contains a magic number: 1024,65
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,initView,Magic Number,The method contains a magic number: 1000,91
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,onClick,Complex Method,Cyclomatic complexity of the method is 8,144
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,onProgressChanged,Magic Number,The method contains a magic number: 1000L,175
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,onStartTrackingTouch,Magic Number,The method contains a magic number: 36000000,190
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,setProgress,Magic Number,The method contains a magic number: 1000L,209
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,setProgress,Magic Number,The method contains a magic number: 10,209
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,stringForTime,Magic Number,The method contains a magic number: 1000,235
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,stringForTime,Magic Number,The method contains a magic number: 60,235
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,stringForTime,Magic Number,The method contains a magic number: 60,235
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,stringForTime,Magic Number,The method contains a magic number: 60,235
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,stringForTime,Magic Number,The method contains a magic number: 3600,235
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,handleMessage,Magic Number,The method contains a magic number: 1000,260
+56_VVideo-master,com.mark.vvideo.widget.media,CustomMediaController,handleMessage,Magic Number,The method contains a magic number: 1000,260
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,setRender,Missing default,The following switch statement is missing a default case: switch (render) {,202
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,openVideo,Complex Conditional,The conditional expression Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && mSettings.getUsingMediaDataSource() && (TextUtils.isEmpty(scheme) || scheme.equalsIgnoreCase("file")) is complex.,283
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,openVideo,Long Statement,The length of the statement "if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && mSettings.getUsingMediaDataSource() && (TextUtils.isEmpty(scheme) || scheme.equalsIgnoreCase("file"))) {" is 158.,283
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onVideoSizeChanged,Long Parameter List,The method has 5 parameters. ,374
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onPrepared,Complex Conditional,The conditional expression !mRenderView.shouldWaitForResize() || mSurfaceWidth == mVideoWidth && mSurfaceHeight == mVideoHeight is complex.,391
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onPrepared,Complex Conditional,The conditional expression !isPlaying() && (seekToPosition != 0 || getCurrentPosition() > 0) is complex.,391
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onPrepared,Complex Method,Cyclomatic complexity of the method is 12,391
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onInfo,Complex Method,Cyclomatic complexity of the method is 15,462
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onError,Long Statement,The length of the statement "new AlertDialog.Builder(getContext()).setMessage(messageId).setPositiveButton(R.string.VideoView_error_button`new DialogInterface.OnClickListener(){" is 148.,513
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onSurfaceChanged,Complex Conditional,The conditional expression mMediaPlayer != null && isValidState && hasValidSize is complex.,635
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onKeyDown,Complex Conditional,The conditional expression isInPlaybackState() && isKeyCodeSupported && mMediaController != null is complex.,722
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onKeyDown,Complex Method,Cyclomatic complexity of the method is 8,722
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,onKeyDown,Long Statement,The length of the statement "boolean isKeyCodeSupported=keyCode != KeyEvent.KEYCODE_BACK && keyCode != KeyEvent.KEYCODE_VOLUME_UP && keyCode != KeyEvent.KEYCODE_VOLUME_DOWN && keyCode != KeyEvent.KEYCODE_VOLUME_MUTE && keyCode != KeyEvent.KEYCODE_MENU && keyCode != KeyEvent.KEYCODE_CALL && keyCode != KeyEvent.KEYCODE_ENDCALL;" is 298.,722
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,isInPlaybackState,Long Statement,The length of the statement "return (mMediaPlayer != null && mCurrentState != STATE_ERROR && mCurrentState != STATE_IDLE && mCurrentState != STATE_PREPARING);" is 129.,840
+56_VVideo-master,com.mark.vvideo.widget.media,IjkVideoView,createPlayer,Magic Number,The method contains a magic number: 48,901
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,setMediaPlayer,Magic Number,The method contains a magic number: 500,48
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedDurationMilli,Magic Number,The method contains a magic number: 1000,57
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedDurationMilli,Magic Number,The method contains a magic number: 1000,57
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSpeed,Magic Number,The method contains a magic number: 1000.f,65
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSpeed,Magic Number,The method contains a magic number: 1000,65
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSpeed,Magic Number,The method contains a magic number: 1000,65
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSpeed,Magic Number,The method contains a magic number: 1000,65
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSpeed,Magic Number,The method contains a magic number: 1000,65
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSpeed,Magic Number,The method contains a magic number: 1000,65
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSpeed,Magic Number,The method contains a magic number: 1000,65
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSize,Magic Number,The method contains a magic number: 100,92
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSize,Magic Number,The method contains a magic number: 1000,92
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSize,Magic Number,The method contains a magic number: 1000,92
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSize,Magic Number,The method contains a magic number: 1000,92
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSize,Magic Number,The method contains a magic number: 100,92
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,formatedSize,Magic Number,The method contains a magic number: 1000,92
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,handleMessage,Complex Method,Cyclomatic complexity of the method is 9,104
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,handleMessage,Long Statement,The length of the statement "setRowValue(R.string.v_cache`String.format(Locale.US`"%s` %s"`formatedDurationMilli(videoCachedDuration)`formatedSize(videoCachedBytes)));" is 138.,104
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,handleMessage,Long Statement,The length of the statement "setRowValue(R.string.a_cache`String.format(Locale.US`"%s` %s"`formatedDurationMilli(audioCachedDuration)`formatedSize(audioCachedBytes)));" is 138.,104
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,handleMessage,Magic Number,The method contains a magic number: 1000,104
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,handleMessage,Magic Number,The method contains a magic number: 1000f,104
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,handleMessage,Magic Number,The method contains a magic number: 500,104
+56_VVideo-master,com.mark.vvideo.widget.media,InfoHudViewHolder,handleMessage,Missing default,The following switch statement is missing a default case: switch (vdec) {,104
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Complex Method,Cyclomatic complexity of the method is 30,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Long Method,The method has 116 lines of code.,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 90,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 270,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 16.0f,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 9.0f,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 90,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 270,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 4.0f,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 3.0f,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 90,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Magic Number,The method contains a magic number: 270,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Missing default,The following switch statement is missing a default case: switch (mCurrentAspectRatio) {,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,doMeasure,Missing default,The following switch statement is missing a default case: switch (mCurrentAspectRatio) {,67
+56_VVideo-master,com.mark.vvideo.widget.media,MeasureHelper,getAspectRatioText,Missing default,The following switch statement is missing a default case: switch (aspectRatio) {,220
+56_VVideo-master,com.mark.vvideo.widget.media,TextureRenderView,releaseSurfaceTexture,Complex Method,Cyclomatic complexity of the method is 10,306
+56_VVideo-master,com.mark.vvideo.widget.media,SurfaceCallback,releaseSurfaceTexture,Complex Method,Cyclomatic complexity of the method is 10,306
+56_VVideo-master,com.mvp.library,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,11
+56_VVideo-master,com.mvp.library,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+56_VVideo-master,com.mvp.library,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,11
+56_VVideo-master,com.mvp.library.utils,AppUtils,AppInfo,Long Parameter List,The method has 7 parameters. ,133
+56_VVideo-master,com.mvp.library.utils,AppInfo,AppInfo,Long Parameter List,The method has 7 parameters. ,133
+56_VVideo-master,com.mvp.library.utils,EncryptUtils,getMD5File,Empty catch clause,The method has an empty catch block.,90
+56_VVideo-master,com.mvp.library.utils,EncryptUtils,bytes2Hex,Magic Number,The method contains a magic number: 4,155
+56_VVideo-master,com.mvp.library.utils,EncryptUtils,bytes2Hex,Magic Number,The method contains a magic number: 0x0f,155
+56_VVideo-master,com.mvp.library.utils,EncryptUtils,bytes2Hex,Magic Number,The method contains a magic number: 0x0f,155
+56_VVideo-master,com.mvp.library.utils,KeyboardUtils,scrollTo,Magic Number,The method contains a magic number: 300,139
+56_VVideo-master,com.mvp.library.utils,NetworkUtils,openWirelessSettings,Magic Number,The method contains a magic number: 10,27
+56_VVideo-master,com.mvp.library.utils,NetworkUtils,getNetWorkType,Complex Conditional,The conditional expression subtypeName.equalsIgnoreCase("TD-SCDMA") || subtypeName.equalsIgnoreCase("WCDMA") || subtypeName.equalsIgnoreCase("CDMA2000") is complex.,131
+56_VVideo-master,com.mvp.library.utils,NetworkUtils,getNetWorkType,Complex Method,Cyclomatic complexity of the method is 23,131
+56_VVideo-master,com.mvp.library.utils,NetworkUtils,getNetWorkType,Long Statement,The length of the statement "if (subtypeName.equalsIgnoreCase("TD-SCDMA") || subtypeName.equalsIgnoreCase("WCDMA") || subtypeName.equalsIgnoreCase("CDMA2000")) {" is 132.,131
+56_VVideo-master,com.mvp.library.utils,NetworkUtils,getNetWorkType,Missing default,The following switch statement is missing a default case: switch (info.getSubtype()) {,131
+56_VVideo-master,com.mvp.library.utils,NetworkUtils,getNetWorkTypeName,Missing default,The following switch statement is missing a default case: switch (getNetWorkType(context)) {,201
+56_VVideo-master,com.mvp.library.utils,PhoneUtils,getAllContactInfo,Magic Number,The method contains a magic number: 3000,138
+56_VVideo-master,com.mvp.library.utils,PhoneUtils,getAllSMS,Magic Number,The method contains a magic number: 1000,235
+56_VVideo-master,com.mvp.library.utils,PhoneUtils,getAllSMS,Magic Number,The method contains a magic number: 2,235
+56_VVideo-master,com.mvp.library.utils,PhoneUtils,getAllSMS,Magic Number,The method contains a magic number: 3,235
+56_VVideo-master,com.mvp.library.utils,ScreenUtils,showNotificationBar,Long Statement,The length of the statement "String methodName=(Build.VERSION.SDK_INT <= 16) ? "expand" : (isSettingPanel ? "expandSettingsPanel" : "expandNotificationsPanel");" is 131.,126
+56_VVideo-master,com.mvp.library.utils,ScreenUtils,showNotificationBar,Magic Number,The method contains a magic number: 16,126
+56_VVideo-master,com.mvp.library.utils,ScreenUtils,hideNotificationBar,Magic Number,The method contains a magic number: 16,139
+56_VVideo-master,com.mvp.library.utils,ShellUtils,execCmd,Complex Method,Cyclomatic complexity of the method is 11,85
+56_VVideo-master,com.mvp.library.utils,ShellUtils,execCmd,Long Statement,The length of the statement "return new CommandResult(result`successMsg == null ? null : successMsg.toString()`errorMsg == null ? null : errorMsg.toString());" is 129.,85
+56_VVideo-master,com.mvp.library.utils,SizeUtils,dp2px,Magic Number,The method contains a magic number: 0.5f,18
+56_VVideo-master,com.mvp.library.utils,SizeUtils,px2dp,Magic Number,The method contains a magic number: 0.5f,30
+56_VVideo-master,com.mvp.library.utils,SizeUtils,sp2px,Magic Number,The method contains a magic number: 0.5f,42
+56_VVideo-master,com.mvp.library.utils,SizeUtils,px2sp,Magic Number,The method contains a magic number: 0.5f,54
+56_VVideo-master,com.mvp.library.utils,SizeUtils,applyDimension,Magic Number,The method contains a magic number: 72,66
+56_VVideo-master,com.mvp.library.utils,SizeUtils,applyDimension,Magic Number,The method contains a magic number: 25.4f,66
+56_VVideo-master,com.mvp.library.utils,TimeUtils,isLeapYear,Magic Number,The method contains a magic number: 4,472
+56_VVideo-master,com.mvp.library.utils,TimeUtils,isLeapYear,Magic Number,The method contains a magic number: 100,472
+56_VVideo-master,com.mvp.library.utils,TimeUtils,isLeapYear,Magic Number,The method contains a magic number: 400,472
+56_VVideo-master,com.mvp.library.utils,TimeUtils,getDateDiff,Magic Number,The method contains a magic number: 24,482
+56_VVideo-master,com.mvp.library.utils,TimeUtils,getDateDiff,Magic Number,The method contains a magic number: 24,482
+56_VVideo-master,com.mvp.library.utils,TimeUtils,getDateDiff,Magic Number,The method contains a magic number: 60,482
+56_VVideo-master,com.mvp.library.utils,UnclassifiedUtils,isRunningService,Magic Number,The method contains a magic number: 1000,17
+56_VVideo-master,com.mvp.library.utils,UnclassifiedUtils,htmlEscape,Long Statement,The length of the statement "return html.replaceAll("&"`"&amp;").replaceAll("<"`"&lt;").replaceAll(">"`"&gt;").replaceAll(" "`"&nbsp;").replaceAll("'"`"&#39;").replaceAll("\""`"&quot;").replaceAll("\n"`"<br/>");" is 182.,40
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,PagerSlidingTabStrip,Long Statement,The length of the statement "mTabTextColor=a.hasValue(R.styleable.PagerSlidingTabStrip_pstsTabTextColor) ? a.getColorStateList(R.styleable.PagerSlidingTabStrip_pstsTabTextColor) : null;" is 156.,118
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,PagerSlidingTabStrip,Long Statement,The length of the statement "mTabTextColor=createColorStateList(textPrimaryColor`textPrimaryColor`Color.argb(tabTextAlpha`Color.red(textPrimaryColor)`Color.green(textPrimaryColor)`Color.blue(textPrimaryColor)));" is 182.,118
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,PagerSlidingTabStrip,Long Statement,The length of the statement "mTabLayoutParams=isExpandTabs ? new LinearLayout.LayoutParams(0`LayoutParams.MATCH_PARENT`1.0f) : new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT`LayoutParams.MATCH_PARENT);" is 181.,118
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,scrollToChild,Magic Number,The method contains a magic number: 2,291
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,onLayout,Complex Conditional,The conditional expression isPaddingMiddle || mPaddingLeft > 0 || mPaddingRight > 0 is complex.,330
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,onLayout,Long Parameter List,The method has 5 parameters. ,330
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,onLayout,Magic Number,The method contains a magic number: 2,330
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,onLayout,Magic Number,The method contains a magic number: 2,330
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,onLayout,Magic Number,The method contains a magic number: 2,330
+56_VVideo-master,com.astuetz,PagerSlidingTabStrip,createColorStateList,Long Statement,The length of the statement "return new ColorStateList(new int[][]{new int[]{android.R.attr.state_pressed}`new int[]{android.R.attr.state_selected}`new int[]{}}`new int[]{color_state_pressed`color_state_selected`color_state_default});" is 205.,751

@@ -1,0 +1,218 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveViewBehaviorTests,uploadNoInternet,Long Statement,The length of the statement "onView(withText(R.string.internet_error)).inRoot(withDecorView(not(is(mActivityRule.getActivity().getWindow().getDecorView())))).check(matches(isDisplayed()));" is 159.,133
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveViewBehaviorTests,checkTestCasesWhenCodeDoesNotCompile,Long Statement,The length of the statement "onView(withRecyclerView(R.id.recyclerView).atPositionOnView(0`R.id.testcase)).check(matches(withText("Compile Error(s)")));" is 123.,170
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveViewBehaviorTests,testCaseAt,Long Parameter List,The method has 7 parameters. ,198
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveViewBehaviorTests,testCaseAt,Long Statement,The length of the statement "onView(withRecyclerView(R.id.recyclerView).atPositionOnView(position`R.id.expectedOutput)).check(matches(withText(expectedOutput)));" is 132.,198
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveActivity,codeCompiled,Complex Conditional,The conditional expression result != null && !passed && numberPassedTestCases == 0 && result.size() > 0 && result.get(0).isCompileError() is complex.,226
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveActivity,codeCompiled,Long Statement,The length of the statement "updateResultTabTitle(String.format(getResources().getString(R.string.passed_test_cases)`numberPassedTestCases`puzzle.answers.length));" is 134.,226
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveActivity,showDialog,Long Statement,The length of the statement "builder.title(String.format(getResources().getString(R.string.points).replaceAll("\n"`" ")`puzzle.points)).customView(likeView`false);" is 134.,269
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveActivity,showcaseStep2Clicked,Magic Number,The method contains a magic number: 2500,395
+DebugRank-master,com.grapecity.debugrank.ui.solve,SolveActivity,showShowcase,Long Statement,The length of the statement "compileShowcaseView=new ShowcaseView.Builder(this).withNewStyleShowcase().setStyle(R.style.CustomShowcaseTheme2).setTarget(viewTarget).setContentTitle(titleResId).setContentText(descriptionResId).replaceEndButton(button).build();" is 229.,429
+DebugRank-master,com.grapecity.debugrank.ui.languages,LanguagesViewBehaviorTests,seeIfToolbarSet,Long Statement,The length of the statement "onView(allOf(withId(R.id.bugs)`withParent(withId(R.id.toolbarBugPointsTimer)))).check(matches(withText(String.valueOf(aggregatedBugsPoints.bugs))));" is 148.,66
+DebugRank-master,com.grapecity.debugrank.ui.languages,LanguagesViewBehaviorTests,seeIfToolbarSet,Long Statement,The length of the statement "onView(allOf(withId(R.id.points)`withParent(withId(R.id.toolbarBugPointsTimer)))).check(matches(withText(String.valueOf(aggregatedBugsPoints.points))));" is 152.,66
+DebugRank-master,com.grapecity.debugrank.ui.languages,LanguagesViewBehaviorTests,listProgrammingLanguages,Long Statement,The length of the statement "onView(withRecyclerView(R.id.recyclerView).atPositionOnView(position`R.id.languageName)).check(matches(withText(language.name)));" is 129.,112
+DebugRank-master,com.grapecity.debugrank.ui.languages,LanguagesViewBehaviorTests,listProgrammingLanguages,Long Statement,The length of the statement "onView(withRecyclerView(R.id.recyclerView).atPositionOnView(position`R.id.languageIcon)).check(mockDrawable(language.key));" is 123.,112
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesViewBehaviorTests,seeIfToolbarSet,Long Statement,The length of the statement "onView(allOf(withId(R.id.bugs)`withParent(withId(R.id.toolbarBugPointsTimer)))).check(matches(withText(String.valueOf(aggregatedBugsPoints.bugs))));" is 148.,68
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesViewBehaviorTests,seeIfToolbarSet,Long Statement,The length of the statement "onView(allOf(withId(R.id.points)`withParent(withId(R.id.toolbarBugPointsTimer)))).check(matches(withText(String.valueOf(aggregatedBugsPoints.points))));" is 152.,68
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesViewBehaviorTests,listPuzzles,Long Statement,The length of the statement "onView(withRecyclerView(R.id.recyclerView).atPositionOnView(position`R.id.puzzleName)).check(matches(withText(puzzle.name)));" is 125.,126
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesViewBehaviorTests,listPuzzles,Long Statement,The length of the statement "onView(withRecyclerView(R.id.recyclerView).atPositionOnView(position`R.id.points)).check(matches(withText(String.format("%d\npoints"`puzzle.points))));" is 151.,126
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesViewBehaviorTests,listPuzzles,Long Statement,The length of the statement "onView(withRecyclerView(R.id.recyclerView).atPositionOnView(position`R.id.minutes)).check(matches(withText(String.format("%d:00\nminutes"`(int)Math.round(puzzle.time / 60)))));" is 176.,126
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesViewBehaviorTests,listPuzzles,Long Statement,The length of the statement "onView(withRecyclerView(R.id.recyclerView).atPositionOnView(position`R.id.bugs)).check(matches(withText(String.format("%d\nbugs"`puzzle.bugs))));" is 145.,126
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesViewBehaviorTests,listPuzzles,Magic Number,The method contains a magic number: 60,126
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesViewBehaviorTests,viewSolvePuzzle,Magic Number,The method contains a magic number: 2,165
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,PuzzlesAdapter,bind,Magic Number,The method contains a magic number: 60,78
+DebugRank-master,com.grapecity.debugrank.ui.puzzles,ViewHolderItem,bind,Magic Number,The method contains a magic number: 60,78
+DebugRank-master,com.grapecity.debugrank,TestMyApp,onCreate,Long Statement,The length of the statement "TestMyAppComponent testMyAppComponent=DaggerTestMyAppComponent.builder().appModule(getAppModule()).netModule(getNetModule(""`"")).repositoryModule(getRepositoryModule()).build();" is 178.,39
+DebugRank-master,com.grapecity.debugrank,MyApp,onCreate,Long Statement,The length of the statement "languagesComponent=DaggerLanguagesComponent.builder().appModule(appModule).netModule(netModule).repositoryModule(repositoryModule).languagesModule(languagesModule).build();" is 172.,40
+DebugRank-master,com.grapecity.debugrank,MyApp,onCreate,Long Statement,The length of the statement "puzzlesComponent=DaggerPuzzlesComponent.builder().appModule(appModule).netModule(netModule).repositoryModule(repositoryModule).puzzlesModule(puzzlesModule).build();" is 164.,40
+DebugRank-master,com.grapecity.debugrank,MyApp,onCreate,Long Statement,The length of the statement "solveComponent=DaggerSolveComponent.builder().appModule(appModule).solveModule(solveModule).netModule(netModule).build();" is 121.,40
+DebugRank-master,com.grapecity.debugrank,MyApp,onCreate,Long Statement,The length of the statement "solveCodeComponent=DaggerSolveCodeComponent.builder().appModule(appModule).netModule(netModule).repositoryModule(repositoryModule).solveCodeModule(solveCodeModule).build();" is 172.,40
+DebugRank-master,com.grapecity.debugrank,MyApp,onCreate,Long Statement,The length of the statement "solveResultComponent=DaggerSolveResultComponent.builder().appModule(appModule).netModule(netModule).repositoryModule(repositoryModule).solveResultModule(solveResultModule).build();" is 180.,40
+DebugRank-master,com.grapecity.debugrank.injection.module,NetModule,provideOkHttpCache,Magic Number,The method contains a magic number: 10,62
+DebugRank-master,com.grapecity.debugrank.injection.module,NetModule,provideOkHttpCache,Magic Number,The method contains a magic number: 1024,62
+DebugRank-master,com.grapecity.debugrank.injection.module,NetModule,provideOkHttpCache,Magic Number,The method contains a magic number: 1024,62
+DebugRank-master,com.grapecity.debugrank.injection.module,NetModule,provideRetrofit,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create(gson)).baseUrl(mBaseUrl).client(okHttpClient).build();" is 200.,78
+DebugRank-master,com.grapecity.debugrank.injection.module,NetModule,provideRetrofit2,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().addCallAdapterFactory(RxJavaCallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create(gson)).baseUrl(mBaseUrl2).client(okHttpClient).build();" is 201.,92
+DebugRank-master,com.grapecity.debugrank.injection.module,NetModule,provideRetrofitRaw,Long Statement,The length of the statement "Retrofit retrofit=new Retrofit.Builder().addCallAdapterFactory(RxJavaCallAdapterFactory.create()).baseUrl(mBaseUrl).client(okHttpClient).build();" is 145.,106
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,setUp,Long Statement,The length of the statement "RealmConfiguration config=new RealmConfiguration.Builder(getContext()).schemaVersion(1).name("test.realm").inMemory().build();" is 126.,39
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,setUp,Magic Number,The method contains a magic number: 2,39
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,setUp,Magic Number,The method contains a magic number: 3,39
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,setUp,Magic Number,The method contains a magic number: 2,39
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,setUp,Magic Number,The method contains a magic number: 4,39
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,setUp,Magic Number,The method contains a magic number: 5,39
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,setUp,Magic Number,The method contains a magic number: 6,39
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,testLoadAggregatedBugsPoints,Magic Number,The method contains a magic number: 5,76
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,testLoadAggregatedBugsPoints,Magic Number,The method contains a magic number: 9,76
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,testLoadAggregatedBugsPointsForLanguage,Magic Number,The method contains a magic number: 3,96
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepositoryTests,testLoadCompletedPuzzles,Magic Number,The method contains a magic number: 3,118
+DebugRank-master,com.grapecity.debugrank.services.repo,UserRealmRepository,getCompletedPuzzlesForLanguage,Long Statement,The length of the statement "return this.realm.where(CompletedPuzzleWrapper.class).equalTo("programmingLanguageKey"`programmingLanguage.key).findAll();" is 122.,39
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryUserRepositoryTests,init,Magic Number,The method contains a magic number: 2,25
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryUserRepositoryTests,init,Magic Number,The method contains a magic number: 3,25
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryUserRepositoryTests,loadAggregatedBugsPoints,Magic Number,The method contains a magic number: 3,35
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryUserRepositoryTests,loadAggregatedBugsPointsForLanguages,Magic Number,The method contains a magic number: 3,55
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryUserRepositoryTests,loadCompletedPuzzles,Magic Number,The method contains a magic number: 3,77
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryUserRepository,MemoryUserRepository,Magic Number,The method contains a magic number: 2,25
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryUserRepository,MemoryUserRepository,Magic Number,The method contains a magic number: 3,25
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryDataRepository,MemoryDataRepository,Long Statement,The length of the statement "puzzles.add(new Puzzle("basic_operator"`"Basic Operator"`1`120`3`new String[]{"testcase"`"testcase"}`new String[]{"answer passed"`"answer passed"}));" is 149.,22
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryDataRepository,MemoryDataRepository,Magic Number,The method contains a magic number: 120,22
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryDataRepository,MemoryDataRepository,Magic Number,The method contains a magic number: 3,22
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryDataRepository,MemoryDataRepository,Magic Number,The method contains a magic number: 4,22
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryDataRepository,MemoryDataRepository,Magic Number,The method contains a magic number: 180,22
+DebugRank-master,com.grapecity.debugrank.test.common,MemoryDataRepository,MemoryDataRepository,Magic Number,The method contains a magic number: 6,22
+DebugRank-master,com.grapecity.debugrank.entities,CompletedPuzzleWrapperTests,testBugs,Magic Number,The method contains a magic number: 5,44
+DebugRank-master,com.grapecity.debugrank.entities,CompletedPuzzleWrapperTests,testPointsKey,Magic Number,The method contains a magic number: 5,64
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Long Identifier,The length of the field ACCELERATE_DECELERATE_INTERPOLATOR is 34.,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 0.1f,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 250,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 0.1f,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 200,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 200,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 0.2f,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 350,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 250,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 0.2f,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 350,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 250,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 900,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onClick,Magic Number,The method contains a magic number: 50,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onTouchEvent,Magic Number,The method contains a magic number: 0.7f,136
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onTouchEvent,Magic Number,The method contains a magic number: 0.7f,136
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,LikeButtonView,onTouchEvent,Magic Number,The method contains a magic number: 150,136
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,Utils,mapValueFromRangeToRange,Long Parameter List,The method has 5 parameters. ,7
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,onSizeChanged,Magic Number,The method contains a magic number: 2,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,onSizeChanged,Magic Number,The method contains a magic number: 2,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,onSizeChanged,Magic Number,The method contains a magic number: 20,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,onSizeChanged,Magic Number,The method contains a magic number: 2,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,onSizeChanged,Magic Number,The method contains a magic number: 2,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,onSizeChanged,Magic Number,The method contains a magic number: 0.8f,69
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,drawOuterDotsFrame,Magic Number,The method contains a magic number: 180,85
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,drawOuterDotsFrame,Magic Number,The method contains a magic number: 180,85
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,drawInnerDotsFrame,Magic Number,The method contains a magic number: 10,93
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,drawInnerDotsFrame,Magic Number,The method contains a magic number: 180,93
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,drawInnerDotsFrame,Magic Number,The method contains a magic number: 10,93
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,drawInnerDotsFrame,Magic Number,The method contains a magic number: 180,93
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.3f,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.3f,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.2,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.5,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.2f,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.5f,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.3,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.5f,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateInnerDotsPosition,Magic Number,The method contains a magic number: 0.3f,116
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateOuterDotsPosition,Long Statement,The length of the statement "this.currentRadius1=(float)Utils.mapValueFromRangeToRange(currentProgress`0.3f`1f`0.8f * maxOuterDotsRadius`maxOuterDotsRadius);" is 128.,133
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateOuterDotsPosition,Magic Number,The method contains a magic number: 0.3f,133
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateOuterDotsPosition,Magic Number,The method contains a magic number: 0.3f,133
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateOuterDotsPosition,Magic Number,The method contains a magic number: 0.8f,133
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateOuterDotsPosition,Magic Number,The method contains a magic number: 0.3f,133
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateOuterDotsPosition,Magic Number,The method contains a magic number: 0.8f,133
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateOuterDotsPosition,Magic Number,The method contains a magic number: 0.7,133
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateOuterDotsPosition,Magic Number,The method contains a magic number: 0.7f,133
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsPaints,Magic Number,The method contains a magic number: 0.5f,147
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsPaints,Magic Number,The method contains a magic number: 0.5f,147
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsPaints,Magic Number,The method contains a magic number: 2,147
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsPaints,Magic Number,The method contains a magic number: 3,147
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsPaints,Magic Number,The method contains a magic number: 0.5f,147
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsPaints,Magic Number,The method contains a magic number: 2,147
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsPaints,Magic Number,The method contains a magic number: 3,147
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsAlpha,Magic Number,The method contains a magic number: 0.6f,163
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsAlpha,Magic Number,The method contains a magic number: 0.6f,163
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsAlpha,Magic Number,The method contains a magic number: 255,163
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsAlpha,Magic Number,The method contains a magic number: 2,163
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,DotsView,updateDotsAlpha,Magic Number,The method contains a magic number: 3,163
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,CircleView,onSizeChanged,Magic Number,The method contains a magic number: 2,59
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,CircleView,onDraw,Magic Number,The method contains a magic number: 0xffffff,67
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,CircleView,onDraw,Magic Number,The method contains a magic number: 2,67
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,CircleView,onDraw,Magic Number,The method contains a magic number: 2,67
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,CircleView,onDraw,Magic Number,The method contains a magic number: 2,67
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,CircleView,onDraw,Magic Number,The method contains a magic number: 2,67
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,CircleView,updateCircleColor,Magic Number,The method contains a magic number: 0.5,91
+DebugRank-master,com.grapecity.debugrank.ui.misc.like,CircleView,updateCircleColor,Magic Number,The method contains a magic number: 0.5f,91
+DebugRank-master,com.grapecity.debugrank.ui.misc,TextViewDrawableSize,initCompoundDrawableSize,Magic Number,The method contains a magic number: 2,74
+DebugRank-master,com.grapecity.debugrank.ui.misc,TextViewDrawableSize,initCompoundDrawableSize,Magic Number,The method contains a magic number: 3,74
+DebugRank-master,com.grapecity.debugrank.ui.misc.timer,TimerTextView,startTimer,Magic Number,The method contains a magic number: 1000,70
+DebugRank-master,com.grapecity.debugrank.ui.misc.timer,TimerTextView,startTimer,Magic Number,The method contains a magic number: 1000,70
+DebugRank-master,com.grapecity.debugrank.ui.misc.timer,TimerTextView,startTimer,Magic Number,The method contains a magic number: 1000,70
+DebugRank-master,com.grapecity.debugrank.ui.misc.timer,TimerTextView,onTick,Magic Number,The method contains a magic number: 1000,74
+DebugRank-master,com.grapecity.debugrank.ui.misc.timer,TimerTextView,setTimeText,Magic Number,The method contains a magic number: 60,110
+DebugRank-master,com.grapecity.debugrank.ui.misc.timer,TimerTextView,setTimeText,Magic Number,The method contains a magic number: 60,110
+DebugRank-master,com.grapecity.debugrank.ui.misc.timer,TimerTextView,setTimeText,Magic Number,The method contains a magic number: 10,110
+DebugRank-master,com.grapecity.debugrank.ui.solve.result,TestCaseAdapter,bind,Long Statement,The length of the statement "imageLoadingService.setDrawable(passed`testCaseResult.passed ? R.drawable.ic_done_green_24dp : R.drawable.ic_clear_red_24dp);" is 125.,71
+DebugRank-master,com.grapecity.debugrank.ui.solve.result,ViewHolder,bind,Long Statement,The length of the statement "imageLoadingService.setDrawable(passed`testCaseResult.passed ? R.drawable.ic_done_green_24dp : R.drawable.ic_clear_red_24dp);" is 125.,71
+DebugRank-master,com.grapecity.debugrank.ui.solve.code,SolveCodeFragment,codeLoaded,Magic Number,The method contains a magic number: 10,74
+DebugRank-master,com.grapecity.debugrank.ui.solve.code,SolveCodeFragment,codeLoaded,Magic Number,The method contains a magic number: 20,74
+DebugRank-master,com.grapecity.debugrank.ui.solve.code,SolveCodeFragment,codeLoaded,Magic Number,The method contains a magic number: 10,74
+DebugRank-master,com.grapecity.debugrank.ui.solve.code,CodeLineCellFactory,createCellContent,Complex Method,Cyclomatic complexity of the method is 8,57
+DebugRank-master,com.grapecity.debugrank.ui.solve.code,CodeLineCellFactory,createCellContent,Magic Number,The method contains a magic number: 2,57
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.result,SolveResultInteractorImplTests,testGetPassedTestCases,Magic Number,The method contains a magic number: 2,71
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.result,SolveResultPresenterImpl,compileCode,Long Statement,The length of the statement "this.mvpInteractor.compileCode(super.mvpView.getLanguage()`super.mvpView.getPuzzle()`codeLines).subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<List<TestCaseResult>>(){" is 221.,26
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.result,SolveResultPresenterImpl,processTestCaseResults,Long Statement,The length of the statement "mvpInteractor.saveCompletedPuzzle(mvpView.getLanguage()`mvpView.getPuzzle()).subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<CompletedPuzzle>(){" is 197.,50
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.code,SolveCodeInteractorImplTests,getSyntaxHighlightedTextCacheDoesNotContain,Long Statement,The length of the statement "doReturn("this is a line of code not from the cache;").when(htmlToDisplay).convertHtmlToDisplayType(anyString()`anyString());" is 125.,82
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.code,SolveCodeInteractorImplTests,getSyntaxHighlightedTextCacheDoesNotContain,Magic Number,The method contains a magic number: 2,82
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.code,SolveCodeInteractorImplTests,getSyntaxHighlightedTextCacheDoesNotContain,Magic Number,The method contains a magic number: 2,82
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.code,SolveCodeInteractorImplTests,refreshSyntaxHighlightedTextCache,Magic Number,The method contains a magic number: 2,99
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.code,SolveCodeInteractorImplTests,refreshSyntaxHighlightedTextCache,Magic Number,The method contains a magic number: 2,99
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.code,SolveCodePresenterImpl,loadCode,Long Statement,The length of the statement "this.mvpInteractor.loadCodeFile(mvpView.getLanguage()`mvpView.getPuzzle()).subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<List<CodeLine>>(){" is 194.,27
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.code,SolveCodePresenterImpl,determineIfTutorialMustBeShown,Long Statement,The length of the statement "this.mvpInteractor.showTutorial().subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<Boolean>(){" is 146.,51
+DebugRank-master,com.grapecity.debugrank.javalib.ui.solve.code,SolveCodePresenterImpl,finishEditing,Long Statement,The length of the statement "this.mvpInteractor.refreshSyntaxHighlightedTextCache(this.mvpView.getLanguage()`codeLine).subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<T>(){" is 196.,81
+DebugRank-master,com.grapecity.debugrank.javalib.ui.languages,LanguagesPresenterImplTests,loadProgrammingLanguages,Magic Number,The method contains a magic number: 2,43
+DebugRank-master,com.grapecity.debugrank.javalib.ui.languages,LanguagesPresenterImplTests,loadAggregatedBugPoints,Magic Number,The method contains a magic number: 2,67
+DebugRank-master,com.grapecity.debugrank.javalib.ui.languages,LanguagesPresenterImpl,loadProgrammingLanguages,Long Statement,The length of the statement "this.mvpInteractor.loadProgrammingLanguages().subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<List<ProgrammingLanguage>>(){" is 176.,33
+DebugRank-master,com.grapecity.debugrank.javalib.ui.languages,LanguagesPresenterImpl,loadAggregatedBugPoints,Long Statement,The length of the statement "this.mvpInteractor.loadAggregatedBugsPoints().subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<AggregatedBugsPoints>(){" is 171.,55
+DebugRank-master,com.grapecity.debugrank.javalib.ui.puzzles,PuzzlesPresenterImplTests,loadPuzzles,Magic Number,The method contains a magic number: 2,40
+DebugRank-master,com.grapecity.debugrank.javalib.ui.puzzles,PuzzlesPresenterImplTests,loadAggregatedBugPoints,Magic Number,The method contains a magic number: 2,63
+DebugRank-master,com.grapecity.debugrank.javalib.ui.puzzles,PuzzlesPresenterImplTests,loadCompletedPuzzles,Magic Number,The method contains a magic number: 2,73
+DebugRank-master,com.grapecity.debugrank.javalib.ui.puzzles,PuzzlesPresenterImpl,loadPuzzles,Long Statement,The length of the statement "this.mvpInteractor.loadPuzzles(mvpView.getLanguage()).subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<List<Puzzle>>(){" is 171.,37
+DebugRank-master,com.grapecity.debugrank.javalib.ui.puzzles,PuzzlesPresenterImpl,loadAggregatedBugPoints,Long Statement,The length of the statement "this.mvpInteractor.loadAggregatedBugsPoints(mvpView.getLanguage()).subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<AggregatedBugsPoints>(){" is 192.,59
+DebugRank-master,com.grapecity.debugrank.javalib.ui.puzzles,PuzzlesPresenterImpl,loadCompletedPuzzles,Long Statement,The length of the statement "this.mvpInteractor.loadCompletedPuzzles(mvpView.getLanguage()).subscribeOn(appThreads.newThread()).observeOn(appThreads.mainThread()).subscribe(new ObserverAdapter<Map<String`CompletedPuzzle>>(){" is 195.,75
+DebugRank-master,com.grapecity.debugrank.javalib.util,StringUtilTests,getCountofLeadingCharacter,Magic Number,The method contains a magic number: 2,33
+DebugRank-master,com.grapecity.debugrank.javalib.services.deserializer,DeserializerImplTests,deserializeCodeLines,Magic Number,The method contains a magic number: 3,37
+DebugRank-master,com.grapecity.debugrank.javalib.services.deserializer,DeserializerImplTests,deserializeCodeLines,Magic Number,The method contains a magic number: 2,37
+DebugRank-master,com.grapecity.debugrank.javalib.services.deserializer,DeserializerImplTests,deserializeCodeLines,Magic Number,The method contains a magic number: 3,37
+DebugRank-master,com.grapecity.debugrank.javalib.services.deserializer,DeserializerImplTests,deserializeCodeLines,Magic Number,The method contains a magic number: 2,37
+DebugRank-master,com.grapecity.debugrank.javalib.services.deserializer,DeserializerImplTests,deserializeCodeLines,Magic Number,The method contains a magic number: 2,37
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubCodeRetrofitWebClientTests,executeQuery,Long Statement,The length of the statement "final String EXPECTED_QUERY=String.format("http://www.google.com/%s/%s/%s/data/puzzles/java_8/basic_operator.java"`Api.GITHUB_API_OWNER`Api.GITHUB_API_REPO`Api.GITHUB_API_BRANCH);" is 179.,42
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubCodeRetrofitWebClientTests,executeQuery,Magic Number,The method contains a magic number: 2,42
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubCodeRetrofitWebClientTests,executeQuery,Magic Number,The method contains a magic number: 3,42
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubPuzzlesRetrofitWebClientTests,executeQuery,Long Statement,The length of the statement "final String EXPECTED_QUERY=String.format("http://www.google.com/%s/%s/%s/data/puzzles/java_8.json"`Api.GITHUB_API_OWNER`Api.GITHUB_API_REPO`Api.GITHUB_API_BRANCH);" is 164.,32
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,BaseRetrofitWebClientTestCase,getRetrofit,Long Statement,The length of the statement "response=new Response.Builder().code(200).message(responseString).request(chain.request()).protocol(Protocol.HTTP_1_0).body(ResponseBody.create(MediaType.parse("application/json")`responseString.getBytes())).addHeader("content-type"`"application/json").build();" is 261.,26
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,BaseRetrofitWebClientTestCase,getRetrofit,Long Statement,The length of the statement "return new Retrofit.Builder().addConverterFactory(GsonConverterFactory.create(gson)).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).client(client).baseUrl("http://www.google.com").build();" is 198.,26
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,BaseRetrofitWebClientTestCase,getRetrofit,Magic Number,The method contains a magic number: 200,26
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,BaseRetrofitWebClientTestCase,intercept,Long Statement,The length of the statement "response=new Response.Builder().code(200).message(responseString).request(chain.request()).protocol(Protocol.HTTP_1_0).body(ResponseBody.create(MediaType.parse("application/json")`responseString.getBytes())).addHeader("content-type"`"application/json").build();" is 261.,30
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,BaseRetrofitWebClientTestCase,intercept,Magic Number,The method contains a magic number: 200,30
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubLanguagesRetrofitWebClientTests,executeQuery,Long Statement,The length of the statement "final String EXPECTED_QUERY=String.format("http://www.google.com/%s/%s/%s/%s"`Api.GITHUB_API_OWNER`Api.GITHUB_API_REPO`Api.GITHUB_API_BRANCH`Api.GITHUB_API_LANGUAGES_PATH);" is 172.,31
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubLanguagesRetrofitWebClient,enqueue,Long Statement,The length of the statement "return retrofit.create(GitHub.class).languages(Api.GITHUB_API_OWNER`Api.GITHUB_API_REPO`Api.GITHUB_API_BRANCH`Api.GITHUB_API_LANGUAGES_PATH);" is 141.,24
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubCodeRetrofitWebClient,enqueue,Empty catch clause,The method has an empty catch block.,32
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubCodeRetrofitWebClient,enqueue,Long Statement,The length of the statement "return retrofit.create(GitHub.class).contentFile(Api.GITHUB_API_OWNER`Api.GITHUB_API_REPO`Api.GITHUB_API_BRANCH`params.language.key`params.puzzle.key`params.language.file).map(new Func1<ResponseBody`String>(){" is 209.,32
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubCodeRetrofitWebClient,call,Empty catch clause,The method has an empty catch block.,39
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GithubCodeRetrofitWebClient,contentFile,Long Parameter List,The method has 6 parameters. ,66
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,GitHub,contentFile,Long Parameter List,The method has 6 parameters. ,66
+DebugRank-master,com.grapecity.debugrank.javalib.services.web,HackerRankRetrofitWebClient,enqueue,Long Statement,The length of the statement "return retrofit.create(HackerRank.class).submitCode(params.code`params.language.code`params.testCases`Api.HACKERRANK_API_KEY);" is 126.,24
+DebugRank-master,com.grapecity.debugrank.javalib.services.compile,HackerRankCompilerApiTests,getUriSafeTestCases,Magic Number,The method contains a magic number: 2,34
+DebugRank-master,com.grapecity.debugrank.javalib.services.compile,HackerRankCompilerApiTests,getUriSafeTestCases,Magic Number,The method contains a magic number: 3,34
+DebugRank-master,com.grapecity.debugrank.javalib.services.compile,HackerRankCompilerApiTests,getUriSafeCode,Magic Number,The method contains a magic number: 2,46
+DebugRank-master,com.grapecity.debugrank.javalib.services.compile,HackerRankCompilerApiTests,getUriSafeCode,Magic Number,The method contains a magic number: 3,46
+DebugRank-master,com.grapecity.debugrank.javalib.services.compile,HackerRankCompilerApiTests,getTestCaseResults,Magic Number,The method contains a magic number: 2,62
+DebugRank-master,com.grapecity.debugrank.javalib.services.compile,HackerRankCompilerApiTests,getTestCaseResults,Magic Number,The method contains a magic number: 3,62
+DebugRank-master,com.grapecity.debugrank.javalib.services.syntax,PrettifySyntaxHighlighterTests,testHighlightning,Long Statement,The length of the statement "final String EXPECTED="<font color=\"#a71d5d\">int</font><font color=\"#333333\"> a</font><font color=\"#333333\">;</font>";" is 124.,21
+DebugRank-master,com.grapecity.debugrank.javalib.services.repo,DataRepositoryImplTests,loadCodeFile,Magic Number,The method contains a magic number: 2,63
+DebugRank-master,com.grapecity.debugrank.javalib.services.repo,DataRepositoryImplTests,loadCodeFile,Magic Number,The method contains a magic number: 3,63
+DebugRank-master,com.grapecity.debugrank.javalib.entities,ProgrammingLanguageTests,constructor,Magic Number,The method contains a magic number: 5,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,AggregatedBugPointsTests,constructor,Magic Number,The method contains a magic number: 145,21
+DebugRank-master,com.grapecity.debugrank.javalib.entities,AggregatedBugPointsTests,constructor,Magic Number,The method contains a magic number: 643,21
+DebugRank-master,com.grapecity.debugrank.javalib.entities,AggregatedBugPointsTests,constructor,Magic Number,The method contains a magic number: 145,21
+DebugRank-master,com.grapecity.debugrank.javalib.entities,AggregatedBugPointsTests,constructor,Magic Number,The method contains a magic number: 643,21
+DebugRank-master,com.grapecity.debugrank.javalib.entities,PuzzleTests,constructor,Long Statement,The length of the statement "Puzzle puzzle=new Puzzle(EXPECTED_KEY`EXPECTED_NAME`EXPECTED_POINTS`EXPECTED_TIME`EXPECTED_BUG`EXPECTED_TESTCASES`EXPECTED_ANSWERS);" is 132.,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,PuzzleTests,constructor,Magic Number,The method contains a magic number: 12455,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,PuzzleTests,constructor,Magic Number,The method contains a magic number: 53256,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,PuzzleTests,constructor,Magic Number,The method contains a magic number: 553,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,LanguagePuzzleTests,constructor,Magic Number,The method contains a magic number: 5,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,HackerRankCompileParamsTests,constructor,Long Statement,The length of the statement "HackerRankCompileParams hackerRankCompileParams=new HackerRankCompileParams(EXPECTED_CODE`programmingLanguage`EXPECTED_TEST);" is 125.,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,HackerRankCompileParamsTests,constructor,Magic Number,The method contains a magic number: 5,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,CodeLineTests,constructor,Magic Number,The method contains a magic number: 45,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,CodeLineTests,constructor,Magic Number,The method contains a magic number: 45,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,TestCaseResultTests,constructor,Long Statement,The length of the statement "TestCaseResult testCaseResult=new TestCaseResult(EXPECTED_TESTCASE`EXPECTED_INPUT`EXPECTED_OUTPUT`EXPECTED_EXPECTED_OUTPUT`EXPECTED_MESSAGE);" is 141.,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,TestCaseResultTests,constructor,Magic Number,The method contains a magic number: 12455,12
+DebugRank-master,com.grapecity.debugrank.javalib.entities,Puzzle,Puzzle,Long Parameter List,The method has 7 parameters. ,18
+DebugRank-master,com.grapecity.debugrank.javalib.entities,TestCaseResult,TestCaseResult,Long Parameter List,The method has 5 parameters. ,16
+DebugRank-master,(default package),StringPangram,isStringPangram,Magic Number,The method contains a magic number: 25,23

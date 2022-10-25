@@ -1,0 +1,255 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+DingDingMusic-master,com.dingmouren.dingdingmusic,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+DingDingMusic-master,com.dingmouren.dingdingmusic,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+DingDingMusic-master,com.dingmouren.dingdingmusic,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"MUSIC_BEAN\" ("+ "\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT `"+ "\"SONGNAME\" TEXT`"+ "\"SECONDS\" INTEGER NOT NULL `"+ "\"ALBUMMID\" TEXT`"+ "\"SONGID\" INTEGER NOT NULL `"+ "\"SINGERID\" INTEGER NOT NULL `"+ "\"ALBUMPIC_BIG\" TEXT`"+ "\"ALBUMPIC_SMALL\" TEXT`"+ "\"DOWN_URL\" TEXT`"+ "\"URL\" TEXT`"+ "\"SINGERNAME\" TEXT`"+ "\"ALBUMID\" INTEGER NOT NULL `"+ "\"TYPE\" INTEGER NOT NULL `"+ "\"IS_COLLECTED\" INTEGER NOT NULL );");" is 477.,52
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Complex Method,Cyclomatic complexity of the method is 9,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 2,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 3,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 4,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 5,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 6,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 7,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 8,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 9,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 10,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 11,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 12,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 13,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 14,78
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Complex Method,Cyclomatic complexity of the method is 9,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 2,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 3,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 4,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 5,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 6,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 7,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 8,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 9,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 10,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 11,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 12,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 13,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,bindValues,Magic Number,The method contains a magic number: 14,129
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Long Statement,The length of the statement "MusicBean entity=new MusicBean(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1)`cursor.getInt(offset + 2)`cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3)`cursor.getInt(offset + 4)`cursor.getInt(offset + 5)`cursor.isNull(offset + 6) ? null : cursor.getString(offset + 6)`cursor.isNull(offset + 7) ? null : cursor.getString(offset + 7)`cursor.isNull(offset + 8) ? null : cursor.getString(offset + 8)`cursor.isNull(offset + 9) ? null : cursor.getString(offset + 9)`cursor.isNull(offset + 10) ? null : cursor.getString(offset + 10)`cursor.getInt(offset + 11)`cursor.getInt(offset + 12)`cursor.getShort(offset + 13) != 0);" is 710.,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 2,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 3,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 3,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 4,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 5,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 6,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 6,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 7,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 7,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 8,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 8,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 9,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 9,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 10,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 10,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 11,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 12,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 13,185
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 2,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 3,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 3,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 4,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 5,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 6,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 6,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 7,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 7,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 8,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 8,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 9,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 9,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 10,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 10,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 11,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 12,206
+DingDingMusic-master,com.dingmouren.greendao,MusicBeanDao,readEntity,Magic Number,The method contains a magic number: 13,206
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,initView,Long Statement,The length of the statement "mCursor=getContentResolver().query(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI`null`null`null`MediaStore.Audio.Media.DEFAULT_SORT_ORDER);" is 137.,97
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,initView,Long Statement,The length of the statement "mCountLike=MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.IsCollected.eq(true)).count();" is 134.,97
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,initHeader,Long Statement,The length of the statement "if (!TextUtils.isEmpty((String)SPUtil.get(this`Constant.HEADER_IMG_PATH`""))) Glide.with(this).load((String)SPUtil.get(this`Constant.HEADER_IMG_PATH`"")).into(mImgHeader);" is 171.,184
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,createRevealAnimator,Magic Number,The method contains a magic number: 800,192
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,initGalleryConfig,Long Statement,The length of the statement "mGalleryConfig=new GalleryConfig.Builder().imageLoader(new MyGlideImageLoader()).iHandlerCallBack(imgTakeListener).pathList(mNavHeaderImgPaths).multiSelect(false).crop(true).isShowCamera(true).filePath("/EasyMvp").build();" is 222.,243
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,initPermissions,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(PersonalCenterActivity.this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 149.,256
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,initPermissions,Long Statement,The length of the statement "if (ActivityCompat.shouldShowRequestPermissionRationale(PersonalCenterActivity.this`Manifest.permission.WRITE_EXTERNAL_STORAGE)) {" is 130.,256
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,initPermissions,Long Statement,The length of the statement "ActivityCompat.requestPermissions(PersonalCenterActivity.this`new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}`8);" is 122.,256
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,initPermissions,Magic Number,The method contains a magic number: 8,256
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.personal,PersonalCenterActivity,onRequestPermissionsResult,Magic Number,The method contains a magic number: 8,272
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.localmusic,LocalMusicPresenter,requestData,Long Statement,The length of the statement "mCursor=((LocalMusicActivity)mView).getContentResolver().query(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI`null`null`null`MediaStore.Audio.Media.DEFAULT_SORT_ORDER);" is 165.,39
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.localmusic,LocalMusicAdapter,bindData,Long Statement,The length of the statement "else if (bean.getSongname().equals(playingBean.getSongname()) && bean.getSingername().equals(playingBean.getSingername())) {" is 124.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.localmusic,LocalMusicAdapter,bindData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(R.mipmap.playing).asGif().diskCacheStrategy(DiskCacheStrategy.NONE).into(fab_isPlay);" is 125.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.localmusic,ViewHolder,bindData,Long Statement,The length of the statement "else if (bean.getSongname().equals(playingBean.getSongname()) && bean.getSingername().equals(playingBean.getSingername())) {" is 124.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.localmusic,ViewHolder,bindData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(R.mipmap.playing).asGif().diskCacheStrategy(DiskCacheStrategy.NONE).into(fab_isPlay);" is 125.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.localmusic,LocalMusicActivity,createRevealAnimator,Magic Number,The method contains a magic number: 800,178
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.localmusic,LocalMusicActivity,onBackPressed,Magic Number,The method contains a magic number: 2,215
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.localmusic,LocalMusicActivity,onBackPressed,Magic Number,The method contains a magic number: 2,215
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,initListener,Magic Number,The method contains a magic number: 2,79
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,initListener,Magic Number,The method contains a magic number: 2,79
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,initListener,Magic Number,The method contains a magic number: 2,79
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,initListener,Magic Number,The method contains a magic number: 2,79
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,onTouch,Magic Number,The method contains a magic number: 2,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,onTouch,Magic Number,The method contains a magic number: 2,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,onTouch,Magic Number,The method contains a magic number: 2,93
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,onTouch,Magic Number,The method contains a magic number: 2,93
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,turnToJK,Long Statement,The length of the statement "startActivity(new Intent(this`JKActivity.class)`ActivityOptions.makeSceneTransitionAnimation(this`view`"share_jk").toBundle());" is 127.,180
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,turnToRock,Long Statement,The length of the statement "startActivity(new Intent(this`RockActivity.class)`ActivityOptions.makeSceneTransitionAnimation(this`view`"share_rock").toBundle());" is 131.,187
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,turnToVolkslied,Long Statement,The length of the statement "startActivity(new Intent(this`VolksliedActivity.class)`ActivityOptions.makeSceneTransitionAnimation(this`view`"share_volkslied").toBundle());" is 141.,194
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,setupWindowAnimation,Magic Number,The method contains a magic number: 1000,202
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,setupWindowAnimation,Magic Number,The method contains a magic number: 500,202
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.home,MainActivity,onKeyDown,Magic Number,The method contains a magic number: 2000,217
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initView,Long Statement,The length of the statement "ScaleAnimation scaleAnimation=new ScaleAnimation(1.0f`1.3f`1.0f`1.3f`Animation.RELATIVE_TO_SELF`0.5f`Animation.RELATIVE_TO_SELF`0.5f);" is 134.,54
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initView,Magic Number,The method contains a magic number: 1.3f,54
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initView,Magic Number,The method contains a magic number: 1.3f,54
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initView,Magic Number,The method contains a magic number: 0.5f,54
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initView,Magic Number,The method contains a magic number: 0.5f,54
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initView,Magic Number,The method contains a magic number: 3000,54
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initView,Magic Number,The method contains a magic number: 3000,54
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initData,Long Statement,The length of the statement "long count=MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().whereOr(MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_WEST))`MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_INLAND))`MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_HONGKANG))`MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_KOREA))`MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_JAPAN))`MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_VOLKSLIED))`MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_ROCK))`MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_SALES))`MusicBeanDao.Properties.Type.eq(Integer.valueOf(Constant.MUSIC_HOT))).count();" is 734.,70
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initData,Long Statement,The length of the statement "Observable.interval(1000`1500`TimeUnit.MILLISECONDS).limit(9).subscribe(aLong -> mRequestMusicUtil.requestMusic(topics[aLong.intValue()]));" is 139.,70
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initData,Magic Number,The method contains a magic number: 1000,70
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initData,Magic Number,The method contains a magic number: 1500,70
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.splash,SplashActivity,initData,Magic Number,The method contains a magic number: 9,70
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,VolksliedPresenter,requestData,Long Statement,The length of the statement "ApiManager.getApiManager().getQQMusicApiService().getQQMusic(Constant.QQ_MUSIC_APP_ID`Constant.QQ_MUSIC_SIGN`Constant.MUSIC_VOLKSLIED).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(qqMusicBodyQQMusicResult -> parseData(Constant.MUSIC_VOLKSLIED`qqMusicBodyQQMusicResult.getShowapi_res_body().getPagebean().getSonglist())`this::loadError);" is 372.,25
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,VolksliedAdapter,bindData,Long Statement,The length of the statement "Glide.with(mContext).load(bean.getAlbumpic_small()).asBitmap().diskCacheStrategy(DiskCacheStrategy.SOURCE).placeholder(R.mipmap.notification_img_holder).into(imgAlbum);" is 168.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,VolksliedAdapter,bindData,Long Statement,The length of the statement "else if (bean.getSongname().equals(playingBean.getSongname()) && bean.getSingername().equals(playingBean.getSingername())) {" is 124.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,VolksliedAdapter,bindData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(R.mipmap.playing).asGif().diskCacheStrategy(DiskCacheStrategy.NONE).into(fabIsPlay);" is 124.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,ViewHolder,bindData,Long Statement,The length of the statement "Glide.with(mContext).load(bean.getAlbumpic_small()).asBitmap().diskCacheStrategy(DiskCacheStrategy.SOURCE).placeholder(R.mipmap.notification_img_holder).into(imgAlbum);" is 168.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,ViewHolder,bindData,Long Statement,The length of the statement "else if (bean.getSongname().equals(playingBean.getSongname()) && bean.getSingername().equals(playingBean.getSingername())) {" is 124.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,ViewHolder,bindData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(R.mipmap.playing).asGif().diskCacheStrategy(DiskCacheStrategy.NONE).into(fabIsPlay);" is 124.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,VolksliedActivity,initData,Long Statement,The length of the statement "mList=MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Type.eq(Constant.MUSIC_VOLKSLIED)).list();" is 141.,105
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.volkslied,VolksliedActivity,setRefresh,Magic Number,The method contains a magic number: 1500,177
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.lock,LockActivity,init,Long Statement,The length of the statement "this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD | WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);" is 127.,61
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.lock,LockActivity,onClick,Magic Number,The method contains a magic number: 0x40001,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.lock,LockActivity,handleMessage,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(mBean.getAlbumpic_big()).asBitmap().centerCrop().diskCacheStrategy(DiskCacheStrategy.SOURCE).placeholder(R.mipmap.dingding_icon).into(activity.mImgAlbum);" is 194.,181
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.lock,LockActivity,handleMessage,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(mBean.getAlbumpic_big()).bitmapTransform(new BlurTransformation(MyApplication.mContext`99)).diskCacheStrategy(DiskCacheStrategy.SOURCE).crossFade().placeholder(R.mipmap.bg2).into(activity.mImgBg);" is 236.,181
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.lock,LockActivity,handleMessage,Magic Number,The method contains a magic number: 99,181
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.lock,MyHandler,handleMessage,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(mBean.getAlbumpic_big()).asBitmap().centerCrop().diskCacheStrategy(DiskCacheStrategy.SOURCE).placeholder(R.mipmap.dingding_icon).into(activity.mImgAlbum);" is 194.,181
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.lock,MyHandler,handleMessage,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(mBean.getAlbumpic_big()).bitmapTransform(new BlurTransformation(MyApplication.mContext`99)).diskCacheStrategy(DiskCacheStrategy.SOURCE).crossFade().placeholder(R.mipmap.bg2).into(activity.mImgBg);" is 236.,181
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.lock,MyHandler,handleMessage,Magic Number,The method contains a magic number: 99,181
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.about,AboutActivity,createRevealAnimator,Magic Number,The method contains a magic number: 800,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.about,AboutActivity,onBackPressed,Magic Number,The method contains a magic number: 2,118
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.about,AboutActivity,onBackPressed,Magic Number,The method contains a magic number: 2,118
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.search,SearchPresenter,requestData,Long Statement,The length of the statement "ApiManager.getApiManager().getQQMusicApiService().searchQQMusic(Constant.QQ_MUSIC_APP_ID`Constant.QQ_MUSIC_SIGN`search`"1").subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(qqMusicBodyQQMusicResult -> {" is 234.,30
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.search,SearchActivity,playSong,Magic Number,The method contains a magic number: 800,110
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,RockAdapter,bindData,Long Statement,The length of the statement "Glide.with(mContext).load(bean.getAlbumpic_small()).asBitmap().diskCacheStrategy(DiskCacheStrategy.SOURCE).placeholder(R.mipmap.notification_img_holder).into(imgAlbum);" is 168.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,RockAdapter,bindData,Long Statement,The length of the statement "else if (bean.getSongname().equals(playingBean.getSongname()) && bean.getSingername().equals(playingBean.getSingername())) {" is 124.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,RockAdapter,bindData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(R.mipmap.playing).asGif().diskCacheStrategy(DiskCacheStrategy.NONE).into(fabIsPlay);" is 124.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,ViewHolder,bindData,Long Statement,The length of the statement "Glide.with(mContext).load(bean.getAlbumpic_small()).asBitmap().diskCacheStrategy(DiskCacheStrategy.SOURCE).placeholder(R.mipmap.notification_img_holder).into(imgAlbum);" is 168.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,ViewHolder,bindData,Long Statement,The length of the statement "else if (bean.getSongname().equals(playingBean.getSongname()) && bean.getSingername().equals(playingBean.getSingername())) {" is 124.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,ViewHolder,bindData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(R.mipmap.playing).asGif().diskCacheStrategy(DiskCacheStrategy.NONE).into(fabIsPlay);" is 124.,82
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,RockPresenter,requestData,Long Statement,The length of the statement "ApiManager.getApiManager().getQQMusicApiService().getQQMusic(Constant.QQ_MUSIC_APP_ID`Constant.QQ_MUSIC_SIGN`Constant.MUSIC_ROCK).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(qqMusicBodyQQMusicResult -> parseData(Constant.MUSIC_ROCK`qqMusicBodyQQMusicResult.getShowapi_res_body().getPagebean().getSonglist())`this::loadError);" is 362.,25
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,RockActivity,initData,Long Statement,The length of the statement "mList=MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Type.eq(Constant.MUSIC_ROCK)).list();" is 136.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.rock,RockActivity,setRefresh,Magic Number,The method contains a magic number: 1500,171
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,JKPresenter,requestData,Long Statement,The length of the statement "ApiManager.getApiManager().getQQMusicApiService().getQQMusic(Constant.QQ_MUSIC_APP_ID`Constant.QQ_MUSIC_SIGN`Constant.MUSIC_KOREA).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(qqMusicBodyQQMusicResult -> parseData(Constant.MUSIC_KOREA`qqMusicBodyQQMusicResult.getShowapi_res_body().getPagebean().getSonglist())`this::loadError);" is 364.,29
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,JKAdapter,bindData,Long Statement,The length of the statement "Glide.with(mContext).load(bean.getAlbumpic_small()).asBitmap().diskCacheStrategy(DiskCacheStrategy.NONE).placeholder(R.mipmap.notification_img_holder).into(imgAlbum);" is 166.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,JKAdapter,bindData,Long Statement,The length of the statement "else if (bean.getSongname().equals(playingBean.getSongname()) && bean.getSingername().equals(playingBean.getSingername())) {" is 124.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,JKAdapter,bindData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(R.mipmap.playing).asGif().diskCacheStrategy(DiskCacheStrategy.NONE).into(fabIsPlay);" is 124.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,ViewHolder,bindData,Long Statement,The length of the statement "Glide.with(mContext).load(bean.getAlbumpic_small()).asBitmap().diskCacheStrategy(DiskCacheStrategy.NONE).placeholder(R.mipmap.notification_img_holder).into(imgAlbum);" is 166.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,ViewHolder,bindData,Long Statement,The length of the statement "else if (bean.getSongname().equals(playingBean.getSongname()) && bean.getSingername().equals(playingBean.getSingername())) {" is 124.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,ViewHolder,bindData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(R.mipmap.playing).asGif().diskCacheStrategy(DiskCacheStrategy.NONE).into(fabIsPlay);" is 124.,81
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,JKActivity,initData,Long Statement,The length of the statement "mList=MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Type.eq(Constant.MUSIC_KOREA)).list();" is 137.,108
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.jk,JKActivity,setRefresh,Magic Number,The method contains a magic number: 1500,125
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,initView,Magic Number,The method contains a magic number: 100,115
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,initView,Magic Number,The method contains a magic number: 6,115
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showIsLike,Complex Conditional,The conditional expression null == songNamePlaying || null == singerNamePlaying || null == mList is complex.,148
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showIsLike,Long Statement,The length of the statement "List<MusicBean> list=MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Singername.eq(singerNamePlaying)`MusicBeanDao.Properties.Songname.eq(songNamePlaying)).list();" is 208.,148
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,collect,Long Statement,The length of the statement "List<MusicBean> listCollected=MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Singername.eq(singerNamePlaying)`MusicBeanDao.Properties.Songname.eq(songNamePlaying)).list();" is 217.,167
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onClick,Magic Number,The method contains a magic number: 0x40001,244
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Complex Method,Cyclomatic complexity of the method is 12,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Long Statement,The length of the statement "mList.addAll(MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Type.eq(Constant.MUSIC_LOCAL)).list());" is 145.,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Long Statement,The length of the statement "mList.addAll(MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Type.eq(Constant.MUSIC_KOREA)).list());" is 145.,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Long Statement,The length of the statement "mList.addAll(MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Type.eq(Constant.MUSIC_ROCK)).list());" is 144.,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Long Statement,The length of the statement "mList.addAll(MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Type.eq(Constant.MUSIC_VOLKSLIED)).list());" is 149.,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Long Statement,The length of the statement "mList.addAll(MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.IsCollected.eq(true)).list());" is 136.,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Magic Number,The method contains a magic number: 2,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Magic Number,The method contains a magic number: 3,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Magic Number,The method contains a magic number: 4,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Magic Number,The method contains a magic number: 5,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Magic Number,The method contains a magic number: 6,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,onServiceConnected,Magic Number,The method contains a magic number: 7,273
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,setTransiton,Magic Number,The method contains a magic number: 700,380
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,setTransiton,Magic Number,The method contains a magic number: 700,380
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showCategory,Complex Method,Cyclomatic complexity of the method is 8,391
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showCategory,Magic Number,The method contains a magic number: 2,391
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showCategory,Magic Number,The method contains a magic number: 3,391
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showCategory,Magic Number,The method contains a magic number: 4,391
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showCategory,Magic Number,The method contains a magic number: 5,391
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showCategory,Magic Number,The method contains a magic number: 6,391
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,showCategory,Magic Number,The method contains a magic number: 7,391
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,createRevealAnimator,Magic Number,The method contains a magic number: 800,421
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,handleMessage,Complex Method,Cyclomatic complexity of the method is 10,519
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,PlayingActivity,handleMessage,Magic Number,The method contains a magic number: 100,519
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,MyHandler,handleMessage,Complex Method,Cyclomatic complexity of the method is 10,519
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,MyHandler,handleMessage,Magic Number,The method contains a magic number: 100,519
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.musicplay,AlbumImgFragment,initData,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(mBean.getAlbumpic_big()).asBitmap().centerCrop().diskCacheStrategy(DiskCacheStrategy.NONE).into(mImgAlbum);" is 147.,68
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.collected,CollectedActivity,initData,Long Statement,The length of the statement "List<MusicBean> list=MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.IsCollected.eq(true)).list();" is 143.,89
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.collected,CollectedActivity,createRevealAnimator,Magic Number,The method contains a magic number: 800,127
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.collected,CollectedActivity,onBackPressed,Magic Number,The method contains a magic number: 2,164
+DingDingMusic-master,com.dingmouren.dingdingmusic.ui.collected,CollectedActivity,onBackPressed,Magic Number,The method contains a magic number: 2,164
+DingDingMusic-master,com.dingmouren.dingdingmusic.listener,MyOnPageChangeListeger,onPageScrolled,Long Statement,The length of the statement "Glide.with(MyApplication.mContext).load(activity.mList.get(position).getAlbumpic_big()).bitmapTransform(new BlurTransformation(activity`99)).diskCacheStrategy(DiskCacheStrategy.SOURCE).crossFade().into(activity.mImgBg);" is 219.,33
+DingDingMusic-master,com.dingmouren.dingdingmusic.listener,MyOnPageChangeListeger,onPageScrolled,Magic Number,The method contains a magic number: 99,33
+DingDingMusic-master,com.dingmouren.dingdingmusic.listener,MyOnPageChangeListeger,onPageSelected,Long Statement,The length of the statement "Glide.with(activity).load(activity.mList.get(position).getAlbumpic_big() == null ? R.mipmap.bg2 : activity.mList.get(position).getAlbumpic_big()).bitmapTransform(new BlurTransformation(activity`99)).diskCacheStrategy(DiskCacheStrategy.SOURCE).crossFade().into(activity.mImgBg);" is 277.,53
+DingDingMusic-master,com.dingmouren.dingdingmusic.listener,MyOnPageChangeListeger,onPageSelected,Magic Number,The method contains a magic number: 2,53
+DingDingMusic-master,com.dingmouren.dingdingmusic.listener,MyOnPageChangeListeger,onPageSelected,Magic Number,The method contains a magic number: 99,53
+DingDingMusic-master,com.dingmouren.dingdingmusic.listener,MyOnSeekBarChangeListeger,onProgressChanged,Magic Number,The method contains a magic number: 100,22
+DingDingMusic-master,com.dingmouren.dingdingmusic.notification,MusicNotification,MusicNotification,Long Identifier,The length of the field MUSIC_NOTIFICATION_ACTION_PLAY is 30.,69
+DingDingMusic-master,com.dingmouren.dingdingmusic.notification,MusicNotification,MusicNotification,Long Identifier,The length of the field MUSIC_NOTIFICATION_ACTION_NEXT is 30.,69
+DingDingMusic-master,com.dingmouren.dingdingmusic.notification,MusicNotification,MusicNotification,Long Identifier,The length of the field MUSIC_NOTIFICATION_ACTION_CLOSE is 31.,69
+DingDingMusic-master,com.dingmouren.dingdingmusic.notification,MusicNotification,onCreateMusicNotification,Long Identifier,The length of the field MUSIC_NOTIFICATION_VALUE_CLOSE is 30.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.notification,MusicNotification,onCreateMusicNotification,Long Statement,The length of the statement "PendingIntent pendingPlayIntent=PendingIntent.getBroadcast(context`REQUEST_CODE`playIntent`PendingIntent.FLAG_UPDATE_CURRENT);" is 126.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.notification,MusicNotification,onCreateMusicNotification,Long Statement,The length of the statement "PendingIntent pendingNextIntent=PendingIntent.getBroadcast(context`REQUEST_CODE`nextIntent`PendingIntent.FLAG_UPDATE_CURRENT);" is 126.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.notification,MusicNotification,onCreateMusicNotification,Long Statement,The length of the statement "PendingIntent pendingCloseIntent=PendingIntent.getBroadcast(context`REQUEST_CODE`closeIntent`PendingIntent.FLAG_UPDATE_CURRENT);" is 128.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.notification,MusicNotification,onCreateMusicNotification,Long Statement,The length of the statement "PendingIntent pendingBackIntent=PendingIntent.getActivity(MyApplication.mContext`REQUEST_CODE`backIntent`PendingIntent.FLAG_UPDATE_CURRENT);" is 140.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.bean,MusicBean,MusicBean,Magic Number,The method contains a magic number: 1899243370,44
+DingDingMusic-master,com.dingmouren.dingdingmusic.bean,MusicBean,MusicBean,Long Parameter List,The method has 14 parameters. ,48
+DingDingMusic-master,com.dingmouren.dingdingmusic.bean,MusicBean,MusicBean,Magic Number,The method contains a magic number: 1740311575,48
+DingDingMusic-master,com.dingmouren.dingdingmusic.bean,QQMusicPage,toString,Long Statement,The length of the statement "return "QQMusicPage{" + "total_song_num=" + total_song_num + "` ret_code="+ ret_code+ "` update_time='"+ update_time+ '\''+ "` color="+ color+ "` cur_song_num="+ cur_song_num+ "` comment_num="+ comment_num+ "` currentPage="+ currentPage+ "` song_begin="+ song_begin+ "` totalpage="+ totalpage+ "` songlist="+ songlist+ '}';" is 323.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,NetworkUtil,openWirelessSettings,Magic Number,The method contains a magic number: 10,47
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,NetworkUtil,isWifiConnected,Long Statement,The length of the statement "return cm != null && cm.getActiveNetworkInfo() != null && cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_WIFI;" is 127.,109
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,NetworkUtil,getNetWorkType,Complex Conditional,The conditional expression subtypeName.equalsIgnoreCase("TD-SCDMA") || subtypeName.equalsIgnoreCase("WCDMA") || subtypeName.equalsIgnoreCase("CDMA2000") is complex.,166
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,NetworkUtil,getNetWorkType,Complex Method,Cyclomatic complexity of the method is 23,166
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,NetworkUtil,getNetWorkType,Long Statement,The length of the statement "if (subtypeName.equalsIgnoreCase("TD-SCDMA") || subtypeName.equalsIgnoreCase("WCDMA") || subtypeName.equalsIgnoreCase("CDMA2000")) {" is 132.,166
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,NetworkUtil,getNetWorkType,Missing default,The following switch statement is missing a default case: switch (info.getSubtype()) {,166
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,NetworkUtil,getNetWorkTypeName,Missing default,The following switch statement is missing a default case: switch (getNetWorkType(context)) {,236
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,MyGlideImageLoader,displayImage,Long Parameter List,The method has 6 parameters. ,69
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,RequestMusicUtil,requestMusic,Long Statement,The length of the statement "ApiManager.getApiManager().getQQMusicApiService().getQQMusic(Constant.QQ_MUSIC_APP_ID`Constant.QQ_MUSIC_SIGN`topic).subscribeOn(Schedulers.io()).doOnNext(new Action1<QQMusicResult<QQMusicBody<QQMusicPage<List<MusicBean>>>>>(){" is 226.,29
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,RequestMusicUtil,parseData,Long Statement,The length of the statement "if (0 == MyApplication.getDaoSession().getMusicBeanDao().queryBuilder().where(MusicBeanDao.Properties.Songid.eq(list.get(i).getSongid())).count()) {" is 148.,43
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,ImageUtils,getArtworkQuick,Complex Method,Cyclomatic complexity of the method is 8,27
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,ImageUtils,getArtworkQuick,Empty catch clause,The method has an empty catch block.,27
+DingDingMusic-master,com.dingmouren.dingdingmusic.utils,ImageUtils,getArtworkQuick,Empty catch clause,The method has an empty catch block.,27
+DingDingMusic-master,com.dingmouren.dingdingmusic.view,SildingFinishLayout,onLayout,Long Parameter List,The method has 5 parameters. ,77
+DingDingMusic-master,com.dingmouren.dingdingmusic.view,SildingFinishLayout,onTouch,Complex Method,Cyclomatic complexity of the method is 10,150
+DingDingMusic-master,com.dingmouren.dingdingmusic.view,SildingFinishLayout,onTouch,Magic Number,The method contains a magic number: 2,150
+DingDingMusic-master,com.dingmouren.dingdingmusic.view,CustomTextView,onSizeChanged,Long Statement,The length of the statement "gradient=new LinearGradient(0`0`mWidth`0`new int[]{Color.GRAY`Color.WHITE`Color.GRAY}`new float[]{0.3f`0.5f`1.0f}`Shader.TileMode.CLAMP);" is 137.,42
+DingDingMusic-master,com.dingmouren.dingdingmusic.view,CustomTextView,onDraw,Magic Number,The method contains a magic number: 5,59
+DingDingMusic-master,com.dingmouren.dingdingmusic.view,CustomTextView,onDraw,Magic Number,The method contains a magic number: 2,59
+DingDingMusic-master,com.dingmouren.dingdingmusic.view,CustomTextView,onDraw,Magic Number,The method contains a magic number: 100,59
+DingDingMusic-master,com.dingmouren.dingdingmusic.api,ApiManager,ApiManager,Long Statement,The length of the statement "HttpLoggingInterceptor loggingInterceptor=new HttpLoggingInterceptor(message -> showRetrofitLog(message)).setLevel(HttpLoggingInterceptor.Level.BODY);" is 150.,27
+DingDingMusic-master,com.dingmouren.dingdingmusic.api,ApiManager,ApiManager,Long Statement,The length of the statement "OkHttpClient okHttpClient=new OkHttpClient.Builder().readTimeout(READ_TIME_OUT`TimeUnit.SECONDS).connectTimeout(CONNECT_TIME_OUT`TimeUnit.SECONDS).addInterceptor(loggingInterceptor).build();" is 190.,27
+DingDingMusic-master,com.dingmouren.dingdingmusic.api,ApiManager,ApiManager,Long Statement,The length of the statement "Retrofit retrofit1=new Retrofit.Builder().client(okHttpClient).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).baseUrl(Constant.QQ_MUSIC_BASE_URL).build();" is 215.,27
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,onCreate,Long Identifier,The length of the field MUSIC_NOTIFICATION_ACTION_PLAY is 30.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,onCreate,Long Identifier,The length of the field MUSIC_NOTIFICATION_ACTION_NEXT is 30.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,onCreate,Long Identifier,The length of the field MUSIC_NOTIFICATION_ACTION_CLOSE is 31.,101
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,handleMessage,Complex Method,Cyclomatic complexity of the method is 24,200
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,handleMessage,Long Identifier,The length of the field mMessengerVolksliedMusicActivity is 32.,200
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,handleMessage,Long Statement,The length of the statement "JLog.e(TAG`"mMessengerPlayingActivity初始化--positon:" + service.position + " currentTime:"+ service.currentTime+ " isPlaying:"+ service.mediaPlayer.isPlaying()+ " isLooping:"+ service.mediaPlayer.isLooping());" is 207.,200
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,handleMessage,Magic Number,The method contains a magic number: 100,200
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,resume,Long Identifier,The length of the field mMessengerVolksliedMusicActivity is 32.,355
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,playSong,Complex Method,Cyclomatic complexity of the method is 8,424
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,playSong,Magic Number,The method contains a magic number: 0x40001,424
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,musicNotificationService,Magic Number,The method contains a magic number: 30001,667
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,musicNotificationService,Magic Number,The method contains a magic number: 0x40001,667
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,musicNotificationService,Magic Number,The method contains a magic number: 30002,667
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,musicNotificationService,Magic Number,The method contains a magic number: 30003,667
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,onAudioFocusChange,Missing default,The following switch statement is missing a default case: switch (focusChange) {,694
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MediaPlayerService,requestAudioFocus,Long Statement,The length of the statement "int result=mAudioManager.requestAudioFocus(onAudioFocusChangeListener`AudioManager.STREAM_MUSIC`AudioManager.AUDIOFOCUS_GAIN);" is 126.,731
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MyHandler,handleMessage,Complex Method,Cyclomatic complexity of the method is 24,200
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MyHandler,handleMessage,Long Statement,The length of the statement "JLog.e(TAG`"mMessengerPlayingActivity初始化--positon:" + service.position + " currentTime:"+ service.currentTime+ " isPlaying:"+ service.mediaPlayer.isPlaying()+ " isLooping:"+ service.mediaPlayer.isLooping());" is 207.,200
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MyHandler,handleMessage,Magic Number,The method contains a magic number: 100,200
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MusicBroadCast,musicNotificationService,Magic Number,The method contains a magic number: 30001,667
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MusicBroadCast,musicNotificationService,Magic Number,The method contains a magic number: 0x40001,667
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MusicBroadCast,musicNotificationService,Magic Number,The method contains a magic number: 30002,667
+DingDingMusic-master,com.dingmouren.dingdingmusic.service,MusicBroadCast,musicNotificationService,Magic Number,The method contains a magic number: 30003,667

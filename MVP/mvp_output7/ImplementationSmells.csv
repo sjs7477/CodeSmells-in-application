@@ -1,0 +1,332 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+android-mvp-mvvm-flytour-master,com.fly.tour.common,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvp-mvvm-flytour-master,com.fly.tour.common,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.common,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.common.manager,ActivityManager,preActivity,Magic Number,The method contains a magic number: 2,58
+android-mvp-mvvm-flytour-master,com.fly.tour.common.manager,ActivityManager,appExit,Empty catch clause,The method has an empty catch block.,157
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,AnimationUtils,moveToBottom,Long Statement,The length of the statement "TranslateAnimation hiddenAction=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`1.0f);" is 184.,12
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,AnimationUtils,moveToBottom,Magic Number,The method contains a magic number: 300,12
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,AnimationUtils,moveToLocation,Long Statement,The length of the statement "TranslateAnimation visibleAction=new TranslateAnimation(Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`0.0f`Animation.RELATIVE_TO_SELF`1.0f`Animation.RELATIVE_TO_SELF`0.0f);" is 185.,25
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,AnimationUtils,moveToLocation,Magic Number,The method contains a magic number: 300,25
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,convertViewToBitmap,Long Statement,The length of the statement "view.measure(MeasureSpec.makeMeasureSpec(0`MeasureSpec.UNSPECIFIED)`MeasureSpec.makeMeasureSpec(0`MeasureSpec.UNSPECIFIED));" is 124.,72
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Long Statement,The length of the statement "titleBitmap=Bitmap.createScaledBitmap(titleBitmap`720`(int)((720f / titleBitmap.getWidth()) * titleBitmap.getHeight())`true);" is 125.,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Long Statement,The length of the statement "Bitmap newBitmap=Bitmap.createBitmap(bitmap.getWidth()`bitmap.getHeight() + titleBitmap.getHeight()`Bitmap.Config.RGB_565);" is 123.,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 16,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 40,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 2,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 2,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 2,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 2,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 2,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 3,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 720,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,combineBitmap_Title,Magic Number,The method contains a magic number: 720f,90
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,bmpToByteArray,Magic Number,The method contains a magic number: 100,138
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,bmpToByteArray,Magic Number,The method contains a magic number: 100,150
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaled720Bitmap,Magic Number,The method contains a magic number: 720,165
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaled720Bitmap,Magic Number,The method contains a magic number: 720,165
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaled720Bitmap,Magic Number,The method contains a magic number: 720f,165
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaled720Bitmap,Magic Number,The method contains a magic number: 720,165
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaled720Bitmap,Magic Number,The method contains a magic number: 720,165
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaled720Bitmap,Magic Number,The method contains a magic number: 720f,165
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaleTo100Bitmap,Magic Number,The method contains a magic number: 100,186
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaleTo100Bitmap,Magic Number,The method contains a magic number: 100,186
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 100,196
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 100,196
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 1024,196
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 100,196
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 10,196
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 100,214
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 1024,214
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 100,214
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 1024,214
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 10,214
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,compressImage,Magic Number,The method contains a magic number: 1024,214
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaleTo,Magic Number,The method contains a magic number: 100f,233
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,scaleTo,Magic Number,The method contains a magic number: 100f,233
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,getBitmapDegree,Magic Number,The method contains a magic number: 90,334
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,getBitmapDegree,Magic Number,The method contains a magic number: 180,334
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,getBitmapDegree,Magic Number,The method contains a magic number: 270,334
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,rotateBitmapByDegree,Empty catch clause,The method has an empty catch block.,364
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,getImageSize,Magic Number,The method contains a magic number: 90,405
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,getImageSize,Magic Number,The method contains a magic number: 270,405
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,BitmapUtil,getImageSize,Missing default,The following switch statement is missing a default case: switch (getBitmapDegree(url)) {,405
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,getSimpleDateFormat,Complex Method,Cyclomatic complexity of the method is 11,54
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,getSimpleDateFormat,Missing default,The following switch statement is missing a default case: switch (type) {,54
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,daysBetween,Magic Number,The method contains a magic number: 1000,147
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,daysBetween,Magic Number,The method contains a magic number: 3600,147
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,daysBetween,Magic Number,The method contains a magic number: 24,147
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 3600,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 3600,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 3600,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 60,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 60,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 60,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 60,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 60,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 60,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinuteSecond,Magic Number,The method contains a magic number: 60,201
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatSecondToHourMinute,Magic Number,The method contains a magic number: 60,227
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 1000,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 60,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 60,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 60,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 24,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 60,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 60,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 24,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 30,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 60,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 24,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 60,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 24,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 30,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,formatTimeToDay,Magic Number,The method contains a magic number: 12,252
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,getLaterTimeByDay,Magic Number,The method contains a magic number: 24,305
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,getLaterTimeByDay,Magic Number,The method contains a magic number: 24,315
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,getCurrTimePosition,Magic Number,The method contains a magic number: 60,328
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DateUtil,getCurrTimePosition,Magic Number,The method contains a magic number: 30,328
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DisplayUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,24
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DisplayUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,36
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DisplayUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,47
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DisplayUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,59
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DisplayUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,69
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DisplayUtil,px2sp,Magic Number,The method contains a magic number: 0.5f,81
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DisplayUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,91
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,DisplayUtil,sp2px,Magic Number,The method contains a magic number: 0.5f,103
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,EnvironmentUtil,isAppRunning,Long Statement,The length of the statement "for ( ActivityManager.RunningTaskInfo taskInfo : runningTaskInfos) if (context.getPackageName().equals(taskInfo.baseActivity.getPackageName())) {" is 145.,155
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,EnvironmentUtil,isAppRunning,Magic Number,The method contains a magic number: 100,155
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,EnvironmentUtil,isTopActivity,Complex Conditional,The conditional expression runningTaskInfos != null && !runningTaskInfos.isEmpty() && clazz.getName().equals(runningTaskInfos.get(0).topActivity.getClassName()) is complex.,195
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,EnvironmentUtil,isTopActivity,Long Statement,The length of the statement "if (runningTaskInfos != null && !runningTaskInfos.isEmpty() && clazz.getName().equals(runningTaskInfos.get(0).topActivity.getClassName())) {" is 140.,195
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,EnvironmentUtil,getAppStatus,Magic Number,The method contains a magic number: 20,211
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,EnvironmentUtil,getAppStatus,Magic Number,The method contains a magic number: 2,211
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,EnvironmentUtil,getAppStatus,Magic Number,The method contains a magic number: 3,211
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,FileUtil,isVideoFile,Long Statement,The length of the statement "String reg=".+(\\.avi|\\.wmv|\\.mpeg|\\.mp4|\\.mov|\\.mkv|\\.flv|\\.f4v|\\.m4v|\\.rmvb|\\.rm|\\.rmvb|\\.3gp|\\.dat|\\.ts|\\.mts|\\.vob).*";" is 139.,30
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,FileUtil,getFileByte,Magic Number,The method contains a magic number: 1024,46
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,pohotoSelect,Long Statement,The length of the statement "rxPermissions.request(Manifest.permission.WRITE_EXTERNAL_STORAGE`Manifest.permission.READ_EXTERNAL_STORAGE).subscribe(new Consumer<Boolean>(){" is 142.,62
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,takePhoto,Complex Method,Cyclomatic complexity of the method is 8,106
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,takePhoto,Long Statement,The length of the statement "intent.putExtra(MediaStore.EXTRA_OUTPUT`FileProvider.getUriForFile(fragment.getContext()`"com.zjx.vcars.fileprovider"`file));" is 125.,106
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,accept,Long Statement,The length of the statement "intent.putExtra(MediaStore.EXTRA_OUTPUT`FileProvider.getUriForFile(fragment.getContext()`"com.zjx.vcars.fileprovider"`file));" is 125.,118
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,takeVideo,Complex Method,Cyclomatic complexity of the method is 8,162
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,takeVideo,Long Statement,The length of the statement "intent.putExtra(MediaStore.EXTRA_OUTPUT`FileProvider.getUriForFile(fragment.getContext()`"com.zjx.vcars.fileprovider"`file));" is 125.,162
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,accept,Long Statement,The length of the statement "intent.putExtra(MediaStore.EXTRA_OUTPUT`FileProvider.getUriForFile(fragment.getContext()`"com.zjx.vcars.fileprovider"`file));" is 125.,173
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,getPhotoPath,Long Statement,The length of the statement "String filepath=activity.getExternalFilesDir(Environment.DIRECTORY_PICTURES).getAbsolutePath() + File.separator + filename;" is 123.,204
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,MultiMediaUtil,getVideoPath,Long Statement,The length of the statement "String filepath=activity.getExternalFilesDir(Environment.DIRECTORY_MOVIES).getAbsolutePath() + File.separator + filename;" is 121.,211
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,PermissionCheckUtil,check,Long Statement,The length of the statement "new RxPermissions(activity).request(Manifest.permission.ACCESS_FINE_LOCATION`Manifest.permission.READ_EXTERNAL_STORAGE`Manifest.permission.WRITE_EXTERNAL_STORAGE).subscribe(new Consumer<Boolean>(){" is 197.,20
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,PermissionCheckUtil,check,Long Statement,The length of the statement "ToastUtil.showToast("ç¼ºå°‘å®šä½?æ?ƒé™?ã€?å­˜å‚¨æ?ƒé™?ï¼Œè¿™ä¼šå¯¼è‡´åœ°å›¾ã€?å¯¼èˆªã€?æ‹?ç…§ç­‰éƒ¨åˆ†åŠŸèƒ½æ— æ³•ä½¿ç”¨");" is 123.,20
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,PermissionCheckUtil,accept,Long Statement,The length of the statement "ToastUtil.showToast("ç¼ºå°‘å®šä½?æ?ƒé™?ã€?å­˜å‚¨æ?ƒé™?ï¼Œè¿™ä¼šå¯¼è‡´åœ°å›¾ã€?å¯¼èˆªã€?æ‹?ç…§ç­‰éƒ¨åˆ†åŠŸèƒ½æ— æ³•ä½¿ç”¨");" is 123.,22
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,SPUtils,findApplyMethod,Empty catch clause,The method has an empty catch block.,141
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,SPUtils,apply,Empty catch clause,The method has an empty catch block.,156
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,SPUtils,apply,Empty catch clause,The method has an empty catch block.,156
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,SPUtils,apply,Empty catch clause,The method has an empty catch block.,156
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,SharedPreferencesCompat,findApplyMethod,Empty catch clause,The method has an empty catch block.,141
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,SharedPreferencesCompat,apply,Empty catch clause,The method has an empty catch block.,156
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,SharedPreferencesCompat,apply,Empty catch clause,The method has an empty catch block.,156
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util,SharedPreferencesCompat,apply,Empty catch clause,The method has an empty catch block.,156
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log.klog,FileLog,printFile,Long Parameter List,The method has 5 parameters. ,24
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log.klog,FileLog,getFileName,Magic Number,The method contains a magic number: 10000,61
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log.klog,FileLog,getFileName,Magic Number,The method contains a magic number: 4,61
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log,KLog,printStackTrace,Magic Number,The method contains a magic number: 2,190
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log,KLog,printLog,Complex Method,Cyclomatic complexity of the method is 10,219
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log,KLog,printLog,Magic Number,The method contains a magic number: 2,219
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log,KLog,printDebug,Magic Number,The method contains a magic number: 2,249
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log,KLog,printFile,Magic Number,The method contains a magic number: 2,258
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log,KLogUtil,printLine,Long Statement,The length of the statement "Log.d(tag`"â•”â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?");" is 278.,15
+android-mvp-mvvm-flytour-master,com.fly.tour.common.util.log,KLogUtil,printLine,Long Statement,The length of the statement "Log.d(tag`"â•šâ•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?â•?");" is 278.,15
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,CommonDialogFragment,onStart,Long Statement,The length of the statement "getDialog().getWindow().setLayout(getResources().getDisplayMetrics().widthPixels - DisplayUtil.dip2px(40) * 2`ViewGroup.LayoutParams.WRAP_CONTENT);" is 147.,69
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,CommonDialogFragment,onStart,Magic Number,The method contains a magic number: 40,69
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,CommonDialogFragment,onStart,Magic Number,The method contains a magic number: 2,69
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,CommonDialogFragment,onCreateView,Complex Method,Cyclomatic complexity of the method is 9,76
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,DrawableCenterTextView,onDraw,Magic Number,The method contains a magic number: 2,32
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,ExpandableTextView,init,Long Statement,The length of the statement "mExpandCollapseToggleId=typedArray.getResourceId(R.styleable.ExpandableTextView_expandCollapseToggleId`R.id.expand_collapse);" is 125.,273
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,ExpandableTextView,setupExpandToggleController,Long Statement,The length of the statement "throw new IllegalStateException("Must be of enum: ExpandableTextView_expandToggleType` one of EXPAND_INDICATOR_IMAGE_BUTTON or EXPAND_INDICATOR_TEXT_VIEW.");" is 157.,350
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,ExpandableTextView,setupExpandToggleController,Missing default,The following switch statement is missing a default case: switch (expandToggleType) {,350
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,HorizontalCenterRecycleView,setItemCount,Magic Number,The method contains a magic number: 2,98
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,HorizontalCenterRecycleView,onScrollStateChanged,Complex Method,Cyclomatic complexity of the method is 8,203
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,HorizontalCenterRecycleView,onScrollStateChanged,Magic Number,The method contains a magic number: 2,203
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,HorizontalCenterRecycleView,WrapperAdapter,Long Statement,The length of the statement "throw new RuntimeException(adapter.getClass().getSimpleName() + " should implements com.jianglei.view.AutoLocateHorizontalView.IAutoLocateHorizontalView !");" is 157.,309
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,HorizontalCenterRecycleView,onCreateViewHolder,Magic Number,The method contains a magic number: 2,320
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,HorizontalCenterRecycleView,onCreateViewHolder,Magic Number,The method contains a magic number: 2,320
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,HorizontalCenterRecycleView,getItemCount,Magic Number,The method contains a magic number: 2,356
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,WrapperAdapter,WrapperAdapter,Long Statement,The length of the statement "throw new RuntimeException(adapter.getClass().getSimpleName() + " should implements com.jianglei.view.AutoLocateHorizontalView.IAutoLocateHorizontalView !");" is 157.,309
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,WrapperAdapter,onCreateViewHolder,Magic Number,The method contains a magic number: 2,320
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,WrapperAdapter,onCreateViewHolder,Magic Number,The method contains a magic number: 2,320
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,WrapperAdapter,getItemCount,Magic Number,The method contains a magic number: 2,356
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Complex Conditional,The conditional expression Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB && (innerShadows.size() > 0 || foregroundDrawable != null) is complex.,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Complex Method,Cyclomatic complexity of the method is 15,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Long Statement,The length of the statement "this.addInnerShadow(a.getDimensionPixelSize(R.styleable.MagicTextView_innerShadowRadius`0)`a.getDimensionPixelOffset(R.styleable.MagicTextView_innerShadowDx`0)`a.getDimensionPixelOffset(R.styleable.MagicTextView_innerShadowDy`0)`a.getColor(R.styleable.MagicTextView_innerShadowColor`0xff000000));" is 296.,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Long Statement,The length of the statement "this.addOuterShadow(a.getDimensionPixelSize(R.styleable.MagicTextView_outerShadowRadius`0)`a.getDimensionPixelOffset(R.styleable.MagicTextView_outerShadowDx`0)`a.getDimensionPixelOffset(R.styleable.MagicTextView_outerShadowDy`0)`a.getColor(R.styleable.MagicTextView_outerShadowColor`0xff000000));" is 296.,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Magic Number,The method contains a magic number: 0xff000000,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Magic Number,The method contains a magic number: 0xff000000,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Magic Number,The method contains a magic number: 0xff000000,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Magic Number,The method contains a magic number: 0xff000000,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Magic Number,The method contains a magic number: 0xff000000,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Magic Number,The method contains a magic number: 10,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,init,Magic Number,The method contains a magic number: 2,78
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,setStroke,Magic Number,The method contains a magic number: 10,160
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,addOuterShadow,Magic Number,The method contains a magic number: 0.0001f,164
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,addInnerShadow,Magic Number,The method contains a magic number: 0.0001f,171
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,onDraw,Long Statement,The length of the statement "this.setCompoundDrawablesWithIntrinsicBounds(restoreDrawables[0]`restoreDrawables[1]`restoreDrawables[2]`restoreDrawables[3]);" is 126.,197
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,onDraw,Magic Number,The method contains a magic number: 0xFF000000,197
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,onDraw,Magic Number,The method contains a magic number: 2,197
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,onDraw,Magic Number,The method contains a magic number: 3,197
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,freeze,Long Statement,The length of the statement "lockedCompoundPadding=new int[]{getCompoundPaddingLeft()`getCompoundPaddingRight()`getCompoundPaddingTop()`getCompoundPaddingBottom()};" is 135.,288
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,getCompoundPaddingTop,Magic Number,The method contains a magic number: 2,339
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,MagicTextView,getCompoundPaddingBottom,Magic Number,The method contains a magic number: 3,344
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,PhotoSelectDialog,onStart,Long Statement,The length of the statement "getDialog().getWindow().setLayout(getResources().getDisplayMetrics().widthPixels - DisplayUtil.dip2px(16) * 2`ViewGroup.LayoutParams.WRAP_CONTENT);" is 147.,50
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,PhotoSelectDialog,onStart,Magic Number,The method contains a magic number: 16,50
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,PhotoSelectDialog,onStart,Magic Number,The method contains a magic number: 2,50
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,RotateProgressDialog,onStart,Magic Number,The method contains a magic number: 100,32
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,RotateProgressDialog,onStart,Magic Number,The method contains a magic number: 100,32
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,RotateProgressDialog,onCreateView,Magic Number,The method contains a magic number: 359f,43
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,RotateProgressDialog,onCreateView,Magic Number,The method contains a magic number: 2000,43
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,SettingBarView,setOnClickSettingBarViewListener,Long Identifier,The length of the field mOnClickSettingBarViewListener is 30.,54
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,SettingBarView,SettingBarView,Long Identifier,The length of the field mOnClickSettingBarViewListener is 30.,58
+android-mvp-mvvm-flytour-master,com.fly.tour.common.view,SettingBarView,onClick,Long Identifier,The length of the field mOnClickSettingBarViewListener is 30.,97
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Long Statement,The length of the statement "okHttpBuilder.connectTimeout(20 * 1000`TimeUnit.MILLISECONDS).readTimeout(20 * 1000`TimeUnit.MILLISECONDS).writeTimeout(20 * 1000`TimeUnit.MILLISECONDS);" is 153.,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Long Statement,The length of the statement "okHttpBuilder.addInterceptor(new LoggingInterceptor.Builder().setLevel(Level.BODY).log(Platform.INFO).request("request").response("response").build());" is 151.,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Long Statement,The length of the statement "mRetrofit=new Retrofit.Builder().client(okHttpClient).baseUrl(API.URL_HOST_USER).addCallAdapterFactory(RxJava2CallAdapterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build();" is 198.,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Magic Number,The method contains a magic number: 20,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Magic Number,The method contains a magic number: 1000,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Magic Number,The method contains a magic number: 20,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Magic Number,The method contains a magic number: 1000,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Magic Number,The method contains a magic number: 20,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,RetrofitManager,RetrofitManager,Magic Number,The method contains a magic number: 1000,44
+android-mvp-mvvm-flytour-master,com.fly.tour.api,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvp-mvvm-flytour-master,com.fly.tour.api,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.api,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.api.http,ExceptionHandler,handleException,Complex Conditional,The conditional expression e instanceof JsonParseException || e instanceof JSONException || e instanceof ParseException|| e instanceof MalformedJsonException is complex.,23
+android-mvp-mvvm-flytour-master,com.fly.tour.api.http,ExceptionHandler,handleException,Complex Method,Cyclomatic complexity of the method is 14,23
+android-mvp-mvvm-flytour-master,com.fly.tour.api.http,ExceptionHandler,handleException,Long Statement,The length of the statement "else if (e instanceof JsonParseException || e instanceof JSONException || e instanceof ParseException|| e instanceof MalformedJsonException) {" is 142.,23
+android-mvp-mvvm-flytour-master,com.fly.tour.api.http,ExceptionHandler,handleException,Missing default,The following switch statement is missing a default case: switch (httpException.code()) {,23
+android-mvp-mvvm-flytour-master,com.refresh.lib,BaseRefreshLayout,autoRefresh,Magic Number,The method contains a magic number: 1000,65
+android-mvp-mvvm-flytour-master,com.refresh.lib,DaisyFooterView,initView,Magic Number,The method contains a magic number: 360,48
+android-mvp-mvvm-flytour-master,com.refresh.lib,DaisyFooterView,initView,Magic Number,The method contains a magic number: 800,48
+android-mvp-mvvm-flytour-master,com.refresh.lib,DaisyHeaderView,initView,Magic Number,The method contains a magic number: 360,49
+android-mvp-mvvm-flytour-master,com.refresh.lib,DaisyHeaderView,initView,Magic Number,The method contains a magic number: 800,49
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,SuperSwipeRefreshLayout,Long Identifier,The length of the field DECELERATE_INTERPOLATION_FACTOR is 31.,228
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,getChildDrawingOrder,Magic Number,The method contains a magic number: 2,266
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,getChildDrawingOrder,Magic Number,The method contains a magic number: 2,266
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,createHeaderViewContainer,Long Statement,The length of the statement "RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams((int)(mHeaderViewHeight * 0.8)`(int)(mHeaderViewHeight * 0.8));" is 136.,298
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,createHeaderViewContainer,Magic Number,The method contains a magic number: 0.8,298
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,createHeaderViewContainer,Magic Number,The method contains a magic number: 0.8,298
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Long Parameter List,The method has 5 parameters. ,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Long Statement,The length of the statement "mHeadViewContainer.layout((width / 2 - headViewWidth / 2)`mCurrentTargetOffsetTop`(width / 2 + headViewWidth / 2)`mCurrentTargetOffsetTop + headViewHeight);" is 156.,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Long Statement,The length of the statement "mFooterViewContainer.layout((width / 2 - footViewWidth / 2)`height - pushDistance`(width / 2 + footViewWidth / 2)`height + footViewHeight - pushDistance);" is 154.,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Magic Number,The method contains a magic number: 2,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Magic Number,The method contains a magic number: 2,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Magic Number,The method contains a magic number: 2,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Magic Number,The method contains a magic number: 2,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Magic Number,The method contains a magic number: 2,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Magic Number,The method contains a magic number: 2,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Magic Number,The method contains a magic number: 2,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onLayout,Magic Number,The method contains a magic number: 2,459
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onMeasure,Complex Method,Cyclomatic complexity of the method is 8,498
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onMeasure,Long Statement,The length of the statement "mTarget.measure(MeasureSpec.makeMeasureSpec(getMeasuredWidth() - getPaddingLeft() - getPaddingRight()`MeasureSpec.EXACTLY)`MeasureSpec.makeMeasureSpec(getMeasuredHeight() - getPaddingTop() - getPaddingBottom()`MeasureSpec.EXACTLY));" is 232.,498
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onMeasure,Long Statement,The length of the statement "mHeadViewContainer.measure(MeasureSpec.makeMeasureSpec(mHeaderViewWidth`MeasureSpec.EXACTLY)`MeasureSpec.makeMeasureSpec(3 * mHeaderViewHeight`MeasureSpec.EXACTLY));" is 165.,498
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onMeasure,Long Statement,The length of the statement "mFooterViewContainer.measure(MeasureSpec.makeMeasureSpec(mFooterViewWidth`MeasureSpec.EXACTLY)`MeasureSpec.makeMeasureSpec(mFooterViewHeight`MeasureSpec.EXACTLY));" is 163.,498
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onMeasure,Magic Number,The method contains a magic number: 3,498
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,isChildScrollToTop,Long Statement,The length of the statement "return !(absListView.getChildCount() > 0 && (absListView.getFirstVisiblePosition() > 0 || absListView.getChildAt(0).getTop() < absListView.getPaddingTop()));" is 157.,540
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,isChildScrollToTop,Magic Number,The method contains a magic number: 14,540
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,isChildScrollToBottom,Complex Conditional,The conditional expression lastPos > 0 && count > 0 && lastPos == count - 1 is complex.,560
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,isChildScrollToBottom,Complex Method,Cyclomatic complexity of the method is 16,560
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,isChildScrollToBottom,Magic Number,The method contains a magic number: 2,560
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onInterceptTouchEvent,Complex Conditional,The conditional expression !isEnabled() || mReturningToStart || mRefreshing|| mLoadMore|| (!isChildScrollToTop() && !isChildScrollToBottom()) is complex.,627
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 14,627
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onInterceptTouchEvent,Long Statement,The length of the statement "if (!isEnabled() || mReturningToStart || mRefreshing|| mLoadMore|| (!isChildScrollToTop() && !isChildScrollToBottom())) {" is 121.,627
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onTouchEvent,Complex Conditional,The conditional expression !isEnabled() || mReturningToStart || (!isChildScrollToTop() && !isChildScrollToBottom()) is complex.,714
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPullTouchEvent,Complex Method,Cyclomatic complexity of the method is 23,734
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPullTouchEvent,Long Method,The method has 110 lines of code.,734
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPullTouchEvent,Magic Number,The method contains a magic number: 2,734
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPullTouchEvent,Magic Number,The method contains a magic number: 4,734
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPullTouchEvent,Magic Number,The method contains a magic number: 4,734
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPullTouchEvent,Magic Number,The method contains a magic number: 2,734
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPullTouchEvent,Magic Number,The method contains a magic number: 2f,734
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPullTouchEvent,Magic Number,The method contains a magic number: 2,734
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,handlerPushTouchEvent,Complex Method,Cyclomatic complexity of the method is 15,861
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,animatorFooterToBottom,Magic Number,The method contains a magic number: 150,942
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Long Statement,The length of the statement "mFooterViewContainer.layout((width / 2 - footViewWidth / 2)`height`(width / 2 + footViewWidth / 2)`height + footViewHeight);" is 124.,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Magic Number,The method contains a magic number: 2,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Magic Number,The method contains a magic number: 2,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Magic Number,The method contains a magic number: 2,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Magic Number,The method contains a magic number: 2,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Magic Number,The method contains a magic number: 2,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Magic Number,The method contains a magic number: 2,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Magic Number,The method contains a magic number: 2,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,resetTargetLayout,Magic Number,The method contains a magic number: 2,1041
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,setTargetOffsetTopAndBottom,Magic Number,The method contains a magic number: 11,1124
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onDraw,Magic Number,The method contains a magic number: 360,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onDraw,Magic Number,The method contains a magic number: 360,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onDraw,Magic Number,The method contains a magic number: 2,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onDraw,Magic Number,The method contains a magic number: 720,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onDraw,Magic Number,The method contains a magic number: 2,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onDraw,Magic Number,The method contains a magic number: 360,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onDraw,Magic Number,The method contains a magic number: 720,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,onDraw,Magic Number,The method contains a magic number: 2,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,getBgRect,Magic Number,The method contains a magic number: 2,1355
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,getOvalRect,Magic Number,The method contains a magic number: 8,1366
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,createPaint,Magic Number,The method contains a magic number: 3,1389
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,createBgPaint,Magic Number,The method contains a magic number: 4.0f,1405
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,createBgPaint,Magic Number,The method contains a magic number: 2.0f,1405
+android-mvp-mvvm-flytour-master,com.refresh.lib,SuperSwipeRefreshLayout,setPullDistance,Magic Number,The method contains a magic number: 2,1419
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,onDraw,Magic Number,The method contains a magic number: 360,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,onDraw,Magic Number,The method contains a magic number: 360,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,onDraw,Magic Number,The method contains a magic number: 2,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,onDraw,Magic Number,The method contains a magic number: 720,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,onDraw,Magic Number,The method contains a magic number: 2,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,onDraw,Magic Number,The method contains a magic number: 360,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,onDraw,Magic Number,The method contains a magic number: 720,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,onDraw,Magic Number,The method contains a magic number: 2,1341
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,getBgRect,Magic Number,The method contains a magic number: 2,1355
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,getOvalRect,Magic Number,The method contains a magic number: 8,1366
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,createPaint,Magic Number,The method contains a magic number: 3,1389
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,createBgPaint,Magic Number,The method contains a magic number: 4.0f,1405
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,createBgPaint,Magic Number,The method contains a magic number: 2.0f,1405
+android-mvp-mvvm-flytour-master,com.refresh.lib,CircleProgressView,setPullDistance,Magic Number,The method contains a magic number: 2,1419
+android-mvp-mvvm-flytour-master,com.fly.tour,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvp-mvvm-flytour-master,com.fly.tour,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.find,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvp-mvvm-flytour-master,com.fly.tour.find,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.find,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.main,MainActivity,initView,Complex Method,Cyclomatic complexity of the method is 8,43
+android-mvp-mvvm-flytour-master,com.fly.tour.main,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvp-mvvm-flytour-master,com.fly.tour.main,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.main,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.main.mvvm.model,SplashModel,login,Long Statement,The length of the statement "return mCommonService.login(username`password).compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 132.,34
+android-mvp-mvvm-flytour-master,com.fly.tour.main.mvvm.model,SplashModel,getToken,Long Statement,The length of the statement "return mCommonService.getToken("Basic bXhkbC1jbGllbnQ6bXhkbC1zZWNyZXQ="`"password"`username`password).compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 187.,39
+android-mvp-mvvm-flytour-master,com.fly.tour.me,NewsTypeListActivity,initListener,Long Statement,The length of the statement "new CommonDialogFragment.Builder().setTitle("ä¿¡æ?¯æ??ç¤º").setDescribe("ç¡®å®šåˆ é™¤å?—ï¼Ÿ").setLeftbtn("å?–æ¶ˆ").setRightbtn("ç¡®å®š").setOnDialogClickListener(new CommonDialogFragment.OnDialogClickListener(){" is 211.,56
+android-mvp-mvvm-flytour-master,com.fly.tour.me,NewsTypeListActivity,onClickDeleteListener,Long Statement,The length of the statement "new CommonDialogFragment.Builder().setTitle("ä¿¡æ?¯æ??ç¤º").setDescribe("ç¡®å®šåˆ é™¤å?—ï¼Ÿ").setLeftbtn("å?–æ¶ˆ").setRightbtn("ç¡®å®š").setOnDialogClickListener(new CommonDialogFragment.OnDialogClickListener(){" is 211.,59
+android-mvp-mvvm-flytour-master,com.fly.tour.me,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvp-mvvm-flytour-master,com.fly.tour.me,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.me,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.me.mvvm.model,NewsDetailAddModel,addNewsDetail,Long Statement,The length of the statement "return mNewsDetailService.addNewsDetail(newsDetail).compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 137.,40
+android-mvp-mvvm-flytour-master,com.fly.tour.me.mvvm.model,NewsDetailAddModel,getNewsType,Long Statement,The length of the statement "return mNewsTypeService.getListNewsType().compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 127.,51
+android-mvp-mvvm-flytour-master,com.fly.tour.me.mvvm.model,NewsTypeAddModel,addNewsType,Long Statement,The length of the statement "return mNewsTypeService.addNewsType(type).compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 127.,27
+android-mvp-mvvm-flytour-master,com.fly.tour.me.mvvm.model,NewsTypeListModel,getListNewsType,Long Statement,The length of the statement "return mNewsTypeService.getListNewsType().compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 127.,33
+android-mvp-mvvm-flytour-master,com.fly.tour.me.mvvm.model,NewsTypeListModel,deleteNewsTypeById,Long Statement,The length of the statement "return mNewsTypeService.deleteNewsTypeById(id).compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 132.,39
+android-mvp-mvvm-flytour-master,com.fly.tour.me.view,NewsTypeBottomSelectDialog,onCreateView,Long Statement,The length of the statement "@Override public void getItemOffsets( @NonNull Rect outRect` @NonNull View view` @NonNull RecyclerView parent` @NonNull RecyclerView.State state){" is 146.,61
+android-mvp-mvvm-flytour-master,com.fly.tour.trip,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvp-mvvm-flytour-master,com.fly.tour.trip,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.trip,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.news.mvvm.model,NewsDetailModel,getNewsDetailById,Long Statement,The length of the statement "return mNewsDetailService.getNewsDetailById(id).compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 133.,32
+android-mvp-mvvm-flytour-master,com.fly.tour.news.mvvm.model,NewsListModel,getListNewsByType,Long Statement,The length of the statement "return mNewsDetailService.getListNewsDetailByType(typeid).compose(RxAdapter.exceptionTransformer()).compose(RxAdapter.schedulersTransformer());" is 143.,34
+android-mvp-mvvm-flytour-master,com.fly.tour.news.mvvm.model,NewsTypeModel,getListNewsType,Long Statement,The length of the statement "return mNewsTypeService.getListNewsType().compose(RxAdapter.schedulersTransformer()).compose(RxAdapter.exceptionTransformer());" is 127.,28
+android-mvp-mvvm-flytour-master,com.fly.tour.test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+android-mvp-mvvm-flytour-master,com.fly.tour.test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+android-mvp-mvvm-flytour-master,com.fly.tour.test,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13

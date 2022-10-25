@@ -1,0 +1,88 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+19_s_framework-master,com.hg.ecommerce.action.demo,DemoController,matrixAdvanced,Long Parameter List,The method has 5 parameters. ,95
+19_s_framework-master,com.hg.ecommerce.action.demo,RestfulController,json,Magic Number,The method contains a magic number: 12,56
+19_s_framework-master,com.hg.ecommerce.action.demo,RestfulController,excel,Long Statement,The length of the statement "binder.bind("propKey"`"�?�数关键字").bind("propValue"`"�?�数值").bind("remark"`"�??述").bind("createtime"`"创建时间");" is 129.,98
+19_s_framework-master,com.hg.ecommerce.action.extension.editor,CustomDateEditor,setAsText,Complex Conditional,The conditional expression text != null && this.exactDateLength >= 0 && text.length() != this.exactDateLength is complex.,99
+19_s_framework-master,com.hg.ecommerce.action.extension.editor,CustomDateEditor,setAsText,Long Statement,The length of the statement "throw new IllegalArgumentException("Could not parse date: it is not exactly" + this.exactDateLength + "characters long");" is 121.,99
+19_s_framework-master,com.hg.ecommerce.action.main,SysSettingController,assembleSysSetting,Long Parameter List,The method has 8 parameters. ,48
+19_s_framework-master,com.hg.ecommerce.config,ProjectContainer,configure,Complex Conditional,The conditional expression dbName == null || fieldTypeMapperCls == null || sqlDialectCls == null || sqlProjections == null is complex.,32
+19_s_framework-master,com.hg.ecommerce.config,ProjectContainer,configure,Long Statement,The length of the statement "throw new RuntimeException("Unhandled Provider` You should at least choose One provider for your dbms. Check the properties config file exists?");" is 146.,32
+19_s_framework-master,com.hg.ecommerce.dao.support,SQLWrapper,insert,Complex Method,Cyclomatic complexity of the method is 8,46
+19_s_framework-master,com.hg.ecommerce.dao.support,SQLWrapper,insert,Magic Number,The method contains a magic number: 3,46
+19_s_framework-master,com.hg.ecommerce.dao.support,SQLWrapper,delete,Magic Number,The method contains a magic number: 3,101
+19_s_framework-master,com.hg.ecommerce.dao.support,SQLWrapper,values,Magic Number,The method contains a magic number: 3,156
+19_s_framework-master,com.hg.ecommerce.dao.support,SQLWrapper,update,Complex Method,Cyclomatic complexity of the method is 11,201
+19_s_framework-master,com.hg.ecommerce.dao.support,SQLWrapper,update,Magic Number,The method contains a magic number: 3,201
+19_s_framework-master,com.hg.ecommerce.dao.support,SQLWrapper,upsert,Magic Number,The method contains a magic number: 3,268
+19_s_framework-master,com.hg.ecommerce.dao.support,SQLWrapper,preparedInsert,Long Statement,The length of the statement "String fieldsPart=parts[0].substring(parts[0].indexOf(ISQLProvider.LP) + ISQLProvider.LP.length()`parts[0].indexOf(ISQLProvider.RP) + 1);" is 137.,708
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,COUNT,Long Statement,The length of the statement "this.projection.append(COUNT).append(TLP).append(field).append(TRP).append(AS).append(COUNT + "_" + field).append(BLANK);" is 121.,74
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,UCASE,Long Statement,The length of the statement "this.projection.append(UCASE).append(TLP).append(field).append(TRP).append(AS).append(UCASE + "_" + field).append(BLANK);" is 121.,164
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,LCASE,Long Statement,The length of the statement "this.projection.append(LCASE).append(TLP).append(field).append(TRP).append(AS).append(LCASE + "_" + field).append(BLANK);" is 121.,179
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,MID,Long Statement,The length of the statement "this.projection.append(MID).append(TLP).append(field).append(COMMA).append(start).append(COMMA).append(end).append(TRP).append(AS).append(alias).append(BLANK);" is 159.,194
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,MID,Long Statement,The length of the statement "this.projection.append(MID).append(TLP).append(field).append(COMMA).append(start).append(COMMA).append(end).append(TRP).append(AS).append(LCASE + "_" + field).append(BLANK);" is 173.,194
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,ROUND,Long Statement,The length of the statement "this.projection.append(ROUND).append(TLP).append(field).append(COMMA).append(decimals).append(TRP).append(AS).append(alias).append(BLANK);" is 138.,224
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,ROUND,Long Statement,The length of the statement "this.projection.append(ROUND).append(TLP).append(field).append(COMMA).append(decimals).append(TRP).append(AS).append(ROUND + "_" + field).append(BLANK);" is 152.,224
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,FORMAT,Long Statement,The length of the statement "this.projection.append(FORMAT).append(TLP).append(field).append(COMMA).append(format).append(TRP).append(AS).append(alias).append(BLANK);" is 137.,254
+19_s_framework-master,com.hg.ecommerce.dao.support.projection,MySQLProjections,FORMAT,Long Statement,The length of the statement "this.projection.append(FORMAT).append(TLP).append(field).append(COMMA).append(format).append(TRP).append(AS).append(FORMAT + "_" + alias).append(BLANK);" is 152.,254
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,fields,Complex Method,Cyclomatic complexity of the method is 11,177
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,set,Complex Conditional,The conditional expression null != field && null != value && isUpdate is complex.,256
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,where,Complex Conditional,The conditional expression isSelect || isUpdate || isDelete is complex.,281
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,and,Long Statement,The length of the statement "this.SQL.append(AND).append(LP).append(LP).append(one.getSQL()).append(RP).append(AOR.getAor()).append(LP).append(another.getSQL()).append(RP).append(RP);" is 154.,303
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,or,Long Statement,The length of the statement "this.SQL.append(LP).append(LP).append(one.getSQL()).append(RP).append(OR).append(LP).append(another.getSQL()).append(RP).append(RP);" is 132.,329
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,or,Long Statement,The length of the statement "this.SQL.append(OR).append(LP).append(LP).append(one.getSQL()).append(RP).append(AOR.getAor()).append(LP).append(another.getSQL()).append(RP).append(RP);" is 153.,329
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,between,Long Statement,The length of the statement "this.SQL.append(field).append(BETWEEN).append(QUOTE).append(lvalue).append(QUOTE).append(AND).append(QUOTE).append(rvalue).append(QUOTE);" is 137.,433
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,between,Long Statement,The length of the statement "this.SQL.append(AND).append(field).append(BETWEEN).append(QUOTE).append(lvalue).append(QUOTE).append(AND).append(QUOTE).append(rvalue).append(QUOTE);" is 149.,433
+19_s_framework-master,com.hg.ecommerce.dao.support.provider,MySQLProvider,setModel,Complex Method,Cyclomatic complexity of the method is 8,616
+19_s_framework-master,com.hg.ecommerce.model.support,EntityGenerator,generateModel,Complex Method,Cyclomatic complexity of the method is 8,38
+19_s_framework-master,com.hg.ecommerce.model.support,EntityGenerator,generateModel,Long Statement,The length of the statement "Map<TableDef`List<FieldEntry>> metaMap=mapper.fetchDatabaseMeta(ProjectConfig.getProperty("db.url")`ProjectConfig.getProperty("db.username")`ProjectConfig.getProperty("db.password"));" is 183.,38
+19_s_framework-master,com.hg.ecommerce.model.support,EntityGenerator,generateModel,Long Statement,The length of the statement "Resource resource=new FileSystemResource(CWD_RELATIVE_PATH + packagePath + File.separatorChar+ Util.qualifyModelName(tableDef.getTableName())+ SOURCE_FILE_AFFIX);" is 162.,38
+19_s_framework-master,com.hg.ecommerce.model.support,EntityObject,setField,Complex Method,Cyclomatic complexity of the method is 12,36
+19_s_framework-master,com.hg.ecommerce.model.support,EntityObject,getMethodPairByField,Complex Method,Cyclomatic complexity of the method is 8,127
+19_s_framework-master,com.hg.ecommerce.model.support,EntityObject,toJSON,Complex Conditional,The conditional expression annotationName.equals("ManyToOne") || annotationName.equals("OneToMany") || annotationName.equals("ManyToMany") is complex.,201
+19_s_framework-master,com.hg.ecommerce.model.support,EntityObject,toJSON,Complex Method,Cyclomatic complexity of the method is 8,201
+19_s_framework-master,com.hg.ecommerce.model.support,EntityObject,toJSON,Long Statement,The length of the statement "fieldName=Character.toLowerCase(method.getName().charAt(GETTER_PREFIX.length())) + method.getName().substring(GETTER_PREFIX.length() + 1);" is 138.,201
+19_s_framework-master,com.hg.ecommerce.model.support,EntityObject,toJSON,Long Statement,The length of the statement "fieldName=Character.toLowerCase(method.getName().charAt(IS_PREFIX.length())) + method.getName().substring(IS_PREFIX.length() + 1);" is 130.,201
+19_s_framework-master,com.hg.ecommerce.model.support,EntityObject,getJsonObject,Complex Method,Cyclomatic complexity of the method is 8,257
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,getDateCellFormat,Long Statement,The length of the statement "dateCellFormat.setFont(new WritableFont(WritableFont.ARIAL`14`WritableFont.NO_BOLD`false`UnderlineStyle.NO_UNDERLINE`jxl.format.Colour.BLACK));" is 143.,48
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,getDateCellFormat,Magic Number,The method contains a magic number: 14,48
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,getHeaderCellFormat,Long Statement,The length of the statement "WritableFont wf_head=new WritableFont(WritableFont.ARIAL`19`WritableFont.BOLD`false`UnderlineStyle.NO_UNDERLINE`jxl.format.Colour.BLACK);" is 137.,60
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,getHeaderCellFormat,Magic Number,The method contains a magic number: 19,60
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,getBodyCellFormat,Long Statement,The length of the statement "WritableFont wf_body=new WritableFont(WritableFont.ARIAL`14`WritableFont.NO_BOLD`false`UnderlineStyle.NO_UNDERLINE`jxl.format.Colour.BLACK);" is 140.,73
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,getBodyCellFormat,Magic Number,The method contains a magic number: 14,73
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,getTitleCellFormat,Long Statement,The length of the statement "WritableFont wf_body=new WritableFont(WritableFont.TIMES`21`WritableFont.BOLD`false`UnderlineStyle.NO_UNDERLINE`jxl.format.Colour.RED);" is 135.,85
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,getTitleCellFormat,Magic Number,The method contains a magic number: 21,85
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,genExcel,Magic Number,The method contains a magic number: 100,146
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,genExcel,Magic Number,The method contains a magic number: 28,146
+19_s_framework-master,com.hg.ecommerce.model.support,ExcelBinder,genExcel,Magic Number,The method contains a magic number: 7,146
+19_s_framework-master,com.hg.ecommerce.model.support.provider,AbstractRSQLFieldTypeMapper,mapFieldType,Complex Method,Cyclomatic complexity of the method is 21,145
+19_s_framework-master,com.hg.ecommerce.service.rmi.impl,RMITestServiceImpl,accessSession,Magic Number,The method contains a magic number: 20,49
+19_s_framework-master,com.hg.ecommerce.util,MailUtil,sendMessage,Complex Method,Cyclomatic complexity of the method is 14,49
+19_s_framework-master,com.hg.ecommerce.util,MailUtil,sendMessage,Long Parameter List,The method has 8 parameters. ,49
+19_s_framework-master,com.hg.ecommerce.util,MailUtil,sendTextMessage,Long Parameter List,The method has 7 parameters. ,151
+19_s_framework-master,com.hg.ecommerce.util,MailUtil,sendTextMessage,Long Parameter List,The method has 7 parameters. ,174
+19_s_framework-master,com.hg.ecommerce.util,MailUtil,sendTextMessage,Long Parameter List,The method has 7 parameters. ,203
+19_s_framework-master,com.hg.ecommerce.util,MailUtil,sendHTMLMessage,Long Parameter List,The method has 7 parameters. ,243
+19_s_framework-master,com.hg.ecommerce.util,MailUtil,sendHTMLMessage,Long Parameter List,The method has 7 parameters. ,266
+19_s_framework-master,com.hg.ecommerce.util,MailUtil,sendHTMLMessage,Long Parameter List,The method has 7 parameters. ,304
+19_s_framework-master,com.hg.ecommerce.util,PdfPrinter,main,Magic Number,The method contains a magic number: 12,22
+19_s_framework-master,com.hg.ecommerce.util,PdfPrinter,main,Magic Number,The method contains a magic number: 6,22
+19_s_framework-master,com.hg.ecommerce.util,PdfPrinter,main,Magic Number,The method contains a magic number: 0.5f,22
+19_s_framework-master,com.hg.ecommerce.util,PdfPrinter,main,Magic Number,The method contains a magic number: 1.5f,22
+19_s_framework-master,com.hg.ecommerce.util,PdfPrinter,main,Magic Number,The method contains a magic number: 6f,22
+19_s_framework-master,com.hg.ecommerce.util,Util,dtoToPojo,Long Statement,The length of the statement "Class pojoCls=Class.forName(ProjectConfig.getProperty("package.pojo") + "." + dtoCls.getSimpleName().substring(0`dtoCls.getSimpleName().indexOf("Dto")));" is 153.,114
+19_s_framework-master,com.hg.ecommerce.util,Util,endsSame,Complex Method,Cyclomatic complexity of the method is 8,158
+19_s_framework-master,com.hg.ecommerce.util,Util,getJsonObject,Complex Method,Cyclomatic complexity of the method is 9,211
+19_s_framework-master,com.hg.ecommerce.util,Util,render,Complex Method,Cyclomatic complexity of the method is 19,279
+19_s_framework-master,com.hg.ecommerce.util,Util,render,Magic Number,The method contains a magic number: 2,279
+19_s_framework-master,com.hg.ecommerce.util,Util,getFieldValue,Empty catch clause,The method has an empty catch block.,486
+19_s_framework-master,com.hg.ecommerce.util,Util,getFieldValue,Empty catch clause,The method has an empty catch block.,486
+19_s_framework-master,com.hg.ecommerce.util,Util,renderSQL,Magic Number,The method contains a magic number: 2,520
+19_s_framework-master,com.hg.ecommerce.util,Util,renderSQL,Magic Number,The method contains a magic number: 2,548
+19_s_framework-master,com.hg.ecommerce.websocket,WebSocketEventDrivenHandler,afterConnectionEstablished,Long Statement,The length of the statement "System.out.println("New Session:" + session.getId() + "\tNow The Connection Hub Socket Number:"+ ConnectionHub.getActiveSocketCount()+ "\tUUID:"+ ConnectionHub.uuid);" is 166.,28
+19_s_framework-master,com.hg.ecommerce.websocket.handler,MessageHandler,onConnection,Magic Number,The method contains a magic number: 1234,22
+19_s_framework-master,com.hg.ecommerce.websocket.handler,MessageHandler,actionPerformed,Magic Number,The method contains a magic number: 1234,45
+19_s_framework-master,com.hg.ecommerce.websocket.support,Socket,performEvent,Long Statement,The length of the statement "throw new BadMessageException("Bad Message` Cannot read Instance of Class:" + cls.getName() + " from the given raw message"`e);" is 127.,103
+19_s_framework-master,com.hg.ecommerce.websocket.support,Socket,guessCls,Long Statement,The length of the statement "throw new NoGenericSuperInterfaceException("The anonymous SocketEventListener is not derived from an interface with the specified Generic Type");" is 145.,144
+19_s_framework-master,com.hg.ecommerce.model.test,TestModelUnitTest,testInjection,Long Statement,The length of the statement "@SuppressWarnings("resource") ApplicationContext context=new FileSystemXmlApplicationContext("src/main/webapp/WEB-INF/spring/applicationContext.xml");" is 150.,12
+19_s_framework-master,com.hg.ecommerce.test,DemoSQLWrapperTest,test2,Magic Number,The method contains a magic number: 18,28
+19_s_framework-master,com.hg.ecommerce.test,ExcelTest,main,Long Statement,The length of the statement "binder.bind("propKey"`"�?�数关键字").bind("propValue"`"�?�数值").bind("remark"`"�??述").bind("createtime"`"创建时间");" is 129.,11

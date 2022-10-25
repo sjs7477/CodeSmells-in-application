@@ -1,0 +1,548 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+12_MvvmProject-main,com.sumjin.peppymvvm,MainActivity,addTabBadge,Magic Number,The method contains a magic number: 2,72
+12_MvvmProject-main,com.sumjin.peppymvvm,MainActivity,addTabBadge,Magic Number,The method contains a magic number: 2,72
+12_MvvmProject-main,com.sumjin.peppymvvm,MainActivity,addTabBadge,Magic Number,The method contains a magic number: 3,72
+12_MvvmProject-main,com.sumjin.peppymvvm,MainActivity,addTabBadge,Magic Number,The method contains a magic number: 3,72
+12_MvvmProject-main,com.sumjin.peppymvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+12_MvvmProject-main,com.sumjin.peppymvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+12_MvvmProject-main,com.sumjin.peppymvvm,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+12_MvvmProject-main,com.sumjin.peppymvvm.common.interfaceOrImplement,UserActivityLifecycleCallbacks,restartSingleInstanceActivity,Complex Conditional,The conditional expression !topActivity.isFinishing() && topActivity != activity && topActivity.getTaskId() != activity.getTaskId() is complex.,126
+12_MvvmProject-main,com.sumjin.peppymvvm.common.interfaceOrImplement,UserActivityLifecycleCallbacks,makeMainTaskToFront,Complex Conditional,The conditional expression activity.isFinishing() && resumeActivity.size() == 1 && resumeActivity.get(0) == activity && activityList.size() > 1 is complex.,150
+12_MvvmProject-main,com.sumjin.peppymvvm.common.interfaceOrImplement,UserActivityLifecycleCallbacks,makeMainTaskToFront,Long Statement,The length of the statement "if (activity.isFinishing() && resumeActivity.size() == 1 && resumeActivity.get(0) == activity && activityList.size() > 1) {" is 123.,150
+12_MvvmProject-main,com.sumjin.peppymvvm.common.interfaceOrImplement,UserActivityLifecycleCallbacks,makeMainTaskToFront,Magic Number,The method contains a magic number: 20,150
+12_MvvmProject-main,com.sumjin.peppymvvm.common.livedatas,LiveDataBus,isCallOnObserve,Long Statement,The length of the statement "if ("android.arch.lifecycle.LiveData".equals(element.getClassName()) && "observeForever".equals(element.getMethodName())) {" is 123.,77
+12_MvvmProject-main,com.sumjin.peppymvvm.common.livedatas,ObserverWrapper,isCallOnObserve,Long Statement,The length of the statement "if ("android.arch.lifecycle.LiveData".equals(element.getClassName()) && "observeForever".equals(element.getMethodName())) {" is 123.,77
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model,EmojiconExampleGroupData,createData,Long Statement,The length of the statement "datas[i].setName(BaseApplication.getInstance().getApplicationContext().getString(R.string.emojicon_test_name) + (i + 1));" is 121.,53
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model,EmojiconExampleGroupData,createData,Magic Number,The method contains a magic number: 1000,53
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,DynamicInfo,toString,Long Statement,The length of the statement "return "DynamicInfo{" + "msg='" + msg + '\''+ "` state="+ state+ "` page="+ page+ "` size="+ size+ "` count="+ count+ "` datas="+ datas+ '}';" is 141.,7
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,DynamicInfo,toString,Long Statement,The length of the statement "return "DatasBean{" + "id=" + id + "` nickname='"+ nickname+ '\''+ "` avatar='"+ avatar+ '\''+ "` username='"+ username+ '\''+ "` content='"+ content+ '\''+ "` createtime='"+ createtime+ '\''+ "` likes="+ likes+ "` comments="+ comments+ "` shares="+ shares+ "` dynamic_type='"+ dynamic_type+ '\''+ "` status="+ status+ "` download_url='"+ download_url+ '\''+ "` state="+ state+ '}';" is 382.,218
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,DatasBean,toString,Long Statement,The length of the statement "return "DatasBean{" + "id=" + id + "` nickname='"+ nickname+ '\''+ "` avatar='"+ avatar+ '\''+ "` username='"+ username+ '\''+ "` content='"+ content+ '\''+ "` createtime='"+ createtime+ '\''+ "` likes="+ likes+ "` comments="+ comments+ "` shares="+ shares+ "` dynamic_type='"+ dynamic_type+ '\''+ "` status="+ status+ "` download_url='"+ download_url+ '\''+ "` state="+ state+ '}';" is 382.,218
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,OnSellContent,getTbk_dg_optimus_material_response,Long Identifier,The length of the field tbk_dg_optimus_material_response is 32.,57
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,OnSellContent,setTbk_dg_optimus_material_response,Long Identifier,The length of the parameter tbk_dg_optimus_material_response is 32.,61
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,OnSellContent,setTbk_dg_optimus_material_response,Long Identifier,The length of the field tbk_dg_optimus_material_response is 32.,61
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,DataBean,getTbk_dg_optimus_material_response,Long Identifier,The length of the field tbk_dg_optimus_material_response is 32.,57
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,DataBean,setTbk_dg_optimus_material_response,Long Identifier,The length of the parameter tbk_dg_optimus_material_response is 32.,61
+12_MvvmProject-main,com.sumjin.peppymvvm.common.model.domain,DataBean,setTbk_dg_optimus_material_response,Long Identifier,The length of the field tbk_dg_optimus_material_response is 32.,61
+12_MvvmProject-main,com.sumjin.peppymvvm.common.net,Resource,error,Long Statement,The length of the statement "return TextUtils.isEmpty(message) ? new Resource<>(Statuss.ERROR`data`code) : new Resource<>(Statuss.ERROR`data`code`message);" is 126.,54
+12_MvvmProject-main,com.sumjin.peppymvvm.common.net,Resource,hashCode,Magic Number,The method contains a magic number: 31,89
+12_MvvmProject-main,com.sumjin.peppymvvm.common.net,Resource,hashCode,Magic Number,The method contains a magic number: 31,89
+12_MvvmProject-main,com.sumjin.peppymvvm.common.net,Resource,hashCode,Magic Number,The method contains a magic number: 31,89
+12_MvvmProject-main,com.sumjin.peppymvvm.common.net,Resource,toString,Long Statement,The length of the statement "return "Resource{" + "mStatus=" + status + "` data="+ data+ "` errorCode="+ errorCode+ "` message='"+ message+ '\''+ '}';" is 121.,98
+12_MvvmProject-main,com.sumjin.peppymvvm.common.respositories,CircleRepository,getGoodsList,Complex Method,Cyclomatic complexity of the method is 8,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.respositories,EMChatManagerRepository,fetchConversationsFromServer,Long Statement,The length of the statement "EMClient.getInstance().chatManager().asyncFetchConversationsFromServer(new EMValueCallBack<Map<String`EMConversation>>(){" is 121.,170
+12_MvvmProject-main,com.sumjin.peppymvvm.common.respositories,EMChatManagerRepository,createCall,Long Statement,The length of the statement "EMClient.getInstance().chatManager().asyncFetchConversationsFromServer(new EMValueCallBack<Map<String`EMConversation>>(){" is 121.,177
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,BaseUrlInterceptor,intercept,Long Statement,The length of the statement "HttpUrl newFullUrl=oldHttpUrl.newBuilder().scheme(newBaseUrl.scheme()).host(newBaseUrl.host()).port(newBaseUrl.port()).build();" is 127.,12
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadImage,Long Parameter List,The method has 5 parameters. ,42
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadImage,Magic Number,The method contains a magic number: 100,42
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,setResource,Magic Number,The method contains a magic number: 100,76
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadImage,Magic Number,The method contains a magic number: 100,104
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,setResource,Magic Number,The method contains a magic number: 100,122
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadFolderImage,Long Statement,The length of the statement "Glide.with(context).asBitmap().load(url).override(180`180).centerCrop().sizeMultiplier(0.5f).apply(new RequestOptions().placeholder(R.drawable.picture_image_placeholder)).into(new BitmapImageViewTarget(imageView){" is 213.,147
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadFolderImage,Magic Number,The method contains a magic number: 180,147
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadFolderImage,Magic Number,The method contains a magic number: 180,147
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadFolderImage,Magic Number,The method contains a magic number: 0.5f,147
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadFolderImage,Magic Number,The method contains a magic number: 8,147
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,setResource,Magic Number,The method contains a magic number: 8,164
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadGridImage,Long Statement,The length of the statement "Glide.with(context).load(url).override(200`200).centerCrop().apply(new RequestOptions().placeholder(R.drawable.picture_image_placeholder)).into(imageView);" is 155.,192
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadGridImage,Magic Number,The method contains a magic number: 200,192
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,GlideEngine,loadGridImage,Magic Number,The method contains a magic number: 200,192
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,PreferenceManager,setCurrentUserName,Long Identifier,The length of the field SHARED_KEY_CURRENTUSER_USERNAME is 31.,85
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,PreferenceManager,getCurrentUsername,Long Identifier,The length of the field SHARED_KEY_CURRENTUSER_USERNAME is 31.,90
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,PreferenceManager,setCurrentUserPwd,Long Identifier,The length of the field SHARED_KEY_CURRENTUSER_USER_PASSWORD is 36.,94
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,PreferenceManager,getCurrentUserPwd,Long Identifier,The length of the field SHARED_KEY_CURRENTUSER_USER_PASSWORD is 36.,99
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,PreferenceManager,setSettingMsgNotification,Long Identifier,The length of the field SHARED_KEY_SETTING_NOTIFICATION is 31.,120
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,PreferenceManager,getSettingMsgNotification,Long Identifier,The length of the field SHARED_KEY_SETTING_NOTIFICATION is 31.,125
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,RetrofitManager,RetrofitManager,Long Statement,The length of the statement "OkHttpClient client=new OkHttpClient.Builder().connectTimeout(30`TimeUnit.SECONDS).addInterceptor(new BaseUrlInterceptor()).build();" is 132.,19
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,RetrofitManager,RetrofitManager,Long Statement,The length of the statement "mRetrofit=new Retrofit.Builder().baseUrl(Constants.BASE_URL).addConverterFactory(GsonConverterFactory.create()).client(client).build();" is 135.,19
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,RetrofitManager,RetrofitManager,Magic Number,The method contains a magic number: 30,19
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,ScreenUtils,dip2px,Magic Number,The method contains a magic number: 0.5f,6
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,SizeUtil,dip2px,Magic Number,The method contains a magic number: 0.5f,6
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,SizeUtil,px2dip,Magic Number,The method contains a magic number: 0.5f,11
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,formateTime,Complex Method,Cyclomatic complexity of the method is 8,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,formateTime,Magic Number,The method contains a magic number: 2,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,formateTime,Magic Number,The method contains a magic number: 45L,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,formateTime,Magic Number,The method contains a magic number: 24L,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,formateTime,Magic Number,The method contains a magic number: 48L,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,formateTime,Magic Number,The method contains a magic number: 30L,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,formateTime,Magic Number,The method contains a magic number: 12L,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,formateTime,Magic Number,The method contains a magic number: 4L,21
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,toSeconds,Magic Number,The method contains a magic number: 1000L,60
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,toMinutes,Magic Number,The method contains a magic number: 60L,64
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,toHours,Magic Number,The method contains a magic number: 60L,68
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,toDays,Magic Number,The method contains a magic number: 24L,72
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,toMonths,Magic Number,The method contains a magic number: 30L,76
+12_MvvmProject-main,com.sumjin.peppymvvm.common.util,TimeFormatUtil,toYears,Magic Number,The method contains a magic number: 365L,80
+12_MvvmProject-main,com.sumjin.peppymvvm.common.view,FullyGridLayoutManager,onMeasure,Complex Method,Cyclomatic complexity of the method is 13,23
+12_MvvmProject-main,com.sumjin.peppymvvm.common.view,FullyGridLayoutManager,onMeasure,Long Statement,The length of the statement "measureScrapChild(recycler`i`View.MeasureSpec.makeMeasureSpec(i`View.MeasureSpec.UNSPECIFIED)`View.MeasureSpec.makeMeasureSpec(i`View.MeasureSpec.UNSPECIFIED)`mMeasuredDimension);" is 179.,23
+12_MvvmProject-main,com.sumjin.peppymvvm.common.view,FullyGridLayoutManager,measureScrapChild,Long Parameter List,The method has 5 parameters. ,79
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,ArrowItemView,init,Complex Method,Cyclomatic complexity of the method is 11,51
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,ArrowItemView,init,Long Statement,The length of the statement "titleColor=a.getColor(R.styleable.ArrowItemView_arrowItemTitleColor`ContextCompat.getColor(getContext()`R.color.em_color_common_text_black));" is 141.,51
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,ArrowItemView,init,Long Statement,The length of the statement "contentColor=a.getColor(R.styleable.ArrowItemView_arrowItemContentColor`ContextCompat.getColor(getContext()`R.color.em_color_common_text_gray));" is 144.,51
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,ArrowItemView,init,Magic Number,The method contains a magic number: 14,51
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,ArrowItemView,init,Magic Number,The method contains a magic number: 14,51
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,LoadingView,startRotate,Magic Number,The method contains a magic number: 10,37
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,LoadingView,startRotate,Magic Number,The method contains a magic number: 360,37
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,LoadingView,startRotate,Magic Number,The method contains a magic number: 10,37
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,LoadingView,run,Magic Number,The method contains a magic number: 10,39
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,LoadingView,run,Magic Number,The method contains a magic number: 360,39
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,LoadingView,run,Magic Number,The method contains a magic number: 10,39
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,LoadingView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,LoadingView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,SwitchItemView,init,Long Statement,The length of the statement "titleColor=a.getColor(R.styleable.SwitchItemView_switchItemTitleColor`ContextCompat.getColor(getContext()`R.color.em_color_common_text_black));" is 143.,48
+12_MvvmProject-main,com.sumjin.peppymvvm.common.widget,SwitchItemView,init,Magic Number,The method contains a magic number: 14,48
+12_MvvmProject-main,com.sumjin.peppymvvm.section.base,BaseActivity,setFitSystem,Magic Number,The method contains a magic number: 14,99
+12_MvvmProject-main,com.sumjin.peppymvvm.section.base,BaseDialogFragment,setDialogParams,Magic Number,The method contains a magic number: 0.6f,87
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.activity,ChatActivity,initData,Complex Method,Cyclomatic complexity of the method is 9,103
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.activity,ContactDetailActivity,showDeleteDialog,Long Statement,The length of the statement "new SimpleDialogFragment.Builder(mContext).setTitle(R.string.ease_friends_delete_contact_hint).setOnConfirmClickListener(new DemoDialogFragment.OnConfirmClickListener(){" is 169.,145
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.activity,ContactDetailActivity,removeBlack,Long Statement,The length of the statement "new SimpleDialogFragment.Builder(mContext).setTitle(R.string.em_friends_move_out_the_blacklist_hint).setOnConfirmClickListener(new DemoDialogFragment.OnConfirmClickListener(){" is 175.,182
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.activity,SingleChatSetActivity,initData,Long Statement,The length of the statement "conversation=EMClient.getInstance().chatManager().getConversation(toChatUsername`EaseCommonUtils.getConversationType(EaseConstant.CHATTYPE_SINGLE)`true);" is 153.,71
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.activity,SingleChatSetActivity,initData,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.CONVERSATION_DELETE).postValue(new EaseEvent(DemoConstant.CONTACT_DECLINE`EaseEvent.TYPE.MESSAGE));" is 135.,71
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.activity,SingleChatSetActivity,onSuccess,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.CONVERSATION_DELETE).postValue(new EaseEvent(DemoConstant.CONTACT_DECLINE`EaseEvent.TYPE.MESSAGE));" is 135.,84
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.activity,SingleChatSetActivity,onCheckedChanged,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.MESSAGE_CHANGE_CHANGE).postValue(new EaseEvent(DemoConstant.MESSAGE_CHANGE_CHANGE`EaseEvent.TYPE.MESSAGE));" is 143.,120
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.activity,SingleChatSetActivity,clearHistory,Long Statement,The length of the statement "new SimpleDialogFragment.Builder(mContext).setTitle(R.string.em_chat_delete_conversation).setOnConfirmClickListener(new DemoDialogFragment.OnConfirmClickListener(){" is 164.,130
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.adapter,ContactListAdapter,setData,Complex Conditional,The conditional expression position == 0 || (header != null && !header.equals(getItem(position - 1).getInitialLetter())) is complex.,48
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.adapter,MyViewHolder,setData,Complex Conditional,The conditional expression position == 0 || (header != null && !header.equals(getItem(position - 1).getInitialLetter())) is complex.,48
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,ChatFragment,addItemMenuAction,Magic Number,The method contains a magic number: 11,72
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,ChatFragment,resetChatExtendMenu,Long Statement,The length of the statement "chatExtendMenu.registerMenuItem(R.string.attach_take_pic`R.drawable.ease_chat_takepic_selector`R.id.extend_item_take_picture);" is 126.,78
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,ChatFragment,resetChatExtendMenu,Long Statement,The length of the statement "chatExtendMenu.registerMenuItem(R.string.attach_media_call`R.drawable.em_chat_video_call_selector`R.id.extend_item_video_call);" is 127.,78
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,ChatFragment,resetChatExtendMenu,Long Statement,The length of the statement "chatExtendMenu.registerMenuItem(R.string.voice_and_video_conference`R.drawable.em_chat_video_call_selector`R.id.extend_item_conference_call);" is 141.,78
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,ChatFragment,resetChatExtendMenu,Long Statement,The length of the statement "chatExtendMenu.registerMenuItem(R.string.attach_location`R.drawable.ease_chat_location_selector`R.id.extend_item_location);" is 123.,78
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,ChatFragment,initData,Complex Method,Cyclomatic complexity of the method is 9,107
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,ChatFragment,initData,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.MESSAGE_CHANGE_CHANGE).postValue(new EaseEvent(DemoConstant.MESSAGE_CHANGE_CHANGE`EaseEvent.TYPE.MESSAGE));" is 143.,107
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,initViewModel,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.MESSAGE_CHANGE_CHANGE).postValue(new EaseEvent(DemoConstant.MESSAGE_CHANGE_CHANGE`EaseEvent.TYPE.MESSAGE));" is 143.,136
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,onSuccess,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.MESSAGE_CHANGE_CHANGE).postValue(new EaseEvent(DemoConstant.MESSAGE_CHANGE_CHANGE`EaseEvent.TYPE.MESSAGE));" is 143.,142
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,onItemClick,Long Statement,The length of the statement "ChatActivity.actionStart(mContext`((EMConversation)item).conversationId()`EaseCommonUtils.getChatType((EMConversation)item));" is 125.,194
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,showDeleteDialog,Long Statement,The length of the statement "new SimpleDialogFragment.Builder((BaseActivity)mContext).setTitle(R.string.delete_conversation).setOnConfirmClickListener(R.string.delete`new DemoDialogFragment.OnConfirmClickListener(){" is 186.,237
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,showDeleteDialog,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.CONVERSATION_DELETE).postValue(new EaseEvent(DemoConstant.CONVERSATION_DELETE`EaseEvent.TYPE.MESSAGE));" is 139.,237
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,onConfirmClick,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.CONVERSATION_DELETE).postValue(new EaseEvent(DemoConstant.CONVERSATION_DELETE`EaseEvent.TYPE.MESSAGE));" is 139.,241
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,notifyItemChange,Long Statement,The length of the statement "LiveDataBus.get().with(DemoConstant.MESSAGE_CHANGE_CHANGE).postValue(new EaseEvent(DemoConstant.MESSAGE_CHANGE_CHANGE`EaseEvent.TYPE.MESSAGE));" is 143.,282
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,loadList,Complex Conditional,The conditional expression change.isMessageChange() || change.isNotifyChange() || change.isGroupLeave()|| change.isChatRoomLeave()|| change.isContactChange()|| change.type == EaseEvent.TYPE.CHAT_ROOM || change.isGroupChange() is complex.,322
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.fragment,TalkFragment,loadList,Long Statement,The length of the statement "if (change.isMessageChange() || change.isNotifyChange() || change.isGroupLeave()|| change.isChatRoomLeave()|| change.isContactChange()|| change.type == EaseEvent.TYPE.CHAT_ROOM || change.isGroupChange()) {" is 205.,322
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.viewmodel,ChatViewModel,ChatViewModel,Long Identifier,The length of the field makeConversationReadObservable is 30.,23
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.viewmodel,ChatViewModel,makeConversationReadByAck,Long Identifier,The length of the field makeConversationReadObservable is 30.,36
+12_MvvmProject-main,com.sumjin.peppymvvm.section.chat.viewmodel,ChatViewModel,getMakeConversationReadObservable,Long Identifier,The length of the field makeConversationReadObservable is 30.,40
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,initVideoView,Magic Number,The method contains a magic number: 8,101
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,initImageView,Magic Number,The method contains a magic number: 3,117
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,initImageView,Magic Number,The method contains a magic number: 3,117
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,initImageView,Magic Number,The method contains a magic number: 8,117
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,initImageView,Magic Number,The method contains a magic number: 9,117
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,initListener,Long Statement,The length of the statement "PictureSelector.create(SendDynamicActivity.this).themeStyle(R.style.picture_default_style).setPictureUIStyle(mSelectorUIStyle).setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED).isNotPreviewDownload(true).imageEngine(GlideEngine.createGlideEngine()).openExternalPreview(position`selectList);" is 309.,138
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,initListener,Long Statement,The length of the statement "PictureSelector.create(SendDynamicActivity.this).themeStyle(R.style.picture_default_style).setPictureUIStyle(mSelectorUIStyle).externalPictureVideo(TextUtils.isEmpty(media.getAndroidQToPath()) ? media.getPath() : media.getAndroidQToPath());" is 240.,138
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,onAddPicClick,Long Statement,The length of the statement "PictureSelector.create(SendDynamicActivity.this).openGallery(chooseMode).imageEngine(GlideEngine.createGlideEngine()).setPictureUIStyle(mSelectorUIStyle).setPictureWindowAnimationStyle(mWindowAnimationStyle).isWeChatStyle(true).isUseCustomCamera(true).setRecyclerAnimationMode(animationMode).isMaxSelectEnabledMask(true).maxSelectNum(maxSelectNum).minSelectNum(1).imageSpanCount(4).isReturnEmpty(false).closeAndroidQChangeWH(true).closeAndroidQChangeVideoWH(!SdkVersionUtils.checkedAndroid_Q()).isAndroidQTransform(false).setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED).isOriginalImageControl(false).selectionMode(PictureConfig.MULTIPLE).isSingleDirectReturn(true).isPreviewImage(true).isCamera(true).isZoomAnim(true).isCompress(true).synOrAsy(false).isGif(false).selectionData(mImageAdapter.getData()).cutOutQuality(90).minimumCompressSize(100).forResult(new MyResultCallback(mImageAdapter));" is 914.,230
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,onAddPicClick,Magic Number,The method contains a magic number: 4,230
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,onAddPicClick,Magic Number,The method contains a magic number: 90,230
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,onAddPicClick,Magic Number,The method contains a magic number: 100,230
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,onAddPicClick,Long Statement,The length of the statement "PictureSelector.create(SendDynamicActivity.this).openGallery(chooseMode).imageEngine(GlideEngine.createGlideEngine()).setPictureUIStyle(mSelectorUIStyle).setPictureWindowAnimationStyle(mWindowAnimationStyle).isWeChatStyle(true).isUseCustomCamera(true).setRecyclerAnimationMode(animationMode).isWithVideoImage(true).isMaxSelectEnabledMask(true).maxVideoSelectNum(1).minVideoSelectNum(1).imageSpanCount(4).isReturnEmpty(false).closeAndroidQChangeWH(true).closeAndroidQChangeVideoWH(!SdkVersionUtils.checkedAndroid_Q()).isAndroidQTransform(false).setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED).isOriginalImageControl(false).selectionMode(PictureConfig.SINGLE).isSingleDirectReturn(true).isPreviewImage(true).isPreviewVideo(true).isEnablePreviewAudio(true).isCamera(true).isZoomAnim(true).isCompress(true).synOrAsy(false).isGif(false).selectionData(mImageAdapter.getData()).cutOutQuality(90).minimumCompressSize(100).forResult(new MyResultCallback(mVideoAdapter));" is 982.,273
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,onAddPicClick,Magic Number,The method contains a magic number: 4,273
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,onAddPicClick,Magic Number,The method contains a magic number: 90,273
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.activity,SendDynamicActivity,onAddPicClick,Magic Number,The method contains a magic number: 100,273
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.adapter,CircleContentAdapter,showPopupMenu,Missing default,The following switch statement is missing a default case: switch (menuItem.getItemId()) {,179
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.adapter,CircleContentAdapter,onMenuItemClick,Missing default,The following switch statement is missing a default case: switch (menuItem.getItemId()) {,183
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.adapter,CommonViewHolder,showPopupMenu,Missing default,The following switch statement is missing a default case: switch (menuItem.getItemId()) {,179
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.adapter,CommonViewHolder,onMenuItemClick,Missing default,The following switch statement is missing a default case: switch (menuItem.getItemId()) {,183
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.adapter,GridImageAdapter,onBindViewHolder,Complex Conditional,The conditional expression media.isCompressed() || (media.isCut() && media.isCompressed()) is complex.,130
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.adapter,GridImageAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 14,130
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.adapter,GridImageAdapter,onBindViewHolder,Long Statement,The length of the statement "Glide.with(viewHolder.itemView.getContext()).load(PictureMimeType.isContent(path) && !media.isCut() && !media.isCompressed() ? Uri.parse(path) : path).centerCrop().placeholder(R.color.app_color_f6).diskCacheStrategy(DiskCacheStrategy.ALL).into(viewHolder.mImg);" is 261.,130
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.adapter,GridImageAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 1024,130
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CircleFragment,showPopuMenu,Missing default,The following switch statement is missing a default case: switch (menuItem.getItemId()) {,74
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CircleFragment,onMenuItemClick,Missing default,The following switch statement is missing a default case: switch (menuItem.getItemId()) {,78
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CircleFragment,initViewModel,Long Statement,The length of the statement "ViewModelProvider.AndroidViewModelFactory instance=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication());" is 137.,100
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,initView,Long Statement,The length of the statement "@Override public void getItemOffsets( @NonNull Rect outRect` @NonNull View view` @NonNull RecyclerView parent` @NonNull RecyclerView.State state){" is 146.,59
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,initView,Magic Number,The method contains a magic number: 8,59
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,initView,Magic Number,The method contains a magic number: 8,59
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,initView,Magic Number,The method contains a magic number: 8,59
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,initView,Magic Number,The method contains a magic number: 8,59
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,getItemOffsets,Magic Number,The method contains a magic number: 8,67
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,getItemOffsets,Magic Number,The method contains a magic number: 8,67
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,getItemOffsets,Magic Number,The method contains a magic number: 8,67
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,getItemOffsets,Magic Number,The method contains a magic number: 8,67
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,initViewModel,Long Statement,The length of the statement "ViewModelProvider.AndroidViewModelFactory instance=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication());" is 137.,116
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,updateView,Complex Method,Cyclomatic complexity of the method is 9,144
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.fragment,CirclePagerFragment,getNetErrorData,Long Statement,The length of the statement "String netErrorString="{\"msg\":\"èŽ·å?–æ•°æ?®æˆ?åŠŸ\"`\"state\":10000`\"datas\":[{\"id\":15`\"nickname\":\"22333\"`\"username\":\"test2\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:31.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":14`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:30.0\"`\"likes\":0`\"comments\":7`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":13`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:29.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":12`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:28.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":11`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:27.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":10`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:26.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":9`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:25.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":8`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:24.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":7`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 14:39:23.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}`{\"id\":6`\"nickname\":\"222\"`\"username\":\"test1\"`\"content\":\"å?‘é¡ºä¸°æ•£å?‘åˆ·å?¡ç¼´è´¹å?¢å?¡æ–¯\"`\"createtime\":\"2020-08-05 10:28:17.0\"`\"likes\":0`\"comments\":0`\"shares\":0`\"dynamic_type\":\"text\"`\"status\":1`\"download_url\":\"\"`\"state\":0}]`\"page\":1`\"size\":10`\"count\":10}";" is 2749.,180
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.viewmodel,CircleViewModel,getCategories,Magic Number,The method contains a magic number: 2,24
+12_MvvmProject-main,com.sumjin.peppymvvm.section.circle.viewmodel,CircleViewModel,getCategories,Magic Number,The method contains a magic number: 3,24
+12_MvvmProject-main,com.sumjin.peppymvvm.section.dialog,DemoDialogFragment,onStart,Magic Number,The method contains a magic number: 30,69
+12_MvvmProject-main,com.sumjin.peppymvvm.section.dialog,DemoDialogFragment,initView,Complex Method,Cyclomatic complexity of the method is 8,143
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,ScanQRCodeActivity,initDecode,Magic Number,The method contains a magic number: 2,151
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,ScanQRCodeActivity,initDecode,Magic Number,The method contains a magic number: 5,151
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,ScanQRCodeActivity,initDecode,Magic Number,The method contains a magic number: 4,151
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,ScanQRCodeActivity,initPermission,Long Statement,The length of the statement "if (ContextCompat.checkSelfPermission(this`Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED && ContextCompat.checkSelfPermission(this`Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {" is 233.,249
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,ScanQRCodeActivity,initPermission,Long Statement,The length of the statement "ActivityCompat.requestPermissions(this`new String[]{Manifest.permission.CAMERA`Manifest.permission.WRITE_EXTERNAL_STORAGE}`1);" is 126.,249
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,ScanQRCodeActivity,initDialogResult,Long Statement,The length of the statement "RxSPTool.putContent(this`RxConstants.SP_SCAN_CODE`RxDataTool.stringToInt(RxSPTool.getContent(this`RxConstants.SP_SCAN_CODE)) + 1 + "");" is 135.,359
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,ScanQRCodeActivity,getHandler,Empty catch clause,The method has an empty catch block.,494
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,ScanQRCodeActivity,decode,Empty catch clause,The method has an empty catch block.,528
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.activity,DecodeThread,getHandler,Empty catch clause,The method has an empty catch block.,494
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,initView,Long Statement,The length of the statement "@Override public void getItemOffsets( @NonNull Rect outRect` @NonNull View view` @NonNull RecyclerView parent` @NonNull RecyclerView.State state){" is 146.,62
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,initView,Magic Number,The method contains a magic number: 2.5f,62
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,initView,Magic Number,The method contains a magic number: 2.5f,62
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,initView,Magic Number,The method contains a magic number: 2.5f,62
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,initView,Magic Number,The method contains a magic number: 2.5f,62
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,getItemOffsets,Magic Number,The method contains a magic number: 2.5f,69
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,getItemOffsets,Magic Number,The method contains a magic number: 2.5f,69
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,getItemOffsets,Magic Number,The method contains a magic number: 2.5f,69
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,getItemOffsets,Magic Number,The method contains a magic number: 2.5f,69
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,initViewModel,Long Statement,The length of the statement "ViewModelProvider.AndroidViewModelFactory instance=ViewModelProvider.AndroidViewModelFactory.getInstance(getActivity().getApplication());" is 137.,107
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,updateView,Complex Method,Cyclomatic complexity of the method is 9,128
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,updateView,Long Statement,The length of the statement "List<OnSellContent.DataBean.TbkDgOptimusMaterialResponseBean.ResultListBean.MapDataBean> dataBeans=data.data.getData().getTbk_dg_optimus_material_response().getResult_list().getMap_data();" is 188.,128
+12_MvvmProject-main,com.sumjin.peppymvvm.section.home.fragment,HomeFragment,updateView,Long Statement,The length of the statement "List<OnSellContent.DataBean.TbkDgOptimusMaterialResponseBean.ResultListBean.MapDataBean> onSell=data.data.getData().getTbk_dg_optimus_material_response().getResult_list().getMap_data();" is 185.,128
+12_MvvmProject-main,com.sumjin.peppymvvm.section.me.activity,MsgActivity,onClick,Magic Number,The method contains a magic number: 100,61
+12_MvvmProject-main,com.sumjin.peppymvvm.section.me.activity,MsgActivity,onActivityResult,Magic Number,The method contains a magic number: 100,107
+12_MvvmProject-main,com.sumjin.peppymvvm.section.pet.activity,PetDetailActivity,onClick,Complex Method,Cyclomatic complexity of the method is 13,91
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,BallPulseView,Magic Number,The method contains a magic number: 4,45
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,onDraw,Magic Number,The method contains a magic number: 2,75
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,onDraw,Magic Number,The method contains a magic number: 6,75
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,onDraw,Magic Number,The method contains a magic number: 2,75
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,onDraw,Magic Number,The method contains a magic number: 2,75
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,onDraw,Magic Number,The method contains a magic number: 2,75
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,onDraw,Magic Number,The method contains a magic number: 3,75
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,onDraw,Magic Number,The method contains a magic number: 2,75
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,createAnimators,Magic Number,The method contains a magic number: 3,135
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,createAnimators,Magic Number,The method contains a magic number: 0.3f,135
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,BallPulseView,createAnimators,Magic Number,The method contains a magic number: 750,135
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.footer,LoadingView,LoadingView,Magic Number,The method contains a magic number: 34,28
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,onPullingDown,Magic Number,The method contains a magic number: 30,99
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,onPullingDown,Magic Number,The method contains a magic number: 0.1,99
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,onPullingDown,Magic Number,The method contains a magic number: 0.1,99
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,onPullReleasing,Magic Number,The method contains a magic number: 30,116
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,startAnim,Magic Number,The method contains a magic number: 300,126
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,startAnim,Magic Number,The method contains a magic number: 100,126
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,startAnim,Magic Number,The method contains a magic number: 2,126
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,startAnim,Magic Number,The method contains a magic number: 800,126
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,startAnim,Magic Number,The method contains a magic number: 200,126
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,startAnim,Magic Number,The method contains a magic number: 40,126
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,startAnim,Magic Number,The method contains a magic number: 300,126
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,onAnimationUpdate,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,onAnimationEnd,Magic Number,The method contains a magic number: 200,144
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,BezierLayout,onAnimationUpdate,Magic Number,The method contains a magic number: 40,161
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RippleView,init,Magic Number,The method contains a magic number: 0xffffffff,46
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RippleView,startReveal,Magic Number,The method contains a magic number: 2,57
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RippleView,startReveal,Magic Number,The method contains a magic number: 2,57
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RippleView,startReveal,Magic Number,The method contains a magic number: 2,57
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RippleView,startReveal,Magic Number,The method contains a magic number: 2,57
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RippleView,onAnimationUpdate,Magic Number,The method contains a magic number: 2,64
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RippleView,onDraw,Magic Number,The method contains a magic number: 2,86
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RippleView,onDraw,Magic Number,The method contains a magic number: 2,86
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,init,Magic Number,The method contains a magic number: 114,37
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,init,Magic Number,The method contains a magic number: 114,37
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,init,Magic Number,The method contains a magic number: 114,37
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Complex Method,Cyclomatic complexity of the method is 9,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 10,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 35,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 105,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 145,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 255,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 4,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 145,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 5,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 105,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 6,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 35,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 3,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundDotView,onDraw,Magic Number,The method contains a magic number: 2,43
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,init,Magic Number,The method contains a magic number: 114,47
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,init,Magic Number,The method contains a magic number: 114,47
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,init,Magic Number,The method contains a magic number: 114,47
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,init,Magic Number,The method contains a magic number: 360,47
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,init,Magic Number,The method contains a magic number: 720,47
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Long Statement,The length of the statement "oval2.set(getMeasuredWidth() / 2 - r - outCir_value`getMeasuredHeight() / 2 - r - outCir_value`getMeasuredWidth() / 2 + r + outCir_value`getMeasuredHeight() / 2 + r + outCir_value);" is 181.,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 10,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 6,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 15,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 6,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,RoundProgressView,onDraw,Magic Number,The method contains a magic number: 2,70
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,WaveView,init,Magic Number,The method contains a magic number: 0xff1F2426,38
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.bezierlayout,WaveView,onDraw,Magic Number,The method contains a magic number: 2,65
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 4,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 114,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 114,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 114,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 1.2f,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 0.8f,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 800,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 0.8f,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 1.2f,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,init,Magic Number,The method contains a magic number: 800,51
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Complex Method,Cyclomatic complexity of the method is 13,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 10,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 105,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 145,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 255,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 145,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 4,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 105,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 105,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 145,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 255,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 145,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 4,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 105,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 3,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onDraw,Magic Number,The method contains a magic number: 2,84
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onPullingDown,Magic Number,The method contains a magic number: 2,181
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onPullingDown,Magic Number,The method contains a magic number: 2,181
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onPullReleasing,Magic Number,The method contains a magic number: 2,193
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,GoogleDotView,onPullReleasing,Magic Number,The method contains a magic number: 2,193
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,SinaRefreshView,onPullingDown,Magic Number,The method contains a magic number: 180,78
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header,SinaRefreshView,onPullReleasing,Magic Number,The method contains a magic number: 180,85
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,CircleImageView,Magic Number,The method contains a magic number: 2,37
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,elevationSupported,Magic Number,The method contains a magic number: 21,65
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,onMeasure,Magic Number,The method contains a magic number: 2,69
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,onMeasure,Magic Number,The method contains a magic number: 2,69
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,OvalShadow,Long Statement,The length of the statement "mRadialGradient=new RadialGradient(mCircleDiameter / 2`mCircleDiameter / 2`mShadowRadius`new int[]{FILL_SHADOW_COLOR`Color.TRANSPARENT}`null`Shader.TileMode.CLAMP);" is 164.,119
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,OvalShadow,Magic Number,The method contains a magic number: 2,119
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,OvalShadow,Magic Number,The method contains a magic number: 2,119
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,CircleImageView,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,OvalShadow,Long Statement,The length of the statement "mRadialGradient=new RadialGradient(mCircleDiameter / 2`mCircleDiameter / 2`mShadowRadius`new int[]{FILL_SHADOW_COLOR`Color.TRANSPARENT}`null`Shader.TileMode.CLAMP);" is 164.,119
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,OvalShadow,Magic Number,The method contains a magic number: 2,119
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,OvalShadow,Magic Number,The method contains a magic number: 2,119
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,OvalShadow,draw,Magic Number,The method contains a magic number: 2,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,setSizeParameters,Long Parameter List,The method has 6 parameters. ,116
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,updateSizes,Long Statement,The length of the statement "setSizeParameters(CIRCLE_DIAMETER_LARGE`CIRCLE_DIAMETER_LARGE`CENTER_RADIUS_LARGE`STROKE_WIDTH_LARGE`ARROW_WIDTH_LARGE`ARROW_HEIGHT_LARGE);" is 139.,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,start,Magic Number,The method contains a magic number: 2,263
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,getMinProgressArc,Magic Number,The method contains a magic number: 2,289
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Long Statement,The length of the statement "return (int)((startA + (int)(fraction * (endA - startA))) << 24) | (int)((startR + (int)(fraction * (endR - startR))) << 16) | (int)((startG + (int)(fraction * (endG - startG))) << 8)| (int)((startB + (int)(fraction * (endB - startB))));" is 237.,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 24,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 0xff,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 16,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 0xff,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 8,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 0xff,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 0xff,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 24,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 0xff,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 16,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 0xff,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 8,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 0xff,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 0xff,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 24,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 16,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,evaluateColorChange,Magic Number,The method contains a magic number: 8,295
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,updateRingColor,Long Statement,The length of the statement "ring.setColor(evaluateColorChange((interpolatedTime - COLOR_START_DELAY_OFFSET) / (1.0f - COLOR_START_DELAY_OFFSET)`ring.getStartingColor()`ring.getNextColor()));" is 162.,314
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,applyFinishTranslation,Long Statement,The length of the statement "final float startTrim=ring.getStartingStartTrim() + (ring.getStartingEndTrim() - minProgressArc - ring.getStartingStartTrim()) * interpolatedTime;" is 146.,330
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,setupAnimators,Long Statement,The length of the statement "final float startTrim=startingTrim + ((MAX_PROGRESS_ARC - minProgressArc) * MATERIAL_INTERPOLATOR.getInterpolation(scaledTime));" is 128.,348
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,setupAnimators,Magic Number,The method contains a magic number: 0.25f,348
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,applyTransformation,Long Statement,The length of the statement "final float startTrim=startingTrim + ((MAX_PROGRESS_ARC - minProgressArc) * MATERIAL_INTERPOLATOR.getInterpolation(scaledTime));" is 128.,351
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,applyTransformation,Magic Number,The method contains a magic number: 0.25f,351
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 360,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 360,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 255,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 255,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,draw,Magic Number,The method contains a magic number: 2,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,drawTriangle,Magic Number,The method contains a magic number: 2,536
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,drawTriangle,Magic Number,The method contains a magic number: 2,536
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,setInsets,Magic Number,The method contains a magic number: 2.0f,697
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,MaterialProgressDrawable,setInsets,Magic Number,The method contains a magic number: 2.0f,697
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,draw,Magic Number,The method contains a magic number: 360,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,draw,Magic Number,The method contains a magic number: 360,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,draw,Magic Number,The method contains a magic number: 255,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,draw,Magic Number,The method contains a magic number: 255,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,draw,Magic Number,The method contains a magic number: 2,511
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,drawTriangle,Magic Number,The method contains a magic number: 2,536
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,drawTriangle,Magic Number,The method contains a magic number: 2,536
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,setInsets,Magic Number,The method contains a magic number: 2.0f,697
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,Ring,setInsets,Magic Number,The method contains a magic number: 2.0f,697
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,createProgressView,Long Statement,The length of the statement "LayoutParams params=new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT`Gravity.CENTER);" is 125.,66
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,createProgressView,Magic Number,The method contains a magic number: 2,66
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,onPullingDown,Magic Number,The method contains a magic number: .4,164
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,onPullingDown,Magic Number,The method contains a magic number: 5,164
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,onPullingDown,Magic Number,The method contains a magic number: 3,164
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,onPullingDown,Magic Number,The method contains a magic number: .8f,164
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,onPullingDown,Magic Number,The method contains a magic number: 0.25f,164
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,onPullingDown,Magic Number,The method contains a magic number: .4f,164
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.header.progresslayout,ProgressLayout,onPullingDown,Magic Number,The method contains a magic number: .5f,164
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,TwinklingRefreshLayout,Long Statement,The length of the statement "mMaxHeadHeight=a.getDimensionPixelSize(R.styleable.TwinklingRefreshLayout_tr_max_head_height`(int)DensityUtil.dp2px(context`120));" is 130.,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,TwinklingRefreshLayout,Long Statement,The length of the statement "mHeadHeight=a.getDimensionPixelSize(R.styleable.TwinklingRefreshLayout_tr_head_height`(int)DensityUtil.dp2px(context`80));" is 122.,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,TwinklingRefreshLayout,Long Statement,The length of the statement "mMaxBottomHeight=a.getDimensionPixelSize(R.styleable.TwinklingRefreshLayout_tr_max_bottom_height`(int)DensityUtil.dp2px(context`120));" is 134.,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,TwinklingRefreshLayout,Long Statement,The length of the statement "mBottomHeight=a.getDimensionPixelSize(R.styleable.TwinklingRefreshLayout_tr_bottom_height`(int)DensityUtil.dp2px(context`60));" is 126.,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,TwinklingRefreshLayout,Magic Number,The method contains a magic number: 120,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,TwinklingRefreshLayout,Magic Number,The method contains a magic number: 80,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,TwinklingRefreshLayout,Magic Number,The method contains a magic number: 120,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,TwinklingRefreshLayout,Magic Number,The method contains a magic number: 60,131
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,onFinishInflate,Magic Number,The method contains a magic number: 3,226
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,detectGesture,Complex Method,Cyclomatic complexity of the method is 20,279
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,detectGesture,Magic Number,The method contains a magic number: 1000,279
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,detectGesture,Magic Number,The method contains a magic number: 1000,279
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,detectNestedScroll,Complex Method,Cyclomatic complexity of the method is 14,428
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,detectNestedScroll,Long Statement,The length of the statement "Log.e("TwinklingRefreshLayout"`"Error processing scroll; pointer index for id " + mActivePointerId + " not found. Did any MotionEvents get skipped?");" is 150.,428
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout,TwinklingRefreshLayout,dispatchNestedScroll,Long Parameter List,The method has 5 parameters. ,537
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,AnimProcessor,Magic Number,The method contains a magic number: 8,34
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,scrollHeadByMove,Complex Conditional,The conditional expression cp.isPureScrollModeOn() || (!cp.enableRefresh() && !cp.isOverScrollTopShow()) is complex.,42
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,scrollHeadByMove,Magic Number,The method contains a magic number: 2,42
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,scrollHeadByMove,Magic Number,The method contains a magic number: 2,42
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,scrollBottomByMove,Complex Conditional,The conditional expression cp.isPureScrollModeOn() || (!cp.enableLoadmore() && !cp.isOverScrollBottomShow()) is complex.,71
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,scrollBottomByMove,Magic Number,The method contains a magic number: 2,71
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,scrollBottomByMove,Magic Number,The method contains a magic number: 2,71
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,dealPullDownRelease,Complex Conditional,The conditional expression !cp.isPureScrollModeOn() && cp.enableRefresh() && getVisibleHeadHeight() >= cp.getHeadHeight() - cp.getTouchSlop() is complex.,96
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,dealPullDownRelease,Long Statement,The length of the statement "if (!cp.isPureScrollModeOn() && cp.enableRefresh() && getVisibleHeadHeight() >= cp.getHeadHeight() - cp.getTouchSlop()) {" is 121.,96
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,dealPullUpRelease,Complex Conditional,The conditional expression !cp.isPureScrollModeOn() && cp.enableLoadmore() && getVisibleFootHeight() >= cp.getBottomHeight() - cp.getTouchSlop() is complex.,104
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,dealPullUpRelease,Long Statement,The length of the statement "if (!cp.isPureScrollModeOn() && cp.enableLoadmore() && getVisibleFootHeight() >= cp.getBottomHeight() - cp.getTouchSlop()) {" is 124.,104
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,getVisibleHeadHeight,Long Statement,The length of the statement "LogUtil.i("header translationY:" + cp.getHeader().getTranslationY() + "`Visible head height:"+ (cp.getHeader().getLayoutParams().height + cp.getHeader().getTranslationY()));" is 173.,112
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animHeadBack,Complex Conditional,The conditional expression isFinishRefresh && scrollHeadLocked && cp.isEnableKeepIView() is complex.,165
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animHeadBack,Complex Conditional,The conditional expression isFinishRefresh && scrollHeadLocked && cp.isEnableKeepIView() is complex.,165
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,onAnimationEnd,Complex Conditional,The conditional expression isFinishRefresh && scrollHeadLocked && cp.isEnableKeepIView() is complex.,175
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animBottomBack,Complex Conditional,The conditional expression isFinishLoading && scrollBottomLocked && cp.isEnableKeepIView() is complex.,225
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animBottomBack,Magic Number,The method contains a magic number: 2,225
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,onAnimationUpdate,Magic Number,The method contains a magic number: 2,235
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animHeadHideByVy,Long Statement,The length of the statement "animLayoutByTime(getVisibleHeadHeight()`0`5 * Math.abs(getVisibleHeadHeight() * 1000 / vy)`animHeadUpListener`new AnimatorListenerAdapter(){" is 140.,274
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animHeadHideByVy,Magic Number,The method contains a magic number: 5000,274
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animHeadHideByVy,Magic Number,The method contains a magic number: 8000,274
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animHeadHideByVy,Magic Number,The method contains a magic number: 5,274
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animHeadHideByVy,Magic Number,The method contains a magic number: 1000,274
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animBottomHideByVy,Long Statement,The length of the statement "animLayoutByTime(getVisibleFootHeight()`0`5 * getVisibleFootHeight() * 1000 / vy`animBottomUpListener`new AnimatorListenerAdapter(){" is 132.,301
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animBottomHideByVy,Magic Number,The method contains a magic number: 5000,301
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animBottomHideByVy,Magic Number,The method contains a magic number: 8000,301
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animBottomHideByVy,Magic Number,The method contains a magic number: 5,301
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animBottomHideByVy,Magic Number,The method contains a magic number: 1000,301
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollTop,Complex Conditional,The conditional expression scrollHeadLocked && cp.isEnableKeepIView() && cp.showRefreshingWhenOverScroll() is complex.,329
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollTop,Magic Number,The method contains a magic number: 2,329
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollTop,Magic Number,The method contains a magic number: 50,329
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollTop,Magic Number,The method contains a magic number: 115,329
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollTop,Magic Number,The method contains a magic number: 0.3,329
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollTop,Magic Number,The method contains a magic number: 100,329
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollTop,Magic Number,The method contains a magic number: 2,329
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,onAnimationEnd,Complex Conditional,The conditional expression scrollHeadLocked && cp.isEnableKeepIView() && cp.showRefreshingWhenOverScroll() is complex.,346
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,onAnimationEnd,Magic Number,The method contains a magic number: 2,346
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollBottom,Complex Conditional,The conditional expression scrollBottomLocked && cp.isEnableKeepIView() && cp.showLoadingWhenOverScroll() is complex.,368
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollBottom,Magic Number,The method contains a magic number: 2,368
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollBottom,Magic Number,The method contains a magic number: 50,368
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollBottom,Magic Number,The method contains a magic number: 115,368
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollBottom,Magic Number,The method contains a magic number: 0.3,368
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollBottom,Magic Number,The method contains a magic number: 100,368
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animOverScrollBottom,Magic Number,The method contains a magic number: 2,368
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,onAnimationEnd,Complex Conditional,The conditional expression scrollBottomLocked && cp.isEnableKeepIView() && cp.showLoadingWhenOverScroll() is complex.,387
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,onAnimationEnd,Magic Number,The method contains a magic number: 2,387
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,AnimProcessor,animLayoutByTime,Long Parameter List,The method has 5 parameters. ,499
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,IDecorator,onFingerScroll,Long Parameter List,The method has 6 parameters. ,20
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,OverScrollDecorator,onFingerScroll,Long Parameter List,The method has 6 parameters. ,71
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,OverScrollDecorator,handleMessage,Complex Method,Cyclomatic complexity of the method is 10,99
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,OverScrollDecorator,handleMessage,Magic Number,The method contains a magic number: 10,99
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,dispatchTouchEvent,Complex Conditional,The conditional expression !intercepted && Math.abs(dx) <= Math.abs(dy) && Math.abs(dy) > cp.getTouchSlop() is complex.,28
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,dispatchTouchEvent,Complex Conditional,The conditional expression dy > 0 && ScrollingUtil.isViewToTop(cp.getTargetView()`cp.getTouchSlop()) && cp.allowPullDown() is complex.,28
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,dispatchTouchEvent,Complex Conditional,The conditional expression dy < 0 && ScrollingUtil.isViewToBottom(cp.getTargetView()`cp.getTouchSlop()) && cp.allowPullUp() is complex.,28
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,dispatchTouchEvent,Complex Method,Cyclomatic complexity of the method is 21,28
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,dispatchTouchEvent,Magic Number,The method contains a magic number: 2,28
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,dispatchTouchEvent,Magic Number,The method contains a magic number: 2,28
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,sendCancelEvent,Long Statement,The length of the statement "MotionEvent e=MotionEvent.obtain(last.getDownTime()`last.getEventTime() + ViewConfiguration.getLongPressTimeout()`MotionEvent.ACTION_CANCEL`last.getX()`last.getY()`last.getMetaState());" is 185.,115
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,sendDownEvent,Long Statement,The length of the statement "MotionEvent e=MotionEvent.obtain(last.getDownTime()`last.getEventTime()`MotionEvent.ACTION_DOWN`last.getX()`last.getY()`last.getMetaState());" is 141.,124
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,onFingerScroll,Complex Conditional,The conditional expression cp.isRefreshVisible() && distanceY >= mTouchSlop && !cp.isOpenFloatRefresh() is complex.,156
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.processor,RefreshProcessor,onFingerScroll,Long Parameter List,The method has 6 parameters. ,156
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,DensityUtil,dp2px,Magic Number,The method contains a magic number: 0.5f,7
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,DensityUtil,px2dp,Magic Number,The method contains a magic number: 0.5f,15
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,canChildScrollUp,Long Statement,The length of the statement "return absListView.getChildCount() > 0 && (absListView.getFirstVisiblePosition() > 0 || absListView.getChildAt(0).getTop() < absListView.getPaddingTop());" is 154.,46
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,canChildScrollUp,Magic Number,The method contains a magic number: 14,46
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,canChildScrollDown,Long Statement,The length of the statement "return absListView.getChildCount() > 0 && (absListView.getLastVisiblePosition() < absListView.getChildCount() - 1 || absListView.getChildAt(absListView.getChildCount() - 1).getBottom() > absListView.getPaddingBottom());" is 219.,68
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,canChildScrollDown,Magic Number,The method contains a magic number: 14,68
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isViewToTop,Magic Number,The method contains a magic number: 2,91
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isRecyclerViewToTop,Complex Method,Cyclomatic complexity of the method is 11,124
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isRecyclerViewToTop,Long Statement,The length of the statement "firstChildTop=firstChild.getTop() - layoutParams.topMargin - getRecyclerViewItemTopInset(layoutParams)- recyclerView.getPaddingTop();" is 133.,124
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isRecyclerViewToTop,Magic Number,The method contains a magic number: 14,124
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isWebViewToBottom,Long Statement,The length of the statement "return webview != null && ((webview.getContentHeight() * webview.getScale() - (webview.getHeight() + webview.getScrollY())) <= 2 * mTouchSlop);" is 143.,189
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isWebViewToBottom,Magic Number,The method contains a magic number: 2,189
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isScrollViewToBottom,Long Statement,The length of the statement "int scrollContentHeight=scrollView.getScrollY() + scrollView.getMeasuredHeight() - scrollView.getPaddingTop() - scrollView.getPaddingBottom();" is 142.,200
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isAbsListViewToBottom,Complex Conditional,The conditional expression absListView != null && absListView.getAdapter() != null && absListView.getChildCount() > 0 && absListView.getLastVisiblePosition() == absListView.getAdapter().getCount() - 1 is complex.,211
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isAbsListViewToBottom,Long Statement,The length of the statement "if (absListView != null && absListView.getAdapter() != null && absListView.getChildCount() > 0 && absListView.getLastVisiblePosition() == absListView.getAdapter().getCount() - 1) {" is 180.,211
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isRecyclerViewToBottom,Complex Method,Cyclomatic complexity of the method is 10,220
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.utils,ScrollingUtil,isRecyclerViewToBottom,Magic Number,The method contains a magic number: 14,220
+12_MvvmProject-main,com.lcodecore.tkrefreshlayout.views,TbNestedScrollView,onNestedPreScroll,Long Parameter List,The method has 5 parameters. ,38

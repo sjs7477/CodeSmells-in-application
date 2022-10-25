@@ -1,0 +1,60 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+18_mvvmwithbinding-main,com.mvvmwithbinding.app_common_components.app_abstracts,BaseFragment,showDropDown,Magic Number,The method contains a magic number: 2,89
+18_mvvmwithbinding-main,com.mvvmwithbinding.app_common_components.app_abstracts,BaseViewModel,getGsonBuilder,Long Statement,The length of the statement "if (mGson == null) mGson=new GsonBuilder().enableComplexMapKeySerialization().setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE).setPrettyPrinting().setVersion(1.0).setLenient().create();" is 193.,31
+18_mvvmwithbinding-main,com.mvvmwithbinding.app_common_components.app_abstracts,BaseViewModel,getPreferencesUtil,Long Statement,The length of the statement "if (mPreferencesUtil == null) mPreferencesUtil=new PreferencesUtil(application.getSharedPreferences(PREFERENCE_NAME`MODE_PRIVATE));" is 131.,44
+18_mvvmwithbinding-main,com.mvvmwithbinding.app_common_components.dialogs,AuthenticationDialog,initItems,Long Statement,The length of the statement "this.request_url=context.getResources().getString(R.string.base_url) + "oauth/authorize/?client_id=" + context.getResources().getString(R.string.client_id)+ "&redirect_uri="+ redirect_url+ "&response_type=token&display=touch&scope=public_content";" is 247.,94
+18_mvvmwithbinding-main,com.mvvmwithbinding.app_common_components.dialogs,MonthYearPickerDialog,onViewCreated,Magic Number,The method contains a magic number: 12,43
+18_mvvmwithbinding-main,com.mvvmwithbinding.app_common_components.dialogs,MonthYearPickerDialog,onViewCreated,Magic Number,The method contains a magic number: 1900,43
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,CallServer,buildRetrofitServices,Long Statement,The length of the statement "OkHttpClient client=new OkHttpClient.Builder().connectTimeout(20`TimeUnit.SECONDS).readTimeout(20`TimeUnit.SECONDS).writeTimeout(60`TimeUnit.SECONDS).addInterceptor(interceptor).build();" is 186.,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,CallServer,buildRetrofitServices,Long Statement,The length of the statement "this.utils=new Retrofit.Builder().baseUrl(ApiUtils.URL_MASTER).addConverterFactory(GsonConverterFactory.create()).client(client).build().create(ApiUtils.class);" is 160.,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,CallServer,buildRetrofitServices,Magic Number,The method contains a magic number: 20,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,CallServer,buildRetrofitServices,Magic Number,The method contains a magic number: 20,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,CallServer,buildRetrofitServices,Magic Number,The method contains a magic number: 60,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,Resource,Resource,Long Parameter List,The method has 5 parameters. ,21
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,Resource,Resource,Long Parameter List,The method has 5 parameters. ,31
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,Resource,hashCode,Magic Number,The method contains a magic number: 31,82
+18_mvvmwithbinding-main,com.mvvmwithbinding.data.network,Resource,hashCode,Magic Number,The method contains a magic number: 31,82
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.login_screen,SignInActivity,setHyperLinkText,Long Statement,The length of the statement "String text="By signing up` you agree to our <font color=\"#000000\"><a href='https://www.google.com'>terms of service</a></font><br/> and <font color=\"#000000\"><a href='https://www.google.com'>privacy policy</a></font>.";" is 224.,94
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.login_screen,SignInActivity,subscribeViewModel,Complex Method,Cyclomatic complexity of the method is 16,109
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.login_screen,SignInActivity,onPostExecute,Long Statement,The length of the statement "if (jsonData.has("error_message") && jsonData.get("error_message").equals("You are not a sandbox user of this client")) {" is 121.,307
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.login_screen,RequestInstagramAPI,onPostExecute,Long Statement,The length of the statement "if (jsonData.has("error_message") && jsonData.get("error_message").equals("You are not a sandbox user of this client")) {" is 121.,307
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.login_screen.view_model,SignInForm,isPasswordValid,Magic Number,The method contains a magic number: 6,29
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.login_screen.view_model,SignInViewModel,SignInViewModel,Long Statement,The length of the statement "instaSignInLD=Transformations.switchMap(signInForm.getInstaSignData()`new Function<JsonObject`LiveData<Resource<String>>>(){" is 124.,25
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.phone_authentication_screen,PhoneAuthenticationScreen,onClick,Magic Number,The method contains a magic number: 10,42
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.phone_authentication_screen,PhoneAuthenticationScreen,phoneAuthenticationMethod,Magic Number,The method contains a magic number: 60,63
+18_mvvmwithbinding-main,com.mvvmwithbinding.screens.splash_screen,SplashActivity,onCreate,Magic Number,The method contains a magic number: 3000,25
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,CommonUtils,showDatePicker,Long Statement,The length of the statement "dateViewField.set(DateFormatingClass.formatDateFromString(DateFormatingClass.DATE_FORMAT_5`outputFormat`dayOfMonth + "-" + (month + 1)+ "-"+ year));" is 148.,60
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,CommonUtils,onDateSet,Long Statement,The length of the statement "dateViewField.set(DateFormatingClass.formatDateFromString(DateFormatingClass.DATE_FORMAT_5`outputFormat`dayOfMonth + "-" + (month + 1)+ "-"+ year));" is 148.,70
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,CommonUtils,getFileSize,Magic Number,The method contains a magic number: 1024,124
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,CommonUtils,getBytes,Magic Number,The method contains a magic number: 1024,162
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,DateFormatingClass,getRemainingDiscountTime,Long Statement,The length of the statement "long sec=TimeUnit.MILLISECONDS.toSeconds(millsec) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millsec));" is 121.,57
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,toByte,Magic Number,The method contains a magic number: 2,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,toByte,Magic Number,The method contains a magic number: 2,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,toByte,Magic Number,The method contains a magic number: 2,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,toByte,Magic Number,The method contains a magic number: 2,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,toByte,Magic Number,The method contains a magic number: 16,40
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,toHex,Magic Number,The method contains a magic number: 2,55
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,appendHex,Magic Number,The method contains a magic number: 4,73
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,appendHex,Magic Number,The method contains a magic number: 0x0f,73
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,HexCoder,appendHex,Magic Number,The method contains a magic number: 0x0f,73
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,ScalingUtilities,decodeResource,Long Parameter List,The method has 5 parameters. ,12
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,ScalingUtilities,calculateSampleSize,Long Parameter List,The method has 5 parameters. ,89
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,ScalingUtilities,calculateSrcRect,Long Parameter List,The method has 5 parameters. ,123
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,ScalingUtilities,calculateSrcRect,Magic Number,The method contains a magic number: 2,123
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,ScalingUtilities,calculateSrcRect,Magic Number,The method contains a magic number: 2,123
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils,ScalingUtilities,calculateDstRect,Long Parameter List,The method has 5 parameters. ,153
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,emptyDirectory,Complex Conditional,The conditional expression dirctory != null && dirctory.exists() && dirctory.length() > 0 is complex.,207
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,compressImage,Complex Method,Cyclomatic complexity of the method is 8,235
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,compressImage,Magic Number,The method contains a magic number: 2,235
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,doInBackground,Magic Number,The method contains a magic number: 2,261
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,rotation,Magic Number,The method contains a magic number: 270,338
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,rotation,Magic Number,The method contains a magic number: 180,338
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,rotation,Magic Number,The method contains a magic number: 90,338
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,rotation,Missing default,The following switch statement is missing a default case: switch (orientation) {,338
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,getFilefromBitmap,Magic Number,The method contains a magic number: 80,400
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,decodeFile,Magic Number,The method contains a magic number: 1000,425
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,decodeFile,Magic Number,The method contains a magic number: 1000,425
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,decodeFile,Magic Number,The method contains a magic number: 1000,425
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,decodeFile,Magic Number,The method contains a magic number: 1000,425
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,decodeFile,Magic Number,The method contains a magic number: 1000,425
+18_mvvmwithbinding-main,com.mvvmwithbinding.utils.camera_utils,CameraUtils,decodeFile,Magic Number,The method contains a magic number: 1000,425

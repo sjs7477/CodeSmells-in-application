@@ -1,0 +1,603 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+59_mvp-project-master,com.pccb.newapp.bean,BannerListBean,toString,Long Statement,The length of the statement "return "BannerListBean{" + "appClient=" + appClient + "` merchOrderNo='"+ merchOrderNo+ '\''+ "` partnerId='"+ partnerId+ '\''+ "` protocol='"+ protocol+ '\''+ "` requestNo='"+ requestNo+ '\''+ "` resultCode='"+ resultCode+ '\''+ "` resultMessage='"+ resultMessage+ '\''+ "` resultDetail='"+ resultDetail+ '\''+ "` service='"+ service+ '\''+ "` sign='"+ sign+ '\''+ "` signType='"+ signType+ '\''+ "` success="+ success+ "` version='"+ version+ '\''+ "` banners="+ banners+ '}';" is 478.,165
+59_mvp-project-master,com.pccb.newapp.bean,BannerListBean,toString,Long Statement,The length of the statement "return "RowsEntity{" + "title='" + title + '\''+ "` thumbnail='"+ thumbnail+ '\''+ "` image='"+ image+ '\''+ "` link='"+ link+ '\''+ "` comments='"+ comments+ '\''+ '}';" is 169.,252
+59_mvp-project-master,com.pccb.newapp.bean,BannersEntity,toString,Long Statement,The length of the statement "return "RowsEntity{" + "title='" + title + '\''+ "` thumbnail='"+ thumbnail+ '\''+ "` image='"+ image+ '\''+ "` link='"+ link+ '\''+ "` comments='"+ comments+ '\''+ '}';" is 169.,252
+59_mvp-project-master,com.pccb.newapp.bean,UserBase,UserBase,Magic Number,The method contains a magic number: 156165868,18
+59_mvp-project-master,com.pccb.newapp.bean,UserBase,UserBase,Magic Number,The method contains a magic number: 174036696,24
+59_mvp-project-master,com.pccb.newapp.bean,UserDataBean,UserDataBean,Long Parameter List,The method has 20 parameters. ,42
+59_mvp-project-master,com.pccb.newapp.bean,UserDataBean,UserDataBean,Magic Number,The method contains a magic number: 1792504933,42
+59_mvp-project-master,com.pccb.newapp.bean,UserDataBean,UserDataBean,Magic Number,The method contains a magic number: 1684300321,69
+59_mvp-project-master,com.pccb.newapp.global,ACache,put,Magic Number,The method contains a magic number: 1024,130
+59_mvp-project-master,com.pccb.newapp.global,ACache,put,Empty catch clause,The method has an empty catch block.,433
+59_mvp-project-master,com.pccb.newapp.global,ACache,isDue,Magic Number,The method contains a magic number: 2,772
+59_mvp-project-master,com.pccb.newapp.global,ACache,isDue,Magic Number,The method contains a magic number: 1000,772
+59_mvp-project-master,com.pccb.newapp.global,ACache,hasDateInfo,Magic Number,The method contains a magic number: 15,820
+59_mvp-project-master,com.pccb.newapp.global,ACache,hasDateInfo,Magic Number,The method contains a magic number: 13,820
+59_mvp-project-master,com.pccb.newapp.global,ACache,hasDateInfo,Magic Number,The method contains a magic number: 14,820
+59_mvp-project-master,com.pccb.newapp.global,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,824
+59_mvp-project-master,com.pccb.newapp.global,ACache,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,824
+59_mvp-project-master,com.pccb.newapp.global,ACache,createDateInfo,Magic Number,The method contains a magic number: 13,853
+59_mvp-project-master,com.pccb.newapp.global,ACache,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,864
+59_mvp-project-master,com.pccb.newapp.global,Utils,isDue,Magic Number,The method contains a magic number: 2,772
+59_mvp-project-master,com.pccb.newapp.global,Utils,isDue,Magic Number,The method contains a magic number: 1000,772
+59_mvp-project-master,com.pccb.newapp.global,Utils,hasDateInfo,Magic Number,The method contains a magic number: 15,820
+59_mvp-project-master,com.pccb.newapp.global,Utils,hasDateInfo,Magic Number,The method contains a magic number: 13,820
+59_mvp-project-master,com.pccb.newapp.global,Utils,hasDateInfo,Magic Number,The method contains a magic number: 14,820
+59_mvp-project-master,com.pccb.newapp.global,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 13,824
+59_mvp-project-master,com.pccb.newapp.global,Utils,getDateInfoFromDate,Magic Number,The method contains a magic number: 14,824
+59_mvp-project-master,com.pccb.newapp.global,Utils,createDateInfo,Magic Number,The method contains a magic number: 13,853
+59_mvp-project-master,com.pccb.newapp.global,Utils,Bitmap2Bytes,Magic Number,The method contains a magic number: 100,864
+59_mvp-project-master,com.pccb.newapp.global,AppManager,preActivity,Magic Number,The method contains a magic number: 2,57
+59_mvp-project-master,com.pccb.newapp.global,AppManager,ExitApp,Empty catch clause,The method has an empty catch block.,190
+59_mvp-project-master,com.pccb.newapp.global,AppManager,AppExit,Empty catch clause,The method has an empty catch block.,202
+59_mvp-project-master,com.pccb.newapp.global,PccbApplication,initLogger,Long Statement,The length of the statement "FormatStrategy formatStrategy=PrettyFormatStrategy.newBuilder().showThreadInfo(false).methodCount(0).methodOffset(3).tag("PccbLogger").build();" is 143.,92
+59_mvp-project-master,com.pccb.newapp.global,PccbApplication,initLogger,Magic Number,The method contains a magic number: 3,92
+59_mvp-project-master,com.pccb.newapp.global,PccbApplication,initRetrofit,Long Statement,The length of the statement "OkHttpClient okHttpClient=new OkHttpClient.Builder().connectTimeout(10000`TimeUnit.MILLISECONDS).readTimeout(10000`TimeUnit.MILLISECONDS).sslSocketFactory(httpsHandler.getSSLSocketFactory()`(X509TrustManager)httpsHandler.getTrustManager()).hostnameVerifier(httpsHandler.getHostnameVerifier()).addInterceptor(new LoggerInterceptor(LoggerInterceptor.Level.HEADERS)).cache(new Cache(new File(getCacheDir()`"http")`10 * 1024 * 1024)).build();" is 438.,136
+59_mvp-project-master,com.pccb.newapp.global,PccbApplication,initRetrofit,Magic Number,The method contains a magic number: 10000,136
+59_mvp-project-master,com.pccb.newapp.global,PccbApplication,initRetrofit,Magic Number,The method contains a magic number: 10000,136
+59_mvp-project-master,com.pccb.newapp.global,PccbApplication,initRetrofit,Magic Number,The method contains a magic number: 10,136
+59_mvp-project-master,com.pccb.newapp.global,PccbApplication,initRetrofit,Magic Number,The method contains a magic number: 1024,136
+59_mvp-project-master,com.pccb.newapp.global,PccbApplication,initRetrofit,Magic Number,The method contains a magic number: 1024,136
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserBaseDao,bindValues,Magic Number,The method contains a magic number: 2,54
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserBaseDao,bindValues,Magic Number,The method contains a magic number: 2,69
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserBaseDao,readEntity,Long Statement,The length of the statement "UserBase entity=new UserBase(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1));" is 156.,89
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,createTable,Long Statement,The length of the statement "db.execSQL("CREATE TABLE " + constraint + "\"USER_DATA_BEAN\" ("+ "\"_id\" INTEGER PRIMARY KEY `"+ "\"PICTURE_URL\" TEXT`"+ "\"REAL_NAME\" TEXT`"+ "\"NICK_NAME\" TEXT`"+ "\"PHONE_NUM\" TEXT`"+ "\"ISLOGIN\" INTEGER`"+ "\"CATEGORY_ID\" INTEGER NOT NULL `"+ "\"IS_MODERATOR\" INTEGER NOT NULL `"+ "\"REMARK\" TEXT`"+ "\"USERNAME\" TEXT`"+ "\"EMAIL\" TEXT`"+ "\"GRADE\" TEXT`"+ "\"REAL_NAME_LEVEL\" TEXT`"+ "\"CARD_NO\" TEXT`"+ "\"VERSION\" TEXT`"+ "\"APP_CLIENT\" TEXT`"+ "\"PARTNER_ID\" TEXT`"+ "\"SECRET_KEY\" TEXT`"+ "\"ACCESS_KEY\" TEXT`"+ "\"IS_BAND_CARD\" INTEGER NOT NULL );");" is 581.,58
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Complex Method,Cyclomatic complexity of the method is 18,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 2,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 3,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 4,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 5,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 6,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 7,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 8,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 9,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 10,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 11,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 12,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 13,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 14,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 15,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 16,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 17,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 18,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 19,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 20,90
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Complex Method,Cyclomatic complexity of the method is 18,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 2,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 3,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 4,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 5,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 6,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 7,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 8,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 9,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 10,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 11,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 12,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 13,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 14,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 15,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 16,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 17,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 18,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 19,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,bindValues,Magic Number,The method contains a magic number: 20,183
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Long Statement,The length of the statement "UserDataBean entity=new UserDataBean(cursor.isNull(offset + 0) ? null : cursor.getLong(offset + 0)`cursor.isNull(offset + 1) ? null : cursor.getString(offset + 1)`cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2)`cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3)`cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4)`cursor.isNull(offset + 5) ? null : cursor.getShort(offset + 5) != 0`cursor.getInt(offset + 6)`cursor.getInt(offset + 7)`cursor.isNull(offset + 8) ? null : cursor.getString(offset + 8)`cursor.isNull(offset + 9) ? null : cursor.getString(offset + 9)`cursor.isNull(offset + 10) ? null : cursor.getString(offset + 10)`cursor.isNull(offset + 11) ? null : cursor.getString(offset + 11)`cursor.isNull(offset + 12) ? null : cursor.getString(offset + 12)`cursor.isNull(offset + 13) ? null : cursor.getString(offset + 13)`cursor.isNull(offset + 14) ? null : cursor.getString(offset + 14)`cursor.isNull(offset + 15) ? null : cursor.getString(offset + 15)`cursor.isNull(offset + 16) ? null : cursor.getString(offset + 16)`cursor.isNull(offset + 17) ? null : cursor.getString(offset + 17)`cursor.isNull(offset + 18) ? null : cursor.getString(offset + 18)`cursor.getShort(offset + 19) != 0);" is 1232.,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 2,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 2,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 3,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 3,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 4,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 4,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 5,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 5,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 6,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 7,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 8,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 8,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 9,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 9,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 10,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 10,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 11,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 11,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 12,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 12,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 13,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 13,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 14,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 14,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 15,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 15,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 16,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 16,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 17,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 17,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 18,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 18,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 19,281
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 2,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 2,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 3,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 3,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 4,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 4,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 5,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 5,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 6,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 7,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 8,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 8,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 9,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 9,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 10,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 10,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 11,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 11,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 12,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 12,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 13,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 13,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 14,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 14,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 15,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 15,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 16,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 16,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 17,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 17,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 18,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 18,308
+59_mvp-project-master,com.pccb.newapp.greendao.gen,UserDataBeanDao,readEntity,Magic Number,The method contains a magic number: 19,308
+59_mvp-project-master,com.pccb.newapp.imgloader,GlideImageLoader,displayImageView,Long Statement,The length of the statement "Glide.with(context).load(path).centerCrop().dontAnimate().placeholder(R.mipmap.defautl_home_ad_loadding).error(R.mipmap.defautl_home_ad_loadding).diskCacheStrategy(DiskCacheStrategy.ALL).into(imageView);" is 203.,18
+59_mvp-project-master,com.pccb.newapp.imgloader,GlideImageLoader,displayImageViewNoCrop,Long Statement,The length of the statement "Glide.with(context).load(path).dontAnimate().placeholder(R.mipmap.defautl_home_ad_loadding).error(R.mipmap.defautl_home_ad_loadding).diskCacheStrategy(DiskCacheStrategy.ALL).into(imageView);" is 190.,45
+59_mvp-project-master,com.pccb.newapp,MainActivity,locationAndContactsTask,Long Statement,The length of the statement "EasyPermissions.requestPermissions(this`getString(R.string.rationale_location_contacts)`RC_LOCATION_CONTACTS_PERM`LOCATION_AND_CONTACTS);" is 137.,261
+59_mvp-project-master,com.pccb.newapp,MainActivity,onActivityResult,Long Statement,The length of the statement "Toast.makeText(this`getString(R.string.returned_from_app_settings_to_activity`hasCameraPermission() ? yes : no`hasLocationAndContactsPermissions() ? yes : no`hasSmsPermission() ? yes : no)`Toast.LENGTH_LONG).show();" is 215.,276
+59_mvp-project-master,com.pccb.newapp,StartActivity,onCreate,Magic Number,The method contains a magic number: 2,18
+59_mvp-project-master,com.pccb.newapp.mvp.home,HomeModel,getBannerData,Long Statement,The length of the statement "Logger.d("é¦–é¡µèŽ·å?–æ¨ªå¹…å¹¿å‘Š æŽ¥å?£å…¥å?‚ service =" + NewUrl.BANNER_LIST + " deviceId = "+ IDCardUtils.getAndroidUUID());" is 128.,35
+59_mvp-project-master,com.pccb.newapp.mvp.home,HomeModel,getBannerData,Long Statement,The length of the statement "RetrofitHelper.getService().getRequestData(HttpHelper.getInstance().getCommomParams(mApiMap)).subscribeOn(Schedulers.io()).doOnSubscribe(() -> mIHometPresenter.setShowWaitDialog()).observeOn(AndroidSchedulers.mainThread()).compose(this.<BannerListBean>bindHttpTransformer(BannerListBean.class)).subscribe(new HttpSubscriber<BannerListBean>(){" is 342.,35
+59_mvp-project-master,com.pccb.newapp.mvp.home,HomeModel,getStatisticsData,Long Statement,The length of the statement "RetrofitHelper.getService().getRequestData(HttpHelper.getInstance().getCommomParams(params)).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).compose(this.<SystemStatisticsInfo>bindHttpTransformer(SystemStatisticsInfo.class)).subscribe(new HttpSubscriber<SystemStatisticsInfo>(){" is 301.,84
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onCreate,Magic Number,The method contains a magic number: 1001l,139
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onCreate,Magic Number,The method contains a magic number: 1002l,139
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onCreate,Magic Number,The method contains a magic number: 1003l,139
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onCreate,Magic Number,The method contains a magic number: 1001l,139
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onCreate,Magic Number,The method contains a magic number: 1002l,139
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,setRefreshLoadMore,Magic Number,The method contains a magic number: 2000,211
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onLoadmore,Magic Number,The method contains a magic number: 2000,318
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,createHeaderView,Magic Number,The method contains a magic number: 20,327
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onShowWaitDialog,Long Statement,The length of the statement "dialog.setLoadingBuilder(type).setLoadingColor(Color.BLACK).setHintText("Loading...").setHintTextSize(16).setHintTextColor(Color.GRAY).show();" is 142.,464
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onShowWaitDialog,Magic Number,The method contains a magic number: 16,464
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,showBaaner,Magic Number,The method contains a magic number: 4000,504
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,onReturnSystemStatisticsData,Long Identifier,The length of the field KEY_SYSTEM_STATISTICS_INFO_CACHE is 32.,542
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,loadSystemStatisticsCacheData,Long Identifier,The length of the field KEY_SYSTEM_STATISTICS_INFO_CACHE is 32.,573
+59_mvp-project-master,com.pccb.newapp.mvp.home,MvpHomeFragment,showSystemStatisticsIndo,Long Statement,The length of the statement "strings.add("æˆ?äº¤é‡‘é¢?ï¼š" + StringUtils.strTo2dotThousands(mSystemStatisticsInfo.getPuzicarTotalInvestMoney()) + "å…ƒ");" is 124.,585
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductFragment,initTab,Magic Number,The method contains a magic number: 10,94
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductFragment,initTab,Magic Number,The method contains a magic number: 23,94
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductFragment,initTab,Magic Number,The method contains a magic number: 23,94
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductFragment,run,Magic Number,The method contains a magic number: 23,103
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductFragment,run,Magic Number,The method contains a magic number: 23,103
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductFragment,setIndicator,Long Statement,The length of the statement "int right=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`rightDip`Resources.getSystem().getDisplayMetrics());" is 121.,117
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductItemFragment,handleTenderList,Long Statement,The length of the statement "String msg=TextUtils.isEmpty(tenderListResponse.getResultDetail()) ? tenderListResponse.getResultMessage() : tenderListResponse.getResultDetail();" is 146.,187
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductItemFragment,onShowWaitDialog,Long Statement,The length of the statement "dialog.setLoadingBuilder(type).setLoadingColor(Color.BLACK).setHintText("Loading...").setHintTextSize(16).setHintTextColor(Color.GRAY).show();" is 142.,221
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductItemFragment,onShowWaitDialog,Magic Number,The method contains a magic number: 16,221
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Complex Method,Cyclomatic complexity of the method is 38,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Long Method,The method has 235 lines of code.,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 5,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 11,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 12,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 12,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 6,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 4,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 4,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 5,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 6,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 10000,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 10000,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 10000,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 10000,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 4,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 5,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 6,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 3,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 2,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 1000,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 1000,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 12,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onBindViewHolder,Magic Number,The method contains a magic number: 5000,58
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 1000,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 3600,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 3600,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 60,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 3600,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 60,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 10,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 10,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductListAdapter,onTick,Magic Number,The method contains a magic number: 10,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 1000,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 3600,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 3600,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 60,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 3600,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 60,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 10,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 10,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,StartCountTimer,onTick,Magic Number,The method contains a magic number: 10,465
+59_mvp-project-master,com.pccb.newapp.mvp.product,ProductModel,getTenderList,Long Statement,The length of the statement "RetrofitHelper.getService().getRequestData(HttpHelper.getInstance().getCommomParams(params)).subscribeOn(Schedulers.io()).doOnSubscribe(() -> mPresenter.setShowWaitDialog()).observeOn(AndroidSchedulers.mainThread()).compose(this.<TenderListResponse>bindHttpTransformer(TenderListResponse.class)).subscribe(new HttpSubscriber<TenderListResponse>(){" is 347.,29
+59_mvp-project-master,com.pccb.newapp.net.http,LoggerInterceptor,intercept,Complex Method,Cyclomatic complexity of the method is 13,68
+59_mvp-project-master,com.pccb.newapp.net.http,LoggerInterceptor,intercept,Long Statement,The length of the statement "responseBuilder.append(response.code()).append(" ").append(response.message()).append(" ").append(response.request().url()).append(" (took: ").append(tookMs).append("ms").append(")\n");" is 185.,68
+59_mvp-project-master,com.pccb.newapp.net.http,LoggerInterceptor,isPlaintext,Magic Number,The method contains a magic number: 64,192
+59_mvp-project-master,com.pccb.newapp.net.http,LoggerInterceptor,isPlaintext,Magic Number,The method contains a magic number: 64,192
+59_mvp-project-master,com.pccb.newapp.net.http,LoggerInterceptor,isPlaintext,Magic Number,The method contains a magic number: 16,192
+59_mvp-project-master,com.pccb.newapp.net.http,PccbApi,upLoadUserIcon,Long Parameter List,The method has 6 parameters. ,32
+59_mvp-project-master,com.pccb.newapp.net.http,RetrofitHelper,retrofit,Long Statement,The length of the statement "return new Retrofit.Builder().baseUrl(baseUrl).addConverterFactory(ScalarsConverterFactory.create()).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).client(OkHttpClientApi.getInstance().getOkHttpClient()).build();" is 273.,37
+59_mvp-project-master,com.pccb.newapp.net.http.okhttpclient,DefaultHttpsHandler,getTrustManager,Long Statement,The length of the statement "@Override public void checkClientTrusted( java.security.cert.X509Certificate[] chain` String authType) throws CertificateException {" is 132.,34
+59_mvp-project-master,com.pccb.newapp.net.http.okhttpclient,DefaultHttpsHandler,getTrustManager,Long Statement,The length of the statement "@Override public void checkServerTrusted( java.security.cert.X509Certificate[] chain` String authType) throws CertificateException {" is 132.,34
+59_mvp-project-master,com.pccb.newapp.net.http.util,Hex,decodeHex,Magic Number,The method contains a magic number: 4,26
+59_mvp-project-master,com.pccb.newapp.net.http.util,Hex,decodeHex,Magic Number,The method contains a magic number: 0xFF,26
+59_mvp-project-master,com.pccb.newapp.net.http.util,Hex,encodeHex,Magic Number,The method contains a magic number: 0xF0,55
+59_mvp-project-master,com.pccb.newapp.net.http.util,Hex,encodeHex,Magic Number,The method contains a magic number: 4,55
+59_mvp-project-master,com.pccb.newapp.net.http.util,Hex,encodeHex,Magic Number,The method contains a magic number: 0xF,55
+59_mvp-project-master,com.pccb.newapp.net.http.util,Hex,toDigit,Magic Number,The method contains a magic number: 16,71
+59_mvp-project-master,com.pccb.newapp.net.http.util,HttpHelper,AESEncrypt,Magic Number,The method contains a magic number: 16,139
+59_mvp-project-master,com.pccb.newapp.ui,HomeFragment,onActivityCreated,Magic Number,The method contains a magic number: 1001l,163
+59_mvp-project-master,com.pccb.newapp.ui,HomeFragment,onActivityCreated,Magic Number,The method contains a magic number: 1002l,163
+59_mvp-project-master,com.pccb.newapp.ui,HomeFragment,onActivityCreated,Magic Number,The method contains a magic number: 1003l,163
+59_mvp-project-master,com.pccb.newapp.ui,HomeFragment,onActivityCreated,Magic Number,The method contains a magic number: 1001l,163
+59_mvp-project-master,com.pccb.newapp.ui,HomeFragment,onActivityCreated,Magic Number,The method contains a magic number: 1002l,163
+59_mvp-project-master,com.pccb.newapp.ui,HomeFragment,getBennerInfo,Long Statement,The length of the statement "Logger.d("é¦–é¡µèŽ·å?–æ¨ªå¹…å¹¿å‘Š æŽ¥å?£å…¥å?‚ service =" + NewUrl.BANNER_LIST + " deviceId = "+ IDCardUtils.getAndroidUUID());" is 128.,193
+59_mvp-project-master,com.pccb.newapp.ui,HomeFragment,getBennerInfo,Long Statement,The length of the statement "RetrofitHelper.getService().getRequestData(HttpHelper.getInstance().getCommomParams(mApiMap)).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).compose(this.<BannerListBean>bindHttpTransformer(BannerListBean.class)).subscribe(new HttpSubscriber<BannerListBean>(){" is 284.,193
+59_mvp-project-master,com.pccb.newapp.ui,HomeFragment,loadingSlideShow,Magic Number,The method contains a magic number: 4000,244
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,onNavigationItemSelected,Magic Number,The method contains a magic number: 2,32
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,onNavigationItemSelected,Magic Number,The method contains a magic number: 3,32
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,onNavigationItemSelected,Magic Number,The method contains a magic number: 4,32
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,initView,Long Identifier,The length of the field mOnNavigationItemSelectedListener is 33.,64
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,onPageSelected,Magic Number,The method contains a magic number: 2,84
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,onPageSelected,Magic Number,The method contains a magic number: 3,84
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,onPageSelected,Magic Number,The method contains a magic number: 4,84
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,onPageSelected,Missing default,The following switch statement is missing a default case: switch (position) {,84
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,clickTabButton,Magic Number,The method contains a magic number: 2,112
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,clickTabButton,Magic Number,The method contains a magic number: 3,112
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,clickTabButton,Magic Number,The method contains a magic number: 4,112
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,clickTabButton,Missing default,The following switch statement is missing a default case: switch (index) {,112
+59_mvp-project-master,com.pccb.newapp.ui,Main2Activity,message,Magic Number,The method contains a magic number: 2,142
+59_mvp-project-master,com.pccb.newapp.ui,TabDb,getTabsImg,Long Statement,The length of the statement "int[] img={R.mipmap.main_toolbar_home_normal`R.mipmap.main_toolbar_invest_normal`R.mipmap.main_toolbar_star_normal`R.mipmap.main_toolbar_forum_normal`R.mipmap.main_toolbar_account_normal};" is 188.,24
+59_mvp-project-master,com.pccb.newapp.ui,TabDb,getTabsImgLight,Long Statement,The length of the statement "int[] img={R.mipmap.main_toolbar_home_pressed`R.mipmap.main_toolbar_invest_pressed`R.mipmap.main_toolbar_star_pressed`R.mipmap.main_toolbar_forum_pressed`R.mipmap.main_toolbar_account_pressed};" is 193.,34
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,inintView,Complex Method,Cyclomatic complexity of the method is 12,109
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,inintView,Long Identifier,The length of the field TAG_INTENT_TYPE_CLOSE_TITLE_BAR is 31.,109
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,inintView,Long Method,The method has 120 lines of code.,109
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,inintView,Magic Number,The method contains a magic number: 2,109
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,inintView,Magic Number,The method contains a magic number: 100,109
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,inintView,Magic Number,The method contains a magic number: 21,109
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onClick,Magic Number,The method contains a magic number: 2,139
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onProgressChanged,Magic Number,The method contains a magic number: 100,224
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onKeyDown,Magic Number,The method contains a magic number: 2,270
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onKeyDown,Magic Number,The method contains a magic number: 2,270
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,AppCallPhoneMethod,Long Identifier,The length of the field PCCB_PERMISSIONS_REQUEST_CALL_PHONE is 35.,313
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,AppCallPhoneMethod,Long Statement,The length of the statement "ActivityCompat.requestPermissions(this`new String[]{Manifest.permission.CALL_PHONE}`PCCB_PERMISSIONS_REQUEST_CALL_PHONE);" is 121.,313
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onActivityResult,Magic Number,The method contains a magic number: 100,404
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onActivityResult,Magic Number,The method contains a magic number: 200,404
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onRequestPermissionsResult,Long Identifier,The length of the field PCCB_PERMISSIONS_REQUEST_CALL_PHONE is 35.,474
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onRequestPermissionsResult,Missing default,The following switch statement is missing a default case: switch (requestCode) {,474
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,selfPermissionGranted,Magic Number,The method contains a magic number: 21,502
+59_mvp-project-master,com.pccb.newapp.ui.webview,OpenWebActivity,onBackPressed,Magic Number,The method contains a magic number: 2,538
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 3,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 2,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 3,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 0x0ff,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 16,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 0x0ff,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 8,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 2,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 0x0ff,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 18,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 12,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 6,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 3,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 14,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 2,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 0x0ff,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 16,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 255,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 8,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 18,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 12,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 6,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 0x0ff,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 16,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 18,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 12,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,encode,Magic Number,The method contains a magic number: 63,11
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 65,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 97,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 26,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 48,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 26,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 26,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 62,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 63,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Missing default,The following switch statement is missing a default case: switch (c) {,63
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Long Statement,The length of the statement "int tri=(decode(s.charAt(i)) << 18) + (decode(s.charAt(i + 1)) << 12) + (decode(s.charAt(i + 2)) << 6)+ (decode(s.charAt(i + 3)));" is 130.,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 18,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 12,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 2,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 6,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 3,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 16,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 255,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 2,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 8,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 255,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 3,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 255,106
+59_mvp-project-master,com.pccb.newapp.util,Base64,decode,Magic Number,The method contains a magic number: 4,106
+59_mvp-project-master,com.pccb.newapp.util,CommonUtils,getCallerStackTraceElement,Magic Number,The method contains a magic number: 4,50
+59_mvp-project-master,com.pccb.newapp.util,CrashHandler,restartApp,Magic Number,The method contains a magic number: 1000,87
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getNowDate,Magic Number,The method contains a magic number: 8,44
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getNowDateShort,Magic Number,The method contains a magic number: 8,58
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getStrTimeByChatTime,Magic Number,The method contains a magic number: 1000L,108
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreDay,Magic Number,The method contains a magic number: 1000,172
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreDay,Magic Number,The method contains a magic number: 24,172
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreDay,Magic Number,The method contains a magic number: 60,172
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreDay,Magic Number,The method contains a magic number: 60,172
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreDay,Magic Number,The method contains a magic number: 1000,172
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getLastDate,Magic Number,The method contains a magic number: 3600000,215
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getLastDate,Magic Number,The method contains a magic number: 34,215
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getHour,Magic Number,The method contains a magic number: 11,240
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getHour,Magic Number,The method contains a magic number: 13,240
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTime,Magic Number,The method contains a magic number: 14,252
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTime,Magic Number,The method contains a magic number: 16,252
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTwoHour,Magic Number,The method contains a magic number: 60,279
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTwoHour,Magic Number,The method contains a magic number: 60,279
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTwoDay,Magic Number,The method contains a magic number: 24,301
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTwoDay,Magic Number,The method contains a magic number: 60,301
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTwoDay,Magic Number,The method contains a magic number: 60,301
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTwoDay,Magic Number,The method contains a magic number: 1000,301
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreTime,Empty catch clause,The method has an empty catch block.,341
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreTime,Magic Number,The method contains a magic number: 1000,341
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreTime,Magic Number,The method contains a magic number: 60,341
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getPreTime,Magic Number,The method contains a magic number: 1000,341
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getNextDay,Magic Number,The method contains a magic number: 1000,357
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getNextDay,Magic Number,The method contains a magic number: 24,357
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getNextDay,Magic Number,The method contains a magic number: 60,357
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getNextDay,Magic Number,The method contains a magic number: 60,357
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getNextDay,Magic Number,The method contains a magic number: 1000,357
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,isLeapYear,Magic Number,The method contains a magic number: 400,374
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,isLeapYear,Magic Number,The method contains a magic number: 4,374
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,isLeapYear,Magic Number,The method contains a magic number: 100,374
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Complex Conditional,The conditional expression mon == 1 || mon == 3 || mon == 5 || mon == 7 || mon == 8 || mon == 10 || mon == 12 is complex.,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Complex Conditional,The conditional expression mon == 4 || mon == 6 || mon == 9 || mon == 11 is complex.,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 8,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 5,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 7,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 3,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 5,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 7,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 8,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 10,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 12,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 4,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 6,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 9,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getEndDateOfMonth,Magic Number,The method contains a magic number: 11,401
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,isSameWeekDates,Magic Number,The method contains a magic number: 11,425
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,isSameWeekDates,Magic Number,The method contains a magic number: 11,425
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getWeek,Complex Method,Cyclomatic complexity of the method is 8,466
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getWeekStr,Complex Method,Cyclomatic complexity of the method is 8,512
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getDays,Empty catch clause,The method has an empty catch block.,533
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getDays,Magic Number,The method contains a magic number: 24,533
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getDays,Magic Number,The method contains a magic number: 60,533
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getDays,Magic Number,The method contains a magic number: 60,533
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getDays,Magic Number,The method contains a magic number: 1000,533
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTime,Magic Number,The method contains a magic number: 10,559
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTimestamp,Magic Number,The method contains a magic number: 1000,579
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getTimestampNew,Magic Number,The method contains a magic number: 1000,595
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,date2TimeStamp,Magic Number,The method contains a magic number: 1000,611
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getStrTime,Magic Number,The method contains a magic number: 1000L,632
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getStrTime2,Magic Number,The method contains a magic number: 1000L,645
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getStrTime,Magic Number,The method contains a magic number: 1000,661
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Complex Method,Cyclomatic complexity of the method is 11,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 3600000,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 60000,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 60000,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 86400000,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 86400000,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 3600000,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 60000,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 2,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 2,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 10,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,friendly_time,Magic Number,The method contains a magic number: 10,733
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,GetSysDate,Long Parameter List,The method has 5 parameters. ,790
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,getThisMothdInterestTime,Magic Number,The method contains a magic number: 12,819
+59_mvp-project-master,com.pccb.newapp.util,DateUtil,serverToClientTime,Magic Number,The method contains a magic number: 1000L,872
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Complex Method,Cyclomatic complexity of the method is 10,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Long Statement,The length of the statement "if ((gc.get(Calendar.YEAR) - Integer.parseInt(strYear)) > 150 || (gc.getTime().getTime() - s.parse(strYear + "-" + strMonth+ "-"+ strDay).getTime()) < 0) {" is 155.,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 15,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 18,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 18,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 17,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 15,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 6,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 6,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 15,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 6,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 10,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 10,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 12,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 12,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 14,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 150,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 12,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 31,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,IDCardValidate,Magic Number,The method contains a magic number: 2,22
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,isDataFormat,Long Statement,The length of the statement "String regxStr="^((\\d{2}(([02468][048])|([13579][26]))[\\-\\/\\s]?((((0?[13578])|(1[02]))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(3[01])))|(((0?[469])|(11))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(30)))|(0?2[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])))))|(\\d{2}(([02468][1235679])|([13579][01345789]))[\\-\\/\\s]?((((0?[13578])|(1[02]))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(3[01])))|(((0?[469])|(11))[\\-\\/\\s]?((0?[1-9])|([1-2][0-9])|(30)))|(0?2[\\-\\/\\s]?((0?[1-9])|(1[0-9])|(2[0-8]))))))(\\s(((0?[0-9])|([1-2][0-3]))\\:([0-5]?[0-9])((\\s)|(\\:([0-5]?[0-9])))))?$";" is 554.,172
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Long Statement,The length of the statement "return String.format(Locale.CHINA`"35%d%d%d%d%d%d%d%d%d%d%d%d%d"`Build.BOARD.length() % 10`Build.BRAND.length() % 10`Build.CPU_ABI.length() % 10`Build.DEVICE.length() % 10`Build.DISPLAY.length() % 10`Build.HOST.length() % 10`Build.ID.length() % 10`Build.MANUFACTURER.length() % 10`Build.MODEL.length() % 10`Build.PRODUCT.length() % 10`Build.TAGS.length() % 10`Build.TYPE.length() % 10`Build.USER.length() % 10);" is 411.,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,IDCardUtils,getAndroidUUID,Magic Number,The method contains a magic number: 10,190
+59_mvp-project-master,com.pccb.newapp.util,MoneyUtil,mul,Complex Conditional,The conditional expression null == num1 || "".equals(num1) || null == num2 || "".equals(num2) is complex.,19
+59_mvp-project-master,com.pccb.newapp.util,MoneyUtil,sub,Complex Conditional,The conditional expression null == num1 || "".equals(num1) || null == num2 || "".equals(num2) is complex.,27
+59_mvp-project-master,com.pccb.newapp.util,MoneyUtil,add,Complex Conditional,The conditional expression null == num1 || "".equals(num1) || null == num2 || "".equals(num2) is complex.,35
+59_mvp-project-master,com.pccb.newapp.util,MoneyUtil,formatRate,Magic Number,The method contains a magic number: 100,56
+59_mvp-project-master,com.pccb.newapp.util,PccbUtils,getApplicationMeteData,Long Statement,The length of the statement "ApplicationInfo appInfo=context.getPackageManager().getApplicationInfo(context.getPackageName()`PackageManager.GET_META_DATA);" is 126.,114
+59_mvp-project-master,com.pccb.newapp.util,PccbUtils,getUmengChannel,Complex Method,Cyclomatic complexity of the method is 10,126
+59_mvp-project-master,com.pccb.newapp.util,ScreenUtil,getStatusBarHeight,Magic Number,The method contains a magic number: 24,13
+59_mvp-project-master,com.pccb.newapp.util,StringUtils,isEmpty,Complex Conditional,The conditional expression c != ' ' && c != '\t' && c != '\r' && c != '\n' is complex.,22
+59_mvp-project-master,com.pccb.newapp.util,StringUtils,replaceStrWithStar,Magic Number,The method contains a magic number: 2,108
+59_mvp-project-master,com.pccb.newapp.util,StringUtils,replaceStrWithStar,Magic Number,The method contains a magic number: 2,108
+59_mvp-project-master,com.pccb.newapp.util,ViewUtil,scale,Empty catch clause,The method has an empty catch block.,130
+59_mvp-project-master,com.pccb.newapp.util,ViewUtil,scale,Magic Number,The method contains a magic number: 0.5f,130
+59_mvp-project-master,com.pccb.newapp.util,ViewUtil,applyDimension,Magic Number,The method contains a magic number: 72,149
+59_mvp-project-master,com.pccb.newapp.util,ViewUtil,applyDimension,Magic Number,The method contains a magic number: 25.4f,149
+59_mvp-project-master,com.pccb.newapp.util,ViewUtil,setPadding,Long Parameter List,The method has 5 parameters. ,215
+59_mvp-project-master,com.pccb.newapp.view,mScrollView,onScrollChanged,Magic Number,The method contains a magic number: 9,79
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setupBounds,Long Statement,The length of the statement "circleBounds=new RectF(xOffset + barWidth`yOffset + barWidth`xOffset + circleDiameter - barWidth`yOffset + circleDiameter - barWidth);" is 134.,174
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setupBounds,Long Statement,The length of the statement "circleBounds=new RectF(paddingLeft + barWidth`paddingTop + barWidth`layout_width - paddingRight - barWidth`layout_height - paddingBottom - barWidth);" is 149.,174
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,174
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,174
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,174
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setupBounds,Magic Number,The method contains a magic number: 2,174
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,parseAttributes,Magic Number,The method contains a magic number: 360.0f,206
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,parseAttributes,Magic Number,The method contains a magic number: 360,206
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Complex Method,Cyclomatic complexity of the method is 9,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 1000.0f,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360f,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 90,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 135,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 1000,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 2.0f,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 2.0f,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360.0f,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 360,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,onDraw,Magic Number,The method contains a magic number: 90,259
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,updateBarLength,Magic Number,The method contains a magic number: 2,343
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,updateBarLength,Magic Number,The method contains a magic number: 0.5f,343
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 100,414
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 360.0f,414
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,runCallback,Magic Number,The method contains a magic number: 100,414
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setProgress,Magic Number,The method contains a magic number: 360.0f,421
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setProgress,Magic Number,The method contains a magic number: 360.0f,421
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setInstantProgress,Magic Number,The method contains a magic number: 360.0f,457
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setInstantProgress,Magic Number,The method contains a magic number: 360.0f,457
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,getProgress,Magic Number,The method contains a magic number: 360.0f,537
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,getSpinSpeed,Magic Number,The method contains a magic number: 360.0f,635
+59_mvp-project-master,com.pccb.newapp.view,ProgressWheel,setSpinSpeed,Magic Number,The method contains a magic number: 360.0f,644
+59_mvp-project-master,com.pccb.newapp.view,TextSwitcherView,init,Magic Number,The method contains a magic number: 3000,44
+59_mvp-project-master,com.pccb.newapp.view,TextSwitcherView,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,62
+59_mvp-project-master,com.pccb.newapp.view,TextSwitcherView,makeView,Magic Number,The method contains a magic number: 13,91
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,initContentAdapterView,Complex Conditional,The conditional expression mAdapterView == null && mScrollView == null && mRecyclerView == null && mNestedScrollView == null is complex.,227
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,initContentAdapterView,Complex Method,Cyclomatic complexity of the method is 9,227
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,initContentAdapterView,Long Statement,The length of the statement "throw new IllegalArgumentException("this layout must contain 3 child views`and AdapterView or ScrollView must in the second position!");" is 136.,227
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,initContentAdapterView,Magic Number,The method contains a magic number: 3,227
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 11,302
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,isRefreshViewScroll,Complex Method,Cyclomatic complexity of the method is 29,348
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,isRefreshViewScroll,Long Statement,The length of the statement "if (lastChild.getBottom() <= getHeight() && lManager.findLastCompletelyVisibleItemPosition() == mRecyclerView.getAdapter().getItemCount() - 1) {" is 144.,348
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,isRefreshViewScroll,Magic Number,The method contains a magic number: 11,348
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,isRefreshViewScroll,Magic Number,The method contains a magic number: 11,348
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,updateFooterViewBottomPadding,Complex Conditional,The conditional expression deltaY > 0 && mPullState == PULL_UP_STATE && Math.abs(params.topMargin) <= mHeaderViewHeight is complex.,513
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,updateFooterViewBottomPadding,Magic Number,The method contains a magic number: 0.3f,513
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,updateHeaderViewTopPadding,Complex Conditional,The conditional expression deltaY < 0 && mPullState == PULL_DOWN_STATE && Math.abs(newTopPadding) >= mHeaderViewHeight is complex.,552
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,AbPullToRefreshView,updateHeaderViewTopPadding,Magic Number,The method contains a magic number: 0.3f,552
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 100,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 107,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 107,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 107,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 24,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 10,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 10,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 2,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 40,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 40,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,LoadMoreFooterView,initView,Magic Number,The method contains a magic number: 10,88
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 20,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 10,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 2,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 30,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 30,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 10,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 24,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 10,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 15,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 15,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 180.0f,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 0.5f,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 0.5f,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 180.0f,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 0.5f,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,initView,Magic Number,The method contains a magic number: 0.5f,110
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,setState,Complex Method,Cyclomatic complexity of the method is 11,199
+59_mvp-project-master,com.pccb.newapp.view.pulltorefreshview,PullRefreshHeaderView,setState,Missing default,The following switch statement is missing a default case: switch (state) {,199
+59_mvp-project-master,com.pccb.newapp.view.slideview,AutoScrollViewPager,onTouchEvent,Complex Conditional,The conditional expression currentItem == 0 && this.downX <= this.touchX || currentItem == pageCount - 1 && this.downX >= this.touchX is complex.,121
+59_mvp-project-master,com.pccb.newapp.view.slideview,AutoScrollViewPager,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,121
+59_mvp-project-master,com.pccb.newapp.view.slideview,AutoScrollViewPager,onTouchEvent,Magic Number,The method contains a magic number: 2,121
+59_mvp-project-master,com.pccb.newapp.view.slideview,AutoScrollViewPager,onTouchEvent,Magic Number,The method contains a magic number: 2,121
+59_mvp-project-master,com.pccb.newapp.view.slideview,AutoScrollViewPager,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,211
+59_mvp-project-master,com.pccb.newapp.view.slideview,MyHandler,handleMessage,Missing default,The following switch statement is missing a default case: switch (msg.what) {,211
+59_mvp-project-master,com.pccb.newapp.view.slideview,CustomDurationScroller,startScroll,Long Parameter List,The method has 5 parameters. ,25
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawLiftUp,Magic Number,The method contains a magic number: 2,85
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawLiftUp,Magic Number,The method contains a magic number: 2,85
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawLiftUp,Magic Number,The method contains a magic number: 90,85
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawLiftUp,Magic Number,The method contains a magic number: 90,85
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawLiftDown,Magic Number,The method contains a magic number: 2,95
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawLiftDown,Magic Number,The method contains a magic number: 2,95
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawLiftDown,Magic Number,The method contains a magic number: 90,95
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawLiftDown,Magic Number,The method contains a magic number: 90,95
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawRightDown,Magic Number,The method contains a magic number: 2,105
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawRightDown,Magic Number,The method contains a magic number: 2,105
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawRightDown,Magic Number,The method contains a magic number: 90,105
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawRightUp,Magic Number,The method contains a magic number: 2,115
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawRightUp,Magic Number,The method contains a magic number: 2,115
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawRightUp,Magic Number,The method contains a magic number: 90,115
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundAngleImageView,drawRightUp,Magic Number,The method contains a magic number: 90,115
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,onDraw,Magic Number,The method contains a magic number: 20,56
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,onDraw,Magic Number,The method contains a magic number: 20,56
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,onDraw,Magic Number,The method contains a magic number: 20,56
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,getCroppedRoundBitmap,Magic Number,The method contains a magic number: 2,126
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,getCroppedRoundBitmap,Magic Number,The method contains a magic number: 2,126
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,getCroppedRoundBitmap,Magic Number,The method contains a magic number: 2,126
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,getCroppedRoundBitmap,Magic Number,The method contains a magic number: 2,126
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,getCroppedRoundBitmap,Magic Number,The method contains a magic number: 2,126
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,getCroppedRoundBitmap,Magic Number,The method contains a magic number: 2,126
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,drawCircleBorder,Magic Number,The method contains a magic number: 2,189
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,drawCircleBorder,Magic Number,The method contains a magic number: 2,189
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,getRoundCornerBitmap,Magic Number,The method contains a magic number: 0xff424242,207
+59_mvp-project-master,com.pccb.newapp.view.slideview,RoundImageView,drawRoundRect,Magic Number,The method contains a magic number: 0xfff6f6f6,236
+59_mvp-project-master,com.pccb.newapp.view.slideview,ScaleTransformer,transformPage,Magic Number,The method contains a magic number: 0.05f,16
+59_mvp-project-master,com.pccb.newapp.view.slideview,ScaleTransformer,transformPage,Magic Number,The method contains a magic number: 0.05f,16
+59_mvp-project-master,com.pccb.newapp.view.titlebar,TitleBar,init,Magic Number,The method contains a magic number: 48,68
+59_mvp-project-master,com.pccb.newapp.view.titlebar,TitleBar,initTitleView,Magic Number,The method contains a magic number: 18,146
+59_mvp-project-master,com.pccb.newapp.view.titlebar,TitleBar,initRightTextView,Magic Number,The method contains a magic number: 14,187
+59_mvp-project-master,com.pccb.newapp.view.titlebar,TitleBar,initRightTextView,Magic Number,The method contains a magic number: 16,187
